@@ -2,12 +2,13 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import GameViewer from "@/components/GameViewer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import GameViewer from "../../components/GameViewer";
 import { Button } from "@/components/ui/button";
 import {
   Timer,
+  FileText,
   BarChartIcon as ChartBar,
   Trophy,
   Zap,
@@ -64,6 +65,49 @@ const games = [
     },
   },
   {
+    title: "Buzzword Blitz",
+    description:
+      "Master industry-specific terminology through an engaging word game that challenges players to unscramble and identify business-related terms across various career clusters. Perfect for career preparation and professional development.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BuzzwordBlitz-OdgxuvwLwhdTmKtLK0NpCnNyjDiUxH.png",
+    icon: Text,
+    color: "#10B981",
+    tags: ["5 Career Clusters", "Multiple Modes", "Adaptive Learning"],
+    url: "https://ray6te07yxqpxypi.vercel.app/",
+    features: [
+      {
+        icon: BookOpen,
+        title: "Comprehensive Career Coverage",
+        description:
+          "Five career clusters including Business, Marketing, Entrepreneurship, Hospitality & Tourism, and Finance",
+      },
+      {
+        icon: Layers,
+        title: "Multiple Learning Modes",
+        description:
+          "Study with flashcards, train at your own pace, or challenge yourself in timed mode",
+      },
+      {
+        icon: Target,
+        title: "Adaptive Difficulty",
+        description:
+          "Choose between Easy mode with hints and definitions or Hard mode for an extra challenge",
+      },
+    ],
+    gameDetails: {
+      questionPools: "500+ Industry Terms",
+      modes: ["Study Mode", "Training Mode", "Timed Mode"],
+      features: [
+        "5 Career Clusters",
+        "Performance Tracking",
+        "Hint System",
+        "Streak Bonuses",
+        "Progress Analytics",
+        "Accessibility Features",
+      ],
+    },
+  },
+  {
     title: "Puzzle Quest",
     description:
       "Embark on a journey through multiple puzzle types while learning financial literacy! Connect cables, find paths, and solve parking challenges, each followed by educational questions. Perfect for developing problem-solving skills and financial knowledge.",
@@ -106,49 +150,6 @@ const games = [
       ],
     },
   },
-  {
-    title: "Buzzword Blitz",
-    description:
-      "Master industry-specific terminology through an engaging word game that challenges players to unscramble and identify business-related terms across various career clusters.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BuzzwordBlitz-OdgxuvwLwhdTmKtLK0NpCnNyjDiUxH.png",
-    icon: Text,
-    color: "#10B981",
-    tags: ["Vocabulary", "Multiple Modes", "Career Clusters"],
-    url: "#",
-    features: [
-      {
-        icon: BookOpen,
-        title: "Multiple Game Modes",
-        description:
-          "Study with flashcards, train with word puzzles, or challenge yourself in timed mode",
-      },
-      {
-        icon: Layers,
-        title: "Career Clusters",
-        description:
-          "Explore terminology across Business, Marketing, Finance, and more",
-      },
-      {
-        icon: Target,
-        title: "Adaptive Learning",
-        description:
-          "Progress through different difficulty levels with helpful hints and scoring",
-      },
-    ],
-    gameDetails: {
-      questionPools: "500+ Business Terms",
-      modes: ["Study Mode", "Training Mode", "Timed Mode"],
-      features: [
-        "Multiple Career Clusters",
-        "Difficulty Levels",
-        "Hint System",
-        "Progress Tracking",
-        "Time Bonuses",
-        "Accessibility Features",
-      ],
-    },
-  },
 ];
 
 export default function MiniGamesPage() {
@@ -169,7 +170,7 @@ export default function MiniGamesPage() {
             Try Our Mini-Games
           </motion.h1>
 
-          {selectedGame !== null && selectedGame < games.length ? (
+          {selectedGame !== null ? (
             <>
               <Button
                 onClick={() => setSelectedGame(null)}
@@ -200,7 +201,7 @@ export default function MiniGamesPage() {
                   >
                     <div className="aspect-[3/2] relative overflow-hidden">
                       <Image
-                        src={game.image}
+                        src={game.image || "/placeholder.svg"}
                         alt={game.title}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
