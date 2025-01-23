@@ -37,6 +37,7 @@ export default function RootLayout({
         <ErrorBoundary>
           <main className="min-h-screen">{children}</main>
         </ErrorBoundary>
+        <Analytics />
       </body>
     </html>
   );
