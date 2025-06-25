@@ -48,7 +48,7 @@ const quizEvents = [
     title: "Accounting I",
     description:
       "Fundamental accounting principles, financial statements, and basic bookkeeping concepts",
-    difficulty: "Beginner",
+
     questionCount: 250,
     timeLimit: 60,
     color: "#6366F1",
@@ -59,7 +59,7 @@ const quizEvents = [
     title: "Personal Finance",
     description:
       "Personal budgeting, investing, insurance, and financial planning concepts",
-    difficulty: "Beginner",
+
     questionCount: 50,
     timeLimit: 60,
     color: "#10B981",
@@ -70,7 +70,6 @@ const quizEvents = [
     title: "Business Management",
     description:
       "Management principles, leadership, organizational behavior, and strategic planning",
-    difficulty: "Intermediate",
     questionCount: 50,
     timeLimit: 60,
     color: "#22D3EE",
@@ -81,7 +80,6 @@ const quizEvents = [
     title: "Advertising",
     description:
       "Marketing mix, consumer behavior, market research, and promotional strategies",
-    difficulty: "Intermediate",
     questionCount: 50,
     timeLimit: 60,
     color: "#FF3B9A",
@@ -92,7 +90,6 @@ const quizEvents = [
     title: "Cybersecurity",
     description:
       "Network security, data protection, cyber threats, and security best practices",
-    difficulty: "Advanced",
     questionCount: 50,
     timeLimit: 60,
     color: "#8B5CF6",
@@ -923,9 +920,7 @@ export default function FBLAPage() {
                             backgroundColor: `${event.color}20`,
                             color: event.color,
                           }}
-                        >
-                          {event.difficulty}
-                        </span>
+                        ></span>
                       </div>
                     </div>
                   </div>
