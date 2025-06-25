@@ -40,6 +40,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/fbla"
+                  className="text-gray-400 hover:text-[#22D3EE] transition-colors"
+                >
+                  FBLA
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/#services"
                   className="text-gray-400 hover:text-[#22D3EE] transition-colors"
                 >

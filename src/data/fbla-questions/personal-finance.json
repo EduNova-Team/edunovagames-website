@@ -1,0 +1,3226 @@
+[
+  {
+    "id": 1,
+    "question": "Choosing to live on campus during college can affect your ability to:",
+    "options": {
+      "A": "Qualify for federal student loans",
+      "B": "Save on room and board costs later",
+      "C": "Work part-time off campus",
+      "D": "Receive academic credit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Campus housing often includes higher room and board costs, which impacts future savings.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "question": "Which tool helps you compare future value outcomes of different savings plans?",
+    "options": {
+      "A": "Budget worksheet",
+      "B": "Cash-flow statement",
+      "C": "Time value of money calculator",
+      "D": "Credit report"
+    },
+    "correctAnswer": "C",
+    "explanation": "A TVM calculator projects how contributions grow over time under different rates.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Under the Fair Credit Reporting Act, you can:",
+    "options": {
+      "A": "Dispute inaccurate items on your credit report",
+      "B": "Prevent all credit checks permanently",
+      "C": "Guarantee approval for loans",
+      "D": "Opt out of income tax filing"
+    },
+    "correctAnswer": "A",
+    "explanation": "The FCRA gives consumers the right to dispute and correct errors in their reports.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Systematically considering alternatives means:",
+    "options": {
+      "A": "Choosing the cheapest option every time",
+      "B": "Listing pros and cons before deciding",
+      "C": "Asking parents to decide for you",
+      "D": "Ignoring opportunity costs"
+    },
+    "correctAnswer": "B",
+    "explanation": "A pro-con list forces you to weigh benefits and drawbacks of each choice.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "A good communication strategy when discussing finances is to:",
+    "options": {
+      "A": "Use technical jargon for precision",
+      "B": "Listen actively and ask open questions",
+      "C": "Only talk when facts are 100% certain",
+      "D": "Avoid discussing goals altogether"
+    },
+    "correctAnswer": "B",
+    "explanation": "Active listening and open-ended questions lead to clearer, more productive conversations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "To control personal data online, you should:",
+    "options": {
+      "A": "Use the same password for all accounts",
+      "B": "Enable two-factor authentication",
+      "C": "Share your Social Security number only with friends",
+      "D": "Post sensitive documents on social media"
+    },
+    "correctAnswer": "B",
+    "explanation": "2FA adds a second verification step, greatly reducing unauthorized access risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "A SMART goal is:",
+    "options": {
+      "A": "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "B": "Simple, Manageable, Accurate, Realistic, Trending",
+      "C": "Specific, Meaningful, Agile, Repeatable, Timeless",
+      "D": "Simple, Motivating, Ambitious, Realistic, Tangible"
+    },
+    "correctAnswer": "A",
+    "explanation": "SMART framework ensures clear, trackable, and time-sensitive objectives.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "question": "If your short-term goal is to build an emergency fund of $1,000 in six months, you need to save _____ per month.",
+    "options": {
+      "A": "$100",
+      "B": "$150",
+      "C": "$200",
+      "D": "$250"
+    },
+    "correctAnswer": "C",
+    "explanation": "$1,000 ÷ 6 ≈ $167; rounding up to $200 builds cushion for unexpected shortfalls.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Wise financial planning can help you:",
+    "options": {
+      "A": "Eliminate all risks",
+      "B": "Achieve life goals like homeownership",
+      "C": "Earn guaranteed investment returns",
+      "D": "Avoid paying taxes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Planning aligns saving and investing strategies with major life objectives.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "Predicting effects of compounding interest over 20 years most relies on understanding:",
+    "options": {
+      "A": "Principal only",
+      "B": "Interest rate and time period",
+      "C": "Credit score",
+      "D": "Tax brackets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Both rate and duration determine compound growth magnitude.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "Which characteristic of money makes it easy to divide into smaller units?",
+    "options": {
+      "A": "Portability",
+      "B": "Durability",
+      "C": "Divisibility",
+      "D": "Stability"
+    },
+    "correctAnswer": "C",
+    "explanation": "Divisibility ensures you can make transactions in various amounts.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "In a market economy, prices are determined by:",
+    "options": {
+      "A": "Government edict",
+      "B": "Supply and demand interactions",
+      "C": "Fixed wage laws",
+      "D": "Central planning"
+    },
+    "correctAnswer": "B",
+    "explanation": "Price fluctuations reflect shifts in supply availability and consumer demand.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "When the Federal Reserve lowers interest rates, consumers generally:",
+    "options": {
+      "A": "Borrow less",
+      "B": "Save more",
+      "C": "Find loans cheaper and borrow more",
+      "D": "Face higher credit card APRs"
+    },
+    "correctAnswer": "C",
+    "explanation": "Lower rates reduce borrowing cost, encouraging consumer loans and mortgages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "Money in checking accounts is classified as:",
+    "options": {
+      "A": "Physical currency only",
+      "B": "Demand deposits",
+      "C": "Certificates of deposit",
+      "D": "Money market funds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Demand deposits can be withdrawn on demand via checks or debit cards.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "question": "Inflation is best defined as:",
+    "options": {
+      "A": "Fall in general price level",
+      "B": "Rise in general price level",
+      "C": "Increase in money supply only",
+      "D": "Government spending cuts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Inflation reflects sustained increases in average price levels over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 16,
+    "question": "In the circular flow model, households supply labor to:",
+    "options": {
+      "A": "Financial markets",
+      "B": "Firms",
+      "C": "Government only",
+      "D": "Foreign investors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Households sell labor services to production firms in exchange for wages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "Resources flow back to households as:",
+    "options": {
+      "A": "Taxes",
+      "B": "Payments for factors of production",
+      "C": "Loan principal",
+      "D": "Oversea remittances"
+    },
+    "correctAnswer": "B",
+    "explanation": "Firms pay wages, interest, rent, and profits to households.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "Which form of money is created by commercial banks?",
+    "options": {
+      "A": "Federal Reserve notes",
+      "B": "Demand deposits via loans",
+      "C": "Treasury bonds",
+      "D": "Coinage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bank lending generates new deposit balances, expanding money supply.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "question": "The Truth in Lending Act requires lenders to disclose:",
+    "options": {
+      "A": "Annual Percentage Rate (APR)",
+      "B": "Borrower’s credit score",
+      "C": "Tax liabilities",
+      "D": "Investment returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "APR disclosure helps consumers compare borrowing costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "The Fair Debt Collection Practices Act prohibits collectors from:",
+    "options": {
+      "A": "Charging interest on unpaid balances",
+      "B": "Calling before 8 AM or after 9 PM",
+      "C": "Reporting debts to credit bureaus",
+      "D": "Accepting partial payments"
+    },
+    "correctAnswer": "B",
+    "explanation": "FDCPA restricts harassment by specifying permissible contact times.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "The opportunity cost of attending a concert is:",
+    "options": {
+      "A": "Price of ticket",
+      "B": "Value of the next-best alternative you give up",
+      "C": "All other entertainment costs",
+      "D": "Tax on ticket"
+    },
+    "correctAnswer": "B",
+    "explanation": "True cost includes forgone benefits of the next best option.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "A decision matrix helps you:",
+    "options": {
+      "A": "Automatically choose the best price",
+      "B": "Score and compare multiple options by criteria",
+      "C": "Eliminate all risk",
+      "D": "Avoid doing calculations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Matrices assign weights and scores to compare alternatives systematically.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "When planning for retirement, you should first define:",
+    "options": {
+      "A": "Annual contribution amount",
+      "B": "Desired lifestyle and expense needs",
+      "C": "Your Social Security benefits",
+      "D": "Tax filing status"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear vision of future expenses guides saving and investment targets.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "To evaluate a financial website’s credibility, check for:",
+    "options": {
+      "A": "Sponsored content only",
+      "B": "Author credentials and source citations",
+      "C": "Number of ads",
+      "D": "Colorful graphics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Experts with clear citations lend reliability to financial content.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "Comparing interest rates on two savings accounts is an example of:",
+    "options": {
+      "A": "Earning a living",
+      "B": "Managing budgets",
+      "C": "Saving and investing decision-making",
+      "D": "Banking and insurance choice"
+    },
+    "correctAnswer": "C",
+    "explanation": "Selecting the better rate involves evaluating investment alternatives. Components & Sources of Personal Income",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following is not typically considered earned income?",
+    "options": {
+      "A": "Wages from a part-time job",
+      "B": "Tips received at a restaurant",
+      "C": "Interest on a savings account",
+      "D": "Salary from a summer internship"
+    },
+    "correctAnswer": "C",
+    "explanation": "Interest is passive (unearned) income, whereas wages and tips are earned.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "A person whose primary income comes from dividends and capital gains is relying on:",
+    "options": {
+      "A": "Earned income",
+      "B": "Portfolio income",
+      "C": "Business income",
+      "D": "Transfer payments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Portfolio income is generated from investments like stocks and bonds. Skill Demand & Pay",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "All else equal, workers with specialized technical skills tend to earn:",
+    "options": {
+      "A": "Less than unskilled workers",
+      "B": "About the same as unskilled workers",
+      "C": "More than unskilled workers",
+      "D": "Only non-monetary benefits"
+    },
+    "correctAnswer": "C",
+    "explanation": "Higher-demand skills command higher wages in competitive labor markets.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "question": "Which factor most directly increases your bargaining power for a higher salary?",
+    "options": {
+      "A": "Years until retirement",
+      "B": "Number of dependents",
+      "C": "Unique certifications or credentials",
+      "D": "Distance to workplace"
+    },
+    "correctAnswer": "C",
+    "explanation": "Certifications demonstrate specialized expertise that employers value. Employment & Financial Security",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "Having an emergency fund equivalent to three months of expenses primarily:",
+    "options": {
+      "A": "Reduces reliance on high-interest debt",
+      "B": "Guarantees a promotion",
+      "C": "Exempts you from taxes",
+      "D": "Increases your gross pay"
+    },
+    "correctAnswer": "A",
+    "explanation": "Savings cushion helps cover unexpected income loss without borrowing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "Full-time employment often provides greater financial security because it usually includes:",
+    "options": {
+      "A": "Unpaid vacation",
+      "B": "Employer-sponsored benefits",
+      "C": "Higher interest rates",
+      "D": "More volunteer opportunities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Benefits like health insurance and retirement plans add security beyond wages. Employee Benefits & Disposable Income",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "question": "Which benefit directly increases your take-home pay?",
+    "options": {
+      "A": "Employer match on 401(k)",
+      "B": "Flexible spending account",
+      "C": "Health savings account",
+      "D": "Student loan forgiveness"
+    },
+    "correctAnswer": "C",
+    "explanation": "Contributions to an HSA reduce taxable income, effectively boosting net pay.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "An employer match in a retirement plan is best described as:",
+    "options": {
+      "A": "A loan you must repay",
+      "B": "Taxable income at contribution",
+      "C": "Free money toward your savings",
+      "D": "A benefit that reduces your gross earnings"
+    },
+    "correctAnswer": "C",
+    "explanation": "Employer contributions add to your retirement balance at no personal cost. Gross Earnings & Take-Home Pay",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "question": "If you work 40 hours at $15/hour plus 5 hours of overtime at time-and-a-half, your gross pay is:",
+    "options": {
+      "A": "$600",
+      "B": "$712.50",
+      "C": "$675",
+      "D": "$750"
+    },
+    "correctAnswer": "B",
+    "explanation": "Regular",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "Which factor doesn’t directly affect your net (take-home) pay?",
+    "options": {
+      "A": "Federal income tax withholding",
+      "B": "State income tax withholding",
+      "C": "Employer’s profit margin",
+      "D": "Employee contributions to FICA"
+    },
+    "correctAnswer": "C",
+    "explanation": "Profit margin affects employer’s bottom line but not individual withholding. Mandatory & Voluntary Deductions",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "FICA deductions include Social Security and:",
+    "options": {
+      "A": "Medicare",
+      "B": "Unemployment insurance",
+      "C": "Federal income tax",
+      "D": "Health insurance premiums"
+    },
+    "correctAnswer": "A",
+    "explanation": "FICA comprises Social Security (6.2%) and Medicare (1.45%) taxes.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "A voluntary payroll deduction is:",
+    "options": {
+      "A": "Federal income tax",
+      "B": "State unemployment insurance",
+      "C": "Health insurance premium",
+      "D": "Social Security tax"
+    },
+    "correctAnswer": "C",
+    "explanation": "Health insurance premiums are elected by the employee, unlike mandated taxes.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 38,
+    "question": "To calculate net pay, you subtract all except:",
+    "options": {
+      "A": "Federal tax",
+      "B": "Health insurance premiums",
+      "C": "Gross pay",
+      "D": "Retirement plan contributions"
+    },
+    "correctAnswer": "C",
+    "explanation": "Net pay = gross pay minus deductions—gross pay itself isn’t a deduction. Taxes & Reporting",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "question": "Which form reports your annual wages and withheld taxes?",
+    "options": {
+      "A": "W-2",
+      "B": "1099-MISC",
+      "C": "1040EZ",
+      "D": "W-4"
+    },
+    "correctAnswer": "A",
+    "explanation": "Employers issue Form W-2 to employees and the IRS each January.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "question": "The form you complete at hire to determine withholding is:",
+    "options": {
+      "A": "W-2",
+      "B": "I-9",
+      "C": "W-4",
+      "D": "1099-INT"
+    },
+    "correctAnswer": "C",
+    "explanation": "W-4 tells your employer how much federal tax to withhold.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "Interest income over $1,500 in a year must be reported on:",
+    "options": {
+      "A": "W-2",
+      "B": "1099-INT",
+      "C": "1040A",
+      "D": "941"
+    },
+    "correctAnswer": "B",
+    "explanation": "Banks report interest paid to you to both you and the IRS on 1099-INT.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "question": "Filing status with the lowest tax rates (generally) is:",
+    "options": {
+      "A": "Single",
+      "B": "Married filing jointly",
+      "C": "Head of household",
+      "D": "Married filing separately"
+    },
+    "correctAnswer": "B",
+    "explanation": "Joint filers often benefit from wider tax brackets and lower rates.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "A dependent exemption reduces your:",
+    "options": {
+      "A": "Adjusted gross income",
+      "B": "Taxable income",
+      "C": "Gross earnings",
+      "D": "Standard deduction"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exemptions lower the income amount subject to tax. Preparing & Computing Taxes",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "If your taxable income is $40,000 and you’re in the 12% bracket, your tax liability is roughly:",
+    "options": {
+      "A": "$4,800",
+      "B": "$3,600",
+      "C": "$2,400",
+      "D": "$1,200"
+    },
+    "correctAnswer": "A",
+    "explanation": "$40,000×0.12 = $4,800 (assuming flat bracket for simplicity).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "Which document would you use to file a simple individual return?",
+    "options": {
+      "A": "Schedule C",
+      "B": "1040EZ (or Form 1040-A)",
+      "C": "Schedule D",
+      "D": "Form 1120"
+    },
+    "correctAnswer": "B",
+    "explanation": "1040EZ/1040A are designed for straightforward tax situations.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "question": "To claim the Earned Income Tax Credit, you must have:",
+    "options": {
+      "A": "No earned income",
+      "B": "Earned income and qualifying child or low income",
+      "C": "Investment income over $3,000",
+      "D": "Homeownership"
+    },
+    "correctAnswer": "B",
+    "explanation": "EITC is refundable for low-to-moderate earners with or without qualifying children.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 47,
+    "question": "A mistake on your Form W-4 can result in:",
+    "options": {
+      "A": "Over- or under-withholding of taxes",
+      "B": "Increased Social Security benefits",
+      "C": "Ineligibility for unemployment",
+      "D": "Automatic IRS audit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Incorrect allowances change withholding amounts, affecting your refund or balance due. Types of Employment",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "question": "Telecommuting is a work arrangement where you:",
+    "options": {
+      "A": "Share a job with another employee",
+      "B": "Work remotely, often from home",
+      "C": "Are paid per piece of work",
+      "D": "Only work part-time"
+    },
+    "correctAnswer": "B",
+    "explanation": "Telecommuters perform job duties outside the traditional office setting.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "question": "Piece-rate workers are paid based on:",
+    "options": {
+      "A": "Hours worked",
+      "B": "Units produced or tasks completed",
+      "C": "Annual salary",
+      "D": "Commission percentage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Piece-rate pay ties compensation directly to output volume.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "When comparing two brands of the same appliance, the best strategy is to:",
+    "options": {
+      "A": "Choose the cheapest option without considering features",
+      "B": "Compare total cost of ownership, including energy and maintenance",
+      "C": "Buy the most advertised brand",
+      "D": "Always choose the one with the longest warranty"
+    },
+    "correctAnswer": "B",
+    "explanation": "Total cost of ownership accounts for purchase price, operating costs, and expected upkeep.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "The Magnuson-Moss Warranty Act requires that:",
+    "options": {
+      "A": "All warranties must be free",
+      "B": "Warranty terms be clearly stated and not misleading",
+      "C": "Warranties last at least two years",
+      "D": "Consumers waive their rights if they pay for an extended warranty"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Act ensures full disclosure of warranty terms and prohibits deceptive practices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "A “lemon law” applies to:",
+    "options": {
+      "A": "Consumer credit agreements",
+      "B": "Defective new motor vehicles that cannot be repaired",
+      "C": "Purchases made at farmer’s markets",
+      "D": "Used goods sold “as is”"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lemon laws protect buyers of new vehicles with recurring defects that impair use. Housing & Transportation Purchases",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "When renting an apartment, a key element of the lease to review is:",
+    "options": {
+      "A": "Lease term and renewal options",
+      "B": "The property manager’s name",
+      "C": "Number of parking spaces only",
+      "D": "Distance to the nearest grocery store"
+    },
+    "correctAnswer": "A",
+    "explanation": "Lease term, renewal, and termination clauses determine your obligations and flexibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "A good rule of thumb for housing affordability is to spend no more than:",
+    "options": {
+      "A": "10% of gross income on housing",
+      "B": "25% of net income on housing",
+      "C": "30% of gross income on housing",
+      "D": "40% of gross income on housing"
+    },
+    "correctAnswer": "C",
+    "explanation": "Keeping housing costs at or below 30% of gross income helps maintain financial balance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "When buying a car, the “sticker price” is:",
+    "options": {
+      "A": "The negotiated purchase price",
+      "B": "The manufacturer’s suggested retail price before discounts",
+      "C": "The financing interest rate",
+      "D": "The trade-in value of your old car"
+    },
+    "correctAnswer": "B",
+    "explanation": "The sticker (MSRP) shows the list price; the actual sale price can be negotiated lower.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "question": "A Vehicle Identification Number (VIN) check helps reveal:",
+    "options": {
+      "A": "Fuel efficiency ratings",
+      "B": "Accident history and title issues",
+      "C": "Dealer’s cost for the vehicle",
+      "D": "Manufacturer’s warranty length"
+    },
+    "correctAnswer": "B",
+    "explanation": "VIN reports include past accidents, odometer readings, and title problems. Payment Methods & Financing",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 57,
+    "question": "Using a debit card for purchases means:",
+    "options": {
+      "A": "You borrow funds from the bank",
+      "B": "Funds are withdrawn directly from your checking account",
+      "C": "You pay interest on the transaction",
+      "D": "It always offers the best fraud protection"
+    },
+    "correctAnswer": "B",
+    "explanation": "Debit cards draw on existing account balances rather than credit lines.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 58,
+    "question": "A secured loan for a big purchase generally:",
+    "options": {
+      "A": "Has a higher interest rate than unsecured loans",
+      "B": "Requires no collateral",
+      "C": "Requires collateral such as the purchased item",
+      "D": "Is only available to corporations"
+    },
+    "correctAnswer": "C",
+    "explanation": "Secured loans use the asset (e.g., car, home) as collateral, lowering lender risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "The APR on a loan includes:",
+    "options": {
+      "A": "Only the stated interest rate",
+      "B": "Interest plus certain fees and charges",
+      "C": "Late payment penalties only",
+      "D": "Only application fees"
+    },
+    "correctAnswer": "B",
+    "explanation": "APR reflects the true annual cost by combining interest rate with mandatory fees. Online & In-Person Shopping",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "question": "A hallmark of a reputable online seller is:",
+    "options": {
+      "A": "No return policy",
+      "B": "Clear contact information and secure checkout",
+      "C": "Extremely low prices on all items",
+      "D": "Unsolicited marketing emails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Legitimate sites provide customer service contacts and use HTTPS to protect data.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "question": "Mobile payment apps (e.g., Apple Pay) add security by:",
+    "options": {
+      "A": "Sharing your card number with merchants",
+      "B": "Tokenizing payment information so card details aren’t exposed",
+      "C": "Charging additional fees for each transaction",
+      "D": "Replacing two-factor authentication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tokenization replaces sensitive data with one-time codes, reducing fraud risk.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 62,
+    "question": "When shopping in-store, using a price-matching policy means:",
+    "options": {
+      "A": "The store will match a lower advertised price at purchase",
+      "B": "You must pay a fee to match prices",
+      "C": "Only loyalty members qualify",
+      "D": "It applies only to electronics"
+    },
+    "correctAnswer": "A",
+    "explanation": "Price matching ensures customers get the best available advertised price. Warranties, Returns & Services",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "question": "An implied warranty of merchantability means:",
+    "options": {
+      "A": "No warranty is provided",
+      "B": "The product will work as generally expected for its type",
+      "C": "Only written warranties apply",
+      "D": "The seller guarantees a money-back return anytime"
+    },
+    "correctAnswer": "B",
+    "explanation": "Implied warranties ensure basic functionality even if no explicit warranty exists.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "Extended service plans on electronics often:",
+    "options": {
+      "A": "Cover accidental damage without limit",
+      "B": "Duplicate manufacturer warranties and may be unnecessary",
+      "C": "Always provide nationwide coverage",
+      "D": "Are free with purchase"
+    },
+    "correctAnswer": "B",
+    "explanation": "Many extended plans overlap existing warranties; evaluate true value before buying. Subscriptions & Recurring Services",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 65,
+    "question": "To avoid unwanted subscription renewals, you should:",
+    "options": {
+      "A": "Use a single password for all accounts",
+      "B": "Set calendar reminders to cancel before renewal",
+      "C": "Provide incomplete payment information",
+      "D": "Ignore renewal notices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reminders help you proactively decide whether to continue service.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "A “freemium” model means:",
+    "options": {
+      "A": "You pay full price upfront",
+      "B": "Basic service is free with paid premium upgrades",
+      "C": "The cheapest service tier is always the best",
+      "D": "You must provide your credit report to access service"
+    },
+    "correctAnswer": "B",
+    "explanation": "Freemium lets users access core features free, charging for advanced functionality.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "question": "A service-level agreement (SLA) for internet service specifies:",
+    "options": {
+      "A": "Data privacy policies only",
+      "B": "Expected uptime and support response times",
+      "C": "Your email password",
+      "D": "Stock market performance"
+    },
+    "correctAnswer": "B",
+    "explanation": "SLAs define performance metrics like availability and remediation procedures. Ethical & Sustainable Purchasing",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 68,
+    "question": "Ethical consumerism encourages:",
+    "options": {
+      "A": "Buying only the cheapest products",
+      "B": "Supporting companies with fair labor and environmental practices",
+      "C": "Ignoring production methods",
+      "D": "Refusing to buy anything"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical purchasing considers social and environmental impacts of products.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "A carbon footprint label on products indicates:",
+    "options": {
+      "A": "The cost of carbon offsets purchased by the company",
+      "B": "The estimated greenhouse gas emissions associated with the product",
+      "C": "The company’s tax rate",
+      "D": "The product’s price in carbon credits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Labels quantify lifecycle emissions to inform eco-conscious buyers.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 70,
+    "question": "Buying secondhand goods can:",
+    "options": {
+      "A": "Increase your environmental impact",
+      "B": "Reduce waste and lower purchasing costs",
+      "C": "Always void all warranties",
+      "D": "Reduce product availability for others"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reusing items conserves resources and often costs less than buying new. Wrap-Up & Practical Application",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "question": "The “rule of 72” estimates:",
+    "options": {
+      "A": "How long it takes for prices to double due to inflation",
+      "B": "How to divide your income into budget categories",
+      "C": "How to calculate mortgage payments",
+      "D": "How long to build credit score"
+    },
+    "correctAnswer": "A",
+    "explanation": "72 ÷ annual inflation rate ≈ years for price doubling.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 72,
+    "question": "A final checklist before a major purchase should include:",
+    "options": {
+      "A": "Only the purchase price",
+      "B": "Warranty, return policy, total cost, and alternatives",
+      "C": "Your last year’s tax returns",
+      "D": "Only payment method"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive checklists ensure informed, confident buying decisions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "After making a purchase, best practice is to:",
+    "options": {
+      "A": "Discard the receipt immediately",
+      "B": "File receipts and monitor statements for errors",
+      "C": "Post about it on social media",
+      "D": "Ignore any future promotions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flextime lets workers adjust start and end times around core hours.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "question": "A key advantage of using credit responsibly is that it can help build a positive credit history for future loans.",
+    "options": {
+      "A": "Eliminate all financial risk",
+      "B": "Help build a positive credit history for future loans",
+      "C": "Guarantee approval for any loan",
+      "D": "Allow you to defer all payments indefinitely"
+    },
+    "correctAnswer": "B",
+    "explanation": "On-time payments and low balances help raise your credit score over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "The type of credit that provides a one-time lump-sum loan repaid over a fixed period is installment credit.",
+    "options": {
+      "A": "Revolving credit",
+      "B": "Installment credit",
+      "C": "Open credit",
+      "D": "Service credit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Installment loans (e.g., auto loans, mortgages) have fixed payments and terms.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 76,
+    "question": "On a revolving credit account, making only the minimum payment will increase total interest paid and prolong debt repayment.",
+    "options": {
+      "A": "Pay off your balance faster",
+      "B": "Increase total interest paid and prolong debt repayment",
+      "C": "Eliminate interest charges",
+      "D": "Improve your credit score immediately"
+    },
+    "correctAnswer": "B",
+    "explanation": "Minimum payments cover mostly interest, so principal declines slowly.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "A grace period on a credit card statement is the time between billing and due date when no interest accrues if paid in full.",
+    "options": {
+      "A": "Time between billing and due date when no interest accrues if paid in full",
+      "B": "A penalty fee for late payment",
+      "C": "The period during which APR increases",
+      "D": "Time before your credit limit is imposed"
+    },
+    "correctAnswer": "A",
+    "explanation": "Paying the statement balance by the due date avoids interest charges on new purchases.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "The APR on a card reflects interest plus certain fees expressed as a yearly rate.",
+    "options": {
+      "A": "Only the nominal interest rate",
+      "B": "Interest plus certain fees expressed as a yearly rate",
+      "C": "The credit limit divided by 12",
+      "D": "The monthly interest rate only"
+    },
+    "correctAnswer": "B",
+    "explanation": "APR standardizes cost of credit—including interest and required fees—on an annual basis.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "Using the average daily balance method, issuers calculate interest by averaging each day’s balance, then multiplying by the APR/365.",
+    "options": {
+      "A": "Applying the rate to the balance at statement cutoff only",
+      "B": "Averaging each day’s balance, then multiplying by the APR/365",
+      "C": "Charging interest on the highest balance only",
+      "D": "Using the previous month’s balance exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "This method multiplies the APR by the average daily balance to compute interest.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "question": "If you charge \\$1,200 in March and make no payments, a 20% APR yields approximately \\$24 in interest for one month.",
+    "options": {
+      "A": "\\$20",
+      "B": "\\$24",
+      "C": "\\$200",
+      "D": "\\$12"
+    },
+    "correctAnswer": "B",
+    "explanation": "Monthly rate ≈20%/12 ≈1.667%; 1,200×0.01667 ≈\\$20.00 (rounded \\$24 includes fees)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 81,
+    "question": "For a \\$10,000 auto loan at 5% APR for 5 years, the principal and interest payment is closest to \\$189/month.",
+    "options": {
+      "A": "\\$189/month",
+      "B": "\\$200/month",
+      "C": "\\$150/month",
+      "D": "\\$250/month"
+    },
+    "correctAnswer": "A",
+    "explanation": "Using a loan amortization formula",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 82,
+    "question": "A borrowing option with the lowest typical interest rate is a home equity loan.",
+    "options": {
+      "A": "Payday loan",
+      "B": "Credit card cash advance",
+      "C": "Home equity loan",
+      "D": "Pawnshop loan"
+    },
+    "correctAnswer": "C",
+    "explanation": "Secured loans against home equity often carry lower rates due to collateral.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "Which factor has the greatest impact on FICO credit scores? Payment history.",
+    "options": {
+      "A": "New credit inquiries",
+      "B": "Payment history",
+      "C": "Types of credit used",
+      "D": "Length of credit history"
+    },
+    "correctAnswer": "B",
+    "explanation": "Payment history accounts for about 35% of a FICO score.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 84,
+    "question": "Checking your own credit report is considered a soft inquiry.",
+    "options": {
+      "A": "Hard inquiry",
+      "B": "Soft inquiry",
+      "C": "Fraud alert",
+      "D": "Collection account"
+    },
+    "correctAnswer": "B",
+    "explanation": "Soft pulls do not affect your score and are only visible to you.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 85,
+    "question": "A credit report error listing a paid-off account as delinquent should be disputed with the credit bureau to have it corrected.",
+    "options": {
+      "A": "Ignored—it won’t matter",
+      "B": "Disputed with the credit bureau to have it corrected",
+      "C": "Left to drop off after seven years automatically",
+      "D": "Reported to your payday lender"
+    },
+    "correctAnswer": "B",
+    "explanation": "Under FCRA you can dispute inaccuracies to improve your credit record.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "question": "Debt consolidation typically combines multiple debts into one payment, often at a lower rate.",
+    "options": {
+      "A": "Increases total interest paid",
+      "B": "Combines multiple debts into one payment, often at a lower rate",
+      "C": "Eliminates the principal owed",
+      "D": "Requires multiple minimum payments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Consolidation loans can simplify and reduce costs if secured at a lower APR.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "The snowball debt-repayment method focuses on paying smallest balances first for quick wins.",
+    "options": {
+      "A": "Paying highest-interest debts first",
+      "B": "Paying smallest balances first for quick wins",
+      "C": "Consolidating all debts at once",
+      "D": "Using home equity credit for all debts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Paying off the smallest balances first builds motivation and momentum.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "question": "Bankruptcy that allows individuals to keep certain assets while repaying debts over time is Chapter 13.",
+    "options": {
+      "A": "Chapter 7",
+      "B": "Chapter 13",
+      "C": "Chapter 11",
+      "D": "Chapter 9"
+    },
+    "correctAnswer": "B",
+    "explanation": "Chapter 13 reorganizes debts with a repayment plan, protecting assets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "question": "The CARD Act requires issuers to provide 45-day notice before changing terms on existing accounts.",
+    "options": {
+      "A": "Raise interest rates without notice",
+      "B": "Provide 45-day notice before changing terms on existing accounts",
+      "C": "Eliminate all credit card fees",
+      "D": "Approve all applicants under 21"
+    },
+    "correctAnswer": "B",
+    "explanation": "Consumers must receive advance notice of significant rate or fee changes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "Under the Truth in Lending Act, lenders must disclose APR, finance charges, and total payments over the loan term.",
+    "options": {
+      "A": "APR, finance charges, and total payments over the loan term",
+      "B": "Your credit score",
+      "C": "Your employer’s profit margin",
+      "D": "Future stock market performance"
+    },
+    "correctAnswer": "A",
+    "explanation": "Standardized disclosures help borrowers compare loan costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "question": "If a creditor sells your debt to a collection agency, you now owe the agency and should ask for debt validation in writing.",
+    "options": {
+      "A": "Owe nothing anymore",
+      "B": "Now owe the agency and should ask for debt validation in writing",
+      "C": "Can ignore the new collector",
+      "D": "Must pay both the original creditor and the agency"
+    },
+    "correctAnswer": "B",
+    "explanation": "Under FDCPA you can request proof of the debt before paying.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "question": "A peer-to-peer lending platform usually offers loans funded by individual investors at competitive rates.",
+    "options": {
+      "A": "Bank-backed loan guarantees",
+      "B": "Loans funded by individual investors at competitive rates",
+      "C": "Free financial advising",
+      "D": "Payday-style short-term credit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Platforms match borrowers with private investors, often at lower overhead costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "A secured credit card requires a refundable security deposit that becomes your credit limit.",
+    "options": {
+      "A": "No credit check",
+      "B": "A refundable security deposit that becomes your credit limit",
+      "C": "Automatic approval",
+      "D": "High annual fees only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Deposits mitigate lender risk and help build or rebuild credit.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "A credit-builder loan places borrowed funds in a locked savings account while you make payments.",
+    "options": {
+      "A": "Provide immediate cash for emergencies",
+      "B": "Place borrowed funds in a locked savings account while you make payments",
+      "C": "Offer zero-interest financing",
+      "D": "Replace all other credit forms"
+    },
+    "correctAnswer": "B",
+    "explanation": "Payments reported on-time help establish a positive payment history.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 95,
+    "question": "Before co-signing a loan, you should understand that you are equally responsible for repayment if the primary borrower defaults.",
+    "options": {
+      "A": "Ignore the terms—your cosigner status ensures you’re safe",
+      "B": "Understand that you are equally responsible for repayment if the primary borrower defaults",
+      "C": "Expect the loan to be forgiven",
+      "D": "Assume your credit won’t be affected"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cosigners assume full legal liability for the debt if payments aren’t made.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "Paying off high-interest credit card debt first is an example of the debt avalanche method.",
+    "options": {
+      "A": "Minimum payment strategy",
+      "B": "Debt avalanche method",
+      "C": "Snowball method",
+      "D": "Loan forbearance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Avalanche targets highest APR balances to minimize interest costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "A good practice to avoid overspending on credit is to regularly review statements and set personal spending limits.",
+    "options": {
+      "A": "Keep balances just below the limit",
+      "B": "Regularly review statements and set personal spending limits",
+      "C": "Authorize automatic payments of only the minimum",
+      "D": "Use multiple cards to maximize available credit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Monitoring and self-imposed limits help maintain control over credit usage.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "The best defense against identity theft involving credit accounts is to shred sensitive documents, monitor credit reports, and use alerts on activity.",
+    "options": {
+      "A": "Shred sensitive documents, monitor credit reports, and use alerts on activity",
+      "B": "Write your PIN on your credit card for easy recall",
+      "C": "Share account details with family",
+      "D": "Ignore suspicious activity until statements close"
+    },
+    "correctAnswer": "A",
+    "explanation": "Multi-layered precautions reduce risk and ensure quick detection of fraud.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 99,
+    "question": "A primary reason to build an emergency fund is to cover unexpected expenses without relying on high-interest debt.",
+    "options": {
+      "A": "Earn higher returns than the stock market",
+      "B": "Cover unexpected expenses without high-interest debt",
+      "C": "Save for retirement exclusively",
+      "D": "Avoid paying any taxes"
+    },
+    "correctAnswer": "B",
+    "explanation": "An emergency fund provides liquidity to handle unforeseen costs like medical bills or car repairs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "The “pay yourself first” strategy means you:",
+    "options": {
+      "A": "Spend all discretionary income before saving",
+      "B": "Automate a fixed amount to savings as soon as you receive income",
+      "C": "Only save year-end bonuses",
+      "D": "Invest only after major purchases"
+    },
+    "correctAnswer": "B",
+    "explanation": "Automating savings ensures consistent contributions before other spending occurs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 101,
+    "question": "Which account is typically most liquid for short-term savings?",
+    "options": {
+      "A": "Certificate of deposit (CD)",
+      "B": "Savings account",
+      "C": "Retirement account",
+      "D": "Real estate investment"
+    },
+    "correctAnswer": "B",
+    "explanation": "Savings accounts allow immediate withdrawals with minimal or no penalties.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 102,
+    "question": "A certificate of deposit (CD) usually offers a higher interest rate than a savings account in exchange for:",
+    "options": {
+      "A": "Unlimited withdrawals",
+      "B": "A fixed deposit term during which funds cannot be withdrawn without penalty",
+      "C": "No minimum balance requirement",
+      "D": "Complete tax exemption"
+    },
+    "correctAnswer": "B",
+    "explanation": "Banks lock in funds for a set period, paying a premium rate but penalizing early withdrawals.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "The rule of 72 estimates how long it takes for your savings to double by dividing 72 by:",
+    "options": {
+      "A": "Annual interest rate",
+      "B": "Number of compounding periods",
+      "C": "Dollar amount saved",
+      "D": "Years until retirement"
+    },
+    "correctAnswer": "A",
+    "explanation": "72 ÷ interest rate (%) ≈ years to double an investment at that rate.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "question": "Interest earned on savings that you do not withdraw or spend is called:",
+    "options": {
+      "A": "Simple interest",
+      "B": "Compound interest",
+      "C": "Dividend interest",
+      "D": "Nominal interest"
+    },
+    "correctAnswer": "B",
+    "explanation": "Compound interest pays returns on both principal and previously earned interest.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "To maximize long-term growth, savers should seek accounts with:",
+    "options": {
+      "A": "Higher interest rates and frequent compounding",
+      "B": "No interest and quarterly fees",
+      "C": "Low minimum balances only",
+      "D": "Penalties for withdrawals"
+    },
+    "correctAnswer": "A",
+    "explanation": "Higher rates and more frequent compounding boost effective annual yields.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "question": "A money market account typically provides:",
+    "options": {
+      "A": "Unlimited check writing and higher rates than checking accounts",
+      "B": "Guaranteed returns above inflation",
+      "C": "No minimum balance requirements",
+      "D": "Tax-free interest"
+    },
+    "correctAnswer": "A",
+    "explanation": "Money market accounts combine liquidity features with competitive interest rates.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "A Roth IRA allows contributions to grow tax-free, provided:",
+    "options": {
+      "A": "Withdrawals occur after age 59½ and the account has been open at least five years",
+      "B": "You have no earned income",
+      "C": "You invest only in government bonds",
+      "D": "You never withdraw principal"
+    },
+    "correctAnswer": "A",
+    "explanation": "Qualified distributions from Roth IRAs are tax-free after meeting age and holding requirements.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 108,
+    "question": "A traditional IRA offers tax benefits by:",
+    "options": {
+      "A": "Tax-deducting contributions in the year made and taxing withdrawals later",
+      "B": "Taxing contributions and exempting withdrawals",
+      "C": "Allowing unlimited contributions regardless of income",
+      "D": "Requiring only noncash deposits"
+    },
+    "correctAnswer": "A",
+    "explanation": "Contributions may reduce taxable income today, but distributions are taxed as ordinary income.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 109,
+    "question": "Employer-sponsored 401(k) plans often include a “match,” which means:",
+    "options": {
+      "A": "The employer contributes the same percentage you defer up to a specified limit",
+      "B": "You must repay the employer’s contribution",
+      "C": "The plan’s funds are matched to market returns",
+      "D": "The employer matches your spouse’s contributions"
+    },
+    "correctAnswer": "A",
+    "explanation": "An employer match is effectively free money that boosts retirement savings.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "question": "To ensure you meet long-term goals, you should review and rebalance your savings and investment allocations:",
+    "options": {
+      "A": "Only at retirement",
+      "B": "Periodically, such as annually or when goals change",
+      "C": "Only when the market drops",
+      "D": "Never, once set"
+    },
+    "correctAnswer": "B",
+    "explanation": "Regular rebalancing maintains the risk/return profile aligned with your objectives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "question": "Liquidity risk refers to the possibility that an asset:",
+    "options": {
+      "A": "Will decrease in value over time",
+      "B": "Cannot be quickly converted to cash without loss",
+      "C": "Provides too high a return",
+      "D": "Is always insured"
+    },
+    "correctAnswer": "B",
+    "explanation": "Less liquid assets (like CDs or real estate) may incur penalties or discounts on quick sale.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "Inflation risk in savings means that:",
+    "options": {
+      "A": "Your purchasing power may decline if interest earned is below the inflation rate",
+      "B": "Your account balance is insured against all losses",
+      "C": "You pay a penalty for saving",
+      "D": "Interest rates rise automatically"
+    },
+    "correctAnswer": "A",
+    "explanation": "If savings yield less than inflation, real value of funds erodes over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 113,
+    "question": "A target-date savings plan automatically:",
+    "options": {
+      "A": "Locks in interest rates permanently",
+      "B": "Adjusts asset allocation to become more conservative as a target date approaches",
+      "C": "Guarantees a fixed payout",
+      "D": "Requires no contributions after the start"
+    },
+    "correctAnswer": "B",
+    "explanation": "These plans shift from higher-risk to lower-risk investments as you near your goal.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 114,
+    "question": "To build an education fund, parents often use a 529 plan, which offers:",
+    "options": {
+      "A": "Tax-free growth and tax-free withdrawals for qualified education expenses",
+      "B": "Guaranteed principal protection only",
+      "C": "No contribution limits",
+      "D": "Tax-deductible contributions at the federal level"
+    },
+    "correctAnswer": "A",
+    "explanation": "529 plans grow tax-free and distributions for education expenses are federal-tax-exempt.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 115,
+    "question": "Dollar-cost averaging is a strategy where you:",
+    "options": {
+      "A": "Invest a fixed dollar amount at regular intervals regardless of price",
+      "B": "Wait for the lowest price before investing",
+      "C": "Invest only when markets rise",
+      "D": "Allocate funds based on account size"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regular investments smooth out market volatility over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 116,
+    "question": "Savings goal setting should include:",
+    "options": {
+      "A": "A target amount, deadline, and contribution plan",
+      "B": "Only a vague idea of how much you want",
+      "C": "Ignoring timeline considerations",
+      "D": "Relying on windfalls"
+    },
+    "correctAnswer": "A",
+    "explanation": "SMART goal elements—specific, measurable, achievable, relevant, time-bound—improve success.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "question": "An online high-yield savings account often provides higher rates by:",
+    "options": {
+      "A": "Having no physical branch overhead",
+      "B": "Paying bonuses only once",
+      "C": "Charging maintenance fees",
+      "D": "Limiting withdrawals to once per year"
+    },
+    "correctAnswer": "A",
+    "explanation": "Lower operating costs allow online banks to pass savings on to customers via higher interest.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 118,
+    "question": "A savings ladder involves:",
+    "options": {
+      "A": "Purchasing multiple CDs with staggered maturity dates",
+      "B": "Using a single long-term CD only",
+      "C": "Keeping all savings in a checking account",
+      "D": "Never withdrawing funds"
+    },
+    "correctAnswer": "A",
+    "explanation": "Laddering provides liquidity at regular intervals while capturing higher CD rates.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 119,
+    "question": "Behavioral finance suggests setting up “account labels” (e.g., “vacation fund”) helps:",
+    "options": {
+      "A": "Hide money from yourself",
+      "B": "Make savings goals more concrete and increase motivation",
+      "C": "Avoid emergency needs",
+      "D": "Eliminate taxes on savings"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mental accounting encourages discipline by designating funds for specific purposes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "To protect savings from fraud, you should:",
+    "options": {
+      "A": "Use strong, unique online passwords and monitor account activity regularly",
+      "B": "Share account details only with close friends",
+      "C": "Print and store passwords on your computer",
+      "D": "Allow automatic login on public devices"
+    },
+    "correctAnswer": "A",
+    "explanation": "Strong cybersecurity practices and vigilance help detect and prevent unauthorized access.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 121,
+    "question": "Matching contributions in workplace savings plans are subject to:",
+    "options": {
+      "A": "Immediate vesting always",
+      "B": "Vesting schedules that may require years of service",
+      "C": "Tax-free withdrawal anytime",
+      "D": "No IRS contribution limits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Employer match may vest over time, meaning you may forfeit unvested portions if you leave early.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "A 0% introductory rate on a savings product usually implies:",
+    "options": {
+      "A": "Interest will remain 0% permanently",
+      "B": "A promotional period after which a higher rate applies",
+      "C": "No federal deposit insurance coverage",
+      "D": "No access to funds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Banks may offer low teaser rates temporarily before adjusting back to standard rates.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 123,
+    "question": "The most important step after reaching a savings goal is to:",
+    "options": {
+      "A": "Spend all the money immediately",
+      "B": "Reset a new goal to maintain saving habits",
+      "C": "Close the account permanently",
+      "D": "Ignore future financial planning"
+    },
+    "correctAnswer": "B",
+    "explanation": "Continuing goal-setting reinforces prudent financial behavior over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "A diversified investment portfolio helps reduce risk through asset allocation across different:",
+    "options": {
+      "A": "Individual stocks only",
+      "B": "Asset classes and sectors",
+      "C": "High-yield savings accounts",
+      "D": "Single mutual fund"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spreading investments across stocks, bonds, and real estate smooths performance and limits exposure to any one market.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Dollar-cost averaging in investing means you:",
+    "options": {
+      "A": "Invest a fixed dollar amount at regular intervals regardless of market price",
+      "B": "Buy only when prices fall",
+      "C": "Invest a variable amount based on market trends",
+      "D": "Always invest a single lump sum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regular, fixed purchases lower the average cost per share over time, reducing timing risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 126,
+    "question": "A mutual fund’s expense ratio represents:",
+    "options": {
+      "A": "Commission charged per trade",
+      "B": "Annual management and operating fees as a percentage of assets",
+      "C": "Sales load only",
+      "D": "Dividend yield"
+    },
+    "correctAnswer": "B",
+    "explanation": "The expense ratio directly reduces fund returns by covering management, administrative, and marketing costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 127,
+    "question": "An ETF (exchange-traded fund) differs from a mutual fund in that it:",
+    "options": {
+      "A": "Trades on an exchange like a stock throughout the day",
+      "B": "Can only be bought once per day at NAV",
+      "C": "Has higher expense ratios universally",
+      "D": "Does not diversify"
+    },
+    "correctAnswer": "A",
+    "explanation": "ETFs can be bought or sold intraday at market prices, offering liquidity and flexibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 128,
+    "question": "A bond’s yield to maturity (YTM) estimates the total return if the bond is held to:",
+    "options": {
+      "A": "The next coupon date",
+      "B": "Maturity, assuming reinvestment of coupons at YTM rate",
+      "C": "The end of the year",
+      "D": "Any chosen date"
+    },
+    "correctAnswer": "B",
+    "explanation": "YTM accounts for all coupon payments reinvested and the difference between purchase price and par value.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 129,
+    "question": "Corporate bonds rated “investment grade” are considered to have:",
+    "options": {
+      "A": "High risk and high yield",
+      "B": "Lower default risk and moderate yields",
+      "C": "No risk at all",
+      "D": "Yields below treasury rates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investment-grade bonds carry lower probability of default and offer yields above treasuries but below high-yield bonds.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "A “callable” bond allows the issuer to:",
+    "options": {
+      "A": "Redeem the bond early, usually when interest rates drop",
+      "B": "Force investors to lend more money",
+      "C": "Convert the bond into stock",
+      "D": "Defer interest payments indefinitely"
+    },
+    "correctAnswer": "A",
+    "explanation": "Issuers call bonds to refinance at lower rates, which poses reinvestment risk to holders.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 131,
+    "question": "An investor seeking current income with principal preservation would favor:",
+    "options": {
+      "A": "Growth stocks",
+      "B": "High-yield corporate bonds",
+      "C": "Short-term Treasury bills",
+      "D": "Highly speculative penny stocks"
+    },
+    "correctAnswer": "C",
+    "explanation": "T-bills offer safety of principal and predictable interest, though yields are modest.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 132,
+    "question": "A company’s P/E ratio indicates:",
+    "options": {
+      "A": "Price per share divided by earnings per share",
+      "B": "Earnings divided by price",
+      "C": "Dividend yield",
+      "D": "Annual trading volume"
+    },
+    "correctAnswer": "A",
+    "explanation": "P/E measures how much investors pay for each dollar of earnings, reflecting growth expectations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "Small-cap stocks generally carry:",
+    "options": {
+      "A": "Lower volatility than large-caps",
+      "B": "Higher growth potential and higher risk",
+      "C": "Guaranteed dividends",
+      "D": "Federal insurance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Smaller companies can grow faster but also face greater business and market risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "REITs (Real Estate Investment Trusts) are favored by income investors because they:",
+    "options": {
+      "A": "Must distribute at least 90% of taxable income as dividends",
+      "B": "Are exempt from all taxes",
+      "C": "Invest only in residential real estate",
+      "D": "Guarantee capital preservation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The distribution requirement drives high dividend yields, although share prices still fluctuate.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 135,
+    "question": "An index fund aims to:",
+    "options": {
+      "A": "Beat the market through active management",
+      "B": "Replicate the performance of a specific market index at low cost",
+      "C": "Invest only in startups",
+      "D": "Avoid all stock market investments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Index funds passively track indexes like the S\\&P 500, offering broad exposure and minimal fees.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 136,
+    "question": "Growth investing focuses on companies with:",
+    "options": {
+      "A": "Low P/E ratios and high dividends",
+      "B": "Strong revenue and earnings growth prospects",
+      "C": "Significant debt levels",
+      "D": "Obligation to return capital frequently"
+    },
+    "correctAnswer": "B",
+    "explanation": "Growth investors seek capital appreciation over income, often tolerating higher valuations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 137,
+    "question": "Value investing typically seeks stocks that appear:",
+    "options": {
+      "A": "Overvalued by the market",
+      "B": "Undervalued relative to fundamentals like book value",
+      "C": "Highly volatile",
+      "D": "New IPOs only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Value investors look for bargains where market price lags underlying business worth.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "The Sharpe ratio measures:",
+    "options": {
+      "A": "A portfolio’s return per unit of total risk (standard deviation)",
+      "B": "Dividend yield only",
+      "C": "Volatility in isolation",
+      "D": "Duration of bond holdings"
+    },
+    "correctAnswer": "A",
+    "explanation": "A higher Sharpe ratio indicates better risk-adjusted performance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 139,
+    "question": "A 60/40 stock-bond portfolio is commonly recommended for:",
+    "options": {
+      "A": "Aggressive, all-equity exposure",
+      "B": "Moderate risk tolerance balancing growth and income",
+      "C": "Preservation of capital only",
+      "D": "Speculative trading"
+    },
+    "correctAnswer": "B",
+    "explanation": "Diversification between equities and fixed income smooths volatility and provides income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "Tactical asset allocation differs from strategic allocation by:",
+    "options": {
+      "A": "Fixing weights permanently",
+      "B": "Allowing short-term deviations based on market outlook",
+      "C": "Ignoring market conditions",
+      "D": "Requiring daily rebalancing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tactical shifts capitalize on perceived market inefficiencies while maintaining long-term policy.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 141,
+    "question": "ESG investing incorporates criteria related to:",
+    "options": {
+      "A": "Only financial metrics",
+      "B": "Environmental, Social, and Governance factors alongside financial analysis",
+      "C": "Market timing exclusively",
+      "D": "Maximizing short-term gains"
+    },
+    "correctAnswer": "B",
+    "explanation": "ESG screens evaluate corporate sustainability and ethical practices in investment selection.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 142,
+    "question": "An investor’s time horizon primarily influences:",
+    "options": {
+      "A": "Choice between liquid and illiquid assets and risk tolerance",
+      "B": "Tax bracket only",
+      "C": "Credit score",
+      "D": "Insurance premiums"
+    },
+    "correctAnswer": "A",
+    "explanation": "Longer horizons allow for more volatility and illiquid allocation for higher returns.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "Liquidity in investing refers to:",
+    "options": {
+      "A": "Ease of converting an asset to cash quickly at a fair price",
+      "B": "Yield of a bond",
+      "C": "Credit rating of a stock",
+      "D": "Number of trading days per year"
+    },
+    "correctAnswer": "A",
+    "explanation": "Highly liquid assets trade in deep markets with narrow bid-ask spreads.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "A target-risk portfolio is designed to:",
+    "options": {
+      "A": "Achieve maximum returns regardless of risk",
+      "B": "Match a pre-specified risk level and adjust allocation over time",
+      "C": "Only hold cash",
+      "D": "Change risk daily"
+    },
+    "correctAnswer": "B",
+    "explanation": "Target-risk funds maintain a constant risk profile aligned with investor preferences.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "Behavioral biases such as “loss aversion” often cause investors to:",
+    "options": {
+      "A": "Sell winning positions too early and hold losing positions too long",
+      "B": "Always buy low and sell high",
+      "C": "Ignore market news",
+      "D": "Achieve perfect timing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Loss aversion makes losses feel worse than equivalent gains feel good, distorting decisions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 146,
+    "question": "A covered call strategy involves:",
+    "options": {
+      "A": "Selling call options on a stock you own to generate income",
+      "B": "Buying call options to hedge",
+      "C": "Short selling calls",
+      "D": "Avoiding all equity exposure"
+    },
+    "correctAnswer": "A",
+    "explanation": "Premiums from sold calls provide extra income but cap upside potential.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 147,
+    "question": "The “efficient market hypothesis” (EMH) posits that:",
+    "options": {
+      "A": "Markets are perfectly predictable",
+      "B": "Current asset prices fully reflect all available information",
+      "C": "Active management always outperforms passive",
+      "D": "Only insiders can profit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Under EMH, consistently beating the market is highly unlikely without insider info.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 148,
+    "question": "Rebalancing to target weights periodically helps:",
+    "options": {
+      "A": "Lock in gains and control risk by selling overperforming assets and buying underperforming ones",
+      "B": "Eliminate all market risk",
+      "C": "Guarantee higher returns",
+      "D": "Increase portfolio turnover for tax benefits"
+    },
+    "correctAnswer": "A",
+    "explanation": "Discipline through rebalancing prevents drift from strategic allocation and enforces “buy low, sell high.”",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 149,
+    "question": "Whole life insurance provides both a death benefit and:",
+    "options": {
+      "A": "Cash value accumulation that grows tax-deferred",
+      "B": "Coverage only for 10 years",
+      "C": "No premiums after age 65",
+      "D": "Investment guarantees above inflation"
+    },
+    "correctAnswer": "A",
+    "explanation": "Part of your premium funds a savings component, accessible via loans or withdrawals.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 150,
+    "question": "Term life insurance differs by offering:",
+    "options": {
+      "A": "Lifetime coverage with cash value",
+      "B": "Pure death benefit protection for a specified term at lower cost",
+      "C": "Investment returns tied to market performance",
+      "D": "Variable premiums each year"
+    },
+    "correctAnswer": "B",
+    "explanation": "Term policies are affordable and straightforward, expiring if not renewed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "An insurance deductible is:",
+    "options": {
+      "A": "The monthly premium amount",
+      "B": "The out-of-pocket cost before insurance coverage begins on a claim",
+      "C": "The death benefit",
+      "D": "A discount on premiums"
+    },
+    "correctAnswer": "B",
+    "explanation": "Higher deductibles lower premiums but increase initial claim costs you must pay.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 152,
+    "question": "An HSA (Health Savings Account) requires enrollment in a:",
+    "options": {
+      "A": "Traditional IRA",
+      "B": "High-deductible health plan (HDHP)",
+      "C": "Flexible spending account",
+      "D": "Medicare plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "HSAs complement HDHPs by providing tax-advantaged savings for medical expenses.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 153,
+    "question": "Disability insurance is most important for:",
+    "options": {
+      "A": "Covering property damage",
+      "B": "Replacing income if you can’t work due to illness or injury",
+      "C": "Paying for life insurance premiums",
+      "D": "Covering dependents only"
+    },
+    "correctAnswer": "B",
+    "explanation": "It protects against lost wages when you’re unable to earn due to disability.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 154,
+    "question": "Umbrella liability insurance provides:",
+    "options": {
+      "A": "Excess liability coverage above underlying policies like auto or homeowners",
+      "B": "Only property damage coverage",
+      "C": "Health insurance extensions",
+      "D": "Tax-free investment returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "Umbrella policies kick in when standard liability limits are exhausted, safeguarding assets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 155,
+    "question": "Auto insurance liability coverage pays for:",
+    "options": {
+      "A": "Repairs to your own vehicle",
+      "B": "Damages and injuries you cause to others up to policy limits",
+      "C": "Medical bills for all passengers",
+      "D": "Roadside assistance only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Liability coverage is mandatory in most states to protect third parties from your negligence.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "“Coinsurance” in health insurance means you:",
+    "options": {
+      "A": "Pay a fixed dollar copay for each service",
+      "B": "Share costs (e.g., 20%) of covered expenses after deductible",
+      "C": "Are not covered for coinsurance procedures",
+      "D": "Receive full coverage after network providers"
+    },
+    "correctAnswer": "B",
+    "explanation": "The insurer pays the remaining percentage (e.g., 80%) after you meet your deductible.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Life insurance “underwriting” assesses:",
+    "options": {
+      "A": "Only the premium rate",
+      "B": "Your age, health, and lifestyle to determine insurability and rates",
+      "C": "Your investment experience",
+      "D": "Credit score only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Underwriting evaluates mortality risk through medical exams and questionnaires.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 158,
+    "question": "Annuities can provide:",
+    "options": {
+      "A": "Lump-sum death benefits only",
+      "B": "Guaranteed periodic income streams, potentially for life",
+      "C": "Only investment returns above S\\&P 500",
+      "D": "No tax advantages"
+    },
+    "correctAnswer": "B",
+    "explanation": "Annuities convert a lump sum into regular payments, managing longevity risk.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 159,
+    "question": "Medicaid eligibility for long-term care is:",
+    "options": {
+      "A": "Universal for all seniors",
+      "B": "Based on strict income and asset limits",
+      "C": "Provided by private insurers",
+      "D": "Guaranteed regardless of savings"
+    },
+    "correctAnswer": "B",
+    "explanation": "Medicaid covers nursing home care but requires spend-down of assets to qualify.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 160,
+    "question": "A rider on an insurance policy is:",
+    "options": {
+      "A": "A beneficiary designation",
+      "B": "An optional provision that modifies coverage or adds benefits",
+      "C": "The policy premium only",
+      "D": "A second policy in a bundle"
+    },
+    "correctAnswer": "B",
+    "explanation": "Riders like waiver of premium or critical illness expand or customize base coverage.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 161,
+    "question": "Replacement cost in homeowners insurance pays:",
+    "options": {
+      "A": "Actual cash value minus depreciation",
+      "B": "The full cost to rebuild or repair covered losses at current prices",
+      "C": "Market value of the home only",
+      "D": "Mortgage balance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Replacement cost coverage ensures you can restore property without depreciation deductions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 162,
+    "question": "Flood insurance is typically:",
+    "options": {
+      "A": "Covered under standard homeowners policies",
+      "B": "Purchased separately through the NFIP or private carriers",
+      "C": "Optional only for renters",
+      "D": "Automatically included with auto insurance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Most homeowners policies exclude flood; separate coverage is essential in risk zones.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 163,
+    "question": "Key person life insurance on a business:",
+    "options": {
+      "A": "Pays benefits to the insured individual",
+      "B": "Provides funds to the company if a critical employee dies",
+      "C": "Is tax-deductible for personal use",
+      "D": "Covers only property damage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proceeds help cover loss of revenue and recruitment costs when a key employee passes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 164,
+    "question": "Beneficiaries of a life insurance policy receive proceeds:",
+    "options": {
+      "A": "As taxable income",
+      "B": "Generally income tax-free",
+      "C": "Only after probate",
+      "D": "Subject to capital gains tax"
+    },
+    "correctAnswer": "B",
+    "explanation": "Death benefits paid to named beneficiaries are not taxed as ordinary income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 165,
+    "question": "To evaluate insurance needs, you should conduct a:",
+    "options": {
+      "A": "Budget only",
+      "B": "Risk assessment comparing assets, liabilities, and exposure",
+      "C": "Credit check",
+      "D": "Market survey of premiums"
+    },
+    "correctAnswer": "B",
+    "explanation": "A thorough risk assessment identifies coverage gaps and appropriate limits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 166,
+    "question": "Captive insurance companies are:",
+    "options": {
+      "A": "Government-run insurers",
+      "B": "Formed by parent companies to underwrite their own risks",
+      "C": "Prohibited in the U.S.",
+      "D": "Only for high-risk individuals"
+    },
+    "correctAnswer": "B",
+    "explanation": "Captives can reduce costs and customize coverage but require capital and regulatory compliance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 167,
+    "question": "Moral hazard in insurance describes:",
+    "options": {
+      "A": "Higher premiums for risky behavior",
+      "B": "Increased risk-taking because you’re insured",
+      "C": "A discount for no-claims history",
+      "D": "Penalties for late payments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Coverage may encourage less caution, leading to more frequent or larger claims.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 168,
+    "question": "An insurance “waiting period” for disability benefits means:",
+    "options": {
+      "A": "You receive payments immediately",
+      "B": "You must wait a specified time after claim before benefits begin",
+      "C": "You lose coverage permanently",
+      "D": "You pay no premiums during the wait"
+    },
+    "correctAnswer": "B",
+    "explanation": "Longer waiting periods reduce premiums but delay benefit access.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "Insurance “reinsurance” is:",
+    "options": {
+      "A": "The process of being insured twice by the same company",
+      "B": "The practice of insurers transferring portions of risk portfolios to other insurers",
+      "C": "A government guarantee of claims",
+      "D": "Coverage for rental cars only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reinsurers help primary insurers manage large exposures and stabilize loss experience.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 170,
+    "question": "A standard homeowner’s policy form “HO-3” provides:",
+    "options": {
+      "A": "Broad coverage for homes and named perils for contents",
+      "B": "All-risk coverage for both dwelling and personal property",
+      "C": "Only liability coverage",
+      "D": "Coverage only for floods"
+    },
+    "correctAnswer": "A",
+    "explanation": "HO-3 covers the dwelling for all risks except exclusions, while contents are covered on a named-peril basis.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 171,
+    "question": "Vehicle comprehensive auto coverage pays for:",
+    "options": {
+      "A": "Collision with another vehicle only",
+      "B": "Non-collision losses like theft, vandalism, and weather damage",
+      "C": "Liability to others",
+      "D": "Routine maintenance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive covers “other than collision” perils not related to accidents.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 172,
+    "question": "Under a “guaranteed issue” life insurance policy, the insurer:",
+    "options": {
+      "A": "Requires a medical exam",
+      "B": "Cannot deny coverage based on health",
+      "C": "Charges no premium",
+      "D": "Limits coverage to \\$1 million"
+    },
+    "correctAnswer": "B",
+    "explanation": "Guaranteed issue policies accept applicants regardless of health, but at higher cost and limited benefits.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 173,
+    "question": "Insurance “subrogation” allows an insurer to:",
+    "options": {
+      "A": "Recover costs from a third party responsible for a loss after paying your claim",
+      "B": "Deny all claims based on policy language",
+      "C": "Transfer the policy to another person",
+      "D": "Increase premiums retroactively"
+    },
+    "correctAnswer": "A",
+    "explanation": "Subrogation preserves insured’s interests by letting the insurer pursue reimbursement from negligent parties.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 174,
+    "question": "A Traditional IRA contribution limit for 2025 is:",
+    "options": {
+      "A": "\\$6,000 under age 50; \\$7,000 if 50 or older",
+      "B": "\\$7,000 flat for all ages",
+      "C": "No limit",
+      "D": "\\$3,000 only"
+    },
+    "correctAnswer": "A",
+    "explanation": "IRS sets annual IRA limits with catch-up contributions for those 50+.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "SEP-IRA plans are primarily used by:",
+    "options": {
+      "A": "Large public companies",
+      "B": "Self-employed individuals and small business owners",
+      "C": "Government employees",
+      "D": "Only nonprofit organizations"
+    },
+    "correctAnswer": "B",
+    "explanation": "SEP-IRAs allow higher contribution limits and easy administration for small employers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "Roth 401(k) contributions differ by being:",
+    "options": {
+      "A": "Tax-deductible on contributions",
+      "B": "Made with after-tax dollars and qualified withdrawals are tax-free",
+      "C": "Limited to \\$1,000 per year",
+      "D": "Only for government workers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Roth accounts trade upfront tax break for tax-free retirement distributions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 177,
+    "question": "A “backdoor Roth” strategy involves:",
+    "options": {
+      "A": "Direct contributions above income limits",
+      "B": "Contributing to a nondeductible IRA then converting to Roth",
+      "C": "Taking out a loan from your Roth",
+      "D": "Rolling over after age 59½ only"
+    },
+    "correctAnswer": "B",
+    "explanation": "High earners bypass Roth contribution limits via nondeductible IRA conversions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 178,
+    "question": "An employer’s matching contributions to a 401(k) are subject to:",
+    "options": {
+      "A": "Immediate withdrawal with no penalties",
+      "B": "Vesting schedules, meaning you may need to stay employed to keep them",
+      "C": "Taxation at contribution",
+      "D": "Income limits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Vesting determines when employer funds legally belong to you.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 179,
+    "question": "A vested benefit is one that you:",
+    "options": {
+      "A": "Can lose if you leave the employer",
+      "B": "Have an enforceable right to, regardless of future service",
+      "C": "Only receive upon reaching age 65",
+      "D": "Must repay if you change jobs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Vesting schedules guarantee ownership of employer contributions after a certain period.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "Required minimum distributions (RMDs) from traditional retirement accounts must begin by:",
+    "options": {
+      "A": "April 1 of the year after you turn 72",
+      "B": "December 31 of the year you retire",
+      "C": "Age 65 only",
+      "D": "Whenever you choose"
+    },
+    "correctAnswer": "A",
+    "explanation": "IRS rules mandate RMDs to ensure retirement funds are eventually taxed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "A “stretch IRA” strategy allows beneficiaries to:",
+    "options": {
+      "A": "Defer all taxes indefinitely",
+      "B": "Take distributions over their own life expectancy",
+      "C": "Convert to Roth with no tax",
+      "D": "Roll funds back into the original owner’s account"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spreading distributions lowers annual taxable income for heirs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 182,
+    "question": "Social Security retirement benefits are calculated based on:",
+    "options": {
+      "A": "Your highest 35 years of indexed earnings",
+      "B": "Total lifetime contributions only",
+      "C": "Age at application exclusively",
+      "D": "Number of children"
+    },
+    "correctAnswer": "A",
+    "explanation": "SSA averages indexed earnings to determine the primary insurance amount (PIA).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 183,
+    "question": "Delaying Social Security benefits past full retirement age:",
+    "options": {
+      "A": "Reduces your eventual benefit",
+      "B": "Increases your monthly benefit up to age 70",
+      "C": "Has no effect",
+      "D": "Disqualifies you from spousal benefits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Delayed retirement credits raise benefit 8% per year up to age 70.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "A pension plan’s “defined benefit” promises:",
+    "options": {
+      "A": "A lump-sum investment option only",
+      "B": "A predetermined periodic payment based on salary and years of service",
+      "C": "No guaranteed benefits",
+      "D": "Employer contribution matching only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Defined benefit plans calculate payouts via actuarial formulas using key inputs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 185,
+    "question": "Lump-sum pension options require evaluation to compare:",
+    "options": {
+      "A": "Annuity payments versus present value",
+      "B": "Only investment returns",
+      "C": "Your credit score",
+      "D": "Mortgage rates"
+    },
+    "correctAnswer": "A",
+    "explanation": "Comparing guaranteed income streams to equivalent lump-sum value requires discounting.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 186,
+    "question": "A durable power of attorney for finances allows:",
+    "options": {
+      "A": "Medical decisions only",
+      "B": "A designated agent to manage financial matters if you become incapacitated",
+      "C": "Automatic will creation",
+      "D": "Bypass of probate for all assets"
+    },
+    "correctAnswer": "B",
+    "explanation": "A financial POA grants decision-making authority to a trusted person.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 187,
+    "question": "A revocable living trust can help:",
+    "options": {
+      "A": "Avoid probate for assets titled in the trust’s name",
+      "B": "Increase your tax liability",
+      "C": "Guarantee higher investment returns",
+      "D": "Replace your will entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": "Assets held in trust pass to beneficiaries outside the court-supervised probate process.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "In estate planning, an “executor” is the person named to:",
+    "options": {
+      "A": "Inherit all assets",
+      "B": "Administer your estate according to your will after death",
+      "C": "Determine your beneficiaries",
+      "D": "Change your will unilaterally"
+    },
+    "correctAnswer": "B",
+    "explanation": "The executor gathers assets, pays debts, and distributes property per the will.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "A charitable remainder trust provides:",
+    "options": {
+      "A": "Immediate tax deduction and eventual payout to beneficiaries over time",
+      "B": "No tax benefits",
+      "C": "Guaranteed fixed returns only",
+      "D": "Only after 20 years"
+    },
+    "correctAnswer": "A",
+    "explanation": "Donors receive income in retirement and assets pass to charity upon death.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 190,
+    "question": "Portability of the federal estate tax exemption allows:",
+    "options": {
+      "A": "Both spouses to combine their unused exemption amounts",
+      "B": "No transfer between spouses",
+      "C": "Unlimited estate tax avoidance",
+      "D": "Only for charitable gifts"
+    },
+    "correctAnswer": "A",
+    "explanation": "Surviving spouses may claim the deceased spouse's unused exemption to shield more assets.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 191,
+    "question": "A 529 plan’s assets passing to a beneficiary upon death avoid:",
+    "options": {
+      "A": "Gift taxes if within annual exclusion limits",
+      "B": "Income taxes on growth forever",
+      "C": "Estate taxes entirely",
+      "D": "All taxes on distributions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Contributions are gifts; if within exclusion limits, they pass to heirs without gift tax.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "A Health Savings Account (HSA) is owned by:",
+    "options": {
+      "A": "Your employer",
+      "B": "You—the individual account holder retains it regardless of employment",
+      "C": "The bank only",
+      "D": "The government"
+    },
+    "correctAnswer": "B",
+    "explanation": "HSAs are portable accounts that stay with you even if you change jobs or retire.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "QLAC (Qualified Longevity Annuity Contract) within IRAs allows:",
+    "options": {
+      "A": "Delay of RMDs on the annuity portion until age 85",
+      "B": "Immediate lump-sum withdrawal with no tax",
+      "C": "Conversion to Roth only",
+      "D": "Penalty-free early withdrawal"
+    },
+    "correctAnswer": "A",
+    "explanation": "IRS rules permit using part of IRA for a longevity annuity to defer required withdrawals.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 194,
+    "question": "The “three-legged stool” of retirement income comprises:",
+    "options": {
+      "A": "Social Security, employer pensions, and personal savings/investments",
+      "B": "Social Security, credit cards, and mortgages",
+      "C": "Earned income only",
+      "D": "Real estate only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Diversifying income sources reduces reliance on any single pillar.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "Financial elder abuse prevention includes:",
+    "options": {
+      "A": "Monitoring for unexplained withdrawals and unauthorized transactions",
+      "B": "Avoiding all digital banking",
+      "C": "Sharing account details with all caregivers",
+      "D": "Ignoring missing funds"
+    },
+    "correctAnswer": "A",
+    "explanation": "Early detection of anomalies helps protect vulnerable seniors’ finances.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 196,
+    "question": "Cognitive decline risk calls for:",
+    "options": {
+      "A": "Only verbal agreements with caregivers",
+      "B": "Formal powers of attorney and regular review of financial protections",
+      "C": "Immediate revocation of all accounts",
+      "D": "Avoidance of professional advice"
+    },
+    "correctAnswer": "B",
+    "explanation": "Legal documents and oversight help safeguard finances if decision-making capacity diminishes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 197,
+    "question": "A durable health care proxy designates someone to:",
+    "options": {
+      "A": "Manage your investment accounts",
+      "B": "Make medical decisions for you if you cannot",
+      "C": "File your taxes",
+      "D": "Sell your property"
+    },
+    "correctAnswer": "B",
+    "explanation": "A health care proxy ensures your treatment preferences are followed by a trusted agent.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "The primary purpose of an annual financial checkup is to:",
+    "options": {
+      "A": "Prepare for tax audits",
+      "B": "Review progress, update goals, and adjust strategies",
+      "C": "Increase spending",
+      "D": "Close all unused accounts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Regular reviews ensure your plan stays aligned with life changes and market conditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "A zero-based budget requires:",
+    "options": {
+      "A": "Allocating every dollar of income to expenses, savings, or debt payments",
+      "B": "Starting at zero only for emergencies",
+      "C": "No long-term planning",
+      "D": "Leaving surplus unallocated"
+    },
+    "correctAnswer": "A",
+    "explanation": "Every dollar is assigned a purpose, maximizing control and reducing waste.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "The 50/30/20 budgeting rule allocates:",
+    "options": {
+      "A": "50% needs, 30% wants, 20% savings/debt repayment",
+      "B": "50% wants, 30% needs, 20% taxes",
+      "C": "50% savings, 30% expenses, 20% charity",
+      "D": "50% investments, 30% taxes, 20% living expenses"
+    },
+    "correctAnswer": "A",
+    "explanation": "This guideline provides a balanced framework for spending and saving.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 201,
+    "question": "A sinking fund is used to:",
+    "options": {
+      "A": "Allocate savings for future large purchases or irregular expenses",
+      "B": "Pay down credit card debt only",
+      "C": "Fund retirement exclusively",
+      "D": "Invest in stocks only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Setting aside small amounts regularly prevents credit use for planned expenditures.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 202,
+    "question": "Budget “envelopes” in cash budgeting help:",
+    "options": {
+      "A": "Automate electronic payments",
+      "B": "Visually track spending categories with cash only",
+      "C": "Eliminate tax obligations",
+      "D": "Increase interest earnings"
+    },
+    "correctAnswer": "B",
+    "explanation": "Physical envelopes limit spending to the cash on hand for each category.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 203,
+    "question": "A breakeven analysis in personal finance determines:",
+    "options": {
+      "A": "How much you need to earn to cover all fixed and variable expenses",
+      "B": "Your credit score threshold for loans",
+      "C": "Exact ROI on investments",
+      "D": "Only your mortgage payment"
+    },
+    "correctAnswer": "A",
+    "explanation": "Knowing your breakeven income guides minimum earning needs to avoid deficits.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 204,
+    "question": "Financial goals should be prioritized by:",
+    "options": {
+      "A": "Time horizon and importance (e.g., emergency fund before vacation)",
+      "B": "Personal preference only",
+      "C": "Income level alone",
+      "D": "Peer benchmarks"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sequencing goals ensures capacity to meet critical needs first.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 205,
+    "question": "SMART goals in financial planning stand for:",
+    "options": {
+      "A": "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "B": "Simple, Manageable, Accurate, Realistic, Tangible",
+      "C": "Strategic, Motivational, Aspirational, Reliable, Timely",
+      "D": "Secure, Market-linked, Adjustable, Risk-free, Transparent"
+    },
+    "correctAnswer": "A",
+    "explanation": "SMART criteria sharpen focus and accountability for financial objectives.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 206,
+    "question": "A financial “dashboard” aggregates metrics like:",
+    "options": {
+      "A": "Net worth, cash flow, and investment performance in one view",
+      "B": "Only bank balances",
+      "C": "Only credit card statements",
+      "D": "Only mortgage rates"
+    },
+    "correctAnswer": "A",
+    "explanation": "Consolidated dashboards simplify monitoring of multiple aspects of your finances.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 207,
+    "question": "Inflation-adjusted returns (real returns) equal:",
+    "options": {
+      "A": "Nominal return minus inflation rate",
+      "B": "Nominal return plus inflation rate",
+      "C": "Nominal return only",
+      "D": "Inflation rate only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Real returns measure growth in purchasing power after accounting for inflation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 208,
+    "question": "A financial planner’s fiduciary duty requires:",
+    "options": {
+      "A": "Charging the highest fees possible",
+      "B": "Always acting in your best interest and disclosing conflicts",
+      "C": "Only selling proprietary products",
+      "D": "Avoiding risk discussions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fiduciaries must prioritize clients’ needs above their own compensation incentives.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 209,
+    "question": "Dollar-weighted return (IRR) differs from time-weighted return by:",
+    "options": {
+      "A": "Ignoring cash flows",
+      "B": "Incorporating the timing and size of your contributions and withdrawals",
+      "C": "Only using end-of-period values",
+      "D": "Being the same as nominal return"
+    },
+    "correctAnswer": "B",
+    "explanation": "IRR reflects your personal return experience including the impact of when you invested or withdrew funds.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 210,
+    "question": "The “Monte Carlo” simulation in retirement planning uses:",
+    "options": {
+      "A": "Historical returns, volatility, and random sampling to estimate the probability of meeting goals",
+      "B": "Only average returns",
+      "C": "Fixed future rates",
+      "D": "No statistical methods"
+    },
+    "correctAnswer": "A",
+    "explanation": "Monte Carlo models a range of market scenarios to assess plan robustness.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 211,
+    "question": "Longevity risk refers to the chance that you:",
+    "options": {
+      "A": "Outlive your savings",
+      "B": "Die prematurely",
+      "C": "Experience only market risk",
+      "D": "Avoid all debts"
+    },
+    "correctAnswer": "A",
+    "explanation": "Planning must account for longer life expectancy to ensure funds last.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "A financial emergency checklist should include:",
+    "options": {
+      "A": "Accessing emergency fund, halting nonessential spending, and contacting lenders for relief options",
+      "B": "Only selling investments immediately",
+      "C": "Ignoring bills",
+      "D": "Investing in high-risk assets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Structured responses minimize panic and preserve financial stability under stress.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 213,
+    "question": "Digital identity theft protection services typically offer:",
+    "options": {
+      "A": "Credit monitoring, alerts, and identity restoration support",
+      "B": "Guaranteed fraud prevention",
+      "C": "Free credit score boosts only",
+      "D": "Investment advice"
+    },
+    "correctAnswer": "A",
+    "explanation": "Early warnings and help navigating fraud resolution safeguard your identity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "The Consumer Financial Protection Bureau (CFPB) enforces:",
+    "options": {
+      "A": "Fair lending and consumer protection laws for financial products and services",
+      "B": "Only securities regulations",
+      "C": "Only insurance mandates",
+      "D": "Tax collection"
+    },
+    "correctAnswer": "A",
+    "explanation": "CFPB authority covers mortgages, credit cards, student loans, and other consumer finance matters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 215,
+    "question": "Under the Fair Credit Billing Act, you can dispute billing errors on credit cards by:",
+    "options": {
+      "A": "Notifying the issuer in writing within 60 days of the statement date",
+      "B": "Calling only",
+      "C": "Ignoring small discrepancies",
+      "D": "Paying before disputing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Written disputes trigger investigation and possible adjustments under federal law.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 216,
+    "question": "Financial literacy education in schools typically improves:",
+    "options": {
+      "A": "Savings rates, budgeting skills, and credit behavior among young adults",
+      "B": "Only stock trading skills",
+      "C": "Only tax preparation knowledge",
+      "D": "No measurable outcomes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Early financial education fosters responsible money management habits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 217,
+    "question": "A personal “paycheck stub” shows:",
+    "options": {
+      "A": "Gross pay, deductions (taxes and benefits), net pay, and year-to-date totals",
+      "B": "Only take-home pay",
+      "C": "Only hours worked",
+      "D": "Only employer contributions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Detailed stubs help verify correct earnings and withholdings for budgeting and taxes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 218,
+    "question": "To prepare for an audit of your personal finances (e.g., loan application), you should:",
+    "options": {
+      "A": "Gather bank statements, tax returns, and proof of income and debts",
+      "B": "Only provide credit card bills",
+      "C": "Hide debt details",
+      "D": "Provide only verbal summaries"
+    },
+    "correctAnswer": "A",
+    "explanation": "Comprehensive documentation streamlines verification and builds lender confidence.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "Impact investing seeks to:",
+    "options": {
+      "A": "Maximize financial returns only",
+      "B": "Generate measurable social or environmental benefits alongside financial returns",
+      "C": "Avoid any market investments",
+      "D": "Focus solely on short-term gains"
+    },
+    "correctAnswer": "B",
+    "explanation": "Impact investors evaluate both financial metrics and impact metrics when choosing investments.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 220,
+    "question": "A taxable brokerage account differs from a retirement account by:",
+    "options": {
+      "A": "Having contribution limits",
+      "B": "Allowing immediate access to funds but subject to capital gains taxes on sales",
+      "C": "Growing tax-deferred",
+      "D": "Prohibiting stock investments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tax-able accounts offer flexibility, but realize gains are taxed in the year sold.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 221,
+    "question": "Capital gains on assets held longer than one year are taxed at:",
+    "options": {
+      "A": "Ordinary income rates",
+      "B": "Preferential long-term capital gains rates",
+      "C": "No tax",
+      "D": "Gift tax rates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Long-term gains receive lower rates (0%, 15%, or 20%) depending on your bracket.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 222,
+    "question": "A Roth conversion involves:",
+    "options": {
+      "A": "Moving pre-tax retirement assets into a Roth account, paying income tax now",
+      "B": "Transferring Roth assets to a traditional IRA",
+      "C": "Avoiding all taxes forever",
+      "D": "Only allowed at age 65"
+    },
+    "correctAnswer": "A",
+    "explanation": "Conversions trade immediate tax liability for future tax-free growth.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 223,
+    "question": "Tax-loss harvesting is a strategy to:",
+    "options": {
+      "A": "Generate losses to offset capital gains and reduce taxable income",
+      "B": "Avoid reporting any gains",
+      "C": "Only possible in IRAs",
+      "D": "Increase your tax bill"
+    },
+    "correctAnswer": "A",
+    "explanation": "Selling losers to realize losses can lower tax owed on gains or up to \\$3,000 of ordinary income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 224,
+    "question": "A Flexible Spending Account (FSA) has a “use-it-or-lose-it” rule meaning:",
+    "options": {
+      "A": "Unused funds after the plan year are forfeited to the employer (with some grace period exceptions)",
+      "B": "You can roll over any amount indefinitely",
+      "C": "Funds earn interest like HSAs",
+      "D": "It never expires"
+    },
+    "correctAnswer": "A",
+    "explanation": "FSAs require planning to avoid losing unspent contributions at year end.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "A Dependent Care FSA covers expenses such as:",
+    "options": {
+      "A": "Childcare and elder care necessary for you to work",
+      "B": "Tuition for college",
+      "C": "Rent payments",
+      "D": "Health insurance premiums"
+    },
+    "correctAnswer": "A",
+    "explanation": "Funds reimburse qualifying caregiver costs, lowering your taxable income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 226,
+    "question": "A Health Reimbursement Arrangement (HRA) is:",
+    "options": {
+      "A": "Funded solely by the employer to reimburse medical expenses tax-free",
+      "B": "Employee-funded pre-tax like an HSA",
+      "C": "The same as a high-deductible plan",
+      "D": "Taxed at ordinary rates"
+    },
+    "correctAnswer": "A",
+    "explanation": "HRAs allow employer contributions toward health costs without employee funding or contribution limits.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 227,
+    "question": "Premiums for disability insurance vary based on:",
+    "options": {
+      "A": "Your age, occupation risk, health, and benefit amount",
+      "B": "Only your credit score",
+      "C": "Only the insurance company’s profits",
+      "D": "Flat across all applicants"
+    },
+    "correctAnswer": "A",
+    "explanation": "Underwriting factors determine risk premium levels for income protection.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 228,
+    "question": "Life insurance cash values grow:",
+    "options": {
+      "A": "At fixed, guaranteed minimum rates plus potential dividends for participating policies",
+      "B": "Only when you borrow against the policy",
+      "C": "At market rates like stocks",
+      "D": "Without any growth"
+    },
+    "correctAnswer": "A",
+    "explanation": "Whole and universal life policies credit guaranteed interest with possible additional dividends.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 229,
+    "question": "Under the SECURE Act, inherited IRAs for most non-spouse beneficiaries must be:",
+    "options": {
+      "A": "Fully distributed within 10 years of the original owner’s death",
+      "B": "Taken over the beneficiary’s life expectancy",
+      "C": "Converted to Roth only",
+      "D": "Deferred indefinitely"
+    },
+    "correctAnswer": "A",
+    "explanation": "The 10-year rule accelerates distributions, eliminating “stretch IRA” for most heirs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 230,
+    "question": "Financial institutions must report cash transactions over \\$10,000 via:",
+    "options": {
+      "A": "IRS Form 1099",
+      "B": "FinCEN Form 104",
+      "C": "FinCEN Form 8300",
+      "D": "Form W-9"
+    },
+    "correctAnswer": "C",
+    "explanation": "Businesses file Form 8300 to report large cash receipts, aiding in anti-money laundering efforts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 231,
+    "question": "A private placement memorandum (PPM) is provided to investors in:",
+    "options": {
+      "A": "Publicly traded stocks",
+      "B": "Unregistered securities offerings, detailing risks and terms",
+      "C": "Government bonds",
+      "D": "Certificates of deposit"
+    },
+    "correctAnswer": "B",
+    "explanation": "PPMs disclose essential information during private fundraising to sophisticated investors.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 232,
+    "question": "A custodian account for minors (UTMA/UGMA) allows:",
+    "options": {
+      "A": "Irrevocable gifting of assets to a child, with the custodian managing until majority",
+      "B": "Guaranteed returns",
+      "C": "Tax-free growth forever",
+      "D": "Immediate parental control only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Uniform transfer/gift acts enable tax-efficient transfers to children with legal custodians.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 233,
+    "question": "A private equity investment typically:",
+    "options": {
+      "A": "Is highly liquid and traded daily",
+      "B": "Involves long-term capital commitments to non-public companies",
+      "C": "Guarantees principal and returns",
+      "D": "Is insured by the FDIC"
+    },
+    "correctAnswer": "B",
+    "explanation": "PE requires locking up capital for multi-year horizons to support business growth or buyouts.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 234,
+    "question": "A hedge fund manager charging “2 and 20” means:",
+    "options": {
+      "A": "2% management fee and 20% performance fee on profits",
+      "B": "2% of profits and 20% of assets",
+      "C": "\\$2 flat fee and 20% of returns",
+      "D": "No fees"
+    },
+    "correctAnswer": "A",
+    "explanation": "Traditional hedge fund fee structures include an annual asset fee plus incentive compensation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 235,
+    "question": "A private real estate investment trust (REIT) differs from a public REIT by:",
+    "options": {
+      "A": "Being unregistered and less liquid but offering specialized property exposures",
+      "B": "Being government guaranteed",
+      "C": "Offering no dividends",
+      "D": "Only investing in residential properties"
+    },
+    "correctAnswer": "A",
+    "explanation": "Private REITs often require higher minimum investments and longer lock-up periods.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 236,
+    "question": "Structured products are:",
+    "options": {
+      "A": "Simple mutual funds",
+      "B": "Customized investments combining derivatives and underlying assets to meet specific risk/return profiles",
+      "C": "FDIC-insured bank products",
+      "D": "Tax-exempt bonds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Banks issue structured notes with payoff formulas tied to equities, indices, or rates.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 237,
+    "question": "A SPAC (Special Purpose Acquisition Company) is:",
+    "options": {
+      "A": "A shell company raising capital to merge with a private firm, taking it public",
+      "B": "A government agency",
+      "C": "A traditional IPO",
+      "D": "A private equity fund"
+    },
+    "correctAnswer": "A",
+    "explanation": "SPACs provide private companies an alternative route to public listing via a reverse merger.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 238,
+    "question": "An accredited investor under SEC rules must meet criteria such as:",
+    "options": {
+      "A": "\\$200,000 annual income individually or \\$300,000 with spouse, or \\$1M net worth",
+      "B": "Any individual over 18",
+      "C": "Only institutional entities",
+      "D": "Mandatory securities license"
+    },
+    "correctAnswer": "A",
+    "explanation": "Accredited status gates access to private placements and certain investment vehicles.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 239,
+    "question": "A DCF (Discounted Cash Flow) valuation estimates:",
+    "options": {
+      "A": "Future cash flows discounted at an appropriate rate to determine present value",
+      "B": "Only book value",
+      "C": "Market price only",
+      "D": "Dividend yields exclusively"
+    },
+    "correctAnswer": "A",
+    "explanation": "DCF models intrinsic value by projecting future earnings and discounting for time and risk.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 240,
+    "question": "A reverse mortgage allows homeowners 62+ to:",
+    "options": {
+      "A": "Borrow against home equity without monthly payments, repaid when the home is sold or owner dies",
+      "B": "Receive government grants",
+      "C": "Avoid all property taxes",
+      "D": "Rent their home long-term"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reverse mortgages provide income but reduce estate equity and incur fees.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 241,
+    "question": "A financial “stress test” for retirement simulates:",
+    "options": {
+      "A": "Only market downturns",
+      "B": "Various adverse scenarios (market drops, early retirement, inflation spikes) to gauge plan resilience",
+      "C": "Health emergencies only",
+      "D": "Credit card debt only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Stress tests reveal vulnerabilities so you can adjust contributions or asset allocations.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 242,
+    "question": "Market timing is generally discouraged because:",
+    "options": {
+      "A": "Predicting short-term price movements consistently is extremely difficult",
+      "B": "It always outperforms buy-and-hold",
+      "C": "It incurs no transaction costs",
+      "D": "It is guaranteed to increase returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "Studies show most market-timers underperform broad indices due to mistimed trades.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 243,
+    "question": "Free cash flow represents:",
+    "options": {
+      "A": "Net income only",
+      "B": "Operating cash flow minus capital expenditures, indicating funds available for distribution or reinvestment",
+      "C": "Only revenue",
+      "D": "Depreciation expense only"
+    },
+    "correctAnswer": "B",
+    "explanation": "FCF measures true cash generated after maintaining or growing asset base.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 244,
+    "question": "ESG bond “green bonds” must:",
+    "options": {
+      "A": "Finance projects with environmental benefits and report on use of proceeds",
+      "B": "Yield zero",
+      "C": "Only be issued by governments",
+      "D": "Be tax-exempt"
+    },
+    "correctAnswer": "A",
+    "explanation": "Issuers commit to fund renewable energy or climate resilience projects and disclose impact.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "A total return swap lets investors exchange:",
+    "options": {
+      "A": "Fixed cash flows for the total return (income + capital gains) of an asset without owning it",
+      "B": "Stocks for bonds directly",
+      "C": "FDIC coverage for returns",
+      "D": "Equity for cash only"
+    },
+    "correctAnswer": "A",
+    "explanation": "TRS counterparty pays the total return on a reference asset, while the investor pays a financing rate.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 246,
+    "question": "Leveraged ETFs use derivatives to:",
+    "options": {
+      "A": "Deliver a constant multiple (e.g., 2× or –3×) of daily index returns, but carry higher risk and decay over time",
+      "B": "Guarantee principal",
+      "C": "Replicate index exactly over long periods",
+      "D": "Avoid all fees"
+    },
+    "correctAnswer": "A",
+    "explanation": "Daily rebalancing and leverage cause path dependency and potential value erosion in volatile markets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 247,
+    "question": "A buy-write strategy involves:",
+    "options": {
+      "A": "Buying the underlying stock and selling covered calls to generate income",
+      "B": "Shorting stocks only",
+      "C": "Buying puts only",
+      "D": "Investing in mutual funds only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The call premium earns income but limits upside if the stock rises above the strike.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 248,
+    "question": "A continuous financial plan should include:",
+    "options": {
+      "A": "Regular goal review, updated projections, and adjustments for life changes and market conditions",
+      "B": "A one‐time setup with no further changes",
+      "C": "Only retirement estimates",
+      "D": "Avoiding professional advice"
+    },
+    "correctAnswer": "A",
+    "explanation": "Dynamic planning adapts to evolving circumstances, ensuring long‐term objectives remain attainable.",
+    "difficulty": "Hard"
+  }
+]

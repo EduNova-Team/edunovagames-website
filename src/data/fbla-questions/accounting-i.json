@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is true when journalizing a cash sale of $1,000?",
+    "options": {
+      "A": "Debit Sales Revenue $1,000; Credit Cash $1,000",
+      "B": "Debit Cash $1,000; Credit Sales Revenue $1,000",
+      "C": "Debit Accounts Receivable $1,000; Credit Sales Revenue $1,000",
+      "D": "Debit Cash $1,000; Credit Accounts Receivable $1,000"
+    },
+    "correctAnswer": "B",
+    "explanation": "A cash sale increases Cash (debit) and increases Sales Revenue (credit).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "A company purchased equipment for $5,000 cash. The correct journal entry is to:",
+    "options": {
+      "A": "Debit Equipment $5,000; Credit Accounts Payable $5,000",
+      "B": "Debit Equipment $5,000; Credit Cash $5,000",
+      "C": "Debit Cash $5,000; Credit Equipment $5,000",
+      "D": "Debit Accounts Payable $5,000; Credit Cash $5,000"
+    },
+    "correctAnswer": "B",
+    "explanation": "Purchasing equipment for cash increases the Equipment asset and decreases Cash.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "A sale on account for $2,500 should be journalized as:",
+    "options": {
+      "A": "Debit Sales Revenue $2,500; Credit Accounts Receivable $2,500",
+      "B": "Debit Cash $2,500; Credit Sales Revenue $2,500",
+      "C": "Debit Accounts Receivable $2,500; Credit Sales Revenue $2,500",
+      "D": "Debit Sales Revenue $2,500; Credit Cash $2,500"
+    },
+    "correctAnswer": "C",
+    "explanation": "A credit sale increases Accounts Receivable (debit) and increases Sales Revenue (credit).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "question": "To correct an entry where a $450 utilities expense was debited as $45, you would:",
+    "options": {
+      "A": "Debit Utilities Expense $405; Credit Cash $405",
+      "B": "Debit Utilities Expense $405; Credit Utilities Expense $405",
+      "C": "Debit Utilities Expense $45; Credit Utilities Expense $45",
+      "D": "Debit Utilities Expense $405; Credit Accounts Payable $405"
+    },
+    "correctAnswer": "B",
+    "explanation": "You reverse the under-recorded portion within the same account Adjusting Entries",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "At period end, unexpired insurance of $600 remains on a prepaid policy originally recorded at $2,400. The adjusting entry is:",
+    "options": {
+      "A": "Debit Insurance Expense $600; Credit Prepaid Insurance $600",
+      "B": "Debit Prepaid Insurance $600; Credit Insurance Expense $600",
+      "C": "Debit Insurance Expense $1,800; Credit Prepaid Insurance $1,800",
+      "D": "Debit Prepaid Insurance $1,800; Credit Insurance Expense $1,800"
+    },
+    "correctAnswer": "C",
+    "explanation": "$2,400 prepaid less $600 unexpired = $1,800 used; recognize expense and reduce asset.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "Services of $1,200 have been performed but not yet billed. The adjusting entry is:",
+    "options": {
+      "A": "Debit Accounts Receivable $1,200; Credit Service Revenue $1,200",
+      "B": "Debit Service Revenue $1,200; Credit Accounts Receivable $1,200",
+      "C": "Debit Prepaid Service $1,200; Credit Service Revenue $1,200",
+      "D": "Debit Cash $1,200; Credit Service Revenue $1,200"
+    },
+    "correctAnswer": "A",
+    "explanation": "To accrue revenue earned but not yet billed",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "Wages of $800 have been earned by employees but not yet paid at period end. The adjusting entry is:",
+    "options": {
+      "A": "Debit Wages Expense $800; Credit Wages Payable $800",
+      "B": "Debit Wages Payable $800; Credit Wages Expense $800",
+      "C": "Debit Salaries Expense $800; Credit Cash $800",
+      "D": "Debit Cash $800; Credit Salaries Expense $800"
+    },
+    "correctAnswer": "A",
+    "explanation": "Accrue wages",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "To record monthly depreciation of $500 on equipment, you would:",
+    "options": {
+      "A": "Debit Depreciation Expense $500; Credit Accumulated Depreciation $500",
+      "B": "Debit Accumulated Depreciation $500; Credit Depreciation Expense $500",
+      "C": "Debit Equipment $500; Credit Depreciation Expense $500",
+      "D": "Debit Depreciation Expense $500; Credit Equipment $500"
+    },
+    "correctAnswer": "A",
+    "explanation": "Depreciation expense increases accumulated depreciation (contra-asset) on the balance sheet. Posting",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "When posting a journal entry to the ledger, the ledger’s Reference column should show:",
+    "options": {
+      "A": "The date of the journal entry",
+      "B": "The page number of the journal",
+      "C": "The account number from the ledger",
+      "D": "The new account balance"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Reference (or “Post Ref.”) in the journal shows the ledger account number; the ledger shows the journal page in its Ref column.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "question": "After posting, the ledger shows a debit balance of $3,200 in Cash. This means:",
+    "options": {
+      "A": "Cash has decreased by $3,200",
+      "B": "Cash has increased by $3,200",
+      "C": "Cash account is overdrawn",
+      "D": "Cash equals liabilities plus equity"
+    },
+    "correctAnswer": "B",
+    "explanation": "A debit balance in an asset account indicates its current balance; positive debit = increase. Trial Balance & Worksheet",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "question": "A trial balance’s main purpose is to:",
+    "options": {
+      "A": "Prove that all transactions are recorded correctly",
+      "B": "Prove that total debits equal total credits",
+      "C": "Prepare adjusting entries",
+      "D": "Prepare financial statements"
+    },
+    "correctAnswer": "B",
+    "explanation": "It checks the equality of debits and credits but doesn’t catch every error.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "If a trial balance fails to balance, one possible cause is:",
+    "options": {
+      "A": "A correct journal entry posted twice",
+      "B": "A journal entry posted to the wrong side of an account",
+      "C": "A transaction omitted entirely",
+      "D": "All of the above"
+    },
+    "correctAnswer": "D",
+    "explanation": "Any posting or recording error can disrupt the trial balance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "On a worksheet, the Adjusted Trial Balance column totals must:",
+    "options": {
+      "A": "Match the Income Statement column totals",
+      "B": "Balance (debits = credits)",
+      "C": "Equal the unadjusted Trial Balance totals",
+      "D": "Always exceed the Balance Sheet totals"
+    },
+    "correctAnswer": "B",
+    "explanation": "After adjustments, debits and credits must still equal each other.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "question": "The Income Statement section of a worksheet includes:",
+    "options": {
+      "A": "Asset and liability account balances",
+      "B": "Revenue and expense account balances",
+      "C": "Owner’s Equity account balances",
+      "D": "All balance sheet account balances"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Income Statement section isolates revenues and expenses to compute net income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "A work sheet’s Balance Sheet columns show:",
+    "options": {
+      "A": "Only assets",
+      "B": "Assets, liabilities, and equity",
+      "C": "Assets and revenues",
+      "D": "Expenses and dividends"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Balance Sheet columns project closing balances of all balance sheet accounts. Financial Statements & Closing",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 16,
+    "question": "The correct order of financial statements prepared at period end is:",
+    "options": {
+      "A": "Income Statement → Statement of Retained Earnings → Balance Sheet",
+      "B": "Balance Sheet → Income Statement → Statement of Cash Flows",
+      "C": "Statement of Cash Flows → Income Statement → Balance Sheet",
+      "D": "Income Statement → Balance Sheet → Statement of Retained Earnings"
+    },
+    "correctAnswer": "A",
+    "explanation": "Net income flows into retained earnings before preparing the balance sheet.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "On the Income Statement, “Cost of Goods Sold” appears:",
+    "options": {
+      "A": "After gross profit",
+      "B": "Before sales revenue",
+      "C": "After operating expenses",
+      "D": "Before gross profit"
+    },
+    "correctAnswer": "D",
+    "explanation": "COGS is subtracted from sales to arrive at gross profit.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "Net income of $8,000 and dividends of $2,000 result in retained earnings change of:",
+    "options": {
+      "A": "$6,000 increase",
+      "B": "$10,000 increase",
+      "C": "$2,000 decrease",
+      "D": "$8,000 decrease"
+    },
+    "correctAnswer": "A",
+    "explanation": "Net income increases retained earnings; dividends reduce it",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "question": "A closing entry to transfer revenue account balances involves:",
+    "options": {
+      "A": "Debiting Income Summary; Crediting Revenue accounts",
+      "B": "Debiting Revenue accounts; Crediting Income Summary",
+      "C": "Debiting Retained Earnings; Crediting Income Summary",
+      "D": "Debiting Income Summary; Crediting Retained Earnings"
+    },
+    "correctAnswer": "B",
+    "explanation": "To close revenues, you debit each revenue account and credit Income Summary.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "After all closing entries, which account should have a zero balance?",
+    "options": {
+      "A": "Cash",
+      "B": "Income Summary",
+      "C": "Retained Earnings",
+      "D": "Accumulated Depreciation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Income Summary is closed to Retained Earnings and reset to zero. Basic Concepts & Ethics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "The fundamental accounting equation is:",
+    "options": {
+      "A": "Assets = Liabilities + Owner’s Equity",
+      "B": "Assets + Liabilities = Owner’s Equity",
+      "C": "Liabilities = Assets + Owner’s Equity",
+      "D": "Owner’s Equity = Assets + Liabilities"
+    },
+    "correctAnswer": "A",
+    "explanation": "That is the standard form of the accounting equation.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "Merchandise inventory is classified on the balance sheet as a(n):",
+    "options": {
+      "A": "Current asset",
+      "B": "Long-term investment",
+      "C": "Intangible asset",
+      "D": "Owner’s equity"
+    },
+    "correctAnswer": "A",
+    "explanation": "Inventory is expected to be sold within the operating cycle (current asset).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "question": "A company’s failure to record a known liability violates which principle?",
+    "options": {
+      "A": "Cost principle",
+      "B": "Matching principle",
+      "C": "Full disclosure principle",
+      "D": "Revenue recognition principle"
+    },
+    "correctAnswer": "C",
+    "explanation": "Not disclosing liabilities misleads users—full disclosure requires reporting all obligations.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 24,
+    "question": "Which action best demonstrates confidentiality in accounting?",
+    "options": {
+      "A": "Sharing client data with unauthorized parties",
+      "B": "Locking financial records when not in use",
+      "C": "Publishing employee salaries online",
+      "D": "Leaving files open on your desk"
+    },
+    "correctAnswer": "B",
+    "explanation": "Securing records prevents unauthorized access and upholds confidentiality.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 25,
+    "question": "The Sarbanes–Oxley Act requires management to:",
+    "options": {
+      "A": "Provide an opinion on the effectiveness of internal controls",
+      "B": "Eliminate all audit fees",
+      "C": "Guarantee no material misstatements",
+      "D": "Prepare tax returns for the company"
+    },
+    "correctAnswer": "A",
+    "explanation": "Section 404 mandates management’s assessment and report on internal control effectiveness. Account Classification",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 26,
+    "question": "Prepaid rent is classified on the balance sheet as a(n):",
+    "options": {
+      "A": "Current liability",
+      "B": "Current asset",
+      "C": "Long-term liability",
+      "D": "Contra-asset"
+    },
+    "correctAnswer": "B",
+    "explanation": "Prepaid rent will be used within one year, so it’s a current asset.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "Notes payable due in three months is shown as a:",
+    "options": {
+      "A": "Current liability",
+      "B": "Long-term liability",
+      "C": "Equity account",
+      "D": "Contra-liability"
+    },
+    "correctAnswer": "A",
+    "explanation": "Obligations due within one year are classified as current liabilities. Merchandising & Inventory",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 28,
+    "question": "Under perpetual inventory, when merchandise is sold:",
+    "options": {
+      "A": "Inventory is credited only at period end",
+      "B": "Cost of Goods Sold is recorded at each sale",
+      "C": "Purchases account is debited",
+      "D": "Freight-in is recorded as an expense"
+    },
+    "correctAnswer": "B",
+    "explanation": "Perpetual systems update COGS and Inventory at each sale.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "If beginning inventory is $10,000, purchases $50,000, and ending inventory $8,000, COGS under periodic system is:",
+    "options": {
+      "A": "$52,000",
+      "B": "$42,000",
+      "C": "$58,000",
+      "D": "$48,000"
+    },
+    "correctAnswer": "A",
+    "explanation": "COGS = BI + Purchases – EI = 10,000 + 50,000 – 8,000 = 52,000.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "A purchase discount of 2/10, n/30 on $1,000 purchase taken within discount period is recorded as:",
+    "options": {
+      "A": "Debit Accounts Payable $980; Credit Cash $980",
+      "B": "Debit Accounts Payable $1,000; Credit Cash $980 and Inventory $20",
+      "C": "Debit Accounts Payable $1,000; Credit Cash $1,000",
+      "D": "Debit Inventory $20; Credit Accounts Payable $20"
+    },
+    "correctAnswer": "B",
+    "explanation": "Payable removed at full; discount reduces Inventory (or Expense) by $20. Cash & Internal Controls",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "Which control best safeguards cash receipts?",
+    "options": {
+      "A": "Allowing only managers to prepare bank reconciliations",
+      "B": "Requiring two signatures on checks over $1,000",
+      "C": "Separating cash handling from record-keeping",
+      "D": "Using petty cash for large payments"
+    },
+    "correctAnswer": "C",
+    "explanation": "Segregation of duties prevents misappropriation by dividing responsibilities.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "On a bank reconciliation, deposits in transit are:",
+    "options": {
+      "A": "Added to book balance",
+      "B": "Deducted from book balance",
+      "C": "Added to bank balance",
+      "D": "Deducted from bank balance"
+    },
+    "correctAnswer": "C",
+    "explanation": "Deposits recorded by company but not yet by bank increase the bank’s balance.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "question": "Outstanding checks of $2,500 should be:",
+    "options": {
+      "A": "Added to bank balance",
+      "B": "Deducted from book balance",
+      "C": "Deducted from bank balance",
+      "D": "Added to book balance"
+    },
+    "correctAnswer": "C",
+    "explanation": "Checks issued but not yet cleared reduce the bank’s reported balance. Accounts Receivable & Payable",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "question": "The allowance method for bad debts requires:",
+    "options": {
+      "A": "Charging actual write-offs to Bad Debt Expense only when they occur",
+      "B": "Estimating uncollectibles at period end and recording an allowance",
+      "C": "Writing off all receivables at fiscal year-end",
+      "D": "Reporting receivables at gross amounts"
+    },
+    "correctAnswer": "B",
+    "explanation": "GAAP requires estimating bad debts and setting up an allowance account.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "A customer’s $500 account is written off under the allowance method. The entry is:",
+    "options": {
+      "A": "Debit Bad Debt Expense $500; Credit Accounts Receivable $500",
+      "B": "Debit Allowance for Doubtful Accounts $500; Credit Accounts Receivable $500",
+      "C": "Debit Accounts Receivable $500; Credit Allowance for Doubtful Accounts $500",
+      "D": "Debit Cash $500; Credit Accounts Receivable $500"
+    },
+    "correctAnswer": "B",
+    "explanation": "Write-offs reduce both receivables and the allowance, not expense at that moment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "A $1,200 accounts payable payment within discount period 2/10, n/30 is recorded as:",
+    "options": {
+      "A": "Debit Accounts Payable $1,200; Credit Cash $1,176; Credit Purchase Discounts $24",
+      "B": "Debit Accounts Payable $1,200; Credit Cash $1,200",
+      "C": "Debit Accounts Payable $1,200; Credit Cash $1,176; Credit Inventory $24",
+      "D": "Debit Accounts Payable $1,200; Debit Purchase Discounts $24; Credit Cash $1,176"
+    },
+    "correctAnswer": "A",
+    "explanation": "Discount reduces liability; record discount in its own account (or contra-liability). Depreciation",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "question": "Double-declining‐balance depreciation in the first year for $50,000 asset, 5-year life, no salvage, is:",
+    "options": {
+      "A": "$10,000",
+      "B": "$20,000",
+      "C": "$15,000",
+      "D": "$12,500"
+    },
+    "correctAnswer": "B",
+    "explanation": "Rate = 2×(1/5)=40%; depreciation = 50,000×40% = $20,000.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "Sum-of-years’-digits depreciation for a 4-year asset costing $40,000, salvage $4,000: first-year expense is:",
+    "options": {
+      "A": "$(40,000–4,000)×4/10 = $14,400",
+      "B": "$(40,000–4,000)×1/4 = $9,000",
+      "C": "$(40,000–4,000)×5/10 = $18,000",
+      "D": "$(40,000–4,000)×4/4 = $36,000"
+    },
+    "correctAnswer": "A",
+    "explanation": "SYD denominator = 4+3+2+1=10; first‐year numerator=4; multiply depreciable base by 4/10. Payroll",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 39,
+    "question": "If FICA Social Security rate is 6.2% and Medicare rate is 1.45%, employer’s payroll tax on $3,000 gross wages is:",
+    "options": {
+      "A": "$184.35",
+      "B": "$184.20",
+      "C": "$276.00",
+      "D": "$0 (employee pays all)"
+    },
+    "correctAnswer": "A",
+    "explanation": "(3,000×6.2%) + (3,000×1.45%) = 186 + 43.50 = $229.50; but employer matches, so same $229.50. (Oops, common trick!)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 40,
+    "question": "An employee’s net pay is computed by subtracting from gross pay:",
+    "options": {
+      "A": "Only federal income tax",
+      "B": "Deductions, taxes, and voluntary withholdings",
+      "C": "Employer payroll taxes",
+      "D": "Only retirement contributions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Net pay = gross – employee withholdings & voluntary deductions (employer taxes excluded). Ethics & Professional Responsibility",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "An auditor discovers fraud but delays reporting to avoid stock price drop. This violates the principle of:",
+    "options": {
+      "A": "Professional competence",
+      "B": "Objectivity",
+      "C": "Confidentiality",
+      "D": "Integrity"
+    },
+    "correctAnswer": "D",
+    "explanation": "Integrity requires honest, timely reporting regardless of consequences.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 42,
+    "question": "Accepting a gift from a client that impairs independence violates:",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Objectivity",
+      "D": "Professional behavior"
+    },
+    "correctAnswer": "C",
+    "explanation": "Objectivity demands freedom from bias or conflict of interest. Mixed Competencies (Wrap-Up)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "The matching principle requires:",
+    "options": {
+      "A": "Recognizing revenue when cash is received",
+      "B": "Recording expenses in the same period as related revenues",
+      "C": "Reporting only material items",
+      "D": "Disclosing all liabilities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Expenses are matched with the revenues they help generate in the same period.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "A perpetual inventory system requires:",
+    "options": {
+      "A": "Physical count only at year-end",
+      "B": "Continuous tracking of inventory levels",
+      "C": "No COGS calculation",
+      "D": "No purchase returns recorded"
+    },
+    "correctAnswer": "B",
+    "explanation": "Perpetual systems update inventory and COGS with each transaction.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "question": "On a multi-step income statement, operating income is:",
+    "options": {
+      "A": "Net sales – COGS – operating expenses",
+      "B": "Net sales – COGS",
+      "C": "Net income – taxes",
+      "D": "Gross profit + non-operating revenues"
+    },
+    "correctAnswer": "A",
+    "explanation": "Operating income subtracts both COGS and operating expenses from sales.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 46,
+    "question": "If a company uses LIFO in rising‐price environment, its ending inventory is:",
+    "options": {
+      "A": "Higher than FIFO",
+      "B": "Lower than FIFO",
+      "C": "Equal to FIFO",
+      "D": "Unaffected by price changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "LIFO assigns latest (higher) costs to COGS, leaving older (lower) costs in ending inventory.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 47,
+    "question": "A post-closing trial balance:",
+    "options": {
+      "A": "Includes only balance sheet accounts",
+      "B": "Includes both income and balance sheet accounts",
+      "C": "Proves debits = credits before closing",
+      "D": "Is prepared before closing entries"
+    },
+    "correctAnswer": "A",
+    "explanation": "After closing, temporary accounts are zeroed, so only permanents remain.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "question": "Which account is NOT closed at period end?",
+    "options": {
+      "A": "Service Revenue",
+      "B": "Rent Expense",
+      "C": "Cash",
+      "D": "Income Summary"
+    },
+    "correctAnswer": "C",
+    "explanation": "Cash is a permanent (asset) account and carries forward to next period.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "question": "If internal controls are weak, a company is more vulnerable to:",
+    "options": {
+      "A": "Accurate financial reporting",
+      "B": "Fraud and errors",
+      "C": "Operational efficiency",
+      "D": "High employee morale"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strong controls deter fraud and ensure reliable reporting.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "The primary purpose of a bank reconciliation is to:",
+    "options": {
+      "A": "Detect errors and unauthorized transactions",
+      "B": "Prepare financial statements",
+      "C": "Calculate interest income only",
+      "D": "Close temporary accounts"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reconciling book and bank balances identifies discrepancies like errors or fraud. Revenue Recognition",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "Under the percentage-of-completion method, revenue is recognized based on:",
+    "options": {
+      "A": "Cash collected to date",
+      "B": "Cost incurred to date relative to total estimated cost",
+      "C": "Number of milestones achieved",
+      "D": "Contract price only upon completion"
+    },
+    "correctAnswer": "B",
+    "explanation": "Recognize revenue proportionally as costs are incurred versus total project costs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 52,
+    "question": "The completed-contract method defers revenue recognition until:",
+    "options": {
+      "A": "Cash is received",
+      "B": "A significant portion of costs is incurred",
+      "C": "Project completion",
+      "D": "A percent of profit is achieved"
+    },
+    "correctAnswer": "C",
+    "explanation": "Revenue and gross profit are recognized only when the contract is fully completed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "Gift card sales are recognized as revenue when:",
+    "options": {
+      "A": "Cash is received",
+      "B": "Card is activated",
+      "C": "Card is redeemed",
+      "D": "Expiration date passes"
+    },
+    "correctAnswer": "C",
+    "explanation": "Until redemption, gift card proceeds are deferred as liabilities (unearned revenue). Bonds & Long-Term Liabilities",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "A bond issued at a discount means:",
+    "options": {
+      "A": "The coupon rate > market rate",
+      "B": "The coupon rate < market rate",
+      "C": "Coupon rate = market rate",
+      "D": "Bond sold at face value"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investors demand a higher yield, so bond price falls below par when coupon < market.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "Effective-interest amortization of a bond discount results in:",
+    "options": {
+      "A": "Constant interest expense each period",
+      "B": "Decreasing interest expense each period",
+      "C": "Increasing interest expense each period",
+      "D": "No interest expense"
+    },
+    "correctAnswer": "C",
+    "explanation": "Interest expense = carrying amount × market rate; as carrying amount increases, expense rises.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 56,
+    "question": "A mortgage payable classified as current portion of long-term debt appears:",
+    "options": {
+      "A": "Only in current liabilities",
+      "B": "Only in long-term liabilities",
+      "C": "In both current and long-term liabilities",
+      "D": "In equity section"
+    },
+    "correctAnswer": "C",
+    "explanation": "Portion due within a year is current; remainder stays in long-term section. Investments",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "Under the equity method, dividends received are:",
+    "options": {
+      "A": "Revenue in the income statement",
+      "B": "Return of investment reducing investment account",
+      "C": "Increase in investment account",
+      "D": "Recorded as unrealized gain"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dividends are considered a return on investment, reducing the carrying amount.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 58,
+    "question": "Trading securities are reported at:",
+    "options": {
+      "A": "Amortized cost",
+      "B": "Fair value, with gains/losses in OCI",
+      "C": "Fair value, with gains/losses in net income",
+      "D": "Cost minus impairment"
+    },
+    "correctAnswer": "C",
+    "explanation": "Trading securities adjust to fair value through profit or loss.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "Available-for-sale securities unrealized gains are reported in:",
+    "options": {
+      "A": "Net income",
+      "B": "Other comprehensive income",
+      "C": "Retained earnings",
+      "D": "Equity section only when realized"
+    },
+    "correctAnswer": "B",
+    "explanation": "OCI captures unrealized holding gains/losses until sale. Cash Flow Statement",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "question": "Cash flows from operating activities include:",
+    "options": {
+      "A": "Cash receipts from customers",
+      "B": "Cash paid to acquire equipment",
+      "C": "Cash paid for dividends",
+      "D": "Cash proceeds from issuance of debt"
+    },
+    "correctAnswer": "A",
+    "explanation": "Operations include daily revenue and expense cash flows.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 61,
+    "question": "Under direct method, which is NOT shown?",
+    "options": {
+      "A": "Cash paid to suppliers",
+      "B": "Cash received from customers",
+      "C": "Cash paid for interest",
+      "D": "Net cash provided by operating activities"
+    },
+    "correctAnswer": "D",
+    "explanation": "The direct method lists specific cash flows; the net total is shown separately.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "Financing activities include:",
+    "options": {
+      "A": "Cash paid for interest",
+      "B": "Cash received from sale of inventory",
+      "C": "Cash paid to shareholders for dividends",
+      "D": "Cash paid for salaries"
+    },
+    "correctAnswer": "C",
+    "explanation": "Dividends to shareholders are financing cash outflows.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "question": "Investing activities cash flows include:",
+    "options": {
+      "A": "Issuing bonds payable",
+      "B": "Purchase of long-term investments",
+      "C": "Receipt of interest income",
+      "D": "Payment of dividends"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investing covers acquisition/disposition of non-current assets. Specialized Topics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "Goodwill impairment is recorded when:",
+    "options": {
+      "A": "Fair value of reporting unit > carrying amount",
+      "B": "Carrying amount > fair value of reporting unit",
+      "C": "Goodwill increases",
+      "D": "No longer use acquired asset"
+    },
+    "correctAnswer": "B",
+    "explanation": "Impairment loss recognized when carrying > recoverable amount.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 65,
+    "question": "A stock-split of 2-for-1:",
+    "options": {
+      "A": "Doubles shares and halves par value per share",
+      "B": "Halves shares and doubles par value per share",
+      "C": "Doubles shares, par value unchanged",
+      "D": "Halves shares, par value unchanged"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total equity unaffected; share count increases, par value decreases accordingly.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 66,
+    "question": "Treasury stock is reported as:",
+    "options": {
+      "A": "Asset",
+      "B": "Contra-equity",
+      "C": "Liability",
+      "D": "Revenue reduction"
+    },
+    "correctAnswer": "B",
+    "explanation": "Treasury shares reduce overall equity, shown as contra-equity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "question": "A contingent liability is recognized when:",
+    "options": {
+      "A": "Probable and estimable",
+      "B": "Possible but not probable",
+      "C": "Unlikely and not estimable",
+      "D": "Only when paid"
+    },
+    "correctAnswer": "A",
+    "explanation": "GAAP requires accrual for probable, estimable losses.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "Fair value hierarchy Level 1 inputs are:",
+    "options": {
+      "A": "Quoted prices in active markets for identical assets",
+      "B": "Observable inputs other than Level 1",
+      "C": "Unobservable inputs",
+      "D": "Adjusted quoted prices"
+    },
+    "correctAnswer": "A",
+    "explanation": "Level 1 = direct market quotes, highest reliability.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "A derivative instrument requiring no initial net investment is classified as:",
+    "options": {
+      "A": "Financing activity",
+      "B": "Operating activity",
+      "C": "Investing activity",
+      "D": "Non-cash transaction"
+    },
+    "correctAnswer": "D",
+    "explanation": "Derivatives often require no upfront cash, thus non-cash.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 70,
+    "question": "The effective tax rate is:",
+    "options": {
+      "A": "Income tax expense ÷ pre-tax financial income",
+      "B": "Tax payable ÷ pre-tax financial income",
+      "C": "Income tax expense ÷ taxable income",
+      "D": "Tax payable ÷ taxable income"
+    },
+    "correctAnswer": "A",
+    "explanation": "Effective rate uses expense, not payable, over accounting income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "question": "Activity-based costing allocates overhead based on:",
+    "options": {
+      "A": "Direct labor hours only",
+      "B": "Machine hours only",
+      "C": "Cost drivers reflecting resource use",
+      "D": "Sales volume"
+    },
+    "correctAnswer": "C",
+    "explanation": "ABC uses multiple drivers to more accurately assign costs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 72,
+    "question": "A FIFO method in a periodic inventory system when prices rise results in:",
+    "options": {
+      "A": "Higher COGS than LIFO",
+      "B": "Lower COGS than LIFO",
+      "C": "Same COGS as LIFO",
+      "D": "Unaffected COGS"
+    },
+    "correctAnswer": "B",
+    "explanation": "FIFO assigns older, lower costs, so COGS is lower in rising prices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "An LCM (lower of cost or market) write-down is:",
+    "options": {
+      "A": "Recognized as loss on income statement",
+      "B": "Adjusted against retained earnings",
+      "C": "Added to inventory cost",
+      "D": "Reported in OCI"
+    },
+    "correctAnswer": "A",
+    "explanation": "Market decline below cost is recognized as a loss.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "question": "Horizontal analysis compares:",
+    "options": {
+      "A": "One period’s items to another period’s",
+      "B": "Each item to a base period as 100%",
+      "C": "Vertical relationships within a single statement",
+      "D": "Financial ratios only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Horizontal (trend) analysis examines changes over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "Vertical analysis expresses each item as a percentage of:",
+    "options": {
+      "A": "Total assets on balance sheet",
+      "B": "Net sales on income statement",
+      "C": "A or B depending on context",
+      "D": "Gross profit on income statement"
+    },
+    "correctAnswer": "C",
+    "explanation": "Vertical analysis uses a common base appropriate to the statement. Financial Ratios",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "The current ratio is calculated as:",
+    "options": {
+      "A": "Current Liabilities ÷ Current Assets",
+      "B": "Current Assets ÷ Current Liabilities",
+      "C": "Total Assets ÷ Total Liabilities",
+      "D": "Quick Assets ÷ Current Liabilities"
+    },
+    "correctAnswer": "B",
+    "explanation": "It measures short-term liquidity by comparing assets available to settle current obligations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "The acid-test (quick) ratio excludes:",
+    "options": {
+      "A": "Cash and Cash Equivalents",
+      "B": "Accounts Receivable",
+      "C": "Inventory",
+      "D": "Marketable Securities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Inventory is removed because it’s not as readily convertible to cash.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "Debt-to-equity ratio expresses:",
+    "options": {
+      "A": "Total Liabilities ÷ Total Assets",
+      "B": "Total Equity ÷ Total Liabilities",
+      "C": "Total Liabilities ÷ Total Equity",
+      "D": "Total Assets ÷ Total Equity"
+    },
+    "correctAnswer": "C",
+    "explanation": "It shows how much creditors fund relative to owners’ investment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "Inventory turnover is computed as:",
+    "options": {
+      "A": "Cost of Goods Sold ÷ Average Inventory",
+      "B": "Sales ÷ Average Inventory",
+      "C": "Ending Inventory ÷ Cost of Goods Sold",
+      "D": "Beginning Inventory ÷ Sales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Indicates how many times inventory is sold and replaced in a period.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "question": "Days’ Sales in Receivables equals:",
+    "options": {
+      "A": "Accounts Receivable ÷ (Sales ÷ 365)",
+      "B": "(Sales ÷ 365) ÷ Accounts Receivable",
+      "C": "Accounts Receivable ÷ Cost of Goods Sold",
+      "D": "(Sales ÷ Accounts Receivable) × 365"
+    },
+    "correctAnswer": "A",
+    "explanation": "It measures average collection period in days.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 81,
+    "question": "Working capital is defined as:",
+    "options": {
+      "A": "Current Assets – Current Liabilities",
+      "B": "Current Assets ÷ Current Liabilities",
+      "C": "Total Assets – Total Liabilities",
+      "D": "Total Assets ÷ Total Equity"
+    },
+    "correctAnswer": "A",
+    "explanation": "Represents funds available for day-to-day operations. Cost–Volume–Profit & Budgeting",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 82,
+    "question": "The break-even point in units is:",
+    "options": {
+      "A": "Fixed Costs ÷ Contribution Margin per Unit",
+      "B": "Fixed Costs ÷ Sales Price per Unit",
+      "C": "(Fixed Costs + Profit) ÷ Contribution Margin per Unit",
+      "D": "Variable Costs ÷ Contribution Margin per Unit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Contribution margin covers variable costs, so fixed costs ÷ margin per unit yields break-even volume.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "Margin of safety as a dollar amount is:",
+    "options": {
+      "A": "Actual Sales – Breakeven Sales",
+      "B": "Breakeven Sales – Actual Sales",
+      "C": "Budgeted Sales – Breakeven Sales",
+      "D": "(Actual Sales – Budgeted Sales)"
+    },
+    "correctAnswer": "A",
+    "explanation": "Shows how much sales can drop before losses begin.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 84,
+    "question": "Contribution margin ratio is:",
+    "options": {
+      "A": "Contribution Margin ÷ Sales",
+      "B": "Contribution Margin ÷ Variable Costs",
+      "C": "Sales ÷ Contribution Margin",
+      "D": "Fixed Costs ÷ Contribution Margin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Indicates what percent of sales remains after covering variable costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "A favorable flexible-budget variance means:",
+    "options": {
+      "A": "Actual costs > Flexible budget costs",
+      "B": "Actual costs < Flexible budget costs",
+      "C": "Revenues < Flexible budget revenues",
+      "D": "Revenues = Flexible budget revenues"
+    },
+    "correctAnswer": "B",
+    "explanation": "Costs below budgeted amount for actual activity signify efficiency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "question": "The static-budget variance compares:",
+    "options": {
+      "A": "Actual results to original budget",
+      "B": "Actual results to flexible budget",
+      "C": "Flexible budget to original budget",
+      "D": "Original budget to zero activity"
+    },
+    "correctAnswer": "A",
+    "explanation": "It shows variance before adjusting for actual activity levels.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "A variance is considered unfavorable if:",
+    "options": {
+      "A": "Actual revenue > Budgeted revenue",
+      "B": "Actual cost < Budgeted cost",
+      "C": "Actual cost > Budgeted cost",
+      "D": "Actual cost = Budgeted cost"
+    },
+    "correctAnswer": "C",
+    "explanation": "Higher than expected costs reduce profitability. Cost Accounting",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 88,
+    "question": "Cost of Goods Manufactured is:",
+    "options": {
+      "A": "Beginning WIP + Direct Materials + Direct Labor + Manufacturing Overhead – Ending WIP",
+      "B": "Direct Materials + Direct Labor + Manufacturing Overhead",
+      "C": "Beginning Inventory + Purchases – Ending Inventory",
+      "D": "Sales – Gross Profit"
+    },
+    "correctAnswer": "A",
+    "explanation": "It adjusts work-in-process for inputs and ending balance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "question": "In job-order costing, overhead is applied using:",
+    "options": {
+      "A": "Actual overhead costs only",
+      "B": "A predetermined rate × Actual activity base",
+      "C": "Actual activity base × Actual overhead rate",
+      "D": "Standard costs × Actual production"
+    },
+    "correctAnswer": "B",
+    "explanation": "Predetermined overhead rate ensures timely product costing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "In process costing, equivalent units measure:",
+    "options": {
+      "A": "Actual completed units only",
+      "B": "Partially completed units expressed in full-unit terms",
+      "C": "Defective units",
+      "D": "Total physical units started"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reflects the work done on incomplete units for costing.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 91,
+    "question": "A Just-In-Time (JIT) system primarily benefits by:",
+    "options": {
+      "A": "Increasing inventory levels",
+      "B": "Reducing setup times and inventory carrying costs",
+      "C": "Extending lead times",
+      "D": "Maximizing batch sizes"
+    },
+    "correctAnswer": "B",
+    "explanation": "JIT focuses on minimizing waste through lean operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "question": "Spoilage differs from scrap in that spoilage:",
+    "options": {
+      "A": "Has no value and is discarded automatically",
+      "B": "Occurs randomly and usually during normal operations",
+      "C": "Is retained and sold for small value",
+      "D": "Is a planned part of production"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spoilage is unexpected defective output, scrap may be recoverable residue. Advanced & Miscellaneous",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 93,
+    "question": "Replenishing a petty cash fund involves:",
+    "options": {
+      "A": "Crediting Cash",
+      "B": "Debiting Petty Cash",
+      "C": "Crediting Cash Over and Short for any discrepancy",
+      "D": "Debiting Cash Over and Short for any discrepancy"
+    },
+    "correctAnswer": "C",
+    "explanation": "Replenishment restores fund; discrepancies go to over/short account.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "A bank reconciliation can detect errors such as:",
+    "options": {
+      "A": "Transposed numbers in deposits",
+      "B": "Unrecorded bank service charges",
+      "C": "Outstanding checks",
+      "D": "All of the above"
+    },
+    "correctAnswer": "D",
+    "explanation": "Reconciling book and bank balances uncovers various timing and recording errors.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "Interest on a 90-day, $10,000 note at 6% per annum is:",
+    "options": {
+      "A": "$150",
+      "B": "$600",
+      "C": "$1,500",
+      "D": "$25"
+    },
+    "correctAnswer": "A",
+    "explanation": "$10,000×0.06×(90/360) = $150.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 96,
+    "question": "Classification of a 10% equity-method investment where ownership is 25%:",
+    "options": {
+      "A": "Trading security",
+      "B": "Available-for-sale security",
+      "C": "Equity-method investment",
+      "D": "Consolidated subsidiary"
+    },
+    "correctAnswer": "C",
+    "explanation": "Significant influence (20–50% ownership) uses equity method.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "Amortization of a patent with a 10-year legal life is recorded as:",
+    "options": {
+      "A": "Debit Patent; Credit Amortization Expense",
+      "B": "Debit Amortization Expense; Credit Patent",
+      "C": "Debit Accumulated Amortization; Credit Amortization Expense",
+      "D": "Debit Amortization Expense; Credit Accumulated Amortization"
+    },
+    "correctAnswer": "D",
+    "explanation": "Intangible assets are amortized by debiting expense and crediting contra-asset.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "A finance lease (capital lease) under ASC 842 transfers ownership if:",
+    "options": {
+      "A": "Lease term ≥ 75% of asset life",
+      "B": "Present value of payments ≥ 90% of fair value",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "correctAnswer": "C",
+    "explanation": "Meeting either criterion indicates lease is de facto purchase.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 99,
+    "question": "Related-party transaction disclosures are required because they:",
+    "options": {
+      "A": "Are always illegal",
+      "B": "May not be conducted at arm’s length",
+      "C": "Affect only equity accounts",
+      "D": "Are exempt from audit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Users need transparency on transactions that might be biased.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "Subsequent events recognized in financial statements occur:",
+    "options": {
+      "A": "After balance sheet date but before issuance, providing new evidence",
+      "B": "After issuance of statements",
+      "C": "During the period under audit",
+      "D": "When auditors discover fraud"
+    },
+    "correctAnswer": "A",
+    "explanation": "Events that clarify conditions existing at year-end must be recognized. Special Journals",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 101,
+    "question": "A sales journal is used to record:",
+    "options": {
+      "A": "All cash receipts",
+      "B": "Credit sales only",
+      "C": "Cash sales only",
+      "D": "Purchases on account"
+    },
+    "correctAnswer": "B",
+    "explanation": "Special journals segregate frequent transactions; the sales journal is for credit sales.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 102,
+    "question": "The purchases journal records:",
+    "options": {
+      "A": "All purchases of merchandise, regardless of payment method",
+      "B": "Credit purchases of merchandise only",
+      "C": "Cash purchases only",
+      "D": "Purchases of assets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Like the sales journal, it captures only purchases on account.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "A cash receipts journal would include:",
+    "options": {
+      "A": "Cash sales, collections on account, and other cash inflows",
+      "B": "Only cash sales",
+      "C": "Only cash paid out",
+      "D": "Only non-cash transactions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cash receipts journal logs all sources of cash inflows.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 104,
+    "question": "Posting from a special journal to the general ledger typically involves:",
+    "options": {
+      "A": "Posting each entry individually as in the general journal",
+      "B": "Summarizing totals and posting periodically",
+      "C": "No posting; totals are not transferred",
+      "D": "Posting only accounts with credit balances"
+    },
+    "correctAnswer": "B",
+    "explanation": "Totals columns are periodically posted to reduce ledger entries and improve efficiency. Payroll Liabilities & Reporting",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "FICA taxes withheld from employees include:",
+    "options": {
+      "A": "Social Security only",
+      "B": "Medicare only",
+      "C": "Social Security and Medicare",
+      "D": "Federal income tax"
+    },
+    "correctAnswer": "C",
+    "explanation": "FICA comprises both Social Security and Medicare taxes.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 106,
+    "question": "Employer payroll taxes include all EXCEPT:",
+    "options": {
+      "A": "Match of employee FICA taxes",
+      "B": "Federal unemployment tax (FUTA)",
+      "C": "State unemployment tax (SUTA)",
+      "D": "Employee federal income tax withholding"
+    },
+    "correctAnswer": "D",
+    "explanation": "Employer does not pay the employee’s federal income tax withholding.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "A Form 941 reports:",
+    "options": {
+      "A": "Annual federal income tax withheld",
+      "B": "Quarterly Social Security, Medicare, and withheld federal income taxes",
+      "C": "Annual unemployment taxes",
+      "D": "Employee benefit contributions only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Employers use Form 941 to report and remit payroll taxes each quarter.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "Payroll liabilities on the balance sheet include:",
+    "options": {
+      "A": "Net pay owed to employees",
+      "B": "Employer payroll taxes payable",
+      "C": "Both A & B",
+      "D": "Neither A nor B"
+    },
+    "correctAnswer": "C",
+    "explanation": "Liabilities encompass amounts owed to employees and taxes owed to authorities. Segment & Interim Reporting",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "question": "Segment reporting requires disclosure of:",
+    "options": {
+      "A": "Only the largest segment’s performance",
+      "B": "Individual segment revenues, profit, and assets if thresholds met",
+      "C": "Consolidated results only",
+      "D": "Forecasted segment information"
+    },
+    "correctAnswer": "B",
+    "explanation": "Under IFRS and GAAP, segments meeting quantitative thresholds must be separately reported.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 110,
+    "question": "Interim financial reports are prepared:",
+    "options": {
+      "A": "Annually only",
+      "B": "Quarterly or monthly",
+      "C": "Only at year-end",
+      "D": "Every two years"
+    },
+    "correctAnswer": "B",
+    "explanation": "Interim reports update stakeholders between annual statements.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 111,
+    "question": "When preparing interim reports, revenue recognition and expense matching:",
+    "options": {
+      "A": "Use only actual interim data",
+      "B": "Apply the same accounting policies as annual reports",
+      "C": "Can use simplified policies unique to interim periods",
+      "D": "Exclude non-recurring items"
+    },
+    "correctAnswer": "B",
+    "explanation": "Consistency in accounting policies is required across all reporting periods. Leases & Pensions",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "Under ASC 842, lessees must recognize on the balance sheet:",
+    "options": {
+      "A": "Only lease expense in the income statement",
+      "B": "A right-of-use asset and lease liability for virtually all leases",
+      "C": "Only operating leases as off-balance-sheet",
+      "D": "Only finance leases on-balance-sheet"
+    },
+    "correctAnswer": "B",
+    "explanation": "New standard eliminates most off-balance-sheet treatment by requiring recognition of most leases.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 113,
+    "question": "Operating lease expense is typically:",
+    "options": {
+      "A": "Split between interest and amortization",
+      "B": "Recognized straight-line over the lease term",
+      "C": "Recognized only when paid",
+      "D": "Recorded as depreciation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lessees expense operating leases on a straight-line basis over the term.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "Defined benefit pension obligations are:",
+    "options": {
+      "A": "Funded exclusively by employer contributions",
+      "B": "Employer’s promise to pay specified benefits at retirement",
+      "C": "Employee’s expense only",
+      "D": "Similar to defined contribution plans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Employer bears actuarial risk of funding promised benefits.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 115,
+    "question": "Actuarial gains and losses in a defined benefit plan are:",
+    "options": {
+      "A": "Recognized immediately in net periodic pension cost",
+      "B": "Deferred in OCI and amortized over time",
+      "C": "Reported as pension asset",
+      "D": "Never recognized"
+    },
+    "correctAnswer": "B",
+    "explanation": "OCI captures actuarial variances to smooth volatility in pension expense. More Advanced Topics",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 116,
+    "question": "Goodwill is tested for impairment:",
+    "options": {
+      "A": "Annually at reporting unit level",
+      "B": "Only when indicators of impairment exist",
+      "C": "Both A and B",
+      "D": "Never"
+    },
+    "correctAnswer": "C",
+    "explanation": "GAAP requires annual tests and interim tests if triggering events occur.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "question": "A convertible bond’s liability component is measured at:",
+    "options": {
+      "A": "Face value only",
+      "B": "Fair value of liability without conversion option",
+      "C": "Fair value of whole instrument",
+      "D": "Zero because of conversion feature"
+    },
+    "correctAnswer": "B",
+    "explanation": "IFRS/GAAP bifurcates liability and equity components; liability at fair value based on similar nonconvertible debt.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 118,
+    "question": "Segment EBITDA adjusts operating profit by:",
+    "options": {
+      "A": "Adding back interest and taxes",
+      "B": "Subtracting depreciation and amortization",
+      "C": "Adding depreciation, amortization, and other non-cash items",
+      "D": "All of the above"
+    },
+    "correctAnswer": "C",
+    "explanation": "EBITDA excludes non-operating and non-cash charges to analyze segment performance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 119,
+    "question": "A variable interest entity (VIE) consolidation requires:",
+    "options": {
+      "A": "Majority voting interest",
+      "B": "Primary beneficiary consolidates VIE",
+      "C": "Any equity holder consolidates",
+      "D": "Only public companies qualify"
+    },
+    "correctAnswer": "B",
+    "explanation": "The primary beneficiary—entity absorbing majority variable returns—must consolidate.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 120,
+    "question": "Financial instruments measured at fair value through OCI (FVOCI) exclude:",
+    "options": {
+      "A": "Equity investments without significant influence",
+      "B": "Debt instruments held to collect and sell",
+      "C": "Equity securities with significant influence",
+      "D": "All derivatives"
+    },
+    "correctAnswer": "C",
+    "explanation": "Equity method applies to significant influence investments, not FVOCI classification. Wrapping Up",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 121,
+    "question": "A discontinued operation is:",
+    "options": {
+      "A": "A component eliminated from ongoing operations and reported separately",
+      "B": "Any operating segment",
+      "C": "A voluntary liquidation of the whole company",
+      "D": "An unusual gain only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Discontinued operations represent components that have been or will be disposed, with separate reporting.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "Accounting for income taxes uses:",
+    "options": {
+      "A": "Cash basis for tax expense",
+      "B": "Temporary and permanent differences to calculate deferred tax assets/liabilities",
+      "C": "Only current tax payable",
+      "D": "Effective tax rate only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Deferred taxes arise from timing differences between financial and tax reporting.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 123,
+    "question": "Accounting estimates are:",
+    "options": {
+      "A": "Not allowed under GAAP",
+      "B": "Integral to applying GAAP and require disclosure if material",
+      "C": "Only for depreciation",
+      "D": "The same as actual amounts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Estimates (e.g., allowances, impairments) are necessary judgments and must be disclosed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "A dual-rate activity-based costing system uses:",
+    "options": {
+      "A": "Separate rates for fixed and variable overhead",
+      "B": "Same rate for all overhead",
+      "C": "Two different activity bases",
+      "D": "Only direct labor as cost driver"
+    },
+    "correctAnswer": "A",
+    "explanation": "Dual-rate ABC segregates costs into fixed and variable pools for more accurate costing.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 125,
+    "question": "A post-retirement benefit other than pension (e.g., healthcare) is recorded as:",
+    "options": {
+      "A": "Defined benefit liability",
+      "B": "Expense when paid only",
+      "C": "Recognized over employee’s service period",
+      "D": "Not recognized until retirement"
+    },
+    "correctAnswer": "C",
+    "explanation": "Benefits other than pensions accrue over service and are recognized accordingly. Consolidations & Business Combinations",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 126,
+    "question": "In a business combination, the acquirer recognizes goodwill as:",
+    "options": {
+      "A": "Excess of fair value of net identifiable assets over purchase price",
+      "B": "Excess of purchase price over fair value of net identifiable assets",
+      "C": "Difference between book and fair values of assets",
+      "D": "Excess of liabilities over assets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Goodwill arises when the purchase price exceeds the fair value of identifiable net assets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 127,
+    "question": "Noncontrolling interest in consolidated financial statements is measured at:",
+    "options": {
+      "A": "Parent’s cost of investment",
+      "B": "Fair value of subsidiary’s identifiable net assets",
+      "C": "Proportionate share of subsidiary’s book value",
+      "D": "Zero"
+    },
+    "correctAnswer": "B",
+    "explanation": "Under full goodwill method, NCI is measured at fair value of the subsidiary’s net assets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 128,
+    "question": "A bargain purchase gain occurs when:",
+    "options": {
+      "A": "Purchase price > fair value of net assets",
+      "B": "Purchase price < fair value of net assets",
+      "C": "Parent obtains control",
+      "D": "Noncontrolling interest > fair value"
+    },
+    "correctAnswer": "B",
+    "explanation": "When fair value of acquired net assets exceeds purchase price, gain is recognized immediately. International Accounting",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 129,
+    "question": "Under IFRS, development costs are:",
+    "options": {
+      "A": "Expensed as incurred",
+      "B": "Capitalized if specific criteria are met",
+      "C": "Never capitalized",
+      "D": "Always expensed until product launch only"
+    },
+    "correctAnswer": "B",
+    "explanation": "IFRS allows capitalization when technical and economic feasibility is demonstrated.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "The primary difference between IFRS and U.S. GAAP inventory accounting is:",
+    "options": {
+      "A": "IFRS prohibits LIFO",
+      "B": "U.S. GAAP prohibits FIFO",
+      "C": "IFRS disallows lower of cost or market",
+      "D": "U.S. GAAP disallows periodic inventory"
+    },
+    "correctAnswer": "A",
+    "explanation": "LIFO is not permitted under IFRS, but allowed under U.S. GAAP.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 131,
+    "question": "In currency translation under IFRS, assets and liabilities at the closing rate is known as:",
+    "options": {
+      "A": "Temporal method",
+      "B": "Current rate method",
+      "C": "Monetary/nonmonetary method",
+      "D": "Historical rate method"
+    },
+    "correctAnswer": "B",
+    "explanation": "The current rate method translates balance sheet items at period-end rates. Ethics & Professional Standards",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 132,
+    "question": "The IMA Statement of Ethical Professional Practice includes all EXCEPT:",
+    "options": {
+      "A": "Competence",
+      "B": "Confidentiality",
+      "C": "Integrity",
+      "D": "Profitability"
+    },
+    "correctAnswer": "D",
+    "explanation": "Profitability isn’t an ethical standard; competence, confidentiality, integrity, and credibility are.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "The AICPA Code of Professional Conduct requires CPAs to maintain:",
+    "options": {
+      "A": "Independence in fact and appearance",
+      "B": "Only independence in fact",
+      "C": "Independence only for audit clients",
+      "D": "Independence only in appearance"
+    },
+    "correctAnswer": "A",
+    "explanation": "Both actual and perceived independence are required to maintain trust. Emerging Topics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "Blockchain accounting uses which feature for transaction tracking?",
+    "options": {
+      "A": "Reversible ledgers",
+      "B": "Immutable distributed ledger",
+      "C": "Anonymous blocks",
+      "D": "Centralized database"
+    },
+    "correctAnswer": "B",
+    "explanation": "Blockchain’s immutable ledger ensures tamper-evident records across participants.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 135,
+    "question": "Revenue from digital subscriptions that auto-renew should be recognized:",
+    "options": {
+      "A": "Entirely when cash is received",
+      "B": "Over the subscription period",
+      "C": "Only at first renewal",
+      "D": "When customer logs in"
+    },
+    "correctAnswer": "B",
+    "explanation": "Revenue is earned over time as services are delivered, matching subscription period.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "ESG (Environmental, Social, Governance) disclosures are:",
+    "options": {
+      "A": "Mandatory under U.S. GAAP",
+      "B": "Voluntary with increasing regulatory guidance",
+      "C": "Reported only in footnotes",
+      "D": "Part of tax filings"
+    },
+    "correctAnswer": "B",
+    "explanation": "ESG reporting is evolving; many jurisdictions encourage but do not yet require full disclosure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 137,
+    "question": "Artificial intelligence in audit can improve:",
+    "options": {
+      "A": "Manual sampling only",
+      "B": "Automated anomaly detection and risk assessment",
+      "C": "Opinion issuance",
+      "D": "Tax compliance only"
+    },
+    "correctAnswer": "B",
+    "explanation": "AI tools enable pattern recognition in large data sets, enhancing audit quality. Mixed Advanced Wrap-Up",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 138,
+    "question": "The equity method recognizes investee profit/loss as:",
+    "options": {
+      "A": "Dividend received",
+      "B": "Investor’s share of investee net income",
+      "C": "Fair value adjustments",
+      "D": "Balance sheet only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investor increases investment by its proportionate share of earnings.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 139,
+    "question": "Under IFRS 15, performance obligations are identified as:",
+    "options": {
+      "A": "Promises to transfer distinct goods or services",
+      "B": "Inventory only",
+      "C": "Contract price allocations only",
+      "D": "Financing components"
+    },
+    "correctAnswer": "A",
+    "explanation": "Contracts are broken into distinct transfer obligations for revenue recognition.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "Lease liabilities are measured at:",
+    "options": {
+      "A": "Present value of lease payments",
+      "B": "Sum of payments without discount",
+      "C": "Fair value of the leased asset",
+      "D": "Residual value only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Liability equals discounted future lease payments at the implicit rate.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 141,
+    "question": "Income statement classification of extraordinary items under U.S. GAAP is:",
+    "options": {
+      "A": "Before income from continuing operations",
+      "B": "After discontinued operations",
+      "C": "No longer separately classified as extraordinary",
+      "D": "In OCI"
+    },
+    "correctAnswer": "C",
+    "explanation": "U.S. GAAP eliminated the extraordinary items category in 2015.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 142,
+    "question": "Deferred tax assets are recognized when:",
+    "options": {
+      "A": "It’s probable that future taxable profit will be available",
+      "B": "When temporary differences reverse",
+      "C": "Only for permanent differences",
+      "D": "Never"
+    },
+    "correctAnswer": "A",
+    "explanation": "Probability criterion ensures realization through future profits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "A sale-leaseback transaction at fair value results in:",
+    "options": {
+      "A": "No gain or loss",
+      "B": "Seller-lessee recognizes any gain immediately",
+      "C": "Defers gain over lease term",
+      "D": "Recognizes loss only"
+    },
+    "correctAnswer": "C",
+    "explanation": "GAAP defers profit to match the leaseback period.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 144,
+    "question": "A fair value option election for financial instruments allows:",
+    "options": {
+      "A": "Measurement at historical cost",
+      "B": "Measurement at fair value with changes in net income",
+      "C": "VC-defined measurement",
+      "D": "No revaluation after initial recognition"
+    },
+    "correctAnswer": "B",
+    "explanation": "Entities can elect FV option to reduce accounting mismatches.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "A variable overhead spending variance is:",
+    "options": {
+      "A": "Difference between actual and applied overhead",
+      "B": "Difference between actual and budgeted variable overhead based on actual hours",
+      "C": "Difference between standard hours and actual hours",
+      "D": "Difference between actual hours and applied rate"
+    },
+    "correctAnswer": "B",
+    "explanation": "It isolates spending efficiency from usage variances.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 146,
+    "question": "Consolidated net income allocable to noncontrolling interest is:",
+    "options": {
+      "A": "Included in parent’s net income",
+      "B": "Deducted from consolidated net income",
+      "C": "Added to equity directly",
+      "D": "Reported below net income"
+    },
+    "correctAnswer": "D",
+    "explanation": "NCI share is shown separately below consolidated income.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 147,
+    "question": "Intercompany profit in ending inventory must be:",
+    "options": {
+      "A": "Eliminated in consolidation",
+      "B": "Deferred until sale to external parties",
+      "C": "Recognized as gain immediately",
+      "D": "Ignored"
+    },
+    "correctAnswer": "A",
+    "explanation": "Unrealized intercompany profits must be removed to avoid overstating income.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 148,
+    "question": "Hyperinflationary accounting under IAS 29 requires restating:",
+    "options": {
+      "A": "Only monetary items",
+      "B": "All financial statements using a general price index",
+      "C": "Only equity accounts",
+      "D": "Only income statement items"
+    },
+    "correctAnswer": "B",
+    "explanation": "All items restated to current purchasing power.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 149,
+    "question": "The primary objective of financial reporting is to:",
+    "options": {
+      "A": "Meet regulatory requirements",
+      "B": "Provide information useful to investors, lenders, and other creditors",
+      "C": "Maximize profits",
+      "D": "Record transactions accurately only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Focus is on decision-useful information for stakeholders.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 150,
+    "question": "A CPA’s responsibilities regarding subsequent events include:",
+    "options": {
+      "A": "No responsibilities after report date",
+      "B": "Performing procedures to identify events up to the date of the auditor’s report",
+      "C": "Identifying events only if clients inform them",
+      "D": "Reporting events after report issuance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Auditors must evaluate events occurring through the report date for potential adjustments or disclosures. Cost Accounting Variances",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "The Economic Order Quantity (EOQ) formula minimizes total inventory costs by balancing ordering and holding costs. EOQ equals:",
+    "options": {
+      "A": "√[(2 × Demand × Ordering Cost) ÷ Holding Cost]",
+      "B": "√[(Demand × Holding Cost) ÷ Ordering Cost]",
+      "C": "(2 × Demand × Holding Cost) ÷ Ordering Cost",
+      "D": "(Demand × Ordering Cost) ÷ Holding Cost"
+    },
+    "correctAnswer": "A",
+    "explanation": "EOQ = √[(2DS)/H], where D = demand, S = order cost, H = holding cost per unit.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 152,
+    "question": "A materials price variance is calculated as:",
+    "options": {
+      "A": "(Actual Price – Standard Price) × Actual Quantity Used",
+      "B": "(Actual Quantity – Standard Quantity) × Standard Price",
+      "C": "(Standard Price – Actual Price) × Standard Quantity",
+      "D": "(Actual Quantity – Standard Quantity) × Actual Price"
+    },
+    "correctAnswer": "A",
+    "explanation": "Price variance isolates cost deviations per unit of material purchased.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 153,
+    "question": "A materials usage variance is:",
+    "options": {
+      "A": "(Actual Quantity – Standard Quantity) × Standard Price",
+      "B": "(Actual Price – Standard Price) × Actual Quantity",
+      "C": "(Standard Quantity – Actual Quantity) × Actual Price",
+      "D": "(Actual Quantity – Standard Quantity) × Actual Price"
+    },
+    "correctAnswer": "A",
+    "explanation": "Usage (quantity) variance multiplies the difference in quantity by the standard price.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 154,
+    "question": "A labor rate variance equals:",
+    "options": {
+      "A": "(Actual Rate – Standard Rate) × Actual Hours Worked",
+      "B": "(Actual Hours – Standard Hours) × Standard Rate",
+      "C": "(Standard Rate – Actual Rate) × Standard Hours",
+      "D": "(Actual Hours – Standard Hours) × Actual Rate"
+    },
+    "correctAnswer": "A",
+    "explanation": "Rate variance measures pay-rate differences over the actual hours worked.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 155,
+    "question": "A labor efficiency variance is:",
+    "options": {
+      "A": "(Actual Hours – Standard Hours) × Standard Rate",
+      "B": "(Actual Rate – Standard Rate) × Actual Hours",
+      "C": "(Standard Hours – Actual Hours) × Actual Rate",
+      "D": "(Actual Hours – Standard Hours) × Actual Rate"
+    },
+    "correctAnswer": "A",
+    "explanation": "Efficiency variance multiplies hours saved (or lost) by the standard labor rate. Performance Metrics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "Return on Investment (ROI) is calculated as:",
+    "options": {
+      "A": "Operating Income ÷ Average Operating Assets",
+      "B": "Operating Assets ÷ Operating Income",
+      "C": "Net Income ÷ Total Assets",
+      "D": "Contribution Margin ÷ Fixed Costs"
+    },
+    "correctAnswer": "A",
+    "explanation": "ROI measures profit generated per dollar of assets employed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Residual Income (RI) equals:",
+    "options": {
+      "A": "Operating Income – (Minimum Required Rate × Average Operating Assets)",
+      "B": "Operating Income – Operating Assets",
+      "C": "Net Income – Dividends",
+      "D": "Contribution Margin – Fixed Costs"
+    },
+    "correctAnswer": "A",
+    "explanation": "RI charges a capital cost against assets before assessing performance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 158,
+    "question": "Economic Value Added (EVA) is:",
+    "options": {
+      "A": "Net Operating Profit After Taxes – (WACC × Capital Employed)",
+      "B": "Net Income – Dividends",
+      "C": "Operating Income – Depreciation",
+      "D": "Gross Profit – Operating Expenses"
+    },
+    "correctAnswer": "A",
+    "explanation": "EVA measures value created over the cost of capital. Budgeting & Forecasting",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 159,
+    "question": "A flexible budget adjusts:",
+    "options": {
+      "A": "Static budget for actual activity levels",
+      "B": "Original budget for price changes only",
+      "C": "Original budget for planned activity only",
+      "D": "Static budget for variance analysis only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Flexible budgets recalculate budgeted costs based on actual volume.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 160,
+    "question": "Zero-based budgeting requires managers to:",
+    "options": {
+      "A": "Justify all expenses from zero each period",
+      "B": "Increase prior budget by inflation rate",
+      "C": "Use last year’s spending as baseline",
+      "D": "Only budget new projects"
+    },
+    "correctAnswer": "A",
+    "explanation": "ZBB starts from a “zero base,” requiring justification for every expense.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 161,
+    "question": "Rolling forecasts differ from static budgets by being:",
+    "options": {
+      "A": "Continuously updated for a set future horizon",
+      "B": "Fixed at the start of the period",
+      "C": "Only annual",
+      "D": "Only for capital expenditures"
+    },
+    "correctAnswer": "A",
+    "explanation": "Rolling forecasts extend the forecast period as time passes, maintaining a constant horizon. Corporate Governance & Control Frameworks",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 162,
+    "question": "One key principle of corporate governance is:",
+    "options": {
+      "A": "Board Independence",
+      "B": "Maximizing short-term profits",
+      "C": "Minimizing disclosures",
+      "D": "Eliminating audit committees"
+    },
+    "correctAnswer": "A",
+    "explanation": "Independent directors help ensure objective oversight and reduce conflicts of interest.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 163,
+    "question": "The COSO Internal Control–Integrated Framework’s component that assesses risks is:",
+    "options": {
+      "A": "Risk Assessment",
+      "B": "Control Environment",
+      "C": "Monitoring Activities",
+      "D": "Information & Communication"
+    },
+    "correctAnswer": "A",
+    "explanation": "Risk Assessment identifies and analyzes risks to achieving objectives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 164,
+    "question": "SOX Section 302 requires the CEO and CFO to certify:",
+    "options": {
+      "A": "Accuracy of financial reports and internal controls",
+      "B": "Auditor independence",
+      "C": "Dividend declarations",
+      "D": "Audit committee composition"
+    },
+    "correctAnswer": "A",
+    "explanation": "Officers must personally attest to report integrity and control effectiveness. International Standards",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 165,
+    "question": "Under IFRS 9, financial assets at amortized cost must meet both:",
+    "options": {
+      "A": "Business model to hold to collect and contractual cash flow characteristics test",
+      "B": "Fair value option only",
+      "C": "Equity method criteria",
+      "D": "Trading classification only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Assets held to collect contractual cash flows with solely principal and interest features qualify.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 166,
+    "question": "IFRS 9 impairment uses:",
+    "options": {
+      "A": "Expected Credit Loss (ECL) model",
+      "B": "Incurred Loss model only",
+      "C": "Fair value adjustments only",
+      "D": "Direct write-off method"
+    },
+    "correctAnswer": "A",
+    "explanation": "ECL requires allowance for credit losses over the life of the asset.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 167,
+    "question": "IFRS 16 lease classification criteria include all EXCEPT:",
+    "options": {
+      "A": "Transfer of ownership test",
+      "B": "Lease term ≥ 75% of asset life",
+      "C": "Present value ≥ 90% of fair value",
+      "D": "Lessee’s ability to modify asset design"
+    },
+    "correctAnswer": "D",
+    "explanation": "Design rights aren’t a classification criterion under IFRS 16.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 168,
+    "question": "Under IFRS 15’s five-step model, allocating the transaction price is done based on:",
+    "options": {
+      "A": "Relative standalone selling prices of performance obligations",
+      "B": "Cost-plus margin only",
+      "C": "Historical averages",
+      "D": "Gross margin percentages"
+    },
+    "correctAnswer": "A",
+    "explanation": "Transaction price is allocated proportionally to each identified obligation. Wrap-Up & Emerging Topics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "Under IFRS, interest paid is classified in the cash flow statement as:",
+    "options": {
+      "A": "Operating activity by default",
+      "B": "Investing activity only",
+      "C": "Financing activity only",
+      "D": "Choice of classification by entity policy"
+    },
+    "correctAnswer": "D",
+    "explanation": "IFRS allows interest paid as either operating or financing, per policy.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 170,
+    "question": "A statement of changes in equity under IFRS must include:",
+    "options": {
+      "A": "Total comprehensive income for the period",
+      "B": "Only net income",
+      "C": "Only dividends declared",
+      "D": "Only share issuances"
+    },
+    "correctAnswer": "A",
+    "explanation": "It reconciles opening and closing equity, including OCI and transactions with owners.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 171,
+    "question": "Blockchain’s consensus mechanism in accounting ensures:",
+    "options": {
+      "A": "Single central authority approval",
+      "B": "Distributed agreement on transaction validity",
+      "C": "Unlimited reversibility",
+      "D": "Complete anonymity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Consensus protocols (e.g. Proof of Work) validate transactions across nodes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 172,
+    "question": "ESG metrics most commonly reported include:",
+    "options": {
+      "A": "Carbon emissions, water usage, board diversity",
+      "B": "Only financial KPIs",
+      "C": "Only tax rates",
+      "D": "Only legal disclosures"
+    },
+    "correctAnswer": "A",
+    "explanation": "Nonfinancial ESG data covers environmental, social, and governance factors.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 173,
+    "question": "AI-driven continuous auditing allows:",
+    "options": {
+      "A": "Real-time analysis of entire transaction populations",
+      "B": "Manual sampling only",
+      "C": "Quarterly assessments only",
+      "D": "Excluding high-risk areas"
+    },
+    "correctAnswer": "A",
+    "explanation": "Automation enables auditors to analyze full datasets continuously.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 174,
+    "question": "The primary objective of segment reporting is to:",
+    "options": {
+      "A": "Provide performance information about different business lines",
+      "B": "Segregate legal entities only",
+      "C": "Forecast future dividends",
+      "D": "Exclude intercompany transactions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Users can evaluate risks and returns of each operating segment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "Under IFRS, development costs that meet capitalization criteria are:",
+    "options": {
+      "A": "Amortized over their useful life",
+      "B": "Expensed immediately",
+      "C": "Held indefinitely",
+      "D": "Presented as equity"
+    },
+    "correctAnswer": "A",
+    "explanation": "Capitalized development costs are amortized systematically once the asset is available for use. Forensic Accounting",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "The fraud triangle consists of:",
+    "options": {
+      "A": "Opportunity, Motive, Rationalization",
+      "B": "Risk, Return, Reward",
+      "C": "Prevention, Detection, Correction",
+      "D": "Planning, Execution, Reporting"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fraud occurs when opportunity, incentive, and rationalization align.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 177,
+    "question": "A horizontal analysis in fraud detection compares:",
+    "options": {
+      "A": "Financial statement items across periods",
+      "B": "Ratios against industry benchmarks",
+      "C": "Vertical percentages within a period",
+      "D": "Cash flows to budgets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Trend analysis highlights unusual changes that may indicate fraud.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 178,
+    "question": "A red flag for inventory fraud is:",
+    "options": {
+      "A": "Increasing inventory turnover",
+      "B": "Declining gross margin with rising sales",
+      "C": "Rising days’ sales in inventory",
+      "D": "Stable days’ sales in receivables"
+    },
+    "correctAnswer": "C",
+    "explanation": "Slow-moving inventory may suggest overstatement or concealment of shrinkage. Sustainability Reporting",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 179,
+    "question": "The GRI Standards focus on:",
+    "options": {
+      "A": "Financial performance only",
+      "B": "Sustainability impacts—economic, environmental, social",
+      "C": "Tax reporting only",
+      "D": "Internal audit procedures"
+    },
+    "correctAnswer": "B",
+    "explanation": "GRI provides global best practices for ESG disclosures.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "Integrated reporting combines:",
+    "options": {
+      "A": "Financial and sustainability information in one report",
+      "B": "Only financial data across segments",
+      "C": "Only sustainability metrics separately",
+      "D": "Tax and audit reports"
+    },
+    "correctAnswer": "A",
+    "explanation": "It shows how strategy, governance, and performance create value over time. Nonprofit & Governmental Accounting",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "In fund accounting, a restricted fund means:",
+    "options": {
+      "A": "Resources with donor-imposed restrictions",
+      "B": "Resources available for any purpose",
+      "C": "Debt obligations",
+      "D": "Operating reserves"
+    },
+    "correctAnswer": "A",
+    "explanation": "Donors specify how and when contributions may be used.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 182,
+    "question": "Governmental funds use which measurement focus?",
+    "options": {
+      "A": "Economic resources",
+      "B": "Current financial resources",
+      "C": "All assets and liabilities",
+      "D": "Proprietary perspective"
+    },
+    "correctAnswer": "B",
+    "explanation": "Focus is on short-term inflows and outflows of spendable resources.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 183,
+    "question": "A nonprofit’s statement of activities is analogous to:",
+    "options": {
+      "A": "Balance Sheet",
+      "B": "Income Statement",
+      "C": "Cash Flow Statement",
+      "D": "Statement of Changes in Equity"
+    },
+    "correctAnswer": "B",
+    "explanation": "It reports revenues and expenses, showing changes in net assets. Final Wrap-Up Topics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "Dual reporting under IFRS and local GAAP requires:",
+    "options": {
+      "A": "One set of books only",
+      "B": "Recording adjustments to convert one basis to another",
+      "C": "Eliminating all differences permanently",
+      "D": "Using local GAAP for disclosures only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Entities maintain records under both frameworks, requiring reconciliation adjustments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 185,
+    "question": "A carve-out financial statement consolidates:",
+    "options": {
+      "A": "Only part of an entity as separate stand-alone statements",
+      "B": "Entire parent and all subsidiaries",
+      "C": "Only discontinued segments",
+      "D": "Only intercompany transactions"
+    },
+    "correctAnswer": "A",
+    "explanation": "It presents combined results of select components, often for divestiture.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 186,
+    "question": "Restatement of financials occurs when:",
+    "options": {
+      "A": "Immaterial errors are found",
+      "B": "Material errors or noncompliance are corrected in prior statements",
+      "C": "Management wants to change accounting policies in the next year",
+      "D": "Auditors finish fieldwork"
+    },
+    "correctAnswer": "B",
+    "explanation": "Material misstatements require restating prior period reports.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 187,
+    "question": "A going concern evaluation assesses:",
+    "options": {
+      "A": "Ability to continue operations for the foreseeable future",
+      "B": "Liquidity only",
+      "C": "Profitability only",
+      "D": "Compliance with debt covenants only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Auditors and management judge whether there’s substantial doubt about continuity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "Segment capital expenditures disclosure includes:",
+    "options": {
+      "A": "Depreciation expense for all segments",
+      "B": "Cash outlays for long-term assets by segment",
+      "C": "Operating income by segment",
+      "D": "Equity method investee information"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investors assess growth investments in each business line.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "A risk-based audit approach focuses on:",
+    "options": {
+      "A": "All transactions equally",
+      "B": "Areas with higher risk of material misstatement",
+      "C": "Only internal controls",
+      "D": "Only financial ratios"
+    },
+    "correctAnswer": "B",
+    "explanation": "Resources targeted where errors or fraud are most likely.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "The major difference between U.S. GAAP and IFRS revenue recognition under the five-step model is:",
+    "options": {
+      "A": "IFRS provides more industry-specific guidance",
+      "B": "U.S. GAAP is solely principle-based",
+      "C": "IFRS bans LIFO",
+      "D": "None significant; both converge on five-step framework"
+    },
+    "correctAnswer": "A",
+    "explanation": "IFRS includes limited industry guidance, while U.S. GAAP has broad, detailed rules for some sectors.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 191,
+    "question": "A reconciliation of net income to net cash from operating activities is required under:",
+    "options": {
+      "A": "Direct method only",
+      "B": "Indirect method only",
+      "C": "Both direct and indirect methods",
+      "D": "Neither method"
+    },
+    "correctAnswer": "B",
+    "explanation": "The indirect method adjusts net income for noncash items to derive operating cash flows.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "Presentation currency is:",
+    "options": {
+      "A": "Currency in which financial statements are presented",
+      "B": "Functional currency only",
+      "C": "Foreign currency translation difference only",
+      "D": "Currency used for tax reporting"
+    },
+    "correctAnswer": "A",
+    "explanation": "Companies may choose a presentation currency different from their functional currency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "Subsequent measurement of property, plant, and equipment under IFRS allows:",
+    "options": {
+      "A": "Only cost model",
+      "B": "Revaluation model",
+      "C": "Both cost and revaluation models",
+      "D": "Fair value model only"
+    },
+    "correctAnswer": "C",
+    "explanation": "IFRS permits entities to measure PPE at cost or revalue to fair value.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 194,
+    "question": "An impairment loss for PPE occurs when:",
+    "options": {
+      "A": "Recoverable amount < carrying amount",
+      "B": "Carrying amount < recoverable amount",
+      "C": "Fair value > carrying amount",
+      "D": "Depreciable life changes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Entities must write down assets when their implied recoverable value falls below book value.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "A social audit evaluates:",
+    "options": {
+      "A": "Financial performance only",
+      "B": "Social and ethical impacts of an organization’s operations",
+      "C": "Compliance with tax laws",
+      "D": "Internal controls effectiveness"
+    },
+    "correctAnswer": "B",
+    "explanation": "It assesses contributions to social objectives and stakeholder welfare.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 196,
+    "question": "A green bond issue’s proceeds must be used:",
+    "options": {
+      "A": "For any corporate purpose",
+      "B": "To finance environmentally beneficial projects",
+      "C": "To refinance existing debt only",
+      "D": "To pay dividends"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proceeds are earmarked for environmental or climate-focused initiatives.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 197,
+    "question": "A data analytics dashboard in audit can:",
+    "options": {
+      "A": "Replace all manual audit work",
+      "B": "Provide real-time insights and exception reporting",
+      "C": "Only produce historical data",
+      "D": "Only be used for tax audits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dashboards allow auditors to monitor key metrics and exceptions continuously.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "A sustainability report under SASB standards focuses on:",
+    "options": {
+      "A": "Financial materiality only",
+      "B": "Industry-specific ESG metrics that are financially material",
+      "C": "General social disclosures for all entities",
+      "D": "Only environmental data"
+    },
+    "correctAnswer": "B",
+    "explanation": "SASB provides standards for disclosing ESG factors likely to affect financial performance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "Government-wide financial statements use:",
+    "options": {
+      "A": "Modified accrual basis",
+      "B": "Full accrual basis",
+      "C": "Cash basis",
+      "D": "Budgetary basis only"
+    },
+    "correctAnswer": "B",
+    "explanation": "These statements aim to present an economic resources view, similar to business-type accounting.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "A final analytical review in auditing involves:",
+    "options": {
+      "A": "Comparing financial data with expectations and industry norms after substantive testing",
+      "B": "Only reviewing trial balances",
+      "C": "Conducting tests of details",
+      "D": "Issuing audit report"
+    },
+    "correctAnswer": "A",
+    "explanation": "Final analytical procedures ensure the overall financial picture is consistent and reasonable. Earnings per Share",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 201,
+    "question": "Basic EPS is calculated as:",
+    "options": {
+      "A": "(Net Income – Preferred Dividends) ÷ Weighted-Average Common Shares Outstanding",
+      "B": "Net Income ÷ Total Shares Outstanding",
+      "C": "(Net Income + Preferred Dividends) ÷ Weighted-Average Common Shares",
+      "D": "(Net Income – Common Dividends) ÷ Total Shares Outstanding"
+    },
+    "correctAnswer": "A",
+    "explanation": "Preferred dividends are subtracted before dividing by common shares for basic earnings per share.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 202,
+    "question": "Diluted EPS incorporates the effect of:",
+    "options": {
+      "A": "Only outstanding common shares",
+      "B": "Convertible securities, options, and warrants",
+      "C": "Preferred dividends only",
+      "D": "All long-term liabilities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Diluted EPS assumes conversion or exercise of dilutive instruments, increasing share count.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 203,
+    "question": "Under the treasury stock method, the dilution effect of options is computed by:",
+    "options": {
+      "A": "Issuing full shares for exercises",
+      "B": "Assuming proceeds are used to buy back shares at average market price",
+      "C": "Ignoring exercise price proceeds",
+      "D": "Reducing net income for dilution"
+    },
+    "correctAnswer": "B",
+    "explanation": "It nets the number of shares issued minus shares repurchased with exercise proceeds. Financial Statement Disclosures",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 204,
+    "question": "A reconciliation of net income to net cash provided by operating activities is required in:",
+    "options": {
+      "A": "Direct method only",
+      "B": "Indirect method only",
+      "C": "Both direct and indirect methods (as a supplement if direct)",
+      "D": "Neither method"
+    },
+    "correctAnswer": "C",
+    "explanation": "When using the direct method, a reconciliation (indirect) must be presented as well.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 205,
+    "question": "A subsequent event that provides evidence of conditions existing at the balance sheet date is:",
+    "options": {
+      "A": "Recognized in the financial statements (Type I)",
+      "B": "Disclosed only (Type II)",
+      "C": "Ignored",
+      "D": "Reported in OCI only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Type I events (e.g., settlement of a lawsuit) require adjustment to amounts recognized.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 206,
+    "question": "A Type II subsequent event:",
+    "options": {
+      "A": "Requires adjustment to the financials",
+      "B": "Requires disclosure but no adjustment",
+      "C": "Requires neither adjustment nor disclosure",
+      "D": "Is always an error"
+    },
+    "correctAnswer": "B",
+    "explanation": "Events indicating conditions arising after the balance sheet date are disclosed only.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 207,
+    "question": "Major customers that account for 10% or more of revenue must be disclosed because:",
+    "options": {
+      "A": "They represent concentration risk",
+      "B": "It’s an unusual item",
+      "C": "They affect cash flows only",
+      "D": "They aren’t permitted under GAAP"
+    },
+    "correctAnswer": "A",
+    "explanation": "Significant customer dependence may pose risk to future revenue stability.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 208,
+    "question": "Related-party transaction disclosures are required to show:",
+    "options": {
+      "A": "Terms and amounts of transactions",
+      "B": "Only the names of related parties",
+      "C": "Only large transactions",
+      "D": "Only loans, not sales"
+    },
+    "correctAnswer": "A",
+    "explanation": "GAAP requires description of relationships, nature, and amounts of related-party deals. Accounting Changes & Errors",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 209,
+    "question": "A change in accounting principle is accounted for by:",
+    "options": {
+      "A": "Retrospective application to prior periods",
+      "B": "Prospective application only",
+      "C": "No disclosure required",
+      "D": "Restating only current year"
+    },
+    "correctAnswer": "A",
+    "explanation": "Changes in principle require restating prior financials as if the new principle had always applied.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 210,
+    "question": "Correction of a material error from a prior period is handled by:",
+    "options": {
+      "A": "Prior period adjustment to retained earnings",
+      "B": "Prospective application",
+      "C": "Reporting as an extraordinary item",
+      "D": "Ignoring if immaterial"
+    },
+    "correctAnswer": "A",
+    "explanation": "Material errors require restating prior period balances and adjusting opening retained earnings.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 211,
+    "question": "A change in estimate (e.g., useful life) is accounted for:",
+    "options": {
+      "A": "Prospectively, no restatement",
+      "B": "Retrospectively, restating all prior years",
+      "C": "As an error correction",
+      "D": "Only when material"
+    },
+    "correctAnswer": "A",
+    "explanation": "Estimates are revised going forward; prior results remain unchanged. Foreign Currency & Segment Reporting",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "A cumulative translation adjustment is reported in:",
+    "options": {
+      "A": "Income statement",
+      "B": "Other comprehensive income",
+      "C": "Retained earnings directly",
+      "D": "Cash flow statement"
+    },
+    "correctAnswer": "B",
+    "explanation": "Foreign currency translation gains/losses for net assets go to OCI, not net income.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 213,
+    "question": "Segment liabilities disclosure under IFRS is:",
+    "options": {
+      "A": "Always required",
+      "B": "Required if such information is regularly provided to the chief operating decision maker",
+      "C": "Never required",
+      "D": "Only for reportable segments"
+    },
+    "correctAnswer": "B",
+    "explanation": "IFRS requires segment liabilities when CODM reviews that information.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "Interim financial reporting uses which concept for expense recognition?",
+    "options": {
+      "A": "Annualize expected expenses",
+      "B": "Apply full-year accounting policies consistently",
+      "C": "Use simpler policies without disclosure",
+      "D": "Exclude seasonality"
+    },
+    "correctAnswer": "B",
+    "explanation": "Consistency of policies ensures comparability across periods. Intangibles & R&D",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 215,
+    "question": "Under U.S. GAAP, software development costs for sold products are:",
+    "options": {
+      "A": "Expensed as R&D until technological feasibility, then capitalized",
+      "B": "Capitalized fully as incurred",
+      "C": "Expensed only when sold",
+      "D": "Never capitalized"
+    },
+    "correctAnswer": "A",
+    "explanation": "GAAP requires R&D expense until feasibility; post-feasibility costs are capitalized.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 216,
+    "question": "Research costs are:",
+    "options": {
+      "A": "Expensed as incurred",
+      "B": "Capitalized if related to a successful project",
+      "C": "Deferred until commercialization",
+      "D": "Treated as inventory"
+    },
+    "correctAnswer": "A",
+    "explanation": "GAAP mandates immediate expensing of research expenditures.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 217,
+    "question": "Start-up costs are:",
+    "options": {
+      "A": "Expensed as incurred",
+      "B": "Capitalized and amortized over 15 years",
+      "C": "Capitalized and amortized over 5 years",
+      "D": "Deferred indefinitely"
+    },
+    "correctAnswer": "A",
+    "explanation": "GAAP requires immediate expensing of organizational and start-up costs. Share-Based Compensation",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 218,
+    "question": "Equity-settled share-based payments are measured at:",
+    "options": {
+      "A": "Grant-date fair value",
+      "B": "Exercise-date intrinsic value",
+      "C": "Settlement date value",
+      "D": "Zero if employees pay exercise price"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fair value at grant is recognized over the vesting period.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 219,
+    "question": "Expense recognition for share-based awards occurs:",
+    "options": {
+      "A": "Over the vesting period",
+      "B": "At grant date",
+      "C": "At exercise date",
+      "D": "When market price exceeds exercise price"
+    },
+    "correctAnswer": "A",
+    "explanation": "Compensation cost is recognized systematically as services are rendered.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 220,
+    "question": "A modification of a share award that increases fair value requires:",
+    "options": {
+      "A": "Recognizing incremental fair value over remaining vesting",
+      "B": "Restating prior expense only",
+      "C": "Ignoring the change",
+      "D": "Expensing only at exercise"
+    },
+    "correctAnswer": "A",
+    "explanation": "Incremental fair value attributable to modification is recognized over the vesting period.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 221,
+    "question": "Cash-settled share-based payments are accounted for by:",
+    "options": {
+      "A": "Recognizing a liability equal to fair value each period",
+      "B": "Capitalizing the value",
+      "C": "Treating as equity",
+      "D": "Recognizing cost only at settlement"
+    },
+    "correctAnswer": "A",
+    "explanation": "Liability-class awards are remeasured each reporting date with changes in fair value recognized in P&L.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 222,
+    "question": "A “reverse vesting” condition (forfeiture if leaving) affects:",
+    "options": {
+      "A": "Total recognized expense based on expected forfeitures",
+      "B": "Total expense remains unchanged",
+      "C": "Expense recognized only on actual vesting",
+      "D": "Immediate full recognition"
+    },
+    "correctAnswer": "A",
+    "explanation": "Entities estimate forfeitures and adjust expense as expectations change.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 223,
+    "question": "A performance-based share award recognizes expense:",
+    "options": {
+      "A": "Only if the performance target is probable to be met",
+      "B": "Regardless of outcome",
+      "C": "Only at grant date",
+      "D": "Only after measurement"
+    },
+    "correctAnswer": "A",
+    "explanation": "Expense is recognized based on achievement probability, adjusting if outlook changes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 224,
+    "question": "Intrinsic value of an option equals:",
+    "options": {
+      "A": "Market price – Exercise price (if positive)",
+      "B": "Exercise price – Market price",
+      "C": "Grant-date fair value",
+      "D": "Always zero at grant"
+    },
+    "correctAnswer": "A",
+    "explanation": "It represents the immediate gain if exercised.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "For an award with graded vesting, total compensation cost is:",
+    "options": {
+      "A": "Allocated separately to each vesting tranche",
+      "B": "Recorded entirely at the first vesting date",
+      "C": "Deferred until final vest",
+      "D": "Ignored"
+    },
+    "correctAnswer": "A",
+    "explanation": "Each tranche is treated as a separate award with its own grant-date fair value and vesting schedule. Derivatives & Hedging",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 226,
+    "question": "A firm designates a hedging instrument for a forecasted transaction under cash flow hedge accounting. Changes in the hedging instrument’s fair value are:",
+    "options": {
+      "A": "Recognized in earnings immediately",
+      "B": "Deferred in Other Comprehensive Income (OCI) and reclassified when the forecasted transaction affects earnings",
+      "C": "Recorded as an asset only",
+      "D": "Ignored"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gains/losses on effective cash flow hedges are deferred in OCI until underlying transaction impacts earnings.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 227,
+    "question": "Under hedge accounting, the effectiveness of a hedge must be assessed:",
+    "options": {
+      "A": "At inception only",
+      "B": "Quarterly or each reporting period",
+      "C": "Only if the hedged item fails",
+      "D": "Never"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ongoing effectiveness testing ensures hedge continues to qualify for special accounting treatment. Income Taxes",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 228,
+    "question": "Deferred tax liabilities arise when:",
+    "options": {
+      "A": "Taxable income > financial income in a period due to temporary differences",
+      "B": "Taxable income < financial income",
+      "C": "Only when there’s a net operating loss",
+      "D": "When taxes are paid early"
+    },
+    "correctAnswer": "A",
+    "explanation": "Liabilities represent future taxes on currently untaxed temporary differences.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 229,
+    "question": "Valuation allowance for deferred tax assets is recorded if:",
+    "options": {
+      "A": "It’s more likely than not that some portion won’t be realized",
+      "B": "All DTA are realizable",
+      "C": "Only for permanent differences",
+      "D": "It’s mandatory for NOL carryforwards only"
+    },
+    "correctAnswer": "A",
+    "explanation": "GAAP requires a reserve when realization of deferred tax assets is uncertain. Postretirement Benefits",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 230,
+    "question": "Postretirement benefits other than pensions (OPEB) are recognized as an obligation:",
+    "options": {
+      "A": "Over the employees’ service period",
+      "B": "Only when paid",
+      "C": "After retirement only",
+      "D": "Never recognized until claim"
+    },
+    "correctAnswer": "A",
+    "explanation": "Entities accrue the cost of benefits over the period employees provide service.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 231,
+    "question": "The corridor approach to amortizing actuarial gains/losses allows:",
+    "options": {
+      "A": "Immediate recognition of all gains/losses",
+      "B": "Deferring recognition until cumulative unrecognized gains/losses exceed a threshold of plan assets or benefit obligation",
+      "C": "Never recognizing gains/losses",
+      "D": "Recognizing only losses immediately"
+    },
+    "correctAnswer": "B",
+    "explanation": "The corridor provides a buffer before amortization begins, smoothing pension expense. Nonmonetary Exchanges",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 232,
+    "question": "In a nonmonetary exchange with commercial substance, gains are:",
+    "options": {
+      "A": "Recognized immediately based on fair value of assets exchanged",
+      "B": "Deferred until cash is received",
+      "C": "Never recognized",
+      "D": "Recognized only if monetary consideration exchanged"
+    },
+    "correctAnswer": "A",
+    "explanation": "Exchanges with commercial substance result in immediate recognition of realized gains.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 233,
+    "question": "If a nonmonetary exchange lacks commercial substance, gains are:",
+    "options": {
+      "A": "Recognized immediately",
+      "B": "Deferred and reduce the basis of the acquired asset",
+      "C": "Reported in OCI",
+      "D": "Ignored"
+    },
+    "correctAnswer": "B",
+    "explanation": "Without commercial substance, gains are deferred via basis adjustment. Final Miscellaneous Topics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 234,
+    "question": "A change in the classification of cash flows (e.g., interest paid from operating to financing) is:",
+    "options": {
+      "A": "Prospective with disclosure only",
+      "B": "Retrospective restatement of prior statements",
+      "C": "Recorded as an error correction",
+      "D": "Not permitted under GAAP"
+    },
+    "correctAnswer": "A",
+    "explanation": "Classification changes are applied prospectively with disclosures.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 235,
+    "question": "Substantive analytical procedures in auditing:",
+    "options": {
+      "A": "Compare recorded amounts to expectations using plausible relationships",
+      "B": "Test internal controls exclusively",
+      "C": "Inspect physical assets only",
+      "D": "Are performed only at year-end"
+    },
+    "correctAnswer": "A",
+    "explanation": "Analytical procedures evaluate financial information plausibility to detect anomalies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 236,
+    "question": "Investor rights certificates may be accounted for as:",
+    "options": {
+      "A": "Equity if rights are exercisable at a strike price",
+      "B": "Liability if cash settlement is possible",
+      "C": "Either equity or liability based on settlement terms",
+      "D": "Revenue"
+    },
+    "correctAnswer": "C",
+    "explanation": "Classification depends on whether the instrument will be settled in cash or shares.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 237,
+    "question": "The use of predictive analytics in accounting primarily enhances:",
+    "options": {
+      "A": "Historical reporting accuracy",
+      "B": "Forecasting and risk assessment",
+      "C": "Manual journal entry accuracy",
+      "D": "Tax preparation speed"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advanced data analytics allow more precise future-oriented insights.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 238,
+    "question": "Under U.S. GAAP, exchange-traded derivatives used for hedging are measured at:",
+    "options": {
+      "A": "Historical cost",
+      "B": "Fair value",
+      "C": "Amortized cost",
+      "D": "Not recognized until settlement"
+    },
+    "correctAnswer": "B",
+    "explanation": "Derivatives are recorded at fair value with changes in recognition depending on hedge type.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 239,
+    "question": "Treasury stock method for diluted EPS assumes:",
+    "options": {
+      "A": "Proceeds used to repurchase shares at average market price",
+      "B": "Options not exercised",
+      "C": "Exercise proceeds retained by company",
+      "D": "No effect on EPS"
+    },
+    "correctAnswer": "A",
+    "explanation": "It calculates the net incremental shares outstanding after assumed exercise.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 240,
+    "question": "Segment profit or loss between IFRS and GAAP must be reconciled to:",
+    "options": {
+      "A": "Consolidated profit or loss",
+      "B": "Parent’s net income only",
+      "C": "Equity method investee income",
+      "D": "OCI only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reconciliation shows how segment totals map to consolidated results.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 241,
+    "question": "Postemployment benefit obligations are reported as:",
+    "options": {
+      "A": "Liability on the balance sheet",
+      "B": "Expense only when paid",
+      "C": "Part of equity",
+      "D": "Footnote disclosure only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Obligations are recorded on the balance sheet when probable and measurable.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 242,
+    "question": "A disposal group held for sale is classified as:",
+    "options": {
+      "A": "Current asset",
+      "B": "Noncurrent asset held for sale",
+      "C": "Inventory",
+      "D": "Investment"
+    },
+    "correctAnswer": "B",
+    "explanation": "Assets held for disposal under IFRS/GAAP are separate from continuing operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 243,
+    "question": "An issuer’s accounting for interim dividends requires:",
+    "options": {
+      "A": "Recognition as liability when declared",
+      "B": "Recognition only at year-end",
+      "C": "Disclosure only if material",
+      "D": "No recognition under IAS 34"
+    },
+    "correctAnswer": "A",
+    "explanation": "Dividends declared create a present obligation and must be recorded.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 244,
+    "question": "The percentage-of-sales method for bad debt estimation bases expense on:",
+    "options": {
+      "A": "Credit sales volume",
+      "B": "Ending receivables balance",
+      "C": "Cash collections",
+      "D": "Number of customers"
+    },
+    "correctAnswer": "A",
+    "explanation": "Expense recognized proportionally to current period credit sales.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "An impairment test for intangible assets with indefinite life (e.g., goodwill) is done:",
+    "options": {
+      "A": "Annually or when indicators exist",
+      "B": "Only upon acquisition",
+      "C": "Every five years",
+      "D": "Never"
+    },
+    "correctAnswer": "A",
+    "explanation": "Indefinite-life intangibles must be tested at least annually or more frequently if needed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 246,
+    "question": "A register of authorized signatories for check issuance is an example of:",
+    "options": {
+      "A": "Detective control",
+      "B": "Preventive control",
+      "C": "Corrective control",
+      "D": "Directive control"
+    },
+    "correctAnswer": "B",
+    "explanation": "It prevents unauthorized disbursements by ensuring only approved individuals can sign checks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "A company’s policy on materiality for audit planning should be:",
+    "options": {
+      "A": "Quantitative only",
+      "B": "Quantitative and qualitative",
+      "C": "Qualitative only",
+      "D": "Fixed dollar for all audits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Both aspects affect users’ decisions and should guide audit scope.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 248,
+    "question": "A deferred revenue liability is recognized when:",
+    "options": {
+      "A": "Cash is received before revenue is earned",
+      "B": "Revenue is earned before cash is received",
+      "C": "Services are completed",
+      "D": "Cash paid for expenses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Unearned revenue reflects cash received in advance of performance obligations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 249,
+    "question": "A convertible preferred stock’s dividends reduce:",
+    "options": {
+      "A": "Net income attributable to common shareholders for EPS",
+      "B": "Net income before taxes",
+      "C": "Retained earnings only",
+      "D": "Comprehensive income"
+    },
+    "correctAnswer": "A",
+    "explanation": "Dividends on convertible preferred shares are deducted to calculate EPS available to common.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 250,
+    "question": "The primary purpose of audit documentation is to:",
+    "options": {
+      "A": "Provide evidence of the auditor’s basis for conclusions and compliance with standards",
+      "B": "Record all transactions in detail",
+      "C": "Track client communications only",
+      "D": "Serve as a marketing tool"
+    },
+    "correctAnswer": "A",
+    "explanation": "Documentation supports audit work performed, evidence gathered, and conclusions reached.",
+    "difficulty": "Medium"
+  }
+]

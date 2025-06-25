@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "question": "Which element of the marketing mix defines the value exchanged for a product or service?",
+    "options": {
+      "A": "Product",
+      "B": "Price",
+      "C": "Place",
+      "D": "Promotion"
+    },
+    "correctAnswer": "B",
+    "explanation": "Price determines revenue and positioning, reflecting costs, demand, and competition.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "Extending a product line most often aims to:",
+    "options": {
+      "A": "Increase manufacturing complexity",
+      "B": "Reach new customer segments or boost market share",
+      "C": "Reduce branding costs",
+      "D": "Eliminate competition"
+    },
+    "correctAnswer": "B",
+    "explanation": "Line extensions leverage brand equity to satisfy varied consumer needs and grow sales.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Packaging serves which primary functions?",
+    "options": {
+      "A": "Promotion, protection, and information",
+      "B": "Distribution, pricing, and accounting",
+      "C": "Financing, personnel, and production",
+      "D": "Auditing, compliance, and forecasting"
+    },
+    "correctAnswer": "A",
+    "explanation": "Effective packaging attracts attention, safeguards the product, and communicates details.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "A SWOT analysis in the advertising plan helps identify:",
+    "options": {
+      "A": "Sales, wages, overhead, taxes",
+      "B": "Strengths, weaknesses, opportunities, threats",
+      "C": "Shares, warranties, operations, timelines",
+      "D": "Stocks, warehouses, orders, transport"
+    },
+    "correctAnswer": "B",
+    "explanation": "SWOT guides strategic choices by assessing internal and external factors. B. Personal Selling & Sales Promotion (4)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "The final step in the personal selling process is to:",
+    "options": {
+      "A": "Generate leads",
+      "B": "Overcome objections",
+      "C": "Close the sale and follow up",
+      "D": "Present the product"
+    },
+    "correctAnswer": "C",
+    "explanation": "Closing secures commitment, and follow-up ensures satisfaction and fosters loyalty.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "Coupons, rebates, and premiums are examples of:",
+    "options": {
+      "A": "Personal selling techniques",
+      "B": "Sales promotion tools",
+      "C": "Public relations activities",
+      "D": "Direct mail formats"
+    },
+    "correctAnswer": "B",
+    "explanation": "These tactics provide short-term incentives to stimulate trial or repeat purchases.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "“Push money” is a trade promotion used to:",
+    "options": {
+      "A": "Reward salespeople or retailers for selling specific items",
+      "B": "Attract consumers via social media",
+      "C": "Sponsor community events",
+      "D": "Provide product warranties"
+    },
+    "correctAnswer": "A",
+    "explanation": "Push money motivates intermediaries to actively promote a manufacturer’s products.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8,
+    "question": "A “point-of-purchase” display is primarily designed to:",
+    "options": {
+      "A": "Train sales staff",
+      "B": "Influence consumers at the moment of decision in-store",
+      "C": "Replace packaging",
+      "D": "Provide long-term branding"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strategic placement near checkout or aisles drives impulse sales. C. Traditional Advertising Media (4)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Which medium offers the highest reach for mass-market advertising?",
+    "options": {
+      "A": "Television",
+      "B": "Flyers",
+      "C": "Directory ads",
+      "D": "Product placement"
+    },
+    "correctAnswer": "A",
+    "explanation": "TV combines audio and visual impact to engage broad audiences simultaneously.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "question": "Frequency in media planning refers to:",
+    "options": {
+      "A": "Number of different channels used",
+      "B": "Number of times an individual is exposed to an ad",
+      "C": "Cost per thousand impressions",
+      "D": "Lead time before campaign launch"
+    },
+    "correctAnswer": "B",
+    "explanation": "Higher frequency improves message retention but must balance budget and wear-out.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "Direct mail advertising is most effective when it:",
+    "options": {
+      "A": "Targets uninterested audiences",
+      "B": "Is personalized and data-driven",
+      "C": "Uses the cheapest printing options",
+      "D": "Avoids any call to action"
+    },
+    "correctAnswer": "B",
+    "explanation": "Personalization and precise targeting raise response rates.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "question": "Outdoor (out-of-home) advertising is characterized by:",
+    "options": {
+      "A": "Interactive digital elements only",
+      "B": "High visibility, brief messages, and geographic targeting",
+      "C": "Long-form content",
+      "D": "Exclusive use in malls"
+    },
+    "correctAnswer": "B",
+    "explanation": "Billboards and transit ads quickly convey simple messages to large passersby audiences. D. Alternative Advertising Media (4)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "Product placement in movies is an example of:",
+    "options": {
+      "A": "Transit advertising",
+      "B": "Alternative media",
+      "C": "Print advertising",
+      "D": "Direct response marketing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Embedding brands into content reaches viewers in a non-intrusive way.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "Transit advertising targets consumers:",
+    "options": {
+      "A": "Only at home",
+      "B": "While traveling on buses, trains, or subways",
+      "C": "Through email",
+      "D": "Via telemarketing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ads on vehicles and stations engage commuters with captive exposure.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "question": "Cinema advertising leverages:",
+    "options": {
+      "A": "Radio spots",
+      "B": "Large-screen, high-impact pre-movie ads to engaged audiences",
+      "C": "Door-to-door flyers",
+      "D": "Social media influencers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Moviegoers’ attention is high, making cinema a premium venue for brand messaging.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "question": "Aerial advertising (skywriting, banners) is best suited for:",
+    "options": {
+      "A": "Nationwide campaigns",
+      "B": "Local events or messages needing high visibility outdoors",
+      "C": "Niche print audiences",
+      "D": "Mobile app marketing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Low-altitude aerial ads capture attention at outdoor gatherings or open spaces.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "question": "A strong brand helps consumers:",
+    "options": {
+      "A": "Ignore product attributes",
+      "B": "Recognize, trust, and differentiate a company’s offerings",
+      "C": "Avoid all price comparisons",
+      "D": "Forget competitor names"
+    },
+    "correctAnswer": "B",
+    "explanation": "Brand equity fosters loyalty, supports premium pricing, and eases new product launches.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "Positioning a product as “premium” primarily leverages:",
+    "options": {
+      "A": "Low price points",
+      "B": "Quality, exclusivity, and superior attributes",
+      "C": "Generic packaging",
+      "D": "Minimal promotion"
+    },
+    "correctAnswer": "B",
+    "explanation": "Premium positioning justifies higher prices through perceived value and status.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "question": "Brand equity is built over time through:",
+    "options": {
+      "A": "One-time promotions",
+      "B": "Consistent messaging, positive experiences, and strong associations",
+      "C": "Ignoring customer feedback",
+      "D": "Random ad placements"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sustained brand elements (logo, promise, tone) create memorable and favorable perceptions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "Co-branding partnerships allow two brands to:",
+    "options": {
+      "A": "Operate independently",
+      "B": "Leverage each other’s equity to reach new markets or enhance credibility",
+      "C": "Merge legally",
+      "D": "Avoid joint marketing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strategic alliances can amplify reach and share costs while adding value.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 21,
+    "question": "During an economic downturn, advertising budgets often:",
+    "options": {
+      "A": "Increase dramatically",
+      "B": "Face cuts as companies conserve funds",
+      "C": "Remain unaffected",
+      "D": "Shift entirely to TV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Firms reduce discretionary spending, though savvy advertisers may gain share by maintaining presence.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "question": "Advertising stimulates the economy by:",
+    "options": {
+      "A": "Reducing consumer choice",
+      "B": "Informing consumers, driving demand, and fostering competition",
+      "C": "Eliminating all small businesses",
+      "D": "Raising inflation only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Well-targeted ads raise awareness, boost sales, and support job creation across industries.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "The multiplier effect of advertising refers to:",
+    "options": {
+      "A": "Direct cost reduction",
+      "B": "Additional economic activity generated from incremental sales",
+      "C": "Only social media shares",
+      "D": "Government subsidies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Each dollar spent on ads can generate multiple dollars in economic output through increased production and services.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 24,
+    "question": "A cost-per-thousand (CPM) metric measures:",
+    "options": {
+      "A": "Cost per impression per thousand audiences",
+      "B": "Conversion rate only",
+      "C": "Sales volume only",
+      "D": "Lifetime customer value"
+    },
+    "correctAnswer": "A",
+    "explanation": "CPM standardizes media costs for budgeting and comparing channel efficiency. G. Promotion (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "The promotional mix includes all EXCEPT:",
+    "options": {
+      "A": "Advertising",
+      "B": "Personal selling",
+      "C": "Direct marketing",
+      "D": "Inventory management"
+    },
+    "correctAnswer": "D",
+    "explanation": "Inventory isn’t a communication tool; promotion covers paid, owned, and earned tactics.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "question": "A promotional plan’s first step is to:",
+    "options": {
+      "A": "Set the advertising budget",
+      "B": "Define objectives such as awareness, trial, or loyalty",
+      "C": "Select media outlets",
+      "D": "Hire a creative agency"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear objectives guide strategy, messaging, and evaluation metrics.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "question": "Frequency and reach are balanced to:",
+    "options": {
+      "A": "Minimize ad quality",
+      "B": "Optimize impact within budget—enough exposures to build recall without overexposure",
+      "C": "Maximize repetition only",
+      "D": "Ignore audience size"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proper mix ensures ads are seen by the right people often enough to drive action. H. Advertising & Public Relations (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "One key advantage of PR over advertising is that it:",
+    "options": {
+      "A": "Costs more per impression",
+      "B": "Offers third-party credibility through earned media",
+      "C": "Guarantees placement",
+      "D": "Excludes audiences"
+    },
+    "correctAnswer": "B",
+    "explanation": "Media coverage or influencer endorsements carry impartial authority that ads lack.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "A disadvantage of advertising is that it:",
+    "options": {
+      "A": "Lacks message control",
+      "B": "Can be costly and sometimes ignored by consumers",
+      "C": "Always generates earned media",
+      "D": "Is only for B2B markets"
+    },
+    "correctAnswer": "B",
+    "explanation": "High production and media expenses can strain budgets, and ad avoidance (e.g., skipping, ad blockers) reduces reach.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "Public relations primarily focuses on:",
+    "options": {
+      "A": "Selling via point-of-purchase displays",
+      "B": "Building and maintaining positive relationships between an organization and its publics",
+      "C": "Direct response campaigns",
+      "D": "Price promotions"
+    },
+    "correctAnswer": "B",
+    "explanation": "PR activities include press releases, events, and crisis management to shape reputation. I. The Advertising Plan (4)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "After setting objectives, the next step in an advertising plan is to:",
+    "options": {
+      "A": "Evaluate the campaign",
+      "B": "Determine the budget based on chosen strategy (e.g., percentage-of-sales)",
+      "C": "Write copy immediately",
+      "D": "Select spokespersons"
+    },
+    "correctAnswer": "B",
+    "explanation": "Budget methods (objective-and-task, competitive parity) align spending with goals and resources.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "An objective-and-task budgeting approach:",
+    "options": {
+      "A": "Sets budget as a fixed percent of sales only",
+      "B": "Identifies tasks needed to achieve objectives and estimates corresponding costs",
+      "C": "Matches competitors’ spending blindly",
+      "D": "Ignores strategic priorities"
+    },
+    "correctAnswer": "B",
+    "explanation": "This method offers transparency but requires detailed planning and cost estimates.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 33,
+    "question": "Creative strategy in the plan defines:",
+    "options": {
+      "A": "Media buying schedules",
+      "B": "Message theme, tone, and key consumer benefit",
+      "C": "Logistics for distribution",
+      "D": "Legal disclaimers only"
+    },
+    "correctAnswer": "B",
+    "explanation": "A coherent creative strategy ensures all ads convey a unified brand story.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "question": "Evaluating an advertising plan should include:",
+    "options": {
+      "A": "Only financial statements",
+      "B": "Metrics like reach, frequency, ROI, and brand lift",
+      "C": "Employee headcount",
+      "D": "Warehouse inventory levels"
+    },
+    "correctAnswer": "B",
+    "explanation": "Performance measurement uses both quantitative and qualitative indicators to gauge success. J. Creation of the Advertisement (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "A storyboard is used to:",
+    "options": {
+      "A": "Map out the sequence of visuals and scripts for a TV/video ad",
+      "B": "Draft print layouts only",
+      "C": "Plan radio spots",
+      "D": "Approve media buys"
+    },
+    "correctAnswer": "A",
+    "explanation": "Storyboards illustrate each scene frame-by-frame to guide production.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "Copywriting focuses on:",
+    "options": {
+      "A": "Designing logos",
+      "B": "Crafting persuasive headlines and body text that convey benefits",
+      "C": "Buying media placements",
+      "D": "Setting prices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective copy grabs attention and motivates action with clarity and appeal.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "One simple method to test ad effectiveness is:",
+    "options": {
+      "A": "Guessing consumer reactions",
+      "B": "A/B testing two versions and measuring response differences",
+      "C": "Spending twice the budget",
+      "D": "Relying solely on focus groups"
+    },
+    "correctAnswer": "B",
+    "explanation": "Controlled comparisons reveal which creative resonates best with the audience. K. Consumer-Oriented Advertising (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "Consumer-oriented advertising primarily aims to:",
+    "options": {
+      "A": "Influence intermediaries only",
+      "B": "Drive end-user awareness, preference, and purchase behavior",
+      "C": "Manage supply chain logistics",
+      "D": "Set wholesale prices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Messages highlight benefits and calls-to-action to encourage consumer trial or loyalty.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "question": "Sponsorships in consumer advertising help brands:",
+    "options": {
+      "A": "Only via direct product placement",
+      "B": "Associate with events or organizations to build positive perceptions and reach target audiences",
+      "C": "Eliminate media costs entirely",
+      "D": "Avoid legal requirements"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aligning with sports, arts, or causes elevates brand image and generates valuable associations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "question": "Direct marketing to consumers can include:",
+    "options": {
+      "A": "Business trade shows",
+      "B": "Email campaigns with personalized offers and tracking",
+      "C": "TV prime-time ads only",
+      "D": "Outdoor billboards exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Direct channels enable one-to-one communication and measurable responses. L. Financial Planning for Advertising (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "question": "“Percentage of sales” budgeting ties ad spend to:",
+    "options": {
+      "A": "A fixed dollar amount regardless of revenue",
+      "B": "A set percentage of past or projected sales revenue",
+      "C": "Competitor budgets",
+      "D": "Consumer income levels"
+    },
+    "correctAnswer": "B",
+    "explanation": "Simple to implement but may not reflect true needs or market opportunities.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 42,
+    "question": "Return on advertising investment (ROAI) is calculated as:",
+    "options": {
+      "A": "(Incremental revenue – advertising cost) ÷ advertising cost",
+      "B": "Total sales ÷ number of ads",
+      "C": "Media spend only",
+      "D": "Market share growth"
+    },
+    "correctAnswer": "A",
+    "explanation": "ROAI quantifies the financial gain attributable to ad campaigns.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 43,
+    "question": "A response model budget uses:",
+    "options": {
+      "A": "Historical spending only",
+      "B": "Sales response curves to estimate how sales change with ad investment",
+      "C": "Executive intuition exclusively",
+      "D": "Flat allocations per quarter"
+    },
+    "correctAnswer": "B",
+    "explanation": "Modeling ROI at different spend levels guides optimal budget allocation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 44,
+    "question": "Cost per click (CPC) is a metric in:",
+    "options": {
+      "A": "Outdoor advertising",
+      "B": "Digital advertising, charging advertisers only when users click on ads",
+      "C": "Radio spot planning",
+      "D": "Print ad design"
+    },
+    "correctAnswer": "B",
+    "explanation": "CPC aligns cost with measurable engagement in online campaigns.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "An advertising line item on the income statement appears under:",
+    "options": {
+      "A": "Cost of goods sold",
+      "B": "Selling, general, and administrative expenses",
+      "C": "Interest expense",
+      "D": "Other comprehensive income"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advertising is treated as an operating expense affecting net income. M. Consumer Behavior (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 46,
+    "question": "The first step in the consumer decision-making process is:",
+    "options": {
+      "A": "Purchase",
+      "B": "Need recognition",
+      "C": "Evaluation of alternatives",
+      "D": "Post-purchase behavior"
+    },
+    "correctAnswer": "B",
+    "explanation": "Recognizing an unmet need or problem triggers the buying process.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "question": "Social influences on consumer behavior include:",
+    "options": {
+      "A": "Only advertising messages",
+      "B": "Family, reference groups, and cultural norms",
+      "C": "Product features exclusively",
+      "D": "Supply chain length"
+    },
+    "correctAnswer": "B",
+    "explanation": "Peers and social networks shape attitudes, perceptions, and brand choices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "question": "Emotional motives in buying often drive consumers to purchase based on:",
+    "options": {
+      "A": "Logical product evaluations only",
+      "B": "Feelings such as excitement, security, or nostalgia",
+      "C": "Wholesale pricing",
+      "D": "Distributor incentives"
+    },
+    "correctAnswer": "B",
+    "explanation": "Emotions can override rational analysis, especially in high-involvement categories. N. Consumer Purchase Classifications (4)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "question": "A “routine” purchase decision involves:",
+    "options": {
+      "A": "Extensive research and high risk",
+      "B": "Low involvement and habitual buying (e.g., groceries)",
+      "C": "New product trials only",
+      "D": "B2B contracts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Consumers spend minimal time and effort on familiar, frequently purchased items.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 50,
+    "question": "Specialty products require:",
+    "options": {
+      "A": "No brand loyalty",
+      "B": "High involvement and strong brand preference (e.g., luxury cars)",
+      "C": "Low price sensitivity only",
+      "D": "No promotional support"
+    },
+    "correctAnswer": "B",
+    "explanation": "Buyers seek specific brands and are willing to invest more time and money. O. Media Planning & Buying (8)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "Gross rating points (GRPs) measure the sum of:",
+    "options": {
+      "A": "Reach × Frequency",
+      "B": "Cost per impression",
+      "C": "Total ad clicks",
+      "D": "Audience engagement rate"
+    },
+    "correctAnswer": "A",
+    "explanation": "GRPs quantify overall exposure by multiplying the percentage of audience reached by the average frequency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "Effective reach refers to:",
+    "options": {
+      "A": "The number of different people exposed at least three times to an ad",
+      "B": "Total number of impressions",
+      "C": "Unique website visitors",
+      "D": "Social media followers"
+    },
+    "correctAnswer": "A",
+    "explanation": "Effective reach sets a minimum exposure threshold (e.g., three exposures) for impact.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 53,
+    "question": "Share of voice (SOV) is calculated by:",
+    "options": {
+      "A": "A brand’s advertising spend divided by total category spend ×100",
+      "B": "Number of spokespersons used",
+      "C": "Social mentions only",
+      "D": "Media impressions per 1,000"
+    },
+    "correctAnswer": "A",
+    "explanation": "SOV indicates a brand’s presence relative to competitors in the same media channels.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "A “run-of-schedule” (ROS) buy in radio means ads:",
+    "options": {
+      "A": "Air only during peak drive-times",
+      "B": "Can run at any time the station chooses",
+      "C": "Are only in morning shows",
+      "D": "Are pre-recorded by listeners"
+    },
+    "correctAnswer": "B",
+    "explanation": "ROS buys offer cost savings but less control over specific time slots.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "In digital display advertising, “viewability” measures:",
+    "options": {
+      "A": "Whether the ad loads on the page",
+      "B": "Whether at least 50% of an ad is visible on-screen for one second or longer",
+      "C": "Total impressions",
+      "D": "Conversion rate"
+    },
+    "correctAnswer": "B",
+    "explanation": "Viewability standards ensure ads have a chance to be seen by users.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "question": "An “upfront” media buy in television refers to purchasing:",
+    "options": {
+      "A": "Single ad spots on the day of airing",
+      "B": "A package of ad inventory before the broadcast season at discounted rates",
+      "C": "Online video ads exclusively",
+      "D": "Only streaming ads"
+    },
+    "correctAnswer": "B",
+    "explanation": "Upfront commitments secure premium inventory and favorable pricing in advance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 57,
+    "question": "Cost per acquisition (CPA) differs from CPM in that CPA:",
+    "options": {
+      "A": "Charges per thousand views",
+      "B": "Charges only when a desired action (sale, lead) occurs",
+      "C": "Is calculated only for print ads",
+      "D": "Only measures clicks"
+    },
+    "correctAnswer": "B",
+    "explanation": "CPA aligns cost directly with performance outcomes, improving ROI accountability.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "question": "A flighting schedule in media planning:",
+    "options": {
+      "A": "Runs ads continuously",
+      "B": "Alternates periods of heavy advertising with periods of no advertising",
+      "C": "Matches competitor schedules",
+      "D": "Only uses radio"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flighting conserves budget by focusing spend around key dates or seasons.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "In programmatic buying, ads are purchased via:",
+    "options": {
+      "A": "Manual insertion orders only",
+      "B": "Automated, real-time bidding platforms",
+      "C": "Television networks exclusively",
+      "D": "Out-of-home vendors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Programmatic uses data-driven algorithms to optimize ad placement and targeting.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 60,
+    "question": "A “daypart” in broadcast planning segments the day by:",
+    "options": {
+      "A": "Audience demographic",
+      "B": "Time blocks (e.g., morning drive, prime time)",
+      "C": "Ad format",
+      "D": "Cost only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dayparts reflect viewing/listening habits, enabling strategic scheduling for target audiences. P. Digital & Social Media Advertising (8)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "question": "Native advertising is:",
+    "options": {
+      "A": "Display ads that match the look and feel of the platform’s content",
+      "B": "Only banner ads",
+      "C": "Pop-up malware",
+      "D": "Television endorsements"
+    },
+    "correctAnswer": "A",
+    "explanation": "Native ads blend in contextually, improving engagement without disrupting UX.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "In social media advertising, “lookalike audiences” are created from:",
+    "options": {
+      "A": "Random user lists",
+      "B": "Profiles similar to an advertiser’s existing customers based on shared attributes",
+      "C": "Competitor followers only",
+      "D": "Email blasts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Platforms analyze customer data to find new prospects with comparable behaviors or demographics.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 63,
+    "question": "A remarketing campaign targets users who:",
+    "options": {
+      "A": "Have never visited your site",
+      "B": "Previously engaged with your website or ads",
+      "C": "Only follow influencers",
+      "D": "Use ad blockers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Remarketing re-engages interested audiences to drive conversions and reinforce messaging.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "Cost per engagement (CPE) is a metric for:",
+    "options": {
+      "A": "Outdoor ads only",
+      "B": "Social or digital campaigns where cost is tied to user interactions (likes, shares, comments)",
+      "C": "Radio spots",
+      "D": "Direct mail"
+    },
+    "correctAnswer": "B",
+    "explanation": "CPE measures how much you pay for meaningful user actions beyond just impressions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 65,
+    "question": "Video completion rate (VCR) calculates the percentage of:",
+    "options": {
+      "A": "Users who start a video ad",
+      "B": "Users who watch the full length of a video ad",
+      "C": "Videos uploaded",
+      "D": "Total plays"
+    },
+    "correctAnswer": "B",
+    "explanation": "VCR gauges content effectiveness and audience interest in video creatives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "In mobile advertising, “geo-fencing” allows marketers to:",
+    "options": {
+      "A": "Block ads by geography",
+      "B": "Serve ads to users within a virtual perimeter around a physical location",
+      "C": "Only use GPS data for navigation apps",
+      "D": "Exclude all rural areas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Geo-fencing delivers hyper-local targeting based on device location in real time.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 67,
+    "question": "An influencer marketing campaign’s success is best measured by:",
+    "options": {
+      "A": "Number of posts only",
+      "B": "Engagement metrics, traffic driven, and conversions attributed to the influencer",
+      "C": "Followers gained only",
+      "D": "Spend per post"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective measurement ties social buzz to tangible business outcomes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "A/B testing in email marketing compares:",
+    "options": {
+      "A": "Two audience segments only",
+      "B": "Variations of subject lines, content, or CTAs to determine best performance",
+      "C": "Email vs. print ads",
+      "D": "Open rates vs. CTR only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Split tests isolate variables to optimize future sends based on listener response. Q. Creative Strategy & Execution (6)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "The “big idea” in advertising refers to:",
+    "options": {
+      "A": "The largest campaign budget",
+      "B": "The central, compelling concept that underpins all creative executions",
+      "C": "CEO’s vision statement",
+      "D": "Legal disclaimers"
+    },
+    "correctAnswer": "B",
+    "explanation": "A clear big idea ensures consistency and memorability across media.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "A “unique selling proposition” (USP) in advertising communicates:",
+    "options": {
+      "A": "Brand’s distinctive benefit and reason to buy",
+      "B": "Only product features",
+      "C": "Pricing model exclusively",
+      "D": "Media schedule"
+    },
+    "correctAnswer": "A",
+    "explanation": "The USP differentiates the offering in a saturated marketplace.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "question": "A “call to action” (CTA) in an ad prompts the audience to:",
+    "options": {
+      "A": "Passively view the content",
+      "B": "Perform a specific action (e.g., “Buy Now,” “Sign Up”)",
+      "C": "Skip the ad",
+      "D": "Report the ad"
+    },
+    "correctAnswer": "B",
+    "explanation": "CTAs guide consumer behavior toward the advertiser’s goals.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 72,
+    "question": "Storytelling in advertising is effective because it:",
+    "options": {
+      "A": "Focuses solely on product specs",
+      "B": "Engages emotions and builds narrative connections with the brand",
+      "C": "Requires no creative talent",
+      "D": "Always reduces costs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Narratives resonate more deeply, fostering recall and brand affinity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "A “mood board” in the creative process helps:",
+    "options": {
+      "A": "Track ad spend",
+      "B": "Compile visual references—colors, imagery, style—to align creative direction",
+      "C": "Schedule media buys",
+      "D": "Write copy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mood boards ensure stakeholders share a visual language before production.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "question": "In print ad design, “white space” refers to:",
+    "options": {
+      "A": "Unprinted areas that improve readability and focus",
+      "B": "The color of the paper only",
+      "C": "Full-page color images",
+      "D": "Margins set to zero"
+    },
+    "correctAnswer": "A",
+    "explanation": "Strategic white space balances elements and draws attention to key messages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "Emotional appeals in creative executions aim to:",
+    "options": {
+      "A": "Present only logical arguments",
+      "B": "Tap into feelings like humor, fear, or nostalgia to motivate action",
+      "C": "Exclude product information",
+      "D": "Guarantee immediate purchase"
+    },
+    "correctAnswer": "B",
+    "explanation": "Emotional triggers can enhance persuasion and memorability when aligned with brand tone. R. Measurement & Analytics (6)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Brand lift studies measure changes in:",
+    "options": {
+      "A": "Warehouse inventory",
+      "B": "Consumer perceptions—awareness, favorability, intent—after exposure to ads",
+      "C": "Only sales figures",
+      "D": "Legal compliance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Surveys assess incremental shifts in brand metrics due to advertising.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "A marketing “attribution model” assigns credit to:",
+    "options": {
+      "A": "Only last-click touchpoints",
+      "B": "Multiple touchpoints along the customer journey based on rules or algorithms",
+      "C": "Ad creative only",
+      "D": "Media agency only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-touch attribution distributes value across channels to guide budget allocation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 78,
+    "question": "Media mix modeling uses:",
+    "options": {
+      "A": "Simple averages",
+      "B": "Statistical analysis of historical data to isolate the impact of each marketing channel on sales",
+      "C": "Only social media metrics",
+      "D": "Gut instinct exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "MMM quantifies ROI of various channels while controlling for external factors.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "question": "A “lift” in analytics refers to:",
+    "options": {
+      "A": "Vertical scroll depth",
+      "B": "Incremental effect of an intervention compared to a control or baseline",
+      "C": "Only financial profit",
+      "D": "Number of flights booked"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lift measures the net gain attributable to specific marketing actions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "question": "View-through rate (VTR) tracks:",
+    "options": {
+      "A": "Only completed video views",
+      "B": "Users who later visit the advertiser’s site after being exposed to a display ad but not clicking it",
+      "C": "Email delivery rates",
+      "D": "Only paid search clicks"
+    },
+    "correctAnswer": "B",
+    "explanation": "VTR captures latent interest and indirect influence of display ads beyond immediate clicks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "question": "Key performance indicators (KPIs) in advertising should be:",
+    "options": {
+      "A": "Numerous and varied",
+      "B": "Aligned with campaign objectives (e.g., CTR, conversions, cost per acquisition)",
+      "C": "Only financial metrics",
+      "D": "Irrelevant to strategy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Focusing on a few strategic KPIs ensures clarity and actionable insights. S. Legal & Ethical Issues (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 82,
+    "question": "The CAN-SPAM Act regulates:",
+    "options": {
+      "A": "TV advertising",
+      "B": "Commercial email messages and requires clear opt-out mechanisms",
+      "C": "Social media posts only",
+      "D": "Outdoor billboards"
+    },
+    "correctAnswer": "B",
+    "explanation": "CAN-SPAM mandates accurate sender info, subject lines, and unsubscribe options.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "Truth in advertising laws require that ads be:",
+    "options": {
+      "A": "Exaggerated to attract attention",
+      "B": "Honest, not misleading, and backed by evidence for claims",
+      "C": "Free of all creativity",
+      "D": "Only for pharmaceuticals"
+    },
+    "correctAnswer": "B",
+    "explanation": "FTC enforces standards to protect consumers from deceptive practices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 84,
+    "question": "Endorsements in ads must disclose:",
+    "options": {
+      "A": "Only product specs",
+      "B": "Material connections (e.g., payment or gifts) between endorsers and advertisers",
+      "C": "No affiliation details",
+      "D": "Internal budgeting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Transparency about relationships prevents conflicts of interest and maintains credibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "Copyright law in advertising protects:",
+    "options": {
+      "A": "Facts and ideas",
+      "B": "Original creative works—text, images, jingles—not mere concepts",
+      "C": "Public domain content only",
+      "D": "Trademarked logos only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Copyright grants exclusive reproduction and distribution rights for specified creative expressions. T. Global & Multicultural Advertising (4)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "question": "Transcreation involves:",
+    "options": {
+      "A": "Direct translation of ad copy word-for-word",
+      "B": "Adapting messages creatively to preserve meaning, tone, and cultural relevance",
+      "C": "Ignoring language nuances",
+      "D": "Using machine translation exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Transcreation ensures resonance in local markets by combining translation and creative adaptation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 87,
+    "question": "A glocal strategy in advertising means:",
+    "options": {
+      "A": "Using only global campaigns without changes",
+      "B": "Combining global branding with local customization for relevance",
+      "C": "Local-only with no brand consistency",
+      "D": "Avoiding international markets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Glocal approaches balance scale efficiencies with cultural sensitivity on messaging and media.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "question": "Hofstede’s cultural dimensions help advertisers understand differences in:",
+    "options": {
+      "A": "Only languages",
+      "B": "Values like individualism vs. collectivism and uncertainty avoidance",
+      "C": "Media buying rates",
+      "D": "Exchange rates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cultural frameworks guide tone, appeals, and media choice in various countries.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "question": "In multicultural advertising within a single country, effective campaigns:",
+    "options": {
+      "A": "Use one message for all demographic groups",
+      "B": "Tailor creative to reflect diverse cultural identities and media habits",
+      "C": "Ignore subcultures",
+      "D": "Rely solely on national TV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Inclusive messages and channels increase relevance and brand equity among varied audiences. U. Emerging Trends & Innovations (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "Augmented reality (AR) ads enhance consumer experience by:",
+    "options": {
+      "A": "Displaying billboards only",
+      "B": "Overlaying digital content onto the real world via mobile devices",
+      "C": "Using only radio frequencies",
+      "D": "Printing flyers"
+    },
+    "correctAnswer": "B",
+    "explanation": "AR allows interactive product try-ons and immersive brand experiences in real time.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 91,
+    "question": "Programmatic audio advertising automates the buying of:",
+    "options": {
+      "A": "Podcast and streaming audio spots targeted by listener data",
+      "B": "Only in-car radio ads",
+      "C": "Outdoor audio installations",
+      "D": "Phone call ads"
+    },
+    "correctAnswer": "A",
+    "explanation": "Data-driven platforms deliver audio ads to specific listener segments in digital environments.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "question": "Voice-activated ads on smart speakers require:",
+    "options": {
+      "A": "Manual dialing",
+      "B": "Conversational design and voice-search optimization",
+      "C": "Television scripts only",
+      "D": "Ignoring user intent"
+    },
+    "correctAnswer": "B",
+    "explanation": "Voice ads must align with how users naturally speak and search by voice.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 93,
+    "question": "A media brief includes information on:",
+    "options": {
+      "A": "Historical advertising budgets only",
+      "B": "Target audience, objectives, key message, and media requirements",
+      "C": "Employee benefits",
+      "D": "Office floor plans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Briefs guide media planners with strategic context for buy recommendations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "A creative brief outlines:",
+    "options": {
+      "A": "Media inventory",
+      "B": "Campaign background, target insight, message tone, and executional guidelines",
+      "C": "Only legal disclaimers",
+      "D": "Budget allocations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Creative briefs direct writers and designers toward on-strategy concepts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "A post-campaign audit assesses:",
+    "options": {
+      "A": "Inventory levels",
+      "B": "Performance vs. objectives, learnings, and recommendations for future campaigns",
+      "C": "Only media schedules",
+      "D": "Customer service scripts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Audits consolidate results to refine tactics and optimize ROI in subsequent efforts. W. Review & Reflection (2)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "Reflecting on an advertising campaign’s failures helps:",
+    "options": {
+      "A": "Repeat the same mistakes",
+      "B": "Identify root causes and improve future planning and execution",
+      "C": "Blame vendors only",
+      "D": "Ignore analytics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Constructive reflection drives learning and continuous optimization.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "Key takeaways from an advertising project should be:",
+    "options": {
+      "A": "Vague and general",
+      "B": "Specific, actionable insights that inform next campaigns",
+      "C": "Kept confidential only",
+      "D": "Irrelevant to stakeholders"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear lessons ensure organizational knowledge transfer and strategic growth. X. Professional Development (3)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "A professional portfolio for an advertiser might include:",
+    "options": {
+      "A": "Personal photos only",
+      "B": "Campaign case studies, media plans, creative samples, and performance results",
+      "C": "Only résumés",
+      "D": "Stock templates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Portfolios showcase skills, experience, and measurable impact to prospective clients or employers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "question": "Attending industry conferences helps advertisers to:",
+    "options": {
+      "A": "Avoid networking",
+      "B": "Stay updated on trends, build relationships, and gain inspiration",
+      "C": "Only sell products",
+      "D": "Ignore peers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Conferences foster learning, contacts, and exposure to innovative practices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "Continuing education in advertising is important because the field:",
+    "options": {
+      "A": "Never changes",
+      "B": "Rapidly evolves with new platforms, technologies, and consumer behaviors",
+      "C": "Has no professional certifications",
+      "D": "Requires no skill refresh"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lifelong learning maintains relevance and competitive advantage in a dynamic industry.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 101,
+    "question": "“Over-the-top” (OTT) advertising delivers content:",
+    "options": {
+      "A": "Only via cable networks",
+      "B": "Directly over the internet on streaming services, bypassing traditional TV providers",
+      "C": "Exclusively on radio",
+      "D": "Through print magazines"
+    },
+    "correctAnswer": "B",
+    "explanation": "OTT ads reach viewers on devices like smart TVs and streaming boxes without a cable subscription.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 102,
+    "question": "A “hybrid” media buy combines:",
+    "options": {
+      "A": "Only traditional TV spots",
+      "B": "Both guaranteed (direct) and non-guaranteed (programmatic) inventory in one deal",
+      "C": "Radio and print only",
+      "D": "CPC and CPM interchangeably"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hybrid buys leverage direct-sold volumes with programmatic flexibility for efficiency.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 103,
+    "question": "“Advanced TV” advertising includes:",
+    "options": {
+      "A": "Only broadcast networks",
+      "B": "Addressable, programmatic, and OTT/CTV placements for targeted TV ads",
+      "C": "Outdoor digital billboards",
+      "D": "In-store audio systems"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advanced TV enables precise audience segmentation and measurement across TV environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 104,
+    "question": "A “frequency cap” in digital campaigns limits:",
+    "options": {
+      "A": "Total campaign budget",
+      "B": "The number of times an individual user sees the same ad within a set period",
+      "C": "The number of creatives used",
+      "D": "Campaign duration"
+    },
+    "correctAnswer": "B",
+    "explanation": "Caps prevent ad fatigue by controlling exposure per user.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "In addressable TV, advertisers can target:",
+    "options": {
+      "A": "Entire DMA only",
+      "B": "Specific households based on data like demographics or purchase history",
+      "C": "Only during prime time",
+      "D": "No geographic filters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Addressable TV uses set-top data to deliver customized ads to defined audience segments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 106,
+    "question": "Content marketing primarily focuses on:",
+    "options": {
+      "A": "Hard selling products",
+      "B": "Creating valuable, relevant content to attract and retain a defined audience",
+      "C": "Only social media contests",
+      "D": "Ignoring SEO"
+    },
+    "correctAnswer": "B",
+    "explanation": "Content builds trust and authority, driving engagement without overt promotion.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "A “brand documentary” video serves to:",
+    "options": {
+      "A": "List product specs only",
+      "B": "Tell the brand’s origin, mission, or impact story in a long-form narrative",
+      "C": "Replace product packaging",
+      "D": "Serve as legal disclosure"
+    },
+    "correctAnswer": "B",
+    "explanation": "Documentaries deepen emotional connection by showcasing authenticity and values.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 108,
+    "question": "“User-generated content” (UGC) is:",
+    "options": {
+      "A": "Agency-produced videos",
+      "B": "Marketing materials created voluntarily by consumers (reviews, social posts)",
+      "C": "Stock photos only",
+      "D": "Sponsor-paid articles"
+    },
+    "correctAnswer": "B",
+    "explanation": "UGC amplifies credibility by leveraging real customer experiences and voices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "question": "A content calendar helps marketers to:",
+    "options": {
+      "A": "Store invoices",
+      "B": "Plan, schedule, and coordinate content publication across channels",
+      "C": "Only track ad spend",
+      "D": "Replace creative briefs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Calendars ensure consistency, timing, and alignment with campaigns or events.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "question": "“Snackable” content refers to:",
+    "options": {
+      "A": "Long white papers",
+      "B": "Short, easy-to-consume pieces like infographics or micro-videos suited for social",
+      "C": "Printed brochures",
+      "D": "Audio podcasts only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bite-sized formats match decreased attention spans and mobile consumption habits. AA. Omnichannel & Integrated Campaigns (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "question": "Omnichannel marketing ensures:",
+    "options": {
+      "A": "Separate strategies per channel with no coordination",
+      "B": "A seamless and consistent brand experience across online and offline touchpoints",
+      "C": "Digital-only focus",
+      "D": "Exclusive print usage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Integration aligns messaging and data to guide customers fluidly between channels.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "Channel attribution in omnichannel campaigns is challenging because:",
+    "options": {
+      "A": "All channels use the same metrics",
+      "B": "Customers interact across multiple touchpoints, requiring sophisticated tracking",
+      "C": "Only last-click matters",
+      "D": "Offline ads cannot be measured"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cross-device and offline behaviors complicate data collection and attribution modeling.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 113,
+    "question": "An integrated marketing communications (IMC) plan coordinates:",
+    "options": {
+      "A": "Only advertising media",
+      "B": "All promotional tools—PR, direct, digital, sales promotion—around unified objectives",
+      "C": "Supply chain only",
+      "D": "Financial reporting only"
+    },
+    "correctAnswer": "B",
+    "explanation": "IMC leverages synergy by delivering a cohesive brand message through diverse channels.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "A customer journey map visualizes:",
+    "options": {
+      "A": "Financial projections",
+      "B": "The end-to-end path of consumer interactions and emotions with a brand",
+      "C": "Media budgets",
+      "D": "Inventory turnover"
+    },
+    "correctAnswer": "B",
+    "explanation": "Journey maps identify pain points and opportunities for tailored communications.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 115,
+    "question": "Contextual targeting delivers ads based on:",
+    "options": {
+      "A": "User browsing history only",
+      "B": "The content of the page or environment surrounding the ad",
+      "C": "Geo-location exclusively",
+      "D": "Demographics only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Contextual ads match creative to relevant topics or keywords, enhancing relevance without behavioral data. BB. Shopper & Retail Media (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "question": "Retail media refers to:",
+    "options": {
+      "A": "Ads placed on social platforms only",
+      "B": "Advertising within retailer ecosystems—on-site, in-app, and at point-of-sale",
+      "C": "Only TV commercials",
+      "D": "Outdoor billboards"
+    },
+    "correctAnswer": "B",
+    "explanation": "Retailers monetize shelf space and digital properties to target shoppers closer to purchase.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 117,
+    "question": "A “buy now, pay later” (BNPL) offer integrated at checkout is an example of:",
+    "options": {
+      "A": "Traditional couponing",
+      "B": "A retail media financing promotion to reduce purchase friction",
+      "C": "Email marketing",
+      "D": "Direct mail"
+    },
+    "correctAnswer": "B",
+    "explanation": "BNPL embeds financing options within the retailer’s checkout experience to convert shoppers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 118,
+    "question": "In-store digital signage is effective because it:",
+    "options": {
+      "A": "Distracts customers",
+      "B": "Provides dynamic, targeted messaging at the point of decision",
+      "C": "Only plays background music",
+      "D": "Requires no content updates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Digital screens can adapt promotions in real time based on inventory or shopper behaviour.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 119,
+    "question": "Shopper marketing focuses on:",
+    "options": {
+      "A": "Manufacturer branding only",
+      "B": "Influencing purchase decisions at the retail level through displays, demos, and promotions",
+      "C": "B2B negotiations only",
+      "D": "Only online tactics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Shopper marketing aligns with in-store insights to drive conversion at shelf and checkouts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "Audience segmentation in retail media may use:",
+    "options": {
+      "A": "Door-to-door surveys only",
+      "B": "First-party shopper data, loyalty program behavior, and transaction history",
+      "C": "Industry averages exclusively",
+      "D": "Only demographic quotas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Retailers leverage rich shopper data to personalize ads and offers within their platforms.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 121,
+    "question": "An A/B/n test extends A/B testing by:",
+    "options": {
+      "A": "Testing only two versions",
+      "B": "Testing multiple variants (A, B, C…) simultaneously to find the best performing creative",
+      "C": "Testing only n variables at once",
+      "D": "Ignoring statistical significance"
+    },
+    "correctAnswer": "B",
+    "explanation": "A/B/n allows for broader creative experimentation within the same campaign.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "A predictive targeting model uses:",
+    "options": {
+      "A": "Random ad placement",
+      "B": "Machine learning on past data to forecast which users are most likely to convert",
+      "C": "Manual media buys only",
+      "D": "Only CPM metrics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Predictive algorithms optimize audience selection for higher ROI.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 123,
+    "question": "In media optimization, a “multivariate test” examines:",
+    "options": {
+      "A": "Only one element at a time",
+      "B": "Combinations of multiple elements (e.g., headline, image, CTA) to identify the most effective mix",
+      "C": "Only channel selection",
+      "D": "Only budget allocation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multivariate tests reveal interactions between creative components for holistic improvement.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 124,
+    "question": "A KPI dashboard for advertising should refresh:",
+    "options": {
+      "A": "Manually once a quarter",
+      "B": "Near real-time or daily to support agile decision-making",
+      "C": "Only at campaign end",
+      "D": "Never"
+    },
+    "correctAnswer": "B",
+    "explanation": "Timely data enables quick adjustments to media buys and creative strategies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Incrementality testing measures:",
+    "options": {
+      "A": "Only total impressions",
+      "B": "The lift in conversions or sales directly attributable to advertising, beyond what would have happened organically",
+      "C": "Number of clicks only",
+      "D": "Only cost efficiency"
+    },
+    "correctAnswer": "B",
+    "explanation": "Incrementality isolates ad-driven impact using control groups or geo-tests.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 126,
+    "question": "GDPR compliance in advertising requires:",
+    "options": {
+      "A": "Unrestricted data collection",
+      "B": "Explicit user consent for personal data processing and the right to access or erase data",
+      "C": "Only IP-based targeting",
+      "D": "Ignoring European audiences"
+    },
+    "correctAnswer": "B",
+    "explanation": "GDPR mandates transparency, consent, and data subject rights for EU residents.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 127,
+    "question": "CCPA grants California consumers the right to:",
+    "options": {
+      "A": "Opt out of sale of personal information and request deletion of their data",
+      "B": "Increase ad frequency",
+      "C": "Access global ad budgets",
+      "D": "Only opt in to emails"
+    },
+    "correctAnswer": "A",
+    "explanation": "CCPA empowers consumers to control the sale and use of their personal data by companies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 128,
+    "question": "Behavioral targeting must consider:",
+    "options": {
+      "A": "Only purchase history",
+      "B": "Privacy regulations, data security, and transparency in how consumer data is used",
+      "C": "No legal constraints",
+      "D": "Only third-party cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical targeting balances personalization with respect for user privacy and compliance obligations.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 129,
+    "question": "Native ad disclosures are required to:",
+    "options": {
+      "A": "Hide the ad nature",
+      "B": "Clearly label sponsored content to distinguish it from editorial",
+      "C": "Only use tiny text",
+      "D": "Avoid any callouts"
+    },
+    "correctAnswer": "B",
+    "explanation": "FTC guidelines require native ads to be identifiable to maintain consumer trust.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "An ethical issue with programmatic bidding is:",
+    "options": {
+      "A": "Manual insertion orders",
+      "B": "Potential for ads to appear alongside inappropriate or extremist content without proper brand safety measures",
+      "C": "Guaranteed premium placements",
+      "D": "Lack of data usage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advertisers must implement brand safety controls to avoid reputational risks in automated buys. EE. Future of Advertising (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 131,
+    "question": "Contextual AI-driven creative generation can:",
+    "options": {
+      "A": "Remove all human creativity",
+      "B": "Assist in producing personalized ad variants at scale based on data insights",
+      "C": "Only generate standard templates",
+      "D": "Ignore brand guidelines"
+    },
+    "correctAnswer": "B",
+    "explanation": "Generative AI tools rapidly adapt creative to audience segments, boosting relevance while requiring oversight.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 132,
+    "question": "The metaverse offers advertising potential through:",
+    "options": {
+      "A": "Traditional print only",
+      "B": "Immersive 3D environments where brands can create experiences and virtual goods",
+      "C": "Only radio ads",
+      "D": "No interactivity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Virtual worlds open novel engagement formats like branded events and digital collectibles.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 133,
+    "question": "Blockchain in advertising can improve:",
+    "options": {
+      "A": "Only payment processing",
+      "B": "Transparency in media buying, fraud prevention, and secure data sharing",
+      "C": "Social media engagement directly",
+      "D": "Creative design"
+    },
+    "correctAnswer": "B",
+    "explanation": "Distributed ledgers verify impressions and transactions to reduce ad fraud and intermediaries.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 134,
+    "question": "Voice commerce advertising must optimize for:",
+    "options": {
+      "A": "Visual banners",
+      "B": "Conversational prompts and succinct messaging compatible with voice assistants",
+      "C": "Only podcast host reads",
+      "D": "No call to action"
+    },
+    "correctAnswer": "B",
+    "explanation": "Voice ads demand clarity and brevity for hands-free, audio-only interactions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 135,
+    "question": "Sustainability messaging in ads is most effective when:",
+    "options": {
+      "A": "It’s vague greenwashing",
+      "B": "It’s specific, backed by credible data, and demonstrates genuine corporate action",
+      "C": "It uses only stock environmental images",
+      "D": "It avoids any evidence"
+    },
+    "correctAnswer": "B",
+    "explanation": "Authentic claims build trust; unsupported green claims risk consumer skepticism and backlash.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 136,
+    "question": "The rise of 5G technology in mobile networks enables advertisers to:",
+    "options": {
+      "A": "Only serve static banners",
+      "B": "Deliver rich media (e.g., HD video, AR) with minimal latency on smartphones",
+      "C": "Eliminate all targeting",
+      "D": "Rely solely on SMS"
+    },
+    "correctAnswer": "B",
+    "explanation": "5G’s high bandwidth and low latency support immersive, data-heavy ad formats on mobile devices.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 137,
+    "question": "Cookie deprecation in browsers forces advertisers to shift toward:",
+    "options": {
+      "A": "Third-party cookies exclusively",
+      "B": "First-party data strategies and contextual or cohort-based targeting",
+      "C": "Increasing cookie frequency",
+      "D": "Ignoring privacy regulations"
+    },
+    "correctAnswer": "B",
+    "explanation": "With third-party cookies limited, relying on owned data and privacy-preserving solutions becomes essential.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 138,
+    "question": "In event sponsorship, “on-site activation” means:",
+    "options": {
+      "A": "Simply placing logos on banners",
+      "B": "Creating interactive experiences (e.g., branded photo booths, sampling) at the venue",
+      "C": "Only selling tickets",
+      "D": "Delivering a speech"
+    },
+    "correctAnswer": "B",
+    "explanation": "Activation transforms passive sponsorship into engaging brand moments for attendees.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 139,
+    "question": "A tiered sponsorship package typically offers:",
+    "options": {
+      "A": "Identical benefits at every level",
+      "B": "Incremental rights and exposure (e.g., title sponsor vs. supporting sponsor)",
+      "C": "Only digital ads",
+      "D": "Free event tickets only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tiered structures let brands choose investment levels that match their objectives and budgets.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "Measuring live-event ROI often includes tracking:",
+    "options": {
+      "A": "Only on-site foot traffic",
+      "B": "Lead capture, social mentions, and post-event conversion rates",
+      "C": "Only email opens",
+      "D": "TV ratings"
+    },
+    "correctAnswer": "B",
+    "explanation": "A blend of quantitative (leads, sales uplift) and qualitative (brand sentiment) metrics assesses success.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 141,
+    "question": "Retail media networks monetize:",
+    "options": {
+      "A": "Only social platforms",
+      "B": "A retailer’s own digital properties (site, app) by selling ad placements to brands",
+      "C": "Outdoor billboards",
+      "D": "Newspaper classifieds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Brands buy from retailers’ first-party channels to reach shoppers in the purchase environment.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 142,
+    "question": "A basket analysis reveals:",
+    "options": {
+      "A": "The physical size of a shopping basket",
+      "B": "Which products are frequently purchased together, informing cross-sell and promo strategies",
+      "C": "Only average transaction value",
+      "D": "Store layout designs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Market-basket data drives placement, bundling, and recommendation tactics to boost basket size. HH. Programmatic & Data-Driven Advertising",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "A “cookieless” cohort solution like Google’s FLoC groups users by:",
+    "options": {
+      "A": "IP address only",
+      "B": "Similar browsing behaviors within an anonymized cohort for targeting",
+      "C": "Age and gender only",
+      "D": "Email lists only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cohorts enable interest-based ads without exposing individual identities.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 144,
+    "question": "Server-to-server (S2S) tracking improves:",
+    "options": {
+      "A": "Only desktop ads",
+      "B": "Data accuracy and privacy by sending conversions directly from your servers to the ad platform",
+      "C": "Reliance on browser cookies",
+      "D": "Excludes mobile devices"
+    },
+    "correctAnswer": "B",
+    "explanation": "S2S reduces ad-blocker and cookie loss issues by validating events outside the browser.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 145,
+    "question": "A “data clean room” allows advertisers to:",
+    "options": {
+      "A": "Store data without governance",
+      "B": "Securely match first-party data with platforms (e.g., Google, Amazon) without exposing raw datasets",
+      "C": "Share personal data publicly",
+      "D": "Ignore encryption"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clean rooms enable collaboration on insights while preserving user privacy.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 146,
+    "question": "Shoppable livestreams integrate:",
+    "options": {
+      "A": "Only pre-recorded video",
+      "B": "Real-time video with clickable product links so viewers can purchase instantly",
+      "C": "Static print ads",
+      "D": "Radio call-ins only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Livestream commerce blends entertainment and e-commerce for immediate transactions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 147,
+    "question": "Web-based augmented reality (WebAR) ads differ from app-based AR in that they:",
+    "options": {
+      "A": "Require separate downloads",
+      "B": "Launch directly in a mobile browser without app installs",
+      "C": "Only work on desktops",
+      "D": "Are text-only"
+    },
+    "correctAnswer": "B",
+    "explanation": "WebAR reduces friction and broadens reach by skipping app-install barriers. JJ. Capstone Reflection & Continuous Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 148,
+    "question": "A “living playbook” for advertising teams is:",
+    "options": {
+      "A": "A static PDF of past campaigns",
+      "B": "An evolving guide of best practices, templates, and learnings updated in real time",
+      "C": "A financial ledger only",
+      "D": "An archive with no access"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dynamic repositories capture ongoing insights, ensuring teams build on past successes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 149,
+    "question": "Mentorship circles in ad agencies help:",
+    "options": {
+      "A": "Only junior staff",
+      "B": "Facilitate peer learning and cross-discipline knowledge exchange among all levels",
+      "C": "Replace performance reviews",
+      "D": "Eliminate onboarding processes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Small groups share experiences and solve challenges collaboratively, boosting collective expertise.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 150,
+    "question": "The single best predictor of campaign success is:",
+    "options": {
+      "A": "Budget size alone",
+      "B": "Alignment of strategy, creative execution, media targeting, and measurement from day one",
+      "C": "Number of platforms used",
+      "D": "Volume of creative assets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Integrated planning across all dimensions drives coherent, impactful advertising outcomes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 151,
+    "question": "A successful advertising capstone project should:",
+    "options": {
+      "A": "Focus solely on creative visuals",
+      "B": "Integrate market research, strategy, media planning, and performance analysis",
+      "C": "Exclude budget considerations",
+      "D": "Be limited to print ads only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Capstones demonstrate mastery by weaving together planning, execution, and measurement across functions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 152,
+    "question": "In a case analysis, identifying the client’s business challenge is critical because:",
+    "options": {
+      "A": "It defines the scope and objectives of the campaign",
+      "B": "It replaces the need for strategy",
+      "C": "It only affects creative design",
+      "D": "It’s optional for small briefs"
+    },
+    "correctAnswer": "A",
+    "explanation": "A clear problem statement ensures all subsequent work addresses real business needs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 153,
+    "question": "A SWOT matrix in a capstone presentation should link to:",
+    "options": {
+      "A": "Only external opportunities",
+      "B": "Specific strategic recommendations for the advertising plan",
+      "C": "Budget line items only",
+      "D": "Media schedules without context"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tying SWOT findings to tactics shows how insights inform creative and media choices.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 154,
+    "question": "Presenting ROI projections in a capstone helps judges understand:",
+    "options": {
+      "A": "Only creative merits",
+      "B": "The expected financial impact and justify campaign investment",
+      "C": "Just the media mix",
+      "D": "Only brand lift metrics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Projected returns link strategy to tangible business outcomes, strengthening the plan.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 155,
+    "question": "Effective storytelling in a capstone pitch involves:",
+    "options": {
+      "A": "Reciting data tables",
+      "B": "Framing the brand journey with human-centric narratives",
+      "C": "Skipping rationale",
+      "D": "Ignoring stakeholder needs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Stories engage judges emotionally, clarifying how the campaign solves the client’s challenge. GG. Ethics & Social Responsibility (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "An ethical advertising code of conduct should require:",
+    "options": {
+      "A": "Misleading claims when necessary",
+      "B": "Honesty, respect for consumer rights, and compliance with laws",
+      "C": "Exclusion of disclaimers",
+      "D": "Prioritizing profit over accuracy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Codes guide practitioners to balance business objectives with social responsibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Social responsibility in advertising includes:",
+    "options": {
+      "A": "Promoting harmful stereotypes",
+      "B": "Ensuring diversity, truthful representation, and positive social impact",
+      "C": "Avoiding cause-related campaigns",
+      "D": "Ignoring community standards"
+    },
+    "correctAnswer": "B",
+    "explanation": "Responsible ads reflect inclusive values and contribute to public good.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 158,
+    "question": "An “adtech” vendor with questionable data privacy practices raises a red flag for:",
+    "options": {
+      "A": "Only TV campaigns",
+      "B": "Potential legal liability and brand reputation risk",
+      "C": "Creative brief clarity",
+      "D": "Media planning simplicity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Partner due diligence on data handling protects consumers and the advertiser.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 159,
+    "question": "Greenwashing in advertising can be avoided by:",
+    "options": {
+      "A": "Making broad claims without evidence",
+      "B": "Citing verifiable eco-certifications and transparent data",
+      "C": "Using only green colors",
+      "D": "Hiding environmental information"
+    },
+    "correctAnswer": "B",
+    "explanation": "Substantiated sustainability claims maintain consumer trust and legal compliance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 160,
+    "question": "The principle of “do no harm” in copywriting means:",
+    "options": {
+      "A": "Avoiding controversial or discriminatory language",
+      "B": "Prioritizing shock value",
+      "C": "Using any tactic to drive clicks",
+      "D": "Omitting all disclaimers"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ethical copy respects audience sensitivities and upholds brand integrity. HH. Crisis Advertising & Reputation Management (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 161,
+    "question": "During a brand crisis, the first advertising response should be to:",
+    "options": {
+      "A": "Ignore the issue and continue as planned",
+      "B": "Pause insensitive campaigns and issue a sincere statement",
+      "C": "Double down on humor",
+      "D": "Request influencers to stay silent"
+    },
+    "correctAnswer": "B",
+    "explanation": "Immediate, empathetic communication shows responsibility and preserves credibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 162,
+    "question": "A reactive campaign aimed at damage control must:",
+    "options": {
+      "A": "Focus only on product features",
+      "B": "Address stakeholder concerns and outline corrective actions",
+      "C": "Increase ad spend regardless of message",
+      "D": "Redirect audiences without explanation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Transparency and concrete plans rebuild trust more effectively than generic apologies.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 163,
+    "question": "Sponsored content during a crisis should be:",
+    "options": {
+      "A": "Aggressive and sales-driven",
+      "B": "Sensitive in tone and avoid exploiting the situation",
+      "C": "Unchanged from regular branding",
+      "D": "Completely silent"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tone-aligned messaging respects audience sentiment and avoids backlash.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 164,
+    "question": "Post-crisis, reputation advertising often highlights:",
+    "options": {
+      "A": "Past mistakes only",
+      "B": "Brand values, community contributions, and lessons learned",
+      "C": "Only product discounts",
+      "D": "Irrelevant topics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Positive storytelling and social proof demonstrate genuine reform and commitment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 165,
+    "question": "Monitoring social sentiment during a crisis uses tools that track:",
+    "options": {
+      "A": "Only website traffic",
+      "B": "Mentions, hashtags, and sentiment analysis in real time",
+      "C": "Print circulation",
+      "D": "Email open rates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Real-time analytics guide tactical adjustments in messaging and channel focus.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 166,
+    "question": "Accessible advertising ensures content is:",
+    "options": {
+      "A": "Only visually appealing",
+      "B": "Usable by people with diverse abilities (e.g., captions, alt text, color contrast)",
+      "C": "Limited to text-only formats",
+      "D": "Excluding audio channels"
+    },
+    "correctAnswer": "B",
+    "explanation": "Inclusive ads broaden reach and comply with ADA guidelines for digital content.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 167,
+    "question": "Providing captions on video ads benefits:",
+    "options": {
+      "A": "Only hearing audiences",
+      "B": "Deaf or hard-of-hearing viewers and viewers in sound-off environments",
+      "C": "Only foreign language speakers",
+      "D": "No one"
+    },
+    "correctAnswer": "B",
+    "explanation": "Captions increase comprehension and engagement across situations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 168,
+    "question": "Alt text on display ads helps:",
+    "options": {
+      "A": "SEO only",
+      "B": "Screen readers describe images for visually impaired users",
+      "C": "Increase CTR automatically",
+      "D": "Hide keywords"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proper alt text ensures visual content accessibility and compliance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "High-contrast color schemes in digital ads improve:",
+    "options": {
+      "A": "Battery consumption",
+      "B": "Readability for users with low vision or color blindness",
+      "C": "Only aesthetic appeal",
+      "D": "Exclusivity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Contrast guidelines support legibility and WCAG standards.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 170,
+    "question": "Keyboard-navigable ad units allow:",
+    "options": {
+      "A": "Only mouse interactions",
+      "B": "Users who cannot use a mouse to interact via keyboard only",
+      "C": "No interactions at all",
+      "D": "Only tapping"
+    },
+    "correctAnswer": "B",
+    "explanation": "Keyboard support makes interactive ads accessible to those with mobility impairments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 171,
+    "question": "Neuromarketing uses tools like EEG and eye-tracking to:",
+    "options": {
+      "A": "Measure only sales",
+      "B": "Understand subconscious consumer responses to ads",
+      "C": "Replace focus groups entirely",
+      "D": "Only track clicks"
+    },
+    "correctAnswer": "B",
+    "explanation": "Biometric data reveals attention patterns and emotional engagement for optimization.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 172,
+    "question": "The “mere exposure effect” states that:",
+    "options": {
+      "A": "People dislike repeated ads",
+      "B": "Familiarity through repeated exposure increases liking",
+      "C": "First exposure is always negative",
+      "D": "Exposure has no impact"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strategic frequency builds positive associations over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 173,
+    "question": "A “priming” technique in copywriting might:",
+    "options": {
+      "A": "Show unrelated images",
+      "B": "Use words or imagery that subconsciously influence subsequent perceptions",
+      "C": "Avoid psychological tactics",
+      "D": "Only list features"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pre-exposure to concepts can shape consumer judgments and behaviors.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 174,
+    "question": "Emotional contagion theory in video ads suggests:",
+    "options": {
+      "A": "Viewers ignore emotions",
+      "B": "Audiences mimic and adopt emotions displayed in content",
+      "C": "Only cognitive appeals work",
+      "D": "Ads should lack emotive elements"
+    },
+    "correctAnswer": "B",
+    "explanation": "Positive affect in ads can transfer to viewers, enhancing brand sentiment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "Loss aversion in advertising leverages:",
+    "options": {
+      "A": "Gains framing only",
+      "B": "Emphasizing what consumers stand to lose by not acting (e.g., “Don’t miss out”)",
+      "C": "Only price reductions",
+      "D": "Neutral wording"
+    },
+    "correctAnswer": "B",
+    "explanation": "Highlighting potential losses can be more motivating than equivalent gains. KK. AI & Automation in Advertising (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "An AI-driven creative tool can:",
+    "options": {
+      "A": "Replace all human creatives",
+      "B": "Generate initial ad variations based on brand inputs and performance data",
+      "C": "Only edit video",
+      "D": "Ignore brand guidelines"
+    },
+    "correctAnswer": "B",
+    "explanation": "AI accelerates ideation but requires human oversight for brand coherence.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 177,
+    "question": "Chatbots in ad campaigns can:",
+    "options": {
+      "A": "Block all user input",
+      "B": "Provide interactive customer engagement and capture leads",
+      "C": "Only serve as FAQs",
+      "D": "Replace email marketing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Conversational interfaces personalize experiences and drive immediate actions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 178,
+    "question": "Automated bidding algorithms optimize:",
+    "options": {
+      "A": "Fixed CPM buys",
+      "B": "Bid prices in real time based on performance goals (CPA, ROAS)",
+      "C": "Only direct-sold inventory",
+      "D": "No metrics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Machine learning adjusts bids to maximize conversions within target costs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 179,
+    "question": "Programmatic guaranteed deals differ from open auctions by:",
+    "options": {
+      "A": "No inventory guarantees",
+      "B": "Secured inventory and fixed price agreements executed programmatically",
+      "C": "Only manual insertion",
+      "D": "Excluding premium publishers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advertisers lock in impressions at predetermined rates with guaranteed delivery.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 180,
+    "question": "AI-powered audience segmentation can:",
+    "options": {
+      "A": "Only use age and gender",
+      "B": "Identify micro-segments based on complex behavioral patterns",
+      "C": "Replace all analysts",
+      "D": "Ignore privacy constraints"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advanced clustering uncovers nuanced groups for tailored messaging.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 181,
+    "question": "Shoppable video ads allow viewers to:",
+    "options": {
+      "A": "Only watch passively",
+      "B": "Click on products within video and purchase directly without leaving the player",
+      "C": "Skip to the end only",
+      "D": "Only view on desktop"
+    },
+    "correctAnswer": "B",
+    "explanation": "Interactive overlays streamline the path from inspiration to transaction.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 182,
+    "question": "Dynamic creative optimization (DCO) uses:",
+    "options": {
+      "A": "Static ad templates only",
+      "B": "Real-time data to assemble personalized ad components for each viewer",
+      "C": "Only demographic inputs",
+      "D": "Ignoring performance feedback"
+    },
+    "correctAnswer": "B",
+    "explanation": "DCO customizes imagery and messaging on the fly for maximum relevance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 183,
+    "question": "In-app advertising often leverages:",
+    "options": {
+      "A": "TV networks",
+      "B": "Mobile app user events and location data for precise targeting",
+      "C": "Print publications",
+      "D": "Broadcast radio"
+    },
+    "correctAnswer": "B",
+    "explanation": "SDKs and APIs deliver contextually relevant ads within app experiences.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "Immersive 360° ads require:",
+    "options": {
+      "A": "No user interaction",
+      "B": "Special cameras or software to create panoramic content",
+      "C": "Only text-based formats",
+      "D": "Standard banner sizes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Panoramic videos let users control their viewpoint, enhancing engagement.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 185,
+    "question": "WebAR ads are best described as:",
+    "options": {
+      "A": "Native apps only",
+      "B": "Augmented reality experiences accessed through the mobile browser",
+      "C": "Only QR codes",
+      "D": "Print ads"
+    },
+    "correctAnswer": "B",
+    "explanation": "WebAR removes app-install friction, boosting accessibility and interaction. MM. Measurement Maturity & Governance (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 186,
+    "question": "A measurement maturity model helps organizations:",
+    "options": {
+      "A": "Avoid analytics entirely",
+      "B": "Assess and advance their capabilities from basic reporting to predictive insights",
+      "C": "Only focus on spreadsheet skills",
+      "D": "Ignore data governance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Maturity frameworks guide investment in tools, processes, and talent.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 187,
+    "question": "Data governance in advertising ensures:",
+    "options": {
+      "A": "Unlimited data access",
+      "B": "Quality, privacy, and ethical use of data across systems",
+      "C": "Ad hoc reporting only",
+      "D": "No compliance measures"
+    },
+    "correctAnswer": "B",
+    "explanation": "Policies and roles maintain data integrity and regulatory compliance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 188,
+    "question": "A quarterly media governance review should evaluate:",
+    "options": {
+      "A": "Only creative health",
+      "B": "Channel performance, vendor contracts, and spend compliance",
+      "C": "HR policies only",
+      "D": "Office supplies budget"
+    },
+    "correctAnswer": "B",
+    "explanation": "Regular oversight prevents waste, ensures contractual adherence, and optimizes investments.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "A media audit uncovers:",
+    "options": {
+      "A": "Creative drafts only",
+      "B": "Inefficiencies, discrepancies, and opportunities in the media buying process",
+      "C": "Only vendor logos",
+      "D": "No financial details"
+    },
+    "correctAnswer": "B",
+    "explanation": "Audits verify delivery, rates, and alignment with strategic goals.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 190,
+    "question": "Governance in programmatic trading includes:",
+    "options": {
+      "A": "No vendor evaluation",
+      "B": "Fraud monitoring, brand safety protocols, and transparent fee structures",
+      "C": "Open access to any inventory",
+      "D": "Only direct deals"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strong policies mitigate risk and uphold campaign integrity.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 191,
+    "question": "A post-mortem meeting after campaign launch should:",
+    "options": {
+      "A": "Blame vendors",
+      "B": "Review what worked, what didn’t, and update processes accordingly",
+      "C": "Avoid data discussions",
+      "D": "Skip recommendations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Structured reviews drive learning and process enhancements for future campaigns.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "Continual A/B testing processes ensure that:",
+    "options": {
+      "A": "Tests stop after initial wins",
+      "B": "Campaigns evolve with real-time learnings and audience shifts",
+      "C": "Creative teams never update ads",
+      "D": "Metrics remain static"
+    },
+    "correctAnswer": "B",
+    "explanation": "Iterative experimentation optimizes performance and adapts to changing conditions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 193,
+    "question": "A knowledge-sharing repository for ad learnings helps:",
+    "options": {
+      "A": "Silos insights within teams",
+      "B": "Distribute best practices and past results across the organization",
+      "C": "Only store PDFs",
+      "D": "Be inaccessible"
+    },
+    "correctAnswer": "B",
+    "explanation": "Centralized documentation accelerates onboarding and cross-functional collaboration.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "Setting SMART goals for each campaign phase ensures that objectives are:",
+    "options": {
+      "A": "Vague",
+      "B": "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "C": "Only qualitative",
+      "D": "Unrelated to strategy"
+    },
+    "correctAnswer": "B",
+    "explanation": "SMART criteria create clarity and accountability across stakeholders.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "Regular industry benchmarking informs advertisers about:",
+    "options": {
+      "A": "Only their own metrics",
+      "B": "Competitor performance, media trends, and emerging best practices",
+      "C": "Internal HR data only",
+      "D": "Office furniture standards"
+    },
+    "correctAnswer": "B",
+    "explanation": "Benchmarking keeps strategies competitive and highlights areas for differentiation. OO. Professional Growth & Leadership (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 196,
+    "question": "Mentorship in advertising careers provides:",
+    "options": {
+      "A": "Only formal assessments",
+      "B": "Guidance, network expansion, and knowledge transfer from experienced professionals",
+      "C": "None of the above",
+      "D": "Guaranteed promotions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mentors help navigate industry challenges and accelerate skill development.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 197,
+    "question": "Building a personal brand as an advertiser involves:",
+    "options": {
+      "A": "Only resume updates",
+      "B": "Showcasing expertise through thought leadership, portfolio work, and networking",
+      "C": "Avoiding social media",
+      "D": "Copying others’ styles"
+    },
+    "correctAnswer": "B",
+    "explanation": "A strong personal brand differentiates you in a competitive talent market.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "Leadership in advertising requires:",
+    "options": {
+      "A": "Technical skills only",
+      "B": "Strategic vision, team empowerment, and cross-functional collaboration",
+      "C": "Avoiding accountability",
+      "D": "Only creative talent"
+    },
+    "correctAnswer": "B",
+    "explanation": "Leaders align creative and business goals while fostering innovation and performance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "Staying current with industry trends can be achieved by:",
+    "options": {
+      "A": "Ignoring trade publications",
+      "B": "Subscribing to industry journals, attending webinars, and participating in professional associations",
+      "C": "Avoiding conferences",
+      "D": "Only working in isolation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Continuous learning ensures relevance and inspires fresh ideas.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "Developing cross-disciplinary skills (data analytics, UX, copywriting) enhances an advertiser’s:",
+    "options": {
+      "A": "Job security and flexibility by broadening value contribution",
+      "B": "Narrow specialization only",
+      "C": "Avoidance of collaboration",
+      "D": "Dependence on single role"
+    },
+    "correctAnswer": "A",
+    "explanation": "Hybrid skillsets enable better integration of strategy, creative, and measurement.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 201,
+    "question": "A “halo effect” in advertising occurs when:",
+    "options": {
+      "A": "Negative news overshadows ads",
+      "B": "Positive perceptions of one product transfer to related products",
+      "C": "Ads are only placed in religious contexts",
+      "D": "Campaigns focus on halos only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strong branding for one item can boost consumer attitude toward the brand’s other offerings.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 202,
+    "question": "The “elaboration likelihood model” (ELM) suggests that:",
+    "options": {
+      "A": "All consumers process ads analytically",
+      "B": "Persuasion can occur via central (deep) or peripheral (superficial) routes depending on motivation and ability",
+      "C": "Only emotional appeals work",
+      "D": "Ads must be long-form"
+    },
+    "correctAnswer": "B",
+    "explanation": "ELM guides whether to focus on message arguments or cues like attractiveness.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 203,
+    "question": "A “mere measurement effect” implies that:",
+    "options": {
+      "A": "Measuring intentions can change subsequent behavior",
+      "B": "Ads must be measured continuously",
+      "C": "Only sales count",
+      "D": "Metrics always distort results"
+    },
+    "correctAnswer": "A",
+    "explanation": "Asking consumers about purchase intentions can increase the likelihood they act on them.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 204,
+    "question": "“Congruence” in ad placement means:",
+    "options": {
+      "A": "Ads appear only in congruent shapes",
+      "B": "The ad’s message matches the content and context of the media environment",
+      "C": "All ads look the same",
+      "D": "Placement is random"
+    },
+    "correctAnswer": "B",
+    "explanation": "Contextual fit enhances receptivity and reduces ad avoidance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 205,
+    "question": "A “two-step flow” model of communication posits that:",
+    "options": {
+      "A": "All media messages go directly to consumers",
+      "B": "Opinion leaders first receive media messages and then influence followers",
+      "C": "Ads must be broadcast twice",
+      "D": "Only social media matters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Understanding influencers’ role informs seeding strategies in campaigns. QQ. Sponsorships & Event Marketing (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 206,
+    "question": "Sponsorship activation refers to:",
+    "options": {
+      "A": "Simply buying logo space at events",
+      "B": "The creative execution of rights and benefits to engage audiences and drive experiences",
+      "C": "Only cash payments",
+      "D": "Ignoring attendee engagement"
+    },
+    "correctAnswer": "B",
+    "explanation": "Activation turns sponsor logos into interactive brand touchpoints at events.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 207,
+    "question": "A sponsorship valuation model estimates:",
+    "options": {
+      "A": "Cost per click only",
+      "B": "Financial equivalent of rights—media exposure, impressions, and brand fit—to justify investment",
+      "C": "Only ticket sales",
+      "D": "Number of logos displayed"
+    },
+    "correctAnswer": "B",
+    "explanation": "Valuation helps compare sponsorship returns against alternative media spends.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 208,
+    "question": "Event-based advertising leverages:",
+    "options": {
+      "A": "TV pre-roll only",
+      "B": "On-site signage, digital activations, and sampling to connect with live audiences",
+      "C": "Email blasts only",
+      "D": "Only print inserts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Immersive experiences at events deepen brand engagement and generate social content.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 209,
+    "question": "A “rights fee” in sponsorship contracts covers:",
+    "options": {
+      "A": "Venue rental only",
+      "B": "The cost for exclusivity or category rights to associate with an event",
+      "C": "Production costs only",
+      "D": "No actual value"
+    },
+    "correctAnswer": "B",
+    "explanation": "Rights fees secure brand placement, mentions, and access benefits.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 210,
+    "question": "Measuring sponsorship ROI often includes:",
+    "options": {
+      "A": "Only attendance numbers",
+      "B": "Metrics like media impressions, activation engagement, and post-event brand lift",
+      "C": "Only ticket revenue",
+      "D": "Only social media likes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Holistic evaluation captures both exposure and experiential impact on perceptions. RR. Retail & Shopper Insights (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 211,
+    "question": "A “planogram” is a:",
+    "options": {
+      "A": "Marketing plan summary",
+      "B": "Diagram showing product placement on retail shelves to optimize sales",
+      "C": "Urban development map",
+      "D": "Only used for grocery stores"
+    },
+    "correctAnswer": "B",
+    "explanation": "Planograms align shelf layouts with shopper behavior data to drive purchase.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "Eye-tracking studies in retail environments help:",
+    "options": {
+      "A": "Measure only foot traffic",
+      "B": "Identify which shelf areas attract the most attention for optimal ad or product placement",
+      "C": "Only online ad performance",
+      "D": "None of the above"
+    },
+    "correctAnswer": "B",
+    "explanation": "Heat maps guide where to position high-margin items or promotional displays.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 213,
+    "question": "“Cross-promotion” in-store involves:",
+    "options": {
+      "A": "Promoting competitors’ products",
+      "B": "Placing complementary products together to encourage additional purchases",
+      "C": "Only online deals",
+      "D": "Ignoring shopper path"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strategic adjacencies, like chips by salsa, increase basket size and convenience.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "A “category captain” in retail is:",
+    "options": {
+      "A": "A lead buyer only",
+      "B": "A supplier partner managing category assortment and merchandising with retailer collaboration",
+      "C": "A store manager",
+      "D": "Only for apparel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Category captains leverage data to optimize category performance and planograms.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 215,
+    "question": "Impulse purchase zones are often located:",
+    "options": {
+      "A": "In backroom storage",
+      "B": "Near checkouts and endcaps where high-temptation items are placed",
+      "C": "In staff-only areas",
+      "D": "In administrative offices"
+    },
+    "correctAnswer": "B",
+    "explanation": "High-visibility, low-effort areas capitalize on last-minute buying behaviors. SS. Programmatic Advanced Concepts (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 216,
+    "question": "Header bidding improves:",
+    "options": {
+      "A": "Only desktop display",
+      "B": "Auction competition by allowing multiple demand partners to bid simultaneously before ad server calls",
+      "C": "Offline print rates",
+      "D": "Only direct deals"
+    },
+    "correctAnswer": "B",
+    "explanation": "Header bidding drives higher yield by increasing transparency and competition for impressions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 217,
+    "question": "A “private marketplace” (PMP) differs from an open RTB exchange by:",
+    "options": {
+      "A": "Having no bids",
+      "B": "Invitation-only auctions with vetted buyers and often premium inventory",
+      "C": "Only buying direct-sold spots",
+      "D": "Excluding publishers"
+    },
+    "correctAnswer": "B",
+    "explanation": "PMPs balance programmatic efficiency with brand safety and exclusivity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 218,
+    "question": "“Ad fatigue” in programmatic campaigns occurs when:",
+    "options": {
+      "A": "Audiences see ads too infrequently",
+      "B": "Audiences are overexposed to the same creative, leading to diminishing returns",
+      "C": "Creative assets become corrupted",
+      "D": "Campaign budgets are too high"
+    },
+    "correctAnswer": "B",
+    "explanation": "Rotating creatives and frequency caps mitigate wear-out effects.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "Data management platforms (DMPs) store:",
+    "options": {
+      "A": "Only social media posts",
+      "B": "Audience data from multiple sources to inform targeting and lookalike modeling",
+      "C": "Only first-party data",
+      "D": "Production schedules"
+    },
+    "correctAnswer": "B",
+    "explanation": "DMPs unify third-party, second-party, and first-party data for segmentation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 220,
+    "question": "An “ad exchange” is:",
+    "options": {
+      "A": "A stock market for ads",
+      "B": "A technology platform where publishers and advertisers buy and sell ad inventory in real time",
+      "C": "A creative agency network",
+      "D": "Only direct-sold inventory"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exchanges facilitate RTB auctions across multiple supply sources. TT. AI Ethics & Bias (5)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 221,
+    "question": "AI-driven ad targeting can unintentionally perpetuate bias if:",
+    "options": {
+      "A": "Data sources are perfectly balanced",
+      "B": "Historical data reflects societal biases, leading algorithms to target or exclude certain groups unfairly",
+      "C": "Only demographics are used",
+      "D": "No data is used"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical AI requires auditing training data and outcomes for fairness and inclusivity.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 222,
+    "question": "Transparency in AI ad systems means:",
+    "options": {
+      "A": "Hiding algorithm logic",
+      "B": "Explaining how and why decisions are made, including data usage and model parameters",
+      "C": "Only sharing source code",
+      "D": "No user disclosures"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear documentation builds stakeholder trust and supports accountability.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 223,
+    "question": "“Fairness through unawareness” in algorithm design implies:",
+    "options": {
+      "A": "Ignoring protected attributes entirely",
+      "B": "Not using sensitive features (e.g., race, gender) but may still require deeper bias mitigation",
+      "C": "Only using them in modeling",
+      "D": "Perfectly solving all bias issues"
+    },
+    "correctAnswer": "B",
+    "explanation": "Removing protected attributes can mitigate but not fully eliminate biased outcomes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 224,
+    "question": "An “algorithmic impact assessment” helps organizations to:",
+    "options": {
+      "A": "Skip ethical reviews",
+      "B": "Evaluate potential harms and benefits of AI systems before deployment",
+      "C": "Only measure ROI",
+      "D": "Ignore user data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Impact assessments identify risks like discrimination, privacy violations, and propose safeguards.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 225,
+    "question": "Continuous monitoring of AI performance in ads is important because:",
+    "options": {
+      "A": "Models never change",
+      "B": "Data drift and shifting user behaviors can degrade effectiveness or introduce bias over time",
+      "C": "Only once is enough",
+      "D": "Monitoring costs are minimal"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ongoing evaluation ensures models remain fair, accurate, and aligned with objectives.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 226,
+    "question": "A “media audit triangle” involves examining:",
+    "options": {
+      "A": "Content, context, and community to ensure holistic campaign fit",
+      "B": "Only cost, reach, and frequency",
+      "C": "Creative, budget, and legal",
+      "D": "Vendors only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The triangle framework assesses message alignment with environment and audience networks.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 227,
+    "question": "“Convergent thinking” in brainstorming leads to:",
+    "options": {
+      "A": "Divergent idea generation only",
+      "B": "Narrowing down multiple options to select the most viable solution",
+      "C": "Infinite idea expansion",
+      "D": "Ignoring feasibility"
+    },
+    "correctAnswer": "B",
+    "explanation": "Convergent thinking evaluates and refines concepts toward actionable plans.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 228,
+    "question": "A “matrix organization” in advertising agencies allows:",
+    "options": {
+      "A": "Only hierarchical reporting",
+      "B": "Team members to report to both functional and project managers for flexibility",
+      "C": "No collaboration",
+      "D": "Only client servicing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Matrix structures balance specialized skills with project-based teamwork.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 229,
+    "question": "“Scenius” in creative culture refers to:",
+    "options": {
+      "A": "Individual genius only",
+      "B": "Collective genius emerging from collaborative, supportive environments",
+      "C": "Only scientific experiments",
+      "D": "No creative overlap"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scenius highlights the power of networked creativity over solitary brilliance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 230,
+    "question": "A “creative ecosystem” in advertising includes:",
+    "options": {
+      "A": "Only the creative department",
+      "B": "All stakeholders—clients, agencies, media partners, and technology providers—interacting to drive innovation",
+      "C": "Only media buyers",
+      "D": "Only creatives"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ecosystems foster co-creation and agile responses across the value chain.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 231,
+    "question": "Advertisers addressing climate change should:",
+    "options": {
+      "A": "Make unsubstantiated green claims",
+      "B": "Promote behaviors and products that reduce environmental impact with measurable goals",
+      "C": "Avoid environmental topics",
+      "D": "Only focus on profits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Thought leadership drives action by demonstrating credible commitment and solutions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 232,
+    "question": "In a future of attention scarcity, ads will need to:",
+    "options": {
+      "A": "Be longer to capture interest",
+      "B": "Be highly personalized, concise, and contextually relevant to break through clutter",
+      "C": "Ignore user context",
+      "D": "Increase frequency only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Micro-moments demand precision and value-driven messaging to engage fleeting attention.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 233,
+    "question": "The next frontier in advertising measurement may involve:",
+    "options": {
+      "A": "Only click metrics",
+      "B": "Integration of offline behaviors, IoT data, and real-world outcomes via connected ecosystems",
+      "C": "Ignoring cross-channel effects",
+      "D": "Only using self-reported surveys"
+    },
+    "correctAnswer": "B",
+    "explanation": "Combining diverse data sources offers holistic insights into ad influence on real-life decisions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 234,
+    "question": "Thought leadership content in advertising can:",
+    "options": {
+      "A": "Only focus on products",
+      "B": "Educate audiences on industry challenges, trends, and solutions to establish brand expertise",
+      "C": "Avoid educational themes",
+      "D": "Only be white papers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Insightful content builds trust and positions brands as authorities in their fields.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 235,
+    "question": "Addressing digital well-being in ads implies:",
+    "options": {
+      "A": "Maximizing screen time",
+      "B": "Designing respectful ad experiences that minimize intrusiveness and support healthy consumption habits",
+      "C": "Ignoring user comfort",
+      "D": "Only using auto-play video"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical designs balance engagement with user control and mindful usage.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 236,
+    "question": "A capstone reflection should include:",
+    "options": {
+      "A": "Only successes",
+      "B": "Analysis of outcomes, challenges, and strategic learnings to inform future campaigns",
+      "C": "Avoiding critical insights",
+      "D": "Only financial data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive reflection fosters growth by acknowledging mistakes and best practices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 237,
+    "question": "Predictive scenario planning for advertising futures may explore:",
+    "options": {
+      "A": "Static projections",
+      "B": "Impacts of AI, AR/VR, regulatory shifts, and changing consumer values on ad strategies",
+      "C": "Only current budgets",
+      "D": "No external factors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scenario planning readies teams to adapt to multiple plausible futures.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 238,
+    "question": "Future skills for advertisers likely include:",
+    "options": {
+      "A": "Only creative writing",
+      "B": "Data science, AI governance, ethical design, and immersive media production",
+      "C": "Avoiding new tools",
+      "D": "Only traditional media buying"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hybrid expertise ensures relevance in a rapidly evolving technological landscape.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 239,
+    "question": "A “living portfolio” concept means advertisers maintain:",
+    "options": {
+      "A": "A static collection of past work",
+      "B": "An evolving online showcase updated with newest campaigns, metrics, and learnings",
+      "C": "Only printed copies",
+      "D": "No updates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dynamic portfolios demonstrate ongoing growth and current capabilities.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 240,
+    "question": "The final takeaway from a complete 250-question set is that mastering advertising requires:",
+    "options": {
+      "A": "Only memorizing definitions",
+      "B": "Continuous integration of strategy, creativity, data, ethics, and innovation to drive impactful campaigns",
+      "C": "Ignoring analytics",
+      "D": "Only focusing on local markets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Holistic expertise across domains equips advertisers to navigate complex challenges and deliver measurable value.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 241,
+    "question": "When integrating multiple data sources (online, in-store, CRM) for unified audience insights, the primary challenge is to:",
+    "options": {
+      "A": "Use only one data type",
+      "B": "Match identifiers across systems while preserving privacy",
+      "C": "Ignore customer consent",
+      "D": "Prioritize speed over accuracy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Data linkage requires consistent IDs or probabilistic matching, underpinned by strict consent and governance rules.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 242,
+    "question": "An end-to-end advertising funnel maps stages from awareness to loyalty. The key metric at the “consideration” stage is typically:",
+    "options": {
+      "A": "Impressions",
+      "B": "Click-through rate (CTR) or site engagement",
+      "C": "Final sales revenue",
+      "D": "Number of ad creatives"
+    },
+    "correctAnswer": "B",
+    "explanation": "CTR and on-site behaviors (time on page, downloads) indicate active consumer evaluation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 243,
+    "question": "In a cross-channel attribution model, “time decay” weighting gives more credit to:",
+    "options": {
+      "A": "The first touchpoint only",
+      "B": "Touchpoints closer to conversion in time",
+      "C": "Only offline interactions",
+      "D": "Equal weight to all contacts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Time-decay reflects recency effects by assigning higher value to later consumer engagements.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 244,
+    "question": "A hybrid creative team combining in-house and agency talent benefits from:",
+    "options": {
+      "A": "Rigid role definitions only",
+      "B": "Clear collaboration processes and shared toolsets to maintain brand consistency",
+      "C": "Separate silos with no communication",
+      "D": "Only external approvals"
+    },
+    "correctAnswer": "B",
+    "explanation": "Defined workflows, collaborative platforms, and joint briefs ensure seamless handoffs and unified output.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "The most effective way to measure emotional resonance in video ads is to combine:",
+    "options": {
+      "A": "Only survey feedback",
+      "B": "Biometric tools (eye-tracking, facial coding) with self-reported sentiment and performance data",
+      "C": "Only click metrics",
+      "D": "Only sales lift"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-modal measurement captures both subconscious reactions and conscious perceptions for holistic insights.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 246,
+    "question": "A truly “customer-centric” ad campaign begins by:",
+    "options": {
+      "A": "Highlighting product features first",
+      "B": "Mapping real customer pain points and objectives before crafting messages",
+      "C": "Choosing channels before strategy",
+      "D": "Setting budget limits first"
+    },
+    "correctAnswer": "B",
+    "explanation": "Empathy-driven planning ensures relevance, tailoring creative and media to actual audience needs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "To ensure brand safety in programmatic video buys, advertisers should implement:",
+    "options": {
+      "A": "Only broad targeting",
+      "B": "Pre-bid filters, whitelists/blacklists, and post-bid monitoring with contextual analysis",
+      "C": "No frequency capping",
+      "D": "Automatic high bids"
+    },
+    "correctAnswer": "B",
+    "explanation": "Layered controls prevent placements alongside unsuitable content and maintain brand integrity.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 248,
+    "question": "In managing global campaigns, a center-led model features:",
+    "options": {
+      "A": "Complete central control with no local adaptation",
+      "B": "A central team that sets standards and tools while empowering regional teams to localize",
+      "C": "Only regional autonomy",
+      "D": "No global coordination"
+    },
+    "correctAnswer": "B",
+    "explanation": "Center-led balances consistency and efficiency with local market relevance through shared governance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 249,
+    "question": "The final step in an iterative creative process is to:",
+    "options": {
+      "A": "Archive all drafts without review",
+      "B": "Conduct a post-launch analysis, document learnings, and update the creative playbook",
+      "C": "Move on to the next campaign immediately",
+      "D": "Delete all test data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Capturing insights from real-world performance ensures continuous improvement of future creative work.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 250,
+    "question": "The ultimate indicator of advertising excellence across 250 questions is:",
+    "options": {
+      "A": "Volume of ads produced",
+      "B": "The ability to blend strategy, creativity, data, ethics, and innovation into campaigns that drive measurable business and brand impact",
+      "C": "Number of platforms used",
+      "D": "Size of the media budget"
+    },
+    "correctAnswer": "B",
+    "explanation": "True mastery is evidenced by campaigns that are strategically grounded, creatively compelling, data-driven, ethically sound, and deliver real ROI.",
+    "difficulty": "Hard"
+  }
+]

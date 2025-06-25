@@ -1,0 +1,2927 @@
+[
+  {
+    "id": 1,
+    "question": "Which tool helps a business manage day-to-day cash inflows and outflows?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Cash flow statement",
+      "C": "Income statement",
+      "D": "Statement of retained earnings"
+    },
+    "correctAnswer": "B",
+    "explanation": "A cash flow statement tracks operating, investing, and financing cash movements, critical for liquidity management.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "question": "The Federal Reserve uses open market operations to:",
+    "options": {
+      "A": "Set federal budget levels",
+      "B": "Influence the money supply by buying and selling government securities",
+      "C": "Regulate international trade",
+      "D": "Issue tax regulations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Buying securities injects liquidity; selling withdraws it, affecting interest rates and economic activity.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 3,
+    "question": "A budget variance that occurs when actual expenses exceed budgeted amounts is:",
+    "options": {
+      "A": "Favorable variance",
+      "B": "Unfavorable variance",
+      "C": "Break-even point",
+      "D": "Null variance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unfavorable variances signal costs ran higher than planned, requiring corrective action.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Which type of account at a bank typically earns the highest interest rate for a business’s short-term surplus cash?",
+    "options": {
+      "A": "Checking account",
+      "B": "Savings account",
+      "C": "Money market account",
+      "D": "Certificate of deposit (CD)"
+    },
+    "correctAnswer": "C",
+    "explanation": "Money market accounts generally pay higher yields with check-writing privileges.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "Simple interest on a $5,000 loan at 6% per annum for one year equals:",
+    "options": {
+      "A": "$300",
+      "B": "$250",
+      "C": "$30",
+      "D": "$600"
+    },
+    "correctAnswer": "A",
+    "explanation": "Simple interest = principal × rate × time = 5,000 × 0.06 × 1 = $300.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "A business evaluating a 5-year bond investment should focus on its:",
+    "options": {
+      "A": "Coupon rate only",
+      "B": "Yield to maturity for total return estimate",
+      "C": "Issuer’s credit card acceptance",
+      "D": "Par value only"
+    },
+    "correctAnswer": "B",
+    "explanation": "YTM reflects the bond’s total expected return, including interest and price changes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 7,
+    "question": "When comparing bank and credit union services, a credit union is:",
+    "options": {
+      "A": "For-profit institution",
+      "B": "Member-owned cooperative offering often lower fees",
+      "C": "Reserved for government entities",
+      "D": "Always FDIC-insured only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Credit unions are nonprofit cooperatives; deposits are NCUSIF-insured.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "A business’s quick ratio excludes which current asset?",
+    "options": {
+      "A": "Cash",
+      "B": "Accounts receivable",
+      "C": "Inventory",
+      "D": "Marketable securities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Inventory is excluded because it’s less liquid than cash/receivables.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Fixed expenses differ from variable expenses in that fixed expenses:",
+    "options": {
+      "A": "Change with sales volume",
+      "B": "Remain constant regardless of production levels",
+      "C": "Are always one-time costs",
+      "D": "Are paid only when profits exist"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fixed costs (rent, salaries) do not fluctuate with output in the short run.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "To evaluate long-term investment profitability, managers often use:",
+    "options": {
+      "A": "Payback period only",
+      "B": "Net present value (NPV)",
+      "C": "Break-even analysis only",
+      "D": "Average cost method"
+    },
+    "correctAnswer": "B",
+    "explanation": "NPV discounts future cash flows to determine project value in today’s dollars.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 11,
+    "question": "The Better Business Bureau (BBB) primarily serves to:",
+    "options": {
+      "A": "Regulate federal trade laws",
+      "B": "Provide consumer reviews and mediate complaints against businesses",
+      "C": "Issue business loans",
+      "D": "Enforce environmental standards"
+    },
+    "correctAnswer": "B",
+    "explanation": "BBB accredits businesses, publishes ratings, and facilitates dispute resolution.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "question": "A “lemon law” protects consumers when:",
+    "options": {
+      "A": "An appliance breaks after five years",
+      "B": "A new vehicle has recurring defects that cannot be repaired",
+      "C": "A store refuses returns on clearance items",
+      "D": "A service contract expires"
+    },
+    "correctAnswer": "B",
+    "explanation": "State lemon laws require manufacturers to replace or refund defective new cars.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "Comparative shopping means:",
+    "options": {
+      "A": "Buying on impulse when you see a sale",
+      "B": "Evaluating price, quality, and features across multiple vendors",
+      "C": "Always choosing the cheapest product",
+      "D": "Relying solely on brand reputation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comparing options ensures best overall value rather than lowest price only.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "question": "The primary role of the Federal Trade Commission (FTC) in consumerism is to:",
+    "options": {
+      "A": "Set interest rates",
+      "B": "Enforce antitrust laws and protect against deceptive advertising",
+      "C": "Regulate stock exchanges",
+      "D": "Issue passports"
+    },
+    "correctAnswer": "B",
+    "explanation": "FTC investigates unfair/deceptive practices and maintains competition integrity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "A clearance sale typically features:",
+    "options": {
+      "A": "Featured new merchandise at full price",
+      "B": "Deep discounts on items being discontinued or out of season",
+      "C": "Promotional giveaways only",
+      "D": "Free brand-new items"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clearance reduces inventory of slow-moving or end-of-season goods.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "Which business ownership form provides owners with limited personal liability?",
+    "options": {
+      "A": "Sole proprietorship",
+      "B": "Partnership",
+      "C": "Corporation",
+      "D": "None of the above"
+    },
+    "correctAnswer": "C",
+    "explanation": "Corporations protect shareholders’ personal assets beyond their investment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "Gross profit is calculated as:",
+    "options": {
+      "A": "Sales revenue − operating expenses",
+      "B": "Net income − taxes",
+      "C": "Sales revenue − cost of goods sold",
+      "D": "Total assets − total liabilities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gross profit measures profit before overhead and other operating costs.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "An organizational chart helps to:",
+    "options": {
+      "A": "Track cash flow",
+      "B": "Visualize reporting relationships and hierarchy",
+      "C": "Set pricing strategies",
+      "D": "Draft legal contracts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Charts clarify roles, lines of authority, and departmental structure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "question": "In a SWOT analysis, “O” stands for:",
+    "options": {
+      "A": "Options",
+      "B": "Opportunities",
+      "C": "Obstacles",
+      "D": "Outputs"
+    },
+    "correctAnswer": "B",
+    "explanation": "SWOT examines Strengths, Weaknesses, Opportunities, and Threats for strategic planning.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "The primary function of operations management is to:",
+    "options": {
+      "A": "Develop marketing campaigns",
+      "B": "Oversee the production of goods and services efficiently",
+      "C": "Handle customer service calls only",
+      "D": "Issue equity shares"
+    },
+    "correctAnswer": "B",
+    "explanation": "Operations coordinate resources, workflow, and quality control for outputs. D. Economic Systems",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "In a free market economy, prices are determined by:",
+    "options": {
+      "A": "Government edict",
+      "B": "Supply and demand forces",
+      "C": "Tradition only",
+      "D": "Central planners"
+    },
+    "correctAnswer": "B",
+    "explanation": "Competitive interactions between buyers and sellers establish market prices.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "A traditional economic system is characterized by:",
+    "options": {
+      "A": "Rapid technological innovation",
+      "B": "Decisions based on customs and historical precedent",
+      "C": "State ownership of all resources",
+      "D": "Perfect competition"
+    },
+    "correctAnswer": "B",
+    "explanation": "Traditional systems rely on inheritance and customary roles rather than market signals.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 23,
+    "question": "Productivity improvements often result from:",
+    "options": {
+      "A": "Higher taxes",
+      "B": "Advances in technology and worker training",
+      "C": "Reducing wages",
+      "D": "Shortening workdays only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Better tools and skills enable more output per input unit.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "E-commerce impacts traditional retail by:",
+    "options": {
+      "A": "Eliminating the need for any customer service",
+      "B": "Expanding market reach and intensifying competition on price and convenience",
+      "C": "Reducing shipping costs to zero",
+      "D": "Standardizing all products"
+    },
+    "correctAnswer": "B",
+    "explanation": "Online sales break geographic barriers, forcing brick-and-mortar to adapt or compete. E. Rights & Responsibilities of Employees, Managers, Owners, and Government",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "Equal Employment Opportunity laws prohibit discrimination on the basis of:",
+    "options": {
+      "A": "Age, race, gender, religion, and disability",
+      "B": "Personal hobbies",
+      "C": "Credit score",
+      "D": "Home address"
+    },
+    "correctAnswer": "A",
+    "explanation": "EEO statutes ensure fair treatment across protected characteristics in hiring and employment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 26,
+    "question": "Corporate social responsibility (CSR) refers to:",
+    "options": {
+      "A": "Only maximizing shareholder profits",
+      "B": "Businesses taking voluntary actions to benefit society and the environment",
+      "C": "Reducing employee pay",
+      "D": "Avoiding all regulations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CSR initiatives include ethical sourcing, community engagement, and sustainability efforts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "question": "A manager using a democratic leadership style will:",
+    "options": {
+      "A": "Make all decisions unilaterally",
+      "B": "Encourage team member input before deciding",
+      "C": "Avoid communication with staff",
+      "D": "Only enforce rules strictly"
+    },
+    "correctAnswer": "B",
+    "explanation": "Democratic leaders solicit ideas and share decision-making authority.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "Organized labor (unions) primarily seeks to:",
+    "options": {
+      "A": "Lower wages universally",
+      "B": "Negotiate collective bargaining agreements for better pay and conditions",
+      "C": "Remove workplace safety standards",
+      "D": "Eliminate all employers’ rights"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unions represent workers to secure improved wages, hours, and benefits. F. Career Awareness",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "A resume’s primary purpose is to:",
+    "options": {
+      "A": "Serve as a contract",
+      "B": "Summarize skills, experience, and education to secure an interview",
+      "C": "Replace a cover letter",
+      "D": "List only references"
+    },
+    "correctAnswer": "B",
+    "explanation": "Resumes highlight qualifications and achievements to attract an employer’s interest.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "question": "During an interview, appropriate professional behavior includes:",
+    "options": {
+      "A": "Arriving late to make an entrance",
+      "B": "Maintaining eye contact and active listening",
+      "C": "Checking your phone continuously",
+      "D": "Wearing casual attire"
+    },
+    "correctAnswer": "B",
+    "explanation": "Engaged, respectful communication demonstrates competence and interest.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "A career portfolio typically contains:",
+    "options": {
+      "A": "Social media passwords",
+      "B": "Samples of work, certifications, and professional development records",
+      "C": "Personal journal entries only",
+      "D": "Unrelated advertisements"
+    },
+    "correctAnswer": "B",
+    "explanation": "Portfolios provide tangible evidence of skills and accomplishments to employers. G. Insurance",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "Business liability insurance protects a company against:",
+    "options": {
+      "A": "Losses from employee illnesses only",
+      "B": "Claims of bodily injury or property damage to third parties",
+      "C": "All market risks",
+      "D": "Losses from currency fluctuations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Liability policies cover legal defense and settlements for lawsuits by customers or visitors.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "Key person life insurance on a key executive is used to:",
+    "options": {
+      "A": "Provide personal retirement benefits",
+      "B": "Compensate the business for financial loss if that person dies",
+      "C": "Fund the competitor’s operations",
+      "D": "Replace disability coverage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proceeds help pay recruitment costs and stabilize operations during transition.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 34,
+    "question": "A conflict of interest occurs when an employee:",
+    "options": {
+      "A": "Acts in the best interest of the company",
+      "B": "Has competing personal interests that could influence professional decisions",
+      "C": "Follows all company policies",
+      "D": "Takes a lunch break"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical policies require disclosure and management of personal conflicts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "The Sarbanes-Oxley Act (SOX) was enacted to:",
+    "options": {
+      "A": "Deregulate financial markets",
+      "B": "Enhance corporate financial reporting transparency and internal controls",
+      "C": "Eliminate all business taxes",
+      "D": "Promote monopoly power"
+    },
+    "correctAnswer": "B",
+    "explanation": "SOX mandates CEO/CFO certification of financials and strengthens audit independence.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 36,
+    "question": "A tariff is a:",
+    "options": {
+      "A": "Voluntary export limit",
+      "B": "Tax imposed on imported goods to protect domestic industries",
+      "C": "Subsidy for exporters",
+      "D": "Free trade agreement"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tariffs raise import costs, making domestic products comparatively cheaper.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "question": "A quota limits:",
+    "options": {
+      "A": "The price of exports",
+      "B": "The quantity of a good that can be imported over a period",
+      "C": "Domestic production levels",
+      "D": "Currency exchange rates"
+    },
+    "correctAnswer": "B",
+    "explanation": "Quotas cap imports to protect local producers from foreign competition.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "A global company practicing cultural sensitivity will:",
+    "options": {
+      "A": "Apply identical marketing messages everywhere",
+      "B": "Adapt products and communications to local customs and languages",
+      "C": "Ignore local regulations",
+      "D": "Use a single currency globally without hedging"
+    },
+    "correctAnswer": "B",
+    "explanation": "Localization respects cultural norms and maximizes consumer acceptance. J. Decision Making/Management",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "The four functions of management are:",
+    "options": {
+      "A": "Planning, organizing, leading, and controlling",
+      "B": "Budgeting, saving, investing, and spending",
+      "C": "Selling, buying, trading, and hedging",
+      "D": "Designing, coding, testing, and deploying"
+    },
+    "correctAnswer": "A",
+    "explanation": "Effective managers set goals, allocate resources, guide people, and monitor results.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "question": "A Gantt chart is a tool used to:",
+    "options": {
+      "A": "Record financial transactions",
+      "B": "Schedule project tasks over time",
+      "C": "Calculate gross profit",
+      "D": "Manage customer relationships"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gantt charts visualize task durations and dependencies in project management.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "question": "Brainstorming sessions aim to:",
+    "options": {
+      "A": "Critique every idea immediately",
+      "B": "Generate a large number of ideas without initial judgment",
+      "C": "Enforce a single opinion",
+      "D": "Limit creativity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Deferring criticism encourages creative thinking and open participation.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 42,
+    "question": "A contingency plan is developed to:",
+    "options": {
+      "A": "Replace the primary strategy permanently",
+      "B": "Provide alternative actions in case of unexpected events",
+      "C": "Avoid all risk completely",
+      "D": "Delay decisions indefinitely"
+    },
+    "correctAnswer": "B",
+    "explanation": "Contingency plans prepare organizations for disruptions like supply failures or disasters. K. Information Processing & Technology Concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "In a relational database, a “primary key” is used to:",
+    "options": {
+      "A": "Encrypt all data",
+      "B": "Uniquely identify each record in a table",
+      "C": "Store large binary files",
+      "D": "Format printed reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Primary keys ensure each row can be matched and retrieved without ambiguity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "When collaborating on a document using cloud software, version control:",
+    "options": {
+      "A": "Prevents saving changes",
+      "B": "Tracks edits and allows rollback to prior versions",
+      "C": "Only works offline",
+      "D": "Deletes previous authors’ contributions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Version histories maintain audit trails and prevent content conflicts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "A safe password practice includes:",
+    "options": {
+      "A": "Using your birthdate",
+      "B": "Combining letters, numbers, and symbols and changing regularly",
+      "C": "Writing it on a sticky note at your desk",
+      "D": "Sharing with colleagues for convenience"
+    },
+    "correctAnswer": "B",
+    "explanation": "Complex, unique passwords reduce risk of unauthorized access.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "question": "An efficient workstation layout should:",
+    "options": {
+      "A": "Maximize travel distance between related tasks",
+      "B": "Minimize movement and organize tools within easy reach",
+      "C": "Place heavy items on high shelves",
+      "D": "Ignore employee ergonomics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Good ergonomics and flow reduce fatigue and increase productivity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "question": "For an international conference call, the best practice is to:",
+    "options": {
+      "A": "Schedule at random times",
+      "B": "Use a shared online calendar to identify overlapping time zones",
+      "C": "Exclude participants in remote locations",
+      "D": "Rely solely on email summaries"
+    },
+    "correctAnswer": "B",
+    "explanation": "Coordinating via calendar tools ensures maximum attendance across geographies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "question": "Preventive maintenance in office equipment means:",
+    "options": {
+      "A": "Waiting for breakdowns to occur",
+      "B": "Performing routine checks and servicing before failures",
+      "C": "Replacing devices immediately when purchased",
+      "D": "Using equipment until it stops working"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scheduled upkeep extends asset life and avoids costly downtime.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "question": "A tickler file system helps an office:",
+    "options": {
+      "A": "Track upcoming dates and follow-up actions",
+      "B": "Store surplus paper only",
+      "C": "Increase filing errors",
+      "D": "Replace digital reminders"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tickler files organize documents by future dates for timely processing.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 50,
+    "question": "Selecting the appropriate paper type for a client report demonstrates:",
+    "options": {
+      "A": "Wastefulness",
+      "B": "Attention to professionalism and document purpose",
+      "C": "Disregard for cost",
+      "D": "No impact on perception"
+    },
+    "correctAnswer": "B",
+    "explanation": "Quality paper reflects brand image and meeting audience expectations. M. Marketing & Sales",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "The “4 Ps” of marketing are:",
+    "options": {
+      "A": "Product, Price, Place, Promotion",
+      "B": "Plan, Produce, Profit, Publish",
+      "C": "People, Process, Physical evidence, Performance",
+      "D": "Profit, Pricing, Packaging, Positioning"
+    },
+    "correctAnswer": "A",
+    "explanation": "These elements form the core of a marketing mix to satisfy customer needs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "Market segmentation involves:",
+    "options": {
+      "A": "Selling the same product to everyone",
+      "B": "Dividing a market into distinct groups with common needs or characteristics",
+      "C": "Eliminating all competition",
+      "D": "Merging with competitors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Segmentation allows tailored marketing strategies for each customer group.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "A company using a “penetration pricing” strategy will:",
+    "options": {
+      "A": "Set high initial prices to skim profits",
+      "B": "Set low prices initially to gain market share quickly",
+      "C": "Charge different prices in different markets",
+      "D": "Only sell bundled products"
+    },
+    "correctAnswer": "B",
+    "explanation": "Low entry price discourages competition and promotes rapid adoption.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "A “unique selling proposition” (USP) refers to:",
+    "options": {
+      "A": "A product’s key benefit that differentiates it from competitors",
+      "B": "The product’s production cost",
+      "C": "The warranty length",
+      "D": "The company’s mission statement"
+    },
+    "correctAnswer": "A",
+    "explanation": "A strong USP highlights distinctive value to persuade buyers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "In personal selling, a “cold call” means:",
+    "options": {
+      "A": "Calling existing customers only",
+      "B": "Contacting potential customers without prior appointment or relationship",
+      "C": "Gathering market research data",
+      "D": "Following up on warm leads"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cold calling requires salespeople to introduce offerings to strangers.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 56,
+    "question": "The AIDA model for sales promotion stands for:",
+    "options": {
+      "A": "Attention, Interest, Desire, Action",
+      "B": "Approach, Inventory, Delivery, Analysis",
+      "C": "Advertise, Inform, Distribute, Allocate",
+      "D": "Acquire, Influence, Drive, Achieve"
+    },
+    "correctAnswer": "A",
+    "explanation": "AIDA outlines the stages of customer engagement leading to a purchase.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "A “loss leader” is a product sold:",
+    "options": {
+      "A": "At a loss to attract customers who then buy other items",
+      "B": "Above market price for premium branding",
+      "C": "Only in limited editions",
+      "D": "Without any warranty"
+    },
+    "correctAnswer": "A",
+    "explanation": "Retailers use loss leaders to drive store traffic and cross-sell higher-margin goods.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "question": "In digital marketing, “SEO” stands for:",
+    "options": {
+      "A": "Sales Enhancement Optimization",
+      "B": "Search Engine Optimization",
+      "C": "Social Engagement Operation",
+      "D": "Standardized E-Commerce Outreach"
+    },
+    "correctAnswer": "B",
+    "explanation": "SEO improves website visibility and ranking on search engines like Google.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "A “click-through rate” (CTR) measures:",
+    "options": {
+      "A": "Ratio of ad impressions to clicks",
+      "B": "Number of website pages viewed",
+      "C": "Email open rate only",
+      "D": "Return on ad spend"
+    },
+    "correctAnswer": "A",
+    "explanation": "CTR = clicks ÷ impressions; higher rates indicate more engaging ads.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "question": "“Drip marketing” refers to:",
+    "options": {
+      "A": "Overloading customers with constant ads",
+      "B": "Sending scheduled, automated messages to prospects over time",
+      "C": "One-time mass mailings",
+      "D": "Face-to-face events only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Drip campaigns nurture leads by delivering relevant content at intervals. N. Human Resources",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "question": "The primary purpose of an employee handbook is to:",
+    "options": {
+      "A": "Replace all employment contracts",
+      "B": "Communicate company policies, expectations, and benefits",
+      "C": "Serve as a marketing brochure",
+      "D": "List customer contacts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Handbooks align staff on rules, culture, and resources.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "“At-will” employment means:",
+    "options": {
+      "A": "Employers can terminate employees for any lawful reason at any time",
+      "B": "Employees cannot be fired under any circumstances",
+      "C": "Contracts must be renewed yearly",
+      "D": "Only voluntary resignations are allowed"
+    },
+    "correctAnswer": "A",
+    "explanation": "At-will status provides flexibility but requires adherence to nondiscrimination laws.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "question": "Onboarding new employees typically includes:",
+    "options": {
+      "A": "Immediate assignment to high-level projects",
+      "B": "Orientation, training, and integration into the company culture",
+      "C": "Excluding them from team meetings",
+      "D": "Skipping paperwork"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive onboarding improves retention and performance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "A “360-degree” performance review gathers feedback from:",
+    "options": {
+      "A": "Only top management",
+      "B": "Supervisors, peers, subordinates, and sometimes customers",
+      "C": "Customers exclusively",
+      "D": "Third-party recruiters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-source reviews provide balanced assessments of performance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 65,
+    "question": "The Fair Labor Standards Act (FLSA) sets standards for:",
+    "options": {
+      "A": "Environmental protection",
+      "B": "Minimum wage, overtime pay, and child labor",
+      "C": "Patent protection",
+      "D": "Financial reporting"
+    },
+    "correctAnswer": "B",
+    "explanation": "FLSA governs wages and hours for most U.S. workers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "A job description should include:",
+    "options": {
+      "A": "Personal background of the recruiter",
+      "B": "Title, duties, qualifications, and reporting relationships",
+      "C": "Salary only",
+      "D": "Marketing plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear descriptions help attract qualified candidates and set performance expectations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "question": "“Succession planning” in HR ensures:",
+    "options": {
+      "A": "Continuous workflow regardless of weather",
+      "B": "Identification and development of future leaders within the organization",
+      "C": "Only external hires for top roles",
+      "D": "Outsourcing all management functions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Succession pipelines mitigate risks from retirements or unexpected departures.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 68,
+    "question": "Turnover rate measures:",
+    "options": {
+      "A": "The rate at which products are sold",
+      "B": "Percentage of employees who leave over a period",
+      "C": "Inventory shrinkage",
+      "D": "Customer churn"
+    },
+    "correctAnswer": "B",
+    "explanation": "High turnover can signal morale or recruiting issues needing attention.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "A company offering “flex time” allows employees to:",
+    "options": {
+      "A": "Work only at home",
+      "B": "Choose start/end times within limits while meeting total required hours",
+      "C": "Avoid all team meetings",
+      "D": "Never take vacation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flexible schedules can improve work-life balance and job satisfaction.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "Employee engagement differs from satisfaction in that engagement reflects:",
+    "options": {
+      "A": "Only pay levels",
+      "B": "Emotional commitment to organizational goals and willingness to go the extra mile",
+      "C": "Number of sick days taken",
+      "D": "Office attendance only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Engaged employees demonstrate discretionary effort beyond basic job duties. O. Accounting & Finance Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "question": "The matching principle in accounting requires:",
+    "options": {
+      "A": "Recording revenues and related expenses in the same period",
+      "B": "Using matching colors in financial reports",
+      "C": "Only matching revenues to cash receipts",
+      "D": "Ignoring accruals"
+    },
+    "correctAnswer": "A",
+    "explanation": "Matching ensures accurate period profitability by aligning revenues and costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 72,
+    "question": "Depreciation expense is recorded to:",
+    "options": {
+      "A": "Allocate an asset’s cost over its useful life",
+      "B": "Increase asset book value",
+      "C": "Record market fluctuations",
+      "D": "Recognize cash outflows"
+    },
+    "correctAnswer": "A",
+    "explanation": "Systematic depreciation reflects asset usage and wear over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "A “chart of accounts” is:",
+    "options": {
+      "A": "A graphic for sales meetings",
+      "B": "A listing of all account titles and codes used by an organization",
+      "C": "A pie chart of market segments",
+      "D": "An organizational hierarchy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Standardized accounts facilitate consistent recording and reporting.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "question": "Internal controls in accounting help to:",
+    "options": {
+      "A": "Eliminate all errors",
+      "B": "Safeguard assets, ensure data accuracy, and promote operational efficiency",
+      "C": "Replace managerial oversight",
+      "D": "Reduce stock prices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Controls like separation of duties reduce fraud and mistakes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "A bank reconciliation ensures:",
+    "options": {
+      "A": "Book and bank balances agree after adjustments for timing and errors",
+      "B": "Internal audit reviews only",
+      "C": "No cash remains on hand",
+      "D": "All checks are outstanding"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reconciling identifies deposits in transit, outstanding checks, and bank errors. P. Operations Management",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Just-in-time (JIT) inventory systems aim to:",
+    "options": {
+      "A": "Maintain large safety stock at all times",
+      "B": "Receive goods only as they are needed in production, reducing holding costs",
+      "C": "Ignore supplier lead times",
+      "D": "Increase warehouse space"
+    },
+    "correctAnswer": "B",
+    "explanation": "JIT minimizes inventory carrying costs and waste through precise timing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "Six Sigma methodology focuses on:",
+    "options": {
+      "A": "Reducing every defect to no more than 3.4 per million opportunities",
+      "B": "Increasing production speed only",
+      "C": "Maximizing stock levels",
+      "D": "Eliminating customer feedback"
+    },
+    "correctAnswer": "A",
+    "explanation": "Six Sigma uses data-driven tools to improve quality and process consistency.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 78,
+    "question": "A fishbone diagram (Ishikawa) is used to:",
+    "options": {
+      "A": "Track fish inventory",
+      "B": "Identify potential root causes of a problem",
+      "C": "Schedule employee shifts",
+      "D": "Record financial transactions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Visual cause-and-effect analysis helps teams brainstorm underlying issues.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "Total quality management (TQM) emphasizes:",
+    "options": {
+      "A": "Quality as everyone’s responsibility and continuous improvement",
+      "B": "Inspection only at final stage",
+      "C": "Quality controlled solely by management",
+      "D": "Avoiding customer feedback"
+    },
+    "correctAnswer": "A",
+    "explanation": "TQM integrates quality into all processes and engages all employees.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "question": "A service blueprint maps:",
+    "options": {
+      "A": "Only physical product flows",
+      "B": "Customer actions, frontstage and backstage processes for service delivery",
+      "C": "Financial budgets",
+      "D": "Competitive analysis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Service blueprints clarify touchpoints and support processes to enhance customer experience.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 81,
+    "question": "The critical path in project management is:",
+    "options": {
+      "A": "The longest sequence of tasks determining project duration",
+      "B": "The path with most resources",
+      "C": "The cheapest set of tasks",
+      "D": "Optional tasks only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Any delay on the critical path delays overall completion.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 82,
+    "question": "A Work Breakdown Structure (WBS):",
+    "options": {
+      "A": "Lists all project risks",
+      "B": "Decomposes a project into manageable tasks and deliverables",
+      "C": "Defines marketing strategies",
+      "D": "Provides financial projections"
+    },
+    "correctAnswer": "B",
+    "explanation": "WBS organizes work into hierarchical levels for planning and control.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "Scope creep refers to:",
+    "options": {
+      "A": "Properly documented scope changes",
+      "B": "Uncontrolled expansion of project scope without adjustments to time or budget",
+      "C": "Risk mitigation only",
+      "D": "Quality assurance process"
+    },
+    "correctAnswer": "B",
+    "explanation": "Without formal change control, scope creep threatens project success.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 84,
+    "question": "A RACI matrix identifies:",
+    "options": {
+      "A": "Risk, assumptions, costs, and investments",
+      "B": "Roles: Responsible, Accountable, Consulted, Informed for project tasks",
+      "C": "Only cost estimates",
+      "D": "Timeline dependencies"
+    },
+    "correctAnswer": "B",
+    "explanation": "RACI clarifies who does what and who needs to stay informed. R. Strategic Management",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "Porter’s Five Forces model analyzes industry attractiveness by examining:",
+    "options": {
+      "A": "Customer demographics only",
+      "B": "Threat of new entrants, supplier power, buyer power, threat of substitutes, and competitive rivalry",
+      "C": "Color schemes for branding",
+      "D": "Employee benefits"
+    },
+    "correctAnswer": "B",
+    "explanation": "The framework helps strategists anticipate competitive pressures and profitability.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "question": "A mission statement defines:",
+    "options": {
+      "A": "The company’s long-term financial targets",
+      "B": "Purpose, values, and primary objectives of an organization",
+      "C": "CEO’s salary only",
+      "D": "Quarterly sales goals"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mission statements guide strategic decisions and communicate core identity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "A balanced scorecard includes metrics in categories such as:",
+    "options": {
+      "A": "Financial, customer, internal process, and learning & growth",
+      "B": "Sales only",
+      "C": "Marketing slogans",
+      "D": "Legal compliance only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Balanced scorecards translate vision into performance measures across perspectives.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 88,
+    "question": "Blue ocean strategy focuses on:",
+    "options": {
+      "A": "Competing in overcrowded markets",
+      "B": "Creating uncontested market space and making competition irrelevant",
+      "C": "Cost-cutting only",
+      "D": "Market research exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Blue oceans emphasize innovation and differentiation to unlock new demand.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "question": "A business plan’s “executive summary” should:",
+    "options": {
+      "A": "Provide a detailed budget only",
+      "B": "Concisely overview the business concept, market, and financial highlights",
+      "C": "Include raw data tables only",
+      "D": "Serve as an appendix"
+    },
+    "correctAnswer": "B",
+    "explanation": "Summaries capture investor attention by highlighting key points in a few pages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "Bootstrapping in entrepreneurship means:",
+    "options": {
+      "A": "Raising venture capital only",
+      "B": "Using personal finances and revenues to fund the business",
+      "C": "Outsourcing all functions",
+      "D": "Crowdfunding exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bootstrappers minimize external funding to retain control and limit dilution.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "question": "A minimum viable product (MVP) is:",
+    "options": {
+      "A": "Fully featured final product",
+      "B": "Simplest version that tests core value proposition with users",
+      "C": "Prototype for internal testing only",
+      "D": "Marketing brochure"
+    },
+    "correctAnswer": "B",
+    "explanation": "MVPs enable rapid learning and iteration based on real customer feedback. T. Ethics & Corporate Governance",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "question": "The primary role of a board of directors is to:",
+    "options": {
+      "A": "Manage daily operations",
+      "B": "Oversee management and protect shareholder interests",
+      "C": "Audit financial statements directly",
+      "D": "Handle marketing campaigns"
+    },
+    "correctAnswer": "B",
+    "explanation": "Boards set strategy, hire/fired executives, and ensure governance compliance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "Whistleblower protection laws encourage reporting by:",
+    "options": {
+      "A": "Punishing all leaks",
+      "B": "Safeguarding employees from retaliation when exposing wrongdoing",
+      "C": "Preventing any internal discussions",
+      "D": "Eliminating due process"
+    },
+    "correctAnswer": "B",
+    "explanation": "Legal shields help uncover fraud and reinforce ethical cultures.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "Insider trading involves:",
+    "options": {
+      "A": "Trading based on publicly available information only",
+      "B": "Using material nonpublic information for securities trading",
+      "C": "Investing in mutual funds only",
+      "D": "Using technical analysis exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Illegal trades exploit confidential data to gain unfair market advantage.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 95,
+    "question": "A code of ethics typically:",
+    "options": {
+      "A": "Lists financial targets",
+      "B": "Outlines expected behaviors and decision-making principles for employees",
+      "C": "Replaces all laws",
+      "D": "Only applies to managers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical codes guide conduct and reinforce organizational values. U. Leadership & Teamwork",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "Transformational leadership inspires followers by:",
+    "options": {
+      "A": "Micromanaging daily tasks",
+      "B": "Creating a compelling vision and motivating change",
+      "C": "Ignoring team feedback",
+      "D": "Enforcing strict rules only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Transformational leaders foster innovation and empower employees.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "Effective teams often display:",
+    "options": {
+      "A": "High levels of trust, clear goals, and open communication",
+      "B": "Individual competition only",
+      "C": "Complete independence without collaboration",
+      "D": "Avoidance of conflict at all costs"
+    },
+    "correctAnswer": "A",
+    "explanation": "Trust and clarity enable teams to coordinate efforts and resolve issues constructively.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "Delegation best practice involves:",
+    "options": {
+      "A": "Assigning tasks without guidance",
+      "B": "Matching tasks to team members’ skills and providing necessary support",
+      "C": "Retaining all decision-making",
+      "D": "Overloading top performers only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective delegation balances authority, responsibility, and resources for success.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "question": "Emotional intelligence (EI) includes:",
+    "options": {
+      "A": "Only IQ measurement",
+      "B": "Self-awareness, self-regulation, empathy, and social skills",
+      "C": "Financial acumen only",
+      "D": "Physical strength only"
+    },
+    "correctAnswer": "B",
+    "explanation": "EI enables leaders to manage relationships and respond to emotions appropriately.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "A “learning organization” encourages:",
+    "options": {
+      "A": "Stagnant processes",
+      "B": "Continuous improvement and knowledge sharing across all levels",
+      "C": "No changes for years",
+      "D": "Silos of expertise"
+    },
+    "correctAnswer": "B",
+    "explanation": "Learning cultures adapt quickly to change through feedback and innovation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 101,
+    "question": "The primary purpose of a business memo is to:",
+    "options": {
+      "A": "Provide formal marketing content",
+      "B": "Communicate internal information succinctly in writing",
+      "C": "Replace all meetings",
+      "D": "Serve as a press release"
+    },
+    "correctAnswer": "B",
+    "explanation": "Memos deliver policies, updates, and directives to employees in a concise format.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 102,
+    "question": "Active listening in a business context involves:",
+    "options": {
+      "A": "Interrupting frequently to share your view",
+      "B": "Paraphrasing and asking clarifying questions to confirm understanding",
+      "C": "Multitasking during conversations",
+      "D": "Ignoring nonverbal cues"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reflecting back ensures the speaker feels heard and reduces miscommunication.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "When preparing a formal business presentation, you should:",
+    "options": {
+      "A": "Read every slide verbatim",
+      "B": "Use clear visuals, limit text, and rehearse speaking points",
+      "C": "Skip slide design and focus only on text",
+      "D": "Speak without notes or preparation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Well-designed slides and practice enhance audience engagement and message clarity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "question": "The “inverted pyramid” style in business writing means:",
+    "options": {
+      "A": "Starting with details then ending with the main point",
+      "B": "Presenting the most important information first",
+      "C": "Using pyramid charts in reports",
+      "D": "Giving background before conclusions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Front-loading key messages caters to readers’ limited time and attention.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "Effective email etiquette includes all EXCEPT:",
+    "options": {
+      "A": "Clear subject lines",
+      "B": "Proper salutations and closings",
+      "C": "Using “Reply All” for every message",
+      "D": "Proofreading before sending"
+    },
+    "correctAnswer": "C",
+    "explanation": "Avoid unnecessary “Reply All” to reduce inbox clutter and maintain professionalism.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 106,
+    "question": "Win-win negotiation aims to:",
+    "options": {
+      "A": "Have one party win and the other lose",
+      "B": "Create solutions where both sides achieve objectives",
+      "C": "Avoid any concessions",
+      "D": "End negotiations abruptly"
+    },
+    "correctAnswer": "B",
+    "explanation": "Collaborative negotiation builds relationships and fosters long-term agreements.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "In conflict resolution, a mediator’s role is to:",
+    "options": {
+      "A": "Impose a solution on parties",
+      "B": "Facilitate communication and help parties reach their own agreement",
+      "C": "Represent one side’s interests",
+      "D": "Escalate the conflict"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mediators remain neutral, guiding dialogue and exploring options.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "BATNA stands for:",
+    "options": {
+      "A": "Best Alternative To a Negotiated Agreement",
+      "B": "Business Analysis of Trade Negotiation Assets",
+      "C": "Basic Agreement Terms for Negotiation Action",
+      "D": "Best And Timely Negotiation Approach"
+    },
+    "correctAnswer": "A",
+    "explanation": "Knowing your BATNA empowers you with leverage and realistic walk-away options.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 109,
+    "question": "Emotional triggers in negotiations can be managed by:",
+    "options": {
+      "A": "Ignoring your counterpart’s emotions",
+      "B": "Acknowledging feelings and refocusing on interests",
+      "C": "Raising your voice to assert dominance",
+      "D": "Pushing for quick closure"
+    },
+    "correctAnswer": "B",
+    "explanation": "Validating emotions de-escalates tension and keeps discussions productive.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "question": "A collaborative negotiation style is best when:",
+    "options": {
+      "A": "Relationships matter and issues are complex",
+      "B": "Time is extremely limited",
+      "C": "You want a quick unilateral win",
+      "D": "Power imbalances prevent sharing information"
+    },
+    "correctAnswer": "A",
+    "explanation": "Collaboration is ideal for joint problem-solving and mutual gain. X. Corporate Finance Topics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "question": "The primary goal of corporate finance is to:",
+    "options": {
+      "A": "Maximize CEO compensation",
+      "B": "Maximize shareholder wealth through stock price appreciation",
+      "C": "Minimize taxes at all costs",
+      "D": "Eliminate dividends"
+    },
+    "correctAnswer": "B",
+    "explanation": "Decisions on investments, financing, and dividends aim to increase firm value.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "The weighted average cost of capital (WACC) reflects:",
+    "options": {
+      "A": "Only cost of debt financing",
+      "B": "The blended cost of equity and debt based on capital structure proportions",
+      "C": "Tax rates only",
+      "D": "Operating expenses"
+    },
+    "correctAnswer": "B",
+    "explanation": "WACC is used as a discount rate for valuing projects and firms.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 113,
+    "question": "Leverage in finance refers to:",
+    "options": {
+      "A": "Using borrowed funds to increase potential investment returns",
+      "B": "Only equity financing",
+      "C": "Reducing debt to zero",
+      "D": "Operating without cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "Leverage magnifies gains but also increases risk on downside.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "A dividend payout ratio is calculated as:",
+    "options": {
+      "A": "Dividends per share ÷ Earnings per share",
+      "B": "Net income ÷ Total dividends paid",
+      "C": "Cash flow ÷ Market capitalization",
+      "D": "Earnings per share only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Payout ratio shows the proportion of earnings returned to shareholders.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 115,
+    "question": "Stock buybacks can increase EPS by:",
+    "options": {
+      "A": "Increasing the number of shares outstanding",
+      "B": "Reducing the number of shares outstanding",
+      "C": "Issuing more debt",
+      "D": "Paying higher dividends"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fewer shares share the same earnings, leading to higher EPS.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 116,
+    "question": "Kotter’s first step in leading organizational change is to:",
+    "options": {
+      "A": "Consolidate gains and produce more change",
+      "B": "Establish a sense of urgency",
+      "C": "Plan short-term wins",
+      "D": "Empower broad-based action"
+    },
+    "correctAnswer": "B",
+    "explanation": "Urgency motivates stakeholders to recognize need for change promptly.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "question": "Resistance to change can be reduced by:",
+    "options": {
+      "A": "Ignoring employee concerns",
+      "B": "Communicating the vision and involving employees in planning",
+      "C": "Mandating top-down directives only",
+      "D": "Punishing dissenters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Engagement and transparent communication foster buy-in and lower resistance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 118,
+    "question": "Lewin’s change model includes three phases:",
+    "options": {
+      "A": "Start, execute, finish",
+      "B": "Unfreeze, change, refreeze",
+      "C": "Plan, do, check",
+      "D": "Develop, implement, operate"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unfreezing prepares for change, changing executes, refreezing solidifies new norms.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 119,
+    "question": "Continuous improvement (Kaizen) emphasizes:",
+    "options": {
+      "A": "Large, infrequent overhauls",
+      "B": "Small, incremental changes involving all employees",
+      "C": "Only management-led directives",
+      "D": "One-time projects"
+    },
+    "correctAnswer": "B",
+    "explanation": "Kaizen fosters a culture where everyone seeks process enhancements daily.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "A change champion in an organization is someone who:",
+    "options": {
+      "A": "Acts as a skeptic to delay change",
+      "B": "Advocates, supports, and helps implement change initiatives",
+      "C": "Ignores change directives",
+      "D": "Controls financial resources only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Champions build enthusiasm and bridge communication between leadership and staff. Z. Risk Management",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 121,
+    "question": "Enterprise risk management (ERM) aims to:",
+    "options": {
+      "A": "Manage financial risks only",
+      "B": "Identify, assess, and mitigate all types of risks across the organization",
+      "C": "Transfer all risks to insurers",
+      "D": "Eliminate all uncertainties"
+    },
+    "correctAnswer": "B",
+    "explanation": "ERM provides a holistic framework for addressing strategic, operational, financial, and compliance risks.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 122,
+    "question": "Risk avoidance involves:",
+    "options": {
+      "A": "Accepting the risk",
+      "B": "Eliminating exposure to a risk entirely",
+      "C": "Transferring risk to another party",
+      "D": "Insuring against the risk"
+    },
+    "correctAnswer": "B",
+    "explanation": "Avoidance stops activities that create risk, though it may limit opportunities.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 123,
+    "question": "A risk register typically documents:",
+    "options": {
+      "A": "Only financial statements",
+      "B": "Identified risks, likelihood, impact, and mitigation plans",
+      "C": "Employee birthdays",
+      "D": "Annual budgets only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Registers help track and monitor risk response strategies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "Cyber risk in modern businesses includes threats like:",
+    "options": {
+      "A": "Market volatility",
+      "B": "Data breaches, ransomware, and phishing attacks",
+      "C": "Inflation only",
+      "D": "Physical theft only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cyber threats can disrupt operations and incur regulatory penalties.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Insurance risk transfer is achieved by:",
+    "options": {
+      "A": "Self-insuring internally",
+      "B": "Purchasing insurance policies that shift financial burdens of loss to insurers",
+      "C": "Ignoring potential losses",
+      "D": "Reducing product quality"
+    },
+    "correctAnswer": "B",
+    "explanation": "Insurance moves risk financially from the organization to the insurer in exchange for premiums. CC. Legal Environment & Compliance",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 126,
+    "question": "The primary purpose of antitrust laws is to:",
+    "options": {
+      "A": "Promote monopolies",
+      "B": "Prevent unfair competition and promote market competition",
+      "C": "Regulate product quality standards",
+      "D": "Set industry pricing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Antitrust laws such as the Sherman Act prohibit collusion and monopolistic practices to protect consumers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 127,
+    "question": "A non-compete agreement restricts an employee from:",
+    "options": {
+      "A": "Taking sick leave",
+      "B": "Working for a competitor for a specified period after leaving the company",
+      "C": "Receiving overtime pay",
+      "D": "Attending industry conferences"
+    },
+    "correctAnswer": "B",
+    "explanation": "Non-competes protect trade secrets by limiting post-employment competition within a geographic area and time frame.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 128,
+    "question": "Intellectual property protection for a new logo is obtained through:",
+    "options": {
+      "A": "Patent registration",
+      "B": "Trademark registration",
+      "C": "Copyright registration",
+      "D": "Trade secret designation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Trademarks protect brand identifiers—names, logos, and slogans—distinguishing goods or services.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 129,
+    "question": "A “right to work” law prohibits:",
+    "options": {
+      "A": "Hiring employees without credentials",
+      "B": "Mandatory union membership as a condition of employment",
+      "C": "Employment of minors",
+      "D": "Salary negotiations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Right-to-work laws ensure workers cannot be forced to join or pay dues to a union to keep their jobs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "The principle of “due diligence” in mergers requires:",
+    "options": {
+      "A": "Immediate integration without review",
+      "B": "Thorough investigation of a target company’s financials, operations, and legal status",
+      "C": "Ignoring potential liabilities",
+      "D": "Sole focus on cultural fit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Due diligence uncovers risks—contracts, liabilities, compliance issues—before completing a transaction.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 131,
+    "question": "The “bullwhip effect” in supply chains refers to:",
+    "options": {
+      "A": "Decreasing demand variability upstream in the chain",
+      "B": "Amplification of order variability as orders move upstream",
+      "C": "Elimination of lead times",
+      "D": "Perfect demand forecasting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Small fluctuations in consumer demand cause increasingly larger swings in orders for suppliers.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 132,
+    "question": "Vendor-managed inventory (VMI) means:",
+    "options": {
+      "A": "Retailers manage supplier inventory",
+      "B": "Suppliers monitor and replenish a customer’s inventory levels",
+      "C": "Government regulates stock levels",
+      "D": "Consumers order directly from the vendor"
+    },
+    "correctAnswer": "B",
+    "explanation": "VMI shifts responsibility to suppliers to ensure optimal stock and reduce stockouts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "A “third-party logistics” (3PL) provider offers:",
+    "options": {
+      "A": "Only warehousing services",
+      "B": "End-to-end logistics solutions—transportation, warehousing, and distribution",
+      "C": "Manufacturing outsourcing",
+      "D": "Retail store operations"
+    },
+    "correctAnswer": "B",
+    "explanation": "3PLs streamline supply chain functions so companies can focus on core competencies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "Cross-docking is a logistics technique where:",
+    "options": {
+      "A": "Goods are stored for long periods",
+      "B": "Incoming shipments are directly transferred to outbound vehicles with minimal handling",
+      "C": "Products are returned to suppliers",
+      "D": "Inventory levels are doubled"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cross-docking reduces storage time and speeds deliveries by transferring goods immediately.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 135,
+    "question": "Just-in-case (JIC) inventory management prioritizes:",
+    "options": {
+      "A": "Minimizing stock levels at all times",
+      "B": "Holding buffer stock to guard against supply disruptions",
+      "C": "No safety stock",
+      "D": "Eliminating warehouses"
+    },
+    "correctAnswer": "B",
+    "explanation": "JIC contrasts with JIT by keeping extra inventory to ensure continuity during delays. EE. Sustainability & Corporate Responsibility",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "A triple bottom line approach measures success in:",
+    "options": {
+      "A": "Profit only",
+      "B": "Profit, people (social), and planet (environmental)",
+      "C": "Revenue growth only",
+      "D": "Market share only"
+    },
+    "correctAnswer": "B",
+    "explanation": "TBL expands traditional accounting to include social and environmental performance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 137,
+    "question": "A carbon audit assesses:",
+    "options": {
+      "A": "Only financial debts",
+      "B": "A company’s greenhouse gas emissions across operations",
+      "C": "Employee satisfaction",
+      "D": "Brand awareness"
+    },
+    "correctAnswer": "B",
+    "explanation": "Carbon audits identify major emissions sources to inform reduction strategies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "The UN Sustainable Development Goals (SDGs) include objectives such as:",
+    "options": {
+      "A": "Space exploration only",
+      "B": "No poverty, quality education, and climate action among 17 goals",
+      "C": "Tax rate harmonization only",
+      "D": "National defense strategies"
+    },
+    "correctAnswer": "B",
+    "explanation": "SDGs guide businesses and governments toward a sustainable and equitable future by 2030. FF. E-Business & Digital Transformation",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 139,
+    "question": "Business-to-business (B2B) e-commerce differs from B2C by:",
+    "options": {
+      "A": "Selling only to consumers",
+      "B": "Focusing on transactions between companies, often bulk orders and negotiated pricing",
+      "C": "Requiring in-person visits",
+      "D": "Using social media only"
+    },
+    "correctAnswer": "B",
+    "explanation": "B2B platforms support complex procurement processes and longer sales cycles.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "A “cloud-native” application is designed to:",
+    "options": {
+      "A": "Run on on-premises servers only",
+      "B": "Leverage microservices and containers to scale easily in cloud environments",
+      "C": "Avoid internet connectivity",
+      "D": "Use legacy systems exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cloud-native apps are built for agility and resilience in distributed architectures.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 141,
+    "question": "An API (Application Programming Interface) allows:",
+    "options": {
+      "A": "Only graphical user interfaces",
+      "B": "Software applications to communicate and share data programmatically",
+      "C": "Manual data entry only",
+      "D": "No integration between systems"
+    },
+    "correctAnswer": "B",
+    "explanation": "APIs expose functionalities or data endpoints for other apps to consume securely.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 142,
+    "question": "Digital twins in operations refer to:",
+    "options": {
+      "A": "Identical backup servers",
+      "B": "Virtual replicas of physical assets or processes for simulation and optimization",
+      "C": "Duplicate online users",
+      "D": "Parallel accounting ledgers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Digital twins enable real-time monitoring and predictive maintenance of assets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 143,
+    "question": "Business intelligence (BI) tools primarily help managers to:",
+    "options": {
+      "A": "Create legal contracts",
+      "B": "Analyze historical data for insights and reporting",
+      "C": "Manufacture products",
+      "D": "Train employees"
+    },
+    "correctAnswer": "B",
+    "explanation": "BI platforms visualize trends, support dashboards, and guide strategic decisions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "A KPI (Key Performance Indicator) must be:",
+    "options": {
+      "A": "Vague and qualitative",
+      "B": "Specific, measurable, and aligned with business objectives",
+      "C": "Changed daily with no tracking",
+      "D": "Only financial"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective KPIs focus on metrics that directly influence target outcomes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "Predictive analytics uses:",
+    "options": {
+      "A": "Only descriptive reports",
+      "B": "Statistical models and machine learning to forecast future outcomes",
+      "C": "Manual spreadsheets exclusively",
+      "D": "No historical data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Predictive models identify patterns in data to anticipate trends and risks.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 146,
+    "question": "A dashboard’s “drill-down” feature allows users to:",
+    "options": {
+      "A": "Remove all detail",
+      "B": "Explore underlying data behind summary metrics",
+      "C": "Only view static summaries",
+      "D": "Print without filters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Drill-downs enable interactive analysis from high-level KPIs to granular records. HH. Innovation & Change",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 147,
+    "question": "Design thinking emphasizes:",
+    "options": {
+      "A": "Strict adherence to existing protocols",
+      "B": "Human-centered empathy, ideation, prototyping, and testing",
+      "C": "Only cost reduction",
+      "D": "Ignoring user feedback"
+    },
+    "correctAnswer": "B",
+    "explanation": "Design thinking cycles put user needs at the core of innovative solutions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 148,
+    "question": "A corporate “incubator” typically:",
+    "options": {
+      "A": "Manufactures products",
+      "B": "Provides early-stage startups with workspace, mentorship, and resources",
+      "C": "Only purchases external companies",
+      "D": "Focuses solely on cost cutting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Incubators nurture fledgling ventures until they can operate independently.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 149,
+    "question": "A disruptive innovation:",
+    "options": {
+      "A": "Improves existing products incrementally",
+      "B": "Creates a new market or value network that eventually displaces incumbents",
+      "C": "Only applies to high-end luxury goods",
+      "D": "Requires no customer adoption"
+    },
+    "correctAnswer": "B",
+    "explanation": "Disruptive innovations start simple and redefine markets, like streaming displacing video rental.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 150,
+    "question": "A clan culture in the Competing Values Framework emphasizes:",
+    "options": {
+      "A": "Stability and control above all",
+      "B": "Flexibility, collaboration, and a family-like environment",
+      "C": "Aggressive competition externally",
+      "D": "Process efficiency only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clan cultures prioritize employee engagement and internal cohesion.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "Psychological safety in teams means members feel:",
+    "options": {
+      "A": "They cannot voice opinions",
+      "B": "Safe to take interpersonal risks without fear of embarrassment",
+      "C": "Encouraged to avoid mistakes",
+      "D": "Only follow leaders’ directives"
+    },
+    "correctAnswer": "B",
+    "explanation": "Safe environments boost innovation and open communication.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 152,
+    "question": "A business continuity plan (BCP) outlines how to:",
+    "options": {
+      "A": "Permanently discontinue operations",
+      "B": "Maintain critical functions during and after a disruption",
+      "C": "Merge with competitors",
+      "D": "Increase marketing budgets"
+    },
+    "correctAnswer": "B",
+    "explanation": "BCPs include backup sites, data recovery, and communication protocols for resilience.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 153,
+    "question": "Stakeholder communication during a crisis should be:",
+    "options": {
+      "A": "Infrequent and ambiguous",
+      "B": "Timely, transparent, and consistent across channels",
+      "C": "Limited to executives only",
+      "D": "Delayed until all details are finalized"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear, honest updates preserve trust and guide stakeholder expectations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 154,
+    "question": "A “tabletop exercise” in crisis preparedness:",
+    "options": {
+      "A": "Involves only reading policies silently",
+      "B": "Simulates a crisis scenario via discussion to test plans and roles",
+      "C": "Requires full-scale drills with all staff on-site",
+      "D": "Is only for military use"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tabletop drills evaluate decision-making and coordination without disrupting operations. KK. Mergers, Acquisitions & Strategic Alliances",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 155,
+    "question": "A horizontal merger combines firms that:",
+    "options": {
+      "A": "Operate at different stages of the value chain",
+      "B": "Produce similar or identical products in the same market",
+      "C": "Have no strategic fit",
+      "D": "Are in different geographic regions only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Horizontal mergers consolidate market share and reduce competition among peers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "A joint venture is:",
+    "options": {
+      "A": "A full corporate acquisition",
+      "B": "A strategic partnership where two firms create a separate entity to pursue shared objectives",
+      "C": "A licensing agreement only",
+      "D": "A hostile takeover"
+    },
+    "correctAnswer": "B",
+    "explanation": "JVs enable resource pooling and risk sharing for specific projects or markets.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Vertical integration occurs when a company:",
+    "options": {
+      "A": "Merges with a competitor only",
+      "B": "Expands by acquiring suppliers or distributors along its supply chain",
+      "C": "Franchises its brand",
+      "D": "Only invests in real estate"
+    },
+    "correctAnswer": "B",
+    "explanation": "Vertical moves secure inputs or outlets, improving control and cost efficiency. LL. Advanced Finance & Valuation",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 158,
+    "question": "A leveraged buyout (LBO) is financed primarily with:",
+    "options": {
+      "A": "Equity capital only",
+      "B": "Debt, using acquired company assets as collateral",
+      "C": "Government grants",
+      "D": "Only vendor financing"
+    },
+    "correctAnswer": "B",
+    "explanation": "High leverage magnifies returns for sponsors but increases financial risk for the target.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 159,
+    "question": "An option’s “implied volatility” reflects:",
+    "options": {
+      "A": "The actual past price swings only",
+      "B": "The market’s forecast of future price volatility embedded in option prices",
+      "C": "Dividend payments only",
+      "D": "Risk-free interest rates only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Implied volatility signals expected fluctuations and influences option premiums.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 160,
+    "question": "A convertible bond’s value combines:",
+    "options": {
+      "A": "Only straight debt value",
+      "B": "Debt component plus equity option (conversion feature)",
+      "C": "Equity-only value",
+      "D": "No market price"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investors receive coupon payments and the right to convert into shares, blending fixed income and equity upside.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 161,
+    "question": "Economic value added (EVA) is calculated as:",
+    "options": {
+      "A": "Net operating profit after taxes (NOPAT) minus capital charge (WACC × invested capital)",
+      "B": "Net income only",
+      "C": "Operating cash flow only",
+      "D": "Total assets minus liabilities"
+    },
+    "correctAnswer": "A",
+    "explanation": "EVA measures true economic profit after covering cost of capital.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 162,
+    "question": "A balanced scorecard’s learning & growth perspective includes measures like:",
+    "options": {
+      "A": "Customer satisfaction scores",
+      "B": "Employee training hours and innovation metrics",
+      "C": "Dividend yield",
+      "D": "Tax expense"
+    },
+    "correctAnswer": "B",
+    "explanation": "Learning & growth metrics track organizational capacity for improvement and change. NN. Advanced Leadership",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 163,
+    "question": "Servant leadership prioritizes:",
+    "options": {
+      "A": "Organizational profits above people",
+      "B": "Serving employees’ needs to empower and develop them",
+      "C": "Micromanagement of tasks",
+      "D": "Strict hierarchy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Servant leaders foster trust by focusing on team well-being and growth.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 164,
+    "question": "A charismatic leader draws followers through:",
+    "options": {
+      "A": "Formal authority only",
+      "B": "Personal charm, vision articulation, and strong communication",
+      "C": "Financial incentives only",
+      "D": "Strict punishment"
+    },
+    "correctAnswer": "B",
+    "explanation": "Charisma builds emotional appeal and loyalty beyond formal structures. OO. Review & Integration",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 165,
+    "question": "An organization’s strategic plan typically includes:",
+    "options": {
+      "A": "Tactical daily checklists only",
+      "B": "Mission, vision, objectives, strategies, and action plans",
+      "C": "Only financial projections",
+      "D": "Only HR policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive strategic plans link vision to actionable steps across functions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 166,
+    "question": "Benchmarking involves:",
+    "options": {
+      "A": "Setting arbitrary targets",
+      "B": "Comparing processes and performance metrics against industry best practices",
+      "C": "Ignoring competitor data",
+      "D": "Only internal audits"
+    },
+    "correctAnswer": "B",
+    "explanation": "Benchmarking identifies gaps and adaptation opportunities by learning from leaders.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 167,
+    "question": "A “gap analysis” in planning is used to:",
+    "options": {
+      "A": "Identify differences between current performance and desired goals",
+      "B": "Eliminate all training programs",
+      "C": "Focus only on cost reduction",
+      "D": "Compare weather forecasts"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gap analyses guide resource allocation to bridge performance shortfalls.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 168,
+    "question": "Value chain analysis examines:",
+    "options": {
+      "A": "Only outbound logistics",
+      "B": "All primary and support activities to identify competitive advantages",
+      "C": "Tax strategies only",
+      "D": "Finance functions only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mapping the value chain reveals where value is created and cost efficiencies exist.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 169,
+    "question": "A “blueprint” for business excellence, such as the Malcolm Baldrige Criteria, emphasizes:",
+    "options": {
+      "A": "Box ticking only",
+      "B": "Leadership, strategic planning, customer focus, measurement, workforce, and operations",
+      "C": "Only financial metrics",
+      "D": "Only marketing success"
+    },
+    "correctAnswer": "B",
+    "explanation": "Baldrige provides a holistic framework for performance improvement across all areas.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 170,
+    "question": "A culture audit assesses:",
+    "options": {
+      "A": "Only financial health",
+      "B": "Organizational values, beliefs, and behaviors to align culture with strategy",
+      "C": "Only safety policies",
+      "D": "Only leadership styles"
+    },
+    "correctAnswer": "B",
+    "explanation": "Culture audits diagnose gaps between intended and actual workplace norms.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 171,
+    "question": "Scenario planning helps organizations:",
+    "options": {
+      "A": "Focus on a single forecast",
+      "B": "Explore multiple plausible futures and develop flexible strategies",
+      "C": "Eliminate all uncertainties",
+      "D": "Create rigid annual budgets"
+    },
+    "correctAnswer": "B",
+    "explanation": "By modeling diverse scenarios, businesses improve readiness for change.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 172,
+    "question": "Continuous learning systems in organizations promote:",
+    "options": {
+      "A": "One-time training events",
+      "B": "Ongoing skill development, knowledge sharing, and reflective practices",
+      "C": "Only senior management education",
+      "D": "No formal learning"
+    },
+    "correctAnswer": "B",
+    "explanation": "Learning systems institutionalize adaptation and innovation at all levels.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 173,
+    "question": "A chief risk officer (CRO) is responsible for:",
+    "options": {
+      "A": "Financial accounting only",
+      "B": "Overseeing enterprise risk management and advising on risk strategies",
+      "C": "Hiring only",
+      "D": "Marketing communications"
+    },
+    "correctAnswer": "B",
+    "explanation": "The CRO coordinates risk identification, assessment, and mitigation across functions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 174,
+    "question": "An organization’s “North Star metric” is:",
+    "options": {
+      "A": "Arbitrary company slogan",
+      "B": "Single key measure that best captures core value delivered to customers",
+      "C": "Number of emails sent",
+      "D": "Only quarterly profits"
+    },
+    "correctAnswer": "B",
+    "explanation": "North Star metrics focus the entire team on outcomes that drive growth and mission.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "A periodic business review meeting should include:",
+    "options": {
+      "A": "Only positive news",
+      "B": "Assessment of KPIs, challenges, lessons learned, and action items",
+      "C": "Only financial forecasts",
+      "D": "No follow-up plans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive reviews align teams, foster accountability, and guide continuous improvement. PP. Special Topics in Management",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "The “Peter Principle” suggests that in organizations, employees tend to be promoted until they reach:",
+    "options": {
+      "A": "Their level of maximum competence",
+      "B": "A position where they become incompetent",
+      "C": "The highest possible salary grade",
+      "D": "A role that matches their education"
+    },
+    "correctAnswer": "B",
+    "explanation": "Once promoted to a role beyond their capabilities, performance often declines.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 177,
+    "question": "Management by objectives (MBO) relies on:",
+    "options": {
+      "A": "Top-down directives only",
+      "B": "Setting specific, measurable goals collaboratively and reviewing performance",
+      "C": "Ignoring employee input",
+      "D": "Annual bonuses alone"
+    },
+    "correctAnswer": "B",
+    "explanation": "MBO aligns individual targets with organizational strategy through joint goal setting.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 178,
+    "question": "The Hawthorne Studies demonstrated that worker productivity is influenced by:",
+    "options": {
+      "A": "Only physical working conditions",
+      "B": "Social factors and feeling observed (the Hawthorne effect)",
+      "C": "Strict surveillance",
+      "D": "Uniforms only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Attention and group dynamics can boost morale and output independent of environment changes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 179,
+    "question": "Herzberg’s Two-Factor Theory distinguishes between:",
+    "options": {
+      "A": "Hygiene factors (e.g., pay, conditions) and motivators (e.g., achievement, recognition)",
+      "B": "Intrinsic and extrinsic motivation only",
+      "C": "Financial and nonfinancial rewards only",
+      "D": "Leadership styles"
+    },
+    "correctAnswer": "A",
+    "explanation": "Removing dissatisfaction (hygiene) and increasing satisfaction (motivators) both drive engagement.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "Theory X and Theory Y describe:",
+    "options": {
+      "A": "Marketing segments",
+      "B": "Managerial assumptions about worker motivation—X (lazy/dislike work) vs. Y (self-motivated)",
+      "C": "Financial projections",
+      "D": "Inventory systems"
+    },
+    "correctAnswer": "B",
+    "explanation": "Theory X supports tight control, while Y suggests participative management fosters creativity. QQ. Contemporary Leadership Models",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "Servant leadership focuses on:",
+    "options": {
+      "A": "Organizational goals over people",
+      "B": "Serving employees’ needs first to empower them",
+      "C": "Maximizing short-term profits",
+      "D": "Strict hierarchical commands"
+    },
+    "correctAnswer": "B",
+    "explanation": "By prioritizing follower development, servant leaders build trust and commitment.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 182,
+    "question": "Authentic leadership emphasizes:",
+    "options": {
+      "A": "Leaders projecting an idealized image only",
+      "B": "Transparency, moral standards, and self-awareness in leadership actions",
+      "C": "Manipulating followers",
+      "D": "Avoiding feedback"
+    },
+    "correctAnswer": "B",
+    "explanation": "Authentic leaders act consistently with their values and foster genuine relationships. RR. Emerging Workplace Trends",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 183,
+    "question": "“Gig economy” work is characterized by:",
+    "options": {
+      "A": "Permanent full-time jobs only",
+      "B": "Short-term, project-based engagements and independent contracting",
+      "C": "Unionized labor exclusively",
+      "D": "Government employment"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gig workers choose flexible, on-demand tasks often mediated by digital platforms.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "“Remote-first” companies:",
+    "options": {
+      "A": "Require all employees on-site daily",
+      "B": "Design processes and culture prioritizing remote work, with in-person as optional",
+      "C": "Prohibit any travel",
+      "D": "Offer no digital tools"
+    },
+    "correctAnswer": "B",
+    "explanation": "Policies and systems are optimized for distributed teams to collaborate virtually.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 185,
+    "question": "A “four-day workweek” trial has shown potential benefits such as:",
+    "options": {
+      "A": "Reduced productivity and increased stress",
+      "B": "Improved employee well-being, engagement, and maintained or increased productivity",
+      "C": "Mandatory overtime on Fridays",
+      "D": "Higher turnover only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Compressed schedules can boost morale and focus without sacrificing output in many studies. SS. Advanced Communication & Influence",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 186,
+    "question": "The “Chatham House Rule” in discussions means participants:",
+    "options": {
+      "A": "Are recorded for public release",
+      "B": "Can use information received but not reveal the speaker’s identity or affiliation",
+      "C": "Must cite all comments",
+      "D": "Cannot share any details"
+    },
+    "correctAnswer": "B",
+    "explanation": "The rule encourages open debate by protecting confidentiality of speakers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 187,
+    "question": "“Framing” in persuasion refers to:",
+    "options": {
+      "A": "Physically framing a poster",
+      "B": "Presenting information in a way that influences perception and decisions (gain vs. loss frames)",
+      "C": "Only using statistics",
+      "D": "Ignoring context"
+    },
+    "correctAnswer": "B",
+    "explanation": "Framing shapes how choices are interpreted, affecting outcomes and behaviors. TT. Technology Integration & Digital Leadership",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "Digital leadership requires:",
+    "options": {
+      "A": "Only IT skills",
+      "B": "Vision for technology adoption, data literacy, and change management capabilities",
+      "C": "Avoiding digital tools",
+      "D": "Outsourcing decision-making"
+    },
+    "correctAnswer": "B",
+    "explanation": "Leaders must guide digital transformation strategically across people and processes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "“DevOps” integrates:",
+    "options": {
+      "A": "Marketing and finance teams",
+      "B": "Development and operations teams to accelerate software delivery and reliability",
+      "C": "Only hardware procurement",
+      "D": "Customer service and sales"
+    },
+    "correctAnswer": "B",
+    "explanation": "DevOps fosters collaboration, automation, and shared responsibility for product lifecycles. UU. Globalization & Cross-Cultural Management",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "Cultural intelligence (CQ) refers to:",
+    "options": {
+      "A": "Only language proficiency",
+      "B": "Ability to relate to and work effectively across diverse cultures",
+      "C": "Knowing geography",
+      "D": "Technical expertise only"
+    },
+    "correctAnswer": "B",
+    "explanation": "High CQ enables leaders to adapt behaviors and strategies in multicultural environments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 191,
+    "question": "“Polycentric” management in MNCs entails:",
+    "options": {
+      "A": "Selecting only home-country nationals for all positions",
+      "B": "Hiring host-country nationals to manage subsidiaries, believing they understand local context",
+      "C": "Rotating executives randomly",
+      "D": "Excluding local talent"
+    },
+    "correctAnswer": "B",
+    "explanation": "Polycentric staffing leverages local knowledge but may reduce global integration. VV. Ethical Challenges & Corporate Integrity",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "“Greenwashing” is the practice of:",
+    "options": {
+      "A": "Legitimately reducing carbon emissions",
+      "B": "Misleading claims about environmental practices to appear more sustainable than reality",
+      "C": "Washing office plants with eco-friendly soap",
+      "D": "Only recycling paper"
+    },
+    "correctAnswer": "B",
+    "explanation": "Greenwashing deceives stakeholders by overstating eco-friendly initiatives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "A compliance officer’s role includes:",
+    "options": {
+      "A": "Marketing products",
+      "B": "Ensuring the organization adheres to laws, regulations, and internal policies",
+      "C": "Designing new products",
+      "D": "Conducting employee weddings"
+    },
+    "correctAnswer": "B",
+    "explanation": "Compliance officers implement frameworks to prevent legal and ethical breaches. WW. Sustainability Leadership",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "A circular economy model focuses on:",
+    "options": {
+      "A": "Linear “take-make-dispose” processes",
+      "B": "Designing out waste and keeping products/materials in use through reuse and recycling",
+      "C": "Only economic growth metrics",
+      "D": "Ignoring environmental impact"
+    },
+    "correctAnswer": "B",
+    "explanation": "Circularity reduces resource consumption and promotes sustainable value chains.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 195,
+    "question": "“B Corps” are companies certified for:",
+    "options": {
+      "A": "Maximizing shareholder profits only",
+      "B": "Meeting rigorous social and environmental performance, accountability, and transparency standards",
+      "C": "Only charitable giving",
+      "D": "Government ownership"
+    },
+    "correctAnswer": "B",
+    "explanation": "B Corp certification assesses overall positive impact on workers, community, and planet. XX. Mentoring & Talent Development",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 196,
+    "question": "A mentoring relationship differs from coaching by being:",
+    "options": {
+      "A": "Only formal and structured",
+      "B": "Long-term, focusing on career and personal growth guided by experienced professionals",
+      "C": "Limited to skill training only",
+      "D": "Focused on performance appraisal"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mentoring provides broad guidance, whereas coaching targets specific skills or goals.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 197,
+    "question": "“Reverse mentoring” entails:",
+    "options": {
+      "A": "Juniors mentoring senior leaders on topics like technology and social trends",
+      "B": "CEOs mentoring interns only",
+      "C": "Only external consultants",
+      "D": "Mentoring for financial skills only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reverse mentoring bridges generational gaps and fosters mutual learning. YY. Crisis Leadership",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "Effective crisis leadership involves:",
+    "options": {
+      "A": "Denying the problem",
+      "B": "Rapid decision-making, clear communication, and empathy for stakeholders",
+      "C": "Blaming others publicly",
+      "D": "Avoiding responsibility"
+    },
+    "correctAnswer": "B",
+    "explanation": "Leaders must balance speed, transparency, and compassion to navigate crises successfully.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "After-action reviews (AARs) aim to:",
+    "options": {
+      "A": "Assign blame",
+      "B": "Analyze what happened, why, and how to improve future responses",
+      "C": "Celebrate failure only",
+      "D": "Ignore lessons learned"
+    },
+    "correctAnswer": "B",
+    "explanation": "AARs foster organizational learning by reflecting on performance and outcomes. ZZ. Capstone Integration & Reflection",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "A capstone project in a business course typically requires students to:",
+    "options": {
+      "A": "Only take an exam",
+      "B": "Apply multiple business disciplines to solve a real-world problem or develop a business plan",
+      "C": "Memorize definitions only",
+      "D": "Work individually without feedback"
+    },
+    "correctAnswer": "B",
+    "explanation": "Capstones integrate knowledge from finance, marketing, operations, and strategy in a comprehensive deliverable.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 201,
+    "question": "Reflective practice in management involves:",
+    "options": {
+      "A": "Ignoring past experiences",
+      "B": "Regularly analyzing actions and outcomes to enhance future decision-making",
+      "C": "Only focusing on successes",
+      "D": "Avoiding feedback"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reflection promotes continuous personal and organizational improvement.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 202,
+    "question": "Action learning sets are small groups that:",
+    "options": {
+      "A": "Work on theoretical exercises only",
+      "B": "Tackle real challenges collaboratively while reflecting on learning and processes",
+      "C": "Avoid applying solutions",
+      "D": "Only read case studies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Action learning combines problem-solving with reflective dialogue to develop leadership.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 203,
+    "question": "A learning journal helps managers to:",
+    "options": {
+      "A": "Record daily sales figures only",
+      "B": "Document insights, challenges, and strategies for continuous development",
+      "C": "Replace performance appraisals",
+      "D": "Avoid critical thinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "Journals support self-awareness and transfer of learning into practice.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 204,
+    "question": "Integrative thinking encourages decision-makers to:",
+    "options": {
+      "A": "Accept trade-offs without question",
+      "B": "Hold multiple conflicting ideas and generate innovative solutions that synthesize them",
+      "C": "Follow established routines only",
+      "D": "Avoid new perspectives"
+    },
+    "correctAnswer": "B",
+    "explanation": "Integrative thinkers transcend binary choices to create superior outcomes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 205,
+    "question": "A business “mastermind group” typically consists of:",
+    "options": {
+      "A": "Executives meeting to share challenges, strategies, and mutual accountability",
+      "B": "Only academic researchers",
+      "C": "Competitors plotting against each other",
+      "D": "Marketing teams only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mastermind participants leverage collective wisdom and support to accelerate growth.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 206,
+    "question": "A strategic learning agility means:",
+    "options": {
+      "A": "Sticking to one proven method only",
+      "B": "Adapting quickly to new situations, learning from experiences, and applying insights in novel contexts",
+      "C": "Avoiding uncertainty",
+      "D": "Restricting experimentation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Learning agile leaders thrive in complexity by rapidly acquiring and using new knowledge.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 207,
+    "question": "Knowledge management systems help organizations by:",
+    "options": {
+      "A": "Storing financial data only",
+      "B": "Capturing, organizing, and sharing institutional knowledge to improve decision-making",
+      "C": "Replacing all training programs",
+      "D": "Blocking external information"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective KM systems facilitate reuse of best practices and prevent knowledge loss.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 208,
+    "question": "A “heat map” in strategic planning visually displays:",
+    "options": {
+      "A": "Temperature data",
+      "B": "Risk levels, performance metrics, or resource allocations using color gradations",
+      "C": "Only financial ratios",
+      "D": "Employee attendance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Heat maps highlight areas needing attention through intuitive color coding.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 209,
+    "question": "Entrepreneurial orientation in firms includes dimensions such as:",
+    "options": {
+      "A": "Risk aversion, formalization, hierarchy",
+      "B": "Innovativeness, proactiveness, and risk-taking",
+      "C": "Only cost-cutting",
+      "D": "Avoiding new markets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Entrepreneurial firms proactively seek opportunities and commit resources despite uncertainties.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 210,
+    "question": "Co-opetition describes:",
+    "options": {
+      "A": "Competition only",
+      "B": "Firms that collaborate in some areas while competing in others",
+      "C": "Complete mergers only",
+      "D": "Government regulation only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Co-opetition leverages shared value creation alongside competitive advantage.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 211,
+    "question": "A theory of constraints (TOC) focuses on:",
+    "options": {
+      "A": "Maximizing constraints across all processes",
+      "B": "Identifying and alleviating the bottleneck that limits overall system performance",
+      "C": "Increasing complexity indiscriminately",
+      "D": "Only financial reporting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Addressing the weakest link yields the greatest improvement in throughput.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 212,
+    "question": "Ambidextrous organizations balance:",
+    "options": {
+      "A": "Efficiency in current operations and exploration of new opportunities simultaneously",
+      "B": "Only short-term profits",
+      "C": "Avoiding risk entirely",
+      "D": "Redundancy of roles"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ambidexterity fosters exploitative excellence while exploring innovation for future growth.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 213,
+    "question": "A zero-based budget in corporate settings requires managers to:",
+    "options": {
+      "A": "Start budget with prior year figures",
+      "B": "Justify all expenditures from zero base each period",
+      "C": "Only submit incremental changes",
+      "D": "Ignore departmental requests"
+    },
+    "correctAnswer": "B",
+    "explanation": "ZBB allocates resources based on necessity and strategic priorities, not historical spend.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 214,
+    "question": "Disruptive leadership challenges:",
+    "options": {
+      "A": "Only existing hierarchies",
+      "B": "Dominant logic and status quo to enable breakthrough changes",
+      "C": "Legal compliance only",
+      "D": "Maintaining current processes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Disruptive leaders question foundational assumptions to drive transformative innovation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 215,
+    "question": "“Meta-learning” in organizations refers to:",
+    "options": {
+      "A": "Learning about learning processes themselves and improving how people learn",
+      "B": "Only subject matter expertise",
+      "C": "Technology training only",
+      "D": "Avoiding learning new skills"
+    },
+    "correctAnswer": "A",
+    "explanation": "Meta-learning enhances organizational capability to adopt new knowledge efficiently.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 216,
+    "question": "Before implementing a new strategic initiative, best practice is to conduct a:",
+    "options": {
+      "A": "Gut-feel assessment only",
+      "B": "Pilot test or small-scale trial to gather data and refine approach",
+      "C": "Full-scale rollout immediately",
+      "D": "Cease all other operations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pilots reduce risk by validating assumptions and identifying adjustments prior to broad launch.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 217,
+    "question": "Organizational ambidexterity requires:",
+    "options": {
+      "A": "Separate structures or processes for exploring new ideas and exploiting existing capabilities",
+      "B": "Only centralized control",
+      "C": "Eliminating innovation",
+      "D": "Ignoring market changes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Firms often use dual operating models to support both efficiency and innovation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 218,
+    "question": "A retrospect at project closure helps to:",
+    "options": {
+      "A": "Avoid documenting lessons",
+      "B": "Capture successes and failures for continuous improvement in future projects",
+      "C": "Only celebrate successes",
+      "D": "Delay future work"
+    },
+    "correctAnswer": "B",
+    "explanation": "Structured reflections embed learning into organizational memory.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "Systems thinking in management entails:",
+    "options": {
+      "A": "Viewing functions in isolation",
+      "B": "Understanding interrelationships among processes and their impact on the whole",
+      "C": "Only focusing on immediate tasks",
+      "D": "Ignoring feedback loops"
+    },
+    "correctAnswer": "B",
+    "explanation": "Holistic perspectives reveal leverage points for effective change.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 220,
+    "question": "“Adaptive leadership” equips leaders to:",
+    "options": {
+      "A": "Avoid uncomfortable challenges",
+      "B": "Mobilize people to address complex, changing environments by adjusting approaches continuously",
+      "C": "Stick rigidly to plans",
+      "D": "Ignore stakeholder input"
+    },
+    "correctAnswer": "B",
+    "explanation": "Adaptive leaders diagnose and iterate solutions in uncertain contexts.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 221,
+    "question": "A management “learning organization” integrates:",
+    "options": {
+      "A": "Best practices only from competitors",
+      "B": "Continuous knowledge capture, dissemination, and application at all levels",
+      "C": "Knowledge hoarding for power",
+      "D": "One-time training events"
+    },
+    "correctAnswer": "B",
+    "explanation": "Learning organizations embed mechanisms for real-time knowledge sharing and iterative improvement.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 222,
+    "question": "A “war room” in business refers to:",
+    "options": {
+      "A": "Military operations only",
+      "B": "A dedicated space where cross-functional teams collaborate intensively on critical issues",
+      "C": "Only marketing analysis",
+      "D": "A passive observation area"
+    },
+    "correctAnswer": "B",
+    "explanation": "War rooms facilitate rapid decision-making through focused, co-located information sharing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 223,
+    "question": "“Leadership pipeline” development involves:",
+    "options": {
+      "A": "Random promotions",
+      "B": "Systematic identification and training of talent for successive leadership roles",
+      "C": "Only external hiring",
+      "D": "Ignoring succession"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pipelines ensure readiness by aligning development with future role requirements.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 224,
+    "question": "“Theory U” change model emphasizes:",
+    "options": {
+      "A": "Top-down mandates only",
+      "B": "Presencing—sensing, retreating, and prototyping new solutions emerging from collective creativity",
+      "C": "Rote process updates",
+      "D": "Ignoring stakeholder voices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Theory U guides transformational change through deep listening and co-creation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 225,
+    "question": "The ultimate measure of strategic success is:",
+    "options": {
+      "A": "Short-term financial gains only",
+      "B": "Sustainable value creation for all stakeholders over the long term",
+      "C": "Only market share growth",
+      "D": "Avoiding risk entirely"
+    },
+    "correctAnswer": "B",
+    "explanation": "Enduring success balances economic performance with social and environmental stewardship.",
+    "difficulty": "Hard"
+  }
+]

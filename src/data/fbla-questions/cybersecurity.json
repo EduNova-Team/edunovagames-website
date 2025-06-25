@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "question": "Which type of malware replicates itself to spread across systems, often consuming resources and causing crashes?",
+    "options": {
+      "A": "Trojan",
+      "B": "Worm",
+      "C": "Rootkit",
+      "D": "Spyware"
+    },
+    "correctAnswer": "B",
+    "explanation": "Worms self‐propagate without user action, exploiting network vulnerabilities to spread.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "question": "Phishing attacks primarily aim to:",
+    "options": {
+      "A": "Encrypt files for ransom",
+      "B": "Trick users into revealing credentials or personal data",
+      "C": "Mine cryptocurrencies covertly",
+      "D": "Overload servers with traffic"
+    },
+    "correctAnswer": "B",
+    "explanation": "Phishers craft deceptive emails or sites to harvest usernames, passwords, or financial details.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Installing the latest operating system service packs and security patches helps to:",
+    "options": {
+      "A": "Improve graphics performance only",
+      "B": "Close known vulnerabilities before attackers exploit them",
+      "C": "Increase file compression rates",
+      "D": "Disable all user accounts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Patch management remediates software flaws that malware and exploits target.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "question": "Which symptom most likely indicates a spyware infection?",
+    "options": {
+      "A": "System overheating",
+      "B": "Unexpected pop-up ads and slow browser performance",
+      "C": "Frequent blue screens",
+      "D": "Inability to boot into safe mode"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spyware often injects advertisements and monitors browsing, degrading speed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "A user reports that all files have been encrypted and a ransom note appears. This is characteristic of:",
+    "options": {
+      "A": "Adware",
+      "B": "Ransomware",
+      "C": "Rogue antivirus",
+      "D": "Logic bomb"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ransomware encrypts data and demands payment for decryption keys.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "To disinfect a storage device infected with viruses, you should first:",
+    "options": {
+      "A": "Delete the operating system",
+      "B": "Disconnect it from the network and run updated antivirus scans",
+      "C": "Format the hard drive without backup",
+      "D": "Disable firewalls"
+    },
+    "correctAnswer": "B",
+    "explanation": "Isolating and scanning with current definitions removes infections while preventing spread.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "Social engineering attacks exploit which of the following to succeed?",
+    "options": {
+      "A": "Software vulnerabilities",
+      "B": "Human trust and behavior",
+      "C": "Weak encryption algorithms",
+      "D": "Physical access only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Attackers manipulate users through deception (e.g., pretexting, baiting) rather than code.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "Implementing spam filters on an email gateway primarily defends against:",
+    "options": {
+      "A": "Denial-of-service attacks",
+      "B": "Unsolicited bulk email and phishing attempts",
+      "C": "SQL injection",
+      "D": "Cross-site scripting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spam filters analyze content and sender reputation to quarantine unwanted mail.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "A virus that remains dormant until a specified date or event occurs is called a:",
+    "options": {
+      "A": "Macro virus",
+      "B": "Polymorphic virus",
+      "C": "Logic bomb",
+      "D": "Boot sector virus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logic bombs trigger payloads when conditions (time/event) are met.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10,
+    "question": "Which tool would you use to scan for and remove spyware on a workstation?",
+    "options": {
+      "A": "Nmap",
+      "B": "Anti-spyware utility",
+      "C": "Packet sniffer",
+      "D": "Password cracker"
+    },
+    "correctAnswer": "B",
+    "explanation": "Specialized anti-spyware programs detect and eliminate tracking and adware modules.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "question": "Incident reporting is important because it:",
+    "options": {
+      "A": "Slows down recovery",
+      "B": "Provides data to analyze causes and prevent recurrence",
+      "C": "Eliminates all malware automatically",
+      "D": "Replaces need for backups"
+    },
+    "correctAnswer": "B",
+    "explanation": "Detailed reports support root-cause analysis and strengthen security posture.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following best practices helps prevent the spread of computer viruses?",
+    "options": {
+      "A": "Disabling all firewalls",
+      "B": "Regularly updating antivirus definitions and user training",
+      "C": "Granting all users administrator rights",
+      "D": "Ignoring software patches"
+    },
+    "correctAnswer": "B",
+    "explanation": "Up-to-date defenses and awareness reduce infection vectors. B. Network Security (13–25)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "A packet sniffer is used to:",
+    "options": {
+      "A": "Encrypt network traffic",
+      "B": "Capture and analyze packets traversing a network",
+      "C": "Block unauthorized access",
+      "D": "Perform DNS resolution"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sniffers like Wireshark monitor data in transit for troubleshooting or intrusion detection.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "IP spoofing attacks attempt to:",
+    "options": {
+      "A": "Hide malware in legitimate files",
+      "B": "Forge packet source addresses to bypass access controls",
+      "C": "Encrypt data on disk",
+      "D": "Drain battery on mobile devices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spoofed IPs deceive firewalls or hosts into trusting malicious traffic.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 15,
+    "question": "Which port-based protocol provides authenticated secure LAN access?",
+    "options": {
+      "A": "FTP",
+      "B": "802.1X",
+      "C": "HTTP",
+      "D": "DHCP"
+    },
+    "correctAnswer": "B",
+    "explanation": "IEEE 802.1X uses EAP for port authentication before granting network connectivity.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "question": "A demilitarized zone (DMZ) in network design is used to:",
+    "options": {
+      "A": "Host internal file shares only",
+      "B": "Expose public-facing services while isolating the internal network",
+      "C": "Replace firewalls entirely",
+      "D": "Provide wireless access"
+    },
+    "correctAnswer": "B",
+    "explanation": "The DMZ segment absorbs external traffic, protecting the secure LAN from direct exposure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "WEP and WPA are protocols for securing:",
+    "options": {
+      "A": "Email transfers",
+      "B": "Wireless LANs",
+      "C": "Web servers",
+      "D": "VoIP calls"
+    },
+    "correctAnswer": "B",
+    "explanation": "WEP (deprecated) and WPA/WPA2 secure Wi-Fi with varying encryption strength.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "A stateful firewall differs from a stateless firewall by:",
+    "options": {
+      "A": "Blocking all incoming traffic",
+      "B": "Tracking session state to make context-aware filtering decisions",
+      "C": "Encrypting data automatically",
+      "D": "Inspecting only header information"
+    },
+    "correctAnswer": "B",
+    "explanation": "Stateful firewalls maintain connection tables, enabling more granular rules.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "question": "To secure remote access via the Internet, you should implement:",
+    "options": {
+      "A": "Telnet",
+      "B": "VPN with strong encryption (e.g., IPsec or SSL/TLS)",
+      "C": "FTP",
+      "D": "Anonymous SSH"
+    },
+    "correctAnswer": "B",
+    "explanation": "VPN tunnels encrypt data between client and network, preventing eavesdropping.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "Port blocking on a network perimeter is primarily intended to:",
+    "options": {
+      "A": "Prevent physical theft",
+      "B": "Deny access to unnecessary or vulnerable services",
+      "C": "Reduce power consumption",
+      "D": "Speed up internal DNS"
+    },
+    "correctAnswer": "B",
+    "explanation": "Closing unused ports limits potential attack avenues into the network.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "An access control list (ACL) on a router specifies:",
+    "options": {
+      "A": "CPU usage limits",
+      "B": "Which traffic is permitted or denied based on IP, protocol, or port",
+      "C": "Wireless SSID names",
+      "D": "Disk quotas"
+    },
+    "correctAnswer": "B",
+    "explanation": "ACL entries define packet filters at the network edge.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "question": "SSL/TLS protocols are used to:",
+    "options": {
+      "A": "Authenticate users to local machines",
+      "B": "Encrypt data in transit between client and server (e.g., HTTPS)",
+      "C": "Replace antivirus software",
+      "D": "Provide email spam filtering"
+    },
+    "correctAnswer": "B",
+    "explanation": "TLS secures web sessions, preventing interception and tampering.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "Intrusion detection systems (IDS) primarily:",
+    "options": {
+      "A": "Block traffic automatically",
+      "B": "Monitor networks or hosts for suspicious activity and alert administrators",
+      "C": "Encrypt all outbound data",
+      "D": "Manage user passwords"
+    },
+    "correctAnswer": "B",
+    "explanation": "IDS tools like Snort analyze patterns to detect potential breaches.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "Role-based access control (RBAC) assigns permissions based on:",
+    "options": {
+      "A": "IP address only",
+      "B": "User roles and responsibilities within an organization",
+      "C": "Time of day only",
+      "D": "Random assignment"
+    },
+    "correctAnswer": "B",
+    "explanation": "RBAC simplifies management by grouping rights under roles rather than individual users.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "A network security plan should begin with:",
+    "options": {
+      "A": "Purchasing hardware",
+      "B": "Conducting a risk assessment to identify threats and vulnerabilities",
+      "C": "Writing user manuals",
+      "D": "Disabling all ports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Risk analysis informs appropriate controls and resource allocation. C. Email Security (26–32)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 26,
+    "question": "Which of these is a best practice to minimize unsolicited bulk email (spam)?",
+    "options": {
+      "A": "Publishing your email on public forums",
+      "B": "Using challenge-response filters and maintaining blocklists",
+      "C": "Disabling SPF records",
+      "D": "Replying to all unknown senders"
+    },
+    "correctAnswer": "B",
+    "explanation": "Challenge-response and SPF help verify legitimate senders and reject spam.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "question": "SPF (Sender Policy Framework) helps prevent:",
+    "options": {
+      "A": "Data encryption",
+      "B": "Email spoofing by verifying sending mail servers",
+      "C": "Attachment scanning",
+      "D": "Phishing website hosting"
+    },
+    "correctAnswer": "B",
+    "explanation": "SPF records list authorized IPs that can send on behalf of a domain.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "A user clicking a malicious attachment and executing a payload is an example of:",
+    "options": {
+      "A": "Drive-by download",
+      "B": "Dictionary attack",
+      "C": "Port scan",
+      "D": "SQL injection"
+    },
+    "correctAnswer": "A",
+    "explanation": "Drive-by downloads exploit user actions to install malware.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "Netiquette rules for email include all EXCEPT:",
+    "options": {
+      "A": "Using clear subject lines",
+      "B": "Including large attachments without warning",
+      "C": "Respecting recipients’ privacy (BCC as appropriate)",
+      "D": "Proofreading before sending"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unexpected large files clog inboxes and may be blocked by filters.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "question": "Quarantining suspicious emails allows you to:",
+    "options": {
+      "A": "Automatically delete them",
+      "B": "Isolate and review for false positives before delivery",
+      "C": "Forward them to all users",
+      "D": "Send them as newsletters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Quarantine gives administrators a chance to investigate without risking delivery.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "To enforce email encryption between mail servers, you should configure:",
+    "options": {
+      "A": "SMTP without TLS",
+      "B": "SMTP with STARTTLS or SMTPS",
+      "C": "FTP",
+      "D": "HTTP plain text"
+    },
+    "correctAnswer": "B",
+    "explanation": "STARTTLS upgrades SMTP sessions to use TLS, securing in-transit messages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "A phishing email often contains which of the following red flags?",
+    "options": {
+      "A": "Personalized greeting using your real name",
+      "B": "Urgent calls to action and mismatched URLs",
+      "C": "Clear corporate branding",
+      "D": "Correct grammar and punctuation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scammers use urgency and fake links to entice quick, unverified clicks. D. Intrusion Detection (33–41)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "A host-based IDS (HIDS) differs from a network-based IDS by:",
+    "options": {
+      "A": "Monitoring incoming and outgoing network packets only",
+      "B": "Inspecting logs and file integrity on individual hosts",
+      "C": "Replacing firewalls",
+      "D": "Scanning wireless signals only"
+    },
+    "correctAnswer": "B",
+    "explanation": "HIDS checks system files and logs for policy violations or tampering.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "question": "Detecting abnormal user activity patterns often relies on:",
+    "options": {
+      "A": "Fixed signature lists only",
+      "B": "Anomaly-based detection that learns normal behavior baselines",
+      "C": "Manual log review exclusively",
+      "D": "Antivirus scans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Anomaly IDS flags deviations from established norms as potential threats.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 35,
+    "question": "Checking password file hash values helps to:",
+    "options": {
+      "A": "Encrypt all traffic",
+      "B": "Detect unauthorized changes or weak credentials",
+      "C": "Increase login speed",
+      "D": "Bypass authentication"
+    },
+    "correctAnswer": "B",
+    "explanation": "File integrity monitoring highlights suspicious modifications to critical files.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "Denial-of-Service (DoS) attacks aim to:",
+    "options": {
+      "A": "Steal credentials",
+      "B": "Overwhelm systems or networks to render them unavailable",
+      "C": "Encrypt files silently",
+      "D": "Modify web pages"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flooding targets with traffic exhausts resources, disrupting legitimate access.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "question": "A SIEM (Security Information and Event Management) system consolidates:",
+    "options": {
+      "A": "Only antivirus updates",
+      "B": "Logs, alerts, and events from multiple sources for correlation and analysis",
+      "C": "User email only",
+      "D": "Physical access records only"
+    },
+    "correctAnswer": "B",
+    "explanation": "SIEM platforms enable centralized monitoring and incident response.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 38,
+    "question": "Signature-based IDS are ineffective at detecting:",
+    "options": {
+      "A": "Known malware patterns",
+      "B": "Zero-day exploits that have no existing signature",
+      "C": "Repeated brute force attempts",
+      "D": "Port scans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Without a signature, unknown attacks evade pattern recognition.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "Tracking policy violations like unauthorized software installs is part of:",
+    "options": {
+      "A": "Email security",
+      "B": "Intrusion detection and prevention processes",
+      "C": "Disaster recovery only",
+      "D": "Physical security audits"
+    },
+    "correctAnswer": "B",
+    "explanation": "IDS/IPS can be configured to alert on changes to system configurations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "question": "In intrusion detection, “false positive” refers to:",
+    "options": {
+      "A": "Attack goes unnoticed",
+      "B": "Legitimate activity flagged as malicious",
+      "C": "System crash after detection",
+      "D": "Perfect detection accuracy"
+    },
+    "correctAnswer": "B",
+    "explanation": "High false positives erode trust and burden analysts with benign alerts.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "Reconnaissance activities like banner grabbing are used to:",
+    "options": {
+      "A": "Encrypt data",
+      "B": "Gather information about target systems to identify vulnerabilities",
+      "C": "Block network traffic",
+      "D": "Launch ransomware"
+    },
+    "correctAnswer": "B",
+    "explanation": "Banner grabbing reveals software versions and services running on hosts. E. Public Key (42–47)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "question": "In PKI, a Certificate Authority (CA) is responsible for:",
+    "options": {
+      "A": "Issuing and revoking digital certificates",
+      "B": "Encrypting user files locally",
+      "C": "Monitoring network traffic",
+      "D": "Managing physical keys"
+    },
+    "correctAnswer": "A",
+    "explanation": "CAs validate identities and sign certificates to enable trust.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "Public key encryption differs from symmetric encryption by:",
+    "options": {
+      "A": "Using the same key for encrypt/decrypt",
+      "B": "Using a key pair—public key to encrypt, private key to decrypt",
+      "C": "Never requiring math operations",
+      "D": "Only hashing data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Asymmetric crypto allows secure key exchange without pre-shared secrets.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "A digital signature provides:",
+    "options": {
+      "A": "Data confidentiality only",
+      "B": "Non-repudiation and integrity by binding a signer’s private key to a message hash",
+      "C": "Faster network speeds",
+      "D": "Unlimited access rights"
+    },
+    "correctAnswer": "B",
+    "explanation": "Recipients verify the signer and detect tampering via the public key.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 45,
+    "question": "A Web of Trust model is most associated with:",
+    "options": {
+      "A": "SSL certificates from CAs",
+      "B": "PGP/GnuPG key-signing among peers",
+      "C": "Kerberos ticket-granting",
+      "D": "WEP encryption"
+    },
+    "correctAnswer": "B",
+    "explanation": "Users vouch for each other’s keys, building a decentralized trust graph.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 46,
+    "question": "Single Sign-On (SSO) convenience can be achieved using:",
+    "options": {
+      "A": "Multiple independent credentials per app",
+      "B": "A central identity provider issuing tokens for multiple services",
+      "C": "Anonymous access only",
+      "D": "Hard-coded passwords"
+    },
+    "correctAnswer": "B",
+    "explanation": "SSO leverages protocols like SAML or OAuth to streamline authentication.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "question": "Certificate revocation lists (CRLs) are used to:",
+    "options": {
+      "A": "Issue new certificates",
+      "B": "Distribute information about invalidated certificates to clients",
+      "C": "Encrypt emails only",
+      "D": "Sign digital documents"
+    },
+    "correctAnswer": "B",
+    "explanation": "CRLs allow applications to check whether a certificate has been revoked before trust.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 48,
+    "question": "Two-factor authentication (2FA) typically combines:",
+    "options": {
+      "A": "Two passwords only",
+      "B": "Something you know (password) and something you have (token or phone)",
+      "C": "Something you are and something you see",
+      "D": "Only biometric factors"
+    },
+    "correctAnswer": "B",
+    "explanation": "2FA increases security by requiring multiple credential types.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "question": "CHAP (Challenge-Handshake Authentication Protocol) primarily protects against:",
+    "options": {
+      "A": "Disk corruption",
+      "B": "Replay attacks by using a challenge-response mechanism",
+      "C": "SQL injection",
+      "D": "Physical theft"
+    },
+    "correctAnswer": "B",
+    "explanation": "CHAP verifies identity without sending plaintext passwords.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 50,
+    "question": "To enforce strong password policies, administrators should require:",
+    "options": {
+      "A": "Minimum length, complexity, and periodic changes",
+      "B": "Short, simple words",
+      "C": "Reuse of previous passwords",
+      "D": "Only numeric PINs"
+    },
+    "correctAnswer": "A",
+    "explanation": "Complexity and rotation reduce the risk of brute-force and credential stuffing. G. Network Defense & Countermeasures (51–60)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "What is the primary purpose of a network firewall?",
+    "options": {
+      "A": "To scan for viruses",
+      "B": "To enforce security policies by permitting or blocking traffic based on rules",
+      "C": "To encrypt data at rest",
+      "D": "To perform user authentication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Firewalls filter incoming and outgoing network packets according to configured access control lists.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "A bastion host is best described as:",
+    "options": {
+      "A": "An internal database server",
+      "B": "A hardened system placed in a DMZ to provide external services with minimal attack surface",
+      "C": "A mobile device management server",
+      "D": "A wireless access point"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bastion hosts are stripped-down, highly secured servers that handle public-facing functions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 53,
+    "question": "Which protocol is commonly used to securely manage network devices over SSH?",
+    "options": {
+      "A": "Telnet",
+      "B": "SNMP v3",
+      "C": "HTTP",
+      "D": "FTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "SNMP v3 provides encrypted and authenticated device management compared to earlier versions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "Network segmentation helps security by:",
+    "options": {
+      "A": "Increasing bandwidth",
+      "B": "Limiting the scope of access and containing breaches within smaller zones",
+      "C": "Eliminating need for IDS",
+      "D": "Allowing anonymous access"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dividing networks into segments prevents attackers from freely roaming to all systems.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "A honey pot in cybersecurity is used to:",
+    "options": {
+      "A": "Collect honey recipes",
+      "B": "Serve as a decoy system to detect, analyze, and divert attackers",
+      "C": "Backup critical data",
+      "D": "Provide public Wi-Fi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Honeypots lure malicious actors away from real assets and log their tactics for study.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 56,
+    "question": "Rate limiting on a web server primarily defends against:",
+    "options": {
+      "A": "SQL injection",
+      "B": "Brute‐force and denial‐of‐service attacks",
+      "C": "Cross‐site scripting",
+      "D": "Malware infections"
+    },
+    "correctAnswer": "B",
+    "explanation": "Limiting request rates per IP slows automated attack tools and mitigates DoS.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "A stateful packet inspection firewall examines:",
+    "options": {
+      "A": "Only packet headers",
+      "B": "Packet headers and tracks the state of active connections",
+      "C": "Application payloads exclusively",
+      "D": "Only outbound traffic"
+    },
+    "correctAnswer": "B",
+    "explanation": "By maintaining connection state, the firewall can enforce rules contextually.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "question": "To mitigate ARP spoofing on a LAN, you can implement:",
+    "options": {
+      "A": "Binding static IP-to-MAC mappings on critical switches",
+      "B": "Disabling DHCP entirely",
+      "C": "Encrypting email",
+      "D": "Installing antivirus software"
+    },
+    "correctAnswer": "A",
+    "explanation": "Static ARP entries prevent attackers from forging MAC addresses and intercepting traffic.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 59,
+    "question": "What is the primary security concern with wireless networks?",
+    "options": {
+      "A": "Signal range",
+      "B": "Eavesdropping due to broadcast nature of Wi-Fi",
+      "C": "Cable management",
+      "D": "Power supply"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unencrypted wireless traffic can be captured by anyone within radio range without proper controls.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "question": "A VPN concentrator is used to:",
+    "options": {
+      "A": "Connect multiple Wi-Fi access points",
+      "B": "Handle a large number of VPN connections by aggregating secure tunnels",
+      "C": "Filter email spam",
+      "D": "Manage DNS queries"
+    },
+    "correctAnswer": "B",
+    "explanation": "VPN concentrators terminate multiple encrypted sessions and route traffic to internal networks.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 61,
+    "question": "SQL injection vulnerabilities arise when:",
+    "options": {
+      "A": "User input is not validated and is concatenated into database queries",
+      "B": "Firewalls are misconfigured",
+      "C": "TLS certificates expire",
+      "D": "Users share passwords"
+    },
+    "correctAnswer": "A",
+    "explanation": "Without parameterized queries or proper sanitization, attackers can inject SQL commands.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "Cross-site scripting (XSS) attacks exploit:",
+    "options": {
+      "A": "Weak passwords",
+      "B": "Improper output encoding, allowing injection of malicious scripts into web pages",
+      "C": "Unencrypted Wi-Fi",
+      "D": "Malware attachments"
+    },
+    "correctAnswer": "B",
+    "explanation": "XSS lets attackers execute JavaScript in victim browsers, stealing cookies or session tokens.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "question": "Implementing Content Security Policy (CSP) headers helps mitigate:",
+    "options": {
+      "A": "SQL injection",
+      "B": "Cross-site scripting by restricting allowed script sources",
+      "C": "Phishing emails",
+      "D": "DDoS attacks"
+    },
+    "correctAnswer": "B",
+    "explanation": "CSP tells browsers which domains are trusted for executing or loading resources.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 64,
+    "question": "What practice helps prevent buffer overflow exploits?",
+    "options": {
+      "A": "Disabling firewalls",
+      "B": "Bounds checking and using safe library functions",
+      "C": "Encrypting data at rest",
+      "D": "Using default passwords"
+    },
+    "correctAnswer": "B",
+    "explanation": "Verifying input lengths and avoiding unsafe functions stops attackers from injecting shellcode.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 65,
+    "question": "In secure SDLC, security testing should occur:",
+    "options": {
+      "A": "Only at final release",
+      "B": "Throughout development in each phase (shift-left approach)",
+      "C": "After end-user training",
+      "D": "Never, it will slow delivery"
+    },
+    "correctAnswer": "B",
+    "explanation": "Early and continuous security tests catch defects sooner and reduce remediation costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "Which of the following is NOT a principle of secure coding?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Fail securely",
+      "C": "Open by default",
+      "D": "Input validation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Secure systems default to deny; open-by-default increases attack surface.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 67,
+    "question": "A software dependency scanner checks for:",
+    "options": {
+      "A": "Hardware failures",
+      "B": "Vulnerable or outdated third-party libraries that could introduce security flaws",
+      "C": "Unused disk space",
+      "D": "Network latency"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tools like OWASP Dependency-Check highlight CVEs in project dependencies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "JSON Web Tokens (JWTs) are commonly used for:",
+    "options": {
+      "A": "Encrypting database backups",
+      "B": "Stateless authentication by encoding user claims in signed tokens",
+      "C": "Replacing DNS",
+      "D": "Antivirus signatures"
+    },
+    "correctAnswer": "B",
+    "explanation": "JWTs allow servers to validate identity without storing session state.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "Rate limiting API endpoints helps prevent:",
+    "options": {
+      "A": "HTML rendering issues",
+      "B": "Credential stuffing and brute-force attacks",
+      "C": "Expired certificates",
+      "D": "Local file inclusion"
+    },
+    "correctAnswer": "B",
+    "explanation": "Throttling requests per user or IP stops automated login attempts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "Secure file uploads in web applications require:",
+    "options": {
+      "A": "Allowing any file type",
+      "B": "Checking MIME types, validating extensions, and storing files outside the web root",
+      "C": "Disabling SSL",
+      "D": "Using default directories"
+    },
+    "correctAnswer": "B",
+    "explanation": "Validating input and isolating uploads reduces risk of malicious script execution.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 71,
+    "question": "Symmetric encryption algorithms include:",
+    "options": {
+      "A": "RSA and ECC",
+      "B": "AES and 3DES",
+      "C": "SHA-256 and MD5",
+      "D": "Diffie–Hellman only"
+    },
+    "correctAnswer": "B",
+    "explanation": "AES and Triple DES use the same key for encryption and decryption.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 72,
+    "question": "Which hashing algorithm is considered secure for password storage?",
+    "options": {
+      "A": "MD5",
+      "B": "SHA-1",
+      "C": "bcrypt or Argon2",
+      "D": "CRC32"
+    },
+    "correctAnswer": "C",
+    "explanation": "bcrypt and Argon2 are slow, memory-hard functions resisting brute-force attacks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "Perfect forward secrecy (PFS) ensures that:",
+    "options": {
+      "A": "Compromised long-term keys do not decrypt past session traffic",
+      "B": "All sessions use the same key",
+      "C": "No encryption is applied",
+      "D": "Only symmetric keys are used"
+    },
+    "correctAnswer": "A",
+    "explanation": "PFS uses ephemeral key exchanges so session keys can’t be recovered later.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 74,
+    "question": "What is the primary purpose of a digital certificate?",
+    "options": {
+      "A": "To store user passwords",
+      "B": "To bind a public key to an entity’s identity, validated by a CA",
+      "C": "To encrypt data on disk",
+      "D": "To speed up HTTPS connections"
+    },
+    "correctAnswer": "B",
+    "explanation": "Certificates allow others to trust public keys by verifying identity claims.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "ECC (Elliptic Curve Cryptography) is favored because it:",
+    "options": {
+      "A": "Requires longer keys than RSA",
+      "B": "Provides comparable security with shorter key lengths, reducing computational load",
+      "C": "Only works on mobile devices",
+      "D": "Is unbreakable"
+    },
+    "correctAnswer": "B",
+    "explanation": "ECC’s mathematical properties enable strong security at lower bit sizes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 76,
+    "question": "A man-in-the-middle (MitM) protection in HTTPS is provided by:",
+    "options": {
+      "A": "Weak cipher suites",
+      "B": "Server and client authenticating each other’s certificates",
+      "C": "Disabling certificate validation",
+      "D": "Using plain HTTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mutual TLS and proper cert checks prevent interception by untrusted parties.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 77,
+    "question": "Which mode of AES encryption provides both confidentiality and integrity?",
+    "options": {
+      "A": "ECB",
+      "B": "CBC",
+      "C": "GCM (Galois/Counter Mode)",
+      "D": "CTR only"
+    },
+    "correctAnswer": "C",
+    "explanation": "AES-GCM includes an authentication tag to detect tampering in addition to encryption.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 78,
+    "question": "Diffie–Hellman key exchange is vulnerable to:",
+    "options": {
+      "A": "Rainbow table attacks",
+      "B": "MITM attacks if identities aren’t authenticated",
+      "C": "Buffer overflows",
+      "D": "SQL injections"
+    },
+    "correctAnswer": "B",
+    "explanation": "Without certificates or pre-shared keys, an attacker can intercept and substitute public values.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "question": "What does HSM (Hardware Security Module) provide?",
+    "options": {
+      "A": "General-purpose compute",
+      "B": "Secure, tamper-resistant storage and use of cryptographic keys",
+      "C": "Email filtering",
+      "D": "Network acceleration"
+    },
+    "correctAnswer": "B",
+    "explanation": "HSMs isolate keys in hardware to prevent extraction and unauthorized usage.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "question": "A TLS handshake begins with:",
+    "options": {
+      "A": "Application data exchange",
+      "B": "ClientHello message listing supported protocol versions and cipher suites",
+      "C": "Server certificate validation only",
+      "D": "Closing the connection"
+    },
+    "correctAnswer": "B",
+    "explanation": "ClientHello initiates negotiation of parameters for encryption and key exchange. J. Incident Response & Forensics (81–90)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "question": "The first step in an incident response plan is:",
+    "options": {
+      "A": "Containment",
+      "B": "Preparation, including policies, tools, and training",
+      "C": "Recovery",
+      "D": "Eradication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Being prepared ensures roles, processes, and resources are ready when an incident occurs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 82,
+    "question": "Chain of custody in digital forensics ensures:",
+    "options": {
+      "A": "Evidence is stored indefinitely",
+      "B": "Integrity of evidence by documenting collection, handling, and storage steps",
+      "C": "Only data backups are kept",
+      "D": "Anyone can alter evidence"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proper chain of custody establishes admissibility in legal proceedings.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "question": "To capture a volatile memory image, you should:",
+    "options": {
+      "A": "Power off the machine immediately",
+      "B": "Use a live response tool before shutting down",
+      "C": "Format the hard drive",
+      "D": "Update antivirus definitions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Memory contents vanish on power-off, so capture must precede shutdown.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "question": "In incident response, “containment” aims to:",
+    "options": {
+      "A": "Delete all logs",
+      "B": "Prevent further damage or spread of the incident",
+      "C": "Restore systems to full functionality",
+      "D": "Ignore affected hosts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Containment isolates compromised systems to limit impact while planning remediation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "A “kill chain” model in cybersecurity describes:",
+    "options": {
+      "A": "A sequential process attackers follow from reconnaissance to objectives",
+      "B": "Steps to remove malware only",
+      "C": "A network topology",
+      "D": "Encryption stages"
+    },
+    "correctAnswer": "A",
+    "explanation": "Understanding the kill chain helps defenders detect and disrupt attacks at each stage.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "question": "Tools like Volatility are used for:",
+    "options": {
+      "A": "Network throughput testing",
+      "B": "Memory forensics to analyze RAM images for artifacts",
+      "C": "Disk defragmentation",
+      "D": "Email encryption"
+    },
+    "correctAnswer": "B",
+    "explanation": "Volatility extracts processes, network connections, and other data from memory dumps.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 87,
+    "question": "Evidence collection from a live server should prioritize:",
+    "options": {
+      "A": "Disk imaging over memory capture",
+      "B": "Memory capture first, then disk images and logs",
+      "C": "Application reinstall",
+      "D": "Root password changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Volatile evidence is lost first; capturing memory preserves active process data.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 88,
+    "question": "A SIEM alert indicating multiple failed logins followed by a success likely signals:",
+    "options": {
+      "A": "Normal user behavior",
+      "B": "A brute-force attack succeeded",
+      "C": "Scheduled maintenance",
+      "D": "Email bounce backs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pattern of failed authentication attempts then success is characteristic of credential guessing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 89,
+    "question": "Forensic hashing of evidence files uses algorithms like SHA-256 to:",
+    "options": {
+      "A": "Encrypt evidence",
+      "B": "Create a unique fingerprint to verify integrity over time",
+      "C": "Speed up analysis",
+      "D": "Compress data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Any change in file contents alters the hash, indicating tampering.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "The NIST Incident Response lifecycle phases are:",
+    "options": {
+      "A": "Identify, Protect, Detect, Respond, Recover",
+      "B": "Preparation, Detection & Analysis, Containment, Eradication & Recovery, Post-Incident Activities",
+      "C": "Plan, Do, Check, Act",
+      "D": "Acquire, Configure, Monitor, Dispose"
+    },
+    "correctAnswer": "B",
+    "explanation": "These steps outline comprehensive handling of security incidents.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 91,
+    "question": "The GDPR requires organizations to:",
+    "options": {
+      "A": "Ignore consent for EU citizens’ data",
+      "B": "Obtain explicit consent and allow data subject rights like access and erasure",
+      "C": "Store all data indefinitely",
+      "D": "Use only U.S.-based servers"
+    },
+    "correctAnswer": "B",
+    "explanation": "GDPR enforces strict rules on personal data processing and individual rights.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 92,
+    "question": "A security policy should be:",
+    "options": {
+      "A": "Vague and high-level only",
+      "B": "Clear, comprehensive, and enforceable, covering acceptable use, incident response, and more",
+      "C": "Only cover network diagrams",
+      "D": "Never reviewed"
+    },
+    "correctAnswer": "B",
+    "explanation": "Well-defined policies guide consistent implementation of security controls.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "SOC 2 compliance focuses on:",
+    "options": {
+      "A": "Network bandwidth",
+      "B": "Security, Availability, Processing Integrity, Confidentiality, and Privacy of service organizations",
+      "C": "Hardware specifications",
+      "D": "User interface design"
+    },
+    "correctAnswer": "B",
+    "explanation": "SOC 2 reports evaluate how service providers manage customer data.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "A risk register is used to:",
+    "options": {
+      "A": "List only financial assets",
+      "B": "Record identified risks, their likelihood, impact, and mitigation strategies",
+      "C": "Track network devices",
+      "D": "Store passwords"
+    },
+    "correctAnswer": "B",
+    "explanation": "Risk registers prioritize and monitor risks over time for governance.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "Separation of duties helps prevent fraud by:",
+    "options": {
+      "A": "Allowing a single person to handle all tasks",
+      "B": "Distributing tasks so no single individual can commit and conceal an error or fraud",
+      "C": "Removing all user access controls",
+      "D": "Only auditing annually"
+    },
+    "correctAnswer": "B",
+    "explanation": "Checking and balancing responsibilities reduces insider threats.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "PCI DSS compliance is mandatory for organizations that:",
+    "options": {
+      "A": "Ship physical goods",
+      "B": "Store, process, or transmit credit card data",
+      "C": "Use only cash transactions",
+      "D": "Provide email services"
+    },
+    "correctAnswer": "B",
+    "explanation": "PCI DSS mandates controls to protect cardholder data from breaches.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "An Information Security Management System (ISMS) aligned with ISO/IEC 27001 requires:",
+    "options": {
+      "A": "Only technical controls",
+      "B": "A formal, documented approach to managing information risks, including policies, procedures, and continual improvement",
+      "C": "Only annual backups",
+      "D": "No management involvement"
+    },
+    "correctAnswer": "B",
+    "explanation": "ISO 27001 defines requirements for establishing and maintaining an ISMS.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 98,
+    "question": "Data classification in governance entails:",
+    "options": {
+      "A": "Storing all data together",
+      "B": "Categorizing data based on sensitivity and handling requirements (e.g., public, internal, confidential)",
+      "C": "Ignoring metadata",
+      "D": "Random folder names"
+    },
+    "correctAnswer": "B",
+    "explanation": "Classification ensures appropriate controls (encryption, access) are applied per data type.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "question": "Business continuity planning intersects with cybersecurity by:",
+    "options": {
+      "A": "Only planning for marketing events",
+      "B": "Ensuring critical systems can recover from cyber incidents and maintain operations",
+      "C": "Eliminating all backups",
+      "D": "Ignoring IT risks"
+    },
+    "correctAnswer": "B",
+    "explanation": "BCP incorporates incident response and disaster recovery for resilience.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "The principle of “least privilege” states that users should:",
+    "options": {
+      "A": "Have full administrator rights by default",
+      "B": "Be granted only the minimum access needed to perform their job functions",
+      "C": "Share passwords freely",
+      "D": "Never log out"
+    },
+    "correctAnswer": "B",
+    "explanation": "Restricting permissions reduces potential impact of compromised accounts. L. Vulnerability Assessment & Penetration Testing (101–110)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 101,
+    "question": "The first step in a penetration test is to:",
+    "options": {
+      "A": "Exploit vulnerabilities immediately",
+      "B": "Conduct reconnaissance to gather information about targets",
+      "C": "Deploy malware",
+      "D": "Purchase expensive tools"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reconnaissance (footprinting) identifies targets and potential attack vectors before testing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 102,
+    "question": "A vulnerability scanner such as Nessus primarily:",
+    "options": {
+      "A": "Blocks malicious traffic",
+      "B": "Identifies known security flaws in systems and applications",
+      "C": "Encrypts data in transit",
+      "D": "Manages user permissions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scanners compare system configurations against databases of CVEs to flag weaknesses.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "In penetration testing, “pivoting” refers to:",
+    "options": {
+      "A": "Shifting tests to non-network targets",
+      "B": "Using a compromised system as a launch point to access other network segments",
+      "C": "Switching tools mid-test",
+      "D": "Ending the engagement"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pivoting enables deeper network exploration by chaining exploits through intermediate hosts.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 104,
+    "question": "Credential stuffing attacks use:",
+    "options": {
+      "A": "Default software settings",
+      "B": "Lists of compromised username/password pairs to automate login attempts",
+      "C": "Phishing emails only",
+      "D": "Physical lock picking"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reusing credentials from breaches exploits users’ password reuse habits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "A web application firewall (WAF) helps prevent:",
+    "options": {
+      "A": "Physical theft",
+      "B": "SQL injection and cross-site scripting at the application layer",
+      "C": "Denial of service only",
+      "D": "Unauthorized USB access"
+    },
+    "correctAnswer": "B",
+    "explanation": "WAFs analyze HTTP traffic and apply rules to block malicious payloads.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "question": "A “blue team” in cybersecurity is responsible for:",
+    "options": {
+      "A": "Offensive hacking operations",
+      "B": "Defending against attacks by monitoring and responding to threats",
+      "C": "Selling security products",
+      "D": "Documenting policies only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Blue teams implement defenses, perform log analysis, and conduct threat hunts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "“Red teaming” goes beyond penetration testing by:",
+    "options": {
+      "A": "Only scanning networks",
+      "B": "Simulating realistic adversary tactics, techniques, and procedures against an organization",
+      "C": "Cleaning malware",
+      "D": "Auditing financial records"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red teams mimic threat actors end-to-end, including social engineering and physical breach attempts.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 108,
+    "question": "Post-exploitation in a pentest involves:",
+    "options": {
+      "A": "Initial network discovery",
+      "B": "Maintaining access, gathering credentials, and escalating privileges on compromised systems",
+      "C": "Purchasing another license",
+      "D": "Immediate cleanup"
+    },
+    "correctAnswer": "B",
+    "explanation": "This phase assesses attacker’s potential impact after initial compromise.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 109,
+    "question": "CVSS (Common Vulnerability Scoring System) provides:",
+    "options": {
+      "A": "A list of patches",
+      "B": "A standardized severity score for vulnerabilities to prioritize remediation",
+      "C": "Intrusion detection signatures",
+      "D": "Encryption keys"
+    },
+    "correctAnswer": "B",
+    "explanation": "CVSS scores consider exploitability, impact, and environmental factors to rate risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "question": "A penetration test report should include:",
+    "options": {
+      "A": "Only vulnerability names",
+      "B": "Executive summary, methodology, findings, risk ratings, and remediation recommendations",
+      "C": "Raw scan logs only",
+      "D": "Future budget requests"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive reports inform stakeholders and guide mitigation efforts. M. Security Architecture & Engineering (111–120)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "question": "The principle of defense in depth advocates:",
+    "options": {
+      "A": "Relying on a single security control",
+      "B": "Layering multiple, diverse security controls across systems",
+      "C": "Removing firewalls",
+      "D": "Using only antivirus"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multiple layers (network, host, application, data) reduce single points of failure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "A zero trust model assumes:",
+    "options": {
+      "A": "Internal networks are inherently trusted",
+      "B": "No implicit trust; verify every request regardless of origin",
+      "C": "Only external traffic needs inspection",
+      "D": "No authentication required"
+    },
+    "correctAnswer": "B",
+    "explanation": "Zero trust enforces continuous verification of identities and device posture.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 113,
+    "question": "Microsegmentation in data centers provides security by:",
+    "options": {
+      "A": "Combining all servers in one network",
+      "B": "Isolating workloads in granular zones with strict policy enforcement",
+      "C": "Removing access controls",
+      "D": "Only using VLANs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Microsegmentation limits lateral movement by applying policies at the workload level.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 114,
+    "question": "A secure network design often uses:",
+    "options": {
+      "A": "Flat networks only",
+      "B": "Segregation via VLANs, firewalls, and DMZs to isolate sensitive assets",
+      "C": "One switch for all devices",
+      "D": "Unencrypted Wi-Fi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Segmented networks control access and reduce broadcast domains for containment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 115,
+    "question": "Security by design means:",
+    "options": {
+      "A": "Adding security after development",
+      "B": "Integrating security considerations and measures from the outset of system development",
+      "C": "Only in testing phases",
+      "D": "Ignoring threat modeling"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proactive design addresses potential threats early, reducing costly fixes later.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "question": "Secrets management tools like Vault are used to:",
+    "options": {
+      "A": "Store user documents",
+      "B": "Securely store and rotate credentials, keys, and tokens",
+      "C": "Manage network traffic",
+      "D": "Encrypt disk drives only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Centralized secret stores enforce access controls and audit usage of sensitive data.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "question": "TLS offloading at a load balancer:",
+    "options": {
+      "A": "Forwards encrypted traffic to backend servers",
+      "B": "Terminates TLS connections at the balancer to reduce crypto load on application servers",
+      "C": "Disables HTTPS",
+      "D": "Encrypts only emails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Offloading frees server CPU and simplifies certificate management.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 118,
+    "question": "Secure enclave technologies (e.g., Intel SGX) provide:",
+    "options": {
+      "A": "High-speed networking",
+      "B": "Hardware-based isolated execution environments for sensitive code and data",
+      "C": "Only GPU acceleration",
+      "D": "Open wireless networks"
+    },
+    "correctAnswer": "B",
+    "explanation": "Enclaves protect secrets even if the OS is compromised by encrypting memory regions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 119,
+    "question": "An API gateway enhances security by:",
+    "options": {
+      "A": "Only load balancing",
+      "B": "Enforcing authentication, rate limiting, and input validation for microservices",
+      "C": "Encrypting disk storage",
+      "D": "Managing user passwords"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gateways centralize cross-cutting concerns for APIs, improving consistency and protection.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "Immutable infrastructure means:",
+    "options": {
+      "A": "Servers are updated in place",
+      "B": "Infrastructure components are replaced rather than modified to apply updates or fixes",
+      "C": "No backups",
+      "D": "Manual patches only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Immutable patterns reduce configuration drift and simplify rollback by treating servers as cattle, not pets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 121,
+    "question": "AI-powered malware can:",
+    "options": {
+      "A": "Only replicate",
+      "B": "Adapt its behavior to evade signature-based detection using machine learning",
+      "C": "Be easily detected by traditional antivirus",
+      "D": "Only perform DoS attacks"
+    },
+    "correctAnswer": "B",
+    "explanation": "ML-driven threats mutate to avoid static detection by crafting novel payloads.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 122,
+    "question": "Quantum computing threatens current cryptography by:",
+    "options": {
+      "A": "Speeding up network speeds",
+      "B": "Potentially breaking RSA and ECC via Shor’s algorithm",
+      "C": "Only improving AI",
+      "D": "Removing need for hashing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Quantum algorithms can factor large integers, undermining asymmetric key security.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 123,
+    "question": "5G networks introduce security concerns due to:",
+    "options": {
+      "A": "Only faster speeds",
+      "B": "Increased attack surface from edge computing and virtualized network functions",
+      "C": "Elimination of encryption",
+      "D": "No need for firewalls"
+    },
+    "correctAnswer": "B",
+    "explanation": "5G’s software-defined components and broader device connectivity expand threat vectors.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "IoT devices often lack robust security because:",
+    "options": {
+      "A": "They always use strong encryption",
+      "B": "Resource constraints and poor default configurations leave them vulnerable",
+      "C": "Manufacturers prioritize security only",
+      "D": "They never connect to the Internet"
+    },
+    "correctAnswer": "B",
+    "explanation": "Limited CPU, memory, and cost pressures lead to minimal security hygiene in many IoT products.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Fileless malware operates by:",
+    "options": {
+      "A": "Editing files on disk only",
+      "B": "Living in memory or abusing legitimate system tools without writing malware binaries to disk",
+      "C": "Only using email attachments",
+      "D": "Always requiring root access"
+    },
+    "correctAnswer": "B",
+    "explanation": "By avoiding disk I/O, fileless attacks evade traditional antivirus that scans files.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 126,
+    "question": "Deepfake technology in cybersecurity contexts presents:",
+    "options": {
+      "A": "No threats",
+      "B": "Risks of social engineering and misinformation via synthetic audio/video",
+      "C": "Only entertainment uses",
+      "D": "Only legal challenges"
+    },
+    "correctAnswer": "B",
+    "explanation": "Convincing forgeries can bypass identity checks and manipulate individuals.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 127,
+    "question": "Supply chain attacks target:",
+    "options": {
+      "A": "Only network devices",
+      "B": "Software or hardware vendors to compromise products upstream of end users",
+      "C": "Physical warehouses only",
+      "D": "Email servers exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Injecting malicious code into trusted components undermines downstream security at scale.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 128,
+    "question": "Homomorphic encryption allows:",
+    "options": {
+      "A": "Only decryption of data",
+      "B": "Processing encrypted data without decrypting it, preserving confidentiality in computation",
+      "C": "Faster network routing",
+      "D": "Removal of all encryption"
+    },
+    "correctAnswer": "B",
+    "explanation": "It enables secure analytics and AI on sensitive data without exposing raw information.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 129,
+    "question": "Attack surface management focuses on:",
+    "options": {
+      "A": "Database tuning",
+      "B": "Identifying and monitoring all externally exposed assets and services for vulnerabilities",
+      "C": "Only internal audits",
+      "D": "Ignoring cloud resources"
+    },
+    "correctAnswer": "B",
+    "explanation": "Continuous discovery of assets prevents unknown entry points for attackers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "Zero-day exploits are challenging because:",
+    "options": {
+      "A": "Vendors provide immediate patches",
+      "B": "They exploit unknown vulnerabilities with no available mitigation or signature",
+      "C": "They only work on outdated OSes",
+      "D": "They are always easy to detect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lack of awareness and defenses makes zero-days highly dangerous until addressed.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 131,
+    "question": "A quantitative risk assessment measures risk in:",
+    "options": {
+      "A": "Yes/no terms only",
+      "B": "Monetary or numerical values to estimate potential impact",
+      "C": "Colors",
+      "D": "Random metrics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Quantitative methods assign dollar values or probabilities for data-driven decisions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 132,
+    "question": "Cyber insurance policies typically cover:",
+    "options": {
+      "A": "Only property damage",
+      "B": "Incident response costs, legal fees, and business interruption from cyber events",
+      "C": "All natural disasters",
+      "D": "Employee salaries only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Policies help organizations manage financial fallout from breaches and extortion.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "A business impact analysis (BIA) identifies:",
+    "options": {
+      "A": "Only key personnel",
+      "B": "Critical functions, dependencies, and recovery time objectives",
+      "C": "Network topologies",
+      "D": "Only financial budgets"
+    },
+    "correctAnswer": "B",
+    "explanation": "BIA guides continuity planning by prioritizing resources and downtime thresholds.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "COBIT is a framework for:",
+    "options": {
+      "A": "Project management only",
+      "B": "IT governance and management aligning IT with business goals",
+      "C": "Physical security only",
+      "D": "HR policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "COBIT’s control objectives and maturity models support governance best practices.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 135,
+    "question": "A Chief Information Security Officer (CISO) role includes:",
+    "options": {
+      "A": "Only writing code",
+      "B": "Developing and overseeing the organization’s security strategy and risk management",
+      "C": "Managing manufacturing",
+      "D": "Only handling customer support"
+    },
+    "correctAnswer": "B",
+    "explanation": "CISOs align security initiatives with business objectives and regulatory requirements.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "Metrics for security program effectiveness often include:",
+    "options": {
+      "A": "Only number of products sold",
+      "B": "Mean time to detect (MTTD) and mean time to respond (MTTR) to incidents",
+      "C": "Only network uptime",
+      "D": "Count of users"
+    },
+    "correctAnswer": "B",
+    "explanation": "Response speed and detection speed are critical indicators of incident management maturity.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 137,
+    "question": "Third-party risk management assesses:",
+    "options": {
+      "A": "Only internal systems",
+      "B": "Security posture and practices of vendors and partners that access organizational data",
+      "C": "Only financial credibility",
+      "D": "Customer satisfaction"
+    },
+    "correctAnswer": "B",
+    "explanation": "Evaluating suppliers prevents supply chain compromises and data breaches via partners.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 138,
+    "question": "A compliance gap analysis identifies:",
+    "options": {
+      "A": "All regulations at once",
+      "B": "Differences between current practices and required controls per standards (e.g., PCI, GDPR)",
+      "C": "Network performance issues",
+      "D": "Only HR policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gap analyses guide remediation plans to achieve regulatory adherence.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 139,
+    "question": "Security awareness training should be:",
+    "options": {
+      "A": "A one-time event only",
+      "B": "Continuous, engaging, and scenario-based to reinforce behaviors over time",
+      "C": "Only for executives",
+      "D": "Optional for new hires"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ongoing education combats evolving social engineering tactics effectively.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "An executive security dashboard should present:",
+    "options": {
+      "A": "Raw log data",
+      "B": "High-level metrics like compliance status, open vulnerabilities, and risk trends",
+      "C": "Every alert detail",
+      "D": "Social media feeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dashboards provide leadership with concise insights for strategic decision-making. P. Business Continuity & Disaster Recovery (141–150)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 141,
+    "question": "RTO (Recovery Time Objective) specifies:",
+    "options": {
+      "A": "How long you can endure data loss",
+      "B": "Maximum acceptable downtime before services are restored",
+      "C": "Backup frequency only",
+      "D": "Encryption strength"
+    },
+    "correctAnswer": "B",
+    "explanation": "RTO guides recovery planning to meet business availability requirements.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 142,
+    "question": "RPO (Recovery Point Objective) defines:",
+    "options": {
+      "A": "Maximum acceptable data loss measured in time",
+      "B": "Only network throughput",
+      "C": "User permissions",
+      "D": "Encryption algorithms"
+    },
+    "correctAnswer": "A",
+    "explanation": "RPO determines backup intervals to limit data loss in a disaster.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "A cold site for DR means:",
+    "options": {
+      "A": "Immediate failover with real-time data",
+      "B": "A facility with power and connectivity but no hardware; setup takes longer",
+      "C": "Identical to primary site",
+      "D": "Mobile disaster unit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cold sites reduce costs but increase recovery times compared to warm/hot sites.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "A hot site differs from a warm site by providing:",
+    "options": {
+      "A": "No network access",
+      "B": "Fully configured hardware and systems ready for immediate failover",
+      "C": "Only power without servers",
+      "D": "No air conditioning"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hot sites mirror production environments for minimal downtime.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "Backup data encryption is important because it:",
+    "options": {
+      "A": "Slows backups",
+      "B": "Protects sensitive information even if physical media are lost or stolen",
+      "C": "Only applies to cloud",
+      "D": "Only applies to logs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Encryption ensures confidentiality of backup archives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 146,
+    "question": "Regular DR drills:",
+    "options": {
+      "A": "Are optional",
+      "B": "Validate the effectiveness of recovery procedures and identify gaps",
+      "C": "Only test fire alarms",
+      "D": "Replace actual recovery"
+    },
+    "correctAnswer": "B",
+    "explanation": "Drills ensure teams can execute plans under pressure and refine them.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 147,
+    "question": "Alternate work sites in BCP allow:",
+    "options": {
+      "A": "Only remote workers",
+      "B": "Critical personnel to operate from a different location if primary is unavailable",
+      "C": "No communication",
+      "D": "Only executive suites"
+    },
+    "correctAnswer": "B",
+    "explanation": "Alternate sites maintain business functions during site outages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 148,
+    "question": "Data replication synchronously differs from asynchronously by:",
+    "options": {
+      "A": "Speed only",
+      "B": "Synchronous waits for write acknowledgment from both sites before confirming success",
+      "C": "Only uses FTP",
+      "D": "No network required"
+    },
+    "correctAnswer": "B",
+    "explanation": "Synchronous replication ensures zero data loss but can impact performance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 149,
+    "question": "A BIA’s output informs:",
+    "options": {
+      "A": "Only IT budgets",
+      "B": "Prioritization of systems, RTO/RPO settings, and recovery strategies",
+      "C": "Marketing plans",
+      "D": "Employee handbooks"
+    },
+    "correctAnswer": "B",
+    "explanation": "BIA guides investments in continuity to support critical operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 150,
+    "question": "Crisis communication plans should include:",
+    "options": {
+      "A": "Only IT messages",
+      "B": "Predefined messaging templates, stakeholder contact lists, and approval workflows",
+      "C": "No spokesperson assignment",
+      "D": "Only press releases"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear communication channels and templates ensure timely, consistent outreach during incidents. Q. Security Operations & Monitoring (151–160)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "What is the primary function of a Security Operations Center (SOC)?",
+    "options": {
+      "A": "Develop software",
+      "B": "Continuous monitoring, threat detection, and incident response coordination",
+      "C": "Manage physical security guards",
+      "D": "Train users on office etiquette"
+    },
+    "correctAnswer": "B",
+    "explanation": "SOC teams use tools like SIEM and threat intelligence to identify and respond to security events.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 152,
+    "question": "Log aggregation is important because it:",
+    "options": {
+      "A": "Deletes old logs",
+      "B": "Centralizes logs from disparate systems for efficient analysis and correlation",
+      "C": "Encrypts network traffic",
+      "D": "Only stores firewall rules"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aggregation ensures comprehensive visibility and supports incident investigations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 153,
+    "question": "A security information and event management (SIEM) system uses:",
+    "options": {
+      "A": "Only signature patterns",
+      "B": "Both correlation rules and analytics to detect complex attack patterns",
+      "C": "Plain text email alerts exclusively",
+      "D": "Manual log shipping"
+    },
+    "correctAnswer": "B",
+    "explanation": "SIEM correlates diverse log sources to generate actionable security alerts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 154,
+    "question": "Threat hunting differs from traditional monitoring by being:",
+    "options": {
+      "A": "Fully automated",
+      "B": "Proactive, hypothesis-driven search for hidden threats within the environment",
+      "C": "Only signature-based",
+      "D": "Reacting only after alerts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hunters use threat intelligence and anomaly detection to uncover stealthy adversaries.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 155,
+    "question": "A security alert fatigue occurs when:",
+    "options": {
+      "A": "Analysts receive too few alerts",
+      "B": "Excessive low-value alerts overwhelm responders, causing important ones to be missed",
+      "C": "Only high-severity alerts fire",
+      "D": "Alerts are never acknowledged"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tuning and prioritizing alerts reduces noise and focuses on genuine threats.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "An indicator of compromise (IoC) is:",
+    "options": {
+      "A": "A user’s birthdate",
+      "B": "Artifacts like malicious IPs, file hashes, or registry keys signaling a breach",
+      "C": "Backup timestamps",
+      "D": "Regular system logs"
+    },
+    "correctAnswer": "B",
+    "explanation": "IoCs help detect and block known malicious activity based on forensic data.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "A runbook in security operations provides:",
+    "options": {
+      "A": "Marketing strategies",
+      "B": "Step-by-step procedures for handling specific incident types or tools",
+      "C": "Financial forecasts",
+      "D": "User password lists"
+    },
+    "correctAnswer": "B",
+    "explanation": "Runbooks standardize responses and reduce reaction time during critical events.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 158,
+    "question": "MITRE ATT&CK is a framework that:",
+    "options": {
+      "A": "Provides encryption algorithms",
+      "B": "Catalogs adversary tactics, techniques, and procedures for threat analysis",
+      "C": "Only applies to physical security",
+      "D": "Is a compliance checklist"
+    },
+    "correctAnswer": "B",
+    "explanation": "ATT&CK matrices guide defense mapping by detailing real-world attacker behaviors.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 159,
+    "question": "SOAR (Security Orchestration, Automation, and Response) platforms aim to:",
+    "options": {
+      "A": "Automate routine security tasks and orchestrate workflows across tools",
+      "B": "Replace firewalls",
+      "C": "Manage user HR data",
+      "D": "Only send email"
+    },
+    "correctAnswer": "A",
+    "explanation": "SOAR increases efficiency by integrating incident response actions into a single interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 160,
+    "question": "A “playbook” in SOAR differs from a runbook by:",
+    "options": {
+      "A": "Focusing on high-level incident handling steps with decision logic and automation",
+      "B": "Being an unstructured document",
+      "C": "Only for network diagrams",
+      "D": "Requiring manual execution only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Playbooks combine automated play actions with conditional workflows for complex response.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 161,
+    "question": "A Key Risk Indicator (KRI) differs from a KPI by measuring:",
+    "options": {
+      "A": "Past performance only",
+      "B": "The likelihood of risk events occurring, rather than operational performance",
+      "C": "Only financial performance",
+      "D": "Technical errors only"
+    },
+    "correctAnswer": "B",
+    "explanation": "KRIs focus on potential threats to objectives, enabling proactive risk management.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 162,
+    "question": "Mean Time To Detect (MTTD) is the metric for:",
+    "options": {
+      "A": "Time to restore service",
+      "B": "Average time from breach occurrence to detection",
+      "C": "Network throughput",
+      "D": "Number of vulnerabilities found"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lower MTTD improves containment and reduces dwell time of attackers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 163,
+    "question": "Mean Time To Remediate (MTTR) measures:",
+    "options": {
+      "A": "Time to detect an incident",
+      "B": "Time taken to fully resolve and patch a security issue",
+      "C": "Time to hire a new employee",
+      "D": "User login time"
+    },
+    "correctAnswer": "B",
+    "explanation": "Faster MTTR reduces window of exposure and potential damage.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 164,
+    "question": "A security dashboard for executives should prioritize:",
+    "options": {
+      "A": "Detailed logs",
+      "B": "High-level trends, risks, and progress toward strategic security objectives",
+      "C": "Raw packet captures",
+      "D": "Email thread summaries"
+    },
+    "correctAnswer": "B",
+    "explanation": "Executives need concise, outcome-oriented metrics for decision-making.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 165,
+    "question": "Compliance as Code refers to:",
+    "options": {
+      "A": "Writing policies in natural language only",
+      "B": "Encoding compliance checks into automated tests within infrastructure pipelines",
+      "C": "Manual audits exclusively",
+      "D": "Only security policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Automating compliance ensures continuous verification throughout DevOps.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 166,
+    "question": "A balanced scorecard for security might include perspectives such as:",
+    "options": {
+      "A": "Financial, customer, internal process, and learning & growth adapted to security goals",
+      "B": "Only technical metrics",
+      "C": "Marketing impressions",
+      "D": "HR turnover rates"
+    },
+    "correctAnswer": "A",
+    "explanation": "Scorecards align security initiatives with overall business strategy and stakeholder needs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 167,
+    "question": "Vulnerability remediation rate is measured by:",
+    "options": {
+      "A": "Number of new vulnerabilities",
+      "B": "Percentage of known vulnerabilities remediated within SLA timeframes",
+      "C": "Only critical vulnerabilities",
+      "D": "Number of scans performed"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tracking remediation rate monitors patch management efficiency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 168,
+    "question": "A security maturity model helps organizations:",
+    "options": {
+      "A": "Avoid assessments",
+      "B": "Benchmark capabilities from ad-hoc to optimized processes",
+      "C": "Only measure budget",
+      "D": "Only focus on tools"
+    },
+    "correctAnswer": "B",
+    "explanation": "Frameworks like CMMI or ISO 27k guide progressive improvement steps.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "Reporting “time to compliance” indicates:",
+    "options": {
+      "A": "Time to deploy new hardware",
+      "B": "Duration required to achieve compliance post-audit findings",
+      "C": "Only financial audits",
+      "D": "Number of policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "It measures responsiveness to remediation mandates from regulators or internal audits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 170,
+    "question": "A security risk appetite statement defines:",
+    "options": {
+      "A": "Specific transaction details",
+      "B": "Types and levels of risk the organization is willing to accept in pursuit of objectives",
+      "C": "Only acceptable user passwords",
+      "D": "Network bandwidth usage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear risk appetite guides investment and prioritization in security controls.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 171,
+    "question": "Threat modeling during design helps to:",
+    "options": {
+      "A": "Only assess past incidents",
+      "B": "Proactively identify potential threats and design mitigations into systems",
+      "C": "Ignore developer input",
+      "D": "Only apply firewalls"
+    },
+    "correctAnswer": "B",
+    "explanation": "Techniques like STRIDE categorize threats and inform secure architecture decisions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 172,
+    "question": "DevSecOps integrates security by:",
+    "options": {
+      "A": "Adding security at the end of the pipeline",
+      "B": "Embedding security practices and tools throughout CI/CD processes",
+      "C": "Replacing developers with security engineers",
+      "D": "Ignoring compliance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Shift-left in DevSecOps ensures code is tested and scanned for security early.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 173,
+    "question": "Chaos engineering for security (ChaosSec) aims to:",
+    "options": {
+      "A": "Create disorganized logs",
+      "B": "Intentionally inject failures and attacks to validate resilience and response",
+      "C": "Only test performance",
+      "D": "Remove redundancy"
+    },
+    "correctAnswer": "B",
+    "explanation": "ChaosSec exercises help uncover gaps in defenses and response procedures.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 174,
+    "question": "A cybersecurity capstone project should demonstrate:",
+    "options": {
+      "A": "Only theoretical knowledge",
+      "B": "Practical application of tools, methodologies, and strategic understanding to solve real-world problems",
+      "C": "Only presentations",
+      "D": "Only code samples"
+    },
+    "correctAnswer": "B",
+    "explanation": "Integrating hands-on labs, incident simulations, and policy development shows comprehensive mastery.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "Ethical hacking engagements are governed by:",
+    "options": {
+      "A": "Standard hacking laws only",
+      "B": "Written rules of engagement and legal contracts specifying scope, targets, and liabilities",
+      "C": "Verbal agreements only",
+      "D": "No documentation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear contracts protect both testers and clients and define legal boundaries.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "A research paper on future cybersecurity trends should include:",
+    "options": {
+      "A": "Only vendor predictions",
+      "B": "Data-driven analysis of emerging threats, technology evaluations, and strategic recommendations",
+      "C": "Only product ads",
+      "D": "Only anecdotal stories"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scholarly rigor and evidence-based forecasting lend credibility to forward-looking insights.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 177,
+    "question": "Data provenance in forensics ensures:",
+    "options": {
+      "A": "Quick deletion of evidence",
+      "B": "Traceability of data origin and transformation history for validation",
+      "C": "Only monitoring of live traffic",
+      "D": "No metadata storage"
+    },
+    "correctAnswer": "B",
+    "explanation": "Provenance records support authenticity and chain of custody.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 178,
+    "question": "The MITRE D3FEND framework complements ATT&CK by providing:",
+    "options": {
+      "A": "New vulnerability definitions",
+      "B": "A catalog of defensive techniques mapped to attacker behaviors",
+      "C": "Compliance regulations",
+      "D": "Financial metrics"
+    },
+    "correctAnswer": "B",
+    "explanation": "D3FEND outlines countermeasures aligned with adversary tactics to strengthen defenses.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 179,
+    "question": "A cybersecurity tabletop exercise typically:",
+    "options": {
+      "A": "Deploys actual malware",
+      "B": "Simulates an incident scenario discussion among stakeholders to test plans and roles",
+      "C": "Formats servers",
+      "D": "Generates user credentials"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tabletop drills validate communication and decision-making without disrupting operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "Continuous professional education in cybersecurity is critical because:",
+    "options": {
+      "A": "Threats and technologies evolve rapidly, requiring ongoing skill refresh and certification",
+      "B": "Nothing changes over time",
+      "C": "Only new hires need training",
+      "D": "Certifications never expire"
+    },
+    "correctAnswer": "A",
+    "explanation": "Staying current with CVEs, tools, and best practices is essential for effective defense. T. Review & Reflection (181–190)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "After a major security incident, a post-mortem review should:",
+    "options": {
+      "A": "Blame individual staff",
+      "B": "Objectively analyze root causes, response effectiveness, and lessons learned",
+      "C": "Delete all logs",
+      "D": "Ignore findings"
+    },
+    "correctAnswer": "B",
+    "explanation": "Balanced retrospectives drive process and control improvements.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 182,
+    "question": "A security knowledge base benefits:",
+    "options": {
+      "A": "Only C-level executives",
+      "B": "Consolidating playbooks, FAQs, and best practices for broad organizational use",
+      "C": "Only developers",
+      "D": "Only auditors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Accessible documentation accelerates onboarding and consistent incident handling.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 183,
+    "question": "Mentoring junior security analysts improves:",
+    "options": {
+      "A": "Only technical output",
+      "B": "Skill development, morale, and team cohesion through guidance and feedback",
+      "C": "Only HR metrics",
+      "D": "Only user training"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mentorship fosters knowledge transfer and career growth within SOC teams.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "Security communities of practice help professionals to:",
+    "options": {
+      "A": "Work in silos",
+      "B": "Share experiences, tools, and threat intelligence collaboratively",
+      "C": "Only read vendor materials",
+      "D": "Avoid networking"
+    },
+    "correctAnswer": "B",
+    "explanation": "Peer groups and forums enable collective learning and rapid dissemination of insights.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 185,
+    "question": "A reflective cybersecurity journal records:",
+    "options": {
+      "A": "Personal opinions only",
+      "B": "Observations, incident notes, and improvement ideas to track professional growth",
+      "C": "Only passwords",
+      "D": "Only project plans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Journaling supports continuous learning and introspection in a dynamic field.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 186,
+    "question": "Annual security strategy reviews ensure that:",
+    "options": {
+      "A": "Policies never change",
+      "B": "Plans remain aligned with evolving business objectives and threat landscapes",
+      "C": "Only budgets are considered",
+      "D": "Tools are never updated"
+    },
+    "correctAnswer": "B",
+    "explanation": "Periodic reviews adapt the roadmap based on new risks and organizational changes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 187,
+    "question": "Sharing incident response metrics with the board helps:",
+    "options": {
+      "A": "Only technical staff",
+      "B": "Demonstrate risk posture, resource needs, and justify security investments",
+      "C": "Only marketing teams",
+      "D": "Only IT budgets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Leadership visibility into metrics drives alignment and support for security initiatives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "Crisis communication after a breach should be:",
+    "options": {
+      "A": "Opaque",
+      "B": "Transparent, timely, and factual to maintain stakeholder trust",
+      "C": "Delayed until legal clearance only",
+      "D": "Only via internal memos"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear external messaging mitigates reputational damage and regulatory scrutiny.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "A well-crafted security policy lifecycle includes:",
+    "options": {
+      "A": "Drafting only once",
+      "B": "Creation, review, training, enforcement, and periodic revision",
+      "C": "No enforcement",
+      "D": "Ignoring feedback"
+    },
+    "correctAnswer": "B",
+    "explanation": "Policies must evolve with technology and business processes to stay effective.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "The ultimate measure of a cybersecurity program’s success is:",
+    "options": {
+      "A": "Number of tools deployed",
+      "B": "Balanced reduction in risk exposure, incident frequency, and impact over time",
+      "C": "Only compliance certifications",
+      "D": "Length of security team tenure"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective programs demonstrably lower business risk and improve resilience.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 191,
+    "question": "A capstone cybersecurity project should start with:",
+    "options": {
+      "A": "Selecting random tools",
+      "B": "Defining scope, objectives, and success criteria aligned with stakeholder needs",
+      "C": "Writing code immediately",
+      "D": "Drafting policies only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Clear goals and metrics guide focused deliverables and evaluation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "Demonstrating threat detection in a capstone often involves:",
+    "options": {
+      "A": "Only slide decks",
+      "B": "Simulated attack scenarios and SIEM alert configuration",
+      "C": "Only theory discussions",
+      "D": "Only network diagrams"
+    },
+    "correctAnswer": "B",
+    "explanation": "Practical simulations showcase hands-on skills and tool proficiency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "A capstone’s risk assessment section should include:",
+    "options": {
+      "A": "Only identified vulnerabilities",
+      "B": "Threat likelihood, potential impact, and prioritized remediation plans",
+      "C": "Only test cases",
+      "D": "Only executive summaries"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive assessments balance technical findings with business context.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "Integrating governance in a capstone entails:",
+    "options": {
+      "A": "Ignoring compliance",
+      "B": "Mapping controls to frameworks like ISO 27001 or NIST CSF",
+      "C": "Only technical content",
+      "D": "Only appendices"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aligning practices to established standards demonstrates holistic understanding.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "A reflective capstone conclusion should articulate:",
+    "options": {
+      "A": "Only the positives",
+      "B": "Key learnings, challenges overcome, and recommendations for future work",
+      "C": "Irrelevant topics",
+      "D": "Only raw data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Reflection shows critical thinking and readiness to apply insights in real contexts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 196,
+    "question": "Including automated testing scripts in a capstone:",
+    "options": {
+      "A": "Only burdens graders",
+      "B": "Validates security controls and demonstrates reproducibility of assessments",
+      "C": "Is not necessary",
+      "D": "Should be hidden"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scripts allow evaluators to verify findings and replicate tests.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 197,
+    "question": "A comprehensive cybersecurity capstone should cover all EXCEPT:",
+    "options": {
+      "A": "Technical implementation",
+      "B": "Stakeholder communication plan",
+      "C": "Business impact analysis",
+      "D": "Only sales projections"
+    },
+    "correctAnswer": "D",
+    "explanation": "Sales figures are unrelated to cybersecurity objectives.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 198,
+    "question": "Presenting your capstone to a non-technical audience requires:",
+    "options": {
+      "A": "Only using jargon",
+      "B": "Translating technical concepts into business risks and benefits",
+      "C": "Skipping key findings",
+      "D": "Using only code snippets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective communication links security measures to organizational value.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "To ensure reproducible research in a capstone, you should:",
+    "options": {
+      "A": "Use proprietary, closed-source tools only",
+      "B": "Document methodologies, tool versions, and configurations in detail",
+      "C": "Avoid documentation",
+      "D": "Only present results"
+    },
+    "correctAnswer": "B",
+    "explanation": "Detailed records enable others to replicate and validate your work.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 200,
+    "question": "The final takeaway from a full 200-question cybersecurity set is:",
+    "options": {
+      "A": "Memorizing tool names only",
+      "B": "Integrating technical skills, strategic thinking, risk management, and continuous learning to secure systems effectively",
+      "C": "Only compliance adherence",
+      "D": "Only hardware deployment"
+    },
+    "correctAnswer": "B",
+    "explanation": "Holistic mastery across domains equips professionals to address evolving threats and business needs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 201,
+    "question": "Federated learning in machine learning security allows:",
+    "options": {
+      "A": "All data centralized in one server",
+      "B": "Training models across decentralized devices without sharing raw data",
+      "C": "Only training on public datasets",
+      "D": "Exchanging encryption keys only"
+    },
+    "correctAnswer": "B",
+    "explanation": "Federated learning keeps data on-device, sharing model updates to preserve privacy.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 202,
+    "question": "Side-channel attacks target:",
+    "options": {
+      "A": "Only network packets",
+      "B": "Indirect information leaks like timing, power consumption, or electromagnetic emissions",
+      "C": "Publicly documented APIs",
+      "D": "User interfaces"
+    },
+    "correctAnswer": "B",
+    "explanation": "Observing physical characteristics can reveal secret keys without breaking algorithms.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 203,
+    "question": "Secure multi-party computation enables:",
+    "options": {
+      "A": "Single-party processing only",
+      "B": "Joint computation over private inputs without revealing them to each other",
+      "C": "Publicly visible computations",
+      "D": "Only symmetric encryption"
+    },
+    "correctAnswer": "B",
+    "explanation": "SMPC protocols allow collaborative analysis while keeping each party’s data secret.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 204,
+    "question": "Blockchain can enhance security by:",
+    "options": {
+      "A": "Centralizing control of data",
+      "B": "Providing tamper-evident, decentralized ledgers for audit trails",
+      "C": "Eliminating encryption needs",
+      "D": "Only speeding transactions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Immutable records on distributed nodes make unauthorized changes detectable.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 205,
+    "question": "Biometric spoofing involves:",
+    "options": {
+      "A": "Genuine biometric capture only",
+      "B": "Presenting fake biometric samples to bypass authentication systems",
+      "C": "Only password cracking",
+      "D": "Network sniffing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Attackers use molds, prints, or replay attacks to trick fingerprint or facial scanners.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 206,
+    "question": "3D human face reconstruction from photos can pose a risk to:",
+    "options": {
+      "A": "Only text-based authentication",
+      "B": "Facial recognition systems by creating realistic masks",
+      "C": "Network firewalls",
+      "D": "Physical locks"
+    },
+    "correctAnswer": "B",
+    "explanation": "Adversaries can use reconstructed models to bypass face‐based logins.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 207,
+    "question": "Digital watermarking for content authenticity embeds:",
+    "options": {
+      "A": "Visible logos only",
+      "B": "Imperceptible patterns or codes to verify origin and detect tampering",
+      "C": "Plain text",
+      "D": "User metadata"
+    },
+    "correctAnswer": "B",
+    "explanation": "Watermarks survive transformations, enabling integrity checks on multimedia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 208,
+    "question": "Virtualization security concerns include:",
+    "options": {
+      "A": "Physical theft only",
+      "B": "Hypervisor vulnerabilities that could allow guest-to-host escape",
+      "C": "Only slow performance",
+      "D": "Static IP addresses"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exploiting hypervisor flaws lets attackers compromise multiple VMs from one malicious guest.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 209,
+    "question": "Container runtimes like Docker can be hardened by:",
+    "options": {
+      "A": "Running containers as root by default",
+      "B": "Applying least privilege, read-only filesystems, and image signing",
+      "C": "Disabling all network policies",
+      "D": "Ignoring CVEs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Restricting permissions and verifying images reduces attack surface in containerized apps.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 210,
+    "question": "Cyber-physical security integrates:",
+    "options": {
+      "A": "Only digital systems",
+      "B": "Protection of systems blending computing with physical processes, like industrial control systems",
+      "C": "Only antivirus on servers",
+      "D": "Social media policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "ICS and IoT require securing sensors, actuators, and human interfaces against cyber threats.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 211,
+    "question": "Threat intelligence is best described as:",
+    "options": {
+      "A": "Random security tips",
+      "B": "Actionable information about adversaries’ tools, tactics, and procedures (TTPs) to inform defense",
+      "C": "Only public news articles",
+      "D": "Sales collateral"
+    },
+    "correctAnswer": "B",
+    "explanation": "TI enables proactive defense by understanding attacker behavior and indicators.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "A TAXII server facilitates:",
+    "options": {
+      "A": "Email encryption",
+      "B": "Automated sharing of STIX-formatted threat intelligence between organizations",
+      "C": "Database replication",
+      "D": "Web hosting"
+    },
+    "correctAnswer": "B",
+    "explanation": "TAXII defines protocols for exchanging structured threat information over HTTPS.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 213,
+    "question": "Open-source intelligence (OSINT) gathering uses:",
+    "options": {
+      "A": "Proprietary data only",
+      "B": "Publicly available sources like websites, social media, and forums for reconnaissance",
+      "C": "Encrypted channels exclusively",
+      "D": "Only darknet markets"
+    },
+    "correctAnswer": "B",
+    "explanation": "OSINT leverages open data to build target profiles without intrusion.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "A structured threat intelligence report should include:",
+    "options": {
+      "A": "Only raw logs",
+      "B": "Executive summary, threat actor profiles, TTPs, IoCs, and mitigation steps",
+      "C": "Only vulnerability lists",
+      "D": "Only financial impact"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive reports guide both strategic planning and operational defenses.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 215,
+    "question": "A threat feed unsubscribed in a SIEM may lead to:",
+    "options": {
+      "A": "Improved performance",
+      "B": "Missing critical IoCs and increased blind spots",
+      "C": "Better detection accuracy",
+      "D": "Faster incident response"
+    },
+    "correctAnswer": "B",
+    "explanation": "Losing feeds can deprive analysts of up-to-date malicious indicators.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 216,
+    "question": "A community-based ISAC (Information Sharing and Analysis Center) provides:",
+    "options": {
+      "A": "Consumer product reviews",
+      "B": "Sector-specific threat intelligence sharing and alerts among members",
+      "C": "Only vendor certifications",
+      "D": "Social media analytics"
+    },
+    "correctAnswer": "B",
+    "explanation": "ISACs coordinate defense against threats tailored to industries like finance or healthcare.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 217,
+    "question": "The Diamond Model of Intrusion Analysis focuses on:",
+    "options": {
+      "A": "Only malware samples",
+      "B": "Four core features—adversary, capability, infrastructure, and victim—to analyze events",
+      "C": "Only network graphs",
+      "D": "Only endpoint logs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Modeling relationships between these features helps map and predict adversary behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 218,
+    "question": "Contextual threat intelligence enriches IoCs by adding:",
+    "options": {
+      "A": "Only timestamps",
+      "B": "Tactics, motivations, and mentions of related infrastructure to aid prioritization",
+      "C": "Only static rules",
+      "D": "Only hashes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Understanding context helps determine relevance and risk to the organization.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 219,
+    "question": "Automated threat intelligence platforms can:",
+    "options": {
+      "A": "Eliminate analysts",
+      "B": "Ingest, analyze, and integrate feeds, generating prioritized alerts and enrichment",
+      "C": "Only send emails",
+      "D": "Block network ports"
+    },
+    "correctAnswer": "B",
+    "explanation": "TIPs centralize data, apply scoring, and integrate with security controls for efficiency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 220,
+    "question": "Predictive threat intelligence attempts to:",
+    "options": {
+      "A": "Only report past incidents",
+      "B": "Forecast future attacker behaviors using analytics and trend data",
+      "C": "Only focus on malware signatures",
+      "D": "Only monitor social media"
+    },
+    "correctAnswer": "B",
+    "explanation": "Predictive models identify emerging risks before widespread exploitation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 221,
+    "question": "A security steering committee typically:",
+    "options": {
+      "A": "Only IT staff",
+      "B": "Cross-functional leaders who govern security priorities, policies, and investments",
+      "C": "Vendors only",
+      "D": "Marketing exclusively"
+    },
+    "correctAnswer": "B",
+    "explanation": "Steering committees align security initiatives with organizational goals.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 222,
+    "question": "Security budgeting should align with:",
+    "options": {
+      "A": "Random allocations",
+      "B": "Risk assessments, business objectives, and regulatory requirements",
+      "C": "Only past spending",
+      "D": "Only compliance needs"
+    },
+    "correctAnswer": "B",
+    "explanation": "Funding decisions guided by risk ensure optimal resource use for maximum protection.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 223,
+    "question": "A cybersecurity maturity model assessment:",
+    "options": {
+      "A": "Only counts tools deployed",
+      "B": "Evaluates practices against defined maturity levels to identify improvement areas",
+      "C": "Only measures uptime",
+      "D": "Only surveys employees"
+    },
+    "correctAnswer": "B",
+    "explanation": "Assessments like CMM or NIST CSF maturity maps guide roadmaps for capability building.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 224,
+    "question": "Vendor risk management in cybersecurity includes:",
+    "options": {
+      "A": "Only financial credit checks",
+      "B": "Assessing security controls, incident history, and compliance posture of third-party providers",
+      "C": "Only contract negotiation",
+      "D": "Ignoring data access"
+    },
+    "correctAnswer": "B",
+    "explanation": "Evaluating vendor security practices prevents downstream breaches via partners.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "Board-level reporting on cybersecurity should emphasize:",
+    "options": {
+      "A": "Technical details only",
+      "B": "Risk posture, key metrics, incidents, and alignment with strategic priorities in business terms",
+      "C": "Daily SIEM logs",
+      "D": "Only compliance checklists"
+    },
+    "correctAnswer": "B",
+    "explanation": "Executive audiences need clear, contextualized insights to support governance decisions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 226,
+    "question": "Building a security culture involves:",
+    "options": {
+      "A": "Mandating policies without engagement",
+      "B": "Leadership support, ongoing training, and recognizing secure behaviors organization-wide",
+      "C": "Only phishing tests",
+      "D": "No communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cultural change requires role modeling and reinforcement, not just controls.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 227,
+    "question": "Security as a business enabler means:",
+    "options": {
+      "A": "Security teams operate in isolation",
+      "B": "Integrating security into product development and operations to foster trust and growth",
+      "C": "Only blocking features",
+      "D": "Only enforcing compliance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Security can differentiate offerings and ensure resilience aligns with customer expectations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 228,
+    "question": "Cyber resilience focuses on:",
+    "options": {
+      "A": "Only prevention",
+      "B": "Ability to anticipate, withstand, recover, and adapt to cyber threats",
+      "C": "Only detection",
+      "D": "Only business continuity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Resilience encompasses the full lifecycle of preparation, response, and recovery.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 229,
+    "question": "A security vision statement should:",
+    "options": {
+      "A": "Be overly technical",
+      "B": "Articulate future state goals, values, and the role of security in the organization’s mission",
+      "C": "Ignore stakeholder input",
+      "D": "Only list tools"
+    },
+    "correctAnswer": "B",
+    "explanation": "Vision statements guide strategy and motivate collaboration across teams.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 230,
+    "question": "Executive sponsorship of cybersecurity initiatives ensures:",
+    "options": {
+      "A": "Only funding approvals",
+      "B": "Visibility, accountability, and cross-department commitment to security goals",
+      "C": "Only technical implementation",
+      "D": "No resource allocation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Leadership buy-in empowers effective program execution and cultural adoption. Y. Capstone & Future Directions (231–240)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 231,
+    "question": "A future-focused cybersecurity capstone might explore:",
+    "options": {
+      "A": "Legacy systems only",
+      "B": "Emerging areas like quantum-safe cryptography or AI-driven defense strategies",
+      "C": "Only current compliance standards",
+      "D": "Only user surveys"
+    },
+    "correctAnswer": "B",
+    "explanation": "Anticipating next-gen threats demonstrates forward-thinking and innovation.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 232,
+    "question": "Writing a cybersecurity white paper requires:",
+    "options": {
+      "A": "Plagiarism",
+      "B": "Original research, data analysis, and clear presentation of findings and recommendations",
+      "C": "Only opinion pieces",
+      "D": "No citations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Credible white papers combine evidence, methodology, and insight to influence stakeholders.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 233,
+    "question": "A living security roadmap is:",
+    "options": {
+      "A": "A static document",
+      "B": "An evolving plan that reflects new risks, technologies, and business changes over time",
+      "C": "Only created once during budget season",
+      "D": "Irrelevant to operations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dynamic roadmaps adapt to shifting priorities and threat landscapes effectively.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 234,
+    "question": "Collaborating with academia in cybersecurity can:",
+    "options": {
+      "A": "Slow progress",
+      "B": "Provide access to cutting-edge research, talent pipelines, and experimental platforms",
+      "C": "Only marketing benefits",
+      "D": "No practical value"
+    },
+    "correctAnswer": "B",
+    "explanation": "Academia partnerships drive innovation and support workforce development.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 235,
+    "question": "Final reflections in a cybersecurity capstone should:",
+    "options": {
+      "A": "Only celebrate successes",
+      "B": "Acknowledge limitations, lessons learned, and propose next steps for continuous improvement",
+      "C": "Ignore failures",
+      "D": "Only share slides"
+    },
+    "correctAnswer": "B",
+    "explanation": "Honest reflections guide personal growth and program evolution.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 236,
+    "question": "The convergence of IT and OT cybersecurity is important because:",
+    "options": {
+      "A": "OT systems are always air-gapped",
+      "B": "Integrated threats can cross from IT networks into industrial control systems, impacting physical processes",
+      "C": "Only IT matters",
+      "D": "Only OT matters"
+    },
+    "correctAnswer": "B",
+    "explanation": "Blended environments require unified strategies to protect cyber-physical operations.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 237,
+    "question": "Security innovation labs help organizations to:",
+    "options": {
+      "A": "Only develop new products",
+      "B": "Experiment with emerging technologies in sandboxed environments to assess feasibility and risk",
+      "C": "Only host meetings",
+      "D": "Avoid change"
+    },
+    "correctAnswer": "B",
+    "explanation": "Labs accelerate proof-of-concepts and validate novel defenses before production.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 238,
+    "question": "Future digital identity frameworks aim to:",
+    "options": {
+      "A": "Centralize all identity data",
+      "B": "Enable decentralized, privacy-preserving credentials (e.g., verifiable credentials) under user control",
+      "C": "Eliminate authentication",
+      "D": "Only use passwords"
+    },
+    "correctAnswer": "B",
+    "explanation": "Self-sovereign identity models give users portability and reduce centralized risk.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 239,
+    "question": "A holistic approach to cybersecurity in the next decade will require:",
+    "options": {
+      "A": "Only new tools",
+      "B": "Cross-disciplinary integration of technical controls, human factors, policy, and ethics",
+      "C": "Only compliance focus",
+      "D": "Isolation of functions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multifaceted strategies address complex, evolving risk landscapes effectively.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 240,
+    "question": "The ultimate goal of a comprehensive 250-question cybersecurity curriculum is to:",
+    "options": {
+      "A": "Test memorization",
+      "B": "Develop professionals equipped with the depth and breadth of knowledge, practical skills, and strategic mindset to protect and enable organizations in a dynamic threat environment",
+      "C": "Only certify tool knowledge",
+      "D": "Ignore business context"
+    },
+    "correctAnswer": "B",
+    "explanation": "True readiness blends hands-on capabilities with governance, risk management, and continuous learning.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 241,
+    "question": "Security champions programs in business units help:",
+    "options": {
+      "A": "Only IT teams",
+      "B": "Embed security awareness and best practices across the organization via knowledgeable liaisons",
+      "C": "Eliminate security training",
+      "D": "Only technical staff"
+    },
+    "correctAnswer": "B",
+    "explanation": "Champions drive grassroots adoption and feedback loops for security initiatives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 242,
+    "question": "Adaptive cybersecurity strategies adjust:",
+    "options": {
+      "A": "Only once per decade",
+      "B": "Defense postures and controls in real time based on threat intelligence and analytics",
+      "C": "Ignore real-time data",
+      "D": "Only static policies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Adaptive measures leverage automation and insights to respond dynamically to threats.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 243,
+    "question": "Community-driven bug bounty programs:",
+    "options": {
+      "A": "Only use in-house testers",
+      "B": "Invite external researchers to find and report vulnerabilities for rewards",
+      "C": "Eliminate all testing",
+      "D": "Only manual code reviews"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bounties expand testing coverage and incentivize ethical vulnerability disclosure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 244,
+    "question": "A security operating model defines:",
+    "options": {
+      "A": "Only technical architectures",
+      "B": "Organizational structure, processes, roles, and tools for delivering security services",
+      "C": "Only network diagrams",
+      "D": "Only application code"
+    },
+    "correctAnswer": "B",
+    "explanation": "Operating models ensure consistent, scalable, and efficient security operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "Communicating risk to non-technical stakeholders is best done by:",
+    "options": {
+      "A": "Using technical jargon",
+      "B": "Translating security risks into business impact and value-driven language",
+      "C": "Only share raw data",
+      "D": "Avoid communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Framing discussions in terms of objectives and consequences fosters better decisions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 246,
+    "question": "Security automation prioritization should focus on:",
+    "options": {
+      "A": "Only low-value tasks",
+      "B": "High-volume, repeatable tasks where automation improves accuracy and frees analysts for complex work",
+      "C": "Automating everything regardless of value",
+      "D": "Only manual processes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strategic automation maximizes ROI and reduces human error in routine activities.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "Cybersecurity certifications benefit professionals by:",
+    "options": {
+      "A": "Guaranteeing job placement",
+      "B": "Validating knowledge, enhancing credibility, and demonstrating commitment to continuous learning",
+      "C": "Eliminating the need for experience",
+      "D": "Only HR use"
+    },
+    "correctAnswer": "B",
+    "explanation": "Certifications signal proficiency and support career advancement in a competitive field.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 248,
+    "question": "Holistic incident response combines:",
+    "options": {
+      "A": "Only technical fixes",
+      "B": "Technical remediation, legal coordination, stakeholder communication, and post-incident learning",
+      "C": "Only PR statements",
+      "D": "Only forensic analysis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Comprehensive responses address legal, reputational, and technical dimensions of breaches.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 249,
+    "question": "Ethics in cybersecurity requires:",
+    "options": {
+      "A": "Only following laws",
+      "B": "Upholding privacy, integrity, and fairness, even beyond regulatory requirements",
+      "C": "Ignoring moral considerations",
+      "D": "Only technical adherence"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical practice builds trust and guides decision-making in ambiguous scenarios.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 250,
+    "question": "Lifelong learning in cybersecurity entails:",
+    "options": {
+      "A": "Only attending school once",
+      "B": "Continuously updating skills through courses, hands-on labs, community engagement, and research",
+      "C": "Avoiding new developments",
+      "D": "Only reading textbooks"
+    },
+    "correctAnswer": "B",
+    "explanation": "The field’s rapid evolution demands an ongoing commitment to skill and knowledge growth.",
+    "difficulty": "Hard"
+  }
+]
