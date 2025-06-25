@@ -30,7 +30,7 @@ const games = [
     icon: Timer,
     color: "#6366F1",
     tags: ["AI-Adaptive", "Real-time Competition", "Power-ups"],
-    url: "https://gtoxn8kezkxlckqq.vercel.app/",
+    url: "https://cewrcehhzcduggkd.vercel.app/",
     features: [
       {
         icon: Trophy,
