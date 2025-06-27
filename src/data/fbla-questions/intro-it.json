@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "question": "Which component temporarily holds instructions and data the CPU needs immediately?",
+    "options": {
+      "A": "Registers",
+      "B": "Cache",
+      "C": "RAM",
+      "D": "ROM"
+    },
+    "correctAnswer": "A",
+    "explanation": "Registers are the CPU’s fastest storage, holding operands and results for ongoing operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "question": "In RAID configurations, which level provides full disk mirroring for fault tolerance?",
+    "options": {
+      "A": "RAID 0",
+      "B": "RAID 1",
+      "C": "RAID 5",
+      "D": "RAID 10"
+    },
+    "correctAnswer": "B",
+    "explanation": "RAID 1 duplicates all data on two drives, so one can fail without data loss.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Which part of an operating system is responsible for memory management, process scheduling, and low-level hardware control?",
+    "options": {
+      "A": "File system",
+      "B": "Device drivers",
+      "C": "Kernel",
+      "D": "Shell"
+    },
+    "correctAnswer": "C",
+    "explanation": "The kernel runs in privileged mode to manage resources and hardware interactions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Which user interface paradigm uses windows, icons, menus, and pointers?",
+    "options": {
+      "A": "Command-line",
+      "B": "API",
+      "C": "Application layer",
+      "D": "Graphical user interface (GUI)"
+    },
+    "correctAnswer": "D",
+    "explanation": "GUIs allow users to interact visually rather than typing text commands.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "Agile software development is characterized by:",
+    "options": {
+      "A": "Iterative cycles with frequent feedback",
+      "B": "Detailed upfront specifications only",
+      "C": "Single-phase delivery",
+      "D": "No requirement for testing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Agile breaks work into short sprints, adapting to change quickly.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "In a spreadsheet, an absolute cell reference (e.g., $A$1) ensures that:",
+    "options": {
+      "A": "The formula automatically updates to relative references",
+      "B": "The reference doesn’t change when the formula is copied",
+      "C": "The sheet name cannot be modified",
+      "D": "The workbook saves to a fixed path"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dollar signs lock both column and row when duplicating formulas.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "question": "Which registry hive in Windows stores hardware configuration data?",
+    "options": {
+      "A": "HKEY_CURRENT_USER",
+      "B": "HKEY_USERS",
+      "C": "HKEY_LOCAL_MACHINE",
+      "D": "HKEY_CLASSES_ROOT"
+    },
+    "correctAnswer": "C",
+    "explanation": "HKLM contains system-wide settings, including hardware profiles.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8,
+    "question": "Which command-line utility lists active network connections on a Windows system?",
+    "options": {
+      "A": "ipconfig",
+      "B": "tracert",
+      "C": "ping",
+      "D": "netstat"
+    },
+    "correctAnswer": "D",
+    "explanation": "netstat displays TCP/UDP endpoints and listening ports.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Which storage type relies on spinning platters and moving read/write heads?",
+    "options": {
+      "A": "HDD",
+      "B": "Optical disk",
+      "C": "USB flash drive",
+      "D": "Magnetic tape"
+    },
+    "correctAnswer": "A",
+    "explanation": "Hard disk drives use mechanical parts; flash and optical are solid-state or laser-based.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "In word processing, a “mail merge” feature automates:",
+    "options": {
+      "A": "Spelling checks",
+      "B": "Inserting database fields into form letters",
+      "C": "Applying macros",
+      "D": "Formatting tables"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mail merge pulls records (names, addresses) into standardized documents.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "Which network topology connects each node directly to every other node?",
+    "options": {
+      "A": "Star",
+      "B": "Ring",
+      "C": "Mesh",
+      "D": "Bus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Mesh networks offer maximum redundancy but are costly to implement.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "question": "Which protocol is used to deliver web pages to a browser?",
+    "options": {
+      "A": "FTP",
+      "B": "SMTP",
+      "C": "DNS",
+      "D": "HTTP"
+    },
+    "correctAnswer": "D",
+    "explanation": "HTTP (and its secure variant HTTPS) transfers hypertext documents.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "Which Windows utility provides a graphical map of disk usage by folder and file?",
+    "options": {
+      "A": "WinDirStat",
+      "B": "Disk Cleanup",
+      "C": "Resource Monitor",
+      "D": "Event Viewer"
+    },
+    "correctAnswer": "A",
+    "explanation": "WinDirStat displays folder sizes in a color-coded treemap.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "In presentation software, “slide master” is used to:",
+    "options": {
+      "A": "Embed videos",
+      "B": "Define consistent layouts and formatting for all slides",
+      "C": "Record narration",
+      "D": "Export as PDF"
+    },
+    "correctAnswer": "B",
+    "explanation": "Changes in the slide master apply globally to the deck’s design.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "Which IPv4 address class can support approximately 16 million hosts on a single network?",
+    "options": {
+      "A": "Class B",
+      "B": "Class C",
+      "C": "Class A",
+      "D": "Class D"
+    },
+    "correctAnswer": "C",
+    "explanation": "Class A networks (1.0.0.0–126.255.255.255) allow 2²⁴–2 hosts ≈16 million.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "question": "In HTML, which URI scheme opens the default email client?",
+    "options": {
+      "A": "ftp:",
+      "B": "http:",
+      "C": "telnet:",
+      "D": "mailto:"
+    },
+    "correctAnswer": "D",
+    "explanation": "“mailto:” links prompt the browser to launch the email application.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 17,
+    "question": "Which chart type is most suitable for displaying trends over time?",
+    "options": {
+      "A": "Line",
+      "B": "Pie",
+      "C": "Histogram",
+      "D": "Scatter"
+    },
+    "correctAnswer": "A",
+    "explanation": "Line charts connect data points chronologically to highlight trends.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "A spreadsheet formula uses “=SUM(A1:A10)” to:",
+    "options": {
+      "A": "Count entries in A1–A10",
+      "B": "Calculate the total of values in cells A1 through A10",
+      "C": "Find the average of a range",
+      "D": "Search for text"
+    },
+    "correctAnswer": "B",
+    "explanation": "SUM adds all numeric values within the specified range.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "Which file extension indicates a PowerPoint presentation?",
+    "options": {
+      "A": ".docx",
+      "B": ".xlsx",
+      "C": ".pptx",
+      "D": ".txt"
+    },
+    "correctAnswer": "C",
+    "explanation": ".pptx is the XML-based format for modern presentations.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "Which Windows utility displays logs of application, system, and security events?",
+    "options": {
+      "A": "Disk Cleanup",
+      "B": "System Restore",
+      "C": "Task Scheduler",
+      "D": "Event Viewer"
+    },
+    "correctAnswer": "D",
+    "explanation": "Event Viewer lets administrators review error and informational logs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "Which Boolean operator broadens search results by including pages that contain either term?",
+    "options": {
+      "A": "OR",
+      "B": "NOT",
+      "C": "AND",
+      "D": "XOR"
+    },
+    "correctAnswer": "A",
+    "explanation": "OR retrieves items containing any of the listed keywords, increasing hits.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "In email etiquette, which greeting is most appropriate for formal business communication?",
+    "options": {
+      "A": "Hey team!",
+      "B": "Dear Mr. Smith,",
+      "C": "Yo!",
+      "D": "Sup?"
+    },
+    "correctAnswer": "B",
+    "explanation": "“Dear Mr. Smith,” shows professionalism and respect.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "question": "What does URL stand for in web addresses?",
+    "options": {
+      "A": "Uniform Resource Link",
+      "B": "United Resource Locator",
+      "C": "Uniform Resource Locator",
+      "D": "Universal Reference Link"
+    },
+    "correctAnswer": "C",
+    "explanation": "URL defines the address of resources on the Internet.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "question": "Which key combination is used to copy selected text in most applications?",
+    "options": {
+      "A": "Ctrl X",
+      "B": "Ctrl V",
+      "C": "Ctrl C",
+      "D": "Ctrl Z"
+    },
+    "correctAnswer": "D",
+    "explanation": "Ctrl C copies; Ctrl Z undoes the last action.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 25,
+    "question": "In networking, DHCP stands for:",
+    "options": {
+      "A": "Dynamic Host Configuration Protocol",
+      "B": "Data Hypertext Control Process",
+      "C": "Dedicated Host Communication Path",
+      "D": "Domain Host Connection Protocol"
+    },
+    "correctAnswer": "A",
+    "explanation": "DHCP automates IP address assignment and network settings.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 26,
+    "question": "What does the acronym BIOS stand for?",
+    "options": {
+      "A": "Basic Input/Output System",
+      "B": "Binary Integrated Operating Software",
+      "C": "Basic Internal Operating Sequence",
+      "D": "Binary Input Output Software"
+    },
+    "correctAnswer": "B",
+    "explanation": "BIOS stands for Basic Input/Output System, the firmware interface between hardware and OS.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "Which topology uses a single central cable to which all network devices are attached?",
+    "options": {
+      "A": "Ring",
+      "B": "Star",
+      "C": "Bus",
+      "D": "Mesh"
+    },
+    "correctAnswer": "C",
+    "explanation": "In a bus topology, all devices share a common backbone cable for communication.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of DNS in networking?",
+    "options": {
+      "A": "Encrypt data in transit",
+      "B": "Translate domain names to IP addresses",
+      "C": "Route packets between networks",
+      "D": "Manage email delivery"
+    },
+    "correctAnswer": "D",
+    "explanation": "DNS (Domain Name System) resolves human-friendly domain names to numeric IP addresses.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "question": "Which device operates at the data link layer to forward frames based on MAC addresses?",
+    "options": {
+      "A": "Router",
+      "B": "Switch",
+      "C": "Hub",
+      "D": "Gateway"
+    },
+    "correctAnswer": "A",
+    "explanation": "Switches forward Ethernet frames based on MAC addresses at Layer 2 of the OSI model.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "What is the function of a VPN?",
+    "options": {
+      "A": "Accelerate web browsing",
+      "B": "Create a secure tunnel over a public network",
+      "C": "Provide local file sharing",
+      "D": "Block all incoming traffic"
+    },
+    "correctAnswer": "B",
+    "explanation": "A VPN (Virtual Private Network) encrypts traffic between your device and a remote server.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "Which protocol is used to securely copy files between hosts on a network?",
+    "options": {
+      "A": "FTP",
+      "B": "HTTP",
+      "C": "SMTP",
+      "D": "SCP"
+    },
+    "correctAnswer": "C",
+    "explanation": "SCP (Secure Copy Protocol) uses SSH to transfer files securely between hosts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "Which keyboard shortcut pastes the contents of the clipboard?",
+    "options": {
+      "A": "Ctrl X",
+      "B": "Ctrl C",
+      "C": "Ctrl V",
+      "D": "Ctrl Z"
+    },
+    "correctAnswer": "D",
+    "explanation": "Ctrl V pastes; Ctrl Z undoes. Paste is Ctrl V.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "question": "In hexadecimal numbering, what is the decimal equivalent of 0x1A?",
+    "options": {
+      "A": "26",
+      "B": "24",
+      "C": "28",
+      "D": "30"
+    },
+    "correctAnswer": "A",
+    "explanation": "Hex 1A equals 1×16 + 10 = 26 in decimal.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 34,
+    "question": "Which memory type is non-volatile and can be electrically erased and reprogrammed?",
+    "options": {
+      "A": "SRAM",
+      "B": "DRAM",
+      "C": "EEPROM",
+      "D": "Cache"
+    },
+    "correctAnswer": "B",
+    "explanation": "EEPROM (Electrically Erasable Programmable ROM) retains data when power is off and can be rewritten.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "Which layer of the OSI model ensures end-to-end communication and error recovery?",
+    "options": {
+      "A": "Physical",
+      "B": "Data Link",
+      "C": "Transport",
+      "D": "Session"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Transport layer (Layer 4) provides reliable delivery and error correction (e.g., TCP).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "What is the primary purpose of a proxy server?",
+    "options": {
+      "A": "Translate domain names",
+      "B": "Cache requests and enforce access control",
+      "C": "Encrypt disk data",
+      "D": "Manage user accounts"
+    },
+    "correctAnswer": "D",
+    "explanation": "Proxy servers sit between clients and servers to cache content and filter requests.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "Which file system is commonly used by Linux operating systems?",
+    "options": {
+      "A": "FAT32",
+      "B": "NTFS",
+      "C": "ext4",
+      "D": "HFS+"
+    },
+    "correctAnswer": "A",
+    "explanation": "ext4 is a journaling file system widely adopted by Linux distributions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "What does POST stand for in the context of system startup?",
+    "options": {
+      "A": "Power On Self Test",
+      "B": "Peripheral Operating Sequence Token",
+      "C": "Primary OS Startup",
+      "D": "Processor Operational Self Test"
+    },
+    "correctAnswer": "B",
+    "explanation": "POST (Power On Self Test) is the diagnostic test run by firmware at boot time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "Which command shows the current directory in a UNIX shell?",
+    "options": {
+      "A": "pwd",
+      "B": "ls",
+      "C": "cd",
+      "D": "dir"
+    },
+    "correctAnswer": "C",
+    "explanation": "pwd (print working directory) displays the current directory path.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "question": "Which protocol automates the assignment of IP addresses?",
+    "options": {
+      "A": "FTP",
+      "B": "DHCP",
+      "C": "SMTP",
+      "D": "SNMP"
+    },
+    "correctAnswer": "D",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) dynamically assigns IP settings to hosts.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "Which command removes a file in a Linux terminal?",
+    "options": {
+      "A": "rm",
+      "B": "move",
+      "C": "del",
+      "D": "erase"
+    },
+    "correctAnswer": "A",
+    "explanation": "rm deletes files, while del/erase are Windows commands.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 42,
+    "question": "What kind of address is 192.168.1.1 in home networks?",
+    "options": {
+      "A": "Public IP",
+      "B": "Multicast IP",
+      "C": "Private IP",
+      "D": "Broadcast IP"
+    },
+    "correctAnswer": "B",
+    "explanation": "192.168.x.x addresses are reserved private IPs not routable on the public internet.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "In relational databases, what does SQL stand for?",
+    "options": {
+      "A": "Secure Query Language",
+      "B": "Structured Query Language",
+      "C": "Sequential Question Logic",
+      "D": "Simple Query Link"
+    },
+    "correctAnswer": "C",
+    "explanation": "SQL stands for Structured Query Language, used for managing relational data.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 44,
+    "question": "Which layer encrypts data for secure web communication in HTTPS?",
+    "options": {
+      "A": "Network",
+      "B": "Transport",
+      "C": "Application",
+      "D": "Data Link"
+    },
+    "correctAnswer": "D",
+    "explanation": "TLS/SSL operates at the Transport layer to secure HTTP traffic.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "Which key is used in asymmetric encryption to decrypt data?",
+    "options": {
+      "A": "Public key",
+      "B": "Private key",
+      "C": "Session key",
+      "D": "Symmetric key"
+    },
+    "correctAnswer": "A",
+    "explanation": "In asymmetric crypto, data encrypted with the public key is decrypted with the private key.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 46,
+    "question": "Which Windows feature allows users to run applications in a contained environment?",
+    "options": {
+      "A": "Hyper-V",
+      "B": "BitLocker",
+      "C": "Windows Defender",
+      "D": "Task Manager"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hyper-V provides virtualization; container environments isolate apps from the OS.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "question": "What does SSD stand for in storage technology?",
+    "options": {
+      "A": "Solid State Drive",
+      "B": "Secure Storage Disk",
+      "C": "System Storage Device",
+      "D": "Single Sided Disk"
+    },
+    "correctAnswer": "C",
+    "explanation": "SSD (Solid State Drive) uses flash memory without moving parts for storage.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "question": "Which protocol is used to synchronize a computer’s clock over a network?",
+    "options": {
+      "A": "SMTP",
+      "B": "FTP",
+      "C": "NTP",
+      "D": "DNS"
+    },
+    "correctAnswer": "D",
+    "explanation": "NTP (Network Time Protocol) synchronizes system time across devices.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "question": "Which command in Windows shows the path to the current directory?",
+    "options": {
+      "A": "whereami",
+      "B": "getcwd",
+      "C": "pwd",
+      "D": "cd"
+    },
+    "correctAnswer": "A",
+    "explanation": "cd changes directories; there is no whereami command in Windows CMD.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 50,
+    "question": "What is the maximum transfer rate of USB 3.0?",
+    "options": {
+      "A": "480 Mbps",
+      "B": "5 Gbps",
+      "C": "10 Gbps",
+      "D": "12 Gbps"
+    },
+    "correctAnswer": "B",
+    "explanation": "USB 3.0 (SuperSpeed) supports up to 5 gigabits per second.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "What does GPU stand for?",
+    "options": {
+      "A": "Graphics Processing Unit",
+      "B": "General Purpose Unit",
+      "C": "Graphical Protocol Utility",
+      "D": "Global Processing Unit"
+    },
+    "correctAnswer": "A",
+    "explanation": "GPU stands for Graphics Processing Unit, specialized for rendering images.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 52,
+    "question": "Which type of hypervisor runs on top of a host operating system?",
+    "options": {
+      "A": "Type 1",
+      "B": "Type 2",
+      "C": "Type 3",
+      "D": "Type 4"
+    },
+    "correctAnswer": "B",
+    "explanation": "Type 2 hypervisors install as applications on a host OS, unlike bare-metal Type 1.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "Which memory technology is non-volatile and stores firmware instructions?",
+    "options": {
+      "A": "Cache",
+      "B": "RAM",
+      "C": "ROM",
+      "D": "VRAM"
+    },
+    "correctAnswer": "C",
+    "explanation": "ROM (Read-Only Memory) retains data without power and stores firmware like BIOS.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "Which protocol uses TCP port 443 by default?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "SSH",
+      "D": "HTTPS"
+    },
+    "correctAnswer": "D",
+    "explanation": "HTTPS (HTTP Secure) encrypts web traffic and communicates over port 443.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 55,
+    "question": "Which of the following is a relational database management system?",
+    "options": {
+      "A": "MySQL",
+      "B": "MongoDB",
+      "C": "Redis",
+      "D": "Neo4j"
+    },
+    "correctAnswer": "A",
+    "explanation": "MySQL organizes data in relational tables and supports SQL queries.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "question": "Which markup language is used to structure web page content?",
+    "options": {
+      "A": "JSON",
+      "B": "HTML",
+      "C": "CSS",
+      "D": "XML"
+    },
+    "correctAnswer": "B",
+    "explanation": "HTML (HyperText Markup Language) defines the structure of web pages.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 57,
+    "question": "Which CSS property is used to change text color?",
+    "options": {
+      "A": "font-size",
+      "B": "margin",
+      "C": "color",
+      "D": "background"
+    },
+    "correctAnswer": "C",
+    "explanation": "The CSS 'color' property sets the color of text elements.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 58,
+    "question": "In JavaScript, which method outputs messages to the browser console?",
+    "options": {
+      "A": "print()",
+      "B": "alert()",
+      "C": "write()",
+      "D": "console.log()"
+    },
+    "correctAnswer": "D",
+    "explanation": "console.log() writes messages to the developer console for debugging.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "In IPv6 notation, what does the double colon (::) represent?",
+    "options": {
+      "A": "A consecutive run of zero groups",
+      "B": "A multicast address prefix",
+      "C": "A loopback address",
+      "D": "A broadcast address"
+    },
+    "correctAnswer": "A",
+    "explanation": "The :: shorthand compresses one or more groups of 16-bit zeros in an address.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 60,
+    "question": "What does RAID stand for in storage technology?",
+    "options": {
+      "A": "Redundant Array of Independent Disks",
+      "B": "Random Access of Indexed Data",
+      "C": "Rapid Access Internet Drive",
+      "D": "Reliable Architectural Input Device"
+    },
+    "correctAnswer": "B",
+    "explanation": "RAID stands for Redundant Array of Independent Disks, providing redundancy or performance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 61,
+    "question": "Which command in UNIX/Linux changes the file permissions?",
+    "options": {
+      "A": "chown",
+      "B": "chmod",
+      "C": "chroot",
+      "D": "chgrp"
+    },
+    "correctAnswer": "C",
+    "explanation": "chmod modifies file or directory permissions (read, write, execute).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "Which technology allows two computers to exchange time-synchronized data?",
+    "options": {
+      "A": "SMTP",
+      "B": "NTP",
+      "C": "LDAP",
+      "D": "SNTP"
+    },
+    "correctAnswer": "D",
+    "explanation": "NTP (Network Time Protocol) synchronizes clocks; SNTP is a simplified version.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 63,
+    "question": "Which Windows file system supports large volumes and files over 4 GB?",
+    "options": {
+      "A": "FAT32",
+      "B": "exFAT",
+      "C": "ext4",
+      "D": "NTFS"
+    },
+    "correctAnswer": "A",
+    "explanation": "NTFS supports large files and volumes, security features, and journaling.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "Which tool is used to measure round-trip time between two network hosts?",
+    "options": {
+      "A": "tracert",
+      "B": "ping",
+      "C": "netstat",
+      "D": "ipconfig"
+    },
+    "correctAnswer": "B",
+    "explanation": "ping sends ICMP echo requests and reports response time from the destination.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 65,
+    "question": "Which development model emphasizes continuous integration and continuous delivery?",
+    "options": {
+      "A": "Waterfall",
+      "B": "V-Model",
+      "C": "Spiral",
+      "D": "DevOps"
+    },
+    "correctAnswer": "C",
+    "explanation": "DevOps combines development and operations for rapid, automated deployment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "What is the primary function of DNS?",
+    "options": {
+      "A": "Encrypt web traffic",
+      "B": "Resolve domain names into IP addresses",
+      "C": "Route packets between networks",
+      "D": "Filter spam emails"
+    },
+    "correctAnswer": "D",
+    "explanation": "DNS translates human-friendly domain names into numeric IP addresses.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "question": "In database SQL, which keyword retrieves unique rows only?",
+    "options": {
+      "A": "UNION",
+      "B": "DISTINCT",
+      "C": "GROUP BY",
+      "D": "ALL"
+    },
+    "correctAnswer": "A",
+    "explanation": "DISTINCT eliminates duplicate rows from the result set of a query.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "Which storage medium offers the fastest typical read/write speeds?",
+    "options": {
+      "A": "Magnetic tape",
+      "B": "SSD",
+      "C": "HDD",
+      "D": "Optical drive"
+    },
+    "correctAnswer": "B",
+    "explanation": "SSDs use flash memory, providing much higher I/O performance than HDDs.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 69,
+    "question": "Which command-line program displays disk usage statistics in Linux?",
+    "options": {
+      "A": "df",
+      "B": "du",
+      "C": "lsblk",
+      "D": "fdisk"
+    },
+    "correctAnswer": "C",
+    "explanation": "du reports directory-level sizes, while df shows filesystem-level usage.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": {
+      "A": "<link>",
+      "B": "<a>",
+      "C": "<href>",
+      "D": "<url>"
+    },
+    "correctAnswer": "D",
+    "explanation": "The <a> tag with the href attribute defines a hyperlink in HTML.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 71,
+    "question": "What does VPN stand for?",
+    "options": {
+      "A": "Virtual Private Network",
+      "B": "Variable Protocol Network",
+      "C": "Verified Public Namespace",
+      "D": "Virtual Public Node"
+    },
+    "correctAnswer": "A",
+    "explanation": "VPNs create secure, encrypted tunnels over public networks for privacy.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 72,
+    "question": "Which protocol is commonly used to retrieve email from a server?",
+    "options": {
+      "A": "SMTP",
+      "B": "IMAP",
+      "C": "FTP",
+      "D": "HTTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "IMAP allows clients to access and manage email stored on a mail server.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "Which scripting language is executed on the server side?",
+    "options": {
+      "A": "JavaScript",
+      "B": "VBScript",
+      "C": "PHP",
+      "D": "CSS"
+    },
+    "correctAnswer": "C",
+    "explanation": "PHP runs on the server to generate dynamic web page content before delivery.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "question": "What kind of address is 255.255.255.255 in IPv4?",
+    "options": {
+      "A": "Loopback address",
+      "B": "Private network address",
+      "C": "Broadcast address",
+      "D": "Multicast address"
+    },
+    "correctAnswer": "D",
+    "explanation": "255.255.255.255 is the limited broadcast address to reach all hosts on the subnet.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 75,
+    "question": "Which Windows utility is used to view and manage running services?",
+    "options": {
+      "A": "services.msc",
+      "B": "taskmgr.exe",
+      "C": "msinfo32",
+      "D": "regedit.exe"
+    },
+    "correctAnswer": "A",
+    "explanation": "services.msc opens the Services console to start, stop, or configure services.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Which device translates private IP addresses to a public IP address for multiple hosts?",
+    "options": {
+      "A": "Network Address Translator (NAT)",
+      "B": "Proxy Server",
+      "C": "DNS Server",
+      "D": "DHCP Server"
+    },
+    "correctAnswer": "A",
+    "explanation": "NAT allows multiple devices on a private network to share a single public IP address.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "In a relational database, which operation combines rows from two tables based on a related column?",
+    "options": {
+      "A": "INSERT",
+      "B": "JOIN",
+      "C": "DELETE",
+      "D": "UPDATE"
+    },
+    "correctAnswer": "B",
+    "explanation": "A JOIN merges rows from tables where a specified condition is met.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "Which programming paradigm emphasizes objects that contain data and behavior?",
+    "options": {
+      "A": "Procedural",
+      "B": "Functional",
+      "C": "Object-Oriented",
+      "D": "Declarative"
+    },
+    "correctAnswer": "C",
+    "explanation": "Object-oriented programming models software as interacting objects with methods and properties.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "Which cloud service model provides virtualized hardware resources over the Internet?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "FaaS",
+      "D": "IaaS"
+    },
+    "correctAnswer": "D",
+    "explanation": "IaaS offers infrastructure components like virtual machines and storage on demand.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "question": "Which Linux command displays the first lines of a file by default?",
+    "options": {
+      "A": "head",
+      "B": "tail",
+      "C": "grep",
+      "D": "awk"
+    },
+    "correctAnswer": "A",
+    "explanation": "The head command outputs the first ten lines of a file unless otherwise specified.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 81,
+    "question": "Which HTTP status code indicates that the requested resource was not found?",
+    "options": {
+      "A": "200",
+      "B": "404",
+      "C": "500",
+      "D": "301"
+    },
+    "correctAnswer": "B",
+    "explanation": "A 404 code means the server could not locate the requested URL.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 82,
+    "question": "Which command in Git creates a new branch?",
+    "options": {
+      "A": "git commit",
+      "B": "git merge",
+      "C": "git branch",
+      "D": "git push"
+    },
+    "correctAnswer": "C",
+    "explanation": "git branch <name> defines a new branch pointer at the current commit.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "Which wireless standard operates in the 5 GHz band and supports speeds up to 1.3 Gbps?",
+    "options": {
+      "A": "802.11b",
+      "B": "802.11g",
+      "C": "802.11n",
+      "D": "802.11ac"
+    },
+    "correctAnswer": "D",
+    "explanation": "802.11ac uses wider channels and beamforming for higher throughput on 5 GHz.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "question": "In object-oriented design, which principle suggests a class should have only one reason to change?",
+    "options": {
+      "A": "Open/Closed Principle",
+      "B": "Liskov Substitution Principle",
+      "C": "Single Responsibility Principle",
+      "D": "Dependency Inversion Principle"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Single Responsibility Principle states each class should focus on a single task.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 85,
+    "question": "Which backup type copies only files changed since the last full backup?",
+    "options": {
+      "A": "Full",
+      "B": "Incremental",
+      "C": "Differential",
+      "D": "Mirror"
+    },
+    "correctAnswer": "B",
+    "explanation": "Incremental backups are faster and smaller by capturing changes since the last full backup.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "question": "Which layer of the TCP/IP model corresponds to the OSI Transport layer?",
+    "options": {
+      "A": "Application",
+      "B": "Network Interface",
+      "C": "Internet",
+      "D": "Transport"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Internet layer in TCP/IP handles routing and logical addressing, akin to OSI’s Network layer.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "Which scripting language is typically used for Windows automation?",
+    "options": {
+      "A": "Bash",
+      "B": "Python",
+      "C": "PowerShell",
+      "D": "Ruby"
+    },
+    "correctAnswer": "D",
+    "explanation": "PowerShell provides cmdlets and .NET integration for Windows system administration.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "question": "Which display connector is analog rather than digital?",
+    "options": {
+      "A": "HDMI",
+      "B": "DisplayPort",
+      "C": "VGA",
+      "D": "DVI-D"
+    },
+    "correctAnswer": "A",
+    "explanation": "VGA transmits analog video signals, unlike digital interfaces such as HDMI or DVI-D.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 89,
+    "question": "Which Windows tool checks for and repairs corrupted system files?",
+    "options": {
+      "A": "sfc",
+      "B": "chkdsk",
+      "C": "diskpart",
+      "D": "msconfig"
+    },
+    "correctAnswer": "B",
+    "explanation": "sfc /scannow scans protected system files and replaces incorrect versions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "Which file permission setting in UNIX allows anyone to read and execute but not write?",
+    "options": {
+      "A": "755",
+      "B": "644",
+      "C": "700",
+      "D": "777"
+    },
+    "correctAnswer": "C",
+    "explanation": "755 grants read/execute to group and others; 700 restricts entirely to the owner.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 91,
+    "question": "Which SQL clause filters rows after grouping?",
+    "options": {
+      "A": "WHERE",
+      "B": "HAVING",
+      "C": "ORDER BY",
+      "D": "GROUP BY"
+    },
+    "correctAnswer": "D",
+    "explanation": "HAVING applies conditions on aggregated data after the GROUP BY operation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "question": "Which network diagnostic tool traces the path packets take to a destination?",
+    "options": {
+      "A": "ping",
+      "B": "nslookup",
+      "C": "traceroute",
+      "D": "arp"
+    },
+    "correctAnswer": "A",
+    "explanation": "traceroute (or tracert in Windows) shows each hop packets traverse en route to the target.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "In CSS, which selector targets an element by its ID?",
+    "options": {
+      "A": ".class",
+      "B": "#id",
+      "C": "element",
+      "D": "*"
+    },
+    "correctAnswer": "B",
+    "explanation": "The '#' prefix in CSS selects the element with the specified ID attribute.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 94,
+    "question": "Which Windows feature encrypts entire volumes to protect data at rest?",
+    "options": {
+      "A": "BitLocker",
+      "B": "Device Guard",
+      "C": "AppLocker",
+      "D": "Secure Boot"
+    },
+    "correctAnswer": "C",
+    "explanation": "BitLocker encrypts disk volumes; AppLocker restricts application execution policies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "Which command in Linux displays real-time system resource usage?",
+    "options": {
+      "A": "top",
+      "B": "ps",
+      "C": "ls",
+      "D": "df"
+    },
+    "correctAnswer": "D",
+    "explanation": "The top command shows live CPU, memory, and process data on the terminal.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 96,
+    "question": "What is the standard port number for SSH?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "80",
+      "D": "443"
+    },
+    "correctAnswer": "A",
+    "explanation": "SSH listens by default on TCP port 22 for secure shell connections.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 97,
+    "question": "Which image format uses lossless compression and supports transparency?",
+    "options": {
+      "A": "JPEG",
+      "B": "GIF",
+      "C": "BMP",
+      "D": "TIFF"
+    },
+    "correctAnswer": "B",
+    "explanation": "PNG provides lossless compression and alpha transparency; GIF is limited to 256 colors.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "Which key combination locks a Windows workstation immediately?",
+    "options": {
+      "A": "Ctrl+Alt+Delete",
+      "B": "Win+L",
+      "C": "Alt+F4",
+      "D": "Ctrl+Shift+Esc"
+    },
+    "correctAnswer": "C",
+    "explanation": "Win+L is the shortcut to lock the screen on Windows machines.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 99,
+    "question": "Which technology allows multiple operating systems to run on one physical server concurrently?",
+    "options": {
+      "A": "Virtualization",
+      "B": "Clustering",
+      "C": "Load balancing",
+      "D": "Caching"
+    },
+    "correctAnswer": "D",
+    "explanation": "Virtualization abstracts hardware to host multiple OS instances, unlike caching which stores data.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "Which Azure service provides identity and access management in the cloud?",
+    "options": {
+      "A": "Azure Blob Storage",
+      "B": "Azure AD",
+      "C": "Azure Functions",
+      "D": "Azure Cosmos DB"
+    },
+    "correctAnswer": "A",
+    "explanation": "Azure AD (Active Directory) offers authentication, single sign-on, and access control.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 101,
+    "question": "Which component converts digital signals into analog for transmission over telephone lines?",
+    "options": {
+      "A": "Modem",
+      "B": "Router",
+      "C": "Switch",
+      "D": "Hub"
+    },
+    "correctAnswer": "A",
+    "explanation": "A modem modulates and demodulates signals so digital data can travel over analog phone networks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 102,
+    "question": "In a subnet mask of 255.255.255.0, how many bits are used for the network portion?",
+    "options": {
+      "A": "16",
+      "B": "24",
+      "C": "8",
+      "D": "32"
+    },
+    "correctAnswer": "B",
+    "explanation": "255.255.255.0 corresponds to 24 network bits and 8 host bits in IPv4.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "Which programming construct allows repeated execution of a block of code while a condition is true?",
+    "options": {
+      "A": "If statement",
+      "B": "Switch statement",
+      "C": "While loop",
+      "D": "Function"
+    },
+    "correctAnswer": "C",
+    "explanation": "A while loop tests a condition and repeats its body until the condition becomes false.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 104,
+    "question": "Which RAID level stripes data across multiple disks without parity or mirroring?",
+    "options": {
+      "A": "RAID 1",
+      "B": "RAID 5",
+      "C": "RAID 10",
+      "D": "RAID 0"
+    },
+    "correctAnswer": "D",
+    "explanation": "RAID 0 splits data evenly across disks to improve performance but offers no redundancy.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "Which HTTP method is used to submit data to be processed to a specified resource?",
+    "options": {
+      "A": "POST",
+      "B": "GET",
+      "C": "PUT",
+      "D": "DELETE"
+    },
+    "correctAnswer": "A",
+    "explanation": "POST sends data in the request body for the server to create or update resources.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "question": "What does SSDT stand for in data technologies?",
+    "options": {
+      "A": "SQL Server Data Tools",
+      "B": "Secure Shell Data Transfer",
+      "C": "Simple Storage Data Tier",
+      "D": "System Service Deployment Tool"
+    },
+    "correctAnswer": "B",
+    "explanation": "SQL Server Data Tools (SSDT) is a development environment for building SQL Server databases.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 107,
+    "question": "Which cloud deployment model provides resources for exclusive use by one organization?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Hybrid Cloud",
+      "C": "Private Cloud",
+      "D": "Community Cloud"
+    },
+    "correctAnswer": "C",
+    "explanation": "A private cloud is dedicated to a single organization, ensuring control over data and infrastructure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "Which tool is used to view running processes and resource usage on a Mac?",
+    "options": {
+      "A": "Activity Monitor",
+      "B": "Task Manager",
+      "C": "System Monitor",
+      "D": "Resource Manager"
+    },
+    "correctAnswer": "D",
+    "explanation": "Activity Monitor shows processes and resource usage on macOS; Resource Manager is used on Windows.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 109,
+    "question": "Which file system uses journaling to improve reliability after crashes?",
+    "options": {
+      "A": "NTFS",
+      "B": "FAT32",
+      "C": "ext4",
+      "D": "exFAT"
+    },
+    "correctAnswer": "A",
+    "explanation": "NTFS keeps a journal of metadata changes to quickly recover from crashes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 110,
+    "question": "Which protocol automatically assigns IP configuration parameters to hosts?",
+    "options": {
+      "A": "LDAP",
+      "B": "DHCP",
+      "C": "DNS",
+      "D": "HTTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) dynamically allocates IP addresses and network settings.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 111,
+    "question": "Which virtualization feature allows live migration of running VMs between hosts?",
+    "options": {
+      "A": "Snapshot",
+      "B": "vMotion",
+      "C": "Clone",
+      "D": "Rollback"
+    },
+    "correctAnswer": "C",
+    "explanation": "vMotion (in VMware) enables live migration; cloning duplicates a VM image.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 112,
+    "question": "Which IP addressing technique conserves addresses by assigning temporary leases?",
+    "options": {
+      "A": "Static IP",
+      "B": "DHCP reservation",
+      "C": "Dynamic IP",
+      "D": "Link-local"
+    },
+    "correctAnswer": "D",
+    "explanation": "Dynamic IP addresses are allocated for a lease period; link-local addresses are auto-assigned for local networks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 113,
+    "question": "Which programming language is primarily used for Android app development?",
+    "options": {
+      "A": "Swift",
+      "B": "Kotlin",
+      "C": "Objective-C",
+      "D": "C#"
+    },
+    "correctAnswer": "A",
+    "explanation": "Kotlin is Google's preferred language for Android; Swift is used for iOS apps.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "Which encryption algorithm is symmetric and widely used for securing data at rest?",
+    "options": {
+      "A": "RSA",
+      "B": "AES",
+      "C": "ECC",
+      "D": "DSA"
+    },
+    "correctAnswer": "B",
+    "explanation": "AES (Advanced Encryption Standard) is a fast, secure symmetric cipher for data encryption.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 115,
+    "question": "Which OSI layer adds headers for end-to-end delivery and segmentation?",
+    "options": {
+      "A": "Data Link",
+      "B": "Network",
+      "C": "Transport",
+      "D": "Session"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Transport layer segments messages and manages end-to-end communication (e.g., TCP).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "question": "Which tool in Windows is used to partition and format disks?",
+    "options": {
+      "A": "diskpart",
+      "B": "chkdsk",
+      "C": "sfc",
+      "D": "regedit"
+    },
+    "correctAnswer": "D",
+    "explanation": "diskpart is a command-line disk partitioning utility; regedit edits the registry.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 117,
+    "question": "Which HTML element embeds JavaScript code within a web page?",
+    "options": {
+      "A": "<script>",
+      "B": "<js>",
+      "C": "<code>",
+      "D": "<embed>"
+    },
+    "correctAnswer": "A",
+    "explanation": "The <script> tag is used to include or reference JavaScript in HTML documents.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 118,
+    "question": "Which Windows command-line tool shows file and directory sizes?",
+    "options": {
+      "A": "dir",
+      "B": "tree",
+      "C": "fsutil",
+      "D": "du"
+    },
+    "correctAnswer": "B",
+    "explanation": "du (Disk Usage) reports sizes; dir lists files; tree shows directory structure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 119,
+    "question": "Which network cable type uses light to transmit data?",
+    "options": {
+      "A": "Coaxial",
+      "B": "Twisted-pair",
+      "C": "Fiber optic",
+      "D": "Serial"
+    },
+    "correctAnswer": "C",
+    "explanation": "Fiber optic cables use glass or plastic fibers to carry light signals for high-speed data.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 120,
+    "question": "Which Microsoft tool automates desktop and application deployment in Windows environments?",
+    "options": {
+      "A": "System Center Configuration Manager",
+      "B": "Hyper-V Manager",
+      "C": "Windows Update",
+      "D": "Task Scheduler"
+    },
+    "correctAnswer": "D",
+    "explanation": "SCCM (System Center Configuration Manager) manages deployments; Task Scheduler runs scheduled tasks.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 121,
+    "question": "Which API format uses JSON over HTTP for web services?",
+    "options": {
+      "A": "SOAP",
+      "B": "REST",
+      "C": "XML-RPC",
+      "D": "CORBA"
+    },
+    "correctAnswer": "A",
+    "explanation": "RESTful APIs commonly exchange data in JSON format over HTTP protocols.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "Which Linux distribution uses .deb packages and apt for package management?",
+    "options": {
+      "A": "Fedora",
+      "B": "Ubuntu",
+      "C": "openSUSE",
+      "D": "Arch Linux"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ubuntu and Debian-based distros use .deb packages and apt-get or apt for installations.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 123,
+    "question": "Which command-line tool displays network interface statistics on Linux?",
+    "options": {
+      "A": "ifconfig",
+      "B": "netstat",
+      "C": "iwconfig",
+      "D": "lsof"
+    },
+    "correctAnswer": "C",
+    "explanation": "ifconfig shows interface configuration and statistics; netstat lists connections.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "Which Windows feature provides isolation for running untrusted applications?",
+    "options": {
+      "A": "AppLocker",
+      "B": "Sandbox",
+      "C": "BitLocker",
+      "D": "UAC"
+    },
+    "correctAnswer": "D",
+    "explanation": "Windows Sandbox creates a lightweight VM to safely run untrusted executables.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Which protocol provides secure file transfer over SSH?",
+    "options": {
+      "A": "FTPS",
+      "B": "SFTP",
+      "C": "TFTP",
+      "D": "HTTP"
+    },
+    "correctAnswer": "A",
+    "explanation": "SFTP (SSH File Transfer Protocol) secures file transfers over an encrypted SSH channel.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 126,
+    "question": "Which DNS record type maps a domain name to an IPv4 address?",
+    "options": {
+      "A": "MX",
+      "B": "A",
+      "C": "CNAME",
+      "D": "TXT"
+    },
+    "correctAnswer": "B",
+    "explanation": "An A record associates a hostname with a 32-bit IPv4 address.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 127,
+    "question": "Which Linux command creates an empty file if it does not exist or updates its timestamp?",
+    "options": {
+      "A": "rm",
+      "B": "cat",
+      "C": "touch",
+      "D": "mkdir"
+    },
+    "correctAnswer": "C",
+    "explanation": "touch creates new files or updates modification times of existing files.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 128,
+    "question": "Which HTTP header restricts a web page’s origin for embedded resources?",
+    "options": {
+      "A": "Content-Security-Policy",
+      "B": "Cache-Control",
+      "C": "User-Agent",
+      "D": "Accept-Encoding"
+    },
+    "correctAnswer": "D",
+    "explanation": "CSP headers define allowed sources for scripts, images, and other content.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 129,
+    "question": "Which PowerShell cmdlet retrieves a list of running processes?",
+    "options": {
+      "A": "Get-Service",
+      "B": "Get-Process",
+      "C": "Get-EventLog",
+      "D": "Get-Item"
+    },
+    "correctAnswer": "A",
+    "explanation": "Get-Process lists active processes; Get-Service shows Windows services.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "Which cloud model combines on-premises and public cloud resources?",
+    "options": {
+      "A": "Community Cloud",
+      "B": "Hybrid Cloud",
+      "C": "Private Cloud",
+      "D": "Public Cloud"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hybrid clouds integrate private infrastructure with public cloud services for flexibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 131,
+    "question": "Which HTML attribute specifies alternative text for an image?",
+    "options": {
+      "A": "title",
+      "B": "alt",
+      "C": "src",
+      "D": "href"
+    },
+    "correctAnswer": "C",
+    "explanation": "The alt attribute provides text descriptions for images used by screen readers.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 132,
+    "question": "Which Windows command shows network adapter configuration?",
+    "options": {
+      "A": "ipconfig",
+      "B": "netstat",
+      "C": "route",
+      "D": "nslookup"
+    },
+    "correctAnswer": "D",
+    "explanation": "ipconfig displays IP settings; nslookup queries DNS records.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "Which database architecture uses tables, rows, and columns?",
+    "options": {
+      "A": "Hierarchical",
+      "B": "Graph",
+      "C": "Relational",
+      "D": "NoSQL"
+    },
+    "correctAnswer": "A",
+    "explanation": "Relational databases organize data into tables with defined schemas and relationships.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "Which file extension indicates a compressed archive on Windows?",
+    "options": {
+      "A": ".zip",
+      "B": ".exe",
+      "C": ".dll",
+      "D": ".sys"
+    },
+    "correctAnswer": "B",
+    "explanation": "ZIP files bundle and compress multiple files for easier distribution.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 135,
+    "question": "Which command in Git discards local changes to tracked files?",
+    "options": {
+      "A": "git reset --hard",
+      "B": "git clone",
+      "C": "git pull",
+      "D": "git commit"
+    },
+    "correctAnswer": "C",
+    "explanation": "git reset --hard reverts files to the last commit, removing uncommitted changes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 136,
+    "question": "Which Python keyword defines a function?",
+    "options": {
+      "A": "func",
+      "B": "define",
+      "C": "def",
+      "D": "function"
+    },
+    "correctAnswer": "D",
+    "explanation": "def is the Python keyword used to declare a function.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 137,
+    "question": "Which virtualization concept isolates applications in separate user-space environments?",
+    "options": {
+      "A": "Containerization",
+      "B": "Hypervisor",
+      "C": "Emulation",
+      "D": "Cloning"
+    },
+    "correctAnswer": "A",
+    "explanation": "Containers share the host kernel but bundle dependencies in isolated environments.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "Which protocol uses TCP port 22 by default for secure shell access?",
+    "options": {
+      "A": "FTP",
+      "B": "SSH",
+      "C": "Telnet",
+      "D": "SMTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "SSH provides encrypted remote command-line access and file transfers.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 139,
+    "question": "Which command-line tool on Linux displays disk partition information?",
+    "options": {
+      "A": "fdisk",
+      "B": "mkfs",
+      "C": "mount",
+      "D": "chmod"
+    },
+    "correctAnswer": "C",
+    "explanation": "fdisk lists and edits partition tables; mount attaches filesystems to directories.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "Which scripting language is used for automating Windows tasks with objects and cmdlets?",
+    "options": {
+      "A": "PowerShell",
+      "B": "Shell",
+      "C": "Perl",
+      "D": "Bash"
+    },
+    "correctAnswer": "D",
+    "explanation": "PowerShell is built on .NET and uses cmdlets to manage Windows systems.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 141,
+    "question": "Which service in AWS provides object storage with high durability?",
+    "options": {
+      "A": "EC2",
+      "B": "RDS",
+      "C": "S3",
+      "D": "Lambda"
+    },
+    "correctAnswer": "A",
+    "explanation": "Amazon S3 stores and retrieves any amount of data with 99.999999999% durability.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 142,
+    "question": "Which UML diagram shows object interactions over time?",
+    "options": {
+      "A": "Class diagram",
+      "B": "Use case diagram",
+      "C": "Sequence diagram",
+      "D": "Activity diagram"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sequence diagrams illustrate message exchanges between objects in chronological order.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 143,
+    "question": "Which file permission bit grants execute rights to the owner?",
+    "options": {
+      "A": "rwx------",
+      "B": "rw-r--r--",
+      "C": "---x------",
+      "D": "------rwx"
+    },
+    "correctAnswer": "C",
+    "explanation": "The 'x' bit at the owner position allows the file to be executed by its owner.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 144,
+    "question": "Which Windows feature protects against unauthorized firmware-level changes?",
+    "options": {
+      "A": "Secure Boot",
+      "B": "Windows Defender",
+      "C": "File History",
+      "D": "System Restore"
+    },
+    "correctAnswer": "D",
+    "explanation": "Secure Boot ensures only signed, trusted bootloaders and firmware are allowed.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "Which programming construct groups statements that should execute regardless of errors?",
+    "options": {
+      "A": "try/finally",
+      "B": "if/else",
+      "C": "switch/case",
+      "D": "for loop"
+    },
+    "correctAnswer": "A",
+    "explanation": "try/finally blocks guarantee execution of cleanup code even if an exception occurs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 146,
+    "question": "Which technology allows secure remote desktop access using RDP?",
+    "options": {
+      "A": "SSH",
+      "B": "SSL VPN",
+      "C": "RD Gateway",
+      "D": "IPsec"
+    },
+    "correctAnswer": "B",
+    "explanation": "RDP (Remote Desktop Protocol) enables GUI-based remote connections to Windows hosts.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 147,
+    "question": "Which HTTP status code indicates a redirection?",
+    "options": {
+      "A": "200",
+      "B": "301",
+      "C": "404",
+      "D": "500"
+    },
+    "correctAnswer": "C",
+    "explanation": "301 Moved Permanently signals the client to request the resource at a new URL.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 148,
+    "question": "Which CLI tool on macOS lists installed Homebrew packages?",
+    "options": {
+      "A": "brew list",
+      "B": "pkgutil --pkgs",
+      "C": "brew info",
+      "D": "ls /usr/local/bin"
+    },
+    "correctAnswer": "D",
+    "explanation": "brew list displays all currently installed Homebrew packages.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 149,
+    "question": "Which database index type speeds up exact-match lookups?",
+    "options": {
+      "A": "Full-text index",
+      "B": "Hash index",
+      "C": "Spatial index",
+      "D": "Bitmap index"
+    },
+    "correctAnswer": "A",
+    "explanation": "Hash indexes offer constant time lookup for equality comparisons.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 150,
+    "question": "Which AWS service manages container orchestration at scale?",
+    "options": {
+      "A": "EKS",
+      "B": "SQS",
+      "C": "SNS",
+      "D": "CloudFront"
+    },
+    "correctAnswer": "B",
+    "explanation": "Amazon EKS (Elastic Kubernetes Service) runs Kubernetes clusters on AWS.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "What does CPU stand for?",
+    "options": {
+      "A": "Central Processing Unit",
+      "B": "Computer Performance Utility",
+      "C": "Control Program Unit",
+      "D": "Central Protocol Unit"
+    },
+    "correctAnswer": "A",
+    "explanation": "CPU stands for Central Processing Unit, the primary component that executes instructions.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 152,
+    "question": "Which key is commonly used to cancel an operation in Windows dialog boxes?",
+    "options": {
+      "A": "Enter",
+      "B": "Esc",
+      "C": "Space",
+      "D": "Ctrl"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Esc key typically closes or cancels dialog boxes in Windows.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 153,
+    "question": "Which file extension is used by plain text files?",
+    "options": {
+      "A": ".docx",
+      "B": ".pdf",
+      "C": ".txt",
+      "D": ".xlsx"
+    },
+    "correctAnswer": "C",
+    "explanation": ".txt is the standard extension for plain text files.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 154,
+    "question": "Which port does HTTP use by default?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "80",
+      "D": "443"
+    },
+    "correctAnswer": "D",
+    "explanation": "HTTP uses port 80 by default; 443 is used by HTTPS.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 155,
+    "question": "Which operating system is developed by Apple for its Mac computers?",
+    "options": {
+      "A": "macOS",
+      "B": "Windows",
+      "C": "Linux",
+      "D": "Android"
+    },
+    "correctAnswer": "A",
+    "explanation": "macOS is the proprietary operating system for Apple’s Mac lineup.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 156,
+    "question": "Which device provides wireless network connectivity to devices?",
+    "options": {
+      "A": "Modem",
+      "B": "Router",
+      "C": "Switch",
+      "D": "Printer"
+    },
+    "correctAnswer": "B",
+    "explanation": "A router directs traffic and often includes wireless access point functionality.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 157,
+    "question": "Which application is used to browse the Internet?",
+    "options": {
+      "A": "Word Processor",
+      "B": "Spreadsheet",
+      "C": "Web Browser",
+      "D": "Email Client"
+    },
+    "correctAnswer": "C",
+    "explanation": "Web browsers like Chrome or Firefox allow users to view web content.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 158,
+    "question": "Which key combination copies selected text on most systems?",
+    "options": {
+      "A": "Ctrl + X",
+      "B": "Ctrl + C",
+      "C": "Ctrl + V",
+      "D": "Ctrl + Z"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ctrl + C copies the selected content to the clipboard.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 159,
+    "question": "Which Microsoft suite includes Word, Excel, and PowerPoint?",
+    "options": {
+      "A": "Adobe Creative Cloud",
+      "B": "Google Workspace",
+      "C": "Microsoft Office",
+      "D": "OpenOffice"
+    },
+    "correctAnswer": "C",
+    "explanation": "Microsoft Office is the productivity suite with Word, Excel, and PowerPoint.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 160,
+    "question": "Which device prints physical copies of digital documents?",
+    "options": {
+      "A": "Scanner",
+      "B": "Printer",
+      "C": "Monitor",
+      "D": "Keyboard"
+    },
+    "correctAnswer": "D",
+    "explanation": "Printers produce paper output from digital files.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 161,
+    "question": "Which protocol is used to send email from a client to a server?",
+    "options": {
+      "A": "SMTP",
+      "B": "FTP",
+      "C": "HTTP",
+      "D": "IMAP"
+    },
+    "correctAnswer": "A",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send outgoing email.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 162,
+    "question": "Which storage is considered volatile memory?",
+    "options": {
+      "A": "SSD",
+      "B": "HDD",
+      "C": "RAM",
+      "D": "USB Drive"
+    },
+    "correctAnswer": "B",
+    "explanation": "RAM loses its content when power is removed, making it volatile.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 163,
+    "question": "Which tool allows you to take screenshots on Windows?",
+    "options": {
+      "A": "Snipping Tool",
+      "B": "Paint",
+      "C": "Notepad",
+      "D": "Calculator"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Snipping Tool captures selected screen areas as images.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 164,
+    "question": "Which key health check runs automatically on many operating systems to detect hardware issues?",
+    "options": {
+      "A": "Disk Cleanup",
+      "B": "Defragmenter",
+      "C": "Self-Test",
+      "D": "Disk Check"
+    },
+    "correctAnswer": "D",
+    "explanation": "Disk Check (chkdsk) inspects and repairs file system errors.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 165,
+    "question": "Which application opens .xlsx files by default?",
+    "options": {
+      "A": "Microsoft Word",
+      "B": "Microsoft Excel",
+      "C": "Notepad",
+      "D": "PowerPoint"
+    },
+    "correctAnswer": "A",
+    "explanation": ".xlsx is the native file format for Microsoft Excel spreadsheets.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 166,
+    "question": "Which icon typically represents saving a file in many applications?",
+    "options": {
+      "A": "Folder",
+      "B": "Trash can",
+      "C": "Floppy disk",
+      "D": "Printer"
+    },
+    "correctAnswer": "B",
+    "explanation": "The floppy disk icon has become the standard symbol for 'Save'.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 167,
+    "question": "Which command in a command prompt displays a list of files and folders?",
+    "options": {
+      "A": "ls",
+      "B": "cd",
+      "C": "dir",
+      "D": "pwd"
+    },
+    "correctAnswer": "C",
+    "explanation": "dir lists directory contents in Windows Command Prompt.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 168,
+    "question": "Which file extension is associated with PowerPoint templates?",
+    "options": {
+      "A": ".potx",
+      "B": ".docx",
+      "C": ".xltx",
+      "D": ".ppsx"
+    },
+    "correctAnswer": "D",
+    "explanation": ".potx is used for PowerPoint templates; .ppsx is a slide show.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "Which device converts digital video signals to display on a monitor?",
+    "options": {
+      "A": "Network card",
+      "B": "Graphics card",
+      "C": "Sound card",
+      "D": "Modem"
+    },
+    "correctAnswer": "A",
+    "explanation": "Graphics cards handle rendering of images and video for display output.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 170,
+    "question": "Which tool is used to manage user accounts on Windows?",
+    "options": {
+      "A": "User Manager",
+      "B": "Device Manager",
+      "C": "Registry Editor",
+      "D": "Control Panel"
+    },
+    "correctAnswer": "B",
+    "explanation": "User Manager allows creation and management of user accounts.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 171,
+    "question": "Which technology uses magnetic fields for short-range wireless communication?",
+    "options": {
+      "A": "Wi-Fi",
+      "B": "Bluetooth",
+      "C": "NFC",
+      "D": "Zigbee"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bluetooth uses radio waves; NFC uses magnetic induction over very short distances.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 172,
+    "question": "Which software type removes unwanted programs and malware?",
+    "options": {
+      "A": "Antivirus",
+      "B": "Spreadsheet",
+      "C": "Browser",
+      "D": "Editor"
+    },
+    "correctAnswer": "D",
+    "explanation": "Antivirus scans and removes malicious software from systems.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 173,
+    "question": "Which file extension indicates a compressed archive on Linux?",
+    "options": {
+      "A": ".zip",
+      "B": ".tar.gz",
+      "C": ".doc",
+      "D": ".exe"
+    },
+    "correctAnswer": "C",
+    "explanation": ".tar.gz archives combine multiple files and compress them on Linux systems.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 174,
+    "question": "Which command in UNIX copies files and directories?",
+    "options": {
+      "A": "rm",
+      "B": "mv",
+      "C": "cp",
+      "D": "ln"
+    },
+    "correctAnswer": "A",
+    "explanation": "cp copies files; mv moves or renames them.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 175,
+    "question": "Which keyboard shortcut opens a new tab in most web browsers?",
+    "options": {
+      "A": "Ctrl + W",
+      "B": "Ctrl + T",
+      "C": "Ctrl + N",
+      "D": "Ctrl + R"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ctrl + T opens a new browser tab; Ctrl + W closes the current tab.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 176,
+    "question": "Which key combination refreshes a web page in most browsers?",
+    "options": {
+      "A": "F5",
+      "B": "Ctrl + R",
+      "C": "Alt + F4",
+      "D": "Ctrl + N"
+    },
+    "correctAnswer": "A",
+    "explanation": "F5 is the standard browser shortcut to reload the current page.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 177,
+    "question": "Which component stores the BIOS firmware on a PC motherboard?",
+    "options": {
+      "A": "RAM",
+      "B": "ROM",
+      "C": "Hard drive",
+      "D": "Cache"
+    },
+    "correctAnswer": "B",
+    "explanation": "BIOS firmware resides in non-volatile ROM so it remains intact without power.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 178,
+    "question": "Which element in HTML defines a paragraph?",
+    "options": {
+      "A": "<div>",
+      "B": "<span>",
+      "C": "<p>",
+      "D": "<header>"
+    },
+    "correctAnswer": "C",
+    "explanation": "The <p> tag is used to enclose text as a paragraph in HTML.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 179,
+    "question": "Which utility displays current bandwidth usage on Windows?",
+    "options": {
+      "A": "Task Manager",
+      "B": "Resource Monitor",
+      "C": "Event Viewer",
+      "D": "Disk Management"
+    },
+    "correctAnswer": "D",
+    "explanation": "Resource Monitor shows detailed network usage; Disk Management handles drives.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "Which file extension is used by Microsoft Word documents?",
+    "options": {
+      "A": ".docx",
+      "B": ".xlsx",
+      "C": ".pptx",
+      "D": ".txt"
+    },
+    "correctAnswer": "A",
+    "explanation": ".docx is the modern XML-based format for Microsoft Word files.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 181,
+    "question": "Which key is used to access the boot menu on many PCs?",
+    "options": {
+      "A": "F12",
+      "B": "F2",
+      "C": "Del",
+      "D": "Esc"
+    },
+    "correctAnswer": "B",
+    "explanation": "F12 commonly opens the one-time boot menu; F2 often enters BIOS setup.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 182,
+    "question": "Which command in a Unix shell changes the current working directory?",
+    "options": {
+      "A": "pwd",
+      "B": "ls",
+      "C": "cd",
+      "D": "mkdir"
+    },
+    "correctAnswer": "C",
+    "explanation": "cd (change directory) moves you to the specified folder path.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 183,
+    "question": "Which storage medium typically offers the highest durability?",
+    "options": {
+      "A": "SSD",
+      "B": "HDD",
+      "C": "USB flash drive",
+      "D": "CD-ROM"
+    },
+    "correctAnswer": "D",
+    "explanation": "CD-ROMs are less susceptible to electrical or mechanical failure than HDDs or SSDs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "Which Windows feature reverts system files and settings to a previous point in time?",
+    "options": {
+      "A": "System Restore",
+      "B": "Backup and Restore",
+      "C": "File History",
+      "D": "Disk Cleanup"
+    },
+    "correctAnswer": "A",
+    "explanation": "System Restore rolls back system files and registry settings to a saved restore point.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 185,
+    "question": "Which wireless technology uses very short range (~10 cm) for data exchange?",
+    "options": {
+      "A": "Wi-Fi",
+      "B": "Bluetooth",
+      "C": "NFC",
+      "D": "Zigbee"
+    },
+    "correctAnswer": "B",
+    "explanation": "NFC operates at very close distances; Bluetooth works up to ~10 meters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 186,
+    "question": "Which protocol is used to securely browse the web?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "HTTPS",
+      "D": "Telnet"
+    },
+    "correctAnswer": "C",
+    "explanation": "HTTPS adds TLS encryption to HTTP for secure web communication.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 187,
+    "question": "Which key combination opens the Task Manager in Windows?",
+    "options": {
+      "A": "Ctrl + Alt + Delete",
+      "B": "Ctrl + Shift + Esc",
+      "C": "Alt + F4",
+      "D": "Win + R"
+    },
+    "correctAnswer": "D",
+    "explanation": "Ctrl + Shift + Esc directly opens Task Manager; Ctrl + Alt + Delete brings a menu.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "Which type of memory is fastest for CPU access?",
+    "options": {
+      "A": "Registers",
+      "B": "L1 cache",
+      "C": "RAM",
+      "D": "SSD"
+    },
+    "correctAnswer": "A",
+    "explanation": "Registers are on-CPU storage and faster than any cache or RAM.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 189,
+    "question": "Which extension is used for executable scripts in PowerShell?",
+    "options": {
+      "A": ".ps1",
+      "B": ".psm1",
+      "C": ".psd1",
+      "D": ".psb"
+    },
+    "correctAnswer": "B",
+    "explanation": ".ps1 is the common script extension; .psm1 is for modules.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "Which command in Linux searches for text patterns within files?",
+    "options": {
+      "A": "find",
+      "B": "grep",
+      "C": "locate",
+      "D": "which"
+    },
+    "correctAnswer": "C",
+    "explanation": "grep scans file contents for matching patterns; find locates files by name.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 191,
+    "question": "Which format is typically used for vector graphics on the web?",
+    "options": {
+      "A": "JPEG",
+      "B": "PNG",
+      "C": "SVG",
+      "D": "GIF"
+    },
+    "correctAnswer": "D",
+    "explanation": "SVG (Scalable Vector Graphics) defines images in XML for sharp scaling.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 192,
+    "question": "Which Windows utility displays boot configuration data?",
+    "options": {
+      "A": "bcdedit",
+      "B": "msconfig",
+      "C": "regedit",
+      "D": "eventvwr"
+    },
+    "correctAnswer": "A",
+    "explanation": "bcdedit allows viewing and editing of the Boot Configuration Data store.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 193,
+    "question": "Which component controls the flow of digital signals between devices on a motherboard?",
+    "options": {
+      "A": "Northbridge",
+      "B": "Southbridge",
+      "C": "CPU socket",
+      "D": "PCI slot"
+    },
+    "correctAnswer": "B",
+    "explanation": "Northbridge handles high-speed components; Southbridge manages lower-speed I/O.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "Which PowerShell cmdlet displays environment variables?",
+    "options": {
+      "A": "Get-ChildItem Env:",
+      "B": "Get-Service",
+      "C": "Get-Process",
+      "D": "Get-Item"
+    },
+    "correctAnswer": "A",
+    "explanation": "Get-ChildItem Env: lists all environment variables in the PowerShell environment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "Which protocol uses UDP port 53 by default?",
+    "options": {
+      "A": "DNS",
+      "B": "DHCP",
+      "C": "SNMP",
+      "D": "TFTP"
+    },
+    "correctAnswer": "A",
+    "explanation": "DNS primarily uses UDP port 53 for name resolution queries.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 196,
+    "question": "Which Windows feature allows file recovery from previous versions?",
+    "options": {
+      "A": "File History",
+      "B": "System Restore",
+      "C": "Shadow Copy",
+      "D": "Disk Cleanup"
+    },
+    "correctAnswer": "A",
+    "explanation": "Shadow Copy creates snapshots; File History restores user files from backups.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 197,
+    "question": "Which scripting language uses indentation to define code blocks?",
+    "options": {
+      "A": "Python",
+      "B": "JavaScript",
+      "C": "Lua",
+      "D": "Perl"
+    },
+    "correctAnswer": "A",
+    "explanation": "Python enforces indentation as part of its syntax for block delimitation.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 198,
+    "question": "Which component provides short-term high-speed data storage for the CPU?",
+    "options": {
+      "A": "ROM",
+      "B": "SSD",
+      "C": "RAM",
+      "D": "HDD"
+    },
+    "correctAnswer": "C",
+    "explanation": "RAM holds active data and instructions for quick CPU access.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 199,
+    "question": "Which command shows kernel and OS version on Linux?",
+    "options": {
+      "A": "uname -r",
+      "B": "hostname",
+      "C": "whoami",
+      "D": "uptime"
+    },
+    "correctAnswer": "B",
+    "explanation": "uname -r prints the kernel release; hostname shows the system’s network name.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "Which Windows log records security-related events?",
+    "options": {
+      "A": "Application log",
+      "B": "System log",
+      "C": "Security log",
+      "D": "Setup log"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Security log tracks logon attempts and resource access; Application log records app errors.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 201,
+    "question": "Which keyboard shortcut selects all text in a document?",
+    "options": {
+      "A": "Ctrl + A",
+      "B": "Ctrl + S",
+      "C": "Ctrl + C",
+      "D": "Ctrl + V"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ctrl + A highlights all content in most applications for editing or copying.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 202,
+    "question": "Which device converts printed pages into digital images?",
+    "options": {
+      "A": "Printer",
+      "B": "Scanner",
+      "C": "Monitor",
+      "D": "Speaker"
+    },
+    "correctAnswer": "B",
+    "explanation": "Scanners use light sensors to create digital versions of physical documents.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 203,
+    "question": "Which component renders images and video on your display?",
+    "options": {
+      "A": "Sound card",
+      "B": "Network card",
+      "C": "Graphics card",
+      "D": "Power supply"
+    },
+    "correctAnswer": "C",
+    "explanation": "The graphics card processes visual data and sends it to the monitor.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 204,
+    "question": "Which operating system is open-source and commonly used on servers?",
+    "options": {
+      "A": "Windows 10",
+      "B": "macOS",
+      "C": "Android",
+      "D": "Linux"
+    },
+    "correctAnswer": "D",
+    "explanation": "Linux distributions are freely available and popular for server environments.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 205,
+    "question": "Which action installs the latest security patches for your software?",
+    "options": {
+      "A": "Run Windows Update",
+      "B": "Defragment the disk",
+      "C": "Empty the recycle bin",
+      "D": "Uninstall unused programs"
+    },
+    "correctAnswer": "A",
+    "explanation": "Windows Update downloads and applies critical operating system updates.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 206,
+    "question": "Which file extension indicates a compressed archive on Windows?",
+    "options": {
+      "A": ".zip",
+      "B": ".docx",
+      "C": ".pptx",
+      "D": ".xlsx"
+    },
+    "correctAnswer": "B",
+    "explanation": ".zip archives bundle one or more files and compress them for easier storage.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 207,
+    "question": "Which tool is used to browse web pages?",
+    "options": {
+      "A": "Spreadsheet",
+      "B": "Text editor",
+      "C": "Web browser",
+      "D": "Email client"
+    },
+    "correctAnswer": "C",
+    "explanation": "Web browsers like Chrome and Firefox render HTML into interactive pages.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 208,
+    "question": "Which protocol transfers files securely over SSH?",
+    "options": {
+      "A": "FTP",
+      "B": "HTTP",
+      "C": "SFTP",
+      "D": "SMTP"
+    },
+    "correctAnswer": "D",
+    "explanation": "SFTP (SSH File Transfer Protocol) encrypts file transfers using SSH.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 209,
+    "question": "Which Windows utility displays current network connections?",
+    "options": {
+      "A": "ipconfig",
+      "B": "ping",
+      "C": "netstat",
+      "D": "tracert"
+    },
+    "correctAnswer": "A",
+    "explanation": "netstat lists active TCP/UDP connections and listening ports for troubleshooting.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 210,
+    "question": "Which key combination copies selected items to the clipboard?",
+    "options": {
+      "A": "Ctrl + X",
+      "B": "Ctrl + V",
+      "C": "Ctrl + C",
+      "D": "Ctrl + Z"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ctrl + C duplicates the selection into the clipboard for pasting elsewhere.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 211,
+    "question": "Which file system is default on Windows 10 for internal drives?",
+    "options": {
+      "A": "FAT32",
+      "B": "exFAT",
+      "C": "ext4",
+      "D": "NTFS"
+    },
+    "correctAnswer": "C",
+    "explanation": "NTFS provides security, journaling, and supports large files on Windows.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 212,
+    "question": "Which program starts automatically when you log into Windows?",
+    "options": {
+      "A": "Task Scheduler",
+      "B": "Startup folder items",
+      "C": "Services",
+      "D": "Event Viewer"
+    },
+    "correctAnswer": "D",
+    "explanation": "Items placed in the Startup folder launch at user login for quick access.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 213,
+    "question": "Which key opens the Start menu on Windows?",
+    "options": {
+      "A": "Ctrl",
+      "B": "Alt",
+      "C": "Shift",
+      "D": "Windows"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Windows key toggles the Start menu for application and setting access.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 214,
+    "question": "Which command lists files in a directory on Linux?",
+    "options": {
+      "A": "cd",
+      "B": "pwd",
+      "C": "ls",
+      "D": "mkdir"
+    },
+    "correctAnswer": "B",
+    "explanation": "ls displays the names of files and folders in the current directory.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 215,
+    "question": "Which technology connects devices without wires over short distances (~10 m)?",
+    "options": {
+      "A": "Wi-Fi",
+      "B": "Bluetooth",
+      "C": "Ethernet",
+      "D": "Cellular"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bluetooth is optimized for short-range wireless communication between gadgets.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 216,
+    "question": "Which key combination undoes the last action in most applications?",
+    "options": {
+      "A": "Ctrl + Y",
+      "B": "Ctrl + Z",
+      "C": "Ctrl + X",
+      "D": "Ctrl + C"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ctrl + Z reverses the most recent change, aiding in quick corrections.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 217,
+    "question": "Which folder stores user-specific application data on Windows?",
+    "options": {
+      "A": "Program Files",
+      "B": "AppData",
+      "C": "System32",
+      "D": "Windows"
+    },
+    "correctAnswer": "B",
+    "explanation": "AppData contains settings and data for each user’s installed applications.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 218,
+    "question": "Which device forwards data packets between different networks?",
+    "options": {
+      "A": "Switch",
+      "B": "Hub",
+      "C": "Router",
+      "D": "Repeater"
+    },
+    "correctAnswer": "C",
+    "explanation": "Routers examine IP addresses to determine optimal paths between networks.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 219,
+    "question": "Which Windows tool schedules automated tasks?",
+    "options": {
+      "A": "Task Manager",
+      "B": "Event Viewer",
+      "C": "Task Scheduler",
+      "D": "Services"
+    },
+    "correctAnswer": "D",
+    "explanation": "Task Scheduler lets you run programs or scripts at specified times or events.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 220,
+    "question": "Which image format provides lossless compression and supports transparency?",
+    "options": {
+      "A": "JPEG",
+      "B": "GIF",
+      "C": "PNG",
+      "D": "BMP"
+    },
+    "correctAnswer": "A",
+    "explanation": "PNG files maintain full image detail and allow transparent backgrounds.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 221,
+    "question": "Which protocol is used for secure remote login to network devices?",
+    "options": {
+      "A": "Telnet",
+      "B": "FTP",
+      "C": "SSH",
+      "D": "HTTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "SSH encrypts command-line sessions to protect credentials and data in transit.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 222,
+    "question": "Which Windows feature encrypts data on a removable drive?",
+    "options": {
+      "A": "BitLocker To Go",
+      "B": "File History",
+      "C": "Folder Redirection",
+      "D": "Storage Spaces"
+    },
+    "correctAnswer": "C",
+    "explanation": "BitLocker To Go secures removable drives with encryption and password protection.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 223,
+    "question": "Which file extension is used for PowerPoint slide shows?",
+    "options": {
+      "A": ".pptx",
+      "B": ".ppsx",
+      "C": ".potx",
+      "D": ".pptm"
+    },
+    "correctAnswer": "C",
+    "explanation": ".ppsx opens directly in slide show mode without editing view.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 224,
+    "question": "Which cloud service delivers software applications over the Internet?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "CaaS"
+    },
+    "correctAnswer": "D",
+    "explanation": "SaaS provides hosted applications accessible via a web browser without local installation.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 225,
+    "question": "Which command in Linux changes file permissions?",
+    "options": {
+      "A": "chown",
+      "B": "chmod",
+      "C": "chgrp",
+      "D": "chroot"
+    },
+    "correctAnswer": "A",
+    "explanation": "chmod adjusts read, write, and execute permissions for files and directories.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 226,
+    "question": "Which key combination closes the current window in most applications?",
+    "options": {
+      "A": "Alt + F4",
+      "B": "Ctrl + Q",
+      "C": "Ctrl + W",
+      "D": "Alt + Tab"
+    },
+    "correctAnswer": "A",
+    "explanation": "Alt + F4 closes the active window on Windows systems.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 227,
+    "question": "Which type of file is an executable program in Windows?",
+    "options": {
+      "A": ".txt",
+      "B": ".exe",
+      "C": ".jpg",
+      "D": ".zip"
+    },
+    "correctAnswer": "B",
+    "explanation": ".exe files contain compiled code that Windows can run directly.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 228,
+    "question": "Which device allows you to connect multiple USB devices to one port?",
+    "options": {
+      "A": "USB hub",
+      "B": "Docking station",
+      "C": "Modem",
+      "D": "Switch"
+    },
+    "correctAnswer": "C",
+    "explanation": "A USB hub expands a single USB port into several for connecting peripherals.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 229,
+    "question": "Which menu in Windows File Explorer shows breadcrumb navigation?",
+    "options": {
+      "A": "Address bar",
+      "B": "Ribbon",
+      "C": "Status bar",
+      "D": "Navigation pane"
+    },
+    "correctAnswer": "D",
+    "explanation": "The breadcrumb-style address bar displays the current path hierarchy.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 230,
+    "question": "Which feature locks your computer after a period of inactivity?",
+    "options": {
+      "A": "Screen saver password",
+      "B": "Power plan",
+      "C": "User permissions",
+      "D": "Task Scheduler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Enabling password protection on screen savers locks the PC when idle.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 231,
+    "question": "Which application would you use to edit a CSV file in a tabular view?",
+    "options": {
+      "A": "Notepad",
+      "B": "Spreadsheet",
+      "C": "Web browser",
+      "D": "Image editor"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spreadsheet programs like Excel or Google Sheets display CSV data in cells.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 232,
+    "question": "Which action creates a copy of a file under a new name?",
+    "options": {
+      "A": "Move",
+      "B": "Paste",
+      "C": "Copy and rename",
+      "D": "Delete"
+    },
+    "correctAnswer": "C",
+    "explanation": "Copying and then renaming preserves the original while creating a duplicate.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 233,
+    "question": "Which photo format is best for web graphics with transparency?",
+    "options": {
+      "A": "JPEG",
+      "B": "BMP",
+      "C": "PNG",
+      "D": "TIFF"
+    },
+    "correctAnswer": "D",
+    "explanation": "PNG supports true transparency and is optimized for web use.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 234,
+    "question": "Which Windows tool lets you uninstall programs?",
+    "options": {
+      "A": "Programs and Features",
+      "B": "Event Viewer",
+      "C": "Disk Cleanup",
+      "D": "Device Manager"
+    },
+    "correctAnswer": "A",
+    "explanation": "Programs and Features in Control Panel allows removal of installed software.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 235,
+    "question": "Which network device broadcasts all incoming traffic to every port?",
+    "options": {
+      "A": "Router",
+      "B": "Switch",
+      "C": "Hub",
+      "D": "Bridge"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hubs replicate incoming signals to all ports, unlike switches which filter traffic.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 236,
+    "question": "Which program allows you to schedule tasks on Windows?",
+    "options": {
+      "A": "Task Scheduler",
+      "B": "Services",
+      "C": "Event Viewer",
+      "D": "Registry Editor"
+    },
+    "correctAnswer": "C",
+    "explanation": "Task Scheduler automates running scripts or applications at specified times.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 237,
+    "question": "Which symbol is used to denote mailto links in HTML?",
+    "options": {
+      "A": "mailto:",
+      "B": "link:",
+      "C": "email:",
+      "D": "href:"
+    },
+    "correctAnswer": "D",
+    "explanation": "The mailto: scheme specifies that clicking the link should open the email client.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 238,
+    "question": "Which key combination opens the Run dialog in Windows?",
+    "options": {
+      "A": "Win + R",
+      "B": "Ctrl + R",
+      "C": "Alt + R",
+      "D": "Shift + R"
+    },
+    "correctAnswer": "A",
+    "explanation": "Pressing the Windows key and R simultaneously opens the Run dialog box.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 239,
+    "question": "Which app displays current CPU and memory usage on Android devices?",
+    "options": {
+      "A": "Settings",
+      "B": "Task Manager",
+      "C": "File Manager",
+      "D": "System Monitor"
+    },
+    "correctAnswer": "B",
+    "explanation": "Task Manager-type apps show resource consumption in real time.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 240,
+    "question": "Which service in Windows ensures files are backed up automatically?",
+    "options": {
+      "A": "File History",
+      "B": "Defragmenter",
+      "C": "Disk Cleanup",
+      "D": "Reliability Monitor"
+    },
+    "correctAnswer": "C",
+    "explanation": "File History continuously saves copies of files so they can be restored later.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 241,
+    "question": "Which feature in browsers prevents many pop-up windows?",
+    "options": {
+      "A": "Incognito Mode",
+      "B": "Ad Blocker",
+      "C": "Pop-up Blocker",
+      "D": "Developer Tools"
+    },
+    "correctAnswer": "D",
+    "explanation": "Pop-up blockers stop unwanted windows from opening automatically.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 242,
+    "question": "Which file extension denotes a PowerShell script?",
+    "options": {
+      "A": ".ps1",
+      "B": ".bat",
+      "C": ".sh",
+      "D": ".cmd"
+    },
+    "correctAnswer": "A",
+    "explanation": ".ps1 files contain PowerShell commands that the shell can execute.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 243,
+    "question": "Which protocol is used for secure web browsing?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "HTTPS",
+      "D": "SMTP"
+    },
+    "correctAnswer": "B",
+    "explanation": "HTTPS adds encryption via TLS/SSL to secure data transmitted over HTTP.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 244,
+    "question": "Which component on a motherboard holds the CPU?",
+    "options": {
+      "A": "Socket",
+      "B": "DIMM slot",
+      "C": "PCIe slot",
+      "D": "SATA port"
+    },
+    "correctAnswer": "C",
+    "explanation": "The CPU socket is designed to fit the processor securely and electrically connect it.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 245,
+    "question": "Which feature reduces boot time by saving system state to disk?",
+    "options": {
+      "A": "Hibernate",
+      "B": "Sleep",
+      "C": "Shutdown",
+      "D": "Log off"
+    },
+    "correctAnswer": "D",
+    "explanation": "Hibernate writes RAM contents to disk allowing for faster resume than a cold boot.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 246,
+    "question": "Which utility checks for file system errors on Windows?",
+    "options": {
+      "A": "chkdsk",
+      "B": "sfc",
+      "C": "diskpart",
+      "D": "defrag"
+    },
+    "correctAnswer": "A",
+    "explanation": "chkdsk scans and repairs file system issues like bad sectors and metadata corruption.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "Which tool helps recover deleted files on Windows?",
+    "options": {
+      "A": "Recycle Bin",
+      "B": "File History",
+      "C": "System Restore",
+      "D": "Disk Cleanup"
+    },
+    "correctAnswer": "B",
+    "explanation": "File History retains previous versions of files, enabling restoration after deletion.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 248,
+    "question": "Which Windows feature lists all installed updates?",
+    "options": {
+      "A": "Programs and Features",
+      "B": "Windows Update",
+      "C": "Device Manager",
+      "D": "Action Center"
+    },
+    "correctAnswer": "C",
+    "explanation": "Windows Update history shows a log of updates applied to the operating system.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 249,
+    "question": "Which key combination undoes the last action on macOS?",
+    "options": {
+      "A": "Cmd + Z",
+      "B": "Cmd + Y",
+      "C": "Ctrl + Z",
+      "D": "Ctrl + Y"
+    },
+    "correctAnswer": "D",
+    "explanation": "Cmd + Z reverses the last action in macOS applications.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 250,
+    "question": "Which protocol is used to fetch email from a server without deleting it?",
+    "options": {
+      "A": "SMTP",
+      "B": "IMAP",
+      "C": "POP3",
+      "D": "FTP"
+    },
+    "correctAnswer": "A",
+    "explanation": "IMAP synchronizes email, allowing messages to remain on the server after retrieval.",
+    "difficulty": "Easy"
+  }
+]

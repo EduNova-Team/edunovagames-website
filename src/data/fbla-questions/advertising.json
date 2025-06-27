@@ -3,12 +3,12 @@
     "id": 1,
     "question": "Which element of the marketing mix defines the value exchanged for a product or service?",
     "options": {
-      "A": "Product",
-      "B": "Price",
+      "A": "Price",
+      "B": "Product",
       "C": "Place",
       "D": "Promotion"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Price determines revenue and positioning, reflecting costs, demand, and competition.",
     "difficulty": "Easy"
   },
@@ -29,12 +29,12 @@
     "id": 3,
     "question": "Packaging serves which primary functions?",
     "options": {
-      "A": "Promotion, protection, and information",
-      "B": "Distribution, pricing, and accounting",
+      "A": "Distribution, pricing, and accounting",
+      "B": "Promotion, protection, and information",
       "C": "Financing, personnel, and production",
       "D": "Auditing, compliance, and forecasting"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective packaging attracts attention, safeguards the product, and communicates details.",
     "difficulty": "Medium"
   },
@@ -43,11 +43,11 @@
     "question": "A SWOT analysis in the advertising plan helps identify:",
     "options": {
       "A": "Sales, wages, overhead, taxes",
-      "B": "Strengths, weaknesses, opportunities, threats",
-      "C": "Shares, warranties, operations, timelines",
+      "B": "Shares, warranties, operations, timelines",
+      "C": "Strengths, weaknesses, opportunities, threats",
       "D": "Stocks, warehouses, orders, transport"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "SWOT guides strategic choices by assessing internal and external factors. B. Personal Selling & Sales Promotion (4)",
     "difficulty": "Medium"
   },
@@ -57,10 +57,10 @@
     "options": {
       "A": "Generate leads",
       "B": "Overcome objections",
-      "C": "Close the sale and follow up",
-      "D": "Present the product"
+      "C": "Present the product",
+      "D": "Close the sale and follow up"
     },
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Closing secures commitment, and follow-up ensures satisfaction and fosters loyalty.",
     "difficulty": "Medium"
   },
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "question": "“Push money” is a trade promotion used to:",
+    "question": "\"Push money\" is a trade promotion used to:",
     "options": {
       "A": "Reward salespeople or retailers for selling specific items",
       "B": "Attract consumers via social media",
@@ -87,12 +87,12 @@
       "D": "Provide product warranties"
     },
     "correctAnswer": "A",
-    "explanation": "Push money motivates intermediaries to actively promote a manufacturer’s products.",
+    "explanation": "Push money motivates intermediaries to actively promote a manufacturer's products.",
     "difficulty": "Hard"
   },
   {
     "id": 8,
-    "question": "A “point-of-purchase” display is primarily designed to:",
+    "question": "A \"point-of-purchase\" display is primarily designed to:",
     "options": {
       "A": "Train sales staff",
       "B": "Influence consumers at the moment of decision in-store",
@@ -191,7 +191,7 @@
       "D": "Social media influencers"
     },
     "correctAnswer": "B",
-    "explanation": "Moviegoers’ attention is high, making cinema a premium venue for brand messaging.",
+    "explanation": "Moviegoers' attention is high, making cinema a premium venue for brand messaging.",
     "difficulty": "Hard"
   },
   {
@@ -212,7 +212,7 @@
     "question": "A strong brand helps consumers:",
     "options": {
       "A": "Ignore product attributes",
-      "B": "Recognize, trust, and differentiate a company’s offerings",
+      "B": "Recognize, trust, and differentiate a company's offerings",
       "C": "Avoid all price comparisons",
       "D": "Forget competitor names"
     },
@@ -222,7 +222,7 @@
   },
   {
     "id": 18,
-    "question": "Positioning a product as “premium” primarily leverages:",
+    "question": "Positioning a product as \"premium\" primarily leverages:",
     "options": {
       "A": "Low price points",
       "B": "Quality, exclusivity, and superior attributes",
@@ -251,7 +251,7 @@
     "question": "Co-branding partnerships allow two brands to:",
     "options": {
       "A": "Operate independently",
-      "B": "Leverage each other’s equity to reach new markets or enhance credibility",
+      "B": "Leverage each other's equity to reach new markets or enhance credibility",
       "C": "Merge legally",
       "D": "Avoid joint marketing"
     },
@@ -277,11 +277,11 @@
     "question": "Advertising stimulates the economy by:",
     "options": {
       "A": "Reducing consumer choice",
-      "B": "Informing consumers, driving demand, and fostering competition",
-      "C": "Eliminating all small businesses",
+      "B": "Eliminating all small businesses",
+      "C": "Informing consumers, driving demand, and fostering competition",
       "D": "Raising inflation only"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Well-targeted ads raise awareness, boost sales, and support job creation across industries.",
     "difficulty": "Medium"
   },
@@ -290,11 +290,11 @@
     "question": "The multiplier effect of advertising refers to:",
     "options": {
       "A": "Direct cost reduction",
-      "B": "Additional economic activity generated from incremental sales",
-      "C": "Only social media shares",
+      "B": "Only social media shares",
+      "C": "Additional economic activity generated from incremental sales",
       "D": "Government subsidies"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Each dollar spent on ads can generate multiple dollars in economic output through increased production and services.",
     "difficulty": "Hard"
   },
@@ -302,12 +302,12 @@
     "id": 24,
     "question": "A cost-per-thousand (CPM) metric measures:",
     "options": {
-      "A": "Cost per impression per thousand audiences",
-      "B": "Conversion rate only",
+      "A": "Conversion rate only",
+      "B": "Cost per impression per thousand audiences",
       "C": "Sales volume only",
       "D": "Lifetime customer value"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "CPM standardizes media costs for budgeting and comparing channel efficiency. G. Promotion (3)",
     "difficulty": "Medium"
   },
@@ -321,12 +321,12 @@
       "D": "Inventory management"
     },
     "correctAnswer": "D",
-    "explanation": "Inventory isn’t a communication tool; promotion covers paid, owned, and earned tactics.",
+    "explanation": "Inventory isn't a communication tool; promotion covers paid, owned, and earned tactics.",
     "difficulty": "Easy"
   },
   {
     "id": 26,
-    "question": "A promotional plan’s first step is to:",
+    "question": "A promotional plan's first step is to:",
     "options": {
       "A": "Set the advertising budget",
       "B": "Define objectives such as awareness, trial, or loyalty",
@@ -342,11 +342,11 @@
     "question": "Frequency and reach are balanced to:",
     "options": {
       "A": "Minimize ad quality",
-      "B": "Optimize impact within budget—enough exposures to build recall without overexposure",
-      "C": "Maximize repetition only",
+      "B": "Maximize repetition only",
+      "C": "Optimize impact within budget—enough exposures to build recall without overexposure",
       "D": "Ignore audience size"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Proper mix ensures ads are seen by the right people often enough to drive action. H. Advertising & Public Relations (3)",
     "difficulty": "Medium"
   },
@@ -408,7 +408,7 @@
     "options": {
       "A": "Sets budget as a fixed percent of sales only",
       "B": "Identifies tasks needed to achieve objectives and estimates corresponding costs",
-      "C": "Matches competitors’ spending blindly",
+      "C": "Matches competitors' spending blindly",
       "D": "Ignores strategic priorities"
     },
     "correctAnswer": "B",
@@ -521,7 +521,7 @@
   },
   {
     "id": 41,
-    "question": "“Percentage of sales” budgeting ties ad spend to:",
+    "question": "\"Percentage of sales\" budgeting ties ad spend to:",
     "options": {
       "A": "A fixed dollar amount regardless of revenue",
       "B": "A set percentage of past or projected sales revenue",
@@ -625,7 +625,7 @@
   },
   {
     "id": 49,
-    "question": "A “routine” purchase decision involves:",
+    "question": "A \"routine\" purchase decision involves:",
     "options": {
       "A": "Extensive research and high risk",
       "B": "Low involvement and habitual buying (e.g., groceries)",
@@ -679,18 +679,18 @@
     "id": 53,
     "question": "Share of voice (SOV) is calculated by:",
     "options": {
-      "A": "A brand’s advertising spend divided by total category spend ×100",
+      "A": "A brand's advertising spend divided by total category spend ×100",
       "B": "Number of spokespersons used",
       "C": "Social mentions only",
       "D": "Media impressions per 1,000"
     },
     "correctAnswer": "A",
-    "explanation": "SOV indicates a brand’s presence relative to competitors in the same media channels.",
+    "explanation": "SOV indicates a brand's presence relative to competitors in the same media channels.",
     "difficulty": "Medium"
   },
   {
     "id": 54,
-    "question": "A “run-of-schedule” (ROS) buy in radio means ads:",
+    "question": "A \"run-of-schedule\" (ROS) buy in radio means ads:",
     "options": {
       "A": "Air only during peak drive-times",
       "B": "Can run at any time the station chooses",
@@ -703,7 +703,7 @@
   },
   {
     "id": 55,
-    "question": "In digital display advertising, “viewability” measures:",
+    "question": "In digital display advertising, \"viewability\" measures:",
     "options": {
       "A": "Whether the ad loads on the page",
       "B": "Whether at least 50% of an ad is visible on-screen for one second or longer",
@@ -716,7 +716,7 @@
   },
   {
     "id": 56,
-    "question": "An “upfront” media buy in television refers to purchasing:",
+    "question": "An \"upfront\" media buy in television refers to purchasing:",
     "options": {
       "A": "Single ad spots on the day of airing",
       "B": "A package of ad inventory before the broadcast season at discounted rates",
@@ -768,7 +768,7 @@
   },
   {
     "id": 60,
-    "question": "A “daypart” in broadcast planning segments the day by:",
+    "question": "A \"daypart\" in broadcast planning segments the day by:",
     "options": {
       "A": "Audience demographic",
       "B": "Time blocks (e.g., morning drive, prime time)",
@@ -783,7 +783,7 @@
     "id": 61,
     "question": "Native advertising is:",
     "options": {
-      "A": "Display ads that match the look and feel of the platform’s content",
+      "A": "Display ads that match the look and feel of the platform's content",
       "B": "Only banner ads",
       "C": "Pop-up malware",
       "D": "Television endorsements"
@@ -794,10 +794,10 @@
   },
   {
     "id": 62,
-    "question": "In social media advertising, “lookalike audiences” are created from:",
+    "question": "In social media advertising, \"lookalike audiences\" are created from:",
     "options": {
       "A": "Random user lists",
-      "B": "Profiles similar to an advertiser’s existing customers based on shared attributes",
+      "B": "Profiles similar to an advertiser's existing customers based on shared attributes",
       "C": "Competitor followers only",
       "D": "Email blasts"
     },
@@ -846,7 +846,7 @@
   },
   {
     "id": 66,
-    "question": "In mobile advertising, “geo-fencing” allows marketers to:",
+    "question": "In mobile advertising, \"geo-fencing\" allows marketers to:",
     "options": {
       "A": "Block ads by geography",
       "B": "Serve ads to users within a virtual perimeter around a physical location",
@@ -859,7 +859,7 @@
   },
   {
     "id": 67,
-    "question": "An influencer marketing campaign’s success is best measured by:",
+    "question": "An influencer marketing campaign's success is best measured by:",
     "options": {
       "A": "Number of posts only",
       "B": "Engagement metrics, traffic driven, and conversions attributed to the influencer",
@@ -885,11 +885,11 @@
   },
   {
     "id": 69,
-    "question": "The “big idea” in advertising refers to:",
+    "question": "The \"big idea\" in advertising refers to:",
     "options": {
       "A": "The largest campaign budget",
       "B": "The central, compelling concept that underpins all creative executions",
-      "C": "CEO’s vision statement",
+      "C": "CEO's vision statement",
       "D": "Legal disclaimers"
     },
     "correctAnswer": "B",
@@ -898,9 +898,9 @@
   },
   {
     "id": 70,
-    "question": "A “unique selling proposition” (USP) in advertising communicates:",
+    "question": "A \"unique selling proposition\" (USP) in advertising communicates:",
     "options": {
-      "A": "Brand’s distinctive benefit and reason to buy",
+      "A": "Brand's distinctive benefit and reason to buy",
       "B": "Only product features",
       "C": "Pricing model exclusively",
       "D": "Media schedule"
@@ -911,15 +911,15 @@
   },
   {
     "id": 71,
-    "question": "A “call to action” (CTA) in an ad prompts the audience to:",
+    "question": "A \"call to action\" (CTA) in an ad prompts the audience to:",
     "options": {
       "A": "Passively view the content",
-      "B": "Perform a specific action (e.g., “Buy Now,” “Sign Up”)",
+      "B": "Perform a specific action (e.g., \"Buy Now,\" \"Sign Up\")",
       "C": "Skip the ad",
       "D": "Report the ad"
     },
     "correctAnswer": "B",
-    "explanation": "CTAs guide consumer behavior toward the advertiser’s goals.",
+    "explanation": "CTAs guide consumer behavior toward the advertiser's goals.",
     "difficulty": "Easy"
   },
   {
@@ -937,7 +937,7 @@
   },
   {
     "id": 73,
-    "question": "A “mood board” in the creative process helps:",
+    "question": "A \"mood board\" in the creative process helps:",
     "options": {
       "A": "Track ad spend",
       "B": "Compile visual references—colors, imagery, style—to align creative direction",
@@ -950,7 +950,7 @@
   },
   {
     "id": 74,
-    "question": "In print ad design, “white space” refers to:",
+    "question": "In print ad design, \"white space\" refers to:",
     "options": {
       "A": "Unprinted areas that improve readability and focus",
       "B": "The color of the paper only",
@@ -989,7 +989,7 @@
   },
   {
     "id": 77,
-    "question": "A marketing “attribution model” assigns credit to:",
+    "question": "A marketing \"attribution model\" assigns credit to:",
     "options": {
       "A": "Only last-click touchpoints",
       "B": "Multiple touchpoints along the customer journey based on rules or algorithms",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": 79,
-    "question": "A “lift” in analytics refers to:",
+    "question": "A \"lift\" in analytics refers to:",
     "options": {
       "A": "Vertical scroll depth",
       "B": "Incremental effect of an intervention compared to a control or baseline",
@@ -1031,7 +1031,7 @@
     "question": "View-through rate (VTR) tracks:",
     "options": {
       "A": "Only completed video views",
-      "B": "Users who later visit the advertiser’s site after being exposed to a display ad but not clicking it",
+      "B": "Users who later visit the advertiser's site after being exposed to a display ad but not clicking it",
       "C": "Email delivery rates",
       "D": "Only paid search clicks"
     },
@@ -1132,7 +1132,7 @@
   },
   {
     "id": 88,
-    "question": "Hofstede’s cultural dimensions help advertisers understand differences in:",
+    "question": "Hofstede's cultural dimensions help advertisers understand differences in:",
     "options": {
       "A": "Only languages",
       "B": "Values like individualism vs. collectivism and uncertainty avoidance",
@@ -1236,7 +1236,7 @@
   },
   {
     "id": 96,
-    "question": "Reflecting on an advertising campaign’s failures helps:",
+    "question": "Reflecting on an advertising campaign's failures helps:",
     "options": {
       "A": "Repeat the same mistakes",
       "B": "Identify root causes and improve future planning and execution",
@@ -1301,7 +1301,7 @@
   },
   {
     "id": 101,
-    "question": "“Over-the-top” (OTT) advertising delivers content:",
+    "question": "\"Over-the-top\" (OTT) advertising delivers content:",
     "options": {
       "A": "Only via cable networks",
       "B": "Directly over the internet on streaming services, bypassing traditional TV providers",
@@ -1314,7 +1314,7 @@
   },
   {
     "id": 102,
-    "question": "A “hybrid” media buy combines:",
+    "question": "A \"hybrid\" media buy combines:",
     "options": {
       "A": "Only traditional TV spots",
       "B": "Both guaranteed (direct) and non-guaranteed (programmatic) inventory in one deal",
@@ -1327,7 +1327,7 @@
   },
   {
     "id": 103,
-    "question": "“Advanced TV” advertising includes:",
+    "question": "\"Advanced TV\" advertising includes:",
     "options": {
       "A": "Only broadcast networks",
       "B": "Addressable, programmatic, and OTT/CTV placements for targeted TV ads",
@@ -1340,7 +1340,7 @@
   },
   {
     "id": 104,
-    "question": "A “frequency cap” in digital campaigns limits:",
+    "question": "A \"frequency cap\" in digital campaigns limits:",
     "options": {
       "A": "Total campaign budget",
       "B": "The number of times an individual user sees the same ad within a set period",
@@ -1379,10 +1379,10 @@
   },
   {
     "id": 107,
-    "question": "A “brand documentary” video serves to:",
+    "question": "A \"brand documentary\" video serves to:",
     "options": {
       "A": "List product specs only",
-      "B": "Tell the brand’s origin, mission, or impact story in a long-form narrative",
+      "B": "Tell the brand's origin, mission, or impact story in a long-form narrative",
       "C": "Replace product packaging",
       "D": "Serve as legal disclosure"
     },
@@ -1392,7 +1392,7 @@
   },
   {
     "id": 108,
-    "question": "“User-generated content” (UGC) is:",
+    "question": "\"User-generated content\" (UGC) is:",
     "options": {
       "A": "Agency-produced videos",
       "B": "Marketing materials created voluntarily by consumers (reviews, social posts)",
@@ -1418,7 +1418,7 @@
   },
   {
     "id": 110,
-    "question": "“Snackable” content refers to:",
+    "question": "\"Snackable\" content refers to:",
     "options": {
       "A": "Long white papers",
       "B": "Short, easy-to-consume pieces like infographics or micro-videos suited for social",
@@ -1509,7 +1509,7 @@
   },
   {
     "id": 117,
-    "question": "A “buy now, pay later” (BNPL) offer integrated at checkout is an example of:",
+    "question": "A \"buy now, pay later\" (BNPL) offer integrated at checkout is an example of:",
     "options": {
       "A": "Traditional couponing",
       "B": "A retail media financing promotion to reduce purchase friction",
@@ -1517,7 +1517,7 @@
       "D": "Direct mail"
     },
     "correctAnswer": "B",
-    "explanation": "BNPL embeds financing options within the retailer’s checkout experience to convert shoppers.",
+    "explanation": "BNPL embeds financing options within the retailer's checkout experience to convert shoppers.",
     "difficulty": "Medium"
   },
   {
@@ -1587,7 +1587,7 @@
   },
   {
     "id": 123,
-    "question": "In media optimization, a “multivariate test” examines:",
+    "question": "In media optimization, a \"multivariate test\" examines:",
     "options": {
       "A": "Only one element at a time",
       "B": "Combinations of multiple elements (e.g., headline, image, CTA) to identify the most effective mix",
@@ -1745,8 +1745,8 @@
     "id": 135,
     "question": "Sustainability messaging in ads is most effective when:",
     "options": {
-      "A": "It’s vague greenwashing",
-      "B": "It’s specific, backed by credible data, and demonstrates genuine corporate action",
+      "A": "It's vague greenwashing",
+      "B": "It's specific, backed by credible data, and demonstrates genuine corporate action",
       "C": "It uses only stock environmental images",
       "D": "It avoids any evidence"
     },
@@ -1764,7 +1764,7 @@
       "D": "Rely solely on SMS"
     },
     "correctAnswer": "B",
-    "explanation": "5G’s high bandwidth and low latency support immersive, data-heavy ad formats on mobile devices.",
+    "explanation": "5G's high bandwidth and low latency support immersive, data-heavy ad formats on mobile devices.",
     "difficulty": "Hard"
   },
   {
@@ -1782,7 +1782,7 @@
   },
   {
     "id": 138,
-    "question": "In event sponsorship, “on-site activation” means:",
+    "question": "In event sponsorship, \"on-site activation\" means:",
     "options": {
       "A": "Simply placing logos on banners",
       "B": "Creating interactive experiences (e.g., branded photo booths, sampling) at the venue",
@@ -1798,25 +1798,25 @@
     "question": "A tiered sponsorship package typically offers:",
     "options": {
       "A": "Identical benefits at every level",
-      "B": "Incremental rights and exposure (e.g., title sponsor vs. supporting sponsor)",
-      "C": "Only digital ads",
-      "D": "Free event tickets only"
+      "B": "Increasing benefits and exposure at higher investment levels",
+      "C": "No differentiation",
+      "D": "Only logo placement"
     },
     "correctAnswer": "B",
-    "explanation": "Tiered structures let brands choose investment levels that match their objectives and budgets.",
+    "explanation": "Tiers provide options for different budgets while rewarding higher investment with greater visibility.",
     "difficulty": "Medium"
   },
   {
     "id": 140,
-    "question": "Measuring live-event ROI often includes tracking:",
+    "question": "Sponsorship ROI is best measured by:",
     "options": {
-      "A": "Only on-site foot traffic",
-      "B": "Lead capture, social mentions, and post-event conversion rates",
-      "C": "Only email opens",
-      "D": "TV ratings"
+      "A": "Only logo impressions",
+      "B": "Brand lift, media value, and business outcomes like leads or sales",
+      "C": "Event attendance only",
+      "D": "Social media mentions"
     },
     "correctAnswer": "B",
-    "explanation": "A blend of quantitative (leads, sales uplift) and qualitative (brand sentiment) metrics assesses success.",
+    "explanation": "Comprehensive measurement captures both exposure value and tangible business impact.",
     "difficulty": "Hard"
   },
   {
@@ -1824,12 +1824,12 @@
     "question": "Retail media networks monetize:",
     "options": {
       "A": "Only social platforms",
-      "B": "A retailer’s own digital properties (site, app) by selling ad placements to brands",
+      "B": "A retailer's own digital properties (site, app) by selling ad placements to brands",
       "C": "Outdoor billboards",
       "D": "Newspaper classifieds"
     },
     "correctAnswer": "B",
-    "explanation": "Brands buy from retailers’ first-party channels to reach shoppers in the purchase environment.",
+    "explanation": "Brands buy from retailers' first-party channels to reach shoppers in the purchase environment.",
     "difficulty": "Hard"
   },
   {
@@ -1847,7 +1847,7 @@
   },
   {
     "id": 143,
-    "question": "A “cookieless” cohort solution like Google’s FLoC groups users by:",
+    "question": "A \"cookieless\" cohort solution like Google's FLoC groups users by:",
     "options": {
       "A": "IP address only",
       "B": "Similar browsing behaviors within an anonymized cohort for targeting",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": 145,
-    "question": "A “data clean room” allows advertisers to:",
+    "question": "A \"data clean room\" allows advertisers to:",
     "options": {
       "A": "Store data without governance",
       "B": "Securely match first-party data with platforms (e.g., Google, Amazon) without exposing raw datasets",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": 148,
-    "question": "A “living playbook” for advertising teams is:",
+    "question": "A \"living playbook\" for advertising teams is:",
     "options": {
       "A": "A static PDF of past campaigns",
       "B": "An evolving guide of best practices, templates, and learnings updated in real time",
@@ -1964,12 +1964,12 @@
   },
   {
     "id": 152,
-    "question": "In a case analysis, identifying the client’s business challenge is critical because:",
+    "question": "In a case analysis, identifying the client's business challenge is critical because:",
     "options": {
       "A": "It defines the scope and objectives of the campaign",
       "B": "It replaces the need for strategy",
       "C": "It only affects creative design",
-      "D": "It’s optional for small briefs"
+      "D": "It's optional for small briefs"
     },
     "correctAnswer": "A",
     "explanation": "A clear problem statement ensures all subsequent work addresses real business needs.",
@@ -2011,7 +2011,7 @@
       "D": "Ignoring stakeholder needs"
     },
     "correctAnswer": "B",
-    "explanation": "Stories engage judges emotionally, clarifying how the campaign solves the client’s challenge. GG. Ethics & Social Responsibility (5)",
+    "explanation": "Stories engage judges emotionally, clarifying how the campaign solves the client's challenge. GG. Ethics & Social Responsibility (5)",
     "difficulty": "Medium"
   },
   {
@@ -2042,7 +2042,7 @@
   },
   {
     "id": 158,
-    "question": "An “adtech” vendor with questionable data privacy practices raises a red flag for:",
+    "question": "An \"adtech\" vendor with questionable data privacy practices raises a red flag for:",
     "options": {
       "A": "Only TV campaigns",
       "B": "Potential legal liability and brand reputation risk",
@@ -2068,7 +2068,7 @@
   },
   {
     "id": 160,
-    "question": "The principle of “do no harm” in copywriting means:",
+    "question": "The principle of \"do no harm\" in copywriting means:",
     "options": {
       "A": "Avoiding controversial or discriminatory language",
       "B": "Prioritizing shock value",
@@ -2224,7 +2224,7 @@
   },
   {
     "id": 172,
-    "question": "The “mere exposure effect” states that:",
+    "question": "The \"mere exposure effect\" states that:",
     "options": {
       "A": "People dislike repeated ads",
       "B": "Familiarity through repeated exposure increases liking",
@@ -2237,7 +2237,7 @@
   },
   {
     "id": 173,
-    "question": "A “priming” technique in copywriting might:",
+    "question": "A \"priming\" technique in copywriting might:",
     "options": {
       "A": "Show unrelated images",
       "B": "Use words or imagery that subconsciously influence subsequent perceptions",
@@ -2266,7 +2266,7 @@
     "question": "Loss aversion in advertising leverages:",
     "options": {
       "A": "Gains framing only",
-      "B": "Emphasizing what consumers stand to lose by not acting (e.g., “Don’t miss out”)",
+      "B": "Emphasizing what consumers stand to lose by not acting (e.g., \"Don't miss out\")",
       "C": "Only price reductions",
       "D": "Neutral wording"
     },
@@ -2474,7 +2474,7 @@
     "question": "A post-mortem meeting after campaign launch should:",
     "options": {
       "A": "Blame vendors",
-      "B": "Review what worked, what didn’t, and update processes accordingly",
+      "B": "Review what worked, what didn't, and update processes accordingly",
       "C": "Avoid data discussions",
       "D": "Skip recommendations"
     },
@@ -2554,7 +2554,7 @@
       "A": "Only resume updates",
       "B": "Showcasing expertise through thought leadership, portfolio work, and networking",
       "C": "Avoiding social media",
-      "D": "Copying others’ styles"
+      "D": "Copying others' styles"
     },
     "correctAnswer": "B",
     "explanation": "A strong personal brand differentiates you in a competitive talent market.",
@@ -2588,7 +2588,7 @@
   },
   {
     "id": 200,
-    "question": "Developing cross-disciplinary skills (data analytics, UX, copywriting) enhances an advertiser’s:",
+    "question": "Developing cross-disciplinary skills (data analytics, UX, copywriting) enhances an advertiser's:",
     "options": {
       "A": "Job security and flexibility by broadening value contribution",
       "B": "Narrow specialization only",
@@ -2601,7 +2601,7 @@
   },
   {
     "id": 201,
-    "question": "A “halo effect” in advertising occurs when:",
+    "question": "A \"halo effect\" in advertising occurs when:",
     "options": {
       "A": "Negative news overshadows ads",
       "B": "Positive perceptions of one product transfer to related products",
@@ -2609,12 +2609,12 @@
       "D": "Campaigns focus on halos only"
     },
     "correctAnswer": "B",
-    "explanation": "Strong branding for one item can boost consumer attitude toward the brand’s other offerings.",
+    "explanation": "Strong branding for one item can boost consumer attitude toward the brand's other offerings.",
     "difficulty": "Medium"
   },
   {
     "id": 202,
-    "question": "The “elaboration likelihood model” (ELM) suggests that:",
+    "question": "The \"elaboration likelihood model\" (ELM) suggests that:",
     "options": {
       "A": "All consumers process ads analytically",
       "B": "Persuasion can occur via central (deep) or peripheral (superficial) routes depending on motivation and ability",
@@ -2627,7 +2627,7 @@
   },
   {
     "id": 203,
-    "question": "A “mere measurement effect” implies that:",
+    "question": "A \"mere measurement effect\" implies that:",
     "options": {
       "A": "Measuring intentions can change subsequent behavior",
       "B": "Ads must be measured continuously",
@@ -2640,10 +2640,10 @@
   },
   {
     "id": 204,
-    "question": "“Congruence” in ad placement means:",
+    "question": "\"Congruence\" in ad placement means:",
     "options": {
       "A": "Ads appear only in congruent shapes",
-      "B": "The ad’s message matches the content and context of the media environment",
+      "B": "The ad's message matches the content and context of the media environment",
       "C": "All ads look the same",
       "D": "Placement is random"
     },
@@ -2653,7 +2653,7 @@
   },
   {
     "id": 205,
-    "question": "A “two-step flow” model of communication posits that:",
+    "question": "A \"two-step flow\" model of communication posits that:",
     "options": {
       "A": "All media messages go directly to consumers",
       "B": "Opinion leaders first receive media messages and then influence followers",
@@ -2661,7 +2661,7 @@
       "D": "Only social media matters"
     },
     "correctAnswer": "B",
-    "explanation": "Understanding influencers’ role informs seeding strategies in campaigns. QQ. Sponsorships & Event Marketing (5)",
+    "explanation": "Understanding influencers' role informs seeding strategies in campaigns. QQ. Sponsorships & Event Marketing (5)",
     "difficulty": "Medium"
   },
   {
@@ -2705,7 +2705,7 @@
   },
   {
     "id": 209,
-    "question": "A “rights fee” in sponsorship contracts covers:",
+    "question": "A \"rights fee\" in sponsorship contracts covers:",
     "options": {
       "A": "Venue rental only",
       "B": "The cost for exclusivity or category rights to associate with an event",
@@ -2731,7 +2731,7 @@
   },
   {
     "id": 211,
-    "question": "A “planogram” is a:",
+    "question": "A \"planogram\" is a:",
     "options": {
       "A": "Marketing plan summary",
       "B": "Diagram showing product placement on retail shelves to optimize sales",
@@ -2757,9 +2757,9 @@
   },
   {
     "id": 213,
-    "question": "“Cross-promotion” in-store involves:",
+    "question": "\"Cross-promotion\" in-store involves:",
     "options": {
-      "A": "Promoting competitors’ products",
+      "A": "Promoting competitors' products",
       "B": "Placing complementary products together to encourage additional purchases",
       "C": "Only online deals",
       "D": "Ignoring shopper path"
@@ -2770,7 +2770,7 @@
   },
   {
     "id": 214,
-    "question": "A “category captain” in retail is:",
+    "question": "A \"category captain\" in retail is:",
     "options": {
       "A": "A lead buyer only",
       "B": "A supplier partner managing category assortment and merchandising with retailer collaboration",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": 217,
-    "question": "A “private marketplace” (PMP) differs from an open RTB exchange by:",
+    "question": "A \"private marketplace\" (PMP) differs from an open RTB exchange by:",
     "options": {
       "A": "Having no bids",
       "B": "Invitation-only auctions with vetted buyers and often premium inventory",
@@ -2822,7 +2822,7 @@
   },
   {
     "id": 218,
-    "question": "“Ad fatigue” in programmatic campaigns occurs when:",
+    "question": "\"Ad fatigue\" in programmatic campaigns occurs when:",
     "options": {
       "A": "Audiences see ads too infrequently",
       "B": "Audiences are overexposed to the same creative, leading to diminishing returns",
@@ -2848,7 +2848,7 @@
   },
   {
     "id": 220,
-    "question": "An “ad exchange” is:",
+    "question": "An \"ad exchange\" is:",
     "options": {
       "A": "A stock market for ads",
       "B": "A technology platform where publishers and advertisers buy and sell ad inventory in real time",
@@ -2887,7 +2887,7 @@
   },
   {
     "id": 223,
-    "question": "“Fairness through unawareness” in algorithm design implies:",
+    "question": "\"Fairness through unawareness\" in algorithm design implies:",
     "options": {
       "A": "Ignoring protected attributes entirely",
       "B": "Not using sensitive features (e.g., race, gender) but may still require deeper bias mitigation",
@@ -2900,7 +2900,7 @@
   },
   {
     "id": 224,
-    "question": "An “algorithmic impact assessment” helps organizations to:",
+    "question": "An \"algorithmic impact assessment\" helps organizations to:",
     "options": {
       "A": "Skip ethical reviews",
       "B": "Evaluate potential harms and benefits of AI systems before deployment",
@@ -2926,7 +2926,7 @@
   },
   {
     "id": 226,
-    "question": "A “media audit triangle” involves examining:",
+    "question": "A \"media audit triangle\" involves examining:",
     "options": {
       "A": "Content, context, and community to ensure holistic campaign fit",
       "B": "Only cost, reach, and frequency",
@@ -2939,7 +2939,7 @@
   },
   {
     "id": 227,
-    "question": "“Convergent thinking” in brainstorming leads to:",
+    "question": "\"Convergent thinking\" in brainstorming leads to:",
     "options": {
       "A": "Divergent idea generation only",
       "B": "Narrowing down multiple options to select the most viable solution",
@@ -2952,7 +2952,7 @@
   },
   {
     "id": 228,
-    "question": "A “matrix organization” in advertising agencies allows:",
+    "question": "A \"matrix organization\" in advertising agencies allows:",
     "options": {
       "A": "Only hierarchical reporting",
       "B": "Team members to report to both functional and project managers for flexibility",
@@ -2965,7 +2965,7 @@
   },
   {
     "id": 229,
-    "question": "“Scenius” in creative culture refers to:",
+    "question": "\"Scenius\" in creative culture refers to:",
     "options": {
       "A": "Individual genius only",
       "B": "Collective genius emerging from collaborative, supportive environments",
@@ -2978,7 +2978,7 @@
   },
   {
     "id": 230,
-    "question": "A “creative ecosystem” in advertising includes:",
+    "question": "A \"creative ecosystem\" in advertising includes:",
     "options": {
       "A": "Only the creative department",
       "B": "All stakeholders—clients, agencies, media partners, and technology providers—interacting to drive innovation",
@@ -3095,7 +3095,7 @@
   },
   {
     "id": 239,
-    "question": "A “living portfolio” concept means advertisers maintain:",
+    "question": "A \"living portfolio\" concept means advertisers maintain:",
     "options": {
       "A": "A static collection of past work",
       "B": "An evolving online showcase updated with newest campaigns, metrics, and learnings",
@@ -3134,7 +3134,7 @@
   },
   {
     "id": 242,
-    "question": "An end-to-end advertising funnel maps stages from awareness to loyalty. The key metric at the “consideration” stage is typically:",
+    "question": "An end-to-end advertising funnel maps stages from awareness to loyalty. The key metric at the \"consideration\" stage is typically:",
     "options": {
       "A": "Impressions",
       "B": "Click-through rate (CTR) or site engagement",
@@ -3147,7 +3147,7 @@
   },
   {
     "id": 243,
-    "question": "In a cross-channel attribution model, “time decay” weighting gives more credit to:",
+    "question": "In a cross-channel attribution model, \"time decay\" weighting gives more credit to:",
     "options": {
       "A": "The first touchpoint only",
       "B": "Touchpoints closer to conversion in time",
@@ -3186,7 +3186,7 @@
   },
   {
     "id": 246,
-    "question": "A truly “customer-centric” ad campaign begins by:",
+    "question": "A truly \"customer-centric\" ad campaign begins by:",
     "options": {
       "A": "Highlighting product features first",
       "B": "Mapping real customer pain points and objectives before crafting messages",

@@ -95,6 +95,26 @@ const quizEvents = [
     color: "#8B5CF6",
     icon: "🔒",
   },
+  {
+    id: "introduction-to-it",
+    title: "Introduction to IT",
+    description:
+      "Introductory competencies in information technology: hardware, software, networking, security, and more",
+    questionCount: 250,
+    timeLimit: 60,
+    color: "#F59E42",
+    icon: "💻",
+  },
+  {
+    id: "financial-math",
+    title: "Financial Math",
+    description:
+      "Calculations in the business world: consumer credit, payroll, taxes, investments, insurance, and more",
+    questionCount: 250,
+    timeLimit: 60,
+    color: "#10B981",
+    icon: "🧮",
+  },
 ];
 
 // Sample quiz history data
@@ -172,6 +192,9 @@ export default function FBLAPage() {
   });
   const [quizHistory, setQuizHistory] =
     useState<QuizHistory[]>(sampleQuizHistory);
+  const [expandedReviewIdx, setExpandedReviewIdx] = useState<number | null>(
+    null
+  );
 
   // Timer effect
   useEffect(() => {
@@ -878,8 +901,7 @@ export default function FBLAPage() {
           Practice Quizzes
         </h2>
         <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-          Test your knowledge with AI-generated practice questions for the most
-          popular FBLA competitive events
+          Questions Are Based on Updated 2025 Guidelines!
         </p>
       </div>
 
@@ -988,20 +1010,6 @@ export default function FBLAPage() {
                       <Play className="w-4 h-4 mr-2" />
                       {isAvailable ? "Play" : "Coming Soon"}
                     </Button>
-                    <Button
-                      variant="outline"
-                      className="w-full border-white/20 hover:bg-white/5"
-                      onClick={() => {
-                        const link = document.createElement("a");
-                        link.href = `/guidelines/${event.id}-guidelines.pdf`;
-                        link.download = `${event.title} Guidelines.pdf`;
-                        link.click();
-                      }}
-                      title={`Download ${event.title} Guidelines`}
-                    >
-                      <FileText className="w-4 h-4 mr-2" />
-                      Guidelines
-                    </Button>
                   </div>
                 </CardContent>
               </Card>
@@ -1081,6 +1089,95 @@ export default function FBLAPage() {
                 </div>
               </div>
             )}
+          </div>
+
+          {/* Detailed Review Section */}
+          <div className="bg-white/5 rounded-xl p-6 space-y-6 mt-6">
+            <h3 className="text-xl font-bold text-left">Question Review</h3>
+            <div className="space-y-6 max-h-[400px] overflow-y-auto">
+              {quizState.selectedQuestions.map((question, idx) => {
+                const userAnswer = quizState.answers[idx];
+                const isCorrect = userAnswer === question.correctAnswer;
+                const isExpanded = expandedReviewIdx === idx;
+                return (
+                  <div
+                    key={idx}
+                    className="p-4 rounded-lg border border-white/10 bg-white/10"
+                  >
+                    <button
+                      className="w-full flex items-center justify-between focus:outline-none"
+                      onClick={() =>
+                        setExpandedReviewIdx(isExpanded ? null : idx)
+                      }
+                    >
+                      <div className="flex items-center gap-2">
+                        <span
+                          className={`font-bold text-lg ${
+                            isCorrect ? "text-green-400" : "text-red-400"
+                          }`}
+                        >
+                          {isCorrect ? "Correct" : "Incorrect"}
+                        </span>
+                        <span className="text-gray-400">
+                          Question {idx + 1}
+                        </span>
+                      </div>
+                      <span className="text-white text-xl">
+                        {isExpanded ? "−" : "+"}
+                      </span>
+                    </button>
+                    <div className="text-white font-medium mb-2 mt-2">
+                      {question.question}
+                    </div>
+                    {isExpanded && (
+                      <>
+                        <div className="mb-2">
+                          <span className="font-semibold text-gray-300">
+                            Your answer:{" "}
+                          </span>
+                          <span
+                            className={
+                              isCorrect ? "text-green-400" : "text-red-400"
+                            }
+                          >
+                            {userAnswer
+                              ? `${userAnswer}. ${
+                                  question.options[
+                                    userAnswer as keyof typeof question.options
+                                  ]
+                                }`
+                              : "No answer"}
+                          </span>
+                        </div>
+                        {!isCorrect && (
+                          <div className="mb-2">
+                            <span className="font-semibold text-gray-300">
+                              Correct answer:{" "}
+                            </span>
+                            <span className="text-green-400">
+                              {question.correctAnswer}.{" "}
+                              {
+                                question.options[
+                                  question.correctAnswer as keyof typeof question.options
+                                ]
+                              }
+                            </span>
+                          </div>
+                        )}
+                        {question.explanation && (
+                          <div className="mt-2 text-blue-200 bg-blue-500/10 border border-blue-500/20 rounded p-3">
+                            <span className="font-semibold text-blue-400">
+                              Explanation:{" "}
+                            </span>
+                            {question.explanation}
+                          </div>
+                        )}
+                      </>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
           <div className="flex gap-4 justify-center">
