@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary objective of supply chain management?",
+    "options": {
+      "A": "To minimize product variety",
+      "B": "To coordinate the flow of goods, information, and finances",
+      "C": "To maximize production capacity",
+      "D": "To reduce employee turnover"
+    },
+    "correctAnswer": "B",
+    "explanation": "Supply chain management coordinates the flow of goods, information, and finances across the supply chain.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following best defines logistics?",
+    "options": {
+      "A": "Managing cash flows",
+      "B": "Planning manufacturing processes",
+      "C": "Coordinating the movement and storage of goods",
+      "D": "Designing organizational structures"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logistics involves planning, implementing, and controlling the movement and storage of goods within a supply chain.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "Physical and information flows in a supply chain refer to:",
+    "options": {
+      "A": "Movement of materials and exchange of data",
+      "B": "Financial transactions and marketing communications",
+      "C": "Employee scheduling and training programs",
+      "D": "Product design and packaging"
+    },
+    "correctAnswer": "A",
+    "explanation": "Physical flows refer to the movement of materials, while information flows refer to the data exchange required to manage the supply chain.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "In supply chain management, procurement refers to:",
+    "options": {
+      "A": "Forecasting customer demand",
+      "B": "Purchasing goods and services from suppliers",
+      "C": "Transporting goods to customers",
+      "D": "Managing product returns"
+    },
+    "correctAnswer": "B",
+    "explanation": "Procurement is the process of purchasing goods and services from suppliers to meet organizational needs.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "Sales and operations planning primarily aims to:",
+    "options": {
+      "A": "Optimize marketing campaigns",
+      "B": "Balance supply and demand across the organization",
+      "C": "Improve human resource allocation",
+      "D": "Design warehouse layouts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sales and operations planning aligns supply (production) with demand (sales forecast) to ensure balance across functions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "Which characteristic is most important for successful supply chain managers when addressing unexpected disruptions?",
+    "options": {
+      "A": "Flexible thinking",
+      "B": "Technical programming skills",
+      "C": "Graphic design ability",
+      "D": "Foreign language fluency"
+    },
+    "correctAnswer": "A",
+    "explanation": "Flexible thinking enables managers to adapt and respond effectively to unexpected disruptions in the supply chain.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "Effective communication in supply chain management ensures:",
+    "options": {
+      "A": "Accurate information exchange between stakeholders",
+      "B": "Faster product manufacturing",
+      "C": "Higher price negotiation with customers",
+      "D": "Reduction of marketing expenses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Effective communication ensures accurate and timely information exchange among supply chain stakeholders.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "question": "Supply chain integration is best described as:",
+    "options": {
+      "A": "Separating departments to specialize in tasks",
+      "B": "Unifying processes and information across the supply chain",
+      "C": "Outsourcing all logistics functions",
+      "D": "Expanding product lines rapidly"
+    },
+    "correctAnswer": "B",
+    "explanation": "Supply chain integration unifies processes and information across all partners to enhance coordination and efficiency.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Efficient facility network design focuses on:",
+    "options": {
+      "A": "Locating facilities near suppliers and markets",
+      "B": "Maximizing tax benefits",
+      "C": "Minimizing the number of employees",
+      "D": "Standardizing all product designs"
+    },
+    "correctAnswer": "A",
+    "explanation": "Efficient facility network design involves strategically locating facilities near suppliers and markets to reduce costs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "question": "Supply and demand management involves:",
+    "options": {
+      "A": "Setting employee schedules",
+      "B": "Aligning production output with customer demand",
+      "C": "Designing marketing campaigns",
+      "D": "Analyzing financial statements"
+    },
+    "correctAnswer": "B",
+    "explanation": "Supply and demand management ensures production output aligns with customer demand to avoid shortages or excess inventory.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 11,
+    "question": "In supply chain management, transportation management primarily deals with:",
+    "options": {
+      "A": "Selecting carriers and routes to optimize delivery",
+      "B": "Managing customer relationships",
+      "C": "Forecasting product demand",
+      "D": "Designing product features"
+    },
+    "correctAnswer": "A",
+    "explanation": "Transportation management involves selecting and managing carriers and routes to optimize delivery within the supply chain.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "The role of warehouses in a supply chain includes:",
+    "options": {
+      "A": "Generating marketing strategies",
+      "B": "Storing goods until needed by customers",
+      "C": "Conducting employee training",
+      "D": "Auditing financial records"
+    },
+    "correctAnswer": "B",
+    "explanation": "Warehouses store goods until they are needed by customers, providing buffering and inventory management.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "Product returns process in a supply chain is concerned with:",
+    "options": {
+      "A": "Streamlining order placement",
+      "B": "Allocating marketing budgets",
+      "C": "Managing reverse logistics for returned items",
+      "D": "Scheduling production runs"
+    },
+    "correctAnswer": "C",
+    "explanation": "Reverse logistics covers the process of managing returned items from customers back through the supply chain.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "The Pareto principle in product portfolio management suggests that:",
+    "options": {
+      "A": "80% of products generate 20% of profits",
+      "B": "Production costs decrease over time",
+      "C": "All products have equal demand",
+      "D": "20% of products generate 80% of revenue"
+    },
+    "correctAnswer": "D",
+    "explanation": "The Pareto principle (80/20 rule) indicates a small percentage of items account for the majority of results.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "Identifying slow-moving products helps managers to:",
+    "options": {
+      "A": "Increase production speed",
+      "B": "Determine employee bonuses",
+      "C": "Reduce inventory holding costs",
+      "D": "Expand product lines"
+    },
+    "correctAnswer": "C",
+    "explanation": "By identifying slow-moving products, companies can reduce holding costs associated with excess stock.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "A decoupling point in supply chain management refers to:",
+    "options": {
+      "A": "Point where product customization occurs",
+      "B": "Location where inventory is stored",
+      "C": "Stage separating push and pull processes",
+      "D": "Moment of product delivery to customer"
+    },
+    "correctAnswer": "C",
+    "explanation": "The decoupling point separates push processes (forecast-driven) from pull processes (demand-driven) in inventory management.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "question": "Synchronizing material flow helps supply chains by:",
+    "options": {
+      "A": "Reducing lead times and minimizing shortages",
+      "B": "Increasing marketing reach",
+      "C": "Improving employee satisfaction",
+      "D": "Expanding into new markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Synchronizing material flow reduces lead times and minimizes stock shortages by coordinating supply chain activities.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "Using proximity to customers in network design improves efficiency by:",
+    "options": {
+      "A": "Maximizing inventory levels",
+      "B": "Increasing production capacity",
+      "C": "Reducing product variety",
+      "D": "Lowering transportation costs and delivery times"
+    },
+    "correctAnswer": "D",
+    "explanation": "Placing facilities closer to customers lowers transportation costs and shortens delivery times, improving efficiency.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "A Bill of Material (BOM) is defined as:",
+    "options": {
+      "A": "Diagram of facility layout",
+      "B": "Forecast of customer demand",
+      "C": "List of raw materials and components for a product",
+      "D": "Schedule for production activities"
+    },
+    "correctAnswer": "C",
+    "explanation": "A Bill of Material lists all raw materials, components, and subassemblies required to manufacture a finished product.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "Static planning in production refers to:",
+    "options": {
+      "A": "Adjusting plans in real time",
+      "B": "Collaborating with suppliers dynamically",
+      "C": "Using historical data to create fixed schedules",
+      "D": "Responding to daily demand fluctuations"
+    },
+    "correctAnswer": "C",
+    "explanation": "Static planning relies on fixed schedules based on historical data rather than adjusting plans in real time.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 21,
+    "question": "Outsourcing in supply chains primarily involves:",
+    "options": {
+      "A": "Investing in facility automation",
+      "B": "Hiring new full-time employees",
+      "C": "Merging with competitor companies",
+      "D": "Using third-party providers for certain functions"
+    },
+    "correctAnswer": "D",
+    "explanation": "Outsourcing uses third-party providers to perform certain functions instead of doing them in-house.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "question": "Measurement of supply chain performance often uses which metric?",
+    "options": {
+      "A": "Employee turnover ratio",
+      "B": "Net profit margin",
+      "C": "Social media engagement",
+      "D": "On-time delivery rate"
+    },
+    "correctAnswer": "D",
+    "explanation": "On-time delivery rate measures the percentage of orders delivered on schedule, reflecting supply chain performance.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "question": "E-commerce impacts supply chain channels by:",
+    "options": {
+      "A": "Increasing lead times",
+      "B": "Decreasing customer reach",
+      "C": "Eliminating the use of IT systems",
+      "D": "Reducing the need for intermediaries"
+    },
+    "correctAnswer": "D",
+    "explanation": "E-commerce reduces intermediary roles by allowing manufacturers or sellers to sell directly to customers online.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "Political events affect supply chains primarily through:",
+    "options": {
+      "A": "Altering product designs",
+      "B": "Increasing human resource requirements",
+      "C": "Improving packaging aesthetics",
+      "D": "Changing tax and tariff regulations"
+    },
+    "correctAnswer": "D",
+    "explanation": "Political events can change tax and tariff regulations, impacting cross-border supply chain costs and operations.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is a function of distribution channels?",
+    "options": {
+      "A": "Performing employee training programs",
+      "B": "Assessing production quality",
+      "C": "Designing corporate logos",
+      "D": "Facilitating transaction negotiations"
+    },
+    "correctAnswer": "D",
+    "explanation": "One function of distribution channels is facilitating transactions between manufacturers and customers.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "question": "In supply chain management, the sense of urgency is characterized by:",
+    "options": {
+      "A": "Monitoring processes and handling disruptions swiftly",
+      "B": "Planning and scheduling long-term maintenance tasks",
+      "C": "Conducting routine performance reviews with stakeholders",
+      "D": "Standardizing product configurations across all markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with Competency A: Essential Supply Chain Management Concepts, Task: Explain the sense of urgency associated with supply chain management, which involves proactive monitoring and rapid response to disruptions :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "question": "Which driver has been a major reason for the growth of supply chain management as a discipline?",
+    "options": {
+      "A": "Information revolution enabling real-time data sharing",
+      "B": "Reduced global competition in major supply markets",
+      "C": "Lower consumer expectations for product delivery speed",
+      "D": "Elimination of third-party logistics intermediaries"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses Competency A: Essential Supply Chain Management Concepts, Task: Explain the reasons for growth of supply chain management, highlighting the role of the information revolution :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 28,
+    "question": "What distinguishes physical flows from information flows in a supply chain?",
+    "options": {
+      "A": "Physical flows move goods while information flows transmit related data",
+      "B": "Physical flows handle paperwork; information flows move materials",
+      "C": "Physical flows move goods; information flows move data",
+      "D": "Physical flows are digital; information flows are tangible goods"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns to Competency A: Essential Supply Chain Management Concepts, Task: Define physical and information flows, where physical flows transport goods and information flows transmit data about those goods :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "question": "In supply chain management, the term 'strategic orientation' for cost savings refers to:",
+    "options": {
+      "A": "Aligning business goals to sustained cost reduction initiatives",
+      "B": "Focusing exclusively on higher production output volumes",
+      "C": "Prioritizing marketing campaigns above logistics efficiency goals",
+      "D": "Selecting products solely based on competitor market trends"
+    },
+    "correctAnswer": "A",
+    "explanation": "This question aligns with Competency A: Essential Supply Chain Management Concepts, Task: Define strategic orientation for saving money within an organization, which emphasizes aligning goals to cost-saving strategies :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "How does supply chain management create new value for customers and society?",
+    "options": {
+      "A": "Optimizing processes to reduce waste and improve availability",
+      "B": "Centralizing decision making exclusively at corporate headquarters",
+      "C": "Eliminating communication between supply chain partners entirely",
+      "D": "Increasing the number of intermediaries in distribution networks"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses Competency A: Essential Supply Chain Management Concepts, Task: Analyze the creation of new value in the supply chain, emphasizing waste reduction and enhanced availability :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "Why are technology skills important for successful supply chain managers?",
+    "options": {
+      "A": "Enabling use of analytics and digital tools to optimize operations",
+      "B": "Primarily supporting graphic design for promotional materials",
+      "C": "Concentrating exclusively on coding ERP and software solutions",
+      "D": "Replacing the need for interpersonal communication skills"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with Competency A: Essential Supply Chain Management Concepts, Task: Explain the importance of technology skills among supply chain managers, which includes using analytics and digital tools :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "question": "Excel proficiency is valued in supply chain management because it allows managers to:",
+    "options": {
+      "A": "Organize, analyze, and visualize large supply chain data sets efficiently",
+      "B": "Develop web applications for customer-facing e-commerce platforms",
+      "C": "Create branding materials and visual campaigns for marketing purposes",
+      "D": "Conduct virtual meetings and video conferences with partners"
+    },
+    "correctAnswer": "A",
+    "explanation": "This corresponds to Competency A: Essential Supply Chain Management Concepts, Task: Describe the importance of Excel knowledge for supply chain management, highlighting data analysis and visualization :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "In the context of supply chain management, 'analytics' refers to:",
+    "options": {
+      "A": "Recording product specifications across multiple supplier catalogs",
+      "B": "Systematically analyzing data to support decision making",
+      "C": "Training warehouse staff on safety and operational procedures",
+      "D": "Negotiating contractual terms with logistics providers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aligned to Competency B: Supply Chain Topics, Task: Define analytics, which involves analyzing data to guide supply chain decisions :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "question": "Customer relationship management in a supply chain focuses on:",
+    "options": {
+      "A": "Managing inventory levels at distribution centers",
+      "B": "Building and maintaining buyer-supplier partnerships",
+      "C": "Automating warehouse material handling processes",
+      "D": "Standardizing product designs for mass production"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses Competency B: Supply Chain Topics, Task: Explain customer relationship management, which centers on fostering strong buyer-supplier relationships :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "Demand forecasting primarily helps supply chain managers to:",
+    "options": {
+      "A": "Develop marketing slogans for product promotions",
+      "B": "Predict future customer demand to align planning",
+      "C": "Identify potential distribution channel opportunities",
+      "D": "Calculate depreciation rates for manufacturing equipment"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with Competency B: Supply Chain Topics, Task: Describe the role of forecasting, which involves predicting demand to guide production and inventory decisions :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "question": "Supply market intelligence provides which key benefit in supply chain operations?",
+    "options": {
+      "A": "Guidance on social media marketing strategies",
+      "B": "Insights into supplier capabilities and market trends",
+      "C": "Standards for conducting internal performance reviews",
+      "D": "Specifications for product packaging and labeling"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns to Competency B: Supply Chain Topics, Task: Define supply market intelligence, offering information on supplier markets and trends :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 37,
+    "question": "Sustainability in supply chain management is best defined as:",
+    "options": {
+      "A": "Maximizing short-term profits at any environmental cost",
+      "B": "Balancing economic growth with environmental and social goals",
+      "C": "Eliminating all risks associated with supplier relationships",
+      "D": "Standardizing delivery schedules across all customer segments"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses Competency B: Supply Chain Topics, Task: Define sustainability for supply chain management, focusing on responsible economic, environmental, and social practices :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "How does transportation planning relate to supply chain management?",
+    "options": {
+      "A": "Setting marketing budgets for distribution channel expenses",
+      "B": "Integrating logistics decisions to optimize goods movement",
+      "C": "Standardizing quality control across manufacturing processes",
+      "D": "Developing corporate branding strategies for products"
+    },
+    "correctAnswer": "B",
+    "explanation": "This corresponds to Competency B: Supply Chain Topics, Task: Explain the relationship between supply chain management and transportation planning, emphasizing logistics integration :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "Leadership opportunities in supply chain management primarily involve:",
+    "options": {
+      "A": "Designing product packaging for retail distribution channels",
+      "B": "Analyzing financial statements to assess profit margins",
+      "C": "Coordinating cross-functional teams to enhance process efficiency",
+      "D": "Conducting customer satisfaction research for market insights"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns to Competency C: Characteristics for Successful Supply Chain Managers, Task: Describe leadership opportunities, focusing on guiding cross-functional teams :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "question": "Which skill is most essential for effective communication in supply chain management?",
+    "options": {
+      "A": "Submitting purchase orders and tracking supplier invoices",
+      "B": "Configuring automated systems for warehouse handling",
+      "C": "Clearly conveying demand forecasts to all stakeholders",
+      "D": "Designing user interfaces for supply chain management software systems"
+    },
+    "correctAnswer": "C",
+    "explanation": "This corresponds to Competency C: Characteristics for Successful Supply Chain Managers, Task: Describe effective communication skills, emphasizing clear stakeholder communication of forecasts :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "Which ethical responsibility is critical for supply chain managers?",
+    "options": {
+      "A": "Ignoring compliance regulations to lower operational expenses",
+      "B": "Favoring suppliers based solely on geographic proximity",
+      "C": "Ensuring transparency and fairness in supplier contracts",
+      "D": "Prioritizing short-term gains over long-term partnerships"
+    },
+    "correctAnswer": "C",
+    "explanation": "Aligned to Competency C: Characteristics for Successful Supply Chain Managers, Task: Explain responsibility ethics for supply chain management, highlighting transparency in contracts :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 42,
+    "question": "Flexibility of thought among supply chain managers helps them to:",
+    "options": {
+      "A": "Standardizing all product specifications without variation",
+      "B": "Increasing marketing budgets across multiple regions",
+      "C": "Adapting processes quickly to changing market conditions",
+      "D": "Delegating critical decisions entirely to external vendors"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with Competency C: Characteristics for Successful Supply Chain Managers, Task: Explain the importance of flexible thinking, which involves adapting to changing conditions :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "In freight terminology, 'FCL' stands for:",
+    "options": {
+      "A": "Flexible Cargo Loading method for irregular shipments",
+      "B": "Freight Cost Limit threshold for budgeting transport expenses",
+      "C": "Full Container Load for large volume shipments",
+      "D": "Freight Confirmation and Logistics tracking system"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses Competency C: Characteristics for Successful Supply Chain Managers, Task: Understand freight terminology, where FCL means Full Container Load for large shipments :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "Problem-solving skills in supply chain management are demonstrated by the ability to:",
+    "options": {
+      "A": "Setting long-term investment strategies for capital allocation",
+      "B": "Creating marketing slogans for new product introductions",
+      "C": "Analyzing root causes of disruptions and implementing solutions",
+      "D": "Hiring staff based solely on academic qualifications"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns to Competency C: Characteristics for Successful Supply Chain Managers, Task: Explain the importance of people and problem-solving skills, highlighting root cause analysis :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "question": "Which statement best describes the relationship between purchasing and supply chain management?",
+    "options": {
+      "A": "Purchasing directs all marketing and branding initiatives",
+      "B": "Purchasing teams handle customer support and after-sales service",
+      "C": "Purchasing activities only commence after sales orders are delivered",
+      "D": "Purchasing sources and acquires materials to support supply chain strategy"
+    },
+    "correctAnswer": "D",
+    "explanation": "This corresponds to Competency D: Supply Chain Planning and Design, Task: Explain the relationship between purchasing and supply chain management, emphasizing material acquisition to support strategy :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 46,
+    "question": "Work-in-process inventory in production planning refers to:",
+    "options": {
+      "A": "Only raw materials awaiting initial quality inspection",
+      "B": "Finished goods ready and awaiting final shipment to customers",
+      "C": "Factory equipment undergoing scheduled maintenance tasks",
+      "D": "Items currently in production that are not yet completed"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns to Competency H: Production Planning and Control, Task: Describe work-in-process for supply chain management, where WIP represents goods being processed :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "question": "A product portfolio is best defined as:",
+    "options": {
+      "A": "A strategic plan outlining future product and service offerings",
+      "B": "A list of raw materials required for ongoing production processes",
+      "C": "An inventory management technique for cost reduction in warehousing",
+      "D": "A set of product lines offered to satisfy different market segments"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns to Competency F: Product Portfolio Management, which defines a product portfolio as the collection of product lines offered based on market needs :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "question": "In improving supply chain network performance, algorithms are commonly used to:",
+    "options": {
+      "A": "Standardizing corporate branding across all global markets",
+      "B": "Assigning routine tasks to manufacturing floor workers",
+      "C": "Forecasting annual tax liabilities for international shipments",
+      "D": "Optimizing warehouse locations and transportation routes"
+    },
+    "correctAnswer": "D",
+    "explanation": "This corresponds to Competency G: Improving Supply Chain Network Performance, Task: Explain how algorithms are used to maximize capital costs, focusing on optimizing inventory and routing decisions :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 49,
+    "question": "What is the primary purpose of a master production schedule?",
+    "options": {
+      "A": "Specifying return procedures for defective or excess products",
+      "B": "Defining timelines for promotional advertising campaigns",
+      "C": "Allocating annual budgets for executive compensation planning",
+      "D": "Outlining production quantities and timing for operational planning"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with Competency H: Production Planning and Control, Task: Explain how a master production schedule is determined, which sets production quantities and schedules :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "Outsourcing in a supply chain typically involves:",
+    "options": {
+      "A": "Retaining all supply chain processes in in-house facilities",
+      "B": "Increasing corporate overhead by hiring full-time employees",
+      "C": "Acquiring competitor firms to expand market share",
+      "D": "Engaging external providers for specialized operational functions"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses Competency I: Supply Chain Coordination and Decision Making, Task: Describe the role of outsourcing in a supply chain, where third parties perform specialized functions :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 51,
+    "question": "Supply chain management is best defined as:",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from origin to consumption",
+      "B": "Designing marketing strategies to increase product visibility",
+      "C": "Managing human resources and performance across production facilities",
+      "D": "Establishing pricing policies and promotional discounts for retail channels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management coordinates the flow of goods, information, and finances across all stages of the supply chain :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 52,
+    "question": "In supply chain management, analytics refers to:",
+    "options": {
+      "A": "Recording product specifications from multiple suppliers",
+      "B": "Systematically analyzing data to support decision making",
+      "C": "Training warehouse staff in operational procedures",
+      "D": "Negotiating contractual terms with logistics providers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Analytics involves systematically examining supply chain data to inform planning and execution decisions :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "Effective communication in supply chain management is essential because it:",
+    "options": {
+      "A": "Ensures accurate information exchange between stakeholders",
+      "B": "Accelerates production line assembly processes",
+      "C": "Improves negotiation outcomes with external partners",
+      "D": "Reduces transportation costs through route optimization"
+    },
+    "correctAnswer": "C",
+    "explanation": "Clear communication enhances collaboration and negotiation with suppliers and partners :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 54,
+    "question": "The relationship between purchasing and supply chain management is that purchasing:",
+    "options": {
+      "A": "Directs inventory management and order fulfillment",
+      "B": "Coordinates marketing campaigns with supply plans",
+      "C": "Activates only after customer orders are delivered",
+      "D": "Sources and acquires materials needed to support supply chain strategy"
+    },
+    "correctAnswer": "D",
+    "explanation": "Purchasing secures the materials and services required to execute the broader supply chain strategy :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 55,
+    "question": "The entire supply chain includes all activities from:",
+    "options": {
+      "A": "Raw material sourcing through delivery to the end customer",
+      "B": "Product design and market analysis to sales reporting",
+      "C": "Employee recruitment through performance review processes",
+      "D": "Marketing campaign development through customer service"
+    },
+    "correctAnswer": "A",
+    "explanation": "The supply chain encompasses every step from sourcing raw materials to delivering finished products :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "question": "Demand forecasting in supply chain management helps managers to:",
+    "options": {
+      "A": "Determine optimal warehouse layout and design plans",
+      "B": "Predict future customer demand to align production and inventory levels",
+      "C": "Streamline employee scheduling across multiple shifts",
+      "D": "Calculate financial ratios for supplier performance analysis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Forecasting estimates future demand so production and inventory can be planned accordingly :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "Which ethical responsibility is critical for supply chain managers?",
+    "options": {
+      "A": "Prioritizing lowest-cost suppliers regardless of practices",
+      "B": "Ignoring compliance regulations to speed up delivery",
+      "C": "Ensuring transparency and fairness in supplier contracts",
+      "D": "Centralizing decision making to exclude partner input"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ethical supply chain management requires fairness and transparency in dealings with suppliers :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 58,
+    "question": "Supply chain integration is best described as:",
+    "options": {
+      "A": "Separating processes into specialized departmental silos",
+      "B": "Outsourcing all logistics functions to external providers",
+      "C": "Expanding product variety without coordination",
+      "D": "Unifying processes and information across supply chain partners"
+    },
+    "correctAnswer": "D",
+    "explanation": "Integration aligns processes and data across partners to enhance coordination and efficiency :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "Logistics primarily involves:",
+    "options": {
+      "A": "Planning, implementing, and controlling the movement and storage of goods",
+      "B": "Forecasting customer demand and market trends",
+      "C": "Analyzing financial performance of supply chain activities",
+      "D": "Designing organizational structures for optimal hierarchy"
+    },
+    "correctAnswer": "A",
+    "explanation": "Logistics focuses on getting the right goods to the right place at the right time :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "question": "Procurement in supply chain management is the process of:",
+    "options": {
+      "A": "Forecasting future product demand and sales volumes",
+      "B": "Purchasing goods and services from external suppliers",
+      "C": "Transporting finished products to distribution centers",
+      "D": "Managing reverse logistics for returned items"
+    },
+    "correctAnswer": "B",
+    "explanation": "Procurement acquires the materials and services needed by the organization :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 61,
+    "question": "The role of manufacturing in a supply chain context is to:",
+    "options": {
+      "A": "Bridge communication between suppliers and customers",
+      "B": "Provide value by transforming inputs into finished goods",
+      "C": "Coordinate inventory management across multiple sites",
+      "D": "Analyze market data to inform production decisions"
+    },
+    "correctAnswer": "C",
+    "explanation": "Manufacturing converts raw inputs into finished products as part of the flow of goods :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "Reverse logistics refers to the process of:",
+    "options": {
+      "A": "Streamlining forward shipments to retail distribution centers",
+      "B": "Handling returned products moving back through the supply chain",
+      "C": "Forecasting seasonal demand for new product releases",
+      "D": "Coordinating cross-functional teams for distribution planning"
+    },
+    "correctAnswer": "D",
+    "explanation": "Reverse logistics manages the return flow of products from customers to suppliers :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 63,
+    "question": "The Pareto principle in product portfolio management suggests that:",
+    "options": {
+      "A": "A small percentage of products generate the majority of revenue",
+      "B": "All products contribute equally to overall profitability",
+      "C": "Inventory levels should be increased by twenty percent",
+      "D": "Product variety should be expanded continuously"
+    },
+    "correctAnswer": "A",
+    "explanation": "The 80/20 rule means a few items often drive most sales or profits :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "Identifying slow-moving products headed toward obsolescence helps managers to:",
+    "options": {
+      "A": "Increase overall production capacity efficiently",
+      "B": "Reduce inventory holding costs and free up capital",
+      "C": "Improve product design and development cycles",
+      "D": "Enhance marketing strategies for high-demand items"
+    },
+    "correctAnswer": "B",
+    "explanation": "Spotting slow movers enables cost savings by cutting excess inventory :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 65,
+    "question": "A decoupling point in inventory management marks:",
+    "options": {
+      "A": "The location where goods are packaged for shipment",
+      "B": "The point of final product delivery to the customer",
+      "C": "The stage separating forecast-driven and demand-driven processes",
+      "D": "The completion of quality inspections before distribution"
+    },
+    "correctAnswer": "C",
+    "explanation": "The decoupling point separates push (forecast) from pull (actual demand) processes :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 66,
+    "question": "How are algorithms used to maximize capital costs in supply chain network performance?",
+    "options": {
+      "A": "By predicting employee scheduling needs based on demand",
+      "B": "By automating communication with external partners",
+      "C": "By standardizing product specifications across sites",
+      "D": "By optimizing warehouse locations and transportation routes"
+    },
+    "correctAnswer": "D",
+    "explanation": "Algorithms can model network design to minimize infrastructure and transport expenses :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "question": "A Bill of Material (BOM) is defined as:",
+    "options": {
+      "A": "A detailed list of raw materials and components required for product assembly",
+      "B": "A schedule outlining production activities and timelines",
+      "C": "An overview of financial flows throughout the supply chain",
+      "D": "A blueprint of warehouse layout and storage zones"
+    },
+    "correctAnswer": "A",
+    "explanation": "A BOM lists every component and material needed to build a finished product :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "Work-in-process inventory consists of:",
+    "options": {
+      "A": "Raw materials awaiting initial quality inspection",
+      "B": "Items currently in production that are not yet completed",
+      "C": "Finished goods ready for immediate shipment to customers",
+      "D": "Products recalled due to defects or returns"
+    },
+    "correctAnswer": "B",
+    "explanation": "WIP includes goods that have entered production but are not yet finished :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 69,
+    "question": "Effective cooperation and coordination in a supply chain ensure:",
+    "options": {
+      "A": "Higher profit margins through increased sales promotions",
+      "B": "Standardization of product designs across markets",
+      "C": "Alignment of objectives and processes among all partners",
+      "D": "Complete elimination of supply chain risks"
+    },
+    "correctAnswer": "C",
+    "explanation": "Coordination aligns goals and operations across all supply chain participants :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "Which metric is most commonly used to measure supply chain performance?",
+    "options": {
+      "A": "Employee turnover rate in distribution centers",
+      "B": "Average production cycle time per batch",
+      "C": "Gross profit margin on product sales",
+      "D": "Percentage of orders delivered on time to customers"
+    },
+    "correctAnswer": "D",
+    "explanation": "On-time delivery rate reflects how reliably the supply chain meets customer schedules :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 71,
+    "question": "Information technology impacts supply chain management by:",
+    "options": {
+      "A": "Enabling real-time tracking and improved visibility across the chain",
+      "B": "Reducing the need for workforce training in logistics",
+      "C": "Increasing lead times through complex system integration",
+      "D": "Standardizing product configurations across global markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "IT tools provide end-to-end visibility and control over supply chain operations :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 72,
+    "question": "E-business has primarily affected supply chains by:",
+    "options": {
+      "A": "Replacing physical warehouses with virtual storage platforms",
+      "B": "Streamlining procurement and order entry via electronic platforms",
+      "C": "Eliminating the need for transportation planning entirely",
+      "D": "Standardizing employee performance metrics globally"
+    },
+    "correctAnswer": "B",
+    "explanation": "E-business digitizes purchasing and order processes, improving speed and accuracy :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "One function of distribution channels is to:",
+    "options": {
+      "A": "Design detailed product packaging and labeling standards",
+      "B": "Manage employee training for distribution processes",
+      "C": "Facilitate transactions between manufacturers and customers",
+      "D": "Analyze financial performance of supply chain activities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Channels transact goods between producers and end users, assuming risk in the process :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 74,
+    "question": "Time utility in distribution channels refers to:",
+    "options": {
+      "A": "Determining optimal channel member locations",
+      "B": "Assessing cost efficiency of transportation routes",
+      "C": "Coordinating storage and sorting functions before shipping",
+      "D": "Making products available at the time customers want them"
+    },
+    "correctAnswer": "D",
+    "explanation": "Time utility ensures products are available when customers need them :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "Intermediaries in distribution channels primarily function to:",
+    "options": {
+      "A": "Bridge manufacturers and consumers by assuming risk and facilitating transactions",
+      "B": "Develop corporate branding and promotional materials",
+      "C": "Oversee warehouse inventory and storage capacity",
+      "D": "Forecast demand signals for production planning"
+    },
+    "correctAnswer": "A",
+    "explanation": "Intermediaries link producers to customers, sharing risk and handling marketing functions :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Which statement best defines supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from origin to consumption",
+      "B": "Designing marketing strategies to increase product visibility",
+      "C": "Managing human resources across production facilities",
+      "D": "Establishing pricing policies and promotional discounts for retail channels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management coordinates the flow of goods, information, and finances across all stages of the supply chain :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 77,
+    "question": "Which best defines logistics?",
+    "options": {
+      "A": "Forecasting future product demand and sales volumes",
+      "B": "Planning, implementing, and controlling the movement and storage of goods",
+      "C": "Analyzing financial performance of supply chain activities",
+      "D": "Designing organizational structures for optimal hierarchy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Logistics is the planning, implementation, and control of moving and storing goods within the supply chain :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "Physical and information flows in a supply chain refer to:",
+    "options": {
+      "A": "Movement of goods only",
+      "B": "Exchange of performance reports only",
+      "C": "Movement of materials and exchange of related data",
+      "D": "Financial transactions and customer communications"
+    },
+    "correctAnswer": "C",
+    "explanation": "Physical flows move goods and materials, while information flows transmit the data needed to manage those movements :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 79,
+    "question": "Supply market intelligence is defined as:",
+    "options": {
+      "A": "Negotiating contractual terms with logistics providers",
+      "B": "Training warehouse staff on operational procedures",
+      "C": "Designing product specifications for multiple suppliers",
+      "D": "Gathering insights into supplier capabilities and market trends"
+    },
+    "correctAnswer": "D",
+    "explanation": "Supply market intelligence involves collecting and analyzing data on suppliers and market trends to inform sourcing decisions :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "question": "Sales and operations planning primarily aims to:",
+    "options": {
+      "A": "Balance supply and demand across the organization",
+      "B": "Automate all manufacturing processes",
+      "C": "Eliminate inventory safety stock",
+      "D": "Merge procurement and marketing functions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sales and operations planning aligns production capacity with demand forecasts to maintain balance between supply and demand :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "question": "Sustainability in supply chain management is best defined as:",
+    "options": {
+      "A": "Maximizing short-term profits at any environmental cost",
+      "B": "Balancing economic growth with environmental and social goals",
+      "C": "Eliminating all risks associated with supplier relationships",
+      "D": "Standardizing delivery schedules regardless of impact"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sustainability involves pursuing economic growth while also addressing environmental stewardship and social responsibility :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 82,
+    "question": "In a supply chain, transportation planning involves:",
+    "options": {
+      "A": "Forecasting long-term demand trends",
+      "B": "Designing corporate branding strategies",
+      "C": "Optimizing routes and carrier selection to move goods efficiently",
+      "D": "Assessing internal audit processes"
+    },
+    "correctAnswer": "C",
+    "explanation": "Transportation planning integrates decisions on routing and carrier selection to ensure efficient movement of goods :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "Strategic orientation for saving money within an organization refers to:",
+    "options": {
+      "A": "Focusing entirely on increasing production volume",
+      "B": "Reducing staff training budgets to cut overhead",
+      "C": "Eliminating collaboration with external partners",
+      "D": "Aligning organizational objectives with sustained cost-reduction initiatives"
+    },
+    "correctAnswer": "D",
+    "explanation": "A strategic orientation for saving money means aligning business goals with continuous cost-saving measures :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "question": "Creating new value in the supply chain often involves:",
+    "options": {
+      "A": "Reducing waste and improving product availability",
+      "B": "Centralizing decision-making at headquarters",
+      "C": "Increasing the number of intermediaries",
+      "D": "Limiting data sharing between partners"
+    },
+    "correctAnswer": "A",
+    "explanation": "New value is generated by streamlining processes to cut waste and ensure products are available when and where customers need them :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "Global impacts on supply chain management include:",
+    "options": {
+      "A": "Uniform regulations across all countries",
+      "B": "Legal and logistical complexities like tariffs, customs, and trade agreements",
+      "C": "Elimination of transportation considerations",
+      "D": "Standardized packaging requirements"
+    },
+    "correctAnswer": "B",
+    "explanation": "Global supply chains must navigate e-commerce, tariffs, customs regulations, and other legal and logistical factors :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "question": "Technology skills are important for supply chain managers because they:",
+    "options": {
+      "A": "Enable graphic design of promotional materials",
+      "B": "Replace the need for interpersonal communication",
+      "C": "Allow use of analytics and digital tools to optimize operations",
+      "D": "Automate all human resource functions"
+    },
+    "correctAnswer": "C",
+    "explanation": "Proficiency with technology and analytics tools helps managers analyze data and improve supply chain decision-making :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 87,
+    "question": "Leadership opportunities in supply chain management often involve:",
+    "options": {
+      "A": "Designing customer marketing campaigns",
+      "B": "Conducting financial audits of suppliers",
+      "C": "Overseeing product design processes",
+      "D": "Coordinating cross-functional teams to enhance process efficiency"
+    },
+    "correctAnswer": "D",
+    "explanation": "Supply chain leaders guide cross-functional teams to align processes and drive operational improvements :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "question": "Effective communication skills in supply chain management ensure:",
+    "options": {
+      "A": "Accurate information exchange among all stakeholders",
+      "B": "Faster assembly line speeds",
+      "C": "Lower inventory holding costs",
+      "D": "Increased marketing reach"
+    },
+    "correctAnswer": "A",
+    "explanation": "Clear communication is critical for sharing forecasts, updates, and requirements across the supply chain :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 89,
+    "question": "An ethical responsibility for supply chain managers is to:",
+    "options": {
+      "A": "Ignore compliance regulations to speed up delivery",
+      "B": "Ensure transparency and fairness in supplier contracts",
+      "C": "Favor the lowest-cost supplier regardless of practices",
+      "D": "Centralize decision-making to exclude partner input"
+    },
+    "correctAnswer": "B",
+    "explanation": "Managers must uphold ethical standards by maintaining fairness and transparency in supplier agreements :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 90,
+    "question": "Language skills are valuable for supply chain managers because they:",
+    "options": {
+      "A": "Enable advanced programming for ERP systems",
+      "B": "Support graphic design and branding",
+      "C": "Facilitate communication with international partners",
+      "D": "Improve warehouse automation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Foreign language proficiency helps managers collaborate effectively with global suppliers and customers :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "question": "Flexible thinking in supply chain management allows managers to:",
+    "options": {
+      "A": "Standardize processes without variation",
+      "B": "Increase production output at all costs",
+      "C": "Eliminate the need for supplier collaboration",
+      "D": "Adapt processes quickly to changing market conditions"
+    },
+    "correctAnswer": "D",
+    "explanation": "Flexibility enables rapid response to disruptions and evolving customer demands :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 92,
+    "question": "The sense of urgency in supply chain management refers to:",
+    "options": {
+      "A": "Proactive monitoring of processes and swift handling of disruptions",
+      "B": "Scheduling routine maintenance tasks in advance",
+      "C": "Conducting periodic performance reviews",
+      "D": "Standardizing all documentation and reporting"
+    },
+    "correctAnswer": "A",
+    "explanation": "A strong sense of urgency means proactively tracking operations and rapidly addressing issues :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "Static planning differs from dynamic planning in that static planning:",
+    "options": {
+      "A": "Adjusts schedules in real time based on actual demand",
+      "B": "Uses historical data to create fixed production schedules",
+      "C": "Relies exclusively on automated systems",
+      "D": "Focuses on continuous process improvement"
+    },
+    "correctAnswer": "B",
+    "explanation": "Static planning sets fixed schedules based on past data, whereas dynamic planning adapts in real time :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 94,
+    "question": "A master production schedule (MPS) is used to:",
+    "options": {
+      "A": "Manage supplier contracts and agreements",
+      "B": "Forecast long-term market trends",
+      "C": "Outline production quantities and timing to meet demand",
+      "D": "Allocate marketing budgets across product lines"
+    },
+    "correctAnswer": "C",
+    "explanation": "The MPS specifies what to produce, in what quantities, and when, to satisfy forecasted demand :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "Finished goods inventory refers to:",
+    "options": {
+      "A": "Raw materials awaiting initial processing",
+      "B": "Work in process items on the production floor",
+      "C": "Goods returned by customers",
+      "D": "Completed products ready for delivery to customers"
+    },
+    "correctAnswer": "D",
+    "explanation": "Finished goods are products that have completed production and are ready for sale or delivery :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 96,
+    "question": "Outsourcing in a supply chain typically involves:",
+    "options": {
+      "A": "Engaging external providers for specialized operational functions",
+      "B": "Retaining all processes in in-house facilities",
+      "C": "Eliminating the need for inventory management",
+      "D": "Centralizing decision-making at headquarters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Outsourcing contracts third parties to perform certain supply chain activities rather than handling them internally :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "Cooperation and coordination in a supply chain ensure:",
+    "options": {
+      "A": "Elimination of all supply chain risks",
+      "B": "Alignment of objectives and processes among all partners",
+      "C": "Standardization of product designs across markets",
+      "D": "Increased financial leverage for suppliers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective coordination aligns goals and operations across organizations to improve performance :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "question": "Which metric is commonly used to measure supply chain performance?",
+    "options": {
+      "A": "Employee turnover rate in distribution centers",
+      "B": "Average production cycle time per batch",
+      "C": "Percentage of orders delivered on time to customers",
+      "D": "Gross profit margin on product sales"
+    },
+    "correctAnswer": "C",
+    "explanation": "On-time delivery rate reflects how reliably the supply chain meets customer delivery commitments :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 99,
+    "question": "Information technology has impacted supply chain management by:",
+    "options": {
+      "A": "Reducing the need for any workforce training",
+      "B": "Increasing lead times through complex integrations",
+      "C": "Standardizing product features worldwide",
+      "D": "Enabling real-time tracking and improved visibility across the chain"
+    },
+    "correctAnswer": "D",
+    "explanation": "IT solutions provide end-to-end visibility and real-time tracking of goods, enhancing responsiveness and collaboration :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "One role of intermediaries in distribution channels is to:",
+    "options": {
+      "A": "Facilitate transactions between manufacturers and customers by assuming risk",
+      "B": "Design detailed corporate branding standards",
+      "C": "Directly manage production schedules",
+      "D": "Forecast demand signals for all product lines"
+    },
+    "correctAnswer": "A",
+    "explanation": "Intermediaries help bridge producers and consumers by handling transactions and sharing the risk of holding inventory :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 101,
+    "question": "Which statement best defines supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from origin to consumption",
+      "B": "Designing warehouse layouts and storage processes",
+      "C": "Setting pricing strategies across distribution channels",
+      "D": "Managing human resource performance in production facilities"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management coordinates the flow of goods, information, and finances across all stages of the supply chain :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 102,
+    "question": "Logistics is best defined as:",
+    "options": {
+      "A": "Forecasting customer demand and sales volumes",
+      "B": "Planning, implementing, and controlling the movement and storage of goods",
+      "C": "Analyzing financial transactions within the supply chain",
+      "D": "Designing organizational structures for production"
+    },
+    "correctAnswer": "B",
+    "explanation": "Logistics involves planning, implementing, and controlling the movement and storage of goods within the supply chain :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "The entire supply chain encompasses:",
+    "options": {
+      "A": "All marketing and sales activities after production",
+      "B": "Movement of materials between manufacturing sites",
+      "C": "All processes from raw material sourcing to final customer delivery",
+      "D": "Financial planning for supply chain investments"
+    },
+    "correctAnswer": "C",
+    "explanation": "The entire supply chain includes every step from sourcing raw materials through manufacturing and distribution to the end customer :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "question": "How does logistics impact supply chain management?",
+    "options": {
+      "A": "It reduces the need for supplier relationship management",
+      "B": "It increases product pricing flexibility",
+      "C": "It eliminates the need for supply chain integration",
+      "D": "It improves coordination by optimizing goods movement and storage"
+    },
+    "correctAnswer": "D",
+    "explanation": "Logistics enhances overall supply chain coordination by ensuring efficient movement and storage of goods :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "E-commerce, tariffs, and customs regulations primarily affect global supply chains by:",
+    "options": {
+      "A": "Introducing legal, financial, and physical constraints such as import taxes, risk management, and customs compliance",
+      "B": "Eliminating the need for global distribution networks",
+      "C": "Automatically standardizing all product specifications",
+      "D": "Focusing supply chain efforts solely on domestic markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Global trading is influenced by e-commerce platforms and by legal and financial factors like import taxes, tariffs, customs, and risk management :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 106,
+    "question": "Creating new value in the supply chain often involves:",
+    "options": {
+      "A": "Centralizing decision-making at corporate headquarters",
+      "B": "Streamlining processes to reduce waste and ensure product availability",
+      "C": "Increasing the number of intermediaries in distribution",
+      "D": "Standardizing product features across all markets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Analyzing new value creation emphasizes waste reduction and improved product availability for customers and society :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "Physical flows and information flows in a supply chain refer to:",
+    "options": {
+      "A": "Physical flows track financial transactions; information flows handle packaging",
+      "B": "Physical flows are tangible; information flows are digital software processes",
+      "C": "Physical flows move materials and goods while information flows transmit related data",
+      "D": "Physical flows manage customer relationships; information flows manage supplier contracts"
+    },
+    "correctAnswer": "C",
+    "explanation": "Physical flows involve the movement of materials and goods, whereas information flows involve the data exchange required to manage those materials :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "A strategic orientation for saving money within an organization means:",
+    "options": {
+      "A": "Focusing exclusively on increasing production volume",
+      "B": "Reducing staff training budgets to cut overhead",
+      "C": "Raising product prices to improve margins",
+      "D": "Aligning organizational objectives with continuous cost-reduction initiatives"
+    },
+    "correctAnswer": "D",
+    "explanation": "Strategic orientation for cost savings involves aligning business goals with sustained cost-reduction efforts :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 109,
+    "question": "One major reason for the growth of supply chain management as a discipline is:",
+    "options": {
+      "A": "Information revolution enabling real-time data sharing across partners",
+      "B": "Decline in global competition simplifying operations",
+      "C": "Elimination of trade regulations reducing complexity",
+      "D": "Shift to localized production removing global networks"
+    },
+    "correctAnswer": "A",
+    "explanation": "The information revolution, which supports real-time data sharing and collaboration, is a key driver in the growth of supply chain management :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 110,
+    "question": "Procurement in supply chain management refers to:",
+    "options": {
+      "A": "The process of acquiring goods and services from external suppliers",
+      "B": "Managing warehousing and storage functions",
+      "C": "Coordinating marketing and branding initiatives",
+      "D": "Analyzing customer demand forecasts"
+    },
+    "correctAnswer": "A",
+    "explanation": "Procurement involves sourcing and purchasing the materials and services needed to support the supply chain :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 111,
+    "question": "Sales and operations planning primarily involves:",
+    "options": {
+      "A": "Integrating marketing budgets with supply chain schedules",
+      "B": "Balancing production output with demand forecasts across the organization",
+      "C": "Automating all manufacturing processes",
+      "D": "Centralizing customer service in distribution centers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sales and operations planning aligns production capacity and inventory levels with sales forecasts to balance supply and demand :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "In supply chain contexts, analytics is used to:",
+    "options": {
+      "A": "Manually record inventory counts each day",
+      "B": "Forecast monthly sales solely through expert opinion",
+      "C": "Systematically examine data to support decision making",
+      "D": "Negotiate carrier rates without data support"
+    },
+    "correctAnswer": "C",
+    "explanation": "Analytics refers to the systematic analysis of data to inform and improve supply chain decisions :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 113,
+    "question": "Supply market intelligence provides:",
+    "options": {
+      "A": "Automated scheduling for warehouse staff",
+      "B": "Customer satisfaction data for marketing",
+      "C": "Specifications for product design",
+      "D": "Insights into supplier capabilities and market trends"
+    },
+    "correctAnswer": "D",
+    "explanation": "Supply market intelligence involves gathering and analyzing information about suppliers and market conditions to guide sourcing decisions :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "Sustainability in supply chain management means:",
+    "options": {
+      "A": "Balancing economic growth with environmental and social responsibility",
+      "B": "Maximizing short-term profits regardless of environmental impact",
+      "C": "Eliminating all supplier audits to reduce costs",
+      "D": "Standardizing delivery schedules across all customer segments"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sustainability involves managing supply chains in ways that consider economic, environmental, and social impacts :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 115,
+    "question": "The relationship between supply chain management and transportation planning is:",
+    "options": {
+      "A": "Designing corporate branding strategies",
+      "B": "Coordinating logistics decisions to optimize goods movement",
+      "C": "Developing HR plans for warehouse shifts",
+      "D": "Forecasting demand solely by historical data"
+    },
+    "correctAnswer": "B",
+    "explanation": "Transportation planning integrates with supply chain management by selecting routes and carriers to move goods efficiently :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "question": "Technology skills are important for supply chain managers because they:",
+    "options": {
+      "A": "Support graphic design of promotional materials",
+      "B": "Replace the need for interpersonal communication",
+      "C": "Enable use of analytics and digital tools to optimize operations",
+      "D": "Automate all human resource functions"
+    },
+    "correctAnswer": "C",
+    "explanation": "Proficiency with technology and analytics tools helps managers analyze data and improve supply chain decision-making :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "question": "A strong sense of urgency in supply chain management involves:",
+    "options": {
+      "A": "Scheduling routine tasks far in advance",
+      "B": "Standardizing all documentation across departments",
+      "C": "Delegating critical decisions to lower-level staff",
+      "D": "Proactively monitoring processes and responding swiftly to disruptions"
+    },
+    "correctAnswer": "D",
+    "explanation": "A sense of urgency requires actively tracking operations and addressing issues rapidly to prevent delays :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 118,
+    "question": "Excel knowledge is valued in supply chain management because it allows managers to:",
+    "options": {
+      "A": "Organize, analyze, and visualize large sets of supply chain data",
+      "B": "Design database schemas for ERP systems",
+      "C": "Automate freight booking through macros",
+      "D": "Configure network hardware for real-time tracking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Excel enables efficient organization, analysis, and visualization of complex supply chain datasets :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 119,
+    "question": "The temperament required for successful supply chain management typically includes:",
+    "options": {
+      "A": "Preference for short-term tasks over long-term planning",
+      "B": "Composure under pressure and attention to detail",
+      "C": "Reliance solely on financial metrics for decisions",
+      "D": "Delegating all critical decisions to automated systems"
+    },
+    "correctAnswer": "B",
+    "explanation": "Successful managers maintain composure under pressure and pay close attention to detail when resolving supply chain challenges :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 120,
+    "question": "Purchasing relates to supply chain management by:",
+    "options": {
+      "A": "Managing warehouse space to support inventory levels",
+      "B": "Designing marketing campaigns for new products",
+      "C": "Sourcing and acquiring materials and services to support strategy",
+      "D": "Forecasting demand using only historical data"
+    },
+    "correctAnswer": "C",
+    "explanation": "Purchasing secures the materials and services necessary to execute the broader supply chain strategy :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 121,
+    "question": "Supply chain integration is best described as:",
+    "options": {
+      "A": "Separating processes into independent departmental silos",
+      "B": "Outsourcing all procurement activities",
+      "C": "Standardizing designs without sharing data",
+      "D": "Unifying processes and information across all partners"
+    },
+    "correctAnswer": "D",
+    "explanation": "Integration aligns workflows and data across suppliers, manufacturers, and distributors for better coordination :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "Supply and demand management involves:",
+    "options": {
+      "A": "Aligning production output and inventory with customer demand",
+      "B": "Increasing production capacity without considering forecasts",
+      "C": "Automating marketing communications with supply systems",
+      "D": "Defining corporate branding guidelines"
+    },
+    "correctAnswer": "A",
+    "explanation": "Managing supply and demand ensures production and inventory levels match forecasted customer needs :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 123,
+    "question": "Efficient facility network design focuses on:",
+    "options": {
+      "A": "Centralizing all operations at a single headquarters",
+      "B": "Locating facilities near suppliers and customer markets to minimize costs",
+      "C": "Increasing small warehouses regardless of demand",
+      "D": "Designing facilities based solely on land availability"
+    },
+    "correctAnswer": "B",
+    "explanation": "Strategic placement of facilities near suppliers and markets reduces transportation costs and lead times :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "Expense management in supply chain planning is important because it:",
+    "options": {
+      "A": "Focuses exclusively on revenue growth regardless of costs",
+      "B": "Eliminates capital expenditures in the supply chain",
+      "C": "Monitors and controls costs across operations to maintain profitability",
+      "D": "Increases marketing budgets to boost visibility"
+    },
+    "correctAnswer": "C",
+    "explanation": "Controlling expenses throughout the supply chain helps maintain margins and ensure sustainable operations :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 125,
+    "question": "A company provides value to its supply chain by:",
+    "options": {
+      "A": "Reducing supply chain transparency to lower costs",
+      "B": "Standardizing products to simplify operations",
+      "C": "Automating all processes without human oversight",
+      "D": "Customizing supply chain processes to meet customer needs and gain advantage"
+    },
+    "correctAnswer": "D",
+    "explanation": "Delivering value involves tailoring supply chain processes to meet specific customer requirements and create competitive advantage :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 126,
+    "question": "Which statement best defines supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from raw materials to end customers",
+      "B": "Designing marketing strategies to increase product visibility",
+      "C": "Managing human resources and performance in manufacturing plants",
+      "D": "Setting pricing policies across distribution channels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management involves coordinating goods, information, and financial flows from suppliers through production to the final customer :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 127,
+    "question": "The term ‘entire supply chain’ refers to:",
+    "options": {
+      "A": "All marketing and sales activities after production",
+      "B": "Every process from raw material sourcing through product delivery to the end user",
+      "C": "Financial planning for supply chain investments",
+      "D": "Employee training and performance review processes"
+    },
+    "correctAnswer": "B",
+    "explanation": "The entire supply chain covers every step from sourcing raw materials through manufacturing, distribution, and delivery to customers :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 128,
+    "question": "Logistics management is best described as:",
+    "options": {
+      "A": "Forecasting future demand and sales volumes",
+      "B": "Analyzing financial performance metrics",
+      "C": "Planning, implementing, and controlling the movement and storage of goods",
+      "D": "Designing organizational structures for production facilities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logistics involves the planning, implementation, and control of goods movement and storage within the supply chain :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 129,
+    "question": "How does logistics impact supply chain management?",
+    "options": {
+      "A": "It reduces the need for supplier relationship management",
+      "B": "It increases product pricing flexibility",
+      "C": "It eliminates the need for supply chain integration",
+      "D": "It enhances coordination by optimizing the flow and storage of materials"
+    },
+    "correctAnswer": "D",
+    "explanation": "Logistics improves overall supply chain performance by ensuring efficient movement and storage of materials and products :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "Which factors—e-commerce, import taxes, risk, tariffs, and customs—primarily affect global trading?",
+    "options": {
+      "A": "They introduce legal, financial, and logistical constraints on cross-border supply chains",
+      "B": "They eliminate the need for global distribution networks",
+      "C": "They standardize product specifications across all regions",
+      "D": "They focus supply chain efforts solely on domestic markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Global supply chains must navigate regulations, taxes, tariffs, customs, and associated risks when trading internationally :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 131,
+    "question": "Analyzing the creation of new value in a supply chain involves:",
+    "options": {
+      "A": "Centralizing decision-making at corporate headquarters",
+      "B": "Streamlining processes to reduce waste and improve product availability",
+      "C": "Increasing the number of intermediaries in distribution",
+      "D": "Limiting collaboration between supply chain partners"
+    },
+    "correctAnswer": "B",
+    "explanation": "New value is created by reducing waste, improving availability, and enhancing benefits for customers, society, and the environment :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 132,
+    "question": "In supply chain contexts, analytics refers to:",
+    "options": {
+      "A": "Recording inventory counts manually each day",
+      "B": "Designing product packaging and labeling",
+      "C": "Systematically analyzing data to support decision making",
+      "D": "Negotiating contracts without data support"
+    },
+    "correctAnswer": "C",
+    "explanation": "Analytics involves applying data analysis techniques to guide supply chain planning and operations :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 133,
+    "question": "Customer relationship management in supply chains focuses on:",
+    "options": {
+      "A": "Automating warehousing operations to reduce staff",
+      "B": "Developing marketing slogans for new products",
+      "C": "Standardizing product features across markets",
+      "D": "Building and maintaining strong buyer-supplier partnerships"
+    },
+    "correctAnswer": "D",
+    "explanation": "CRM in supply chains emphasizes fostering collaborative and long-term relationships between buyers and suppliers :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "The primary role of forecasting in supply chain management is to:",
+    "options": {
+      "A": "Determine optimal warehouse layouts",
+      "B": "Set employee work schedules",
+      "C": "Predict future customer demand to align production and inventory",
+      "D": "Calculate import taxes and duties"
+    },
+    "correctAnswer": "C",
+    "explanation": "Forecasting estimates demand so that production and inventory levels can be planned effectively :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 135,
+    "question": "Supply market intelligence provides supply chain managers with:",
+    "options": {
+      "A": "Automated scheduling for warehouse staff",
+      "B": "Insights into supplier capabilities and market trends",
+      "C": "Specifications for product design",
+      "D": "Customer satisfaction scores for marketing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Supply market intelligence involves gathering data on suppliers and market conditions to inform sourcing decisions :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "In sustainability for supply chains, companies aim to:",
+    "options": {
+      "A": "Maximize short-term profits regardless of environmental impact",
+      "B": "Balance economic growth with environmental and social responsibility",
+      "C": "Eliminate all supplier audits to reduce costs",
+      "D": "Standardize delivery schedules across all customer segments"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sustainability means integrating economic, environmental, and social goals into supply chain practices :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 137,
+    "question": "Sales and operations planning primarily involves:",
+    "options": {
+      "A": "Integrating marketing budgets with supply chain schedules",
+      "B": "Automating all manufacturing processes",
+      "C": "Centralizing customer service functions",
+      "D": "Balancing production output with demand forecasts across the organization"
+    },
+    "correctAnswer": "D",
+    "explanation": "S&OP aligns production capacity and inventory with sales forecasts to balance supply and demand :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "The relationship between supply chain management and transportation planning is:",
+    "options": {
+      "A": "Designing corporate branding and marketing campaigns",
+      "B": "Coordinating logistics decisions like routing and carrier selection",
+      "C": "Forecasting demand solely by historical sales data",
+      "D": "Managing human resources for warehouse staffing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Transportation planning integrates with SCM by optimizing routes and carriers to move goods efficiently :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 139,
+    "question": "Procurement in a supply chain involves:",
+    "options": {
+      "A": "Managing customer returns and warranties",
+      "B": "Sourcing and purchasing goods and services from external suppliers",
+      "C": "Designing internal training programs",
+      "D": "Forecasting future sales volumes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Procurement is the process of acquiring the necessary goods and services from suppliers to support operations :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 140,
+    "question": "Leadership opportunities in supply chain management often include:",
+    "options": {
+      "A": "Developing new product marketing campaigns",
+      "B": "Conducting financial audits of suppliers",
+      "C": "Coordinating cross-functional teams to improve processes",
+      "D": "Designing corporate logos and branding"
+    },
+    "correctAnswer": "C",
+    "explanation": "Supply chain leaders guide teams across functions to enhance efficiency and collaboration :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 141,
+    "question": "Supply chain integration is best described as:",
+    "options": {
+      "A": "Separating processes into independent departmental silos",
+      "B": "Outsourcing all logistics functions",
+      "C": "Standardizing product specifications without data sharing",
+      "D": "Unifying processes and information across all supply chain partners"
+    },
+    "correctAnswer": "D",
+    "explanation": "Integration aligns workflows and information across suppliers, manufacturers, and distributors to improve coordination :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 142,
+    "question": "Managing work-in-process inventory refers to:",
+    "options": {
+      "A": "Raw materials awaiting inspection",
+      "B": "Completed goods ready for shipment",
+      "C": "Items currently being processed but not yet finished",
+      "D": "Returned products awaiting disposition"
+    },
+    "correctAnswer": "A",
+    "explanation": "Work-in-process represents goods in production that are not yet completed :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 143,
+    "question": "A Bill of Materials (BOM) lists:",
+    "options": {
+      "A": "Production schedules and timelines",
+      "B": "Raw materials, components, and subassemblies required to build a product",
+      "C": "Financial transactions in the supply chain",
+      "D": "Logistics service provider contracts"
+    },
+    "correctAnswer": "B",
+    "explanation": "A BOM details every material and component needed for product assembly :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "A master production schedule is used to:",
+    "options": {
+      "A": "Manage supplier contract negotiations",
+      "B": "Forecast long-term market trends",
+      "C": "Outline production quantities and timing to meet demand",
+      "D": "Allocate marketing budgets across product lines"
+    },
+    "correctAnswer": "C",
+    "explanation": "The master production schedule specifies what to produce, when, and in what quantities to satisfy forecasts :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "Outsourcing in a supply chain typically involves:",
+    "options": {
+      "A": "Retaining all operations in-house",
+      "B": "Hiring new full-time employees",
+      "C": "Merging with competitor firms",
+      "D": "Engaging external providers for specialized functions"
+    },
+    "correctAnswer": "D",
+    "explanation": "Outsourcing contracts third-party providers to perform certain supply chain activities :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 146,
+    "question": "Effective communication skills in supply chain management ensure:",
+    "options": {
+      "A": "Accurate and timely information exchange among stakeholders",
+      "B": "Faster assembly line production speeds",
+      "C": "Lower inventory holding costs",
+      "D": "Increased social media engagement"
+    },
+    "correctAnswer": "A",
+    "explanation": "Clear communication is vital for sharing forecasts, updates, and requirements across the supply chain :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 147,
+    "question": "Responsibility ethics for supply chain managers include:",
+    "options": {
+      "A": "Ignoring compliance regulations to lower costs",
+      "B": "Ensuring transparency and fairness in supplier contracts",
+      "C": "Favoring the lowest-cost supplier regardless of practices",
+      "D": "Centralizing decisions without partner input"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical managers uphold transparency and fairness in dealings with suppliers and partners :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 148,
+    "question": "Flexible thinking helps supply chain managers to:",
+    "options": {
+      "A": "Standardize all processes without variation",
+      "B": "Adapt quickly to market changes and disruptions",
+      "C": "Increase product complexity unnecessarily",
+      "D": "Eliminate collaboration with suppliers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flexibility enables managers to respond rapidly to unexpected changes and evolving customer needs :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 149,
+    "question": "The sense of urgency in supply chain management means:",
+    "options": {
+      "A": "Scheduling routine tasks far in advance",
+      "B": "Standardizing all documentation across departments",
+      "C": "Delegating critical decisions to external parties",
+      "D": "Proactively monitoring operations and swiftly addressing issues"
+    },
+    "correctAnswer": "D",
+    "explanation": "A strong sense of urgency involves actively tracking processes and responding quickly to disruptions :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 150,
+    "question": "The temperament required for successful supply chain managers typically includes:",
+    "options": {
+      "A": "Composure under pressure and attention to detail",
+      "B": "Reliance solely on financial metrics for decisions",
+      "C": "Preference for short-term tasks over long-term planning",
+      "D": "Delegating all operational tasks to automated systems"
+    },
+    "correctAnswer": "A",
+    "explanation": "Successful managers maintain calm under stress and focus closely on details when solving problems :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "Which statement best defines supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from raw materials through production to the end customer",
+      "B": "Designing marketing strategies to increase product visibility",
+      "C": "Managing human resources and performance in manufacturing facilities",
+      "D": "Establishing pricing policies and promotional discounts for retail channels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management coordinates the flow of goods, information, and finances from raw materials through production to the end customer :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 152,
+    "question": "What does the term ‘entire supply chain’ encompass?",
+    "options": {
+      "A": "All marketing and sales activities after production",
+      "B": "Every process from raw material sourcing through product delivery to the end user",
+      "C": "Financial planning and investment decisions for supply operations",
+      "D": "Employee training and performance evaluation programs"
+    },
+    "correctAnswer": "B",
+    "explanation": "The entire supply chain includes every step from sourcing raw materials through production, distribution, and final delivery :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 153,
+    "question": "How is logistics defined within supply chain management?",
+    "options": {
+      "A": "Forecasting future customer demand and sales volumes",
+      "B": "Analyzing financial performance of supply chain activities",
+      "C": "Planning, implementing, and controlling the movement and storage of goods",
+      "D": "Designing organizational structures for production facilities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logistics involves planning, implementing, and controlling the movement and storage of goods within the supply chain :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 154,
+    "question": "How does effective logistics impact supply chain management?",
+    "options": {
+      "A": "It enhances coordination by optimizing the flow and storage of materials",
+      "B": "It reduces the need for supplier relationship management",
+      "C": "It eliminates the requirement for supply chain integration",
+      "D": "It increases product pricing flexibility"
+    },
+    "correctAnswer": "A",
+    "explanation": "Effective logistics improves overall supply chain coordination by ensuring materials and products move efficiently and are stored appropriately :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 155,
+    "question": "Which factors primarily affect global supply chain trading?",
+    "options": {
+      "A": "Uniform regulations across all countries",
+      "B": "Legal, financial, and logistical constraints such as import taxes, tariffs, and customs regulations",
+      "C": "Elimination of transportation planning requirements",
+      "D": "Standardization of product features worldwide"
+    },
+    "correctAnswer": "B",
+    "explanation": "Global trading is influenced by factors like import taxes, tariffs, customs regulations, and associated risks :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 156,
+    "question": "How is new value created in a supply chain for customers and society?",
+    "options": {
+      "A": "Centralizing decision-making at corporate headquarters",
+      "B": "Increasing the number of intermediaries in distribution",
+      "C": "Streamlining processes to reduce waste and improve product availability",
+      "D": "Limiting data sharing between supply chain partners"
+    },
+    "correctAnswer": "C",
+    "explanation": "Creating new value involves reducing waste and ensuring products are available when and where customers need them :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Why is demand forecasting critical in supply chain management?",
+    "options": {
+      "A": "Predicting future customer demand to align production and inventory levels",
+      "B": "Determining optimal warehouse layout designs",
+      "C": "Calculating tariff and customs duties",
+      "D": "Scheduling employee work shifts"
+    },
+    "correctAnswer": "A",
+    "explanation": "Demand forecasting estimates future demand so production and inventory decisions can be planned accordingly :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 158,
+    "question": "In a supply chain context, what does analytics refer to?",
+    "options": {
+      "A": "Designing product packaging and labeling",
+      "B": "Systematically analyzing data to support supply chain decision-making",
+      "C": "Manually recording inventory counts each day",
+      "D": "Negotiating carrier rates without data support"
+    },
+    "correctAnswer": "B",
+    "explanation": "Analytics involves systematic examination of data to guide planning and operations in the supply chain :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 159,
+    "question": "What is the focus of customer relationship management in supply chains?",
+    "options": {
+      "A": "Automating warehouse operations to reduce labor costs",
+      "B": "Standardizing product features across different markets",
+      "C": "Building and maintaining strong partnerships between buyers and suppliers",
+      "D": "Forecasting market trends based solely on historical data"
+    },
+    "correctAnswer": "C",
+    "explanation": "Customer relationship management centers on fostering collaborative, long-term relationships between buyers and suppliers :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 160,
+    "question": "What does procurement involve in supply chain management?",
+    "options": {
+      "A": "Acquiring goods and services from external suppliers",
+      "B": "Transporting finished products to distribution centers",
+      "C": "Managing reverse logistics for returns",
+      "D": "Designing marketing campaigns for new products"
+    },
+    "correctAnswer": "A",
+    "explanation": "Procurement is the process of sourcing and purchasing the materials and services needed by an organization :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 161,
+    "question": "What is the primary goal of sales and operations planning?",
+    "options": {
+      "A": "Automating all manufacturing processes",
+      "B": "Balancing production output with demand forecasts across the organization",
+      "C": "Eliminating inventory safety stock",
+      "D": "Merging procurement and marketing departments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sales and operations planning aligns production capacity and inventory levels with sales forecasts to balance supply and demand :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 162,
+    "question": "What does supply market intelligence provide?",
+    "options": {
+      "A": "Automated scheduling for warehouse staff",
+      "B": "Customer satisfaction metrics for marketing",
+      "C": "Insights into supplier capabilities and market trends",
+      "D": "Specifications for product design"
+    },
+    "correctAnswer": "C",
+    "explanation": "Supply market intelligence involves gathering and analyzing information about suppliers and market conditions to inform sourcing decisions :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 163,
+    "question": "How is sustainability defined in supply chain management?",
+    "options": {
+      "A": "Balancing economic growth with environmental and social responsibility",
+      "B": "Maximizing short-term profits regardless of environmental impact",
+      "C": "Eliminating all supplier audits to reduce costs",
+      "D": "Standardizing delivery schedules across all markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sustainability integrates economic, environmental, and social goals into supply chain practices :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 164,
+    "question": "How does transportation planning relate to supply chain management?",
+    "options": {
+      "A": "Forecasting demand solely by historical sales data",
+      "B": "Coordinating logistics decisions like routing and carrier selection",
+      "C": "Conducting financial audits of suppliers",
+      "D": "Designing corporate branding strategies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Transportation planning integrates logistics decisions such as route and carrier selection to optimize movement of goods :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 165,
+    "question": "How is supply chain management practiced in the healthcare industry?",
+    "options": {
+      "A": "By centralizing all medical procurement at a single location",
+      "B": "By automating patient scheduling systems",
+      "C": "By coordinating timely delivery of medical supplies and equipment to care facilities",
+      "D": "By standardizing all medical equipment across hospitals"
+    },
+    "correctAnswer": "C",
+    "explanation": "In healthcare, supply chain management ensures medical supplies and equipment reach care facilities when needed :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 166,
+    "question": "What is the logistics of inventory management?",
+    "options": {
+      "A": "Balancing order quantities, storage, and delivery to maintain stock levels efficiently",
+      "B": "Forecasting long-term market trends for new products",
+      "C": "Designing warehouse layout without considering throughput",
+      "D": "Automating financial reporting for inventory valuation"
+    },
+    "correctAnswer": "A",
+    "explanation": "Inventory logistics involves managing order sizes, storage capacity, and delivery schedules to optimize stock levels :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 167,
+    "question": "Which career is directly associated with supply chain management?",
+    "options": {
+      "A": "Graphic designer",
+      "B": "Logistics analyst",
+      "C": "Public relations specialist",
+      "D": "Retail store manager"
+    },
+    "correctAnswer": "B",
+    "explanation": "A logistics analyst evaluates and optimizes supply chain processes, a key SCM career :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 168,
+    "question": "Why are technology skills important for supply chain managers?",
+    "options": {
+      "A": "They replace the need for interpersonal communication",
+      "B": "They enable graphic design of promotional materials",
+      "C": "They allow use of analytics and digital tools to optimize operations",
+      "D": "They automate all human resource functions"
+    },
+    "correctAnswer": "C",
+    "explanation": "Technology proficiency helps managers leverage analytics and digital platforms to improve supply chain efficiency :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 169,
+    "question": "What does a strong sense of urgency in supply chain management entail?",
+    "options": {
+      "A": "Proactively monitoring operations and responding swiftly to disruptions",
+      "B": "Scheduling routine tasks far in advance",
+      "C": "Standardizing all documentation across departments",
+      "D": "Delegating critical decisions exclusively to lower-level staff"
+    },
+    "correctAnswer": "A",
+    "explanation": "A sense of urgency involves actively tracking processes and rapidly addressing issues to prevent delays :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 170,
+    "question": "What is the relationship between purchasing and supply chain management?",
+    "options": {
+      "A": "Purchasing determines marketing and branding strategies",
+      "B": "Purchasing manages customer service and returns",
+      "C": "Purchasing only begins after final products are sold",
+      "D": "Purchasing sources and acquires materials to support supply chain strategy"
+    },
+    "correctAnswer": "D",
+    "explanation": "Purchasing secures the inputs required to execute the broader supply chain strategy :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 171,
+    "question": "How does a company provide value to its supply chain management?",
+    "options": {
+      "A": "By increasing product variety without coordination",
+      "B": "By centralizing all decisions at headquarters",
+      "C": "By eliminating all intermediaries in distribution",
+      "D": "By tailoring processes to meet customer needs and improve performance"
+    },
+    "correctAnswer": "D",
+    "explanation": "Value is added by customizing supply chain processes to satisfy customer requirements and gain competitive advantage :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 172,
+    "question": "How are suppliers, subcontractors, and distribution determined by a company?",
+    "options": {
+      "A": "Based solely on lowest cost regardless of quality",
+      "B": "Through random selection from available providers",
+      "C": "By outsourcing all functions to a single third party",
+      "D": "By evaluating capabilities, cost, and strategic fit when selecting partners"
+    },
+    "correctAnswer": "D",
+    "explanation": "Companies assess supplier capabilities, costs, and strategic alignment when choosing partners :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 173,
+    "question": "What is supply chain integration?",
+    "options": {
+      "A": "Separating functions into independent silos",
+      "B": "Outsourcing all logistics activities",
+      "C": "Standardizing product specifications without data sharing",
+      "D": "Unifying processes and information across all supply chain partners"
+    },
+    "correctAnswer": "D",
+    "explanation": "Integration aligns workflows and data across suppliers, manufacturers, and distributors to enhance coordination :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 174,
+    "question": "What does supply and demand management involve?",
+    "options": {
+      "A": "Increasing production capacity regardless of demand",
+      "B": "Automating marketing communications with supply data",
+      "C": "Defining corporate branding guidelines",
+      "D": "Balancing production output and inventory levels with customer demand"
+    },
+    "correctAnswer": "D",
+    "explanation": "Supply and demand management ensures production and inventory align with forecasted customer requirements :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "What is an efficient facility network design?",
+    "options": {
+      "A": "Centralizing all operations at a single headquarters",
+      "B": "Increasing the number of warehouses without analysis",
+      "C": "Designing facilities based solely on land availability",
+      "D": "Locating facilities near suppliers and key markets to reduce costs"
+    },
+    "correctAnswer": "D",
+    "explanation": "Efficient network design places facilities close to suppliers and markets to minimize transportation costs and lead times :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 176,
+    "question": "Which statement best defines supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from raw materials through production to the end customer",
+      "B": "Designing marketing strategies to increase product visibility",
+      "C": "Managing human resources and performance in manufacturing facilities",
+      "D": "Establishing pricing policies across distribution channels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management coordinates the flow of goods, information, and finances from raw materials through production to the end customer :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 177,
+    "question": "The term ‘entire supply chain’ encompasses:",
+    "options": {
+      "A": "All marketing and sales activities after production",
+      "B": "Every process from raw material sourcing through product delivery to the end user",
+      "C": "Financial planning and investment decisions for supply operations",
+      "D": "Employee training and performance evaluation programs"
+    },
+    "correctAnswer": "B",
+    "explanation": "The entire supply chain includes every step from sourcing raw materials through production, distribution, and final delivery :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 178,
+    "question": "How is logistics defined within supply chain management?",
+    "options": {
+      "A": "Forecasting future customer demand and sales volumes",
+      "B": "Analyzing financial performance of supply chain activities",
+      "C": "Planning, implementing, and controlling the movement and storage of goods",
+      "D": "Designing organizational structures for production facilities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logistics involves planning, implementing, and controlling the movement and storage of goods within the supply chain :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 179,
+    "question": "How does effective logistics impact supply chain management?",
+    "options": {
+      "A": "It reduces the need for supplier relationship management",
+      "B": "It increases product pricing flexibility",
+      "C": "It eliminates the requirement for supply chain integration",
+      "D": "It enhances coordination by optimizing the flow and storage of materials"
+    },
+    "correctAnswer": "D",
+    "explanation": "Logistics improves overall supply chain performance by ensuring efficient movement and storage of materials and products :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "In supply chain contexts, analytics refers to:",
+    "options": {
+      "A": "Systematically analyzing data to support decision making",
+      "B": "Training warehouse staff on operational procedures",
+      "C": "Designing product packaging and labeling",
+      "D": "Negotiating carrier contracts without data support"
+    },
+    "correctAnswer": "A",
+    "explanation": "Analytics involves applying systematic data analysis to guide supply chain planning and operations :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "Customer relationship management in supply chains focuses on:",
+    "options": {
+      "A": "Building and maintaining strong buyer-supplier partnerships",
+      "B": "Automating warehouse operations to reduce staff",
+      "C": "Standardizing product features across markets",
+      "D": "Forecasting market trends based solely on historical data"
+    },
+    "correctAnswer": "A",
+    "explanation": "CRM in supply chains emphasizes fostering collaborative, long-term relationships between buyers and suppliers :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 182,
+    "question": "The primary role of forecasting in supply chain management is to:",
+    "options": {
+      "A": "Determine optimal warehouse layouts",
+      "B": "Set employee work schedules",
+      "C": "Predict future customer demand to align production and inventory",
+      "D": "Calculate import taxes and duties"
+    },
+    "correctAnswer": "C",
+    "explanation": "Forecasting estimates future demand so that production and inventory decisions can be planned accordingly :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 183,
+    "question": "Which leadership opportunity is common for supply chain managers?",
+    "options": {
+      "A": "Developing new product marketing campaigns",
+      "B": "Conducting financial audits of suppliers",
+      "C": "Designing corporate branding strategies",
+      "D": "Coordinating cross-functional teams to improve processes"
+    },
+    "correctAnswer": "D",
+    "explanation": "Supply chain leaders guide teams across functions to enhance efficiency and collaboration :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "Effective communication skills in supply chain management ensure:",
+    "options": {
+      "A": "Accurate and timely information exchange among stakeholders",
+      "B": "Faster assembly line production speeds",
+      "C": "Lower inventory holding costs",
+      "D": "Increased marketing reach"
+    },
+    "correctAnswer": "A",
+    "explanation": "Clear communication is vital for sharing forecasts, updates, and requirements across the supply chain :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 185,
+    "question": "Which ethical responsibility is critical for supply chain managers?",
+    "options": {
+      "A": "Ignoring compliance regulations to lower costs",
+      "B": "Ensuring transparency and fairness in supplier contracts",
+      "C": "Favoring the lowest-cost supplier regardless of practices",
+      "D": "Centralizing decisions without partner input"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ethical managers uphold transparency and fairness in dealings with suppliers and partners :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 186,
+    "question": "In freight terminology, 'LCL' stands for:",
+    "options": {
+      "A": "Less-than-container load for shipments that don't fill a full container",
+      "B": "Limited cargo logistics for expedited freight",
+      "C": "Logistics cost limit for budgeting transport expenses",
+      "D": "Late cargo liability for delay compensation"
+    },
+    "correctAnswer": "A",
+    "explanation": "LCL means a shipment that doesn’t fill an entire container and shares space with other shipments :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 187,
+    "question": "Purchasing relates to supply chain management by:",
+    "options": {
+      "A": "Determining marketing and branding strategies",
+      "B": "Managing customer service and returns",
+      "C": "Sourcing and acquiring materials and services to support strategy",
+      "D": "Designing production floor layouts"
+    },
+    "correctAnswer": "C",
+    "explanation": "Purchasing secures the inputs required to execute the broader supply chain strategy :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 188,
+    "question": "Supply chain integration is best described as:",
+    "options": {
+      "A": "Separating processes into independent departmental silos",
+      "B": "Standardizing product specifications without data sharing",
+      "C": "Unifying processes and information across all supply chain partners",
+      "D": "Outsourcing all logistics functions to third parties"
+    },
+    "correctAnswer": "C",
+    "explanation": "Integration aligns workflows and data across suppliers, manufacturers, and distributors to enhance coordination :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "Supply and demand management involves:",
+    "options": {
+      "A": "Automating marketing communications with supply system data",
+      "B": "Increasing production capacity regardless of demand forecasts",
+      "C": "Defining corporate branding guidelines",
+      "D": "Balancing production output and inventory levels with customer demand"
+    },
+    "correctAnswer": "D",
+    "explanation": "Supply and demand management ensures production and inventory align with forecasted customer requirements :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "In a supply chain context, what is the primary role of manufacturing?",
+    "options": {
+      "A": "Transforming inputs into finished goods",
+      "B": "Coordinating supplier relationships",
+      "C": "Forecasting future market demand",
+      "D": "Managing product returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "Manufacturing provides value by converting raw materials and components into finished products :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 191,
+    "question": "Reverse logistics in a supply chain refers to:",
+    "options": {
+      "A": "Streamlining forward shipments to distribution centers",
+      "B": "Forecasting seasonal demand for new products",
+      "C": "Coordinating cross-functional logistics teams",
+      "D": "Managing the flow of returned products back through the supply chain"
+    },
+    "correctAnswer": "D",
+    "explanation": "Reverse logistics covers the process of handling returned or recalled items back through the supply chain :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "A product portfolio is best defined as:",
+    "options": {
+      "A": "A list of raw materials required for ongoing production",
+      "B": "A strategic plan outlining future product launches",
+      "C": "A collection of product lines offered to different market segments",
+      "D": "A database of supplier performance metrics"
+    },
+    "correctAnswer": "C",
+    "explanation": "A product portfolio is the set of product lines a company offers to satisfy various market needs :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "The Pareto principle in product portfolio management suggests that:",
+    "options": {
+      "A": "All products contribute equally to overall profitability",
+      "B": "80% of products generate 20% of sales",
+      "C": "20% of products generate 80% of revenue",
+      "D": "Inventory levels should be increased by 20%"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Pareto (80/20) rule indicates a small percentage of items often drive the majority of results :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "Synchronizing material flow in a supply chain helps to:",
+    "options": {
+      "A": "Reduce lead times and minimize stock shortages",
+      "B": "Increase the number of intermediaries in distribution",
+      "C": "Standardize product designs across markets",
+      "D": "Automate all warehouse operations"
+    },
+    "correctAnswer": "A",
+    "explanation": "Coordinating material flow reduces delays and shortages by aligning production, inventory, and transportation activities :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "A decoupling point in supply chain management refers to:",
+    "options": {
+      "A": "Point where product customization occurs",
+      "B": "Location where inventory is stored",
+      "C": "Stage separating push and pull processes",
+      "D": "Moment of product delivery to customer"
+    },
+    "correctAnswer": "C",
+    "explanation": "The decoupling point separates forecast-driven (push) processes from demand-driven (pull) processes in inventory management :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 196,
+    "question": "Static planning in production refers to:",
+    "options": {
+      "A": "Adjusting schedules in real time based on actual demand",
+      "B": "Collaborating dynamically with suppliers",
+      "C": "Focusing exclusively on continuous process improvement",
+      "D": "Using historical data to create fixed production schedules"
+    },
+    "correctAnswer": "D",
+    "explanation": "Static planning relies on fixed schedules based on past data rather than adjusting in real time :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 197,
+    "question": "A master production schedule (MPS) is used to:",
+    "options": {
+      "A": "Outline production quantities and timing to meet demand",
+      "B": "Manage supplier contract negotiations",
+      "C": "Allocate marketing budgets across product lines",
+      "D": "Forecast long-term market trends"
+    },
+    "correctAnswer": "A",
+    "explanation": "The MPS specifies what to produce, in what quantities, and when to fulfill forecasted demand :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "Effective cooperation and coordination in a supply chain ensure:",
+    "options": {
+      "A": "Elimination of all supply chain risks",
+      "B": "Alignment of objectives and processes among all partners",
+      "C": "Standardization of product designs across markets",
+      "D": "Increased financial leverage for suppliers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Collaboration aligns goals and workflows across organizations to improve overall supply chain performance :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 199,
+    "question": "Outsourcing in a supply chain typically involves:",
+    "options": {
+      "A": "Retaining all operations in-house",
+      "B": "Hiring new full-time employees",
+      "C": "Engaging external providers for specialized functions",
+      "D": "Merging with competitor firms"
+    },
+    "correctAnswer": "C",
+    "explanation": "Outsourcing contracts third-party providers to perform certain supply chain activities instead of handling them internally :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "Which of the following is a function of distribution channels?",
+    "options": {
+      "A": "Managing employee training programs",
+      "B": "Analyzing financial statements",
+      "C": "Designing warehouse layouts",
+      "D": "Facilitating transactions between manufacturers and customers"
+    },
+    "correctAnswer": "D",
+    "explanation": "Distribution channels help bridge producers and consumers by assuming risk and facilitating transactions :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 201,
+    "question": "Which statement best defines supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from raw materials through production to the end customer",
+      "B": "Overseeing warehouse operations to ensure product availability",
+      "C": "Managing financial budgets across all supply chain activities",
+      "D": "Designing marketing campaigns to enhance product visibility"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management involves coordinating the movement of goods, the exchange of information, and the flow of finances across every stage from suppliers to customers :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 202,
+    "question": "The term ‘entire supply chain’ encompasses:",
+    "options": {
+      "A": "All marketing and sales activities after production",
+      "B": "Every process from raw material sourcing through product delivery to the end user",
+      "C": "Financial planning and investment decisions for supply operations",
+      "D": "Employee training and performance evaluations across distribution centers"
+    },
+    "correctAnswer": "B",
+    "explanation": "The entire supply chain covers each step from sourcing raw materials through manufacturing, distribution, and final delivery to customers :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 203,
+    "question": "How is logistics defined within supply chain management?",
+    "options": {
+      "A": "Forecasting future customer demand and sales volumes",
+      "B": "Analyzing financial performance metrics",
+      "C": "Planning, implementing, and controlling the movement and storage of goods",
+      "D": "Designing organizational structures for production facilities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logistics focuses on planning, implementation, and control of goods movement and storage within the supply chain :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 204,
+    "question": "How does logistics impact supply chain management?",
+    "options": {
+      "A": "It reduces the need for supplier relationship management",
+      "B": "It increases product pricing flexibility",
+      "C": "It eliminates the requirement for supply chain integration",
+      "D": "It enhances coordination by optimizing the flow and storage of materials"
+    },
+    "correctAnswer": "D",
+    "explanation": "Effective logistics ensures materials and products move efficiently and are stored appropriately, improving overall supply chain coordination :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 205,
+    "question": "Which factors primarily affect global trading in supply chain management?",
+    "options": {
+      "A": "Legal and logistical factors such as e-commerce platforms, import taxes, tariffs, and customs regulations",
+      "B": "Standardization of packaging across all international markets",
+      "C": "Elimination of transportation planning requirements",
+      "D": "Exclusive use of automated warehousing without manual oversight"
+    },
+    "correctAnswer": "A",
+    "explanation": "Global trading is shaped by e-commerce, import/export rules, tariffs, customs, and related legal and logistical considerations :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 206,
+    "question": "How is new value created in a supply chain for customers, society, and the environment?",
+    "options": {
+      "A": "Centralizing decision-making at corporate headquarters",
+      "B": "Increasing the number of intermediaries in distribution",
+      "C": "Streamlining processes to reduce waste and improve product availability",
+      "D": "Limiting data sharing between supply chain partners"
+    },
+    "correctAnswer": "C",
+    "explanation": "New value arises from cutting waste and ensuring products are available when and where customers need them, benefiting society and the environment :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 207,
+    "question": "Explain how supply chain management is practiced in a wide array of industries.",
+    "options": {
+      "A": "It is limited to manufacturing of tangible goods",
+      "B": "It applies to any sector coordinating goods, services, or information flows",
+      "C": "It is only relevant for retail and wholesale businesses",
+      "D": "It focuses exclusively on automotive and technology sectors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Supply chain management principles are used across industries—from healthcare to technology—wherever flows of goods, services, or data must be coordinated :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 208,
+    "question": "Why is demand forecasting critical in supply chain management?",
+    "options": {
+      "A": "It schedules employee work shifts efficiently",
+      "B": "It calculates import taxes and duties",
+      "C": "It predicts future customer demand to align production and inventory levels",
+      "D": "It automates marketing campaign scheduling"
+    },
+    "correctAnswer": "C",
+    "explanation": "Forecasting estimates future demand so production plans and inventory levels can be set to meet customer needs :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 209,
+    "question": "Define logistics management in supply chain topics.",
+    "options": {
+      "A": "Systematically analyzing data to support decision making",
+      "B": "Planning, implementing, and controlling the movement and storage of goods",
+      "C": "Building partnerships with suppliers and customers",
+      "D": "Designing organizational charts for distribution networks"
+    },
+    "correctAnswer": "B",
+    "explanation": "Logistics management covers the planning, execution, and oversight of moving and storing goods within the supply chain :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 210,
+    "question": "In supply chain topics, what does analytics refer to?",
+    "options": {
+      "A": "Recording inventory counts manually each day",
+      "B": "Forecasting monthly sales without data analysis",
+      "C": "Systematically analyzing data to support decision making",
+      "D": "Negotiating carrier rates without performance metrics"
+    },
+    "correctAnswer": "A",
+    "explanation": "Analytics involves applying data-analysis techniques to guide supply chain planning and performance improvements :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 211,
+    "question": "Explain customer relationship management in supply chains.",
+    "options": {
+      "A": "Automating warehouse processes to reduce labor",
+      "B": "Building and maintaining strong buyer-supplier partnerships",
+      "C": "Standardizing product features across all markets",
+      "D": "Centralizing procurement decisions at headquarters"
+    },
+    "correctAnswer": "C",
+    "explanation": "CRM focuses on developing collaborative, long-term relationships between buyers and suppliers to improve performance and trust :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 212,
+    "question": "Describe the role of forecasting in supply chain topics.",
+    "options": {
+      "A": "Calculating depreciation rates for equipment",
+      "B": "Predicting future customer demand to align planning",
+      "C": "Designing marketing slogans for products",
+      "D": "Scheduling staff performance reviews"
+    },
+    "correctAnswer": "D",
+    "explanation": "Forecasting predicts customer demand so production schedules and inventories can be aligned with market needs :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 213,
+    "question": "Describe leadership opportunities for successful supply chain managers.",
+    "options": {
+      "A": "Designing corporate branding materials",
+      "B": "Coordinating cross-functional teams to improve processes",
+      "C": "Conducting financial audits of suppliers",
+      "D": "Managing routine warehouse maintenance"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain leaders guide teams across functions—procurement, production, logistics—to drive efficiency and alignment :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "Explain effective communication skills for supply chain managers.",
+    "options": {
+      "A": "Clearly conveying demand forecasts and updates to all stakeholders",
+      "B": "Writing code for warehouse automation systems",
+      "C": "Designing spreadsheets without stakeholder input",
+      "D": "Prioritizing internal emails over external calls"
+    },
+    "correctAnswer": "B",
+    "explanation": "Effective communication ensures accurate and timely exchange of forecasts, issues, and requirements among partners :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 215,
+    "question": "Explain responsibility ethics for supply chain management.",
+    "options": {
+      "A": "Ignoring compliance regulations to reduce costs",
+      "B": "Ensuring transparency and fairness in supplier contracts",
+      "C": "Favoring the lowest-cost supplier regardless of practices",
+      "D": "Centralizing all decisions without partner input"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ethical managers uphold fairness and transparency in supplier dealings, ensuring responsible sourcing practices :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 216,
+    "question": "Explain the relationship between purchasing and supply chain management.",
+    "options": {
+      "A": "Purchasing secures materials and services to support broader SCM strategy",
+      "B": "Purchasing directs marketing and branding initiatives",
+      "C": "Purchasing begins only after final products are sold",
+      "D": "Purchasing manages customer service and returns"
+    },
+    "correctAnswer": "D",
+    "explanation": "Purchasing sources the inputs—raw materials and services—needed to execute the overall supply chain strategy :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 217,
+    "question": "Explain transportation management in a supply chain context.",
+    "options": {
+      "A": "Optimizing routes and carrier selection to move goods efficiently",
+      "B": "Designing corporate logos for shipping labels",
+      "C": "Calculating employee payroll for drivers",
+      "D": "Developing marketing materials for distribution centers"
+    },
+    "correctAnswer": "A",
+    "explanation": "Transportation management involves selecting routes and carriers to ensure timely, cost-effective delivery of goods :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 218,
+    "question": "Explain the Pareto principle in product portfolio management.",
+    "options": {
+      "A": "20% of products generate 80% of revenue",
+      "B": "All products contribute equally to profitability",
+      "C": "Inventory levels should be increased by 20%",
+      "D": "80% of products generate 20% of sales"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Pareto (80/20) rule states that a small percentage of items typically drives the majority of results :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "Explain the importance of synchronizing material flow in supply chain network performance.",
+    "options": {
+      "A": "It reduces lead times and minimizes stock shortages",
+      "B": "It increases the number of suppliers required",
+      "C": "It standardizes product designs across all facilities",
+      "D": "It focuses solely on cost reduction"
+    },
+    "correctAnswer": "C",
+    "explanation": "Coordinating material flow aligns production, inventory, and transport activities to prevent delays and shortages :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 220,
+    "question": "Explain how a master production schedule is determined.",
+    "options": {
+      "A": "It outlines production quantities and timing to meet demand forecasts",
+      "B": "It lists raw materials required for production",
+      "C": "It analyzes financial returns on production assets",
+      "D": "It schedules employee vacation time"
+    },
+    "correctAnswer": "D",
+    "explanation": "The master production schedule specifies what to produce, how much, and when, based on demand forecasts :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 221,
+    "question": "Describe the role of manufacturing in a supply chain context.",
+    "options": {
+      "A": "Transforming inputs into finished goods",
+      "B": "Coordinating supplier relationships",
+      "C": "Forecasting future market demand",
+      "D": "Managing product returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "Manufacturing converts raw materials and components into finished products, adding value in the supply chain :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 222,
+    "question": "Explain inventory management’s relationship with supply chain management.",
+    "options": {
+      "A": "Balancing order quantities, storage, and delivery to maintain stock levels efficiently",
+      "B": "Automating marketing communications with inventory data",
+      "C": "Designing warehouse floor plans only",
+      "D": "Eliminating safety stock entirely"
+    },
+    "correctAnswer": "B",
+    "explanation": "Inventory management ensures the right quantity of stock is available at the right time and place, balancing cost and service levels :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 223,
+    "question": "Explain the process for product returns in supply chain management.",
+    "options": {
+      "A": "Managing the flow of returned products back through the supply chain",
+      "B": "Automating forward shipments to customers",
+      "C": "Forecasting seasonal demand for returns",
+      "D": "Scheduling routine maintenance of return equipment"
+    },
+    "correctAnswer": "C",
+    "explanation": "Reverse logistics covers the handling, transportation, and processing of returned or recalled items :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 224,
+    "question": "List the functions of distribution channels in supply chain management.",
+    "options": {
+      "A": "Facilitating transactions between manufacturers and customers",
+      "B": "Conducting financial audits of suppliers",
+      "C": "Designing product features for new markets",
+      "D": "Managing internal office workflows"
+    },
+    "correctAnswer": "D",
+    "explanation": "Distribution channels act as intermediaries to help move products from producers to consumers, handling transactions and risk :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "Explain time, place, and ownership utility in distribution channels.",
+    "options": {
+      "A": "Providing products at the time, location, and ownership desired by customers",
+      "B": "Standardizing production schedules across facilities",
+      "C": "Maximizing production capacity at all times",
+      "D": "Minimizing marketing expenditures"
+    },
+    "correctAnswer": "A",
+    "explanation": "Time, place, and ownership utility ensure that products are available when, where, and under the terms customers prefer :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 226,
+    "question": "What is the primary aim of supply chain management?",
+    "options": {
+      "A": "Coordinating the flow of goods, information, and finances from raw materials through production to the end customer",
+      "B": "Maximizing warehouse storage capacity",
+      "C": "Increasing product variety regardless of cost",
+      "D": "Centralizing decision making at corporate headquarters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Supply chain management involves coordinating goods, information, and financial flows across all stages from suppliers to customers :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 227,
+    "question": "Which best describes the ‘entire supply chain’?",
+    "options": {
+      "A": "All marketing activities after production",
+      "B": "Every process from raw material sourcing through product delivery to the end user",
+      "C": "Employee training and performance evaluations",
+      "D": "Financial planning for supply chain investments"
+    },
+    "correctAnswer": "B",
+    "explanation": "The entire supply chain covers each step from sourcing raw materials through manufacturing, distribution, and final delivery :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 228,
+    "question": "What does logistics management focus on?",
+    "options": {
+      "A": "Forecasting future customer demand",
+      "B": "Analyzing financial performance of supply chain activities",
+      "C": "Planning, implementing, and controlling the movement and storage of goods",
+      "D": "Designing organizational structures for production facilities"
+    },
+    "correctAnswer": "C",
+    "explanation": "Logistics involves planning, implementation, and control of goods movement and storage within the supply chain :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 229,
+    "question": "Which scenario illustrates an information flow?",
+    "options": {
+      "A": "Loading raw materials onto a truck",
+      "B": "Recording shipment tracking updates in the system",
+      "C": "Moving finished goods into a warehouse",
+      "D": "Transferring ownership of freight at port"
+    },
+    "correctAnswer": "D",
+    "explanation": "Information flows transmit data (e.g., transfer of ownership records), while physical flows move the actual goods :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 230,
+    "question": "Focusing an organization’s goals on continuous cost reduction exemplifies which concept?",
+    "options": {
+      "A": "Strategic orientation for saving money within an organization",
+      "B": "Sales and operations planning",
+      "C": "Supply market intelligence",
+      "D": "Inventory maximization"
+    },
+    "correctAnswer": "A",
+    "explanation": "A strategic orientation for saving money aligns business objectives with ongoing cost-reduction initiatives :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 231,
+    "question": "Which illustrates a legal aspect impacting global trading?",
+    "options": {
+      "A": "A firm shares demand forecasts with suppliers",
+      "B": "A shipment delayed by customs inspections",
+      "C": "A warehouse redesign to increase capacity",
+      "D": "Implementation of just-in-time manufacturing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Customs regulations can delay shipments and add costs, demonstrating how legal aspects affect global supply chains :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 232,
+    "question": "Why must supply chain managers understand import/export trade agreements?",
+    "options": {
+      "A": "To negotiate lower employee wages",
+      "B": "To ensure compliance and optimize cross-border flows",
+      "C": "To centralize all decision making domestically",
+      "D": "To increase product variety regardless of cost"
+    },
+    "correctAnswer": "C",
+    "explanation": "Understanding trade agreements helps managers comply with regulations and streamline international shipments :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 233,
+    "question": "Which factor most drove the emergence of supply chain management in recent decades?",
+    "options": {
+      "A": "Information revolution enabling real-time data sharing",
+      "B": "Decline in global competition",
+      "C": "Elimination of all tariffs globally",
+      "D": "Reduction in consumer expectations"
+    },
+    "correctAnswer": "D",
+    "explanation": "Increased connectivity and competition (the information revolution) spurred SCM’s growth as a discipline :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 234,
+    "question": "What is a key challenge in inventory logistics?",
+    "options": {
+      "A": "Balancing order quantities with storage and delivery to maintain optimal stock levels",
+      "B": "Designing warehouse training programs",
+      "C": "Negotiating marketing contracts",
+      "D": "Forecasting currency exchange rates"
+    },
+    "correctAnswer": "A",
+    "explanation": "Inventory logistics involves managing order sizes, storage, and delivery schedules to optimize stock levels :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 235,
+    "question": "Which practice is part of inventory logistics?",
+    "options": {
+      "A": "Conducting customer surveys",
+      "B": "Scheduling regular safety stock reviews",
+      "C": "Developing new product features",
+      "D": "Calculating corporate tax liabilities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Regularly reviewing safety stock levels is essential to balance availability and carrying costs :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 236,
+    "question": "Fluency in Mandarin best supports sourcing from which region?",
+    "options": {
+      "A": "Latin America",
+      "B": "Southeast Asia",
+      "C": "East Asia",
+      "D": "Western Europe"
+    },
+    "correctAnswer": "C",
+    "explanation": "Mandarin proficiency helps managers communicate with suppliers and partners in China and East Asia :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 237,
+    "question": "What does FTL stand for in freight terminology?",
+    "options": {
+      "A": "Full Truckload for single-shipper shipments",
+      "B": "Fixed Transport Logistics",
+      "C": "Forward Tracking License",
+      "D": "Freight Time Limit"
+    },
+    "correctAnswer": "D",
+    "explanation": "FTL means Full Truckload, where one shipper’s goods fill an entire truck :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 238,
+    "question": "Which behavior demonstrates strong problem-solving skills?",
+    "options": {
+      "A": "Analyzing root causes of a stockout and implementing corrective actions",
+      "B": "Delegating all issues to external consultants",
+      "C": "Continuing current processes despite disruptions",
+      "D": "Focusing solely on financial reports"
+    },
+    "correctAnswer": "C",
+    "explanation": "Identifying and addressing root causes of disruptions exemplifies effective problem-solving :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 239,
+    "question": "How does purchasing support supply chain management?",
+    "options": {
+      "A": "By sourcing and acquiring materials and services to execute SCM strategy",
+      "B": "By managing marketing and branding initiatives",
+      "C": "By exclusively handling customer service inquiries",
+      "D": "By centralizing product design decisions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Purchasing secures the inputs needed to carry out the broader SCM strategy :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 240,
+    "question": "A company sharing its forecast data with key suppliers to reduce lead times demonstrates:",
+    "options": {
+      "A": "Supply chain integration",
+      "B": "Inventory maximization",
+      "C": "Just-in-case planning",
+      "D": "Expense management"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sharing forecasts is part of integration; expense management focuses on cost control :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 241,
+    "question": "Which factor is most important when selecting a transportation provider?",
+    "options": {
+      "A": "Marketing budget allocations",
+      "B": "Carrier’s on-time delivery performance",
+      "C": "Employee training manuals",
+      "D": "Corporate office décor"
+    },
+    "correctAnswer": "C",
+    "explanation": "Choosing carriers based on delivery performance optimizes transport efficiency :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 242,
+    "question": "What indicates a balanced supply and demand plan?",
+    "options": {
+      "A": "Production output exactly matching forecasted demand",
+      "B": "Maximum inventory coverage at all times",
+      "C": "Elimination of all safety stock",
+      "D": "Sales targets set without production input"
+    },
+    "correctAnswer": "A",
+    "explanation": "Balancing supply and demand aligns production with forecasted customer needs :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 243,
+    "question": "Why is expense management crucial in SCM?",
+    "options": {
+      "A": "To monitor and control costs across operations to maintain profitability",
+      "B": "To increase production volume regardless of demand",
+      "C": "To centralize all decisions at headquarters",
+      "D": "To automate all manual tasks"
+    },
+    "correctAnswer": "B",
+    "explanation": "Controlling expenses ensures sustainable operations and protects margins :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 244,
+    "question": "Which cost is directly associated with operating a warehouse?",
+    "options": {
+      "A": "Employee benefit expenses",
+      "B": "Picking and handling costs",
+      "C": "Marketing campaign costs",
+      "D": "Customer service training expenses"
+    },
+    "correctAnswer": "C",
+    "explanation": "Warehouse operating costs include handling, storage, and facility overhead :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "Providing 24/7 technical support for product users exemplifies:",
+    "options": {
+      "A": "Reverse logistics",
+      "B": "Customer service in the supply chain",
+      "C": "Procurement activities",
+      "D": "Strategic orientation"
+    },
+    "correctAnswer": "D",
+    "explanation": "After-sales support is a key element of customer service within SCM :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 246,
+    "question": "What analysis helps decide which new products a company should offer?",
+    "options": {
+      "A": "SWOT analysis of market demand",
+      "B": "Random product sampling",
+      "C": "Employee satisfaction surveys",
+      "D": "Historical financial audit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Market demand analysis and SWOT help determine which products to sell :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "How does just-in-time production support inventory minimization?",
+    "options": {
+      "A": "By holding large safety stocks",
+      "B": "By producing goods only as needed",
+      "C": "By forecasting demand less frequently",
+      "D": "By increasing reorder points"
+    },
+    "correctAnswer": "B",
+    "explanation": "Just-in-time reduces excess inventory by aligning production with actual demand :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 248,
+    "question": "What is the primary role of cross-functional teams in SCM?",
+    "options": {
+      "A": "Conducting financial audits",
+      "B": "Coordinating marketing campaigns",
+      "C": "Aligning objectives and processes across departments to improve flow",
+      "D": "Managing warehouse staffing schedules"
+    },
+    "correctAnswer": "C",
+    "explanation": "Cross-functional teams ensure cooperation and coordination across the supply chain :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 249,
+    "question": "Which action represents a financial flow in a supply chain?",
+    "options": {
+      "A": "A customer paying an invoice electronically",
+      "B": "Tracking inventory levels in real time",
+      "C": "Loading pallets onto a truck",
+      "D": "Scheduling a production run"
+    },
+    "correctAnswer": "A",
+    "explanation": "Financial flows involve movements of money, such as payments between customers and suppliers :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 250,
+    "question": "A retailer offering in-house financing for large appliances is an example of:",
+    "options": {
+      "A": "Time, place, and ownership utility",
+      "B": "Post-purchase service provided by distribution channels",
+      "C": "Reverse logistics process",
+      "D": "Physical flow management"
+    },
+    "correctAnswer": "B",
+    "explanation": "Offering financing is a post-purchase service provided by distribution channels :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  }
+]

@@ -135,6 +135,16 @@ const quizEvents = [
     color: "#10B981",
     icon: "🧮",
   },
+  {
+    id: "supply-chain",
+    title: "Supply Chain Management",
+    description:
+      "Coordinating the flow of goods, information, and finances from raw materials through production to end customers",
+    questionCount: 250,
+    timeLimit: 60,
+    color: "#8B5CF6",
+    icon: "🚚",
+  },
 ];
 
 // Sample quiz history data
