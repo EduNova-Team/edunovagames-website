@@ -106,6 +106,16 @@ const quizEvents = [
     icon: "🔒",
   },
   {
+    id: "securities-investments",
+    title: "Securities & Investments",
+    description:
+      "Competencies in securities, investments, regulation, and financial markets",
+    questionCount: 250,
+    timeLimit: 50,
+    color: "#2563EB",
+    icon: "💹",
+  },
+  {
     id: "introduction-to-it",
     title: "Introduction to IT",
     description:

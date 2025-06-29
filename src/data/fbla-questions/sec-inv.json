@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following best defines the term “liquidity” in the context of investments?",
+    "options": {
+      "A": "The ease with which an asset can be converted to cash without significant loss",
+      "B": "The potential return of an asset over time",
+      "C": "The amount of risk associated with an investment",
+      "D": "The fee charged by a broker to execute a trade"
+    },
+    "correctAnswer": "A",
+    "explanation": "Liquidity refers to how quickly and easily an investment can be sold at fair value, without a substantial loss in price. This aligns with competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "Which type of savings vehicle restricts withdrawals and often offers higher interest rates than a regular savings account?",
+    "options": {
+      "A": "Money market account",
+      "B": "Certificate of deposit",
+      "C": "Checking account",
+      "D": "Municipal bond"
+    },
+    "correctAnswer": "B",
+    "explanation": "A certificate of deposit (CD) typically locks funds for a set term in exchange for a higher interest rate, demonstrating knowledge of savings vehicles (competency A2) :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following correctly describes a traditional Individual Retirement Account (IRA)?",
+    "options": {
+      "A": "Contributions are taxed upon deposit, but growth is untaxed",
+      "B": "Distributions are tax-free because taxes are paid when contributed",
+      "C": "Contributions may be tax-deductible, and distributions are taxed as income",
+      "D": "Contributions are unlimited, and distributions incur penalties"
+    },
+    "correctAnswer": "C",
+    "explanation": "Traditional IRAs allow tax-deductible contributions and tax distributions upon withdrawal, reflecting competency B2: Demonstrate knowledge of Pensions and tax treatment :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "In a tax-deferred retirement account, which of the following applies?",
+    "options": {
+      "A": "Contributions are taxed upon deposit, but growth is untaxed",
+      "B": "Distributions are tax-free because taxes are deferred until contribution",
+      "C": "Earnings are taxed annually, but contributions are tax-deductible",
+      "D": "Investment gains are not taxed until funds are withdrawn"
+    },
+    "correctAnswer": "D",
+    "explanation": "Tax-deferred accounts allow investment gains to accumulate without immediate taxation; taxes are due upon withdrawal, matching competency B3: Demonstrate knowledge of taxation :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following best describes a secured loan?",
+    "options": {
+      "A": "Loan backed by collateral",
+      "B": "Loan based solely on credit history",
+      "C": "Loan with variable interest rates",
+      "D": "Loan requiring no repayment schedule"
+    },
+    "correctAnswer": "A",
+    "explanation": "A secured loan is backed by collateral, reducing lender risk. This aligns with competency C1: Identify and explain the different types of loans :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "What is the primary purpose of a mortgage?",
+    "options": {
+      "A": "To fund short-term operational expenses",
+      "B": "To finance the purchase of real property",
+      "C": "To provide unsecured personal credit",
+      "D": "To hedge against currency fluctuations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mortgages are long-term loans used to finance real estate purchases, reflecting competency C2: Explain the purposes of mortgages :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "question": "An open-ended investment company (OEIC) primarily differs from a closed-end fund in that it:",
+    "options": {
+      "A": "Trades on stock exchanges like individual shares",
+      "B": "Has a fixed number of shares outstanding",
+      "C": "Issues and redeems shares at net asset value",
+      "D": "Invests exclusively in government securities"
+    },
+    "correctAnswer": "C",
+    "explanation": "OEICs continuously issue and redeem shares at NAV, matching competency C5: Describe opened ended investment companies :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is characteristic of hedge funds?",
+    "options": {
+      "A": "They only track market-cap-weighted indices",
+      "B": "They are required to provide daily liquidity",
+      "C": "They are open to all investors without restrictions",
+      "D": "They use leverage and various strategies to achieve returns"
+    },
+    "correctAnswer": "D",
+    "explanation": "Hedge funds employ leverage and diverse strategies to generate returns, illustrating competency C8: Demonstrate knowledge of how hedge funds work :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9,
+    "question": "One key benefit that the stock market provides to companies is:",
+    "options": {
+      "A": "Access to capital through equity offerings",
+      "B": "Guaranteed profits for all investors",
+      "C": "Fixed interest payments to shareholders",
+      "D": "Protection against market volatility"
+    },
+    "correctAnswer": "A",
+    "explanation": "By issuing shares, companies raise capital for growth, reflecting competency D1: Explain how the stock market benefits investors and companies :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "Which statement correctly distinguishes a primary market transaction from a secondary market transaction?",
+    "options": {
+      "A": "Shares are traded among investors",
+      "B": "Companies issue new securities to raise capital",
+      "C": "Trades occur on stock exchanges only",
+      "D": "Prices are set by retail investors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Primary markets involve the issuance of new securities by companies, matching competency D5: Compare primary vs secondary markets :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "An investor in a bear market expects which of the following?",
+    "options": {
+      "A": "Rapid price increases",
+      "B": "Stable prices over time",
+      "C": "Declining market prices",
+      "D": "High trading volumes only"
+    },
+    "correctAnswer": "C",
+    "explanation": "A bear market is characterized by falling prices, reflecting competency D6: Distinguish between bull, bear, and pig markets :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "question": "Compounding primarily refers to which process?",
+    "options": {
+      "A": "Spreading investments across asset classes",
+      "B": "Investing in companies that pay dividends",
+      "C": "Buying assets solely for appreciation",
+      "D": "Earnings reinvested to generate additional returns"
+    },
+    "correctAnswer": "D",
+    "explanation": "Compounding means reinvesting earnings so they generate their own returns, aligning with competency E1: Demonstrate knowledge of compounding :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "Which financial statement provides details on a company's revenues and expenses?",
+    "options": {
+      "A": "Income statement",
+      "B": "Balance sheet",
+      "C": "Statement of cash flows",
+      "D": "Statement of retained earnings"
+    },
+    "correctAnswer": "A",
+    "explanation": "The income statement reports revenues and expenses, illustrating competency E5: Evaluate financial statements :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "In investment terms, “beta” measures:",
+    "options": {
+      "A": "The dividend yield of a stock",
+      "B": "Volatility relative to the market benchmark",
+      "C": "The book value per share",
+      "D": "The time to maturity of a bond"
+    },
+    "correctAnswer": "B",
+    "explanation": "Beta indicates a security’s volatility compared to the market, matching competency E6: Define terminology common to stock markets and other investments :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "Total return on a mutual fund includes which components?",
+    "options": {
+      "A": "Only capital gains",
+      "B": "Broker commissions paid",
+      "C": "Capital gains distributions plus reinvested income",
+      "D": "Front-end sales load"
+    },
+    "correctAnswer": "C",
+    "explanation": "Total return combines capital gains distributions and income reinvestment, reflecting competency F1: Understanding and explaining total return :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 16,
+    "question": "Which fee is typically charged annually based on a percentage of a mutual fund's assets under management?",
+    "options": {
+      "A": "Front-end load",
+      "B": "Back-end load",
+      "C": "Transaction fee",
+      "D": "Expense ratio"
+    },
+    "correctAnswer": "D",
+    "explanation": "The expense ratio is an annual fee based on assets under management, matching competency F5: Understand fund costs :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "Bond duration primarily measures:",
+    "options": {
+      "A": "Price sensitivity to interest rate changes",
+      "B": "Credit quality of the bond issuer",
+      "C": "Time until maturity of the bond",
+      "D": "Periodic interest payment schedule"
+    },
+    "correctAnswer": "A",
+    "explanation": "Duration estimates how much a bond's price will change as interest rates move, reflecting competency G1: Demonstrate knowledge of bond duration :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 18,
+    "question": "Which statement correctly contrasts secured bonds with unsecured bonds?",
+    "options": {
+      "A": "Secured bonds have higher interest rates",
+      "B": "Unsecured bonds lack collateral backing",
+      "C": "Secured bonds can only be issued by governments",
+      "D": "Unsecured bonds are always rated AAA"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unsecured bonds (debentures) are not backed by collateral, aligning with competency G5: Compare secured and unsecured bonds :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "question": "U.S. Treasury bonds are characterized by:",
+    "options": {
+      "A": "Variable principal repayment",
+      "B": "High credit risk",
+      "C": "Fixed payments backed by the federal government",
+      "D": "Ownership in private enterprises"
+    },
+    "correctAnswer": "C",
+    "explanation": "U.S. Treasury bonds pay fixed interest and are backed by the government, reflecting competency G6: Introduction to government bonds :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "Which type of U.S. savings bond is registered under the names of two people and pays interest semiannually?",
+    "options": {
+      "A": "Series I bond",
+      "B": "Treasury bond",
+      "C": "Treasury STRIPS",
+      "D": "Series EE bond"
+    },
+    "correctAnswer": "A",
+    "explanation": "Series I bonds can be registered to two individuals and earn interest compounded semiannually, matching competency G7: Identify U.S. government agency bonds and savings bonds :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 21,
+    "question": "A futures contract obligates the parties to:",
+    "options": {
+      "A": "Buy or sell an asset at a predetermined price on a future date",
+      "B": "Exchange cash flows based on interest rate differentials",
+      "C": "Choose whether to execute the contract on expiry",
+      "D": "Purchase insurance against price changes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Futures are binding agreements to transact an asset at a set price on a future date, reflecting competency H1: Demonstrate knowledge of futures :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "question": "Which of the following best describes a call option?",
+    "options": {
+      "A": "Obligation to sell the underlying asset",
+      "B": "Right to buy the underlying asset at a specified price",
+      "C": "Exchange of fixed for floating interest rates",
+      "D": "Contract that requires margin maintenance"
+    },
+    "correctAnswer": "B",
+    "explanation": "A call option gives the holder the right, but not the obligation, to purchase the asset at a strike price, matching competency H2: Demonstrate knowledge of options :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "Insider trading involves:",
+    "options": {
+      "A": "Trading based on public financial reports",
+      "B": "Short selling against market trends",
+      "C": "Trading on material non-public information",
+      "D": "Diversifying a portfolio to reduce risk"
+    },
+    "correctAnswer": "C",
+    "explanation": "Insider trading is trading securities using confidential, material information, reflecting competency I3: Explain insider dealing and market abuse :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 24,
+    "question": "The Data Protection Act 1998 primarily regulates the processing of:",
+    "options": {
+      "A": "Corporate financial statements",
+      "B": "Securities transactions data",
+      "C": "International trade agreements",
+      "D": "Personal data of individuals"
+    },
+    "correctAnswer": "D",
+    "explanation": "The Act governs how personal data is handled, matching competency I4: Describe the Data Protection Act 1998 :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "If a financial services firm fails to safeguard client assets, this is considered a breach of which principle?",
+    "options": {
+      "A": "Client asset protection",
+      "B": "Market transparency",
+      "C": "Anti-money laundering",
+      "D": "Insider dealing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Failing to protect client assets breaches the client asset protection principle, reflecting competency I5: Identify types of breaches, complaints, and compensation :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following best describes the concept of risk tolerance?",
+    "options": {
+      "A": "Investor’s willingness to endure fluctuations in investment value",
+      "B": "Measure of potential return of an investment",
+      "C": "Ratio of debt to equity in a capital structure",
+      "D": "Cost incurred when buying or selling securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with A3: Identify stages of investing and the relationship between risk and return. :contentReference[oaicite:0]{index=0}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "Which type of pension plan guarantees a specified monthly benefit upon retirement?",
+    "options": {
+      "A": "401(k) defined-contribution plan",
+      "B": "Defined benefit pension plan",
+      "C": "Cash balance pension plan",
+      "D": "Profit-sharing retirement plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "Defined benefit plans promise a fixed payout at retirement, reflecting B2: Demonstrate knowledge of Pensions. :contentReference[oaicite:1]{index=1}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "Which loan type allows the borrower to withdraw funds repeatedly up to a credit limit and pays interest only on the outstanding balance?",
+    "options": {
+      "A": "Term loan",
+      "B": "Mortgage loan",
+      "C": "Revolving credit facility",
+      "D": "Installment loan"
+    },
+    "correctAnswer": "C",
+    "explanation": "Revolving credit permits ongoing withdrawals up to a limit with interest on the balance, matching C1: Identify and explain the different types of loans. :contentReference[oaicite:2]{index=2}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "Which of the following is a primary function of stock exchanges?",
+    "options": {
+      "A": "Guarantee investors a profit",
+      "B": "Provide long-term loans to companies",
+      "C": "Prevent market volatility",
+      "D": "Facilitate liquidity and price determination"
+    },
+    "correctAnswer": "D",
+    "explanation": "Stock exchanges enable trading liquidity and price discovery, reflecting D1: Explain how the stock market benefits investors and companies. :contentReference[oaicite:3]{index=3}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "question": "Compounding occurs when:",
+    "options": {
+      "A": "Earnings are reinvested to generate additional returns",
+      "B": "Principal is adjusted for inflation",
+      "C": "Interest is paid only on the initial investment",
+      "D": "Investment gains are distributed as cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "Compounding means reinvesting interest so it earns further returns, aligning with E1: Demonstrate knowledge of compounding. :contentReference[oaicite:4]{index=4}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "question": "Which financial ratio measures the proportion of a company’s assets financed by debt?",
+    "options": {
+      "A": "Current ratio",
+      "B": "Debt-to-equity ratio",
+      "C": "Earnings per share",
+      "D": "Price-to-earnings ratio"
+    },
+    "correctAnswer": "B",
+    "explanation": "Debt-to-equity ratio shows asset financing by debt versus equity, reflecting E5: Evaluate financial statements. :contentReference[oaicite:5]{index=5}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "Life assurance policies are designed primarily to:",
+    "options": {
+      "A": "Accumulate savings for retirement",
+      "B": "Provide short-term disability coverage",
+      "C": "Pay a lump sum upon death or policy maturity",
+      "D": "Cover only medical expenses"
+    },
+    "correctAnswer": "C",
+    "explanation": "Life assurance ensures a payout on death or maturity, matching C3: Demonstrate the knowledge and purpose of life assurance. :contentReference[oaicite:6]{index=6}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 33,
+    "question": "In securities trading, the settlement date is when:",
+    "options": {
+      "A": "An order is placed with a broker",
+      "B": "A trade is executed on the exchange",
+      "C": "Trade details are recorded in the system",
+      "D": "Ownership and payment are exchanged"
+    },
+    "correctAnswer": "D",
+    "explanation": "Settlement is the transfer of securities and funds, reflecting C6: Identify the characteristics of pricing, dealing, and settlement. :contentReference[oaicite:7]{index=7}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "question": "One key advantage of mutual funds is:",
+    "options": {
+      "A": "Professional management of a diversified portfolio",
+      "B": "Guaranteed returns for investors",
+      "C": "Exclusive access to private equity deals",
+      "D": "Exemption from market risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mutual funds offer professional diversification, aligning with F4: Explain benefits with investment in mutual funds. :contentReference[oaicite:8]{index=8}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "Dividends distributed by a mutual fund are typically taxed as:",
+    "options": {
+      "A": "Long-term capital gains",
+      "B": "Ordinary income",
+      "C": "Tax-deferred until sale",
+      "D": "Tax-free distributions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fund dividends are taxed at ordinary income rates, reflecting F2: Describe mutual funds and its involvement with taxes. :contentReference[oaicite:9]{index=9}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "Bond duration primarily measures a bond’s:",
+    "options": {
+      "A": "Credit risk",
+      "B": "Time to maturity",
+      "C": "Sensitivity to interest rate changes",
+      "D": "Coupon payment frequency"
+    },
+    "correctAnswer": "C",
+    "explanation": "Duration estimates price volatility due to interest rate movements, matching G1: Demonstrate the knowledge of bond duration. :contentReference[oaicite:10]{index=10}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 37,
+    "question": "Compared to unsecured bonds, secured bonds are:",
+    "options": {
+      "A": "Not backed by collateral",
+      "B": "Riskier for investors",
+      "C": "Issued only by governments",
+      "D": "Backed by specific assets as collateral"
+    },
+    "correctAnswer": "D",
+    "explanation": "Secured bonds have collateral backing, reflecting G5: Compare secured and unsecured bonds. :contentReference[oaicite:11]{index=11}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "Which of these is an example of a U.S. government agency bond?",
+    "options": {
+      "A": "Fannie Mae debenture",
+      "B": "Municipal revenue bond",
+      "C": "Corporate note",
+      "D": "Treasury bill"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fannie Mae issues agency bonds backed by mortgage assets, aligning with G7: Identify U.S. government agency bonds and savings bonds. :contentReference[oaicite:12]{index=12}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "A swap agreement typically involves:",
+    "options": {
+      "A": "One-time exchange of cash and securities",
+      "B": "Exchange of cash flows based on differing interest rates",
+      "C": "Purchase of an underlying physical commodity",
+      "D": "Option to defer a transaction until expiration"
+    },
+    "correctAnswer": "B",
+    "explanation": "Swaps exchange cash flows tied to interest rate benchmarks, matching H3: Demonstrate the knowledge of SWAPS. :contentReference[oaicite:13]{index=13}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 40,
+    "question": "One primary use of derivatives is to:",
+    "options": {
+      "A": "Guarantee investment returns",
+      "B": "Leverage capital without risk",
+      "C": "Hedge against price fluctuations",
+      "D": "Evade regulatory requirements"
+    },
+    "correctAnswer": "C",
+    "explanation": "Derivatives are commonly used for hedging risk, reflecting H4: Describe the different uses of Derivatives. :contentReference[oaicite:14]{index=14}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "question": "Which statement best describes a put option?",
+    "options": {
+      "A": "Obligation to purchase the underlying asset at expiration",
+      "B": "Right to buy the underlying asset at the strike price",
+      "C": "Obligation to sell the underlying asset at expiration",
+      "D": "Right to sell the underlying asset at the strike price"
+    },
+    "correctAnswer": "D",
+    "explanation": "A put option grants the right to sell at a set price, aligning with H2: Demonstrate the knowledge of Options. :contentReference[oaicite:15]{index=15}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "question": "Which retirement account allows after-tax contributions with tax-free withdrawals in retirement?",
+    "options": {
+      "A": "Roth IRA",
+      "B": "Traditional IRA",
+      "C": "401(k) plan",
+      "D": "Health Savings Account"
+    },
+    "correctAnswer": "A",
+    "explanation": "Roth IRAs use after-tax contributions and offer tax-free growth, reflecting B1: Describe individual savings accounts. :contentReference[oaicite:16]{index=16}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "Which tax rate applies to gains on investments held for more than one year?",
+    "options": {
+      "A": "Ordinary income tax rate",
+      "B": "Long-term capital gains rate",
+      "C": "Alternative minimum tax rate",
+      "D": "Payroll tax rate"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investments held over a year are taxed at long-term capital gains rates, matching B3: Demonstrate knowledge of taxation. :contentReference[oaicite:17]{index=17}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is considered a financial crime?",
+    "options": {
+      "A": "Diversifying a portfolio",
+      "B": "Reporting public financial data",
+      "C": "Money laundering",
+      "D": "Engaging in market making"
+    },
+    "correctAnswer": "C",
+    "explanation": "Money laundering is a prohibited financial crime, reflecting I2: Identify Financial Crime. :contentReference[oaicite:18]{index=18}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "The Financial Services & Markets Act primarily establishes:",
+    "options": {
+      "A": "Corporate tax rates for financial firms",
+      "B": "Standards for corporate governance",
+      "C": "Limits on deposit insurance coverage",
+      "D": "A regulatory framework for financial markets"
+    },
+    "correctAnswer": "D",
+    "explanation": "This Act sets out the regulatory structure governing financial services and markets, matching I1: Explain Financial Services & Markets Act. :contentReference[oaicite:19]{index=19}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 46,
+    "question": "In a stock table, the 'P/E' column stands for:",
+    "options": {
+      "A": "Price-to-Earnings ratio",
+      "B": "Preferred Equity",
+      "C": "Portfolio Exposure",
+      "D": "Performance Estimate"
+    },
+    "correctAnswer": "A",
+    "explanation": "P/E indicates price relative to earnings, reflecting D2: Analyze stock tables for investment related information. :contentReference[oaicite:20]{index=20}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "question": "A 'pig' market describes investors who:",
+    "options": {
+      "A": "Avoid all market risk",
+      "B": "Hold on expecting high returns but often incur losses",
+      "C": "Sell quickly at the first sign of decline",
+      "D": "Invest solely in government bonds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pig investors are greedy and hold too long, leading to losses, matching D6: Distinguish between bull, bear, and pig markets. :contentReference[oaicite:21]{index=21}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 48,
+    "question": "One option for handling accumulated dividends is to:",
+    "options": {
+      "A": "Offset administrative fees",
+      "B": "Reduce the original purchase price",
+      "C": "Reinvest them to buy additional shares",
+      "D": "Defer taxation indefinitely"
+    },
+    "correctAnswer": "C",
+    "explanation": "Dividend reinvestment plans allow purchase of additional shares, reflecting D3: Describe options for handling accumulated money/earnings. :contentReference[oaicite:22]{index=22}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "question": "Which of the following is a commodity investment?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Growth stock",
+      "C": "Real estate investment trust",
+      "D": "Gold futures contract"
+    },
+    "correctAnswer": "D",
+    "explanation": "Gold futures represent direct commodity exposure, matching D4: Understand the types of investments. :contentReference[oaicite:23]{index=23}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "In trading, a 'market maker' is an entity that:",
+    "options": {
+      "A": "Guarantees price stability at all times",
+      "B": "Regulates market transactions for investors",
+      "C": "Executes only block trades for institutions",
+      "D": "Provides liquidity by quoting buy and sell prices"
+    },
+    "correctAnswer": "D",
+    "explanation": "Market makers maintain liquidity by posting bid and ask quotes, reflecting E6: Define terminology common to stock markets and other investments. :contentReference[oaicite:24]{index=24}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "In investment terms, “liquidity” refers to:",
+    "options": {
+      "A": "Ease of converting an asset to cash",
+      "B": "Potential growth rate over time",
+      "C": "Degree of diversification in a portfolio",
+      "D": "Cost incurred when buying securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on defining common investment terminology (liquidity).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 52,
+    "question": "Diversification primarily reduces which type of risk?",
+    "options": {
+      "A": "Market risk from economic changes",
+      "B": "Unsystematic risk specific to individual firms",
+      "C": "Interest rate risk due to rate changes",
+      "D": "Purchasing power risk from inflation"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency on identifying risk types and how diversification mitigates unsystematic risk.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 53,
+    "question": "Systematic risk is best described as risk that:",
+    "options": {
+      "A": "Is unique to a single company’s operations",
+      "B": "Can be eliminated through portfolio diversification",
+      "C": "Affects all securities in the market",
+      "D": "Results from poor management decisions"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency on distinguishing market-wide (systematic) risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "Which risk can be mitigated through diversification?",
+    "options": {
+      "A": "Interest rate fluctuations affecting bond prices",
+      "B": "Inflation risk reducing purchasing power",
+      "C": "Currency risk from cross-border transactions",
+      "D": "Unsystematic risk specific to a single firm"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency on applying diversification to mitigate unsystematic risk.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "The Capital Asset Pricing Model (CAPM) formula relates expected return to:",
+    "options": {
+      "A": "Risk-free rate plus beta times the market premium",
+      "B": "Dividend yield plus expected growth rate",
+      "C": "Current yield plus time to maturity",
+      "D": "Inflation rate plus real rate of return"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on applying CAPM to calculate an investment’s expected return.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 56,
+    "question": "A security with a beta greater than one is expected to:",
+    "options": {
+      "A": "Be less volatile compared to market movements",
+      "B": "Be more volatile compared to market benchmarks",
+      "C": "Have lower returns than risk-free securities",
+      "D": "Offer guaranteed minimum returns always"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency on interpreting beta as a measure of relative volatility.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following describes the efficient frontier?",
+    "options": {
+      "A": "Portfolios that minimize risk for a given return",
+      "B": "Collection of all possible investment portfolios",
+      "C": "Set of portfolios with no diversification benefit",
+      "D": "Portfolios with the highest alpha values"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on defining the efficient frontier in portfolio optimization.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "question": "Modern Portfolio Theory emphasizes that:",
+    "options": {
+      "A": "Higher return always accompanies higher risk levels",
+      "B": "Security selection alone can eliminate all risk",
+      "C": "Only unsystematic risk affects portfolio performance",
+      "D": "Diversification improves risk-adjusted investment returns"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency on applying Modern Portfolio Theory to enhance risk-adjusted returns.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 59,
+    "question": "A market order instructs a broker to:",
+    "options": {
+      "A": "Buy or sell immediately at the best available price",
+      "B": "Buy or sell only at a specific limit price",
+      "C": "Execute only during market opening hours",
+      "D": "Delay execution until a condition is met"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on identifying types of stock market orders (market order).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "question": "A limit order allows investors to:",
+    "options": {
+      "A": "Transact only in large block trades",
+      "B": "Specify the exact price to buy or sell",
+      "C": "Guarantee order execution at market open",
+      "D": "Cancel the trade if price moves unfavorably"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency on identifying types of stock market orders (limit order).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "question": "Which order becomes a market order once a price threshold is reached?",
+    "options": {
+      "A": "Limit order triggering execution at a set price",
+      "B": "Stop-limit order combining stop and limit prices",
+      "C": "Stop order converting to market order at threshold",
+      "D": "Market-on-open order executed at opening price"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency on identifying types of stock market orders (stop order).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "A margin call occurs when:",
+    "options": {
+      "A": "Broker issues additional shares to cover losses",
+      "B": "Investor withdraws funds below margin threshold",
+      "C": "Account equity drops below maintenance margin level",
+      "D": "Investor sells securities at a loss intentionally"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency on margin trading and maintenance requirements.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 63,
+    "question": "Short selling profits when:",
+    "options": {
+      "A": "Price of borrowed shares decreases, generating profit",
+      "B": "Company pays high dividends on borrowed shares",
+      "C": "Market index rises broadly over time",
+      "D": "Interest rates increase significantly"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on understanding short selling mechanics.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "Yield to maturity on a bond is best described as:",
+    "options": {
+      "A": "Annual coupon payment divided by current price",
+      "B": "Internal rate of return if held to maturity",
+      "C": "Difference between coupon rate and yield curve",
+      "D": "Forecasted interest rate at bond maturity"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency on calculating bond yield to maturity.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 65,
+    "question": "Current yield on a bond equals:",
+    "options": {
+      "A": "Coupon rate divided by face value of bond",
+      "B": "Total return including price appreciation",
+      "C": "Annual coupon payment divided by market price",
+      "D": "Yield to maturity minus reinvestment rate"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency on measuring bond current yield.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "A zero-coupon bond:",
+    "options": {
+      "A": "Issued at a discount and pays no periodic interest",
+      "B": "Backed by collateral and pays regular coupons",
+      "C": "Redeemable at the holder’s option before maturity",
+      "D": "Has floating interest payments based on rates"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on features of zero-coupon bonds.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 67,
+    "question": "A callable bond:",
+    "options": {
+      "A": "Can be redeemed by the issuer before the maturity date",
+      "B": "Pays no interest if called early by the holder",
+      "C": "Must be held until maturity by all investors",
+      "D": "Cannot be traded in secondary markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on characteristics of callable bonds.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 68,
+    "question": "General obligation municipal bonds are backed by:",
+    "options": {
+      "A": "Revenue generated from a specific project like tolls",
+      "B": "Full taxing authority of the municipal issuer",
+      "C": "Proceeds from federal government grants only",
+      "D": "Collateral from corporate bond issuances"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency on municipal bond types and their backing.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 69,
+    "question": "An American Depositary Receipt (ADR) represents:",
+    "options": {
+      "A": "Long-term lease on foreign real estate",
+      "B": "Direct purchase of foreign securities",
+      "C": "U.S. bank-held receipt representing foreign shares",
+      "D": "Option contracts on international equity indexes"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency on understanding ADRs and international investment vehicles.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 70,
+    "question": "Which fund type trades like a stock throughout the day and tracks an index?",
+    "options": {
+      "A": "Closed-end fund with a constant share count",
+      "B": "Mutual fund priced at NAV only once per day",
+      "C": "Unit investment trust with fixed portfolio securities",
+      "D": "Exchange-traded fund trading like a stock"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency on comparing ETFs to other fund structures.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 71,
+    "question": "A European option allows exercise:",
+    "options": {
+      "A": "Only on the expiration date",
+      "B": "At any time before expiration",
+      "C": "With issuer consent prior to expiration",
+      "D": "Only on European exchanges"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on distinguishing option styles (European vs. American).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 72,
+    "question": "Intrinsic value of an in-the-money call option equals:",
+    "options": {
+      "A": "Market price minus strike price of the asset",
+      "B": "Strike price minus the current market price",
+      "C": "Time to expiration multiplied by volatility",
+      "D": "Option premium minus time value component"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on calculating option intrinsic value.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "In futures trading, “mark-to-market” means:",
+    "options": {
+      "A": "Calculating margin requirement after each trade",
+      "B": "Recording contract price at historical cost",
+      "C": "Settling gains and losses in margin accounts daily",
+      "D": "Delaying settlement until contract delivery"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency on settlement processes for futures contracts.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 74,
+    "question": "The SEC’s Rule 10b-5 primarily addresses:",
+    "options": {
+      "A": "Regulating margin requirements for securities lending",
+      "B": "Establishing reporting standards for broker-dealers",
+      "C": "Governing the use of prospectus documents",
+      "D": "Prohibiting fraudulent securities transactions"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency on SEC regulations against fraudulent securities activities.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 75,
+    "question": "FINRA requires brokers to observe the principle of:",
+    "options": {
+      "A": "Suitability, ensuring recommendations align with client needs",
+      "B": "Providing guaranteed low-cost trades to all customers",
+      "C": "Recommending only securities with high yields",
+      "D": "Ensuring clients achieve a set rate of return"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency on FINRA principles, including the suitability rule.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Dividend yield is best defined as:",
+    "options": {
+      "A": "Annual dividend per share divided by current market price",
+      "B": "Annual dividend per share multiplied by earnings per share",
+      "C": "Annual dividend per share divided by book value",
+      "D": "Annual dividend per share minus yield curve rate"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 77,
+    "question": "Which of the following is a secondary source of financial information?",
+    "options": {
+      "A": "SEC EDGAR filings",
+      "B": "Analyst research reports",
+      "C": "Company prospectus",
+      "D": "Original financial statements"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency A4: Identify sources of financial information to make investment decisions :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "Which individual savings account offers tiered interest rates and limited check-writing privileges?",
+    "options": {
+      "A": "Regular savings account",
+      "B": "Money market account",
+      "C": "Certificate of deposit",
+      "D": "Checking account"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency B1: Describe individual savings accounts :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "Which bond type is issued by municipalities and often offers interest exempt from federal income tax?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Treasury bond",
+      "C": "Municipal bond",
+      "D": "Agency bond"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency B4: Describe and identify investment bonds :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 80,
+    "question": "A lump-sum loan repaid over a fixed schedule with regular payments is called a:",
+    "options": {
+      "A": "Revolving credit facility",
+      "B": "Term loan",
+      "C": "Line of credit",
+      "D": "Letter of credit"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency C1: Identify and explain the different types of loans :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "question": "Which life assurance policy combines life cover with a savings element, paying out on death or on survival to maturity?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Term assurance",
+      "C": "Endowment policy",
+      "D": "Unit-linked policy"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency C3: Demonstrate the knowledge and purpose of life assurance :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 82,
+    "question": "Which fund structure continuously issues and redeems shares at net asset value?",
+    "options": {
+      "A": "Closed-end fund",
+      "B": "Open-ended investment company",
+      "C": "Unit trust",
+      "D": "Hedge fund"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency C5: Describe open-ended investment companies :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 83,
+    "question": "In settlement terms, 'T+2' indicates:",
+    "options": {
+      "A": "Settlement three business days after trade",
+      "B": "Trade date plus one business day",
+      "C": "Trade date plus two business days",
+      "D": "Trade date plus two calendar days"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency C6: Identify the characteristics of pricing, dealing, and settlement :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 84,
+    "question": "One key benefit the stock market provides companies is:",
+    "options": {
+      "A": "Raising capital through share issuance",
+      "B": "Fixed interest financing",
+      "C": "Guaranteed dividends",
+      "D": "Insurance against market swings"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency D1: Explain how the stock market benefits investors and companies :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 85,
+    "question": "In a stock table, 'Volume' refers to:",
+    "options": {
+      "A": "Number of shares traded during a period",
+      "B": "Total market capitalization",
+      "C": "Average daily price",
+      "D": "Dividend payout ratio"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency D2: Analyze stock tables for investment-related information :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 86,
+    "question": "Which example represents a secondary market transaction?",
+    "options": {
+      "A": "Company issuing new shares in an IPO",
+      "B": "Investor selling shares to another investor on an exchange",
+      "C": "Corporation selling new bonds directly to investors",
+      "D": "Government auctioning Treasury bills"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency D5: Compare and differentiate between primary vs secondary markets :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "Which financial statement details a company's cash inflows and outflows from operating, investing, and financing activities?",
+    "options": {
+      "A": "Statement of cash flows",
+      "B": "Income statement",
+      "C": "Balance sheet",
+      "D": "Statement of retained earnings"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency E5: Evaluate financial statements :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "question": "In investment performance metrics, 'alpha' represents:",
+    "options": {
+      "A": "Measure of overall market volatility",
+      "B": "Excess return relative to a benchmark",
+      "C": "Ratio of assets to equity",
+      "D": "Price-to-earnings ratio"
+    },
+    "correctAnswer": "B",
+    "explanation": "This addresses the FBLA competency E6: Define terminology common to stock markets and other investments :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "question": "Total return on a mutual fund includes:",
+    "options": {
+      "A": "Capital gains distributions and reinvested income",
+      "B": "Management fees only",
+      "C": "Front-end sales loads",
+      "D": "Net asset value change only"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency F1: Understanding and explaining total return :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "When purchasing mutual fund shares, the price paid is based on the NAV calculated at:",
+    "options": {
+      "A": "Market open",
+      "B": "Midday",
+      "C": "Market close",
+      "D": "End of week"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency F3: Identify the process of purchasing mutual funds :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "question": "Which ongoing fee is expressed as a percentage of assets and covers management and operating expenses of a mutual fund?",
+    "options": {
+      "A": "Front-end load",
+      "B": "Back-end load",
+      "C": "Transaction fee",
+      "D": "Expense ratio"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency F5: Understand fund costs :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 92,
+    "question": "Which document contains the detailed covenants and terms of a bond issue?",
+    "options": {
+      "A": "Prospectus",
+      "B": "Credit rating report",
+      "C": "Indenture",
+      "D": "Bond certificate"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency G2: Describe the process of buying bonds :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 93,
+    "question": "Collateral in a secured bond primarily serves to:",
+    "options": {
+      "A": "Increase the coupon rate paid",
+      "B": "Extend the bond’s maturity date",
+      "C": "Reduce tax liabilities for investors",
+      "D": "Provide asset backing for investor protection"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency G4: Identify the roles of collateral :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "Treasury Inflation-Protected Securities (TIPS) adjust principal based on changes in:",
+    "options": {
+      "A": "Consumer Price Index for All Urban Consumers (CPI-U)",
+      "B": "Producer Price Index (PPI)",
+      "C": "Federal Funds Rate",
+      "D": "Consumer Price Index for Urban Wage Earners (CPI-W)"
+    },
+    "correctAnswer": "A",
+    "explanation": "This addresses the FBLA competency G6: Introduction to government bonds :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 95,
+    "question": "In futures trading, initial margin is deposited with which entity to ensure contract performance?",
+    "options": {
+      "A": "Clearing broker only",
+      "B": "Issuing exchange",
+      "C": "Central clearinghouse",
+      "D": "Counterparty broker"
+    },
+    "correctAnswer": "C",
+    "explanation": "This addresses the FBLA competency H1: Demonstrate the knowledge of Futures :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "In an interest rate swap, the notional principal amount is:",
+    "options": {
+      "A": "Physically exchanged between parties",
+      "B": "Fixed interest rate paid by one party",
+      "C": "Margin required to initiate the swap",
+      "D": "Amount used to calculate interest payments but not exchanged"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency H3: Demonstrate the knowledge of SWAPS :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "question": "One primary use of derivatives is to:",
+    "options": {
+      "A": "Guarantee fixed investment returns",
+      "B": "Evade regulatory requirements",
+      "C": "Create new asset classes",
+      "D": "Hedge against price fluctuations"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency H4: Describe the different uses of Derivatives :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 98,
+    "question": "The Financial Services and Markets Act 2000 established which UK regulator?",
+    "options": {
+      "A": "Bank of England",
+      "B": "Prudential Regulation Authority",
+      "C": "Financial Conduct Authority",
+      "D": "Financial Services Authority"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency I1: Explain Financial Services & Markets Act :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following actions would NOT constitute insider dealing under market abuse regulations?",
+    "options": {
+      "A": "Buying shares after receiving a confidential earnings report",
+      "B": "Informing a friend of undisclosed merger details and trading",
+      "C": "Selling stock following non-public board meeting information",
+      "D": "Purchasing shares based on the published annual report"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency I3: Explain insider dealing and market abuse :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "If a UK regulated firm fails to safeguard client assets, consumers may claim compensation from which scheme?",
+    "options": {
+      "A": "Financial Ombudsman Service",
+      "B": "Prudential Regulation Authority",
+      "C": "Securities Investor Protection Corporation",
+      "D": "Financial Services Compensation Scheme"
+    },
+    "correctAnswer": "D",
+    "explanation": "This addresses the FBLA competency I5: Identify types of breaches, complaints, and compensation :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 101,
+    "question": "In investment terminology, “beta” measures:",
+    "options": {
+      "A": "Volatility relative to a benchmark index",
+      "B": "Dividend yield as a percentage of price",
+      "C": "Total return including reinvested dividends",
+      "D": "Ease of converting an asset to cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 102,
+    "question": "Which savings vehicle typically offers tiered interest rates and limited check-writing privileges?",
+    "options": {
+      "A": "Regular checking account",
+      "B": "Money market account",
+      "C": "Traditional individual retirement account",
+      "D": "Certificate of deposit"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency A2: Demonstrate knowledge of savings :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "According to the risk–return relationship, an investment with higher risk should offer:",
+    "options": {
+      "A": "Lower potential returns",
+      "B": "Guaranteed principal protection",
+      "C": "Higher expected returns",
+      "D": "Fixed income payments"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency A3: Identify stages of investing and the relationship between risk and return :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "question": "Which of the following is a primary source of financial information?",
+    "options": {
+      "A": "Analyst research reports",
+      "B": "Financial news websites",
+      "C": "Social media commentary",
+      "D": "Company financial statements"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency A4: Identify sources of financial information to make investment decisions :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 105,
+    "question": "Which account type restricts withdrawals to fixed terms but generally offers the highest rate?",
+    "options": {
+      "A": "Certificate of deposit",
+      "B": "Regular savings account",
+      "C": "Checking account",
+      "D": "Money market account"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency B1: Describe individual savings accounts :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "question": "Which pension plan promises a specified monthly benefit at retirement?",
+    "options": {
+      "A": "401(k) defined-contribution plan",
+      "B": "Defined benefit pension plan",
+      "C": "Profit-sharing plan",
+      "D": "Cash balance plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency B2: Demonstrate knowledge of Pensions :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "Gains on securities held longer than one year are taxed at which rate?",
+    "options": {
+      "A": "Short-term capital gains rate",
+      "B": "Ordinary income tax rate",
+      "C": "Long-term capital gains rate",
+      "D": "Corporate tax rate"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency B3: Demonstrate knowledge of taxation :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "Which bond type often pays interest exempt from federal income tax?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Treasury bond",
+      "C": "Municipal bond",
+      "D": "Agency bond"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency B4: Describe and Identify Investment bonds :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "question": "Which loan type allows repeated borrowing up to a credit limit with interest on outstanding balance?",
+    "options": {
+      "A": "Installment loan",
+      "B": "Balloon loan",
+      "C": "Revolving credit facility",
+      "D": "Term loan"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C1: Identify and explain the different types of loans :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "question": "A mortgage’s primary purpose is to:",
+    "options": {
+      "A": "Hedge against currency risk",
+      "B": "Finance the purchase of real property",
+      "C": "Fund short-term operational expenses",
+      "D": "Provide unsecured personal credit"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C2: Explain the purposes of mortgages :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 111,
+    "question": "Which life assurance policy provides coverage only if the holder survives to a set maturity date?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Endowment policy",
+      "C": "Term assurance",
+      "D": "Universal life policy"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C3: Demonstrate the knowledge and purpose of life assurance :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 112,
+    "question": "A unit trust is best described as:",
+    "options": {
+      "A": "Closed-end fund with fixed shares",
+      "B": "Open-ended pooled fund issuing redeemable units",
+      "C": "Corporate vehicle issuing equity shares",
+      "D": "Derivative contract on a basket of assets"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency C4: Describe and explain unit trusts :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 113,
+    "question": "An open-ended investment company (OEIC) differs because it:",
+    "options": {
+      "A": "Issues and redeems shares at net asset value",
+      "B": "Maintains a fixed number of shares outstanding",
+      "C": "Invests exclusively in government securities",
+      "D": "Trades only on secondary markets"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C5: Describe opened ended investment companies :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "‘T+2’ in settlement terms means trades settle:",
+    "options": {
+      "A": "Two calendar days after trade date",
+      "B": "Immediately at trade execution",
+      "C": "Two business days after trade date",
+      "D": "On the next business day after trade date"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C6: Identify the characteristics of pricing, dealing, and settlement :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 115,
+    "question": "An investment trust is characterized as:",
+    "options": {
+      "A": "Closed-end company with fixed capital",
+      "B": "Open-end fund issuing redeemable units",
+      "C": "Government-backed savings scheme",
+      "D": "Derivative contract on equity indices"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C7: Identify and explain what Investment trusts are :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 116,
+    "question": "Which feature is common in hedge funds?",
+    "options": {
+      "A": "Daily redemption rights for all investors",
+      "B": "Mandatory lock-up periods",
+      "C": "Government guarantee of principal",
+      "D": "Strict diversification limits"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency C8: Demonstrate knowledge of how hedge funds work :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 117,
+    "question": "One benefit the stock market provides companies is:",
+    "options": {
+      "A": "Access to capital through equity issuance",
+      "B": "Guaranteed profit sharing with investors",
+      "C": "Fixed interest financing",
+      "D": "Protection against market downturns"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D1: Explain how stock market benefits investors and companies :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 118,
+    "question": "In a stock table, ‘P/E ratio’ indicates:",
+    "options": {
+      "A": "Price divided by earnings per share",
+      "B": "Portfolio exposure measure",
+      "C": "Performance estimate index",
+      "D": "Preferred equity classification"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D2: Analyze stock tables for investment related information :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 119,
+    "question": "A Dividend Reinvestment Plan (DRIP) allows investors to:",
+    "options": {
+      "A": "Receive dividends as cash only",
+      "B": "Reinvest dividends to purchase additional shares",
+      "C": "Offset management fees with dividends",
+      "D": "Convert dividends into bonds"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency D3: Describe options for handling accumulated money/earnings :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "Equity instruments represent ownership in:",
+    "options": {
+      "A": "Bonds issued by corporations",
+      "B": "Company stock or shares",
+      "C": "Loan agreements",
+      "D": "Derivative contracts"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D4: Understand the types of investments :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 121,
+    "question": "Primary market transactions involve:",
+    "options": {
+      "A": "Issuance of new securities by companies",
+      "B": "Trading existing securities among investors",
+      "C": "Clearing and settlement only",
+      "D": "Government bond auctions"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D5: Compare and differentiate between Primary vs secondary markets :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "A pig market describes investors who:",
+    "options": {
+      "A": "Hold expecting high returns but often incur losses",
+      "B": "Sell quickly at the first sign of decline",
+      "C": "Avoid all market risk",
+      "D": "Invest solely in government bonds"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D6: Distinguish between Bull, bear, and pig markets :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 123,
+    "question": "Compound interest occurs when:",
+    "options": {
+      "A": "Interest is earned only on the principal",
+      "B": "Interest is reinvested and earns additional interest",
+      "C": "Interest payments are deferred indefinitely",
+      "D": "Principal is adjusted for inflation"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency E1: Demonstrate knowledge of compounding :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "A company’s primary purpose is to:",
+    "options": {
+      "A": "Maximize shareholder wealth",
+      "B": "Minimize operational expenses only",
+      "C": "Provide unrestricted credit",
+      "D": "Guarantee stock price increases"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency E2: Explain the purpose of company :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Total return on an investment includes:",
+    "options": {
+      "A": "Capital gains plus reinvested income",
+      "B": "Only dividends received",
+      "C": "Only price appreciation",
+      "D": "Fees and commissions paid"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency F1: Understanding and explaining total return :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 126,
+    "question": "In investment terminology, “liquidity” refers to:",
+    "options": {
+      "A": "Ease of converting an asset to cash",
+      "B": "Potential growth rate of an investment",
+      "C": "Degree of diversification in a portfolio",
+      "D": "Cost incurred when executing a trade"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 127,
+    "question": "Risk tolerance primarily describes an investor’s:",
+    "options": {
+      "A": "Willingness to endure fluctuations in portfolio value",
+      "B": "Estimated return on a low-risk asset",
+      "C": "Cost to hedge market exposure",
+      "D": "Time horizon for investment goals"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency A3: Identify stages of investing and the relationship between risk and return :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 128,
+    "question": "Which of the following is a primary source of financial information for investment decisions?",
+    "options": {
+      "A": "Analyst research reports",
+      "B": "Financial news websites",
+      "C": "Company financial statements",
+      "D": "Social media commentary"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency A4: Identify sources of financial information to make investment decisions :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 129,
+    "question": "Which of the following is an example of a municipal bond?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Treasury bill",
+      "C": "Agency bond",
+      "D": "General obligation municipal bond"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency B4: Describe and Identify Investment bonds :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "The primary purpose of a mortgage is to:",
+    "options": {
+      "A": "Finance the purchase of real property",
+      "B": "Provide short-term working capital",
+      "C": "Hedge against currency fluctuations",
+      "D": "Finance unsecured personal debt"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C2: Explain the purposes of mortgages :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 131,
+    "question": "Which loan type allows the borrower to draw repeatedly up to a credit limit and pay interest only on the outstanding balance?",
+    "options": {
+      "A": "Term loan",
+      "B": "Revolving credit facility",
+      "C": "Installment loan",
+      "D": "Balloon loan"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C1: Identify and explain the different types of loans :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 132,
+    "question": "Which life assurance policy combines savings and life coverage, paying out on death or survival to maturity?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Term assurance",
+      "C": "Endowment policy",
+      "D": "Universal life policy"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C3: Demonstrate the knowledge and purpose of life assurance :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 133,
+    "question": "In securities trading, the settlement date refers to the process when:",
+    "options": {
+      "A": "An order is placed with a broker",
+      "B": "A trade is executed on the exchange",
+      "C": "Trade details are recorded in the system",
+      "D": "Ownership and payment are exchanged"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency C6: Identify the characteristics of pricing, dealing, and settlement :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "One key benefit of the stock market to companies is:",
+    "options": {
+      "A": "Access to capital through equity offerings",
+      "B": "Guaranteed profits for shareholders",
+      "C": "Fixed dividend payments",
+      "D": "Protection from market volatility"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D1: Explain how stock market benefits investors and companies :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 135,
+    "question": "In a stock table, ‘Volume’ indicates:",
+    "options": {
+      "A": "Market capitalization",
+      "B": "Number of shares traded",
+      "C": "Average daily price",
+      "D": "Price-to-earnings ratio"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D2: Analyze stock tables for investment related information :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "A secondary market transaction involves:",
+    "options": {
+      "A": "Companies issuing new securities",
+      "B": "Government auctions of new debt",
+      "C": "Trading existing securities among investors",
+      "D": "Initial public offerings"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency D5: Compare and differentiate between Primary vs secondary markets :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 137,
+    "question": "A bull market is characterized by:",
+    "options": {
+      "A": "Falling security prices",
+      "B": "High trading volumes only",
+      "C": "Stable price movements",
+      "D": "Rising market prices over an extended period"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D6: Distinguish between Bull, bear, and pig markets :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "Compound interest occurs when:",
+    "options": {
+      "A": "Interest is reinvested and earns additional interest",
+      "B": "Principal is adjusted for inflation",
+      "C": "Interest is paid only on the original deposit",
+      "D": "Earnings are distributed as cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency E1: Demonstrate knowledge of compounding :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 139,
+    "question": "Which statement describes the income statement?",
+    "options": {
+      "A": "Shows assets, liabilities, and equity at a point in time",
+      "B": "Reports revenues and expenses over a period",
+      "C": "Details cash inflows and outflows",
+      "D": "Reconciles beginning and ending equity balances"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency E5: Evaluate financial statements :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "In stock market terminology, “beta” measures:",
+    "options": {
+      "A": "Dividend yield percentage",
+      "B": "Company’s book value per share",
+      "C": "Volatility relative to a benchmark index",
+      "D": "Ease of converting an asset to cash"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency E6: Define terminology common to stock markets and other investments :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 141,
+    "question": "Total return on a mutual fund includes:",
+    "options": {
+      "A": "Capital gains only",
+      "B": "Front-end sales loads",
+      "C": "Expense ratio charges",
+      "D": "Capital gains distributions plus reinvested income"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency F1: Understanding and explaining total return :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 142,
+    "question": "Mutual fund dividend distributions are generally taxed as:",
+    "options": {
+      "A": "Ordinary income",
+      "B": "Long-term capital gains",
+      "C": "Short-term capital gains",
+      "D": "Tax-free income"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency F2: Describe mutual funds and its involvement with taxes :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "Which ongoing fee is expressed as a percentage of assets under management?",
+    "options": {
+      "A": "Front-end load",
+      "B": "Expense ratio",
+      "C": "Back-end load",
+      "D": "Transaction fee"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency F5: Understand fund costs :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "Bond duration measures a bond’s:",
+    "options": {
+      "A": "Time until maturity",
+      "B": "Credit quality of issuer",
+      "C": "Price sensitivity to interest rate changes",
+      "D": "Frequency of coupon payments"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency G1: Demonstrate the knowledge of bond duration :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 145,
+    "question": "Unsecured bonds differ from secured bonds because they:",
+    "options": {
+      "A": "Are backed by specific assets",
+      "B": "Always have lower interest rates",
+      "C": "Can only be issued by governments",
+      "D": "Are not backed by collateral"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency G5: Compare secured and unsecured bonds :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 146,
+    "question": "U.S. Treasury bonds are characterized by:",
+    "options": {
+      "A": "Fixed payments backed by the federal government",
+      "B": "Variable coupon payments linked to inflation",
+      "C": "Collateralized by municipal revenues",
+      "D": "High credit risk relative to corporate bonds"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency G6: Introduction to government bonds :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 147,
+    "question": "An agency bond is issued by:",
+    "options": {
+      "A": "State and local governments",
+      "B": "Federal agencies such as Fannie Mae",
+      "C": "Municipal utilities",
+      "D": "Private corporations"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency G7: Identify U.S. government agency bonds and savings bonds :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 148,
+    "question": "A futures contract obligates the parties to:",
+    "options": {
+      "A": "Execute a transaction at spot price upon settlement",
+      "B": "Exchange cash flows based on interest rate differentials",
+      "C": "Buy or sell an asset at a predetermined price on a future date",
+      "D": "Exercise the contract only if it’s profitable"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency H1: Demonstrate the knowledge of Futures :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 149,
+    "question": "A call option gives the holder the right to:",
+    "options": {
+      "A": "Sell the underlying asset at the strike price",
+      "B": "Exercise only on the expiration date",
+      "C": "Renew the contract before expiration",
+      "D": "Buy the underlying asset at a specified price"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency H2: Demonstrate the knowledge of Options :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 150,
+    "question": "Insider trading involves:",
+    "options": {
+      "A": "Trading based on material non-public information",
+      "B": "Diversifying a portfolio to reduce risk",
+      "C": "Short selling against market trends",
+      "D": "Investing exclusively in government securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency I3: Explain insider dealing and market abuse :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 151,
+    "question": "In finance, “volatility” typically refers to:",
+    "options": {
+      "A": "Degree to which an asset's price fluctuates over time",
+      "B": "Yield earned on a bond if it is held to maturity",
+      "C": "Proportion of a portfolio allocated to equities",
+      "D": "Ease with which an asset can be converted into cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency A1: Define terminology common to securities & investments.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 152,
+    "question": "Which account typically offers tiered interest rates and limited check-writing privileges?",
+    "options": {
+      "A": "Regular savings account",
+      "B": "Money market account",
+      "C": "Certificate of deposit",
+      "D": "Checking account"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency A2: Demonstrate knowledge of savings vehicles.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 153,
+    "question": "According to the risk–return trade-off, an investor seeking higher expected returns must accept:",
+    "options": {
+      "A": "Lower potential returns",
+      "B": "Guaranteed principal protection",
+      "C": "Higher risk",
+      "D": "Fixed interest payments"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency A3: Identify stages of investing and the relationship between risk and return.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 154,
+    "question": "Which of the following is a primary source of financial information produced directly by the company?",
+    "options": {
+      "A": "Financial news websites",
+      "B": "Analyst research reports",
+      "C": "Financial blogs",
+      "D": "Company prospectus"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency A4: Identify sources of financial information to make investment decisions.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 155,
+    "question": "Which individual savings account restricts withdrawals to fixed terms in exchange for higher rates?",
+    "options": {
+      "A": "Certificate of deposit",
+      "B": "Money market account",
+      "C": "Regular savings account",
+      "D": "Checking account"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency B1: Describe individual savings accounts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "Which pension plan guarantees a specified monthly benefit upon retirement?",
+    "options": {
+      "A": "401(k) defined-contribution plan",
+      "B": "Defined benefit pension plan",
+      "C": "Profit-sharing retirement plan",
+      "D": "Cash balance pension plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency B2: Demonstrate knowledge of pension plans.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Which tax rate applies to gains on securities held for less than one year?",
+    "options": {
+      "A": "Ordinary income tax rate",
+      "B": "Long-term capital gains tax rate",
+      "C": "Short-term capital gains tax rate",
+      "D": "Corporate tax rate"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency B3: Demonstrate knowledge of taxation rules.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 158,
+    "question": "Which bond type is issued by governments to meet short-term funding needs?",
+    "options": {
+      "A": "Municipal bond",
+      "B": "Corporate bond",
+      "C": "Series I savings bond",
+      "D": "Treasury bill"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency B4: Describe and identify types of investment bonds.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 159,
+    "question": "A term loan is characterized by:",
+    "options": {
+      "A": "Single lump sum disbursed upfront and repaid in fixed installments",
+      "B": "Borrowing up to a preset limit with variable withdrawals",
+      "C": "No fixed repayment schedule and revolving credit",
+      "D": "Indefinite borrowing without repayment"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C1: Identify and explain the different types of loans.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 160,
+    "question": "The primary purpose of a mortgage is to:",
+    "options": {
+      "A": "Provide unsecured personal credit",
+      "B": "Finance the purchase of real property",
+      "C": "Hedge against currency fluctuations",
+      "D": "Cover short-term operational expenses"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C2: Explain the purposes of mortgages.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 161,
+    "question": "Which life assurance policy provides coverage only if the insured dies within a specified period?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Endowment policy",
+      "C": "Term assurance policy",
+      "D": "Universal life policy"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C3: Demonstrate the knowledge and purpose of life assurance.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 162,
+    "question": "A unit trust is best described as:",
+    "options": {
+      "A": "Open-ended pooled fund issuing redeemable units",
+      "B": "Closed-end fund with a fixed share count",
+      "C": "Corporate security backed by equities",
+      "D": "Pooled vehicle issuing units at net asset value"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency C4: Describe and explain unit trusts.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 163,
+    "question": "An open-ended investment company differs from a closed-end fund because it:",
+    "options": {
+      "A": "Issues and redeems shares at net asset value",
+      "B": "Trades at a discount or premium to NAV",
+      "C": "Maintains a fixed number of shares",
+      "D": "Invests exclusively in government securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C5: Describe open-ended investment companies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 164,
+    "question": "In securities trading, “T+2” settlement refers to transactions settling:",
+    "options": {
+      "A": "On the trade date",
+      "B": "Two business days after the trade date",
+      "C": "Two calendar days after the trade date",
+      "D": "The next business day after the trade date"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C6: Identify the characteristics of pricing, dealing, and settlement.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 165,
+    "question": "An investment trust is best described as:",
+    "options": {
+      "A": "Open-ended mutual fund issuing shares at NAV",
+      "B": "Government-backed savings scheme",
+      "C": "Closed-end public limited company investing in portfolios",
+      "D": "Over-the-counter derivatives instrument"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C7: Identify and explain what investment trusts are.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 166,
+    "question": "Which characteristic is common among hedge funds?",
+    "options": {
+      "A": "Daily redemption rights for all investors",
+      "B": "Government guarantee of principal",
+      "C": "Strict regulatory limits on strategies",
+      "D": "Use of leverage and sophisticated strategies"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency C8: Demonstrate knowledge of how hedge funds work.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 167,
+    "question": "A primary advantage for companies listing on a stock exchange is:",
+    "options": {
+      "A": "Access to capital through share issuance",
+      "B": "Guaranteed dividends for shareholders",
+      "C": "Protection against market volatility",
+      "D": "Fixed price stabilization mechanisms"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D1: Explain how the stock market benefits investors and companies.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 168,
+    "question": "In a stock quote, “EPS” stands for:",
+    "options": {
+      "A": "Equity price spread",
+      "B": "Earnings per share",
+      "C": "Estimated price support",
+      "D": "Equity percentage stake"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D2: Analyze stock tables for investment-related information.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "One way to handle dividends received in a portfolio is to:",
+    "options": {
+      "A": "Offset transaction fees",
+      "B": "Reduce the cost basis of holdings",
+      "C": "Enroll in a dividend reinvestment plan",
+      "D": "Donate them to charity"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency D3: Describe options for handling accumulated earnings.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 170,
+    "question": "Which of the following is an example of a commodity investment?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Growth stock",
+      "C": "Sector mutual fund",
+      "D": "Gold futures contract"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D4: Understand the types of investments.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 171,
+    "question": "Primary market transactions differ from secondary market transactions in that:",
+    "options": {
+      "A": "New securities are issued to investors",
+      "B": "Existing securities are traded among investors",
+      "C": "Trades occur only at auctions",
+      "D": "Prices are fixed by regulators"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D5: Compare and differentiate between primary vs secondary markets.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 172,
+    "question": "In a pig market, investors are characterized by:",
+    "options": {
+      "A": "Selling at the first sign of decline",
+      "B": "Holding assets hoping for high returns but often incurring losses",
+      "C": "Avoiding all market risk",
+      "D": "Investing solely in index funds"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D6: Distinguish between bull, bear, and pig markets.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 173,
+    "question": "Compound interest primarily refers to:",
+    "options": {
+      "A": "Calculating interest on the principal only",
+      "B": "Adjusting returns for inflation",
+      "C": "Reinvesting earnings to generate additional returns",
+      "D": "Disbursing interest payments annually"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency E1: Demonstrate knowledge of compounding.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 174,
+    "question": "In investment performance, “alpha” represents:",
+    "options": {
+      "A": "Standard deviation of returns",
+      "B": "Total return including reinvested dividends",
+      "C": "Beta-adjusted risk measure",
+      "D": "Excess return relative to a benchmark"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency E6: Define terminology common to stock markets and other investments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 175,
+    "question": "Total return on an investment includes:",
+    "options": {
+      "A": "Capital gains only",
+      "B": "Dividends only",
+      "C": "Expense ratio charges",
+      "D": "Capital gains distributions plus reinvested income"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency F1: Understand and explain total return.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 176,
+    "question": "Which of the following best defines “liquidity” in the context of investments?",
+    "options": {
+      "A": "Ease of converting an asset to cash",
+      "B": "Potential appreciation over time",
+      "C": "Level of risk associated with an investment",
+      "D": "Fee charged by brokers for transactions"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 177,
+    "question": "Which account typically offers tiered interest rates and limited check-writing privileges?",
+    "options": {
+      "A": "Regular savings account",
+      "B": "Money market account",
+      "C": "Certificate of deposit",
+      "D": "Checking account"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency A2: Demonstrate knowledge of savings :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 178,
+    "question": "According to the risk–return trade-off, an investor seeking higher expected returns must accept:",
+    "options": {
+      "A": "Lower potential returns",
+      "B": "Guaranteed principal protection",
+      "C": "Higher risk",
+      "D": "Fixed income payments"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency A3: Identify stages of investing and the relationship between risk and return :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 179,
+    "question": "Which of the following is a primary source of financial information produced by a company?",
+    "options": {
+      "A": "Analyst research report",
+      "B": "Company prospectus",
+      "C": "Financial news website",
+      "D": "Social media commentary"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency A4: Identify sources of financial information to make investment decisions :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 180,
+    "question": "Which individual savings account offers tiered interest rates and limited check-writing privileges?",
+    "options": {
+      "A": "Regular checking account",
+      "B": "Money market account",
+      "C": "Certificate of deposit",
+      "D": "Regular savings account"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency B1: Describe individual savings accounts :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "Which pension plan guarantees a specified monthly benefit upon retirement?",
+    "options": {
+      "A": "401(k) defined-contribution plan",
+      "B": "Cash balance pension plan",
+      "C": "Defined benefit pension plan",
+      "D": "Profit-sharing retirement plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency B2: Demonstrate knowledge of Pensions :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 182,
+    "question": "Gains on investments held for more than one year are taxed at which rate?",
+    "options": {
+      "A": "Short-term capital gains tax rate",
+      "B": "Ordinary income tax rate",
+      "C": "Long-term capital gains tax rate",
+      "D": "Alternative minimum tax rate"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency B3: Demonstrate knowledge of taxation :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 183,
+    "question": "Which bond type often offers interest exempt from federal income tax?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Agency bond",
+      "C": "Municipal bond",
+      "D": "Treasury bond"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency B4: Describe and Identify Investment bonds :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "A term loan is characterized by:",
+    "options": {
+      "A": "Single lump sum disbursed upfront and repaid in fixed installments",
+      "B": "Ability to borrow repeatedly up to a preset limit",
+      "C": "No fixed repayment schedule and revolving credit",
+      "D": "Variable interest rate loans with balloon payments"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C1: Identify and explain the different types of loans :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 185,
+    "question": "The primary purpose of a mortgage is to:",
+    "options": {
+      "A": "Finance the purchase of real property",
+      "B": "Provide unsecured personal credit",
+      "C": "Hedge against currency fluctuations",
+      "D": "Fund short-term working capital"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C2: Explain the purposes of mortgages :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 186,
+    "question": "Which life assurance policy provides coverage only if the insured dies within a specified period?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Endowment policy",
+      "C": "Term assurance policy",
+      "D": "Universal life policy"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C3: Demonstrate the knowledge and purpose of life assurance :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 187,
+    "question": "One key benefit of the stock market to companies is:",
+    "options": {
+      "A": "Access to capital through equity offerings",
+      "B": "Reduced regulatory requirements for businesses",
+      "C": "Guaranteed dividend payments to investors",
+      "D": "Protection against market volatility"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D1: Explain how stock market benefits investors and companies :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 188,
+    "question": "In a stock table, “P/E ratio” indicates:",
+    "options": {
+      "A": "Price-to-earnings ratio",
+      "B": "Percentage of equity held by insiders",
+      "C": "Price elasticity of demand",
+      "D": "Portfolio exposure measure"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D2: Analyze stock tables for investment-related information :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "In a pig market, investors are characterized by:",
+    "options": {
+      "A": "Selling at the first sign of decline",
+      "B": "Holding assets hoping for high returns but often incurring losses",
+      "C": "Avoiding all market risk",
+      "D": "Investing solely in government bonds"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D6: Distinguish between Bull, bear, and pig markets :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 190,
+    "question": "Compound interest primarily refers to:",
+    "options": {
+      "A": "Interest earned only on the initial principal",
+      "B": "Reinvesting earnings to generate additional returns",
+      "C": "Adjusting investment returns for inflation",
+      "D": "Disbursing interest payments exclusively in cash"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency E1: Demonstrate knowledge of compounding :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 191,
+    "question": "Total return on a mutual fund includes:",
+    "options": {
+      "A": "Capital gains distributions plus reinvested income",
+      "B": "Front-end sales loads and commissions",
+      "C": "Expense ratio charges only",
+      "D": "Change in net asset value only"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency F1: Understanding and explaining total return :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "Which ongoing fee for a mutual fund is expressed as a percentage of assets under management?",
+    "options": {
+      "A": "Front-end load",
+      "B": "Expense ratio",
+      "C": "Back-end load",
+      "D": "Transaction fee"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency F5: Understand fund costs :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "Bond duration primarily measures:",
+    "options": {
+      "A": "Time until a bond's maturity",
+      "B": "Frequency of coupon payments",
+      "C": "Price sensitivity to interest rate changes",
+      "D": "Credit quality of the bond issuer"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency G1: Demonstrate knowledge of bond duration :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "Unsecured bonds differ from secured bonds because they:",
+    "options": {
+      "A": "Are backed by specific collateral",
+      "B": "Always have lower interest rates",
+      "C": "Can only be issued by governments",
+      "D": "Have no collateral backing"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency G5: Compare secured and unsecured bonds :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "U.S. Treasury bonds are characterized by:",
+    "options": {
+      "A": "Fixed payments backed by the federal government",
+      "B": "Variable payments tied to inflation rates",
+      "C": "Collateralized by municipal revenues",
+      "D": "Permitted under state but not federal law"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency G6: Introduction to government bonds :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 196,
+    "question": "A futures contract obligates the parties to:",
+    "options": {
+      "A": "Buy or sell an asset at a predetermined price on a future date",
+      "B": "Exchange cash flows based on interest rate differentials",
+      "C": "Delay transaction until market conditions improve",
+      "D": "Choose whether to execute the contract at expiration"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency H1: Demonstrate the knowledge of Futures :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 197,
+    "question": "A call option gives the holder the right to:",
+    "options": {
+      "A": "Buy the underlying asset at a specified strike price",
+      "B": "Sell the underlying asset at a specified strike price",
+      "C": "Exchange cash flows based on rates",
+      "D": "Obligation to purchase the asset"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency H2: Demonstrate the knowledge of Options :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "The Financial Services and Markets Act primarily establishes:",
+    "options": {
+      "A": "A regulatory framework for financial markets",
+      "B": "Corporate tax rates for financial institutions",
+      "C": "Standards for environmental disclosures",
+      "D": "Limits on consumer deposit insurance coverage"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency I1: Explain Financial Services & Markets Act :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 199,
+    "question": "Insider trading involves:",
+    "options": {
+      "A": "Trading based on material non-public information",
+      "B": "Diversifying a portfolio to reduce risk",
+      "C": "Short selling securities against market trends",
+      "D": "Participating in public share offerings"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency I3: Explain insider dealing and market abuse :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 200,
+    "question": "If a financial firm fails to safeguard client assets, customers may claim compensation through which scheme?",
+    "options": {
+      "A": "Financial Services Compensation Scheme",
+      "B": "Insurance Deposit Guarantee Fund",
+      "C": "Securities Investor Protection Corporation",
+      "D": "FDIC Insurance"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency I5: Identify types of breaches, complaints, and compensation :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 201,
+    "question": "Which of the following best defines “liquidity” in the context of investments?",
+    "options": {
+      "A": "Ease of converting an asset to cash",
+      "B": "Potential appreciation over time",
+      "C": "Level of risk associated with an investment",
+      "D": "Fee charged by brokers for transactions"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 202,
+    "question": "Which account typically offers tiered interest rates and limited check-writing privileges?",
+    "options": {
+      "A": "Regular savings account",
+      "B": "Money market account",
+      "C": "Certificate of deposit",
+      "D": "Checking account"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency A2: Demonstrate knowledge of savings :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 203,
+    "question": "According to the risk–return trade-off, an investor seeking higher expected returns must accept:",
+    "options": {
+      "A": "Lower potential returns",
+      "B": "Guaranteed principal protection",
+      "C": "Higher levels of risk",
+      "D": "Fixed income payments"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency A3: Identify stages of investing and the relationship between risk and return :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 204,
+    "question": "Which of the following is a primary source of financial information?",
+    "options": {
+      "A": "Company financial statements",
+      "B": "Analyst research reports",
+      "C": "Financial news websites",
+      "D": "Social media commentary"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency A4: Identify sources of financial information to make investment decisions :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 205,
+    "question": "Which type of individual savings account restricts withdrawals to fixed terms in exchange for higher interest rates?",
+    "options": {
+      "A": "Money market account",
+      "B": "Certificate of deposit",
+      "C": "Checking account",
+      "D": "Regular savings account"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency B1: Describe individual savings accounts :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 206,
+    "question": "Which pension plan promises a fixed benefit based on salary and years of service?",
+    "options": {
+      "A": "401(k) defined-contribution plan",
+      "B": "Cash balance pension plan",
+      "C": "Defined benefit pension plan",
+      "D": "Profit-sharing retirement plan"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency B2: Demonstrate knowledge of Pensions :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 207,
+    "question": "Long-term capital gains are typically taxed at which rate compared to ordinary income?",
+    "options": {
+      "A": "Lower rate than ordinary income",
+      "B": "Same rate as ordinary income",
+      "C": "Higher rate than ordinary income",
+      "D": "Tax-free"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency B3: Demonstrate knowledge of taxation :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 208,
+    "question": "Which of the following bonds often offers interest exempt from federal income tax?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Municipal bond",
+      "C": "Treasury bond",
+      "D": "Agency bond"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency B4: Describe and identify investment bonds :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 209,
+    "question": "Which loan type allows the borrower to draw funds up to a preset limit and pay interest only on the amount borrowed?",
+    "options": {
+      "A": "Term loan",
+      "B": "Mortgage loan",
+      "C": "Revolving credit facility",
+      "D": "Installment loan"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C1: Identify and explain the different types of loans :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 210,
+    "question": "The primary purpose of a mortgage is to:",
+    "options": {
+      "A": "Finance the purchase of real property",
+      "B": "Fund short-term working capital",
+      "C": "Hedge against currency risk",
+      "D": "Provide unsecured personal credit"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C2: Explain the purposes of mortgages :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 211,
+    "question": "Which life insurance policy provides coverage only for a specified period and pays out only if the insured dies during that term?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Term assurance policy",
+      "C": "Endowment policy",
+      "D": "Universal life policy"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C3: Demonstrate the knowledge and purpose of life assurance :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 212,
+    "question": "A unit trust is best described as:",
+    "options": {
+      "A": "Closed-end fund with fixed shares",
+      "B": "Company vehicle issuing equity shares",
+      "C": "Open-ended pooled fund issuing redeemable units",
+      "D": "Derivative contract on equity baskets"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C4: Describe and explain unit trusts :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 213,
+    "question": "An open-ended investment company differs from a closed-end fund because it:",
+    "options": {
+      "A": "Issues and redeems shares at net asset value",
+      "B": "Maintains a fixed number of shares",
+      "C": "Trades only on secondary markets",
+      "D": "Invests solely in government securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C5: Describe open-ended investment companies :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 214,
+    "question": "In settlement terms, “T+2” indicates that trades settle:",
+    "options": {
+      "A": "On the trade date",
+      "B": "Two business days after the trade date",
+      "C": "Two calendar days after the trade date",
+      "D": "The next business day after the trade date"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency C6: Identify the characteristics of pricing, dealing, and settlement :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 215,
+    "question": "An investment trust typically is a:",
+    "options": {
+      "A": "Government-backed savings scheme",
+      "B": "Open-ended mutual fund",
+      "C": "Closed-end public limited company investing in a portfolio",
+      "D": "Over-the-counter derivatives instrument"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency C7: Identify and explain what investment trusts are :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 216,
+    "question": "Which of the following is a common characteristic of hedge funds?",
+    "options": {
+      "A": "Use of leverage and sophisticated strategies",
+      "B": "Daily redemption rights for all investors",
+      "C": "Government guarantee of principal",
+      "D": "Strict regulatory investment limits"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency C8: Demonstrate knowledge of how hedge funds work :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 217,
+    "question": "One primary benefit for companies listing on stock exchanges is:",
+    "options": {
+      "A": "Guaranteed dividends for shareholders",
+      "B": "Access to capital through equity offerings",
+      "C": "Protection against market downturns",
+      "D": "Reduced regulatory oversight"
+    },
+    "correctAnswer": "B",
+    "explanation": "This aligns with FBLA competency D1: Explain how the stock market benefits investors and companies :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 218,
+    "question": "In a stock quotation, the “P/E ratio” refers to:",
+    "options": {
+      "A": "Price divided by dividend yield",
+      "B": "Portfolio exposure metric",
+      "C": "Price-to-earnings ratio",
+      "D": "Performance estimate metric"
+    },
+    "correctAnswer": "C",
+    "explanation": "This aligns with FBLA competency D2: Analyze stock tables for investment-related information :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 219,
+    "question": "A dividend reinvestment plan allows investors to:",
+    "options": {
+      "A": "Reinvest dividends to purchase additional shares",
+      "B": "Receive dividends as cash only",
+      "C": "Offset transaction fees",
+      "D": "Defer dividend payments indefinitely"
+    },
+    "correctAnswer": "A",
+    "explanation": "This aligns with FBLA competency D3: Describe options for handling accumulated money/earnings :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 220,
+    "question": "Which of the following is a direct commodity investment?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Growth stock",
+      "C": "Real estate investment trust",
+      "D": "Futures contract on a commodity"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D4: Understand the types of investments :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 221,
+    "question": "In a primary market transaction, securities are:",
+    "options": {
+      "A": "Traded among investors",
+      "B": "Backed by collateral",
+      "C": "Guaranteed by a market maker",
+      "D": "Issued for the first time by the company"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D5: Compare and differentiate between primary vs secondary markets :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 222,
+    "question": "A pig market describes investors who:",
+    "options": {
+      "A": "Sell at the first sign of loss",
+      "B": "Take minimal risks",
+      "C": "Invest solely in government bonds",
+      "D": "Hold assets hoping for high returns but often incur losses"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency D6: Distinguish between bull, bear, and pig markets :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 223,
+    "question": "Compound interest occurs when:",
+    "options": {
+      "A": "Interest is paid only on the initial principal",
+      "B": "Returns are adjusted for inflation",
+      "C": "Earnings are distributed as cash",
+      "D": "Earnings are reinvested to earn additional returns"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency E1: Demonstrate knowledge of compounding :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 224,
+    "question": "The primary objective of a for-profit company is to:",
+    "options": {
+      "A": "Provide maximum employment",
+      "B": "Ensure complete market stability",
+      "C": "Minimize tax liabilities",
+      "D": "Maximize shareholder value"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency E2: Explain the purpose of company :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 225,
+    "question": "Total return on an investment includes:",
+    "options": {
+      "A": "Net asset value change only",
+      "B": "Front-end sales loads and commissions",
+      "C": "Expense ratio charges only",
+      "D": "Capital gains distributions plus reinvested income"
+    },
+    "correctAnswer": "D",
+    "explanation": "This aligns with FBLA competency F1: Understand and explain total return :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 226,
+    "question": "In investment terminology, “volatility” refers to:",
+    "options": {
+      "A": "Degree to which an asset’s price fluctuates over time",
+      "B": "Yield earned on a bond if held to maturity",
+      "C": "Ease of converting an asset to cash",
+      "D": "Average periodic dividend payment"
+    },
+    "correctAnswer": "A",
+    "explanation": "Volatility measures the extent of price fluctuations around the mean, aligning with FBLA competency A1: Define terminology common to securities & investments :contentReference[oaicite:0]{index=0}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 227,
+    "question": "A money market account typically offers:",
+    "options": {
+      "A": "Unlimited withdrawals with fixed interest",
+      "B": "Tiered interest rates and limited check-writing privileges",
+      "C": "High early withdrawal penalties",
+      "D": "Tax-free growth on contributions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Money market accounts pay higher, tiered rates and allow a limited number of checks, reflecting FBLA competency A2: Demonstrate knowledge of savings :contentReference[oaicite:1]{index=1}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 228,
+    "question": "According to the risk–return trade-off, seeking higher expected returns requires accepting:",
+    "options": {
+      "A": "Lower levels of risk",
+      "B": "Guaranteed principal protection",
+      "C": "Higher levels of risk",
+      "D": "Fixed income payments only"
+    },
+    "correctAnswer": "C",
+    "explanation": "Higher expected returns come with higher risk, matching FBLA competency A3: Identify stages of investing and the relationship between risk and return :contentReference[oaicite:2]{index=2}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 229,
+    "question": "Which source provides firsthand financial data for investment decisions?",
+    "options": {
+      "A": "Company financial statements",
+      "B": "Analyst research reports",
+      "C": "Financial news websites",
+      "D": "Social media commentary"
+    },
+    "correctAnswer": "A",
+    "explanation": "Company financial statements are primary sources, aligning with FBLA competency A4: Identify sources of financial information to make investment decisions :contentReference[oaicite:3]{index=3}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 230,
+    "question": "Which account restricts withdrawals to fixed terms in exchange for higher interest rates?",
+    "options": {
+      "A": "Regular savings account",
+      "B": "Money market account",
+      "C": "Certificate of deposit",
+      "D": "Checking account"
+    },
+    "correctAnswer": "C",
+    "explanation": "Certificates of deposit lock funds for a term and pay higher rates, reflecting FBLA competency B1: Describe individual savings accounts :contentReference[oaicite:4]{index=4}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 231,
+    "question": "Which pension plan promises a fixed benefit based on salary and service years?",
+    "options": {
+      "A": "401(k) defined-contribution plan",
+      "B": "Defined benefit pension plan",
+      "C": "Profit-sharing retirement plan",
+      "D": "Cash balance pension plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "Defined benefit plans guarantee a set payout formula, aligning with FBLA competency B2: Demonstrate knowledge of Pensions :contentReference[oaicite:5]{index=5}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 232,
+    "question": "Long-term capital gains are generally taxed at a rate that is:",
+    "options": {
+      "A": "Lower than ordinary income",
+      "B": "Equal to ordinary income",
+      "C": "Higher than ordinary income",
+      "D": "Tax-free"
+    },
+    "correctAnswer": "A",
+    "explanation": "Long-term gains usually enjoy preferential rates, reflecting FBLA competency B3: Demonstrate knowledge of taxation :contentReference[oaicite:6]{index=6}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 233,
+    "question": "Which bond type often offers interest exempt from federal income tax?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Agency bond",
+      "C": "Municipal bond",
+      "D": "Treasury bond"
+    },
+    "correctAnswer": "C",
+    "explanation": "Municipal bonds typically pay federal-tax-exempt interest, aligning with FBLA competency B4: Describe and identify investment bonds :contentReference[oaicite:7]{index=7}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 234,
+    "question": "A term loan is characterized by:",
+    "options": {
+      "A": "Single lump sum disbursed up front with fixed repayments",
+      "B": "Ongoing borrowing up to a credit limit",
+      "C": "No fixed repayment schedule",
+      "D": "Interest-only payments for the term"
+    },
+    "correctAnswer": "A",
+    "explanation": "Term loans provide a lump sum repaid in installments, matching FBLA competency C1: Identify and explain the different types of loans :contentReference[oaicite:8]{index=8}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 235,
+    "question": "The primary purpose of a mortgage is to:",
+    "options": {
+      "A": "Finance the purchase of real property",
+      "B": "Fund short-term working capital",
+      "C": "Hedge currency fluctuations",
+      "D": "Provide unsecured personal credit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mortgages fund real estate purchases, aligning with FBLA competency C2: Explain the purposes of mortgages :contentReference[oaicite:9]{index=9}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 236,
+    "question": "Which life assurance policy pays out only if the insured dies during a specified period?",
+    "options": {
+      "A": "Whole life policy",
+      "B": "Endowment policy",
+      "C": "Term assurance policy",
+      "D": "Universal life policy"
+    },
+    "correctAnswer": "C",
+    "explanation": "Term assurance covers a fixed period only, reflecting FBLA competency C3: Demonstrate the knowledge and purpose of life assurance :contentReference[oaicite:10]{index=10}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 237,
+    "question": "A unit trust is best described as:",
+    "options": {
+      "A": "Closed-end fund with fixed shares",
+      "B": "Open-ended pooled fund issuing redeemable units",
+      "C": "Corporate equity vehicle",
+      "D": "Derivative contract on equities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unit trusts issue and redeem units at NAV, aligning with FBLA competency C4: Describe and explain unit trusts :contentReference[oaicite:11]{index=11}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 238,
+    "question": "An open-ended investment company differs by:",
+    "options": {
+      "A": "Issuing and redeeming shares at net asset value",
+      "B": "Maintaining a fixed share count",
+      "C": "Trading only on exchanges",
+      "D": "Investing exclusively in government debt"
+    },
+    "correctAnswer": "A",
+    "explanation": "OEICs adjust share count at NAV, reflecting FBLA competency C5: Describe opened-ended investment companies :contentReference[oaicite:12]{index=12}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 239,
+    "question": "One key benefit of the stock market for companies is:",
+    "options": {
+      "A": "Access to capital through equity issuance",
+      "B": "Guaranteed profits for investors",
+      "C": "Fixed interest financing",
+      "D": "Protection from market volatility"
+    },
+    "correctAnswer": "A",
+    "explanation": "Equity issuance raises capital, matching FBLA competency D1: Explain how stock market benefits investors and companies :contentReference[oaicite:13]{index=13}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 240,
+    "question": "In a stock table, the “P/E” column stands for:",
+    "options": {
+      "A": "Portfolio exposure",
+      "B": "Price-to-earnings ratio",
+      "C": "Preferred equity",
+      "D": "Performance estimate"
+    },
+    "correctAnswer": "B",
+    "explanation": "P/E is price divided by earnings per share, aligning with FBLA competency D2: Analyze stock tables for investment-related information :contentReference[oaicite:14]{index=14}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 241,
+    "question": "A dividend reinvestment plan allows investors to:",
+    "options": {
+      "A": "Receive dividends as cash only",
+      "B": "Offset administrative fees",
+      "C": "Reinvest dividends to purchase additional shares",
+      "D": "Defer dividend taxation indefinitely"
+    },
+    "correctAnswer": "C",
+    "explanation": "DRIPs reinvest dividends into shares, matching FBLA competency D3: Describe options for handling accumulated money/earnings :contentReference[oaicite:15]{index=15}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 242,
+    "question": "Which of the following is a direct commodity investment?",
+    "options": {
+      "A": "Corporate bond",
+      "B": "Growth stock",
+      "C": "Real estate investment trust",
+      "D": "Futures contract on a commodity"
+    },
+    "correctAnswer": "D",
+    "explanation": "Commodity futures provide direct exposure, aligning with FBLA competency D4: Understand the types of investments :contentReference[oaicite:16]{index=16}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 243,
+    "question": "Compound interest occurs when:",
+    "options": {
+      "A": "Interest is paid only on the principal",
+      "B": "Earnings are distributed as cash",
+      "C": "Earnings are reinvested to earn additional returns",
+      "D": "Principal is adjusted for inflation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Compounding reinvests earnings, reflecting FBLA competency E1: Demonstrate knowledge of compounding :contentReference[oaicite:17]{index=17}.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 244,
+    "question": "The purpose of a for-profit company is to:",
+    "options": {
+      "A": "Provide maximum employment",
+      "B": "Ensure market stability",
+      "C": "Maximize shareholder value",
+      "D": "Guarantee customer satisfaction"
+    },
+    "correctAnswer": "C",
+    "explanation": "Shareholder value maximization reflects FBLA competency E2: Explain the purpose of company :contentReference[oaicite:18]{index=18}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 245,
+    "question": "Which financial statement reports a company’s assets, liabilities, and equity at one point in time?",
+    "options": {
+      "A": "Income statement",
+      "B": "Balance sheet",
+      "C": "Statement of cash flows",
+      "D": "Statement of retained earnings"
+    },
+    "correctAnswer": "B",
+    "explanation": "Balance sheets show the financial position at a date, aligning with FBLA competency E5: Evaluate financial statements :contentReference[oaicite:19]{index=19}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 246,
+    "question": "Total return on a mutual fund includes:",
+    "options": {
+      "A": "Capital gains distributions plus reinvested income",
+      "B": "Front-end sales loads only",
+      "C": "Net asset value change only",
+      "D": "Expense ratio charges only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Total return combines gains and reinvested income, matching FBLA competency F1: Understanding and explaining total return :contentReference[oaicite:20]{index=20}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 247,
+    "question": "Mutual fund dividends are generally taxed as:",
+    "options": {
+      "A": "Long-term capital gains",
+      "B": "Ordinary income",
+      "C": "Short-term capital gains",
+      "D": "Tax-deferred distributions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Dividends are taxed at ordinary rates, reflecting FBLA competency F2: Describe mutual funds and its involvement with taxes :contentReference[oaicite:21]{index=21}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 248,
+    "question": "Bond duration primarily measures a bond’s:",
+    "options": {
+      "A": "Time until maturity",
+      "B": "Frequency of coupon payments",
+      "C": "Price sensitivity to interest rate changes",
+      "D": "Credit quality of issuer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Duration gauges rate sensitivity, aligning with FBLA competency G1: Demonstrate the knowledge of bond duration :contentReference[oaicite:22]{index=22}.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 249,
+    "question": "Unsecured bonds differ from secured bonds because they:",
+    "options": {
+      "A": "Are backed by collateral",
+      "B": "Require daily margin calls",
+      "C": "Have no collateral backing",
+      "D": "Are issued only by governments"
+    },
+    "correctAnswer": "C",
+    "explanation": "Unsecured bonds lack collateral, reflecting FBLA competency G5: Compare secured and unsecured bonds :contentReference[oaicite:23]{index=23}.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 250,
+    "question": "The Financial Services & Markets Act primarily established:",
+    "options": {
+      "A": "Limits on deposit insurance coverage",
+      "B": "A regulatory framework for financial markets",
+      "C": "Corporate tax rates for banks",
+      "D": "Standards for environmental disclosures"
+    },
+    "correctAnswer": "A",
+    "explanation": "It set up a market regulation framework, matching FBLA competency I1: Explain Financial Services & Markets Act :contentReference[oaicite:24]{index=24}.",
+    "difficulty": "Hard"
+  }
+]
