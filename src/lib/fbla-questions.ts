@@ -5,6 +5,7 @@ import advertisingQuestions from "@/data/fbla-questions/advertising.json";
 import cybersecurityQuestions from "@/data/fbla-questions/cybersecurity.json";
 import introITQuestions from "@/data/fbla-questions/intro-it.json";
 import financialMathQuestions from "@/data/fbla-questions/financial-math.json";
+import marketingQuestions from "@/data/fbla-questions/marketing.json";
 
 export interface FBLAQuestion {
   id: number;
@@ -28,6 +29,7 @@ export const fblaQuestions = {
   cybersecurity: cybersecurityQuestions as FBLAQuestion[],
   "introduction-to-it": introITQuestions as FBLAQuestion[],
   "financial-math": financialMathQuestions as FBLAQuestion[],
+  marketing: marketingQuestions as FBLAQuestion[],
 } as const;
 
 export async function getQuestionsForEvent(

@@ -1,0 +1,1627 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following best describes the marketing concept?",
+    "options": {
+      "A": "Satisfying customer needs profitably",
+      "B": "Focusing solely on production efficiency",
+      "C": "Reducing prices to beat competitors",
+      "D": "Aggressive advertising without customer research"
+    },
+    "correctAnswer": "A",
+    "explanation": "The marketing concept centers on identifying and meeting customer needs in a way that generates profit for the company. :contentReference[oaicite:0]{index=0}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "Which marketing function involves gathering and analyzing data to guide marketing decisions?",
+    "options": {
+      "A": "Financing",
+      "B": "Marketing research",
+      "C": "Purchasing",
+      "D": "Quality control"
+    },
+    "correctAnswer": "B",
+    "explanation": "Marketing research is the function dedicated to collecting and interpreting market data to inform strategy. :contentReference[oaicite:1]{index=1}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "Which of these is NOT one of the four elements of the marketing mix?",
+    "options": {
+      "A": "Product",
+      "B": "Price",
+      "C": "Performance",
+      "D": "Promotion"
+    },
+    "correctAnswer": "C",
+    "explanation": "The marketing mix consists of product, price, place, and promotion; performance is not one of the mix elements. :contentReference[oaicite:2]{index=2}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Which step in the selling process involves identifying potential customers?",
+    "options": {
+      "A": "Approach",
+      "B": "Needs assessment",
+      "C": "Follow-up",
+      "D": "Prospecting"
+    },
+    "correctAnswer": "D",
+    "explanation": "Prospecting is the initial step where salespersons locate and qualify potential buyers. :contentReference[oaicite:3]{index=3}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "What is the primary purpose of selling?",
+    "options": {
+      "A": "To satisfy customer needs through exchange",
+      "B": "To advertise products",
+      "C": "To distribute products",
+      "D": "To conduct market research"
+    },
+    "correctAnswer": "A",
+    "explanation": "Selling aims to match customer needs with product benefits in an exchange transaction. :contentReference[oaicite:4]{index=4}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "Which activity occurs after a sale to ensure customer satisfaction and future purchases?",
+    "options": {
+      "A": "Prospecting",
+      "B": "Follow-up",
+      "C": "Preapproach",
+      "D": "Initial contact"
+    },
+    "correctAnswer": "B",
+    "explanation": "Follow-up involves contacting customers post-sale to address concerns and build relationships. :contentReference[oaicite:5]{index=5}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "Customer buying motives are influenced by which of the following?",
+    "options": {
+      "A": "Warehouse location",
+      "B": "Advertising frequency",
+      "C": "Emotional and rational factors",
+      "D": "Wholesale pricing"
+    },
+    "correctAnswer": "C",
+    "explanation": "Buyers are driven by a combination of emotional desires and logical evaluations. :contentReference[oaicite:6]{index=6}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is a disadvantage of radio advertising?",
+    "options": {
+      "A": "Lack of audience reach",
+      "B": "High visual production costs",
+      "C": "No sound element",
+      "D": "Lack of visual impact"
+    },
+    "correctAnswer": "D",
+    "explanation": "Radio ads cannot convey visual elements, limiting impact compared to TV or print. :contentReference[oaicite:7]{index=7}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Which element is NOT part of the promotional mix?",
+    "options": {
+      "A": "Merchandising",
+      "B": "Publicity",
+      "C": "Sales promotion",
+      "D": "Personal selling"
+    },
+    "correctAnswer": "A",
+    "explanation": "The promotional mix includes advertising, publicity, sales promotion, and personal selling; merchandising is a separate function. :contentReference[oaicite:8]{index=8}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "Visual merchandising is primarily used to:",
+    "options": {
+      "A": "Conduct market research",
+      "B": "Attract customers through product display",
+      "C": "Set pricing strategy",
+      "D": "Manage distribution channels"
+    },
+    "correctAnswer": "B",
+    "explanation": "Visual merchandising uses displays and layouts to draw customer attention and increase sales. :contentReference[oaicite:9]{index=9}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "question": "Which method is a source of primary data in marketing research?",
+    "options": {
+      "A": "Industry databases",
+      "B": "Trade publications",
+      "C": "Surveys and interviews",
+      "D": "Textbooks"
+    },
+    "correctAnswer": "C",
+    "explanation": "Primary data are collected firsthand through surveys, interviews, and observations. :contentReference[oaicite:10]{index=10}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "Market segmentation based on psychographics groups consumers by:",
+    "options": {
+      "A": "Age and income",
+      "B": "Geographic region",
+      "C": "Product usage",
+      "D": "Lifestyle and values"
+    },
+    "correctAnswer": "D",
+    "explanation": "Psychographic segmentation divides markets by attitudes, interests, and lifestyles. :contentReference[oaicite:11]{index=11}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "What is the main purpose of a marketing plan?",
+    "options": {
+      "A": "To outline strategies and tactics to achieve marketing objectives",
+      "B": "To record daily sales transactions",
+      "C": "To design product packaging",
+      "D": "To set warehouse locations"
+    },
+    "correctAnswer": "A",
+    "explanation": "A marketing plan details the actions and resources needed to meet goals such as sales targets or brand awareness. :contentReference[oaicite:12]{index=12}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "Which type of data is collected from existing sources such as books and reports?",
+    "options": {
+      "A": "Primary data",
+      "B": "Secondary data",
+      "C": "Survey data",
+      "D": "Qualitative observations"
+    },
+    "correctAnswer": "B",
+    "explanation": "Secondary data come from previously published sources, including reports, articles, and databases. :contentReference[oaicite:13]{index=13}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "question": "A wholesaler is an example of which type of distribution channel?",
+    "options": {
+      "A": "Direct channel",
+      "B": "Agent channel",
+      "C": "Indirect channel",
+      "D": "E-commerce channel"
+    },
+    "correctAnswer": "C",
+    "explanation": "Indirect channels use intermediaries like wholesalers or retailers between producer and consumer. :contentReference[oaicite:14]{index=14}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "Which transportation method is best suited for perishable goods requiring rapid delivery?",
+    "options": {
+      "A": "Rail",
+      "B": "Water",
+      "C": "Motor",
+      "D": "Air"
+    },
+    "correctAnswer": "D",
+    "explanation": "Air transport offers the fastest delivery times, critical for perishable items. :contentReference[oaicite:15]{index=15}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "Cold storage in distribution is primarily used to:",
+    "options": {
+      "A": "Preserve temperature-sensitive products",
+      "B": "Break bulk shipments",
+      "C": "Display merchandise",
+      "D": "Facilitate online sales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cold storage facilities maintain low temperatures to protect perishable goods. :contentReference[oaicite:16]{index=16}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "One advantage of e-commerce is that it allows businesses to:",
+    "options": {
+      "A": "Eliminate all distribution costs",
+      "B": "Reach a global customer base online",
+      "C": "Avoid strategic pricing decisions",
+      "D": "Manufacture products faster"
+    },
+    "correctAnswer": "B",
+    "explanation": "E-commerce platforms enable companies to sell products to customers anywhere in the world. :contentReference[oaicite:17]{index=17}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "When setting prices for an e-commerce site, a key consideration is:",
+    "options": {
+      "A": "Store layout design",
+      "B": "Inventory turnover rate",
+      "C": "Security of online transactions",
+      "D": "Warehouse location"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ensuring secure payment processing builds customer trust and protects sensitive data. :contentReference[oaicite:18]{index=18}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "Which economic system is characterized by private ownership and free markets?",
+    "options": {
+      "A": "Socialism",
+      "B": "Communism",
+      "C": "Mixed economy",
+      "D": "Capitalism"
+    },
+    "correctAnswer": "D",
+    "explanation": "Capitalism emphasizes private property rights and market-driven resource allocation. :contentReference[oaicite:19]{index=19}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 21,
+    "question": "Supply and demand determine the equilibrium price where:",
+    "options": {
+      "A": "Quantity supplied equals quantity demanded",
+      "B": "Supply exceeds demand",
+      "C": "Demand is zero",
+      "D": "Government fixes the price"
+    },
+    "correctAnswer": "A",
+    "explanation": "Equilibrium occurs at the price where producers' supply matches consumers' demand. :contentReference[oaicite:20]{index=20}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "Which resource is considered a factor of production involving human effort?",
+    "options": {
+      "A": "Land",
+      "B": "Labor",
+      "C": "Capital",
+      "D": "Entrepreneurship"
+    },
+    "correctAnswer": "B",
+    "explanation": "Labor refers to the workforce's physical and mental efforts in production. :contentReference[oaicite:21]{index=21}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "question": "Which of these is an example of ethical marketing?",
+    "options": {
+      "A": "Misleading product claims",
+      "B": "Price fixing",
+      "C": "Honest advertising about product benefits",
+      "D": "Unfair labor practices"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ethical marketing involves truthful representation of products and services. :contentReference[oaicite:22]{index=22}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "Special interest groups influence marketing primarily by:",
+    "options": {
+      "A": "Designing product packaging",
+      "B": "Conducting visual merchandising",
+      "C": "Setting price promotions",
+      "D": "Lobbying for regulatory changes"
+    },
+    "correctAnswer": "D",
+    "explanation": "Interest groups can lobby governments to enact or change regulations affecting marketing. :contentReference[oaicite:23]{index=23}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "Corporate social responsibility in marketing includes:",
+    "options": {
+      "A": "Environmental protection initiatives",
+      "B": "Deceptive advertising tactics",
+      "C": "Anticompetitive behavior",
+      "D": "Exploitative pricing practices"
+    },
+    "correctAnswer": "A",
+    "explanation": "CSR involves actions like environmental stewardship and community engagement. :contentReference[oaicite:24]{index=24}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 26,
+    "question": "Which term best describes the total assortment of product lines and items a firm offers to its customers?",
+    "options": {
+      "A": "Product mix",
+      "B": "Product line",
+      "C": "Product depth",
+      "D": "Product portfolio"
+    },
+    "correctAnswer": "A",
+    "explanation": "The product mix is the complete set of products and product lines that a company offers to its markets. :contentReference[oaicite:0]{index=0}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "Which legal protection grants exclusive rights to reproduce original written works?",
+    "options": {
+      "A": "Patent",
+      "B": "Copyright",
+      "C": "Trademark",
+      "D": "Trade secret"
+    },
+    "correctAnswer": "B",
+    "explanation": "Copyright protects authors' rights to reproduce and distribute original literary or artistic works. :contentReference[oaicite:1]{index=1}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "Which marketing orientation emphasizes mass production and low unit costs over customer needs?",
+    "options": {
+      "A": "Marketing concept",
+      "B": "Selling concept",
+      "C": "Production concept",
+      "D": "Societal marketing concept"
+    },
+    "correctAnswer": "C",
+    "explanation": "The production concept focuses on high production efficiency and wide distribution rather than on specific customer preferences. :contentReference[oaicite:2]{index=2}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "Which step in the selling process involves preparing for the customer meeting by researching and planning?",
+    "options": {
+      "A": "Approach",
+      "B": "Prospecting",
+      "C": "Closing",
+      "D": "Pre-approach"
+    },
+    "correctAnswer": "D",
+    "explanation": "The pre-approach stage is when the salesperson gathers information and plans the sales presentation before meeting the customer. :contentReference[oaicite:3]{index=3}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "In which step of the selling process does the salesperson finalize the transaction and secure the customer's commitment?",
+    "options": {
+      "A": "Closing",
+      "B": "Approach",
+      "C": "Needs assessment",
+      "D": "Follow-up"
+    },
+    "correctAnswer": "A",
+    "explanation": "The closing step is when the salesperson asks for and obtains the customer's agreement to buy. :contentReference[oaicite:4]{index=4}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is an example of a rational buying motive?",
+    "options": {
+      "A": "Emotional appeal",
+      "B": "Cost savings",
+      "C": "Peer influence",
+      "D": "Brand mystique"
+    },
+    "correctAnswer": "B",
+    "explanation": "Rational buying motives are based on logical evaluation, such as choosing a product to save money. :contentReference[oaicite:5]{index=5}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is a disadvantage of direct mail advertising?",
+    "options": {
+      "A": "Inability to personalize content",
+      "B": "Low response rates",
+      "C": "High cost per contact",
+      "D": "Lack of measurable metrics"
+    },
+    "correctAnswer": "C",
+    "explanation": "Direct mail can be expensive on a per-contact basis compared to some other media. :contentReference[oaicite:6]{index=6}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is a component of the promotional mix?",
+    "options": {
+      "A": "Packaging",
+      "B": "Warehousing",
+      "C": "Pricing",
+      "D": "Personal selling"
+    },
+    "correctAnswer": "D",
+    "explanation": "The promotional mix consists of advertising, publicity, sales promotion, and personal selling. :contentReference[oaicite:7]{index=7}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "question": "Which promotional technique involves exhibitors presenting products to industry buyers and professionals?",
+    "options": {
+      "A": "Trade shows",
+      "B": "Sales promotions",
+      "C": "Publicity",
+      "D": "Direct marketing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Trade shows allow companies to showcase products directly to potential business customers and partners. :contentReference[oaicite:8]{index=8}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "What is a primary reason for businesses to conduct market research?",
+    "options": {
+      "A": "To increase warehouse capacity",
+      "B": "To understand consumer preferences",
+      "C": "To automate production lines",
+      "D": "To reduce corporate taxes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Market research helps companies learn what consumers want and need before developing products. :contentReference[oaicite:9]{index=9}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is a primary market research method?",
+    "options": {
+      "A": "Government reports",
+      "B": "Trade association data",
+      "C": "Focus groups",
+      "D": "Industry publications"
+    },
+    "correctAnswer": "C",
+    "explanation": "Focus groups involve direct interaction with target consumers to gather firsthand insights. :contentReference[oaicite:10]{index=10}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "Which of these is an example of secondary data?",
+    "options": {
+      "A": "Customer surveys",
+      "B": "In-depth interviews",
+      "C": "Field observations",
+      "D": "Published industry reports"
+    },
+    "correctAnswer": "D",
+    "explanation": "Secondary data are obtained from existing sources like published industry and government reports. :contentReference[oaicite:11]{index=11}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "Psychographic segmentation groups consumers based on which characteristics?",
+    "options": {
+      "A": "Lifestyles and values",
+      "B": "Age and income",
+      "C": "Geographic location",
+      "D": "Product usage rate"
+    },
+    "correctAnswer": "A",
+    "explanation": "Psychographic segmentation divides the market by attitudes, interests, and lifestyle choices. :contentReference[oaicite:12]{index=12}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is typically included in a marketing plan?",
+    "options": {
+      "A": "Employee work schedules",
+      "B": "Target market analysis",
+      "C": "Warehouse floor plans",
+      "D": "Production equipment list"
+    },
+    "correctAnswer": "B",
+    "explanation": "A marketing plan outlines the target market, objectives, strategies, and tactics. :contentReference[oaicite:13]{index=13}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "question": "Which distribution channel involves selling directly from producer to consumer without intermediaries?",
+    "options": {
+      "A": "Agent channel",
+      "B": "Retailer channel",
+      "C": "Direct channel",
+      "D": "Wholesaler channel"
+    },
+    "correctAnswer": "C",
+    "explanation": "A direct channel delivers products straight from the manufacturer to the end customer. :contentReference[oaicite:14]{index=14}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "Which activity is part of the shipping process in distribution?",
+    "options": {
+      "A": "Conducting price research",
+      "B": "Designing product labels",
+      "C": "Managing customer complaints",
+      "D": "Preparing goods for transport"
+    },
+    "correctAnswer": "D",
+    "explanation": "Shipping includes packing and preparing products for movement to their destination. :contentReference[oaicite:15]{index=15}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "question": "Which type of storage facility is specifically designed to maintain perishable goods at low temperatures?",
+    "options": {
+      "A": "Cold storage",
+      "B": "Public warehouse",
+      "C": "Private warehouse",
+      "D": "Distribution center"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cold storage is used to preserve temperature-sensitive products like food and pharmaceuticals. :contentReference[oaicite:16]{index=16}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "The Internet has most significantly changed marketing by enabling:",
+    "options": {
+      "A": "Elimination of all traditional media",
+      "B": "Instant global communication",
+      "C": "Standardization of pricing worldwide",
+      "D": "Removal of market segmentation"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Internet allows companies to engage with customers anywhere in the world in real time. :contentReference[oaicite:17]{index=17}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 44,
+    "question": "When setting prices for online products, which factor is unique to e-commerce?",
+    "options": {
+      "A": "In-store shelf placement",
+      "B": "Salesperson commission",
+      "C": "Shipping and handling fees",
+      "D": "Store layout design"
+    },
+    "correctAnswer": "C",
+    "explanation": "E-commerce pricing must account for delivery costs that don't apply in physical retail. :contentReference[oaicite:18]{index=18}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "question": "Having a business website primarily helps by:",
+    "options": {
+      "A": "Automating production processes",
+      "B": "Reducing labor costs",
+      "C": "Eliminating distribution channels",
+      "D": "Providing 24/7 product visibility"
+    },
+    "correctAnswer": "D",
+    "explanation": "A website gives customers continuous access to product information and purchasing. :contentReference[oaicite:19]{index=19}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "question": "Competition in marketing refers to:",
+    "options": {
+      "A": "Multiple firms vying for the same customers",
+      "B": "Government price controls",
+      "C": "Consumer loyalty programs",
+      "D": "Internal company conflict"
+    },
+    "correctAnswer": "A",
+    "explanation": "Competition involves rival businesses trying to attract the same target market. :contentReference[oaicite:20]{index=20}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "question": "In private enterprise, profit is defined as:",
+    "options": {
+      "A": "Total revenue",
+      "B": "Revenue minus costs",
+      "C": "Market share percentage",
+      "D": "Unit sales volume"
+    },
+    "correctAnswer": "B",
+    "explanation": "Profit equals the difference between a company's revenues and its costs. :contentReference[oaicite:21]{index=21}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "question": "According to the law of supply and demand, equilibrium price occurs when:",
+    "options": {
+      "A": "Supply exceeds demand",
+      "B": "Demand is greater than supply",
+      "C": "Quantity supplied equals quantity demanded",
+      "D": "Government sets the price"
+    },
+    "correctAnswer": "C",
+    "explanation": "Equilibrium is reached where the amount producers are willing to supply matches what consumers want to buy. :contentReference[oaicite:22]{index=22}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "question": "Which scenario demonstrates corporate social responsibility in marketing?",
+    "options": {
+      "A": "Increasing prices during shortages",
+      "B": "Using misleading endorsements",
+      "C": "Ignoring supplier labor conditions",
+      "D": "Implementing eco-friendly packaging"
+    },
+    "correctAnswer": "D",
+    "explanation": "CSR initiatives include adopting environmentally sustainable practices like green packaging. :contentReference[oaicite:23]{index=23}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "Which action is an example of ethical marketing?",
+    "options": {
+      "A": "Accurately representing product benefits",
+      "B": "Exaggerating performance claims",
+      "C": "Concealing product limitations",
+      "D": "Manipulating customer data"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ethical marketing involves truthfulness and transparency in all customer communications. :contentReference[oaicite:24]{index=24}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 51,
+    "question": "Which marketing function involves obtaining and managing funds to facilitate marketing activities?",
+    "options": {
+      "A": "Financing",
+      "B": "Promotion",
+      "C": "Distribution",
+      "D": "Risk management"
+    },
+    "correctAnswer": "A",
+    "explanation": "The financing function secures and manages funds necessary for marketing operations. :contentReference[oaicite:0]{index=0}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "In the selling process, which step comes immediately after the pre-approach stage?",
+    "options": {
+      "A": "Prospecting",
+      "B": "Approach",
+      "C": "Presentation",
+      "D": "Follow-up"
+    },
+    "correctAnswer": "B",
+    "explanation": "After preparing in the pre-approach stage, the salesperson moves to establishing contact with the customer in the approach stage. :contentReference[oaicite:1]{index=1}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 53,
+    "question": "Which of these is NOT an element of the promotional mix?",
+    "options": {
+      "A": "Advertising",
+      "B": "Sales promotion",
+      "C": "Packaging",
+      "D": "Publicity"
+    },
+    "correctAnswer": "C",
+    "explanation": "Packaging is a separate function of marketing and not part of the promotional mix. :contentReference[oaicite:2]{index=2}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "Which type of market segmentation divides customers based on age, gender, and income?",
+    "options": {
+      "A": "Psychographic segmentation",
+      "B": "Behavioral segmentation",
+      "C": "Geographic segmentation",
+      "D": "Demographic segmentation"
+    },
+    "correctAnswer": "D",
+    "explanation": "Demographic segmentation groups consumers by statistical traits such as age, gender, and income. :contentReference[oaicite:3]{index=3}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 55,
+    "question": "What component of a marketing plan outlines specific measures of success, such as sales targets and market share objectives?",
+    "options": {
+      "A": "Objectives section",
+      "B": "Situation analysis",
+      "C": "Marketing strategy",
+      "D": "Implementation plan"
+    },
+    "correctAnswer": "A",
+    "explanation": "The objectives section defines the performance goals that the marketing effort aims to achieve. :contentReference[oaicite:4]{index=4}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 56,
+    "question": "Which pricing strategy sets prices primarily based on production and distribution costs plus a markup for profit?",
+    "options": {
+      "A": "Value-based pricing",
+      "B": "Cost-based pricing",
+      "C": "Competition-based pricing",
+      "D": "Dynamic pricing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cost-based pricing calculates price by adding a standard markup to the cost of the product. :contentReference[oaicite:5]{index=5}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "question": "Which distribution channel involves one intermediary between the producer and the consumer?",
+    "options": {
+      "A": "Direct channel",
+      "B": "Two-tier channel",
+      "C": "One-level channel",
+      "D": "Zero-level channel"
+    },
+    "correctAnswer": "C",
+    "explanation": "A one-level channel uses a single intermediary, such as a retailer, between producer and consumer. :contentReference[oaicite:6]{index=6}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 58,
+    "question": "Which transportation mode is the slowest and most cost-effective for bulky, non-perishable goods?",
+    "options": {
+      "A": "Air",
+      "B": "Motor",
+      "C": "Rail",
+      "D": "Water"
+    },
+    "correctAnswer": "D",
+    "explanation": "Water transport offers the lowest cost per ton-mile for heavy, non-perishable shipments. :contentReference[oaicite:7]{index=7}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "question": "Which warehousing option is owned and operated by a third party to store goods for multiple companies?",
+    "options": {
+      "A": "Public warehouse",
+      "B": "Private warehouse",
+      "C": "Distribution center",
+      "D": "Bonded warehouse"
+    },
+    "correctAnswer": "A",
+    "explanation": "Public warehouses are third-party facilities that offer storage to various clients on a rental basis. :contentReference[oaicite:8]{index=8}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "question": "Which of the following is a primary data collection method in marketing research?",
+    "options": {
+      "A": "Published reports",
+      "B": "Focus groups",
+      "C": "Trade association data",
+      "D": "Government statistics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Focus groups gather firsthand consumer insights and opinions in a guided, interactive setting. :contentReference[oaicite:9]{index=9}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "question": "Why is secondary data often used before primary data in marketing research?",
+    "options": {
+      "A": "It is always more accurate",
+      "B": "It is tailored to specific research needs",
+      "C": "It is less costly and quicker to obtain",
+      "D": "It eliminates sampling errors"
+    },
+    "correctAnswer": "C",
+    "explanation": "Secondary data typically cost less and are readily available, speeding up preliminary analysis. :contentReference[oaicite:10]{index=10}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "question": "Which of these factors is NOT typically considered by marketers when setting product prices?",
+    "options": {
+      "A": "Production cost",
+      "B": "Competitor pricing",
+      "C": "Customer demand",
+      "D": "Media budgets"
+    },
+    "correctAnswer": "D",
+    "explanation": "Media budgets pertain to promotion, not to the pricing factors of cost, competition, or demand. :contentReference[oaicite:11]{index=11}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 63,
+    "question": "Which economic system is characterized by private ownership of resources and minimal government intervention?",
+    "options": {
+      "A": "Capitalism",
+      "B": "Socialism",
+      "C": "Communism",
+      "D": "Mixed economy"
+    },
+    "correctAnswer": "A",
+    "explanation": "Capitalism emphasizes private property rights and market-driven resource allocation. :contentReference[oaicite:12]{index=12}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "question": "When supply increases and demand remains constant, the equilibrium price will generally do what?",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain unchanged",
+      "D": "Fluctuate randomly"
+    },
+    "correctAnswer": "B",
+    "explanation": "An increase in supply, with demand constant, typically drives the equilibrium price down. :contentReference[oaicite:13]{index=13}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 65,
+    "question": "Which of the following best defines corporate social responsibility in marketing?",
+    "options": {
+      "A": "Maximizing short-term profits",
+      "B": "Prioritizing aggressive sales",
+      "C": "Considering societal and environmental impacts of marketing",
+      "D": "Avoiding customer feedback"
+    },
+    "correctAnswer": "C",
+    "explanation": "CSR involves ethical practices that account for social and environmental well-being. :contentReference[oaicite:14]{index=14}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 66,
+    "question": "Which legal protection covers a company's logo and brand identifiers?",
+    "options": {
+      "A": "Copyright",
+      "B": "Patent",
+      "C": "Trade secret",
+      "D": "Trademark"
+    },
+    "correctAnswer": "D",
+    "explanation": "Trademarks legally protect brand names, logos, and other identifiers. :contentReference[oaicite:15]{index=15}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 67,
+    "question": "Which of these is a feature of e-commerce that most distinguishes it from traditional retail?",
+    "options": {
+      "A": "24/7 global accessibility",
+      "B": "Personalized in-store service",
+      "C": "Physical store ambiance",
+      "D": "Face-to-face interaction"
+    },
+    "correctAnswer": "A",
+    "explanation": "E-commerce allows customers worldwide to access and purchase products at any time. :contentReference[oaicite:16]{index=16}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 68,
+    "question": "What consideration is unique to e-commerce pricing compared to brick-and-mortar retail?",
+    "options": {
+      "A": "Shelf placement",
+      "B": "Shipping and handling costs",
+      "C": "In-store promotions",
+      "D": "Point-of-sale displays"
+    },
+    "correctAnswer": "B",
+    "explanation": "E-commerce pricing must account for delivery costs that physical stores do not incur. :contentReference[oaicite:17]{index=17}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "question": "Which promotional tool involves offering temporary incentives like coupons and discounts to stimulate sales?",
+    "options": {
+      "A": "Public relations",
+      "B": "Advertising",
+      "C": "Sales promotion",
+      "D": "Personal selling"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sales promotions provide short-term incentives to encourage purchase or trial. :contentReference[oaicite:18]{index=18}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 70,
+    "question": "Which visual merchandising technique uses store layout planning to guide customer flow and highlight products?",
+    "options": {
+      "A": "Shelf talkers",
+      "B": "Digital signage",
+      "C": "In-store events",
+      "D": "Store layout design"
+    },
+    "correctAnswer": "D",
+    "explanation": "Store layout design is a core aspect of visual merchandising that influences shopper behavior. :contentReference[oaicite:19]{index=19}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 71,
+    "question": "Branding primarily helps companies by which of the following?",
+    "options": {
+      "A": "Differentiating products in the market",
+      "B": "Eliminating competition",
+      "C": "Reducing production costs",
+      "D": "Automating distribution channels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Branding creates a unique identity that distinguishes a company's offerings. :contentReference[oaicite:20]{index=20}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 72,
+    "question": "Which product mix strategy refers to the number of different product lines a company offers?",
+    "options": {
+      "A": "Product depth",
+      "B": "Product width",
+      "C": "Product length",
+      "D": "Product consistency"
+    },
+    "correctAnswer": "B",
+    "explanation": "Product width (or breadth) indicates how many distinct product lines a firm carries. :contentReference[oaicite:21]{index=21}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 73,
+    "question": "Which dimension of the product mix refers to the total number of items a company carries within its product lines?",
+    "options": {
+      "A": "Product width",
+      "B": "Product depth",
+      "C": "Product length",
+      "D": "Product consistency"
+    },
+    "correctAnswer": "C",
+    "explanation": "Product length measures the total count of items in a company's product mix. :contentReference[oaicite:22]{index=22}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 74,
+    "question": "Which ethical issue arises when marketers collect and use consumer data without proper consent?",
+    "options": {
+      "A": "False advertising",
+      "B": "Price discrimination",
+      "C": "Product obsolescence",
+      "D": "Data privacy violations"
+    },
+    "correctAnswer": "D",
+    "explanation": "Using personal data without consent breaches consumer privacy rights. :contentReference[oaicite:23]{index=23}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 75,
+    "question": "Which type of special interest group influence might require marketers to adapt messaging due to an aging population?",
+    "options": {
+      "A": "Government audits",
+      "B": "Union organizing",
+      "C": "Corporate sponsorships",
+      "D": "Demographic shifts in societal trends"
+    },
+    "correctAnswer": "D",
+    "explanation": "Changing demographics, such as an aging population, influence marketing strategies and communications. :contentReference[oaicite:24]{index=24}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "question": "Which marketing function involves collecting and analyzing market data to help make informed decisions?",
+    "options": {
+      "A": "Financing",
+      "B": "Marketing information management",
+      "C": "Product/service management",
+      "D": "Pricing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Marketing information management gathers, stores, and analyzes market data to guide strategic decisions. :contentReference[oaicite:0]{index=0}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "question": "Which of the following marketing functions is dedicated to developing and maintaining product offerings to meet customer needs?",
+    "options": {
+      "A": "Product/service management",
+      "B": "Selling",
+      "C": "Distribution",
+      "D": "Promotion"
+    },
+    "correctAnswer": "A",
+    "explanation": "Product/service management oversees product planning, development, and improvements to satisfy market demands. :contentReference[oaicite:1]{index=1}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "question": "In product mix, what does \"consistency\" refer to?",
+    "options": {
+      "A": "How closely related product lines are",
+      "B": "Number of offerings in a line",
+      "C": "Number of lines offered",
+      "D": "Total items sold per year"
+    },
+    "correctAnswer": "A",
+    "explanation": "Consistency measures the similarity of end use and production requirements across a company's product lines. :contentReference[oaicite:2]{index=2}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 79,
+    "question": "Which legal protection grants an inventor exclusive rights to produce and sell an invention?",
+    "options": {
+      "A": "Trademark",
+      "B": "Copyright",
+      "C": "Patent",
+      "D": "Trade secret"
+    },
+    "correctAnswer": "C",
+    "explanation": "A patent gives its holder the exclusive right to make, use, or sell an invention for a limited period. :contentReference[oaicite:3]{index=3}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 80,
+    "question": "Which aspect of packaging focuses on displaying product information, such as ingredients and instructions?",
+    "options": {
+      "A": "Labeling",
+      "B": "Branding",
+      "C": "Wrapping",
+      "D": "Transportation"
+    },
+    "correctAnswer": "A",
+    "explanation": "Labeling provides essential product details like ingredients, usage directions, and safety warnings. :contentReference[oaicite:4]{index=4}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 81,
+    "question": "Which factor is NOT a key influence in determining a product's price according to the marketing concept?",
+    "options": {
+      "A": "Cost",
+      "B": "Competition",
+      "C": "Packaging design",
+      "D": "Brand loyalty"
+    },
+    "correctAnswer": "C",
+    "explanation": "Price factors include production cost, competitor pricing, product quality, and brand loyalty; packaging design is not a primary pricing factor. :contentReference[oaicite:5]{index=5}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 82,
+    "question": "Which marketing philosophy focuses on selling existing products and using aggressive promotion to drive sales?",
+    "options": {
+      "A": "Marketing concept",
+      "B": "Production concept",
+      "C": "Selling concept",
+      "D": "Societal marketing concept"
+    },
+    "correctAnswer": "C",
+    "explanation": "The selling concept emphasizes intensive sales techniques and promotional efforts over customer needs. :contentReference[oaicite:6]{index=6}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "question": "Which marketing philosophy balances company profits, customer satisfaction, and societal well-being?",
+    "options": {
+      "A": "Marketing concept",
+      "B": "Selling concept",
+      "C": "Production concept",
+      "D": "Societal marketing concept"
+    },
+    "correctAnswer": "D",
+    "explanation": "The societal marketing concept integrates social responsibility into marketing decisions to benefit both consumers and society. :contentReference[oaicite:7]{index=7}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "question": "Publicity is a promotional tool that is characterized by which feature?",
+    "options": {
+      "A": "Paid placement in media",
+      "B": "Non-paid media coverage",
+      "C": "Direct mail campaigns",
+      "D": "Personal selling"
+    },
+    "correctAnswer": "B",
+    "explanation": "Publicity generates free media exposure through news stories or press releases rather than paid advertisements. :contentReference[oaicite:8]{index=8}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "question": "Which is an advantage of newspaper advertising?",
+    "options": {
+      "A": "Long shelf life",
+      "B": "High visual impact",
+      "C": "Good local targeting",
+      "D": "Immediate feedback"
+    },
+    "correctAnswer": "C",
+    "explanation": "Newspapers allow advertisers to reach readers in specific geographic areas effectively. :contentReference[oaicite:9]{index=9}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "question": "Which primary data collection method involves systematically watching and recording consumer behaviors in natural settings?",
+    "options": {
+      "A": "Surveys",
+      "B": "Interviews",
+      "C": "Focus groups",
+      "D": "Observation"
+    },
+    "correctAnswer": "D",
+    "explanation": "Observation research involves recording consumer activities in real-world environments without direct interaction. :contentReference[oaicite:10]{index=10}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "question": "Which segmentation approach groups customers based on region, climate, and population density?",
+    "options": {
+      "A": "Demographic segmentation",
+      "B": "Psychographic segmentation",
+      "C": "Geographic segmentation",
+      "D": "Behavioral segmentation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Geographic segmentation divides a market by physical location characteristics such as region or climate. :contentReference[oaicite:11]{index=11}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 88,
+    "question": "In a marketing plan, which section assesses internal and external factors affecting the business's ability to serve customers?",
+    "options": {
+      "A": "Situation analysis",
+      "B": "Objectives",
+      "C": "Strategy",
+      "D": "Implementation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The situation analysis examines company capabilities, market conditions, and competitive forces. :contentReference[oaicite:12]{index=12}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 89,
+    "question": "In distribution channels, an agent differs from a wholesaler because an agent:",
+    "options": {
+      "A": "Takes title to goods",
+      "B": "Stores products in warehouses",
+      "C": "Negotiates sales without owning products",
+      "D": "Sells directly to final consumers"
+    },
+    "correctAnswer": "C",
+    "explanation": "Agents arrange transactions between producers and buyers but never take ownership of the products. :contentReference[oaicite:13]{index=13}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "question": "Which special interest group primarily lobbies for employee rights and working conditions?",
+    "options": {
+      "A": "Government regulators",
+      "B": "Labor groups",
+      "C": "Advertising agencies",
+      "D": "Consumer cooperatives"
+    },
+    "correctAnswer": "B",
+    "explanation": "Labor groups advocate for fair wages, safe conditions, and benefits for workers. :contentReference[oaicite:14]{index=14}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 91,
+    "question": "Which of the following practices is considered an unethical marketing technique involving deceptive pricing?",
+    "options": {
+      "A": "Price skimming",
+      "B": "Loss leader",
+      "C": "Penetration pricing",
+      "D": "Bait-and-switch"
+    },
+    "correctAnswer": "D",
+    "explanation": "Bait-and-switch lures customers with a low-priced offer that isn't available, then pushes a higher-priced item. :contentReference[oaicite:15]{index=15}",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 92,
+    "question": "Which corporate social responsibility activity involves partnering with the local community through volunteer programs?",
+    "options": {
+      "A": "Product diversification",
+      "B": "Paid advertising",
+      "C": "Price promotions",
+      "D": "Community involvement"
+    },
+    "correctAnswer": "D",
+    "explanation": "Community involvement includes company-sponsored volunteer events and support for local causes. :contentReference[oaicite:16]{index=16}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "question": "Which factor influencing a product's price reflects customers' loyalty and willingness to pay more for a trusted brand?",
+    "options": {
+      "A": "Production cost",
+      "B": "Brand loyalty",
+      "C": "Organizational culture",
+      "D": "Packaging materials"
+    },
+    "correctAnswer": "B",
+    "explanation": "Brand-loyal customers often accept higher prices for products they trust and have repeatedly purchased. :contentReference[oaicite:17]{index=17}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "question": "Direct mail as a promotional media is best described by which of the following?",
+    "options": {
+      "A": "One-way print communication sent to specific addresses",
+      "B": "Social media posts targeting broad audiences",
+      "C": "Telemarketing calls to random phone numbers",
+      "D": "Radio spots broadcast to commuters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Direct mail delivers personalized printed messages directly to targeted households. :contentReference[oaicite:18]{index=18}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 95,
+    "question": "Personal selling is particularly effective when the product is:",
+    "options": {
+      "A": "Low-priced and standardized",
+      "B": "High-priced and complex",
+      "C": "Purchased impulsively",
+      "D": "Uniformly distributed"
+    },
+    "correctAnswer": "B",
+    "explanation": "Personal selling allows for detailed product explanation, making it ideal for high-value or technical goods. :contentReference[oaicite:19]{index=19}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "question": "Which unwritten marketing rule describes that as price goes down, quantity demanded goes up, ceteris paribus?",
+    "options": {
+      "A": "Law of supply",
+      "B": "Law of diminishing returns",
+      "C": "Law of competition",
+      "D": "Law of demand"
+    },
+    "correctAnswer": "D",
+    "explanation": "The law of demand states that lower prices generally increase consumer purchase quantities when other factors remain constant. :contentReference[oaicite:20]{index=20}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 97,
+    "question": "Which disadvantage is commonly associated with outdoor (billboard) advertising?",
+    "options": {
+      "A": "High production costs",
+      "B": "Lack of visual impact",
+      "C": "Inability to target rural areas",
+      "D": "Brief message exposure"
+    },
+    "correctAnswer": "D",
+    "explanation": "Billboards are viewed for only a few seconds, requiring very concise messaging. :contentReference[oaicite:21]{index=21}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 98,
+    "question": "Which economic resource category refers to the entrepreneurial talent to innovate and take risks?",
+    "options": {
+      "A": "Entrepreneurship",
+      "B": "Land",
+      "C": "Capital",
+      "D": "Labor"
+    },
+    "correctAnswer": "A",
+    "explanation": "Entrepreneurship involves organizing resources and bearing risk to create and grow businesses. :contentReference[oaicite:22]{index=22}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is an example of an emotional buying motive?",
+    "options": {
+      "A": "Lower product cost",
+      "B": "Desire for social acceptance",
+      "C": "Need for product durability",
+      "D": "Convenient packaging"
+    },
+    "correctAnswer": "B",
+    "explanation": "Emotional motives are driven by feelings—here, buying to fit in or gain acceptance. :contentReference[oaicite:23]{index=23}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 100,
+    "question": "What is the primary role of a distribution center in the supply chain?",
+    "options": {
+      "A": "Manufacturing products",
+      "B": "Retailing products",
+      "C": "Performing market research",
+      "D": "Breaking bulk and sorting goods"
+    },
+    "correctAnswer": "D",
+    "explanation": "Distribution centers receive, sort, and break bulk shipments for onward delivery to stores or customers. :contentReference[oaicite:24]{index=24}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 101,
+    "question": "The marketing concept emphasizes which of the following?",
+    "options": {
+      "A": "Satisfying customer needs profitably",
+      "B": "Achieving the lowest production cost",
+      "C": "Maximizing market share at any cost",
+      "D": "Focusing solely on aggressive sales tactics"
+    },
+    "correctAnswer": "A",
+    "explanation": "The marketing concept centers on identifying and meeting customer needs to generate profit. :contentReference[oaicite:0]{index=0}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 102,
+    "question": "In the selling process, which step involves demonstrating how a product meets customer needs?",
+    "options": {
+      "A": "Approach",
+      "B": "Demonstration",
+      "C": "Closing",
+      "D": "Follow-up"
+    },
+    "correctAnswer": "B",
+    "explanation": "During the demonstration step, the salesperson shows specific product features and benefits relevant to the buyer. :contentReference[oaicite:1]{index=1}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "Which of these is NOT an element of the promotional mix?",
+    "options": {
+      "A": "Advertising",
+      "B": "Publicity",
+      "C": "Pricing",
+      "D": "Personal selling"
+    },
+    "correctAnswer": "C",
+    "explanation": "Pricing is one of the four P's but not part of the promotional mix, which includes advertising, publicity, sales promotion, and personal selling. :contentReference[oaicite:2]{index=2}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "question": "Which of the following best defines distribution as a marketing function?",
+    "options": {
+      "A": "Setting product prices",
+      "B": "Creating advertising campaigns",
+      "C": "Selling directly to end users",
+      "D": "Getting products from producer to consumer"
+    },
+    "correctAnswer": "D",
+    "explanation": "Distribution involves the activities that move products from manufacturers to end customers. :contentReference[oaicite:3]{index=3}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 105,
+    "question": "In a product mix, \"consistency\" refers to:",
+    "options": {
+      "A": "How closely related the product lines are",
+      "B": "The total number of items in all product lines",
+      "C": "The depth of each product line",
+      "D": "How often products are updated"
+    },
+    "correctAnswer": "A",
+    "explanation": "Consistency measures the similarity of end uses and production requirements across a firm's product lines. :contentReference[oaicite:4]{index=4}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "question": "Which legal protection covers brand identifiers such as logos and slogans?",
+    "options": {
+      "A": "Patent",
+      "B": "Trademark",
+      "C": "Copyright",
+      "D": "Trade secret"
+    },
+    "correctAnswer": "B",
+    "explanation": "Trademarks legally protect brand names, logos, and other identifiers used to distinguish products. :contentReference[oaicite:5]{index=5}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "Publicity as a promotional tool is characterized by:",
+    "options": {
+      "A": "Paid placement in media",
+      "B": "Targeted direct mail",
+      "C": "Non-paid media coverage",
+      "D": "Point-of-sale displays"
+    },
+    "correctAnswer": "C",
+    "explanation": "Publicity generates free exposure through news stories or press releases rather than paid advertising. :contentReference[oaicite:6]{index=6}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "Which of the following is NOT a factor influencing a product's price?",
+    "options": {
+      "A": "Production cost",
+      "B": "Competition",
+      "C": "Brand loyalty",
+      "D": "Packaging design"
+    },
+    "correctAnswer": "D",
+    "explanation": "Price factors include cost, competition, quality, and brand loyalty; packaging design is not a primary pricing factor. :contentReference[oaicite:7]{index=7}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "question": "A key advantage of e-commerce for businesses is:",
+    "options": {
+      "A": "Providing 24/7 global accessibility",
+      "B": "Eliminating shipping costs",
+      "C": "Standardizing prices worldwide",
+      "D": "Removing the need for marketing research"
+    },
+    "correctAnswer": "A",
+    "explanation": "E-commerce platforms allow customers anywhere to access products online at any time. :contentReference[oaicite:8]{index=8}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 110,
+    "question": "Which section of a marketing plan sets measurable targets such as sales goals and market share objectives?",
+    "options": {
+      "A": "Situation analysis",
+      "B": "Objectives",
+      "C": "Implementation",
+      "D": "Control"
+    },
+    "correctAnswer": "B",
+    "explanation": "The objectives section defines specific performance goals the marketing effort aims to achieve. :contentReference[oaicite:9]{index=9}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "question": "Which distribution activity involves breaking bulk and sorting goods for delivery?",
+    "options": {
+      "A": "Cross-docking",
+      "B": "Warehousing",
+      "C": "Distribution center operations",
+      "D": "Order entry"
+    },
+    "correctAnswer": "C",
+    "explanation": "Distribution centers receive large shipments, break them into smaller lots, and sort them for final delivery. :contentReference[oaicite:10]{index=10}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "Which mode of transportation offers the fastest delivery for urgent shipments?",
+    "options": {
+      "A": "Rail",
+      "B": "Water",
+      "C": "Motor",
+      "D": "Air"
+    },
+    "correctAnswer": "D",
+    "explanation": "Air transport provides the quickest transit times, ideal for perishable or time-sensitive goods. :contentReference[oaicite:11]{index=11}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 113,
+    "question": "The primary purpose of selling in marketing is to:",
+    "options": {
+      "A": "Match customer needs with product benefits",
+      "B": "Minimize production costs",
+      "C": "Maximize advertising reach",
+      "D": "Manage inventory levels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Selling aims to satisfy customer needs by aligning what a product offers with buyer requirements. :contentReference[oaicite:12]{index=12}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 114,
+    "question": "Which of the following is a source of secondary data in marketing research?",
+    "options": {
+      "A": "Focus groups",
+      "B": "Government reports",
+      "C": "Surveys",
+      "D": "In-depth interviews"
+    },
+    "correctAnswer": "B",
+    "explanation": "Secondary data are obtained from existing publications like government reports and industry studies. :contentReference[oaicite:13]{index=13}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 115,
+    "question": "Which medium is an example of direct mail advertising?",
+    "options": {
+      "A": "Television commercials",
+      "B": "Billboards",
+      "C": "Postcards sent to households",
+      "D": "Radio spots"
+    },
+    "correctAnswer": "C",
+    "explanation": "Direct mail delivers printed promotional materials directly to targeted homes. :contentReference[oaicite:14]{index=14}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "question": "In the selling process, which step comes last?",
+    "options": {
+      "A": "Approach",
+      "B": "Demonstration",
+      "C": "Closing",
+      "D": "Follow-up"
+    },
+    "correctAnswer": "D",
+    "explanation": "Follow-up occurs after the sale to ensure customer satisfaction and build relationships. :contentReference[oaicite:15]{index=15}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 117,
+    "question": "According to the law of supply and demand, equilibrium price is reached when:",
+    "options": {
+      "A": "Quantity supplied equals quantity demanded",
+      "B": "Supply exceeds demand",
+      "C": "Demand is zero",
+      "D": "Government fixes the price"
+    },
+    "correctAnswer": "A",
+    "explanation": "Equilibrium price occurs at the point where what producers offer matches what consumers want. :contentReference[oaicite:16]{index=16}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 118,
+    "question": "In private enterprise, profit is defined as:",
+    "options": {
+      "A": "Total revenue",
+      "B": "Revenue minus costs",
+      "C": "Market share percentage",
+      "D": "Unit sales volume"
+    },
+    "correctAnswer": "B",
+    "explanation": "Profit equals a company's total revenue minus its total costs. :contentReference[oaicite:17]{index=17}",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 119,
+    "question": "Which legal protection grants exclusive rights to an inventor for a limited time?",
+    "options": {
+      "A": "Trademark",
+      "B": "Copyright",
+      "C": "Patent",
+      "D": "Trade secret"
+    },
+    "correctAnswer": "C",
+    "explanation": "Patents give inventors the exclusive right to make, use, or sell an invention for a set period. :contentReference[oaicite:18]{index=18}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "An example of corporate social responsibility in marketing is:",
+    "options": {
+      "A": "Implementing misleading endorsements",
+      "B": "Engaging in price discrimination",
+      "C": "Ignoring environmental impacts",
+      "D": "Using eco-friendly packaging"
+    },
+    "correctAnswer": "D",
+    "explanation": "CSR includes practices such as adopting environmentally sustainable packaging methods. :contentReference[oaicite:19]{index=19}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 121,
+    "question": "Which factor influencing product positioning relates to functional attributes and advantages?",
+    "options": {
+      "A": "Features and benefits",
+      "B": "Price/quality relationship",
+      "C": "Brand image",
+      "D": "Social trends"
+    },
+    "correctAnswer": "A",
+    "explanation": "Features and benefits focus on what the product does and how it helps the consumer. :contentReference[oaicite:20]{index=20}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "An ethical issue in marketing involving improper use of consumer information is:",
+    "options": {
+      "A": "False advertising",
+      "B": "Data privacy violations",
+      "C": "Price fixing",
+      "D": "Bait-and-switch tactics"
+    },
+    "correctAnswer": "B",
+    "explanation": "Collecting or using personal data without consent breaches consumer privacy rights. :contentReference[oaicite:21]{index=21}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 123,
+    "question": "Which element of the promotional mix provides customers with short-term incentives like coupons?",
+    "options": {
+      "A": "Advertising",
+      "B": "Public relations",
+      "C": "Sales promotion",
+      "D": "Personal selling"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sales promotions offer temporary incentives to encourage trial or purchase. :contentReference[oaicite:22]{index=22}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "Which factor is least relevant when determining website product prices?",
+    "options": {
+      "A": "Shipping and handling costs",
+      "B": "Payment security fees",
+      "C": "Mobile compatibility expenses",
+      "D": "Store physical location"
+    },
+    "correctAnswer": "D",
+    "explanation": "Online pricing decisions focus on digital costs; a physical store location is not relevant. :contentReference[oaicite:23]{index=23}",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Which of the following best describes product/service management as a marketing function?",
+    "options": {
+      "A": "Developing and improving offerings to meet customer needs",
+      "B": "Setting product prices",
+      "C": "Managing distribution channels",
+      "D": "Conducting promotional research"
+    },
+    "correctAnswer": "A",
+    "explanation": "Product/service management involves planning, developing, and refining products to satisfy market demands. :contentReference[oaicite:24]{index=24}",
+    "difficulty": "Medium"
+  }
+]

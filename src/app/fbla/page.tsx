@@ -86,6 +86,16 @@ const quizEvents = [
     icon: "📈",
   },
   {
+    id: "marketing",
+    title: "Marketing",
+    description:
+      "Introductory marketing concepts, functions, research, distribution, e-commerce, and ethics",
+    questionCount: 125,
+    timeLimit: 60,
+    color: "#FBBF24",
+    icon: "📣",
+  },
+  {
     id: "cybersecurity",
     title: "Cybersecurity",
     description:
@@ -766,10 +776,11 @@ export default function FBLAPage() {
                   </Button>
                   <Button
                     variant="outline"
-                    className="w-full h-12 text-lg border-white/20 hover:bg-white/5"
+                    className="w-full h-12 text-lg border-white/20 hover:bg-gray-200 hover:text-gray-900 disabled:bg-gray-200 disabled:text-gray-400"
                     onClick={() =>
                       startQuiz(eventId, { ...tempConfig, mode: "unlimited" })
                     }
+                    disabled={availableQuestions.length === 0}
                   >
                     <BookOpen className="w-5 h-5 mr-2" />
                     Unlimited Practice
@@ -780,7 +791,7 @@ export default function FBLAPage() {
               <Button
                 variant="ghost"
                 onClick={() => setShowConfig(false)}
-                className="w-full"
+                className="w-full bg-gray-200 text-gray-900 hover:bg-gray-300"
               >
                 Back to Quiz Selection
               </Button>
