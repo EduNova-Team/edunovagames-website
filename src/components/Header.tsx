@@ -5,10 +5,21 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useAuth } from "@/contexts/AuthContext";
+import { User, LogOut, Settings } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { user, signOut } = useAuth();
 
   const handleNavigation = (path: string) => {
     setIsMobileMenuOpen(false); // Close mobile menu when navigating
@@ -24,6 +35,11 @@ export default function Header() {
     } else {
       router.push(path);
     }
+  };
+
+  const handleSignOut = async () => {
+    await signOut();
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -90,13 +106,70 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-4">
-            {/* Desktop Get Started Button */}
-            <Button
-              onClick={() => handleNavigation("/contact")}
-              className="hidden md:block bg-gradient-to-r from-[#6366F1] to-[#22D3EE] text-white hover:opacity-90"
-            >
-              Get Started
-            </Button>
+            {user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    className="relative h-10 w-10 rounded-full p-0"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-r from-[#6366F1] to-[#22D3EE] flex items-center justify-center">
+                      <User className="w-5 h-5 text-white" />
+                    </div>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent
+                  className="w-64 bg-white/10 border-white/20 backdrop-blur-md"
+                  align="end"
+                >
+                  <DropdownMenuLabel className="text-white">
+                    <div className="flex flex-col space-y-1">
+                      <p className="text-sm font-medium leading-none">
+                        {user.user_metadata?.full_name || "User"}
+                      </p>
+                      <p className="text-xs leading-none text-gray-400">
+                        {user.email}
+                      </p>
+                    </div>
+                  </DropdownMenuLabel>
+                  <DropdownMenuSeparator className="bg-white/10" />
+                  <DropdownMenuItem asChild>
+                    <Link
+                      href="/profile"
+                      className="text-white hover:bg-white/10 cursor-pointer"
+                    >
+                      <Settings className="mr-2 h-4 w-4" />
+                      Profile Settings
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator className="bg-white/10" />
+                  <DropdownMenuItem
+                    onClick={handleSignOut}
+                    className="text-red-400 hover:bg-red-500/10 cursor-pointer"
+                  >
+                    <LogOut className="mr-2 h-4 w-4" />
+                    Sign out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <div className="flex items-center gap-3">
+                <Link href="/auth">
+                  <Button
+                    variant="ghost"
+                    className="text-gray-300 hover:text-white hover:bg-white/10"
+                  >
+                    Sign In
+                  </Button>
+                </Link>
+                <Button
+                  onClick={() => handleNavigation("/auth")}
+                  className="bg-gradient-to-r from-[#6366F1] to-[#22D3EE] text-white hover:opacity-90"
+                >
+                  Get Started
+                </Button>
+              </div>
+            )}
 
             {/* Mobile Menu Button */}
             <button
@@ -167,12 +240,61 @@ export default function Header() {
                 Contact
               </button>
               <div className="pt-4 border-t border-white/10">
-                <Button
-                  onClick={() => handleNavigation("/contact")}
-                  className="w-full bg-gradient-to-r from-[#6366F1] to-[#22D3EE] text-white hover:opacity-90"
-                >
-                  Get Started
-                </Button>
+                {user ? (
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 p-3 bg-white/5 rounded-lg">
+                      <div className="w-10 h-10 rounded-full bg-gradient-to-r from-[#6366F1] to-[#22D3EE] flex items-center justify-center">
+                        <User className="w-5 h-5 text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-white font-medium">
+                          {user.user_metadata?.full_name || "User"}
+                        </p>
+                        <p className="text-gray-400 text-sm">{user.email}</p>
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <Link
+                        href="/profile"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <Button
+                          variant="outline"
+                          className="w-full border-white/20 hover:bg-white/5 justify-start"
+                        >
+                          <Settings className="w-4 h-4 mr-2" />
+                          Profile Settings
+                        </Button>
+                      </Link>
+                      <Button
+                        onClick={handleSignOut}
+                        variant="outline"
+                        className="w-full border-red-500/20 hover:bg-red-500/10 text-red-400 justify-start"
+                      >
+                        <LogOut className="w-4 h-4 mr-2" />
+                        Sign Out
+                      </Button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    <Link href="/auth">
+                      <Button
+                        variant="outline"
+                        className="w-full border-white/20 hover:bg-white/5"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        Sign In
+                      </Button>
+                    </Link>
+                    <Button
+                      onClick={() => handleNavigation("/auth")}
+                      className="w-full bg-gradient-to-r from-[#6366F1] to-[#22D3EE] text-white hover:opacity-90"
+                    >
+                      Get Started
+                    </Button>
+                  </div>
+                )}
               </div>
             </nav>
           </div>

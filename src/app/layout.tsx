@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import ErrorBoundary from "@/components/ErrorBoundary";
 import { Analytics } from "@vercel/analytics/react";
+import { AuthProvider } from "@/contexts/AuthContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +36,9 @@ export default function RootLayout({
         className={`${inter.className} bg-[#0A0A16] text-white antialiased min-h-screen flex flex-col font-mono`}
       >
         <ErrorBoundary>
-          <main className="min-h-screen">{children}</main>
+          <AuthProvider>
+            <main className="min-h-screen">{children}</main>
+          </AuthProvider>
         </ErrorBoundary>
         <Analytics />
       </body>
