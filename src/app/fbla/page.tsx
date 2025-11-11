@@ -972,7 +972,7 @@ export default function FBLAPage() {
             >
               <Card
                 className={`bg-white/5 border-white/10 hover:border-white/20 transition-all duration-300 h-full ${
-                  !isAvailable ? "opacity-60" : ""
+                  !isAvailable && event.id !== "custom" ? "opacity-60" : ""
                 }`}
               >
                 <CardHeader>
