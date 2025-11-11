@@ -34,6 +34,7 @@ export const fblaQuestions = {
   marketing: marketingQuestions as FBLAQuestion[],
   "securities-investments": secInvQuestions as FBLAQuestion[],
   "supply-chain": supplyChainQuestions as FBLAQuestion[],
+  custom: [] as FBLAQuestion[],
 } as const;
 
 export async function getQuestionsForEvent(

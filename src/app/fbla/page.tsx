@@ -40,6 +40,7 @@ import {
   getQuestionCounts,
   type FBLAQuestion,
 } from "@/lib/fbla-questions";
+import PDFUploadModal from "@/components/PDFUploadModal";
 
 // Quiz data structure with real Accounting I questions
 const quizEvents = [
@@ -145,6 +146,16 @@ const quizEvents = [
     color: "#8B5CF6",
     icon: "🚚",
   },
+  {
+    id: "custom",
+    title: "Custom",
+    description:
+      "Upload any FBLA-aligned study PDF to instantly transform it into a personalized practice quiz tailored to your material",
+    questionCount: 0,
+    timeLimit: 60,
+    color: "#EC4899",
+    icon: "📝",
+  },
 ];
 
 // Sample quiz history data
@@ -188,6 +199,15 @@ interface QuizHistory {
 }
 
 const getQuestionsForEvent = (eventId: string): FBLAQuestion[] => {
+  // Check if this is a custom quiz
+  if (eventId === "custom") {
+    // Load from sessionStorage
+    if (typeof window !== "undefined") {
+      const stored = sessionStorage.getItem("fbla-custom-questions");
+      return stored ? JSON.parse(stored) : [];
+    }
+    return [];
+  }
   return fblaQuestions[eventId as keyof typeof fblaQuestions] || [];
 };
 
@@ -225,6 +245,7 @@ export default function FBLAPage() {
   const [expandedReviewIdx, setExpandedReviewIdx] = useState<number | null>(
     null
   );
+  const [showUploadModal, setShowUploadModal] = useState(false);
 
   // Timer effect
   useEffect(() => {
@@ -1019,7 +1040,36 @@ export default function FBLAPage() {
                       className="w-full"
                       style={{ backgroundColor: event.color }}
                       onClick={() => {
-                        if (isAvailable) {
+                        // Special handling for custom quiz
+                        if (event.id === "custom") {
+                          // Check if we have custom questions in session
+                          const customQuestions =
+                            typeof window !== "undefined"
+                              ? sessionStorage.getItem("fbla-custom-questions")
+                              : null;
+                          if (customQuestions) {
+                            // If questions exist, proceed to quiz config
+                            setShowConfig(true);
+                            setQuizState((prev) => ({
+                              ...prev,
+                              currentEvent: "custom",
+                            }));
+                            const parsedQuestions = JSON.parse(customQuestions);
+                            setTempConfig({
+                              numberOfQuestions: Math.min(
+                                10,
+                                parsedQuestions.length
+                              ),
+                              timeLimit: 15,
+                              difficulty: "Any",
+                              mode: "timed",
+                            });
+                          } else {
+                            // If no questions, show upload modal
+                            setShowUploadModal(true);
+                          }
+                        } else if (isAvailable) {
+                          // Normal flow for other quizzes
                           setShowConfig(true);
                           setQuizState((prev) => ({
                             ...prev,
@@ -1036,10 +1086,14 @@ export default function FBLAPage() {
                           });
                         }
                       }}
-                      disabled={!isAvailable}
+                      disabled={event.id !== "custom" && !isAvailable}
                     >
                       <Play className="w-4 h-4 mr-2" />
-                      {isAvailable ? "Play" : "Coming Soon"}
+                      {event.id === "custom"
+                        ? "Upload PDF"
+                        : isAvailable
+                        ? "Play"
+                        : "Coming Soon"}
                     </Button>
                   </div>
                 </CardContent>
@@ -1592,6 +1646,27 @@ export default function FBLAPage() {
       </main>
 
       <Footer />
+
+      {/* PDF Upload Modal for Custom Quiz */}
+      <PDFUploadModal
+        isOpen={showUploadModal}
+        onClose={() => setShowUploadModal(false)}
+        onSuccess={(questions) => {
+          // Questions are already stored in sessionStorage by the modal
+          // Now proceed to quiz config
+          setShowConfig(true);
+          setQuizState((prev) => ({
+            ...prev,
+            currentEvent: "custom",
+          }));
+          setTempConfig({
+            numberOfQuestions: Math.min(10, questions.length),
+            timeLimit: 15,
+            difficulty: "Any",
+            mode: "timed",
+          });
+        }}
+      />
     </div>
   );
 }
