@@ -98,9 +98,8 @@ export default function ContactForm() {
             Get Started with EduNova Games
           </h2>
           <p className="text-xl text-gray-400 text-center mb-12">
-            Tell us about your institution and needs. We will tailor our
-            AI-powered educational gaming solutions to fit your specific
-            requirements.
+            Tell us about your institution and needs. We will tailor our 
+            educational gaming solutions to fit your specific needs.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">

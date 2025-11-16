@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-
+/*
 export default function Footer() {
   return (
     <footer className="bg-[#0A0A16] border-t border-white/10">
@@ -122,6 +122,22 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-white/10 text-center text-gray-400">
+          <p>
+            &copy; {new Date().getFullYear()} EduNova Games. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
+*/
+
+export default function Footer() {
+  return (
+    <footer className="bg-[#0A0A16]">
+      <div className="container mx-auto px-4 py-2">
+        <div className="text-center text-gray-400">
           <p>
             &copy; {new Date().getFullYear()} EduNova Games. All rights
             reserved.

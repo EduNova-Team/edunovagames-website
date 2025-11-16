@@ -1,7 +1,12 @@
 "use client"
 
-import { motion } from 'framer-motion'
-import { FileText, Brain, Lightbulb } from 'lucide-react'
+// import { motion } from 'framer-motion'
+// import { FileText, Brain, Lightbulb } from 'lucide-react'
+
+export default function Research() {
+  return null;
+}
+/*
 
 const studies = [
   {
@@ -81,4 +86,4 @@ export default function Research() {
     </section>
   )
 }
-
+*/ 

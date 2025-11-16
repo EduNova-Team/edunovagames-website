@@ -1,10 +1,14 @@
-"use client";
+//"use client";
 
-import { motion } from "framer-motion";
-import { MessageSquare, Code, Cpu, BarChart3 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+//import { motion } from "framer-motion";
+//import { MessageSquare, Code, Cpu, BarChart3 } from "lucide-react";
+//import { Button } from "@/components/ui/button";
+//import Link from "next/link";
 
+export default function Services() {
+  return null;
+}
+/*
 const services = [
   {
     title: "AI Chatbots",
@@ -142,3 +146,4 @@ export const Services = () => {
     </section>
   );
 };
+*/

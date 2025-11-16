@@ -1,8 +1,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Research from "@/components/Research";
-import AISection from "@/components/AISection";
-import { Services } from "@/components/Services";
+// import Research from "@/components/Research";
+// import AISection from "@/components/AISection";
+// import { Services } from "@/components/Services";
 import Solutions from "@/components/Solutions";
 import Blog from "@/components/Blog";
 import ContactForm from "@/components/ContactForm";
@@ -14,9 +14,9 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <Research />
-        <AISection />
-        <Services />
+        {/* <Research /> */}
+        {/* <AISection /> */}
+        {/* <Services /> */}
         <Solutions />
         <Blog />
         <ContactForm />
