@@ -7,40 +7,40 @@ import Link from 'next/link'
 
 const posts = [
   {
-    title: "Financial Times: AI's Impact on Educational Assessment",
-    excerpt: "Research shows AI technology is revolutionizing how student work is evaluated, with potential to provide more detailed and consistent feedback than traditional methods.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-pavel-danilyuk-8438922.jpg-5u9hI2MvHINyGtu07GQVjkn3z9UhVb.jpeg",
-    category: "AI Research",
-    date: "Feb 2024",
-    source: "Financial Times",
-    readTime: "5 min read",
-    url: "https://www.ft.com/content/dd777c4e-31da-47bc-8241-91d39fe8020c?utm_source=chatgpt.com"
-  },
-  {
-    title: "Duolingo's Success: The Power of Gamification",
-    excerpt: "How Duolingo transformed language learning through gamification, reaching 84 million users and proving the effectiveness of game-based education.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-googledeepmind-17483874.jpg-THVoVHD285BhBK9ttEIuDSlbK8Xt5c.jpeg",
-    category: "Case Study",
-    date: "Feb 2024",
-    source: "The Verge",
-    readTime: "8 min read",
-    url: "https://www.theverge.com/24267841/luis-von-ahn-duolingo-owl-language-learning-gamification-generative-ai-android-decoder?utm_source=chatgpt.com"
-  },
-  {
-    title: "AI Revolution in Homework Assessment",
-    excerpt: "Exploring how artificial intelligence is changing the way homework is marked, providing instant feedback and personalized learning paths for students.",
+    title: "How AI could soon be marking your child's homework",
+    excerpt: 'Almost half of teachers are already using AI in some form to help with their work.',
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-rethaferguson-3059750.jpg-zLqvIL2eu3hCZUtNRWenscULUaYCkk.jpeg",
     category: "Education",
     date: "Feb 2024",
     source: "The Times",
-    readTime: "6 min read",
-    url: "https://www.thetimes.com/uk/education/article/how-ai-could-soon-be-marking-your-childs-homework-k9r7878c7?utm_source=chatgpt.com&region=global"
+    url: "https://www.thetimes.com/uk/education/article/how-ai-could-soon-be-marking-your-childs-homework-k9r7878c7"
+  },
+
+  {
+    title: "Will AI revolutionise education for the better?",
+    excerpt: 'School students in Ghana who used an AI-powered maths tutor...had \'substantially higher\' maths growth scores compared to peers in a control group.',
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-pavel-danilyuk-8438922.jpg-5u9hI2MvHINyGtu07GQVjkn3z9UhVb.jpeg",
+    category: "AI Research",
+    date: "Jun 2024",
+    source: "Financial Times",
+    url: "https://www.ft.com/content/dd777c4e-31da-47bc-8241-91d39fe8020c"
+  },
+
+  {
+    title: "AI and gamification can supercharge language learning",
+    excerpt: 'The cofounder of the world’s largest education app thinks AI and gamification can supercharge language learning.',
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-googledeepmind-17483874.jpg-THVoVHD285BhBK9ttEIuDSlbK8Xt5c.jpeg",
+    category: "Case Study",
+    date: "Oct 2024", 
+    source: "The Verge",
+    url: "https://www.theverge.com/24267841/luis-von-ahn-duolingo-owl-language-learning-gamification-generative-ai-android-decoder"
+
   }
 ]
 
 export default function Blog() {
   return (
-    <section className="py-32 relative">
+    <section id="news" className="py-20 relative">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -65,7 +65,7 @@ export default function Blog() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="group cursor-pointer bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/20 transition-all duration-300"
+              className="group cursor-pointer bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/20 transition-all duration-300 flex flex-col"
             >
               <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
@@ -82,20 +82,17 @@ export default function Blog() {
                 </div>
               </div>
               
-              <div className="p-6 space-y-4">
+              <div className="p-6 space-y-4 flex flex-col flex-grow">
                 <div className="flex items-center justify-between text-sm text-gray-400">
                   <span className="font-medium text-[#22D3EE]">{post.source}</span>
-                  <div className="flex items-center gap-4">
-                    <span>{post.date}</span>
-                    <span>{post.readTime}</span>
-                  </div>
+                  <span>{post.date}</span>
                 </div>
                 
                 <h3 className="text-xl font-bold group-hover:text-[#22D3EE] transition-colors">
                   {post.title}
                 </h3>
                 
-                <p className="text-gray-400 line-clamp-3">
+                <p className="text-gray-400 flex-grow">
                   {post.excerpt}
                 </p>
                 
