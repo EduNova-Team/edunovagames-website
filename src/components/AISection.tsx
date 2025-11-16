@@ -1,13 +1,8 @@
 "use client";
 
-// import { motion } from "framer-motion";
-// import { Brain, Zap, BarChart3, Cpu } from "lucide-react";
+import { motion } from "framer-motion";
+import { Brain, Zap, BarChart3, Cpu } from "lucide-react";
 
-export default function AISection() {
-  return null;
-}
-
-/*
 export default function AISection() {
   return (
     <section className="py-32 relative overflow-hidden">
@@ -114,4 +109,3 @@ export default function AISection() {
     </section>
   );
 }
-*/
