@@ -1,4 +1,3 @@
-/*
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -8,26 +7,26 @@ export default function Footer() {
   return (
     <footer className="bg-[#0A0A16] border-t border-white/10">
       <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col items-center justify-center space-y-4">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-8 h-8">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CTSO%20GAMES%20logo-jCxxiz42YYhpH54hwjjcQHXBQsOFyY.png"
-                alt="EduNova Games Logo"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <span className="font-space font-bold text-xl">
-              EduNova Games
-            </span>
-          </Link>
-          <p className="text-gray-400 text-center">
-            Making learning fun and effective through gamification.
-          </p>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div className="space-y-4">
+            <Link href="/" className="flex items-center gap-3">
+              <div className="relative w-8 h-8">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CTSO%20GAMES%20logo-jCxxiz42YYhpH54hwjjcQHXBQsOFyY.png"
+                  alt="EduNova Games Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <span className="font-space font-bold text-xl">
+                EduNova Games
+              </span>
+            </Link>
+            <p className="text-gray-400">
+              Making learning fun and effective through gamification.
+            </p>
+          </div>
+
           <div>
             <h3 className="font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -121,17 +120,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-  );
-}
-*/
 
-export default function Footer() {
-  return (
-    <footer className="bg-[#0A0A16]">
-      <div className="container mx-auto px-4 py-2">
-        <div className="text-center text-gray-400">
+        <div className="mt-16 pt-8 border-t border-white/10 text-center text-gray-400">
           <p>
             &copy; {new Date().getFullYear()} EduNova Games. All rights
             reserved.
