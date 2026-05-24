@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GuessGrid from "@/components/chessle/GuessGrid";
 import EndOfGame from "@/components/chessle/EndOfGame";
-import { useChessle, HALF_MOVES_PER_GUESS } from "@/hooks/useChessle";
+import { useChessle, HALF_MOVES_PER_GUESS, MAX_GUESSES } from "@/hooks/useChessle";
 
 // Chessground relies on browser APIs — load it client-side only
 const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
@@ -36,6 +36,22 @@ export default function ChesslePage() {
 
   const movesRemaining = HALF_MOVES_PER_GUESS - currentMoveIndex;
 
+  // opening is null during SSR and until the first useEffect fires on the client.
+  // Show a skeleton so there's no hydration mismatch.
+  if (!opening) {
+    return (
+      <div className="min-h-screen bg-[#0A0A16] flex flex-col">
+        <Header />
+        <main className="flex-1 flex flex-col items-center justify-center">
+          <div className="text-gray-500 font-mono text-sm animate-pulse">
+            Loading opening…
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-[#0A0A16] flex flex-col">
       <Header />
@@ -47,7 +63,7 @@ export default function ChesslePage() {
             Chessle
           </h1>
           <p className="text-gray-400 text-sm mt-1">
-            Guess the chess opening in {6} tries
+            Guess the chess opening in {MAX_GUESSES} tries
           </p>
         </div>
 
@@ -55,8 +71,8 @@ export default function ChesslePage() {
         <div className="flex items-center gap-3 text-xs text-gray-400 font-mono">
           <span>
             Guess{" "}
-            <span className="text-white font-semibold">{currentGuessIndex + 1}</span>{" "}
-            / 6
+            <span className="text-white font-semibold">{currentGuessIndex + 1}</span>
+            {" "}/ {MAX_GUESSES}
           </span>
           <span className="text-white/20">|</span>
           <span>
@@ -78,7 +94,10 @@ export default function ChesslePage() {
         />
 
         {/* Controls */}
-        <div className="flex gap-3 w-full justify-center" style={{ maxWidth: "min(480px, 90vw)" }}>
+        <div
+          className="flex gap-3 w-full justify-center"
+          style={{ maxWidth: "min(540px, 95vw)" }}
+        >
           <button
             onClick={undoMove}
             disabled={!canUndo}
@@ -118,13 +137,6 @@ export default function ChesslePage() {
             <span>Not in opening</span>
           </div>
         </div>
-
-        {/* ECO hint (subtle) */}
-        {phase !== "playing" ? null : (
-          <p className="text-white/10 text-xs font-mono">
-            ECO {opening.eco}
-          </p>
-        )}
       </main>
 
       <Footer />

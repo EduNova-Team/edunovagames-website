@@ -3,14 +3,17 @@
 import { HALF_MOVES_PER_GUESS, MAX_GUESSES } from "@/hooks/useChessle";
 import type { GuessRow, TileColor } from "@/hooks/useChessle";
 
+// HALF_MOVES_PER_GUESS must be even (pairs of white + black)
+const FULL_MOVES = HALF_MOVES_PER_GUESS / 2; // 5
+
 interface GuessGridProps {
   grid: GuessRow[];
   currentGuessIndex: number;
 }
 
-function tileStyle(color: TileColor): string {
+function tileStyle(color: TileColor, isActiveRow: boolean): string {
   const base =
-    "flex items-center justify-center rounded text-sm font-mono font-bold border transition-all duration-300 select-none";
+    "flex items-center justify-center rounded text-xs font-mono font-bold border transition-all duration-300 select-none";
 
   switch (color) {
     case "green":
@@ -23,18 +26,23 @@ function tileStyle(color: TileColor): string {
       return `${base} bg-indigo-900/60 border-indigo-500/70 text-indigo-200`;
     case "empty":
     default:
-      return `${base} bg-white/5 border-white/10 text-transparent`;
+      return `${base} bg-white/5 border-white/10 text-white/20 ${
+        isActiveRow ? "border-white/20" : ""
+      }`;
   }
 }
 
-function Tile({ move, color, isActive }: { move: string; color: TileColor; isActive: boolean }) {
+interface TileProps {
+  move: string;
+  color: TileColor;
+  isActiveRow: boolean;
+}
+
+function Tile({ move, color, isActiveRow }: TileProps) {
   return (
     <div
-      className={`
-        ${tileStyle(color)}
-        ${isActive && color === "empty" ? "border-indigo-400/50 bg-white/8" : ""}
-      `}
-      style={{ width: "52px", height: "52px", fontSize: "0.7rem" }}
+      className={tileStyle(color, isActiveRow)}
+      style={{ width: "48px", height: "48px" }}
     >
       {move || ""}
     </div>
@@ -43,27 +51,40 @@ function Tile({ move, color, isActive }: { move: string; color: TileColor; isAct
 
 export default function GuessGrid({ grid, currentGuessIndex }: GuessGridProps) {
   return (
-    <div className="flex flex-col gap-2 w-full" style={{ maxWidth: "min(480px, 90vw)" }}>
+    <div className="flex flex-col gap-2 w-full items-center">
       {Array.from({ length: MAX_GUESSES }, (_, rowIdx) => {
         const row = grid[rowIdx];
-        const isCurrentRow = rowIdx === currentGuessIndex && !row.submitted;
+        const isActiveRow = rowIdx === currentGuessIndex && !row?.submitted;
 
         return (
-          <div key={rowIdx} className="flex gap-1.5 justify-center">
-            {/* Row label: guess number */}
-            <div className="flex items-center w-5 shrink-0">
-              <span className="text-xs text-white/20 font-mono">{rowIdx + 1}</span>
-            </div>
+          <div key={rowIdx} className="flex items-center gap-3">
+            {Array.from({ length: FULL_MOVES }, (_, fullMoveIdx) => {
+              const whiteIdx = fullMoveIdx * 2;
+              const blackIdx = fullMoveIdx * 2 + 1;
+              const whiteTile = row?.tiles[whiteIdx] ?? { move: "", color: "empty" as TileColor };
+              const blackTile = row?.tiles[blackIdx] ?? { move: "", color: "empty" as TileColor };
 
-            {Array.from({ length: HALF_MOVES_PER_GUESS }, (_, colIdx) => {
-              const tile = row?.tiles[colIdx] ?? { move: "", color: "empty" as TileColor };
               return (
-                <Tile
-                  key={colIdx}
-                  move={tile.move}
-                  color={tile.color}
-                  isActive={isCurrentRow}
-                />
+                <div key={fullMoveIdx} className="flex items-center gap-1">
+                  {/* Move number label */}
+                  <span className="text-xs text-white/30 font-mono w-4 text-right shrink-0">
+                    {fullMoveIdx + 1}.
+                  </span>
+
+                  {/* White tile */}
+                  <Tile
+                    move={whiteTile.move}
+                    color={whiteTile.color}
+                    isActiveRow={isActiveRow}
+                  />
+
+                  {/* Black tile */}
+                  <Tile
+                    move={blackTile.move}
+                    color={blackTile.color}
+                    isActiveRow={isActiveRow}
+                  />
+                </div>
               );
             })}
           </div>
