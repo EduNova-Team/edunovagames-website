@@ -29,9 +29,16 @@ export interface Opening {
 export type GamePhase = "playing" | "won" | "lost";
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
-function pickRandomOpening(): Opening {
-  const openings = openingsData as Opening[];
-  return openings[Math.floor(Math.random() * openings.length)];
+const openings = openingsData as Opening[];
+
+function pickRandomIndex(): number {
+  return Math.floor(Math.random() * openings.length);
+}
+
+function getOpeningByIndex(index: number): Opening {
+  // Clamp gracefully so an out-of-range ID never crashes
+  const safe = ((index % openings.length) + openings.length) % openings.length;
+  return openings[safe];
 }
 
 /**
@@ -89,11 +96,12 @@ function replayMoves(sans: string[]): Chess {
 }
 
 // ─── Hook ────────────────────────────────────────────────────────────────────
-export function useChessle() {
+export function useChessle(initialIndex?: number) {
   // ── Fix: initialize opening as null and set in useEffect so that random
   //    selection only ever happens on the client. This prevents the SSR/client
   //    hydration mismatch (server picks ECO "C39", client picks "E08", crash).
   const [opening, setOpening] = useState<Opening | null>(null);
+  const [openingIndex, setOpeningIndex] = useState<number | null>(null);
   const [chess, setChess] = useState<Chess>(() => new Chess());
   const [grid, setGrid] = useState<GuessRow[]>(buildEmptyGrid);
   const [currentGuessIndex, setCurrentGuessIndex] = useState(0);
@@ -106,9 +114,13 @@ export function useChessle() {
   //    never fires and the board stays stale).
   const [currentMoves, setCurrentMoves] = useState<string[]>([]);
 
-  // Pick opening on client only (avoids SSR/hydration mismatch)
+  // Pick opening on client only (avoids SSR/hydration mismatch).
+  // Uses initialIndex if provided, otherwise picks randomly.
   useEffect(() => {
-    setOpening(pickRandomOpening());
+    const idx = initialIndex !== undefined ? initialIndex : pickRandomIndex();
+    setOpening(getOpeningByIndex(idx));
+    setOpeningIndex(idx);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   /** Called by ChessBoard when a legal move is made */
@@ -196,9 +208,79 @@ export function useChessle() {
     setCurrentMoveIndex((i) => i - 1);
   }, [phase, currentMoveIndex, currentGuessIndex, currentMoves]);
 
-  /** Reset everything and pick a new random opening */
-  const playAgain = useCallback(() => {
-    setOpening(pickRandomOpening());
+  /**
+   * Auto-play the next consecutive run of green tiles from the previous
+   * submitted row, starting at currentMoveIndex. Stops at the first
+   * non-green tile so the player can manually bridge the gap, then call
+   * again to continue with the next green run.
+   */
+  const fillGreen = useCallback(() => {
+    if (phase !== "playing") return;
+    if (currentGuessIndex === 0) return;
+
+    const prevRow = grid[currentGuessIndex - 1];
+    if (!prevRow?.submitted) return;
+
+    // Collect the consecutive green run from currentMoveIndex
+    const greenMoves: string[] = [];
+    for (let i = currentMoveIndex; i < HALF_MOVES_PER_GUESS; i++) {
+      if (prevRow.tiles[i].color === "green") {
+        greenMoves.push(prevRow.tiles[i].move);
+      } else {
+        break;
+      }
+    }
+
+    if (greenMoves.length === 0) return;
+
+    const newMoves = [...currentMoves, ...greenMoves];
+    const newChess = replayMoves(newMoves);
+
+    setChess(newChess);
+    setCurrentMoves(newMoves);
+    setGrid((prev) => {
+      const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
+      greenMoves.forEach((move, i) => {
+        next[currentGuessIndex].tiles[currentMoveIndex + i] = {
+          move,
+          color: "pending",
+        };
+      });
+      return next;
+    });
+    setCurrentMoveIndex((idx) => idx + greenMoves.length);
+  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid]);
+
+  /**
+   * Secret solver: instantly fills the current row with the correct moves
+   * and marks the game as won. Triggered by the "Jimmy**" cheat code.
+   */
+  const cheatSolve = useCallback(() => {
+    if (phase !== "playing") return;
+    if (!opening) return;
+
+    const colors = evaluateGuess(opening.moves, opening.moves); // all green
+    const solvedTiles: TileFeedback[] = opening.moves.map((move, i) => ({
+      move,
+      color: colors[i],
+    }));
+
+    setChess(replayMoves(opening.moves));
+    setCurrentMoves(opening.moves);
+    setCurrentMoveIndex(HALF_MOVES_PER_GUESS);
+    setGrid((prev) => {
+      const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
+      next[currentGuessIndex] = { tiles: solvedTiles, submitted: true };
+      return next;
+    });
+    setPhase("won");
+  }, [phase, opening, currentGuessIndex]);
+
+  /** Reset everything. Pass a specific index to load that opening, or omit for a new random one. */
+  const playAgain = useCallback((index?: number) => {
+    const idx = index !== undefined ? index : pickRandomIndex();
+    setOpening(getOpeningByIndex(idx));
+    setOpeningIndex(idx);
     setChess(new Chess());
     setGrid(buildEmptyGrid());
     setCurrentMoves([]);
@@ -207,8 +289,16 @@ export function useChessle() {
     setPhase("playing");
   }, []);
 
+  const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;
+  const canFillGreen =
+    phase === "playing" &&
+    currentMoveIndex < HALF_MOVES_PER_GUESS &&
+    prevRow?.submitted === true &&
+    prevRow.tiles[currentMoveIndex]?.color === "green";
+
   return {
     opening,          // null until client mounts
+    openingIndex,     // null until client mounts
     chess,
     grid,
     currentGuessIndex,
@@ -217,8 +307,11 @@ export function useChessle() {
     onMove,
     submitGuess,
     undoMove,
+    fillGreen,
+    cheatSolve,
     playAgain,
     canSubmit: currentMoveIndex === HALF_MOVES_PER_GUESS && phase === "playing",
     canUndo: currentMoveIndex > 0 && phase === "playing",
+    canFillGreen,
   };
 }

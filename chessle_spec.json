@@ -19,36 +19,30 @@
     {
       "id": "TODO_1",
       "feature": "Customizable move count",
-      "description": "Allow the player to set how many full moves (plies) they guess per round. Currently locked to 5 full moves (10 half-moves). Should be driven by a single config variable so the tile grid and opening filter update automatically."
+      "description": "Allow the player to set how many full moves (plies) they guess per round. Currently locked to 5 full moves (10 half-moves). Should be driven by a single config variable so the tile grid and opening filter update automatically.",
+      "importance": "medium"
     },
     {
       "id": "TODO_2",
       "feature": "Customizable guess count",
-      "description": "Allow the player to set how many guesses they get per round. Currently locked to 6. The guess row stack should render dynamically based on this value."
+      "description": "Allow the player to set how many guesses they get per round. Currently locked to 6. The guess row stack should render dynamically based on this value.",
+      "importance": "low"
     },
     {
       "id": "TODO_3",
       "feature": "Copyable emoji result grid",
-      "description": "After a round ends, generate a shareable emoji grid (green/yellow/gray squares) representing the player's guess history, copyable to clipboard. Identical in format to Wordle share output."
+      "description": "After a round ends, generate a shareable emoji grid (green/yellow/gray squares) representing the player's guess history, copyable to clipboard. Identical in format to Wordle share output.",
+      "importance": "low"
     },
     {
-      "id": "TODO_4",
-      "feature": "Load game by ID",
-      "description": "Allow players to paste a specific game ID or seed string into the site to load a particular opening puzzle. This lets players share specific games with each other. The ID should deterministically map to a specific opening in the database so the same string always produces the same puzzle."
+      "id": "TODO_5",
+      "feature": "Arrow key move navigation",
+      "description": "Use the left and right arrow keys to navigate backward and forward through the moves already entered in the current guess row. Previously played moves are temporarily stored so stepping back and forward restores the board position correctly. This allows the player to review and replace moves mid-sequence without fully undoing back to the start.",
+      "importance": "high"
     }
   ],
 
   "game_modes": {
-    "original_normal": {
-      "description": "Original Chessle normal mode",
-      "full_moves": 3,
-      "half_moves": 6
-    },
-    "original_expert": {
-      "description": "Original Chessle expert mode",
-      "full_moves": 5,
-      "half_moves": 10
-    },
     "this_recreation": {
       "description": "Fixed mode for this project. Move count and guess count will become configurable in future TODOs.",
       "full_moves": 5,
@@ -124,7 +118,7 @@
       "Link to study the opening on the Lichess opening explorer",
       "Play Again button"
     ],
-    "todo_reference": ["TODO_3", "TODO_4"]
+    "todo_reference": ["TODO_3"]
   },
 
   "opening_database": {
