@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GuessGrid from "@/components/chessle/GuessGrid";
@@ -33,6 +34,14 @@ export default function ChesslePage() {
     canSubmit,
     canUndo,
   } = useChessle();
+
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft" && canUndo) undoMove();
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [canUndo, undoMove]);
 
   // opening is null during SSR and until the first useEffect fires on the client.
   // Show a skeleton so there's no hydration mismatch.

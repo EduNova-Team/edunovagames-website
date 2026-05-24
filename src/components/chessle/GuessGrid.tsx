@@ -56,6 +56,9 @@ export default function GuessGrid({ grid, currentGuessIndex }: GuessGridProps) {
         const row = grid[rowIdx];
         const isActiveRow = rowIdx === currentGuessIndex && !row?.submitted;
 
+        // Only render rows that have been submitted or are the current active row
+        if (rowIdx > currentGuessIndex) return null;
+
         return (
           <div key={rowIdx} className="flex items-center gap-3">
             {Array.from({ length: FULL_MOVES }, (_, fullMoveIdx) => {
