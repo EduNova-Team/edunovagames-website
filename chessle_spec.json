@@ -1,0 +1,206 @@
+{
+  "project": {
+    "name": "Chessle Recreation",
+    "purpose": "Academic school project to recreate Chessle for educational enrichment",
+    "original_creator": "Jack Li",
+    "original_url": "https://jackli.gg/chessle",
+    "description": "Wordle applied to chess openings. The player guesses a sequence of moves; color-coded feedback reveals how close each guess was to the target opening. This recreation runs in unlimited mode rather than a daily puzzle format."
+  },
+
+  "current_configuration": {
+    "moves_per_guess": 10,
+    "full_moves_per_guess": 5,
+    "max_guesses": 6,
+    "mode": "unlimited",
+    "note": "All configuration values should be stored as single variables to support future customization without major refactoring."
+  },
+
+  "todos": [
+    {
+      "id": "TODO_1",
+      "feature": "Customizable move count",
+      "description": "Allow the player to set how many full moves (plies) they guess per round. Currently locked to 5 full moves (10 half-moves). Should be driven by a single config variable so the tile grid and opening filter update automatically."
+    },
+    {
+      "id": "TODO_2",
+      "feature": "Customizable guess count",
+      "description": "Allow the player to set how many guesses they get per round. Currently locked to 6. The guess row stack should render dynamically based on this value."
+    },
+    {
+      "id": "TODO_3",
+      "feature": "Copyable emoji result grid",
+      "description": "After a round ends, generate a shareable emoji grid (green/yellow/gray squares) representing the player's guess history, copyable to clipboard. Identical in format to Wordle share output."
+    },
+    {
+      "id": "TODO_4",
+      "feature": "Load game by ID",
+      "description": "Allow players to paste a specific game ID or seed string into the site to load a particular opening puzzle. This lets players share specific games with each other. The ID should deterministically map to a specific opening in the database so the same string always produces the same puzzle."
+    }
+  ],
+
+  "game_modes": {
+    "original_normal": {
+      "description": "Original Chessle normal mode",
+      "full_moves": 3,
+      "half_moves": 6
+    },
+    "original_expert": {
+      "description": "Original Chessle expert mode",
+      "full_moves": 5,
+      "half_moves": 10
+    },
+    "this_recreation": {
+      "description": "Fixed mode for this project. Move count and guess count will become configurable in future TODOs.",
+      "full_moves": 5,
+      "half_moves": 10,
+      "max_guesses": 6
+    }
+  },
+
+  "gameplay": {
+    "flow": [
+      "Board loads with all pieces in standard starting position.",
+      "Player drags pieces to enter moves, alternating white and black.",
+      "Each move must be a legal chess move; illegal moves are rejected.",
+      "As each move is made, its algebraic notation fills the next empty tile in the current guess row.",
+      "Once all 10 tiles in the current row are filled, the player presses Submit.",
+      "Each tile in the submitted row flips to green, yellow, or gray.",
+      "The player continues guessing until they match the opening exactly (all green) or exhaust all 6 guesses.",
+      "The end-of-game screen appears with the opening name, correct sequence, a Lichess study link, and a Play Again button.",
+      "Play Again picks a new random opening and resets the board and all guess rows."
+    ],
+    "move_input": {
+      "method": "Drag and drop pieces on the chessboard",
+      "alternation": "White and black alternate, same as a real game",
+      "validation": "Only legal chess moves are accepted",
+      "notation_display": "Each move auto-populates the next empty tile in SAN (Standard Algebraic Notation)"
+    }
+  },
+
+  "feedback_system": {
+    "granularity": "Per half-move (ply)",
+    "colors": {
+      "green": {
+        "meaning": "Correct move in the correct position",
+        "condition": "Move notation matches exactly AND position index matches"
+      },
+      "yellow": {
+        "meaning": "Move appears somewhere in the target opening but not at this position",
+        "condition": "Move notation appears anywhere in the target sequence, including possibly played by the other side",
+        "note": "A yellow move could be played by either white or black in the target opening"
+      },
+      "gray": {
+        "meaning": "Move does not appear anywhere in the target opening",
+        "condition": "Move notation is absent from the entire target sequence"
+      }
+    },
+    "evaluation_order": "Evaluate green first, then yellow, to avoid double-counting the same move"
+  },
+
+  "visual_layout": {
+    "board": {
+      "position": "Top/center of the page",
+      "initial_state": "Standard chess starting position",
+      "library": "Chessground (@lichess-org/chessground)"
+    },
+    "guess_rows": {
+      "position": "Below the chessboard",
+      "structure": "One row per guess, stacked vertically",
+      "tiles_per_row": 10,
+      "tile_content": "SAN notation for each half-move (e.g. 'e4', 'Nf6', 'd4')",
+      "history_visibility": "All previous guess rows remain visible at all times"
+    },
+    "controls": {
+      "submit_button": "Submits the current fully-entered guess row",
+      "play_again_button": "Appears on end-of-game screen; picks a new random opening and resets everything"
+    }
+  },
+
+  "end_of_game_screen": {
+    "shown_when": "Player solves the puzzle OR exhausts all guesses",
+    "displays": [
+      "Full opening name and variation (e.g. 'King's Indian Defense: Orthodox Variation')",
+      "Correct move sequence in algebraic notation",
+      "Link to study the opening on the Lichess opening explorer",
+      "Play Again button"
+    ],
+    "todo_reference": ["TODO_3", "TODO_4"]
+  },
+
+  "opening_database": {
+    "source": "lichess-org/chess-openings (GitHub)",
+    "url": "https://github.com/lichess-org/chess-openings",
+    "format": "TSV files organized by ECO volume (A through E)",
+    "license": "Public domain",
+    "fields": ["ECO code", "Opening name", "Variation name", "Move sequence"],
+    "filtering": "Filter to entries with at least 10 half-moves so every puzzle fills all 10 tiles cleanly",
+    "selection_strategy": {
+      "original": "Date-seeded pseudo-random for daily puzzle",
+      "this_recreation": "Purely random on each new game (Play Again or page load)",
+      "load_by_id_todo": "TODO_4: deterministic selection by pasted game ID/seed string"
+    }
+  },
+
+  "lichess_integrations": {
+    "opening_explorer": {
+      "description": "After each round, a link directs the player to study the target opening on Lichess.",
+      "url_pattern": "https://lichess.org/analysis#explorer",
+      "features_available": [
+        "Play through opening lines move by move",
+        "View ECO code and variation name",
+        "Win/draw/loss statistics per continuation",
+        "Move popularity percentages"
+      ]
+    },
+    "chessground": {
+      "description": "The chessboard UI library used to render the board and handle piece interaction.",
+      "npm_package": "@lichess-org/chessground",
+      "license": "GPL-3.0",
+      "bundle_size": "10K gzipped, 31K unzipped",
+      "dependencies": "None",
+      "key_features": [
+        "Drag-and-drop piece movement",
+        "Click-to-move support",
+        "SVG drawing of circles and arrows",
+        "FEN import and export",
+        "Mobile touch event support",
+        "Fluid board resizing",
+        "CSS-only board and piece theming"
+      ]
+    }
+  },
+
+  "implementation_details": {
+    "move_legality": {
+      "library": "chess.js",
+      "license": "MIT",
+      "purpose": "Validate each move before it registers on the board; reject illegal moves"
+    },
+    "notation_consistency": {
+      "standard": "SAN (Standard Algebraic Notation)",
+      "warning": "Comparisons must be exact. 'Nxf3' and 'Nf3' are different moves. Normalize all notation before comparing.",
+      "captures_and_checks": "Notation like 'Nxf7' and 'Nxf7+' are not the same and must not be treated as equivalent",
+      "color_discrepancy": "Notation like 'e5' played by white IS the same as 'e5' played by black. Do not consider color when comparing moves."
+    },
+    "yellow_gray_logic": {
+      "step_1": "For each submitted move, check if it appears anywhere in the target sequence (any index, either color).",
+      "step_2": "If yes and the index also matches, mark green.",
+      "step_3": "If yes but index does not match, mark yellow.",
+      "step_4": "If the move does not appear anywhere in the target sequence, mark gray.",
+      "double_count_prevention": "Evaluate and lock greens first before assigning yellows."
+    },
+    "play_again": {
+      "behavior": "Randomly selects a new opening from the filtered database, resets the board to starting position, clears all guess rows, and resets guess counter.",
+      "no_repeat_strategy": "Optional: track recently played openings in session to avoid immediate repeats."
+    },
+    "load_game_by_id": {
+      "todo_reference": "TODO_4",
+      "proposed_approach": "Assign each opening in the filtered dataset a stable numeric index. The game ID is that index (or a short hash of it). Pasting the ID into a load field seeds the random selector to that specific opening deterministically."
+    },
+    "config_variables": {
+      "HALF_MOVES_PER_GUESS": 10,
+      "MAX_GUESSES": 6,
+      "note": "Both values drive tile grid rendering, opening filter, and guess row count. Change here only to propagate everywhere."
+    }
+  }
+}
