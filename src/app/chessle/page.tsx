@@ -34,8 +34,6 @@ export default function ChesslePage() {
     canUndo,
   } = useChessle();
 
-  const movesRemaining = HALF_MOVES_PER_GUESS - currentMoveIndex;
-
   // opening is null during SSR and until the first useEffect fires on the client.
   // Show a skeleton so there's no hydration mismatch.
   if (!opening) {
@@ -62,9 +60,6 @@ export default function ChesslePage() {
           <h1 className="text-3xl font-bold font-space bg-gradient-to-r from-[#6366F1] to-[#22D3EE] bg-clip-text text-transparent">
             Chessle
           </h1>
-          <p className="text-gray-400 text-sm mt-1">
-            Guess the chess opening in {MAX_GUESSES} tries
-          </p>
         </div>
 
         {/* Status bar */}
@@ -79,7 +74,7 @@ export default function ChesslePage() {
             {phase === "playing"
               ? currentMoveIndex === HALF_MOVES_PER_GUESS
                 ? "Row full — press Submit"
-                : `${movesRemaining} move${movesRemaining !== 1 ? "s" : ""} remaining`
+                : ""
               : phase === "won"
               ? "🎉 Solved!"
               : "Game over"}
