@@ -5,20 +5,33 @@ import type { Opening, GamePhase } from "@/hooks/useChessle";
 interface EndOfGameProps {
   phase: GamePhase;
   opening: Opening;
+  openingIndex: number;
   onPlayAgain: () => void;
+  onDismiss: () => void;
 }
 
-export default function EndOfGame({ phase, opening, onPlayAgain }: EndOfGameProps) {
+export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, onPlayAgain, onDismiss }: EndOfGameProps) {
   if (phase === "playing") return null;
 
   const won = phase === "won";
 
   // Build Lichess opening explorer URL from the move sequence
-  const lichessUrl = `https://lichess.org/analysis?fen=rnbqkbnr%2Fpppppppp%2F8%2F8%2F8%2F8%2FPPPPPPPP%2FRNBQKBNR+w+KQkq+-+0+1#explorer`;
+  const lichessUrl = `https://lichess.org/analysis/pgn/${encodeURIComponent(opening.pgn)}#explorer`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
       <div className="relative w-full max-w-md rounded-2xl border border-white/10 bg-[#0A0A16] shadow-2xl overflow-hidden">
+        {/* Dismiss button */}
+        <button
+          onClick={onDismiss}
+          aria-label="Close"
+          className="absolute top-4 right-4 z-10 text-gray-500 hover:text-white transition-colors"
+        >
+          <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+
         {/* Gradient accent bar */}
         <div
           className={`h-1 w-full ${

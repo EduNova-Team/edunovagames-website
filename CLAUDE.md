@@ -1,7 +1,7 @@
 # EduNova Games — Project Documentation
 
-> **Session started:** 3:39 AM Eastern Time, May 24, 2026
 > **AI assistant in use:** Claude Sonnet 4.6 via Claude Code CLI
+> **Session change log:** see [CHANGES.md](./CHANGES.md)
 
 ---
 
@@ -91,26 +91,11 @@ Original game created by Jack Li at jackli.gg/chessle. This is a recreation buil
 ### Key Technical Decision
 The opening is chosen randomly **only on the user's browser** (client side), never on the server. This prevents a crash that would occur if the server and the browser independently picked different random openings — a mismatch that would break the page load.
 
-### Changes Made — Session of May 24, 2026 (3:39 AM ET)
-
-**Progressive row rendering (`src/components/chessle/GuessGrid.tsx`)**
-Previously, all 6 guess rows were always visible on screen, even when most were empty. Now only the rows the player has actually used are shown:
-- On the first guess, only row 1 is visible (the one being filled in).
-- After submitting a guess, that completed row stays visible and the next empty row appears below it.
-- Future rows stay hidden until the player reaches them.
-
-One line of logic handles this: any row with an index higher than the current guess number is simply not rendered.
-
-**Left arrow key to undo (`src/app/chessle/page.tsx`)**
-The Undo button already existed. Now pressing the left arrow key on the keyboard does the same thing. The key listener is active only during gameplay and only when there is at least one move to undo — the same conditions that enable the Undo button.
-
----
-
 ### Planned Future Features (from `chessle_spec.json`)
 1. **Customizable move count** — let the player choose how many moves per guess (currently locked at 10 half-moves)
 2. **Customizable guess count** — let the player choose how many guesses (currently locked at 6)
 3. **Shareable emoji result grid** — after the game, generate a grid of colored squares (like Wordle) that can be copied and pasted to share results
-4. **Load game by ID** — let players share a specific puzzle with a link so friends play the exact same opening
+5. **Arrow key move navigation** — use left/right arrow keys to step backward and forward through moves already entered in the current row, temporarily storing played moves so the board position restores correctly
 
 ### Files Involved in Chessle
 | File | What It Does |
@@ -120,7 +105,9 @@ The Undo button already existed. Now pressing the left arrow key on the keyboard
 | `src/components/chessle/ChessBoard.tsx` | The visual, interactive chessboard |
 | `src/components/chessle/GuessGrid.tsx` | The grid of colored tiles showing past guesses |
 | `src/components/chessle/EndOfGame.tsx` | The win/loss message shown when the game ends |
-| `src/data/chessle-openings.json` | The database of chess openings the game picks from |
+| `src/data/chessle-openings.json` | The database of 647 chess openings the game picks from |
+| `src/data/chessle-ids.json` | Pre-generated hashmap of share codes ↔ opening indices |
+| `src/lib/chessle-ids.ts` | `encodeOpeningIndex` / `decodeOpeningCode` utility functions |
 
 ---
 
