@@ -4,6 +4,32 @@ All changes made during Claude Code sessions are documented here chronologically
 
 ---
 
+## Session 3 — May 25, 2026, 8:37 PM ET
+
+**Easy / Medium / Hard difficulty modes (`src/hooks/useChessle.ts`, `src/components/chessle/DifficultySelect.tsx`, `src/app/chessle/page.tsx`, `src/data/chessle-difficulties.json`, `scripts/fetch-opening-difficulties.mjs`)**
+Openings are now classified into three difficulty tiers based on how commonly each opening appears in real Lichess games.
+
+How classification works:
+- A one-time script (`scripts/fetch-opening-difficulties.mjs`) queries the Lichess Opening Explorer API for each of the 647 openings, fetching the total number of games played after that exact sequence of moves.
+- Openings are ranked by game count and split into three equal thirds: top 33% → Easy (well-known openings), middle 33% → Medium, bottom 33% → Hard (rare or obscure).
+- The result is stored in `src/data/chessle-difficulties.json` (214 easy, 214 medium, 219 hard). This file ships with the site — the API is never called at runtime.
+
+At game start, the player sees a difficulty selector popup. The hook then uses pre-built index pools (one array per difficulty, populated at module load) to pick a random opening from the correct tier in O(1) time.
+
+**Difficulty selector overlay (`src/components/chessle/DifficultySelect.tsx`, `src/app/chessle/page.tsx`)**
+A modal overlay with three buttons (Easy in green, Medium in amber, Hard in red) appears before the first game. The overlay uses `fixed` positioning with a blurred backdrop so it floats on top of the game board rather than replacing it. The difficulty value is remembered for the rest of the session — pressing "Play Again" brings the selector back without clearing the previous choice.
+
+**Play Again button on main screen (`src/app/chessle/page.tsx`)**
+A "Play Again" button was added below the Share / Load row. It is greyed out and disabled while a game is in progress, so it can only be clicked after the game ends. Clicking it shows the difficulty selector, identical to the "Play Again" button inside the EndOfGame popup.
+
+**EndOfGame "Play Again" now dismisses the overlay (`src/app/chessle/page.tsx`)**
+Previously, clicking "Play Again" from the EndOfGame popup caused the difficulty selector to appear behind the still-visible EndOfGame screen. Fixed by dismissing the EndOfGame overlay at the same moment the difficulty selector is shown, so the player only ever sees one overlay at a time.
+
+**Fixed stale closure bug in Play Again flow (`src/app/chessle/page.tsx`)**
+An earlier implementation reset the `difficulty` state to `undefined` when Play Again was pressed. This caused `playAgain()` inside the hook to capture the stale undefined value due to closure timing, resulting in a difficulty-less random pick instead of the correct tier. Fixed by introducing a separate `showDifficultySelector` boolean to control overlay visibility — the `difficulty` value is now never cleared, only the selector visibility toggles.
+
+---
+
 ## Session 2 — May 24, 2026, 2:09 PM ET
 
 **Share and Load buttons (`src/app/chessle/page.tsx`, `src/lib/chessle-ids.ts`, `src/data/chessle-ids.json`)**

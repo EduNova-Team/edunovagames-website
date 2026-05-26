@@ -8,6 +8,7 @@ import GuessGrid from "@/components/chessle/GuessGrid";
 import EndOfGame from "@/components/chessle/EndOfGame";
 import { useChessle, HALF_MOVES_PER_GUESS, MAX_GUESSES } from "@/hooks/useChessle";
 import { encodeOpeningIndex, decodeOpeningCode } from "@/lib/chessle-ids";
+import DifficultySelect, { type Difficulty } from "@/components/chessle/DifficultySelect";
 
 // Chessground relies on browser APIs — load it client-side only
 const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
@@ -21,6 +22,8 @@ const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
 });
 
 export default function ChesslePage() {
+  const [difficulty, setDifficulty] = useState<Difficulty | undefined>(undefined);
+  const [showDifficultySelector, setShowDifficultySelector] = useState(true);
   const [loadIndex, setLoadIndex] = useState<number | undefined>(undefined);
 
   const {
@@ -40,7 +43,7 @@ export default function ChesslePage() {
     canSubmit,
     canUndo,
     canFillGreen,
-  } = useChessle(loadIndex);
+  } = useChessle(loadIndex, difficulty);
 
   const [overlayDismissed, setOverlayDismissed] = useState(false);
   const [copyLabel, setCopyLabel] = useState("Share");
@@ -63,6 +66,19 @@ export default function ChesslePage() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [canUndo, undoMove]);
 
+
+  // Called by DifficultySelect when the player picks a difficulty (initial or replay)
+  function handleNewGame(newDifficulty: Difficulty) {
+    setDifficulty(newDifficulty);
+    setShowDifficultySelector(false);
+    playAgain(undefined, newDifficulty);
+  }
+
+  // Called by any "Play Again" button — shows the selector without clearing difficulty
+  function handlePlayAgain() {
+    setOverlayDismissed(true);
+    setShowDifficultySelector(true);
+  }
 
   function handleShare() {
     if (openingIndex === null) return;
@@ -99,21 +115,6 @@ export default function ChesslePage() {
     setLoadOpen(false);
     setLoadInput("");
     setLoadError("");
-  }
-
-  // opening is null during SSR and until the first useEffect fires on the client.
-  if (!opening || openingIndex === null) {
-    return (
-      <div className="min-h-screen bg-[#0A0A16] flex flex-col">
-        <Header />
-        <main className="flex-1 flex flex-col items-center justify-center">
-          <div className="text-gray-500 font-mono text-sm animate-pulse">
-            Loading opening…
-          </div>
-        </main>
-        <Footer />
-      </div>
-    );
   }
 
   return (
@@ -207,6 +208,17 @@ export default function ChesslePage() {
             </button>
           </div>
 
+          {/* Play Again */}
+          <button
+            onClick={handlePlayAgain}
+            disabled={phase === "playing"}
+            className="w-full py-2 px-4 rounded-lg border border-white/10 text-sm font-semibold text-gray-300
+              hover:bg-white/5 hover:text-white transition-all
+              disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            Play Again
+          </button>
+
           {/* Inline load input */}
           {loadOpen && (
             <div className="flex gap-2 items-center">
@@ -261,13 +273,16 @@ export default function ChesslePage() {
 
       <Footer />
 
+      {/* Difficulty selector overlay — shown before first game */}
+      {showDifficultySelector && <DifficultySelect onSelect={handleNewGame} />}
+
       {/* End of game overlay */}
-      {!overlayDismissed && (
+      {!overlayDismissed && opening && openingIndex !== null && (
         <EndOfGame
           phase={phase}
           opening={opening}
           openingIndex={openingIndex}
-          onPlayAgain={() => playAgain()}
+          onPlayAgain={handlePlayAgain}
           onDismiss={() => setOverlayDismissed(true)}
         />
       )}
