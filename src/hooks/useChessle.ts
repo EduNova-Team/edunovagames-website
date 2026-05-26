@@ -1,6 +1,8 @@
 import { useState, useCallback, useEffect } from "react";
 import { Chess } from "chess.js";
 import openingsData from "@/data/chessle-openings.json";
+import difficultiesData from "@/data/chessle-difficulties.json";
+import type { Difficulty } from "@/components/chessle/DifficultySelect";
 
 // ─── Config (change here to propagate everywhere) ───────────────────────────
 export const HALF_MOVES_PER_GUESS = 10;
@@ -30,8 +32,19 @@ export type GamePhase = "playing" | "won" | "lost";
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 const openings = openingsData as Opening[];
+const difficultyMap = difficultiesData.difficulties as Record<string, Difficulty>;
 
-function pickRandomIndex(): number {
+// Pre-build index pools per difficulty so filtering is O(1) at pick time
+const difficultyPools: Record<Difficulty, number[]> = { easy: [], medium: [], hard: [] };
+for (const [idx, diff] of Object.entries(difficultyMap)) {
+  difficultyPools[diff].push(parseInt(idx));
+}
+
+function pickRandomIndex(difficulty?: Difficulty): number {
+  if (difficulty) {
+    const pool = difficultyPools[difficulty];
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
   return Math.floor(Math.random() * openings.length);
 }
 
@@ -96,7 +109,7 @@ function replayMoves(sans: string[]): Chess {
 }
 
 // ─── Hook ────────────────────────────────────────────────────────────────────
-export function useChessle(initialIndex?: number) {
+export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
   // ── Fix: initialize opening as null and set in useEffect so that random
   //    selection only ever happens on the client. This prevents the SSR/client
   //    hydration mismatch (server picks ECO "C39", client picks "E08", crash).
@@ -114,14 +127,14 @@ export function useChessle(initialIndex?: number) {
   //    never fires and the board stays stale).
   const [currentMoves, setCurrentMoves] = useState<string[]>([]);
 
-  // Pick opening on client only (avoids SSR/hydration mismatch).
-  // Uses initialIndex if provided, otherwise picks randomly.
+  // Only used when a specific opening is loaded by index (Share/Load feature).
+  // Difficulty-based selection is handled by playAgain() called from the page.
   useEffect(() => {
-    const idx = initialIndex !== undefined ? initialIndex : pickRandomIndex();
-    setOpening(getOpeningByIndex(idx));
-    setOpeningIndex(idx);
+    if (initialIndex === undefined) return;
+    setOpening(getOpeningByIndex(initialIndex));
+    setOpeningIndex(initialIndex);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [initialIndex]);
 
   /** Called by ChessBoard when a legal move is made */
   const onMove = useCallback(
@@ -276,9 +289,15 @@ export function useChessle(initialIndex?: number) {
     setPhase("won");
   }, [phase, opening, currentGuessIndex]);
 
-  /** Reset everything. Pass a specific index to load that opening, or omit for a new random one. */
-  const playAgain = useCallback((index?: number) => {
-    const idx = index !== undefined ? index : pickRandomIndex();
+  /**
+   * Reset everything for a new game.
+   * - Pass `index` to load a specific opening (Load-by-code feature).
+   * - Pass `newDifficulty` to pick randomly from that pool.
+   * - Omit both to re-use the current difficulty.
+   */
+  const playAgain = useCallback((index?: number, newDifficulty?: Difficulty) => {
+    const activeDifficulty = newDifficulty ?? difficulty;
+    const idx = index !== undefined ? index : pickRandomIndex(activeDifficulty);
     setOpening(getOpeningByIndex(idx));
     setOpeningIndex(idx);
     setChess(new Chess());
@@ -287,7 +306,7 @@ export function useChessle(initialIndex?: number) {
     setCurrentGuessIndex(0);
     setCurrentMoveIndex(0);
     setPhase("playing");
-  }, []);
+  }, [difficulty]);
 
   const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;
   const canFillGreen =
