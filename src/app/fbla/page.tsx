@@ -714,7 +714,7 @@ export default function FBLAPage() {
         <div className="text-center py-20">
           <h3 className="text-2xl font-bold mb-4">Questions Coming Soon!</h3>
           <p className="text-gray-400 mb-6">
-            We're preparing high-quality practice questions for {event?.title}.
+            We&apos;re preparing high-quality practice questions for {event?.title}.
             Check back soon!
           </p>
           <Button onClick={() => setShowConfig(false)}>

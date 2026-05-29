@@ -24,7 +24,7 @@ export interface GuessRow {
 export interface Opening {
   eco: string;
   name: string;
-  moves: string[]; // exactly 10 half-moves
+  moves: string[]; // variable length (≤ target depth); current dataset is 10 half-moves
   pgn: string;
 }
 
@@ -85,9 +85,9 @@ function evaluateGuess(guess: string[], target: string[]): TileColor[] {
   return colors;
 }
 
-function buildEmptyRow(): GuessRow {
+function buildEmptyRow(len: number): GuessRow {
   return {
-    tiles: Array.from({ length: HALF_MOVES_PER_GUESS }, () => ({
+    tiles: Array.from({ length: len }, () => ({
       move: "",
       color: "empty" as TileColor,
     })),
@@ -95,8 +95,8 @@ function buildEmptyRow(): GuessRow {
   };
 }
 
-function buildEmptyGrid(): GuessRow[] {
-  return Array.from({ length: MAX_GUESSES }, buildEmptyRow);
+function buildEmptyGrid(len: number): GuessRow[] {
+  return Array.from({ length: MAX_GUESSES }, () => buildEmptyRow(len));
 }
 
 /** Rebuild a Chess instance by replaying a sequence of SAN moves from scratch. */
@@ -109,14 +109,14 @@ function replayMoves(sans: string[]): Chess {
 }
 
 // ─── Hook ────────────────────────────────────────────────────────────────────
-export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
+export function useChessle(initialIndex?: number, difficulty?: Difficulty, targetDepth: number = HALF_MOVES_PER_GUESS) {
   // ── Fix: initialize opening as null and set in useEffect so that random
   //    selection only ever happens on the client. This prevents the SSR/client
   //    hydration mismatch (server picks ECO "C39", client picks "E08", crash).
   const [opening, setOpening] = useState<Opening | null>(null);
   const [openingIndex, setOpeningIndex] = useState<number | null>(null);
   const [chess, setChess] = useState<Chess>(() => new Chess());
-  const [grid, setGrid] = useState<GuessRow[]>(buildEmptyGrid);
+  const [grid, setGrid] = useState<GuessRow[]>([]);
   const [currentGuessIndex, setCurrentGuessIndex] = useState(0);
   const [currentMoveIndex, setCurrentMoveIndex] = useState(0);
   const [phase, setPhase] = useState<GamePhase>("playing");
@@ -127,12 +127,22 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
   //    never fires and the board stays stale).
   const [currentMoves, setCurrentMoves] = useState<string[]>([]);
 
+  // Derived: how many half-moves the current opening requires (0 while loading)
+  const lineLength = opening ? Math.min(opening.moves.length, targetDepth) : 0;
+
   // Only used when a specific opening is loaded by index (Share/Load feature).
   // Difficulty-based selection is handled by playAgain() called from the page.
   useEffect(() => {
     if (initialIndex === undefined) return;
-    setOpening(getOpeningByIndex(initialIndex));
+    const op = getOpeningByIndex(initialIndex);
+    setOpening(op);
     setOpeningIndex(initialIndex);
+    setChess(new Chess());
+    setGrid(buildEmptyGrid(op.moves.length));
+    setCurrentMoves([]);
+    setCurrentGuessIndex(0);
+    setCurrentMoveIndex(0);
+    setPhase("playing");
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialIndex]);
 
@@ -140,7 +150,7 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
   const onMove = useCallback(
     (san: string) => {
       if (phase !== "playing") return;
-      if (currentMoveIndex >= HALF_MOVES_PER_GUESS) return;
+      if (currentMoveIndex >= lineLength) return;
 
       setCurrentMoves((prev) => [...prev, san]);
       setGrid((prev) => {
@@ -153,18 +163,18 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
       });
       setCurrentMoveIndex((i) => i + 1);
     },
-    [phase, currentGuessIndex, currentMoveIndex]
+    [phase, currentGuessIndex, currentMoveIndex, lineLength]
   );
 
   /** Called when the player clicks Submit */
   const submitGuess = useCallback(() => {
     if (phase !== "playing") return;
-    if (currentMoveIndex < HALF_MOVES_PER_GUESS) return;
+    if (currentMoveIndex < lineLength) return;
     if (!opening) return;
 
     const currentRow = grid[currentGuessIndex];
-    const guessedMoves = currentRow.tiles.map((t) => t.move);
-    const colors = evaluateGuess(guessedMoves, opening.moves);
+    const guessedMoves = currentRow.tiles.slice(0, lineLength).map((t) => t.move);
+    const colors = evaluateGuess(guessedMoves, opening.moves.slice(0, lineLength));
 
     const updatedTiles: TileFeedback[] = guessedMoves.map((move, i) => ({
       move,
@@ -191,7 +201,7 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
       // New Chess instance for the next guess row
       setChess(new Chess());
     }
-  }, [phase, currentMoveIndex, currentGuessIndex, grid, opening]);
+  }, [phase, currentMoveIndex, currentGuessIndex, grid, opening, lineLength, targetDepth]);
 
   /**
    * Undo the last move in the current (unsubmitted) guess.
@@ -236,7 +246,7 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
 
     // Collect the consecutive green run from currentMoveIndex
     const greenMoves: string[] = [];
-    for (let i = currentMoveIndex; i < HALF_MOVES_PER_GUESS; i++) {
+    for (let i = currentMoveIndex; i < lineLength; i++) {
       if (prevRow.tiles[i].color === "green") {
         greenMoves.push(prevRow.tiles[i].move);
       } else {
@@ -262,7 +272,7 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
       return next;
     });
     setCurrentMoveIndex((idx) => idx + greenMoves.length);
-  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid]);
+  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid, lineLength]);
 
   /**
    * Secret solver: instantly fills the current row with the correct moves
@@ -272,22 +282,23 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
     if (phase !== "playing") return;
     if (!opening) return;
 
-    const colors = evaluateGuess(opening.moves, opening.moves); // all green
-    const solvedTiles: TileFeedback[] = opening.moves.map((move, i) => ({
+    const targetMoves = opening.moves.slice(0, lineLength);
+    const colors = evaluateGuess(targetMoves, targetMoves); // all green
+    const solvedTiles: TileFeedback[] = targetMoves.map((move, i) => ({
       move,
       color: colors[i],
     }));
 
-    setChess(replayMoves(opening.moves));
-    setCurrentMoves(opening.moves);
-    setCurrentMoveIndex(HALF_MOVES_PER_GUESS);
+    setChess(replayMoves(targetMoves));
+    setCurrentMoves(targetMoves);
+    setCurrentMoveIndex(lineLength);
     setGrid((prev) => {
       const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
       next[currentGuessIndex] = { tiles: solvedTiles, submitted: true };
       return next;
     });
     setPhase("won");
-  }, [phase, opening, currentGuessIndex]);
+  }, [phase, opening, currentGuessIndex, lineLength, targetDepth]);
 
   /**
    * Reset everything for a new game.
@@ -298,10 +309,11 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
   const playAgain = useCallback((index?: number, newDifficulty?: Difficulty) => {
     const activeDifficulty = newDifficulty ?? difficulty;
     const idx = index !== undefined ? index : pickRandomIndex(activeDifficulty);
-    setOpening(getOpeningByIndex(idx));
+    const op = getOpeningByIndex(idx);
+    setOpening(op);
     setOpeningIndex(idx);
     setChess(new Chess());
-    setGrid(buildEmptyGrid());
+    setGrid(buildEmptyGrid(op.moves.length));
     setCurrentMoves([]);
     setCurrentGuessIndex(0);
     setCurrentMoveIndex(0);
@@ -311,7 +323,8 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
   const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;
   const canFillGreen =
     phase === "playing" &&
-    currentMoveIndex < HALF_MOVES_PER_GUESS &&
+    lineLength > 0 &&
+    currentMoveIndex < lineLength &&
     prevRow?.submitted === true &&
     prevRow.tiles[currentMoveIndex]?.color === "green";
 
@@ -323,13 +336,14 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty) {
     currentGuessIndex,
     currentMoveIndex,
     phase,
+    lineLength,
     onMove,
     submitGuess,
     undoMove,
     fillGreen,
     cheatSolve,
     playAgain,
-    canSubmit: currentMoveIndex === HALF_MOVES_PER_GUESS && phase === "playing",
+    canSubmit: lineLength > 0 && currentMoveIndex === lineLength && phase === "playing",
     canUndo: currentMoveIndex > 0 && phase === "playing",
     canFillGreen,
   };

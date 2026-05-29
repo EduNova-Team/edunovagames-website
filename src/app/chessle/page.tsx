@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GuessGrid from "@/components/chessle/GuessGrid";
 import EndOfGame from "@/components/chessle/EndOfGame";
-import { useChessle, HALF_MOVES_PER_GUESS, MAX_GUESSES } from "@/hooks/useChessle";
+import { useChessle, MAX_GUESSES, HALF_MOVES_PER_GUESS } from "@/hooks/useChessle";
 import { encodeOpeningIndex, decodeOpeningCode } from "@/lib/chessle-ids";
 import DifficultySelect, { type Difficulty } from "@/components/chessle/DifficultySelect";
 
@@ -23,8 +23,9 @@ const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
 
 export default function ChesslePage() {
   const [difficulty, setDifficulty] = useState<Difficulty | undefined>(undefined);
-  const [showDifficultySelector, setShowDifficultySelector] = useState(true);
+  const [showSetup, setShowSetup] = useState(true);
   const [loadIndex, setLoadIndex] = useState<number | undefined>(undefined);
+  const [targetDepth, setTargetDepth] = useState(HALF_MOVES_PER_GUESS);
 
   const {
     opening,
@@ -34,6 +35,7 @@ export default function ChesslePage() {
     currentGuessIndex,
     currentMoveIndex,
     phase,
+    lineLength,
     onMove,
     submitGuess,
     undoMove,
@@ -43,7 +45,7 @@ export default function ChesslePage() {
     canSubmit,
     canUndo,
     canFillGreen,
-  } = useChessle(loadIndex, difficulty);
+  } = useChessle(loadIndex, difficulty, targetDepth);
 
   const [overlayDismissed, setOverlayDismissed] = useState(false);
   const [copyLabel, setCopyLabel] = useState("Share");
@@ -66,18 +68,18 @@ export default function ChesslePage() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [canUndo, undoMove]);
 
-
-  // Called by DifficultySelect when the player picks a difficulty (initial or replay)
-  function handleNewGame(newDifficulty: Difficulty) {
+  // Called by the setup overlay when the player confirms difficulty + depth
+  function handleStart(newDifficulty: Difficulty, newDepth: number) {
     setDifficulty(newDifficulty);
-    setShowDifficultySelector(false);
+    setTargetDepth(newDepth);
+    setShowSetup(false);
     playAgain(undefined, newDifficulty);
   }
 
-  // Called by any "Play Again" button — shows the selector without clearing difficulty
+  // Called by any "Play Again" button — shows the setup overlay again
   function handlePlayAgain() {
     setOverlayDismissed(true);
-    setShowDifficultySelector(true);
+    setShowSetup(true);
   }
 
   function handleShare() {
@@ -109,8 +111,6 @@ export default function ChesslePage() {
       return;
     }
     setLoadIndex(idx);
-    // Reload the hook by remounting via key — simplest way to reset all state
-    // when loadIndex changes. We trigger playAgain with the decoded index instead.
     playAgain(idx);
     setLoadOpen(false);
     setLoadInput("");
@@ -130,7 +130,7 @@ export default function ChesslePage() {
         </div>
 
         {/* Status bar */}
-        <div className="flex items-center gap-3 text-xs text-gray-400 font-mono">
+        <div className="flex items-center gap-3 text-xs text-gray-400 font-mono w-full" style={{ maxWidth: "min(540px, 95vw)" }}>
           <span>
             Guess{" "}
             <span className="text-white font-semibold">{currentGuessIndex + 1}</span>
@@ -138,12 +138,15 @@ export default function ChesslePage() {
           </span>
           <span>
             {phase === "playing"
-              ? currentMoveIndex === HALF_MOVES_PER_GUESS
+              ? lineLength > 0 && currentMoveIndex === lineLength
                 ? "Row full — press Submit"
                 : ""
               : phase === "won"
               ? "🎉 Solved!"
               : "Game over"}
+          </span>
+          <span className="ml-auto text-gray-500">
+            <span className="text-white font-semibold">{targetDepth}</span> moves
           </span>
         </div>
 
@@ -151,7 +154,7 @@ export default function ChesslePage() {
         <ChessBoard
           chess={chess}
           onMove={onMove}
-          disabled={phase !== "playing" || currentMoveIndex >= HALF_MOVES_PER_GUESS}
+          disabled={phase !== "playing" || currentMoveIndex >= lineLength}
         />
 
         {/* Primary controls */}
@@ -252,7 +255,7 @@ export default function ChesslePage() {
         </div>
 
         {/* Guess grid */}
-        <GuessGrid grid={grid} currentGuessIndex={currentGuessIndex} />
+        <GuessGrid grid={grid} currentGuessIndex={currentGuessIndex} lineLength={lineLength} />
 
         {/* Legend */}
         <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -273,8 +276,8 @@ export default function ChesslePage() {
 
       <Footer />
 
-      {/* Difficulty selector overlay — shown before first game */}
-      {showDifficultySelector && <DifficultySelect onSelect={handleNewGame} />}
+      {/* Setup overlay — shown before first game and on Play Again */}
+      {showSetup && <DifficultySelect onStart={handleStart} />}
 
       {/* End of game overlay */}
       {!overlayDismissed && opening && openingIndex !== null && (
@@ -282,6 +285,7 @@ export default function ChesslePage() {
           phase={phase}
           opening={opening}
           openingIndex={openingIndex}
+          lineLength={lineLength}
           onPlayAgain={handlePlayAgain}
           onDismiss={() => setOverlayDismissed(true)}
         />
