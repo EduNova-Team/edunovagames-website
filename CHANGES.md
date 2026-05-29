@@ -3,6 +3,10 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
+## Session 5 - TBD
+
+** Goal: Branch out functionality to other variants and optimize search. Search right now is ineffective because it does BFS for each length. I want DFS that traces each opening tree while considering the number of half-moves it plays is much more effective. 
+
 ## Session 4 — May 27–29, 2026
 
 **Lichess Masters opening tree crawler (`scripts/fetch-opening-tree.mjs`)**
