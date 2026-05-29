@@ -1,14 +1,12 @@
 "use client";
 
-import { HALF_MOVES_PER_GUESS, MAX_GUESSES } from "@/hooks/useChessle";
+import { MAX_GUESSES } from "@/hooks/useChessle";
 import type { GuessRow, TileColor } from "@/hooks/useChessle";
-
-// HALF_MOVES_PER_GUESS must be even (pairs of white + black)
-const FULL_MOVES = HALF_MOVES_PER_GUESS / 2; // 5
 
 interface GuessGridProps {
   grid: GuessRow[];
   currentGuessIndex: number;
+  lineLength: number;
 }
 
 function tileStyle(color: TileColor, isActiveRow: boolean): string {
@@ -49,7 +47,10 @@ function Tile({ move, color, isActiveRow }: TileProps) {
   );
 }
 
-export default function GuessGrid({ grid, currentGuessIndex }: GuessGridProps) {
+export default function GuessGrid({ grid, currentGuessIndex, lineLength }: GuessGridProps) {
+  // When lineLength is 0 (opening not yet loaded), render nothing
+  const FULL_MOVES = Math.ceil(lineLength / 2);
+
   return (
     <div className="flex flex-col gap-2 w-full items-center">
       {Array.from({ length: MAX_GUESSES }, (_, rowIdx) => {
@@ -66,6 +67,8 @@ export default function GuessGrid({ grid, currentGuessIndex }: GuessGridProps) {
               const blackIdx = fullMoveIdx * 2 + 1;
               const whiteTile = row?.tiles[whiteIdx] ?? { move: "", color: "empty" as TileColor };
               const blackTile = row?.tiles[blackIdx] ?? { move: "", color: "empty" as TileColor };
+              // When lineLength is odd, the last full-move group has no black tile
+              const hasBlackTile = blackIdx < lineLength;
 
               return (
                 <div key={fullMoveIdx} className="flex items-center gap-1">
@@ -81,12 +84,14 @@ export default function GuessGrid({ grid, currentGuessIndex }: GuessGridProps) {
                     isActiveRow={isActiveRow}
                   />
 
-                  {/* Black tile */}
-                  <Tile
-                    move={blackTile.move}
-                    color={blackTile.color}
-                    isActiveRow={isActiveRow}
-                  />
+                  {/* Black tile — omitted when lineLength is odd and this is the last pair */}
+                  {hasBlackTile && (
+                    <Tile
+                      move={blackTile.move}
+                      color={blackTile.color}
+                      isActiveRow={isActiveRow}
+                    />
+                  )}
                 </div>
               );
             })}

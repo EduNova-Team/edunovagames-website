@@ -6,17 +6,29 @@ interface EndOfGameProps {
   phase: GamePhase;
   opening: Opening;
   openingIndex: number;
+  lineLength: number;
   onPlayAgain: () => void;
   onDismiss: () => void;
 }
 
-export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, onPlayAgain, onDismiss }: EndOfGameProps) {
+function buildPgn(moves: string[]): string {
+  const parts: string[] = [];
+  for (let i = 0; i < moves.length; i++) {
+    if (i % 2 === 0) parts.push(`${Math.floor(i / 2) + 1}. ${moves[i]}`);
+    else parts.push(moves[i]);
+  }
+  return parts.join(" ");
+}
+
+export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, lineLength, onPlayAgain, onDismiss }: EndOfGameProps) {
   if (phase === "playing") return null;
 
   const won = phase === "won";
 
-  // Build Lichess opening explorer URL from the move sequence
-  const lichessUrl = `https://lichess.org/analysis/pgn/${encodeURIComponent(opening.pgn)}#explorer`;
+  // Truncate to the moves actually played (lineLength may be < opening.moves.length)
+  const displayMoves = opening.moves.slice(0, lineLength);
+  const pgn = displayMoves.length === opening.moves.length ? opening.pgn : buildPgn(displayMoves);
+  const lichessUrl = `https://lichess.org/analysis/pgn/${encodeURIComponent(pgn)}#explorer`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
@@ -58,13 +70,15 @@ export default function EndOfGame({ phase, opening, openingIndex: _openingIndex,
           {/* Opening info */}
           <div className="w-full rounded-xl bg-white/5 border border-white/10 p-4 text-left">
             <p className="text-xs text-indigo-300 font-mono uppercase tracking-widest mb-1">
-              {opening.eco}
+              {opening.eco || "—"}
             </p>
-            <p className="text-white font-semibold text-base leading-snug">{opening.name}</p>
+            <p className="text-white font-semibold text-base leading-snug">
+              {opening.name || opening.pgn || "Unnamed line"}
+            </p>
 
             {/* Move sequence */}
             <div className="mt-3 flex flex-wrap gap-1.5">
-              {opening.moves.map((move, i) => (
+              {displayMoves.map((move, i) => (
                 <span
                   key={i}
                   className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded bg-white/10 text-gray-200 font-mono"

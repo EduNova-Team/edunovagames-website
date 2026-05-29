@@ -6,7 +6,6 @@ import { Chessground } from "@lichess-org/chessground";
 
 // Chessground type aliases (avoids subpath import issues with bundler moduleResolution)
 type Key = string; // e.g. "e2", "e4"
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Api = any;
 
 interface ChessBoardProps {

@@ -1,0 +1,981 @@
+=== Lichess Masters Opening Tree Crawler ===
+Config: {"minGames":100,"maxPly":40,"variant":"standard","out":"/Users/fixadmin/edunovagames-website/src/data/chessle-tree.json"}
+Output: /Users/fixadmin/edunovagames-website/src/data/chessle-tree.json
+Loaded 10358 cached positions from /Users/fixadmin/edunovagames-website/scripts/.opening-tree-cache.json
+Root games: 2,879,587
+Depth-1 qualifying moves: 12
+
+--- Depth 1 — processing 12 nodes ---
+  Depth 1: expanded 12  |  network 0, cache 12  |  cumulative 12 positions, 0 terminal lines
+  Next frontier size: 83
+
+--- Depth 2 — processing 83 nodes ---
+  Depth 2: expanded 83  |  network 0, cache 83  |  cumulative 95 positions, 0 terminal lines
+  Next frontier size: 211
+
+--- Depth 3 — processing 211 nodes ---
+  Depth 3: expanded 211  |  network 0, cache 211  |  cumulative 306 positions, 12 terminal lines
+  Next frontier size: 453
+
+--- Depth 4 — processing 453 nodes ---
+  Depth 4: expanded 453  |  network 0, cache 453  |  cumulative 759 positions, 38 terminal lines
+  Next frontier size: 764
+
+--- Depth 5 — processing 764 nodes ---
+  Depth 5: expanded 764  |  network 0, cache 764  |  cumulative 1,523 positions, 84 terminal lines
+  Next frontier size: 1175
+
+--- Depth 6 — processing 1175 nodes ---
+  Depth 6: expanded 1175  |  network 0, cache 1175  |  cumulative 2,698 positions, 193 terminal lines
+  Next frontier size: 1536
+
+--- Depth 7 — processing 1536 nodes ---
+  Depth 7: expanded 1536  |  network 0, cache 1536  |  cumulative 4,234 positions, 366 terminal lines
+  Next frontier size: 1915
+
+--- Depth 8 — processing 1915 nodes ---
+  Depth 8: expanded 1915  |  network 0, cache 1915  |  cumulative 6,149 positions, 646 terminal lines
+  Next frontier size: 2256
+
+--- Depth 9 — processing 2256 nodes ---
+  Depth 9: expanded 2256  |  network 0, cache 2256  |  cumulative 8,405 positions, 963 terminal lines
+  Next frontier size: 2577
+
+--- Depth 10 — processing 2577 nodes ---
+    …depth 10: 2002/2577 nodes processed  |  running total: 10,407 positions, 1,390 terminal lines
+    …depth 10: 2052/2577 nodes processed  |  running total: 10,457 positions, 1,390 terminal lines
+    …depth 10: 2102/2577 nodes processed  |  running total: 10,507 positions, 1,390 terminal lines
+    …depth 10: 2152/2577 nodes processed  |  running total: 10,557 positions, 1,390 terminal lines
+    …depth 10: 2202/2577 nodes processed  |  running total: 10,607 positions, 1,390 terminal lines
+    …depth 10: 2252/2577 nodes processed  |  running total: 10,657 positions, 1,390 terminal lines
+    …depth 10: 2302/2577 nodes processed  |  running total: 10,707 positions, 1,390 terminal lines
+    …depth 10: 2352/2577 nodes processed  |  running total: 10,757 positions, 1,390 terminal lines
+    …depth 10: 2402/2577 nodes processed  |  running total: 10,807 positions, 1,390 terminal lines
+    …depth 10: 2452/2577 nodes processed  |  running total: 10,857 positions, 1,390 terminal lines
+    …depth 10: 2502/2577 nodes processed  |  running total: 10,907 positions, 1,390 terminal lines
+    …depth 10: 2552/2577 nodes processed  |  running total: 10,957 positions, 1,390 terminal lines
+  Depth 10: expanded 2577  |  network 625, cache 1952  |  cumulative 10,982 positions, 1,390 terminal lines
+  Next frontier size: 2817
+
+--- Depth 11 — processing 2817 nodes ---
+    …depth 11: 50/2817 nodes processed  |  running total: 11,032 positions, 1,893 terminal lines
+    …depth 11: 100/2817 nodes processed  |  running total: 11,082 positions, 1,893 terminal lines
+    …depth 11: 150/2817 nodes processed  |  running total: 11,132 positions, 1,893 terminal lines
+    …depth 11: 200/2817 nodes processed  |  running total: 11,182 positions, 1,893 terminal lines
+    …depth 11: 250/2817 nodes processed  |  running total: 11,232 positions, 1,893 terminal lines
+    …depth 11: 300/2817 nodes processed  |  running total: 11,282 positions, 1,893 terminal lines
+    …depth 11: 350/2817 nodes processed  |  running total: 11,332 positions, 1,893 terminal lines
+    …depth 11: 400/2817 nodes processed  |  running total: 11,382 positions, 1,893 terminal lines
+    …depth 11: 450/2817 nodes processed  |  running total: 11,432 positions, 1,893 terminal lines
+    …depth 11: 500/2817 nodes processed  |  running total: 11,482 positions, 1,893 terminal lines
+    …depth 11: 550/2817 nodes processed  |  running total: 11,532 positions, 1,893 terminal lines
+    …depth 11: 600/2817 nodes processed  |  running total: 11,582 positions, 1,893 terminal lines
+    …depth 11: 650/2817 nodes processed  |  running total: 11,632 positions, 1,893 terminal lines
+    …depth 11: 700/2817 nodes processed  |  running total: 11,682 positions, 1,893 terminal lines
+    …depth 11: 750/2817 nodes processed  |  running total: 11,732 positions, 1,893 terminal lines
+    …depth 11: 800/2817 nodes processed  |  running total: 11,782 positions, 1,893 terminal lines
+    …depth 11: 850/2817 nodes processed  |  running total: 11,832 positions, 1,893 terminal lines
+    …depth 11: 900/2817 nodes processed  |  running total: 11,882 positions, 1,893 terminal lines
+    …depth 11: 950/2817 nodes processed  |  running total: 11,932 positions, 1,893 terminal lines
+    …depth 11: 1000/2817 nodes processed  |  running total: 11,982 positions, 1,893 terminal lines
+    …depth 11: 1050/2817 nodes processed  |  running total: 12,032 positions, 1,893 terminal lines
+    …depth 11: 1100/2817 nodes processed  |  running total: 12,082 positions, 1,893 terminal lines
+    …depth 11: 1150/2817 nodes processed  |  running total: 12,132 positions, 1,893 terminal lines
+    …depth 11: 1200/2817 nodes processed  |  running total: 12,182 positions, 1,893 terminal lines
+    …depth 11: 1250/2817 nodes processed  |  running total: 12,232 positions, 1,893 terminal lines
+    …depth 11: 1300/2817 nodes processed  |  running total: 12,282 positions, 1,893 terminal lines
+    …depth 11: 1350/2817 nodes processed  |  running total: 12,332 positions, 1,893 terminal lines
+    …depth 11: 1400/2817 nodes processed  |  running total: 12,382 positions, 1,893 terminal lines
+    …depth 11: 1450/2817 nodes processed  |  running total: 12,432 positions, 1,893 terminal lines
+    …depth 11: 1500/2817 nodes processed  |  running total: 12,482 positions, 1,893 terminal lines
+    …depth 11: 1550/2817 nodes processed  |  running total: 12,532 positions, 1,893 terminal lines
+    …depth 11: 1600/2817 nodes processed  |  running total: 12,582 positions, 1,893 terminal lines
+    …depth 11: 1650/2817 nodes processed  |  running total: 12,632 positions, 1,893 terminal lines
+    …depth 11: 1700/2817 nodes processed  |  running total: 12,682 positions, 1,893 terminal lines
+    …depth 11: 1750/2817 nodes processed  |  running total: 12,732 positions, 1,893 terminal lines
+    …depth 11: 1800/2817 nodes processed  |  running total: 12,782 positions, 1,893 terminal lines
+    …depth 11: 1850/2817 nodes processed  |  running total: 12,832 positions, 1,893 terminal lines
+    …depth 11: 1900/2817 nodes processed  |  running total: 12,882 positions, 1,893 terminal lines
+    …depth 11: 1950/2817 nodes processed  |  running total: 12,932 positions, 1,893 terminal lines
+    …depth 11: 2000/2817 nodes processed  |  running total: 12,982 positions, 1,893 terminal lines
+    …depth 11: 2050/2817 nodes processed  |  running total: 13,032 positions, 1,893 terminal lines
+    …depth 11: 2100/2817 nodes processed  |  running total: 13,082 positions, 1,893 terminal lines
+    …depth 11: 2150/2817 nodes processed  |  running total: 13,132 positions, 1,893 terminal lines
+    …depth 11: 2200/2817 nodes processed  |  running total: 13,182 positions, 1,893 terminal lines
+    …depth 11: 2250/2817 nodes processed  |  running total: 13,232 positions, 1,893 terminal lines
+    …depth 11: 2300/2817 nodes processed  |  running total: 13,282 positions, 1,893 terminal lines
+    …depth 11: 2350/2817 nodes processed  |  running total: 13,332 positions, 1,893 terminal lines
+    …depth 11: 2400/2817 nodes processed  |  running total: 13,382 positions, 1,893 terminal lines
+    …depth 11: 2450/2817 nodes processed  |  running total: 13,432 positions, 1,893 terminal lines
+    …depth 11: 2500/2817 nodes processed  |  running total: 13,482 positions, 1,893 terminal lines
+    …depth 11: 2550/2817 nodes processed  |  running total: 13,532 positions, 1,893 terminal lines
+    …depth 11: 2600/2817 nodes processed  |  running total: 13,582 positions, 1,893 terminal lines
+    …depth 11: 2650/2817 nodes processed  |  running total: 13,632 positions, 1,893 terminal lines
+    …depth 11: 2700/2817 nodes processed  |  running total: 13,682 positions, 1,893 terminal lines
+    …depth 11: 2750/2817 nodes processed  |  running total: 13,732 positions, 1,893 terminal lines
+    …depth 11: 2800/2817 nodes processed  |  running total: 13,782 positions, 1,893 terminal lines
+  Depth 11: expanded 2817  |  network 2817, cache 0  |  cumulative 13,799 positions, 1,893 terminal lines
+  Next frontier size: 3064
+
+--- Depth 12 — processing 3064 nodes ---
+    …depth 12: 50/3064 nodes processed  |  running total: 13,849 positions, 2,439 terminal lines
+    …depth 12: 100/3064 nodes processed  |  running total: 13,899 positions, 2,439 terminal lines
+    …depth 12: 150/3064 nodes processed  |  running total: 13,949 positions, 2,439 terminal lines
+    …depth 12: 200/3064 nodes processed  |  running total: 13,999 positions, 2,439 terminal lines
+    …depth 12: 250/3064 nodes processed  |  running total: 14,049 positions, 2,439 terminal lines
+    …depth 12: 300/3064 nodes processed  |  running total: 14,099 positions, 2,439 terminal lines
+    …depth 12: 350/3064 nodes processed  |  running total: 14,149 positions, 2,439 terminal lines
+    …depth 12: 400/3064 nodes processed  |  running total: 14,199 positions, 2,439 terminal lines
+    …depth 12: 450/3064 nodes processed  |  running total: 14,249 positions, 2,439 terminal lines
+    …depth 12: 500/3064 nodes processed  |  running total: 14,299 positions, 2,439 terminal lines
+    …depth 12: 550/3064 nodes processed  |  running total: 14,349 positions, 2,439 terminal lines
+    …depth 12: 600/3064 nodes processed  |  running total: 14,399 positions, 2,439 terminal lines
+    …depth 12: 650/3064 nodes processed  |  running total: 14,449 positions, 2,439 terminal lines
+    …depth 12: 700/3064 nodes processed  |  running total: 14,499 positions, 2,439 terminal lines
+    …depth 12: 750/3064 nodes processed  |  running total: 14,549 positions, 2,439 terminal lines
+    …depth 12: 800/3064 nodes processed  |  running total: 14,599 positions, 2,439 terminal lines
+    …depth 12: 850/3064 nodes processed  |  running total: 14,649 positions, 2,439 terminal lines
+    …depth 12: 900/3064 nodes processed  |  running total: 14,699 positions, 2,439 terminal lines
+    …depth 12: 950/3064 nodes processed  |  running total: 14,749 positions, 2,439 terminal lines
+    …depth 12: 1000/3064 nodes processed  |  running total: 14,799 positions, 2,439 terminal lines
+    …depth 12: 1050/3064 nodes processed  |  running total: 14,849 positions, 2,439 terminal lines
+    …depth 12: 1100/3064 nodes processed  |  running total: 14,899 positions, 2,439 terminal lines
+    …depth 12: 1150/3064 nodes processed  |  running total: 14,949 positions, 2,439 terminal lines
+    …depth 12: 1200/3064 nodes processed  |  running total: 14,999 positions, 2,439 terminal lines
+    …depth 12: 1250/3064 nodes processed  |  running total: 15,049 positions, 2,439 terminal lines
+    …depth 12: 1300/3064 nodes processed  |  running total: 15,099 positions, 2,439 terminal lines
+    …depth 12: 1350/3064 nodes processed  |  running total: 15,149 positions, 2,439 terminal lines
+    …depth 12: 1400/3064 nodes processed  |  running total: 15,199 positions, 2,439 terminal lines
+    …depth 12: 1450/3064 nodes processed  |  running total: 15,249 positions, 2,439 terminal lines
+    …depth 12: 1500/3064 nodes processed  |  running total: 15,299 positions, 2,439 terminal lines
+    …depth 12: 1550/3064 nodes processed  |  running total: 15,349 positions, 2,439 terminal lines
+    …depth 12: 1600/3064 nodes processed  |  running total: 15,399 positions, 2,439 terminal lines
+    …depth 12: 1650/3064 nodes processed  |  running total: 15,449 positions, 2,439 terminal lines
+    …depth 12: 1700/3064 nodes processed  |  running total: 15,499 positions, 2,439 terminal lines
+    …depth 12: 1750/3064 nodes processed  |  running total: 15,549 positions, 2,439 terminal lines
+    …depth 12: 1800/3064 nodes processed  |  running total: 15,599 positions, 2,439 terminal lines
+    …depth 12: 1850/3064 nodes processed  |  running total: 15,649 positions, 2,439 terminal lines
+    …depth 12: 1900/3064 nodes processed  |  running total: 15,699 positions, 2,439 terminal lines
+    …depth 12: 1950/3064 nodes processed  |  running total: 15,749 positions, 2,439 terminal lines
+    …depth 12: 2000/3064 nodes processed  |  running total: 15,799 positions, 2,439 terminal lines
+    …depth 12: 2050/3064 nodes processed  |  running total: 15,849 positions, 2,439 terminal lines
+    …depth 12: 2100/3064 nodes processed  |  running total: 15,899 positions, 2,439 terminal lines
+    …depth 12: 2150/3064 nodes processed  |  running total: 15,949 positions, 2,439 terminal lines
+    …depth 12: 2200/3064 nodes processed  |  running total: 15,999 positions, 2,439 terminal lines
+    …depth 12: 2250/3064 nodes processed  |  running total: 16,049 positions, 2,439 terminal lines
+    …depth 12: 2300/3064 nodes processed  |  running total: 16,099 positions, 2,439 terminal lines
+    …depth 12: 2350/3064 nodes processed  |  running total: 16,149 positions, 2,439 terminal lines
+    …depth 12: 2400/3064 nodes processed  |  running total: 16,199 positions, 2,439 terminal lines
+    …depth 12: 2450/3064 nodes processed  |  running total: 16,249 positions, 2,439 terminal lines
+    …depth 12: 2500/3064 nodes processed  |  running total: 16,299 positions, 2,439 terminal lines
+    …depth 12: 2550/3064 nodes processed  |  running total: 16,349 positions, 2,439 terminal lines
+    …depth 12: 2600/3064 nodes processed  |  running total: 16,399 positions, 2,439 terminal lines
+    …depth 12: 2650/3064 nodes processed  |  running total: 16,449 positions, 2,439 terminal lines
+    …depth 12: 2700/3064 nodes processed  |  running total: 16,499 positions, 2,439 terminal lines
+    …depth 12: 2750/3064 nodes processed  |  running total: 16,549 positions, 2,439 terminal lines
+    …depth 12: 2800/3064 nodes processed  |  running total: 16,599 positions, 2,439 terminal lines
+    …depth 12: 2850/3064 nodes processed  |  running total: 16,649 positions, 2,439 terminal lines
+    …depth 12: 2900/3064 nodes processed  |  running total: 16,699 positions, 2,439 terminal lines
+    …depth 12: 2950/3064 nodes processed  |  running total: 16,749 positions, 2,439 terminal lines
+    …depth 12: 3000/3064 nodes processed  |  running total: 16,799 positions, 2,439 terminal lines
+    …depth 12: 3050/3064 nodes processed  |  running total: 16,849 positions, 2,439 terminal lines
+  Depth 12: expanded 3064  |  network 3064, cache 0  |  cumulative 16,863 positions, 2,439 terminal lines
+  Next frontier size: 3070
+
+--- Depth 13 — processing 3070 nodes ---
+    …depth 13: 50/3070 nodes processed  |  running total: 16,913 positions, 3,086 terminal lines
+    …depth 13: 100/3070 nodes processed  |  running total: 16,963 positions, 3,086 terminal lines
+    …depth 13: 150/3070 nodes processed  |  running total: 17,013 positions, 3,086 terminal lines
+    …depth 13: 200/3070 nodes processed  |  running total: 17,063 positions, 3,086 terminal lines
+    …depth 13: 250/3070 nodes processed  |  running total: 17,113 positions, 3,086 terminal lines
+    …depth 13: 300/3070 nodes processed  |  running total: 17,163 positions, 3,086 terminal lines
+    …depth 13: 350/3070 nodes processed  |  running total: 17,213 positions, 3,086 terminal lines
+    …depth 13: 400/3070 nodes processed  |  running total: 17,263 positions, 3,086 terminal lines
+    …depth 13: 450/3070 nodes processed  |  running total: 17,313 positions, 3,086 terminal lines
+    …depth 13: 500/3070 nodes processed  |  running total: 17,363 positions, 3,086 terminal lines
+    …depth 13: 550/3070 nodes processed  |  running total: 17,413 positions, 3,086 terminal lines
+    …depth 13: 600/3070 nodes processed  |  running total: 17,463 positions, 3,086 terminal lines
+    …depth 13: 650/3070 nodes processed  |  running total: 17,513 positions, 3,086 terminal lines
+    …depth 13: 700/3070 nodes processed  |  running total: 17,563 positions, 3,086 terminal lines
+    …depth 13: 750/3070 nodes processed  |  running total: 17,613 positions, 3,086 terminal lines
+    …depth 13: 800/3070 nodes processed  |  running total: 17,663 positions, 3,086 terminal lines
+    …depth 13: 850/3070 nodes processed  |  running total: 17,713 positions, 3,086 terminal lines
+    …depth 13: 900/3070 nodes processed  |  running total: 17,763 positions, 3,086 terminal lines
+    …depth 13: 950/3070 nodes processed  |  running total: 17,813 positions, 3,086 terminal lines
+    …depth 13: 1000/3070 nodes processed  |  running total: 17,863 positions, 3,086 terminal lines
+    …depth 13: 1050/3070 nodes processed  |  running total: 17,913 positions, 3,086 terminal lines
+    …depth 13: 1100/3070 nodes processed  |  running total: 17,963 positions, 3,086 terminal lines
+    …depth 13: 1150/3070 nodes processed  |  running total: 18,013 positions, 3,086 terminal lines
+    …depth 13: 1200/3070 nodes processed  |  running total: 18,063 positions, 3,086 terminal lines
+    …depth 13: 1250/3070 nodes processed  |  running total: 18,113 positions, 3,086 terminal lines
+    …depth 13: 1300/3070 nodes processed  |  running total: 18,163 positions, 3,086 terminal lines
+    …depth 13: 1350/3070 nodes processed  |  running total: 18,213 positions, 3,086 terminal lines
+    …depth 13: 1400/3070 nodes processed  |  running total: 18,263 positions, 3,086 terminal lines
+    …depth 13: 1450/3070 nodes processed  |  running total: 18,313 positions, 3,086 terminal lines
+    …depth 13: 1500/3070 nodes processed  |  running total: 18,363 positions, 3,086 terminal lines
+    …depth 13: 1550/3070 nodes processed  |  running total: 18,413 positions, 3,086 terminal lines
+    …depth 13: 1600/3070 nodes processed  |  running total: 18,463 positions, 3,086 terminal lines
+    …depth 13: 1650/3070 nodes processed  |  running total: 18,513 positions, 3,086 terminal lines
+    …depth 13: 1700/3070 nodes processed  |  running total: 18,563 positions, 3,086 terminal lines
+    …depth 13: 1750/3070 nodes processed  |  running total: 18,613 positions, 3,086 terminal lines
+    …depth 13: 1800/3070 nodes processed  |  running total: 18,663 positions, 3,086 terminal lines
+    …depth 13: 1850/3070 nodes processed  |  running total: 18,713 positions, 3,086 terminal lines
+    …depth 13: 1900/3070 nodes processed  |  running total: 18,763 positions, 3,086 terminal lines
+    …depth 13: 1950/3070 nodes processed  |  running total: 18,813 positions, 3,086 terminal lines
+    …depth 13: 2000/3070 nodes processed  |  running total: 18,863 positions, 3,086 terminal lines
+    …depth 13: 2050/3070 nodes processed  |  running total: 18,913 positions, 3,086 terminal lines
+    …depth 13: 2100/3070 nodes processed  |  running total: 18,963 positions, 3,086 terminal lines
+    …depth 13: 2150/3070 nodes processed  |  running total: 19,013 positions, 3,086 terminal lines
+    …depth 13: 2200/3070 nodes processed  |  running total: 19,063 positions, 3,086 terminal lines
+    …depth 13: 2250/3070 nodes processed  |  running total: 19,113 positions, 3,086 terminal lines
+    …depth 13: 2300/3070 nodes processed  |  running total: 19,163 positions, 3,086 terminal lines
+    …depth 13: 2350/3070 nodes processed  |  running total: 19,213 positions, 3,086 terminal lines
+    …depth 13: 2400/3070 nodes processed  |  running total: 19,263 positions, 3,086 terminal lines
+    …depth 13: 2450/3070 nodes processed  |  running total: 19,313 positions, 3,086 terminal lines
+    …depth 13: 2500/3070 nodes processed  |  running total: 19,363 positions, 3,086 terminal lines
+    …depth 13: 2550/3070 nodes processed  |  running total: 19,413 positions, 3,086 terminal lines
+    …depth 13: 2600/3070 nodes processed  |  running total: 19,463 positions, 3,086 terminal lines
+    …depth 13: 2650/3070 nodes processed  |  running total: 19,513 positions, 3,086 terminal lines
+    …depth 13: 2700/3070 nodes processed  |  running total: 19,563 positions, 3,086 terminal lines
+    …depth 13: 2750/3070 nodes processed  |  running total: 19,613 positions, 3,086 terminal lines
+    …depth 13: 2800/3070 nodes processed  |  running total: 19,663 positions, 3,086 terminal lines
+    …depth 13: 2850/3070 nodes processed  |  running total: 19,713 positions, 3,086 terminal lines
+    …depth 13: 2900/3070 nodes processed  |  running total: 19,763 positions, 3,086 terminal lines
+    …depth 13: 2950/3070 nodes processed  |  running total: 19,813 positions, 3,086 terminal lines
+    …depth 13: 3000/3070 nodes processed  |  running total: 19,863 positions, 3,086 terminal lines
+    …depth 13: 3050/3070 nodes processed  |  running total: 19,913 positions, 3,086 terminal lines
+  Depth 13: expanded 3070  |  network 3070, cache 0  |  cumulative 19,933 positions, 3,086 terminal lines
+  Next frontier size: 3151
+
+--- Depth 14 — processing 3151 nodes ---
+    …depth 14: 50/3151 nodes processed  |  running total: 19,983 positions, 3,728 terminal lines
+    …depth 14: 100/3151 nodes processed  |  running total: 20,033 positions, 3,728 terminal lines
+    …depth 14: 150/3151 nodes processed  |  running total: 20,083 positions, 3,728 terminal lines
+    …depth 14: 200/3151 nodes processed  |  running total: 20,133 positions, 3,728 terminal lines
+    …depth 14: 250/3151 nodes processed  |  running total: 20,183 positions, 3,728 terminal lines
+    …depth 14: 300/3151 nodes processed  |  running total: 20,233 positions, 3,728 terminal lines
+    …depth 14: 350/3151 nodes processed  |  running total: 20,283 positions, 3,728 terminal lines
+    …depth 14: 400/3151 nodes processed  |  running total: 20,333 positions, 3,728 terminal lines
+    …depth 14: 450/3151 nodes processed  |  running total: 20,383 positions, 3,728 terminal lines
+    …depth 14: 500/3151 nodes processed  |  running total: 20,433 positions, 3,728 terminal lines
+    …depth 14: 550/3151 nodes processed  |  running total: 20,483 positions, 3,728 terminal lines
+    …depth 14: 600/3151 nodes processed  |  running total: 20,533 positions, 3,728 terminal lines
+    …depth 14: 650/3151 nodes processed  |  running total: 20,583 positions, 3,728 terminal lines
+    …depth 14: 700/3151 nodes processed  |  running total: 20,633 positions, 3,728 terminal lines
+    …depth 14: 750/3151 nodes processed  |  running total: 20,683 positions, 3,728 terminal lines
+    …depth 14: 800/3151 nodes processed  |  running total: 20,733 positions, 3,728 terminal lines
+    …depth 14: 850/3151 nodes processed  |  running total: 20,783 positions, 3,728 terminal lines
+    …depth 14: 900/3151 nodes processed  |  running total: 20,833 positions, 3,728 terminal lines
+    …depth 14: 950/3151 nodes processed  |  running total: 20,883 positions, 3,728 terminal lines
+    …depth 14: 1000/3151 nodes processed  |  running total: 20,933 positions, 3,728 terminal lines
+    …depth 14: 1050/3151 nodes processed  |  running total: 20,983 positions, 3,728 terminal lines
+    …depth 14: 1100/3151 nodes processed  |  running total: 21,033 positions, 3,728 terminal lines
+    …depth 14: 1150/3151 nodes processed  |  running total: 21,083 positions, 3,728 terminal lines
+    …depth 14: 1200/3151 nodes processed  |  running total: 21,133 positions, 3,728 terminal lines
+    …depth 14: 1250/3151 nodes processed  |  running total: 21,183 positions, 3,728 terminal lines
+    …depth 14: 1300/3151 nodes processed  |  running total: 21,233 positions, 3,728 terminal lines
+    …depth 14: 1350/3151 nodes processed  |  running total: 21,283 positions, 3,728 terminal lines
+    …depth 14: 1400/3151 nodes processed  |  running total: 21,333 positions, 3,728 terminal lines
+    …depth 14: 1450/3151 nodes processed  |  running total: 21,383 positions, 3,728 terminal lines
+    …depth 14: 1500/3151 nodes processed  |  running total: 21,433 positions, 3,728 terminal lines
+    …depth 14: 1550/3151 nodes processed  |  running total: 21,483 positions, 3,728 terminal lines
+    …depth 14: 1600/3151 nodes processed  |  running total: 21,533 positions, 3,728 terminal lines
+    …depth 14: 1650/3151 nodes processed  |  running total: 21,583 positions, 3,728 terminal lines
+    …depth 14: 1700/3151 nodes processed  |  running total: 21,633 positions, 3,728 terminal lines
+    …depth 14: 1750/3151 nodes processed  |  running total: 21,683 positions, 3,728 terminal lines
+    …depth 14: 1800/3151 nodes processed  |  running total: 21,733 positions, 3,728 terminal lines
+    …depth 14: 1850/3151 nodes processed  |  running total: 21,783 positions, 3,728 terminal lines
+    …depth 14: 1900/3151 nodes processed  |  running total: 21,833 positions, 3,728 terminal lines
+    …depth 14: 1950/3151 nodes processed  |  running total: 21,883 positions, 3,728 terminal lines
+    …depth 14: 2000/3151 nodes processed  |  running total: 21,933 positions, 3,728 terminal lines
+    …depth 14: 2050/3151 nodes processed  |  running total: 21,983 positions, 3,728 terminal lines
+    …depth 14: 2100/3151 nodes processed  |  running total: 22,033 positions, 3,728 terminal lines
+    …depth 14: 2150/3151 nodes processed  |  running total: 22,083 positions, 3,728 terminal lines
+    …depth 14: 2200/3151 nodes processed  |  running total: 22,133 positions, 3,728 terminal lines
+    …depth 14: 2250/3151 nodes processed  |  running total: 22,183 positions, 3,728 terminal lines
+    …depth 14: 2300/3151 nodes processed  |  running total: 22,233 positions, 3,728 terminal lines
+    …depth 14: 2350/3151 nodes processed  |  running total: 22,283 positions, 3,728 terminal lines
+    …depth 14: 2400/3151 nodes processed  |  running total: 22,333 positions, 3,728 terminal lines
+    …depth 14: 2450/3151 nodes processed  |  running total: 22,383 positions, 3,728 terminal lines
+    …depth 14: 2500/3151 nodes processed  |  running total: 22,433 positions, 3,728 terminal lines
+    …depth 14: 2550/3151 nodes processed  |  running total: 22,483 positions, 3,728 terminal lines
+    …depth 14: 2600/3151 nodes processed  |  running total: 22,533 positions, 3,728 terminal lines
+    …depth 14: 2650/3151 nodes processed  |  running total: 22,583 positions, 3,728 terminal lines
+    …depth 14: 2700/3151 nodes processed  |  running total: 22,633 positions, 3,728 terminal lines
+    …depth 14: 2750/3151 nodes processed  |  running total: 22,683 positions, 3,728 terminal lines
+    …depth 14: 2800/3151 nodes processed  |  running total: 22,733 positions, 3,728 terminal lines
+    …depth 14: 2850/3151 nodes processed  |  running total: 22,783 positions, 3,728 terminal lines
+    …depth 14: 2900/3151 nodes processed  |  running total: 22,833 positions, 3,728 terminal lines
+    …depth 14: 2950/3151 nodes processed  |  running total: 22,883 positions, 3,728 terminal lines
+    …depth 14: 3000/3151 nodes processed  |  running total: 22,933 positions, 3,728 terminal lines
+    …depth 14: 3050/3151 nodes processed  |  running total: 22,983 positions, 3,728 terminal lines
+    …depth 14: 3100/3151 nodes processed  |  running total: 23,033 positions, 3,728 terminal lines
+    …depth 14: 3150/3151 nodes processed  |  running total: 23,083 positions, 3,728 terminal lines
+  Depth 14: expanded 3151  |  network 3151, cache 0  |  cumulative 23,084 positions, 3,728 terminal lines
+  Next frontier size: 3026
+
+--- Depth 15 — processing 3026 nodes ---
+    …depth 15: 50/3026 nodes processed  |  running total: 23,134 positions, 4,430 terminal lines
+    …depth 15: 100/3026 nodes processed  |  running total: 23,184 positions, 4,430 terminal lines
+    …depth 15: 150/3026 nodes processed  |  running total: 23,234 positions, 4,430 terminal lines
+    …depth 15: 200/3026 nodes processed  |  running total: 23,284 positions, 4,430 terminal lines
+    …depth 15: 250/3026 nodes processed  |  running total: 23,334 positions, 4,430 terminal lines
+    …depth 15: 300/3026 nodes processed  |  running total: 23,384 positions, 4,430 terminal lines
+    …depth 15: 350/3026 nodes processed  |  running total: 23,434 positions, 4,430 terminal lines
+    …depth 15: 400/3026 nodes processed  |  running total: 23,484 positions, 4,430 terminal lines
+    …depth 15: 450/3026 nodes processed  |  running total: 23,534 positions, 4,430 terminal lines
+    …depth 15: 500/3026 nodes processed  |  running total: 23,584 positions, 4,430 terminal lines
+    …depth 15: 550/3026 nodes processed  |  running total: 23,634 positions, 4,430 terminal lines
+    …depth 15: 600/3026 nodes processed  |  running total: 23,684 positions, 4,430 terminal lines
+    …depth 15: 650/3026 nodes processed  |  running total: 23,734 positions, 4,430 terminal lines
+    …depth 15: 700/3026 nodes processed  |  running total: 23,784 positions, 4,430 terminal lines
+    …depth 15: 750/3026 nodes processed  |  running total: 23,834 positions, 4,430 terminal lines
+    …depth 15: 800/3026 nodes processed  |  running total: 23,884 positions, 4,430 terminal lines
+    …depth 15: 850/3026 nodes processed  |  running total: 23,934 positions, 4,430 terminal lines
+    …depth 15: 900/3026 nodes processed  |  running total: 23,984 positions, 4,430 terminal lines
+    …depth 15: 950/3026 nodes processed  |  running total: 24,034 positions, 4,430 terminal lines
+    …depth 15: 1000/3026 nodes processed  |  running total: 24,084 positions, 4,430 terminal lines
+    …depth 15: 1050/3026 nodes processed  |  running total: 24,134 positions, 4,430 terminal lines
+    …depth 15: 1100/3026 nodes processed  |  running total: 24,184 positions, 4,430 terminal lines
+    …depth 15: 1150/3026 nodes processed  |  running total: 24,234 positions, 4,430 terminal lines
+    …depth 15: 1200/3026 nodes processed  |  running total: 24,284 positions, 4,430 terminal lines
+    …depth 15: 1250/3026 nodes processed  |  running total: 24,334 positions, 4,430 terminal lines
+    …depth 15: 1300/3026 nodes processed  |  running total: 24,384 positions, 4,430 terminal lines
+    …depth 15: 1350/3026 nodes processed  |  running total: 24,434 positions, 4,430 terminal lines
+    …depth 15: 1400/3026 nodes processed  |  running total: 24,484 positions, 4,430 terminal lines
+    …depth 15: 1450/3026 nodes processed  |  running total: 24,534 positions, 4,430 terminal lines
+    …depth 15: 1500/3026 nodes processed  |  running total: 24,584 positions, 4,430 terminal lines
+    …depth 15: 1550/3026 nodes processed  |  running total: 24,634 positions, 4,430 terminal lines
+    …depth 15: 1600/3026 nodes processed  |  running total: 24,684 positions, 4,430 terminal lines
+    …depth 15: 1650/3026 nodes processed  |  running total: 24,734 positions, 4,430 terminal lines
+    …depth 15: 1700/3026 nodes processed  |  running total: 24,784 positions, 4,430 terminal lines
+    …depth 15: 1750/3026 nodes processed  |  running total: 24,834 positions, 4,430 terminal lines
+    …depth 15: 1800/3026 nodes processed  |  running total: 24,884 positions, 4,430 terminal lines
+    …depth 15: 1850/3026 nodes processed  |  running total: 24,934 positions, 4,430 terminal lines
+    …depth 15: 1900/3026 nodes processed  |  running total: 24,984 positions, 4,430 terminal lines
+    …depth 15: 1950/3026 nodes processed  |  running total: 25,034 positions, 4,430 terminal lines
+    …depth 15: 2000/3026 nodes processed  |  running total: 25,084 positions, 4,430 terminal lines
+    …depth 15: 2050/3026 nodes processed  |  running total: 25,134 positions, 4,430 terminal lines
+    …depth 15: 2100/3026 nodes processed  |  running total: 25,184 positions, 4,430 terminal lines
+    …depth 15: 2150/3026 nodes processed  |  running total: 25,234 positions, 4,430 terminal lines
+    …depth 15: 2200/3026 nodes processed  |  running total: 25,284 positions, 4,430 terminal lines
+    …depth 15: 2250/3026 nodes processed  |  running total: 25,334 positions, 4,430 terminal lines
+    …depth 15: 2300/3026 nodes processed  |  running total: 25,384 positions, 4,430 terminal lines
+    …depth 15: 2350/3026 nodes processed  |  running total: 25,434 positions, 4,430 terminal lines
+    …depth 15: 2400/3026 nodes processed  |  running total: 25,484 positions, 4,430 terminal lines
+    …depth 15: 2450/3026 nodes processed  |  running total: 25,534 positions, 4,430 terminal lines
+    …depth 15: 2500/3026 nodes processed  |  running total: 25,584 positions, 4,430 terminal lines
+    …depth 15: 2550/3026 nodes processed  |  running total: 25,634 positions, 4,430 terminal lines
+    …depth 15: 2600/3026 nodes processed  |  running total: 25,684 positions, 4,430 terminal lines
+    …depth 15: 2650/3026 nodes processed  |  running total: 25,734 positions, 4,430 terminal lines
+    …depth 15: 2700/3026 nodes processed  |  running total: 25,784 positions, 4,430 terminal lines
+    …depth 15: 2750/3026 nodes processed  |  running total: 25,834 positions, 4,430 terminal lines
+    …depth 15: 2800/3026 nodes processed  |  running total: 25,884 positions, 4,430 terminal lines
+    …depth 15: 2850/3026 nodes processed  |  running total: 25,934 positions, 4,430 terminal lines
+    …depth 15: 2900/3026 nodes processed  |  running total: 25,984 positions, 4,430 terminal lines
+    …depth 15: 2950/3026 nodes processed  |  running total: 26,034 positions, 4,430 terminal lines
+    …depth 15: 3000/3026 nodes processed  |  running total: 26,084 positions, 4,430 terminal lines
+  Depth 15: expanded 3026  |  network 3026, cache 0  |  cumulative 26,110 positions, 4,430 terminal lines
+  Next frontier size: 2868
+
+--- Depth 16 — processing 2868 nodes ---
+    …depth 16: 50/2868 nodes processed  |  running total: 26,160 positions, 5,103 terminal lines
+    …depth 16: 100/2868 nodes processed  |  running total: 26,210 positions, 5,103 terminal lines
+    …depth 16: 150/2868 nodes processed  |  running total: 26,260 positions, 5,103 terminal lines
+    …depth 16: 200/2868 nodes processed  |  running total: 26,310 positions, 5,103 terminal lines
+    …depth 16: 250/2868 nodes processed  |  running total: 26,360 positions, 5,103 terminal lines
+    …depth 16: 300/2868 nodes processed  |  running total: 26,410 positions, 5,103 terminal lines
+    …depth 16: 350/2868 nodes processed  |  running total: 26,460 positions, 5,103 terminal lines
+    …depth 16: 400/2868 nodes processed  |  running total: 26,510 positions, 5,103 terminal lines
+    …depth 16: 450/2868 nodes processed  |  running total: 26,560 positions, 5,103 terminal lines
+    …depth 16: 500/2868 nodes processed  |  running total: 26,610 positions, 5,103 terminal lines
+    …depth 16: 550/2868 nodes processed  |  running total: 26,660 positions, 5,103 terminal lines
+    …depth 16: 600/2868 nodes processed  |  running total: 26,710 positions, 5,103 terminal lines
+    …depth 16: 650/2868 nodes processed  |  running total: 26,760 positions, 5,103 terminal lines
+    …depth 16: 700/2868 nodes processed  |  running total: 26,810 positions, 5,103 terminal lines
+    …depth 16: 750/2868 nodes processed  |  running total: 26,860 positions, 5,103 terminal lines
+    …depth 16: 800/2868 nodes processed  |  running total: 26,910 positions, 5,103 terminal lines
+    …depth 16: 850/2868 nodes processed  |  running total: 26,960 positions, 5,103 terminal lines
+    …depth 16: 900/2868 nodes processed  |  running total: 27,010 positions, 5,103 terminal lines
+    …depth 16: 950/2868 nodes processed  |  running total: 27,060 positions, 5,103 terminal lines
+    …depth 16: 1000/2868 nodes processed  |  running total: 27,110 positions, 5,103 terminal lines
+    …depth 16: 1050/2868 nodes processed  |  running total: 27,160 positions, 5,103 terminal lines
+    …depth 16: 1100/2868 nodes processed  |  running total: 27,210 positions, 5,103 terminal lines
+    …depth 16: 1150/2868 nodes processed  |  running total: 27,260 positions, 5,103 terminal lines
+    …depth 16: 1200/2868 nodes processed  |  running total: 27,310 positions, 5,103 terminal lines
+    …depth 16: 1250/2868 nodes processed  |  running total: 27,360 positions, 5,103 terminal lines
+    …depth 16: 1300/2868 nodes processed  |  running total: 27,410 positions, 5,103 terminal lines
+    …depth 16: 1350/2868 nodes processed  |  running total: 27,460 positions, 5,103 terminal lines
+    …depth 16: 1400/2868 nodes processed  |  running total: 27,510 positions, 5,103 terminal lines
+    …depth 16: 1450/2868 nodes processed  |  running total: 27,560 positions, 5,103 terminal lines
+    …depth 16: 1500/2868 nodes processed  |  running total: 27,610 positions, 5,103 terminal lines
+    …depth 16: 1550/2868 nodes processed  |  running total: 27,660 positions, 5,103 terminal lines
+    …depth 16: 1600/2868 nodes processed  |  running total: 27,710 positions, 5,103 terminal lines
+    …depth 16: 1650/2868 nodes processed  |  running total: 27,760 positions, 5,103 terminal lines
+    …depth 16: 1700/2868 nodes processed  |  running total: 27,810 positions, 5,103 terminal lines
+    …depth 16: 1750/2868 nodes processed  |  running total: 27,860 positions, 5,103 terminal lines
+    …depth 16: 1800/2868 nodes processed  |  running total: 27,910 positions, 5,103 terminal lines
+    …depth 16: 1850/2868 nodes processed  |  running total: 27,960 positions, 5,103 terminal lines
+    …depth 16: 1900/2868 nodes processed  |  running total: 28,010 positions, 5,103 terminal lines
+    …depth 16: 1950/2868 nodes processed  |  running total: 28,060 positions, 5,103 terminal lines
+    …depth 16: 2000/2868 nodes processed  |  running total: 28,110 positions, 5,103 terminal lines
+    …depth 16: 2050/2868 nodes processed  |  running total: 28,160 positions, 5,103 terminal lines
+    …depth 16: 2100/2868 nodes processed  |  running total: 28,210 positions, 5,103 terminal lines
+    …depth 16: 2150/2868 nodes processed  |  running total: 28,260 positions, 5,103 terminal lines
+    …depth 16: 2200/2868 nodes processed  |  running total: 28,310 positions, 5,103 terminal lines
+    …depth 16: 2250/2868 nodes processed  |  running total: 28,360 positions, 5,103 terminal lines
+    …depth 16: 2300/2868 nodes processed  |  running total: 28,410 positions, 5,103 terminal lines
+    …depth 16: 2350/2868 nodes processed  |  running total: 28,460 positions, 5,103 terminal lines
+    …depth 16: 2400/2868 nodes processed  |  running total: 28,510 positions, 5,103 terminal lines
+    …depth 16: 2450/2868 nodes processed  |  running total: 28,560 positions, 5,103 terminal lines
+    …depth 16: 2500/2868 nodes processed  |  running total: 28,610 positions, 5,103 terminal lines
+    …depth 16: 2550/2868 nodes processed  |  running total: 28,660 positions, 5,103 terminal lines
+    …depth 16: 2600/2868 nodes processed  |  running total: 28,710 positions, 5,103 terminal lines
+    …depth 16: 2650/2868 nodes processed  |  running total: 28,760 positions, 5,103 terminal lines
+    …depth 16: 2700/2868 nodes processed  |  running total: 28,810 positions, 5,103 terminal lines
+    …depth 16: 2750/2868 nodes processed  |  running total: 28,860 positions, 5,103 terminal lines
+    …depth 16: 2800/2868 nodes processed  |  running total: 28,910 positions, 5,103 terminal lines
+    …depth 16: 2850/2868 nodes processed  |  running total: 28,960 positions, 5,103 terminal lines
+  Depth 16: expanded 2868  |  network 2868, cache 0  |  cumulative 28,978 positions, 5,103 terminal lines
+  Next frontier size: 2606
+
+--- Depth 17 — processing 2606 nodes ---
+    …depth 17: 50/2606 nodes processed  |  running total: 29,028 positions, 5,769 terminal lines
+    …depth 17: 100/2606 nodes processed  |  running total: 29,078 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,h2h3,e7e6,g2g4,d6d5,e4d5,f6d5,c1d2)
+    …depth 17: 150/2606 nodes processed  |  running total: 29,128 positions, 5,769 terminal lines
+    …depth 17: 200/2606 nodes processed  |  running total: 29,178 positions, 5,769 terminal lines
+    …depth 17: 250/2606 nodes processed  |  running total: 29,228 positions, 5,769 terminal lines
+    …depth 17: 300/2606 nodes processed  |  running total: 29,278 positions, 5,769 terminal lines
+    …depth 17: 350/2606 nodes processed  |  running total: 29,328 positions, 5,769 terminal lines
+    …depth 17: 400/2606 nodes processed  |  running total: 29,378 positions, 5,769 terminal lines
+    …depth 17: 450/2606 nodes processed  |  running total: 29,428 positions, 5,769 terminal lines
+    …depth 17: 500/2606 nodes processed  |  running total: 29,478 positions, 5,769 terminal lines
+    …depth 17: 550/2606 nodes processed  |  running total: 29,528 positions, 5,769 terminal lines
+    …depth 17: 600/2606 nodes processed  |  running total: 29,578 positions, 5,769 terminal lines
+    …depth 17: 650/2606 nodes processed  |  running total: 29,628 positions, 5,769 terminal lines
+    …depth 17: 700/2606 nodes processed  |  running total: 29,678 positions, 5,769 terminal lines
+    …depth 17: 750/2606 nodes processed  |  running total: 29,728 positions, 5,769 terminal lines
+    …depth 17: 800/2606 nodes processed  |  running total: 29,778 positions, 5,769 terminal lines
+    …depth 17: 850/2606 nodes processed  |  running total: 29,828 positions, 5,769 terminal lines
+    …depth 17: 900/2606 nodes processed  |  running total: 29,878 positions, 5,769 terminal lines
+    …depth 17: 950/2606 nodes processed  |  running total: 29,928 positions, 5,769 terminal lines
+    …depth 17: 1000/2606 nodes processed  |  running total: 29,978 positions, 5,769 terminal lines
+    …depth 17: 1050/2606 nodes processed  |  running total: 30,028 positions, 5,769 terminal lines
+    …depth 17: 1100/2606 nodes processed  |  running total: 30,078 positions, 5,769 terminal lines
+    …depth 17: 1150/2606 nodes processed  |  running total: 30,128 positions, 5,769 terminal lines
+    …depth 17: 1200/2606 nodes processed  |  running total: 30,178 positions, 5,769 terminal lines
+    …depth 17: 1250/2606 nodes processed  |  running total: 30,228 positions, 5,769 terminal lines
+    …depth 17: 1300/2606 nodes processed  |  running total: 30,278 positions, 5,769 terminal lines
+    …depth 17: 1350/2606 nodes processed  |  running total: 30,328 positions, 5,769 terminal lines
+    …depth 17: 1400/2606 nodes processed  |  running total: 30,378 positions, 5,769 terminal lines
+    …depth 17: 1450/2606 nodes processed  |  running total: 30,428 positions, 5,769 terminal lines
+    …depth 17: 1500/2606 nodes processed  |  running total: 30,478 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,d7d5,b1c3,c7c6,e2e3,a7a6,b2b3,f8b4,c1d2,b8d7,f1d3,e8g8,e1g1)
+    …depth 17: 1550/2606 nodes processed  |  running total: 30,528 positions, 5,769 terminal lines
+    …depth 17: 1600/2606 nodes processed  |  running total: 30,578 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,d7d5,b1c3,c7c5,c4d5,e6d5,g2g3,b8c6,f1g2,f8e7,e1g1,e8g8,b2b3)
+    …depth 17: 1650/2606 nodes processed  |  running total: 30,628 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,d7d5,g2g3,d5c4,f1g2,f8e7,e1g1,e8g8,d1c2,c7c6,c2c4,b7b5,c4c2)
+    …depth 17: 1700/2606 nodes processed  |  running total: 30,678 positions, 5,769 terminal lines
+    …depth 17: 1750/2606 nodes processed  |  running total: 30,728 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,b7b6,g2g3,c8a6,b2b3,f8b4,c1d2,b4e7,f1g2,d7d5,c4d5,e6d5,b1c3)
+    …depth 17: 1800/2606 nodes processed  |  running total: 30,778 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,b7b6,b1c3,c8b7,c1g5,h7h6,g5h4,f8b4,e2e3,g7g5,h4g3,f6e4,d1c2)
+    …depth 17: 1850/2606 nodes processed  |  running total: 30,828 positions, 5,769 terminal lines
+    …depth 17: 1900/2606 nodes processed  |  running total: 30,878 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,c7c5,b1c3,c5d4,f3d4,b8c6,a2a3,f8c5,d4b3,c5e7,e2e4,e8g8,f1e2)
+    …depth 17: 1950/2606 nodes processed  |  running total: 30,928 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,b1c3,f8b4,f2f3,c7c5,d4d5,b7b5,e2e4,d7d6,g1e2,b5c4,e2f4,e6e5,f4e2)
+    …depth 17: 2000/2606 nodes processed  |  running total: 30,978 positions, 5,769 terminal lines
+    …depth 17: 2050/2606 nodes processed  |  running total: 31,028 positions, 5,769 terminal lines
+    …depth 17: 2100/2606 nodes processed  |  running total: 31,078 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,g7g6,b1c3,d7d5,c4d5,f6d5,e2e4,d5c3,b2c3,f8g7,f1c4,c7c5,g1e2,c5d4,c3d4)
+    …depth 17: 2150/2606 nodes processed  |  running total: 31,128 positions, 5,769 terminal lines
+    …depth 17: 2200/2606 nodes processed  |  running total: 31,178 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,c7c5,d4d5,b7b5,c4b5,a7a6,b5b6,e7e6,b1c3,f6d5,c3d5,e6d5,d1d5,b8c6,e2e4)
+    …depth 17: 2250/2606 nodes processed  |  running total: 31,228 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,c7c6,b1c3,d7d5,g1f3,d5c4,a2a4,c8g4,f3e5,g4h5,f2f3,f6d7,e5c4,e7e5,c3e4)
+    …depth 17: 2300/2606 nodes processed  |  running total: 31,278 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,g1f3,e7e6,c1f4,c7c5,c2c3,b7b6,e2e3,c8b7,b1d2,f8e7,h2h3,e8g8,f1d3,c5d4,e3d4)
+    …depth 17: 2350/2606 nodes processed  |  running total: 31,328 positions, 5,769 terminal lines
+    …depth 17: 2400/2606 nodes processed  |  running total: 31,378 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,f7f5,g2g3,g8f6,f1g2,g7g6,g1f3,f8g7,e1g1,e8g8,c2c4,d7d6,b1c3,d8e8,d4d5,b8a6,c1e3)
+    …depth 17: 2450/2606 nodes processed  |  running total: 31,428 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,g8f6,c2c4,e7e6,g2g3,d7d5,f1g2,d5d4,e1g1,c7c5,e2e3,b8c6,e3d4,c5d4,d2d3,h7h6,c1f4)
+    …depth 17: 2500/2606 nodes processed  |  running total: 31,478 positions, 5,769 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,g8f6,c2c4,c7c5,b1c3,b8c6,g2g3,d7d5,c4d5,f6d5,f1g2,d5c7,d1a4,c8d7,a4e4,g7g6,f3e5)
+    …depth 17: 2550/2606 nodes processed  |  running total: 31,528 positions, 5,769 terminal lines
+    …depth 17: 2600/2606 nodes processed  |  running total: 31,578 positions, 5,769 terminal lines
+  Depth 17: expanded 2606  |  network 2606, cache 0  |  cumulative 31,584 positions, 5,769 terminal lines
+  Next frontier size: 2413
+
+--- Depth 18 — processing 2413 nodes ---
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1e3,e7e6,f2f3,b7b5,d1d2,b8d7,g2g4,b5b4)
+    …depth 18: 50/2413 nodes processed  |  running total: 31,634 positions, 6,374 terminal lines
+    …depth 18: 100/2413 nodes processed  |  running total: 31,684 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1g5,b8c6,d1d2,e7e6,e1c1,h7h6,g5e3,d8c7)
+    …depth 18: 150/2413 nodes processed  |  running total: 31,734 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,a2a4,e7e5,d4f3,f8e7,c1g5,c8e6,g5f6,e7f6)
+    …depth 18: 200/2413 nodes processed  |  running total: 31,784 positions, 6,374 terminal lines
+    …depth 18: 250/2413 nodes processed  |  running total: 31,834 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,b8c6,c1e3,e7e6,f2f4,f8e7,d1f3,e6e5,d4c6,b7c6)
+    …depth 18: 300/2413 nodes processed  |  running total: 31,884 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,d2d4,c5d4,f3d4,g8f6,b1c3,e7e5,d4b5,d7d6,c3d5,f6d5,e4d5,c6e7,c2c4,e7f5)
+    …depth 18: 350/2413 nodes processed  |  running total: 31,934 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,d2d4,c5d4,f3d4,g7g6,c2c4,g8f6,b1c3,f8g7,c1e3,f6g4,d1g4,c6d4,g4d1,e7e5)
+    …depth 18: 400/2413 nodes processed  |  running total: 31,984 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,d2d4,c5d4,f3d4,e7e6,d4b5,d7d6,c2c4,a7a6,b5c3,g8f6,f1e2,f8e7,e1g1,e8g8)
+    …depth 18: 450/2413 nodes processed  |  running total: 32,034 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,c2c3,g8f6,e4e5,f6d5,d2d4,c5d4,f1c4,d5b6,c4b3,d7d5,e5d6,e7e6,c3d4,f8d6)
+    …depth 18: 500/2413 nodes processed  |  running total: 32,084 positions, 6,374 terminal lines
+    …depth 18: 550/2413 nodes processed  |  running total: 32,134 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,g7g6,d2d4,c5d4,d1d4,g8f6,b1c3,b8c6,d4a4,d7d6,e4e5,d6e5,f3e5,c8d7,e5d7,d8d7)
+    …depth 18: 600/2413 nodes processed  |  running total: 32,184 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,e7e5,g1f3,b8c6,f1b5,a7a6,b5a4,g8f6,e1g1,f8e7,f1e1,b7b5,a4b3,d7d6,c2c3,e8g8,h2h3,c6b8)
+    …depth 18: 650/2413 nodes processed  |  running total: 32,234 positions, 6,374 terminal lines
+    …depth 18: 700/2413 nodes processed  |  running total: 32,284 positions, 6,374 terminal lines
+    …depth 18: 750/2413 nodes processed  |  running total: 32,334 positions, 6,374 terminal lines
+    …depth 18: 800/2413 nodes processed  |  running total: 32,384 positions, 6,374 terminal lines
+    …depth 18: 850/2413 nodes processed  |  running total: 32,434 positions, 6,374 terminal lines
+    …depth 18: 900/2413 nodes processed  |  running total: 32,484 positions, 6,374 terminal lines
+    …depth 18: 950/2413 nodes processed  |  running total: 32,534 positions, 6,374 terminal lines
+    …depth 18: 1000/2413 nodes processed  |  running total: 32,584 positions, 6,374 terminal lines
+    …depth 18: 1050/2413 nodes processed  |  running total: 32,634 positions, 6,374 terminal lines
+    …depth 18: 1100/2413 nodes processed  |  running total: 32,684 positions, 6,374 terminal lines
+    …depth 18: 1150/2413 nodes processed  |  running total: 32,734 positions, 6,374 terminal lines
+    …depth 18: 1200/2413 nodes processed  |  running total: 32,784 positions, 6,374 terminal lines
+    …depth 18: 1250/2413 nodes processed  |  running total: 32,834 positions, 6,374 terminal lines
+    …depth 18: 1300/2413 nodes processed  |  running total: 32,884 positions, 6,374 terminal lines
+    …depth 18: 1350/2413 nodes processed  |  running total: 32,934 positions, 6,374 terminal lines
+    …depth 18: 1400/2413 nodes processed  |  running total: 32,984 positions, 6,374 terminal lines
+    …depth 18: 1450/2413 nodes processed  |  running total: 33,034 positions, 6,374 terminal lines
+    …depth 18: 1500/2413 nodes processed  |  running total: 33,084 positions, 6,374 terminal lines
+    …depth 18: 1550/2413 nodes processed  |  running total: 33,134 positions, 6,374 terminal lines
+    …depth 18: 1600/2413 nodes processed  |  running total: 33,184 positions, 6,374 terminal lines
+    …depth 18: 1650/2413 nodes processed  |  running total: 33,234 positions, 6,374 terminal lines
+    …depth 18: 1700/2413 nodes processed  |  running total: 33,284 positions, 6,374 terminal lines
+    …depth 18: 1750/2413 nodes processed  |  running total: 33,334 positions, 6,374 terminal lines
+    …depth 18: 1800/2413 nodes processed  |  running total: 33,384 positions, 6,374 terminal lines
+    …depth 18: 1850/2413 nodes processed  |  running total: 33,434 positions, 6,374 terminal lines
+    …depth 18: 1900/2413 nodes processed  |  running total: 33,484 positions, 6,374 terminal lines
+    …depth 18: 1950/2413 nodes processed  |  running total: 33,534 positions, 6,374 terminal lines
+    …depth 18: 2000/2413 nodes processed  |  running total: 33,584 positions, 6,374 terminal lines
+    …depth 18: 2050/2413 nodes processed  |  running total: 33,634 positions, 6,374 terminal lines
+    …depth 18: 2100/2413 nodes processed  |  running total: 33,684 positions, 6,374 terminal lines
+    …depth 18: 2150/2413 nodes processed  |  running total: 33,734 positions, 6,374 terminal lines
+    …depth 18: 2200/2413 nodes processed  |  running total: 33,784 positions, 6,374 terminal lines
+    …depth 18: 2250/2413 nodes processed  |  running total: 33,834 positions, 6,374 terminal lines
+    …depth 18: 2300/2413 nodes processed  |  running total: 33,884 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,g8f6,c2c4,e7e6,b1c3,d7d5,e2e3,f8e7,b2b3,e8g8,c1b2,c7c5,c4d5,e6d5,d2d4,b8c6,f1e2,f6e4)
+    …depth 18: 2350/2413 nodes processed  |  running total: 33,934 positions, 6,374 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,c7c5,c2c4,b8c6,b1c3,g7g6,g2g3,f8g7,f1g2,d7d6,e1g1,e7e5,d2d3,g8e7,f3e1,c8e6,e1c2,d6d5)
+    …depth 18: 2400/2413 nodes processed  |  running total: 33,984 positions, 6,374 terminal lines
+  Depth 18: expanded 2413  |  network 2413, cache 0  |  cumulative 33,997 positions, 6,374 terminal lines
+  Next frontier size: 2131
+
+--- Depth 19 — processing 2131 nodes ---
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1e3,e7e5,d4b3,c8e6,d1d2,b8d7,e1c1,f8e7,f2f4)
+    …depth 19: 50/2131 nodes processed  |  running total: 34,047 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1g5,e7e6,f2f4,d8b6,d1d2,b8c6,g5f6,g7f6,d4b3)
+    …depth 19: 100/2131 nodes processed  |  running total: 34,097 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1g5,b8c6,d1d2,e7e6,e1c1,f8e7,f2f3,c6d4,d2d4)
+    …depth 19: 150/2131 nodes processed  |  running total: 34,147 positions, 6,968 terminal lines
+    …depth 19: 200/2131 nodes processed  |  running total: 34,197 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,b8c6,f1c4,e7e6,c1e3,a7a6,d1e2,d8c7,e1c1,c6a5,c4d3)
+    …depth 19: 250/2131 nodes processed  |  running total: 34,247 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,f1b5,c8d7,b5d7,d8d7,e1g1,b8c6,c2c3,g8f6,d1e2,e7e6,d2d4,c5d4,c3d4,d6d5,e4e5)
+    …depth 19: 300/2131 nodes processed  |  running total: 34,297 positions, 6,968 terminal lines
+    …depth 19: 350/2131 nodes processed  |  running total: 34,347 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,d2d4,c5d4,f3d4,g7g6,c2c4,g8f6,b1c3,d7d6,f1e2,f8g7,c1e3,e8g8,e1g1,c8d7,f2f3)
+    …depth 19: 400/2131 nodes processed  |  running total: 34,397 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,f1b5,g7g6,e1g1,f8g7,f1e1,g8f6,e4e5,f6d5,b1c3,d5c7,b5c6,d7c6,c3e4,c7e6,d2d3)
+    …depth 19: 450/2131 nodes processed  |  running total: 34,447 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,c2c3,e7e6,d2d4,d7d5,e4e5,d8b6,a2a3,c8d7,b2b4,c5d4,c3d4,a8c8,c1b2,c6a5,b1d2)
+    …depth 19: 500/2131 nodes processed  |  running total: 34,497 positions, 6,968 terminal lines
+    …depth 19: 550/2131 nodes processed  |  running total: 34,547 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,c2c3,g7g6,d2d4,c5d4,c3d4,d7d5,e4d5,g8f6,b1c3,f8g7,d1b3,e8g8,f1e2,b8a6,e2f3,d8b6,b3b6)
+    …depth 19: 600/2131 nodes processed  |  running total: 34,597 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,e7e5,g1f3,b8c6,f1b5,a7a6,b5a4,g8f6,e1g1,b7b5,a4b3,f8c5,a2a4,a8b8,f3e5,c6e5,d2d4,c5d4,d1d4)
+    …depth 19: 650/2131 nodes processed  |  running total: 34,647 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,e7e5,g1f3,b8c6,f1b5,g8f6,d2d3,f8c5,b5c6,d7c6,b1d2,c8e6,e1g1,f6d7,d2b3,c5b6,f3g5,e6b3,a2b3)
+    …depth 19: 700/2131 nodes processed  |  running total: 34,697 positions, 6,968 terminal lines
+    …depth 19: 750/2131 nodes processed  |  running total: 34,747 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,e7e5,g1f3,b8c6,d2d4,e5d4,f3d4,g8f6,d4c6,b7c6,b1c3,f8b4,f1d3,e8g8,e1g1,f8e8,c1g5,h7h6,g5h4)
+    …depth 19: 800/2131 nodes processed  |  running total: 34,797 positions, 6,968 terminal lines
+    …depth 19: 850/2131 nodes processed  |  running total: 34,847 positions, 6,968 terminal lines
+    …depth 19: 900/2131 nodes processed  |  running total: 34,897 positions, 6,968 terminal lines
+    …depth 19: 950/2131 nodes processed  |  running total: 34,947 positions, 6,968 terminal lines
+    …depth 19: 1000/2131 nodes processed  |  running total: 34,997 positions, 6,968 terminal lines
+    …depth 19: 1050/2131 nodes processed  |  running total: 35,047 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,d7d6,d2d4,g7g6,g1f3,f8g7,c2c4,g8f6,b1c3,e8g8,f1e2,e7e5,e1g1,b8c6,d4d5,c6e7,b2b4,f6e8,a2a4)
+    …depth 19: 1100/2131 nodes processed  |  running total: 35,097 positions, 6,968 terminal lines
+    …depth 19: 1150/2131 nodes processed  |  running total: 35,147 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,d7d5,e4d5,g8f6,f1b5,c8d7,b5e2,f6d5,d2d4,d7f5,g1f3,e7e6,e1g1,f8e7,a2a3,e8g8,c2c4,d5b6,b1c3)
+    …depth 19: 1200/2131 nodes processed  |  running total: 35,197 positions, 6,968 terminal lines
+    …depth 19: 1250/2131 nodes processed  |  running total: 35,247 positions, 6,968 terminal lines
+    …depth 19: 1300/2131 nodes processed  |  running total: 35,297 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,d7d5,b1c3,c7c6,e2e3,b8d7,f1d3,d5c4,d3c4,b7b5,c4e2,a7a6,e3e4,b5b4,e4e5)
+    …depth 19: 1350/2131 nodes processed  |  running total: 35,347 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,d7d5,b1c3,d5c4,e2e3,a7a6,a2a4,c7c5,f1c4,b8c6,e1g1,c5d4,e3d4,f8e7,f1e1)
+    …depth 19: 1400/2131 nodes processed  |  running total: 35,397 positions, 6,968 terminal lines
+    …depth 19: 1450/2131 nodes processed  |  running total: 35,447 positions, 6,968 terminal lines
+    …depth 19: 1500/2131 nodes processed  |  running total: 35,497 positions, 6,968 terminal lines
+    …depth 19: 1550/2131 nodes processed  |  running total: 35,547 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,b7b6,a2a3,c8a6,d1c2,a6b7,b1c3,c7c5,e2e4,c5d4,f3d4,b8c6,d4c6,b7c6,c1f4)
+    …depth 19: 1600/2131 nodes processed  |  running total: 35,597 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,c7c5,d4d5,e6d5,c4d5,d7d6,b1c3,g7g6,e2e4,f8g7,c1g5,h7h6,g5h4,a7a6,f3d2)
+    …depth 19: 1650/2131 nodes processed  |  running total: 35,647 positions, 6,968 terminal lines
+    …depth 19: 1700/2131 nodes processed  |  running total: 35,697 positions, 6,968 terminal lines
+    …depth 19: 1750/2131 nodes processed  |  running total: 35,747 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,g7g6,b1c3,f8g7,g1f3,e8g8,g2g3,d7d6,f1g2,b8d7,e1g1,e7e5,d1c2,c7c6,f1d1,d8e7,b2b3)
+    …depth 19: 1800/2131 nodes processed  |  running total: 35,797 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,g7g6,b1c3,f8g7,g1f3,d7d5,d1b3,d5c4,b3c4,e8g8,e2e4,b8c6,f1e2,e7e5,d4d5,c6d4,f3d4)
+    …depth 19: 1850/2131 nodes processed  |  running total: 35,847 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,c7c6,b1c3,d7d5,e2e3,a7a6,g1f3,b7b5,b2b3,c8g4,f1e2,e7e6,e1g1,b8d7,c1b2,f8d6,h2h3)
+    …depth 19: 1900/2131 nodes processed  |  running total: 35,897 positions, 6,968 terminal lines
+    …depth 19: 1950/2131 nodes processed  |  running total: 35,947 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,c7c6,g1f3,d7d5,d1c2,d5c4,c2c4,c8g4,b1d2,b8d7,g2g3,e7e6,f1g2,f8e7,e1g1,e8g8,c4b3)
+    …depth 19: 2000/2131 nodes processed  |  running total: 35,997 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,g8f6,c2c4,e7e6,g2g3,d7d5,f1g2,f8e7,e1g1,e8g8,b2b3,c7c5,c1b2,b8c6,e2e3,d5d4,e3d4,c5d4,f1e1)
+    …depth 19: 2050/2131 nodes processed  |  running total: 36,047 positions, 6,968 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,c7c5,c2c4,b8c6,b1c3,g7g6,g2g3,f8g7,f1g2,e7e6,e1g1,g8e7,e2e3,e8g8,d2d4,c5d4,f3d4,c6d4,e3d4)
+    …depth 19: 2100/2131 nodes processed  |  running total: 36,097 positions, 6,968 terminal lines
+  Depth 19: expanded 2131  |  network 2131, cache 0  |  cumulative 36,128 positions, 6,968 terminal lines
+  Next frontier size: 1926
+
+--- Depth 20 — processing 1926 nodes ---
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1e3,e7e5,d4b3,c8e6,h2h3,b8d7,g2g4,h7h6,d1d2,b7b5)
+    …depth 20: 50/1926 nodes processed  |  running total: 36,178 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1e3,e7e6,g2g4,e6e5,d4f5,h7h5,g4g5,f6e4,f5g7,f8g7)
+    …depth 20: 100/1926 nodes processed  |  running total: 36,228 positions, 7,470 terminal lines
+    …depth 20: 150/1926 nodes processed  |  running total: 36,278 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,f1e2,e7e6,e1g1,f8e7,f2f4,e8g8,g1h1,d8c7,d1e1,b7b5)
+    …depth 20: 200/1926 nodes processed  |  running total: 36,328 positions, 7,470 terminal lines
+    …depth 20: 250/1926 nodes processed  |  running total: 36,378 positions, 7,470 terminal lines
+    …depth 20: 300/1926 nodes processed  |  running total: 36,428 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,d2d4,c5d4,f3d4,g8f6,b1c3,e7e5,d4b5,d7d6,c3d5,f6d5,e4d5,c6e7,c2c4,e7f5,f1d3,f8e7)
+    …depth 20: 350/1926 nodes processed  |  running total: 36,478 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,b8c6,d2d4,c5d4,f3d4,e7e6,b1c3,d8c7,c1e3,a7a6,f1e2,g8f6,e1g1,f8b4,c3a4,e8g8,d4c6,b7c6)
+    …depth 20: 400/1926 nodes processed  |  running total: 36,528 positions, 7,470 terminal lines
+    …depth 20: 450/1926 nodes processed  |  running total: 36,578 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,e7e6,d2d4,c5d4,f3d4,a7a6,c2c4,g8f6,b1c3,d8c7,a2a3,b7b6,c1e3,c8b7,f2f3,d7d6,f1e2,b8d7)
+    …depth 20: 500/1926 nodes processed  |  running total: 36,628 positions, 7,470 terminal lines
+    …depth 20: 550/1926 nodes processed  |  running total: 36,678 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,e7e5,g1f3,b8c6,f1b5,a7a6,b5a4,g8f6,e1g1,f8e7,f1e1,b7b5,a4b3,e8g8,c2c3,d7d5,e4d5,f6d5,f3e5,c6e5)
+    …depth 20: 600/1926 nodes processed  |  running total: 36,728 positions, 7,470 terminal lines
+    …depth 20: 650/1926 nodes processed  |  running total: 36,778 positions, 7,470 terminal lines
+    …depth 20: 700/1926 nodes processed  |  running total: 36,828 positions, 7,470 terminal lines
+    …depth 20: 750/1926 nodes processed  |  running total: 36,878 positions, 7,470 terminal lines
+    …depth 20: 800/1926 nodes processed  |  running total: 36,928 positions, 7,470 terminal lines
+    …depth 20: 850/1926 nodes processed  |  running total: 36,978 positions, 7,470 terminal lines
+    …depth 20: 900/1926 nodes processed  |  running total: 37,028 positions, 7,470 terminal lines
+    …depth 20: 950/1926 nodes processed  |  running total: 37,078 positions, 7,470 terminal lines
+    …depth 20: 1000/1926 nodes processed  |  running total: 37,128 positions, 7,470 terminal lines
+    …depth 20: 1050/1926 nodes processed  |  running total: 37,178 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,g8f6,e4e5,f6d5,d2d4,d7d6,g1f3,c8g4,f1e2,e7e6,e1g1,f8e7,c2c4,d5b6,b1c3,e8g8,c1e3,d6d5,c4c5,g4f3)
+    …depth 20: 1100/1926 nodes processed  |  running total: 37,228 positions, 7,470 terminal lines
+    …depth 20: 1150/1926 nodes processed  |  running total: 37,278 positions, 7,470 terminal lines
+    …depth 20: 1200/1926 nodes processed  |  running total: 37,328 positions, 7,470 terminal lines
+    …depth 20: 1250/1926 nodes processed  |  running total: 37,378 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,d7d5,b1c3,c7c5,c4d5,e6d5,g2g3,b8c6,f1g2,f8e7,e1g1,e8g8,c1g5,c5d4,f3d4,h7h6)
+    …depth 20: 1300/1926 nodes processed  |  running total: 37,428 positions, 7,470 terminal lines
+    …depth 20: 1350/1926 nodes processed  |  running total: 37,478 positions, 7,470 terminal lines
+    …depth 20: 1400/1926 nodes processed  |  running total: 37,528 positions, 7,470 terminal lines
+    …depth 20: 1450/1926 nodes processed  |  running total: 37,578 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,g1f3,c7c5,d4d5,e6d5,c4d5,d7d6,b1c3,g7g6,g2g3,f8g7,f1g2,e8g8,e1g1,f8e8,f1e1,a7a6)
+    …depth 20: 1500/1926 nodes processed  |  running total: 37,628 positions, 7,470 terminal lines
+    …depth 20: 1550/1926 nodes processed  |  running total: 37,678 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,b1c3,c7c5,d4d5,e6d5,c4d5,d7d6,e2e4,g7g6,f2f4,f8g7,f1b5,f6d7,g1f3,a7a6,b5d3,b7b5)
+    …depth 20: 1600/1926 nodes processed  |  running total: 37,728 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,g7g6,b1c3,f8g7,g1f3,e8g8,g2g3,c7c5,f1g2,c5d4,f3d4,b8c6,e1g1,f6g4,e2e3,d7d6,b2b3,c6d4)
+    …depth 20: 1650/1926 nodes processed  |  running total: 37,778 positions, 7,470 terminal lines
+    …depth 20: 1700/1926 nodes processed  |  running total: 37,828 positions, 7,470 terminal lines
+    …depth 20: 1750/1926 nodes processed  |  running total: 37,878 positions, 7,470 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,c7c6,g1f3,d7d5,d1c2,d5c4,c2c4,c8f5,g2g3,e7e6,f1g2,b8d7,e1g1,f8e7,b1c3,e8g8,f1e1,f6e4)
+    …depth 20: 1800/1926 nodes processed  |  running total: 37,928 positions, 7,470 terminal lines
+    …depth 20: 1850/1926 nodes processed  |  running total: 37,978 positions, 7,470 terminal lines
+    …depth 20: 1900/1926 nodes processed  |  running total: 38,028 positions, 7,470 terminal lines
+  Depth 20: expanded 1926  |  network 1926, cache 0  |  cumulative 38,054 positions, 7,470 terminal lines
+  Next frontier size: 1633
+
+--- Depth 21 — processing 1633 nodes ---
+  [net] fetch failed — retry 1/6 in 2s (play=e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,c1e3,e7e5,d4b3,c8e6,f2f3,h7h5,d1d2,b8d7,e1c1,f8e7,c1b1)
+    …depth 21: 50/1633 nodes processed  |  running total: 38,104 positions, 7,969 terminal lines
+    …depth 21: 100/1633 nodes processed  |  running total: 38,154 positions, 7,969 terminal lines
+    …depth 21: 150/1633 nodes processed  |  running total: 38,204 positions, 7,969 terminal lines
+    …depth 21: 200/1633 nodes processed  |  running total: 38,254 positions, 7,969 terminal lines
+    …depth 21: 250/1633 nodes processed  |  running total: 38,304 positions, 7,969 terminal lines
+    …depth 21: 300/1633 nodes processed  |  running total: 38,354 positions, 7,969 terminal lines
+    …depth 21: 350/1633 nodes processed  |  running total: 38,404 positions, 7,969 terminal lines
+    …depth 21: 400/1633 nodes processed  |  running total: 38,454 positions, 7,969 terminal lines
+    …depth 21: 450/1633 nodes processed  |  running total: 38,504 positions, 7,969 terminal lines
+    …depth 21: 500/1633 nodes processed  |  running total: 38,554 positions, 7,969 terminal lines
+    …depth 21: 550/1633 nodes processed  |  running total: 38,604 positions, 7,969 terminal lines
+    …depth 21: 600/1633 nodes processed  |  running total: 38,654 positions, 7,969 terminal lines
+    …depth 21: 650/1633 nodes processed  |  running total: 38,704 positions, 7,969 terminal lines
+    …depth 21: 700/1633 nodes processed  |  running total: 38,754 positions, 7,969 terminal lines
+    …depth 21: 750/1633 nodes processed  |  running total: 38,804 positions, 7,969 terminal lines
+    …depth 21: 800/1633 nodes processed  |  running total: 38,854 positions, 7,969 terminal lines
+    …depth 21: 850/1633 nodes processed  |  running total: 38,904 positions, 7,969 terminal lines
+    …depth 21: 900/1633 nodes processed  |  running total: 38,954 positions, 7,969 terminal lines
+    …depth 21: 950/1633 nodes processed  |  running total: 39,004 positions, 7,969 terminal lines
+    …depth 21: 1000/1633 nodes processed  |  running total: 39,054 positions, 7,969 terminal lines
+    …depth 21: 1050/1633 nodes processed  |  running total: 39,104 positions, 7,969 terminal lines
+    …depth 21: 1100/1633 nodes processed  |  running total: 39,154 positions, 7,969 terminal lines
+    …depth 21: 1150/1633 nodes processed  |  running total: 39,204 positions, 7,969 terminal lines
+    …depth 21: 1200/1633 nodes processed  |  running total: 39,254 positions, 7,969 terminal lines
+    …depth 21: 1250/1633 nodes processed  |  running total: 39,304 positions, 7,969 terminal lines
+    …depth 21: 1300/1633 nodes processed  |  running total: 39,354 positions, 7,969 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=d2d4,g8f6,c2c4,e7e6,b1c3,f8b4,d1c2,e8g8,a2a3,b4c3,c2c3,d7d5,g1f3,d5c4,c3c4,b7b6,c1g5,c8a6,c4a4,c7c5,d4c5)
+    …depth 21: 1350/1633 nodes processed  |  running total: 39,404 positions, 7,969 terminal lines
+    …depth 21: 1400/1633 nodes processed  |  running total: 39,454 positions, 7,969 terminal lines
+    …depth 21: 1450/1633 nodes processed  |  running total: 39,504 positions, 7,969 terminal lines
+    …depth 21: 1500/1633 nodes processed  |  running total: 39,554 positions, 7,969 terminal lines
+    …depth 21: 1550/1633 nodes processed  |  running total: 39,604 positions, 7,969 terminal lines
+    …depth 21: 1600/1633 nodes processed  |  running total: 39,654 positions, 7,969 terminal lines
+  [net] fetch failed — retry 1/6 in 2s (play=g1f3,b8c6,c2c4,e7e5,b1c3,g8f6,g2g3,f8b4,f1g2,e8g8,e1g1,e5e4,f3g5,b4c3,b2c3,f8e8,f2f3,e4f3,g5f3,d8e7,e2e3)
+  Depth 21: expanded 1633  |  network 1633, cache 0  |  cumulative 39,687 positions, 7,969 terminal lines
+  Next frontier size: 1399
+
+--- Depth 22 — processing 1399 nodes ---
+    …depth 22: 50/1399 nodes processed  |  running total: 39,737 positions, 8,387 terminal lines
+    …depth 22: 100/1399 nodes processed  |  running total: 39,787 positions, 8,387 terminal lines
+    …depth 22: 150/1399 nodes processed  |  running total: 39,837 positions, 8,387 terminal lines
+    …depth 22: 200/1399 nodes processed  |  running total: 39,887 positions, 8,387 terminal lines
+    …depth 22: 250/1399 nodes processed  |  running total: 39,937 positions, 8,387 terminal lines
+    …depth 22: 300/1399 nodes processed  |  running total: 39,987 positions, 8,387 terminal lines
+    …depth 22: 350/1399 nodes processed  |  running total: 40,037 positions, 8,387 terminal lines
+    …depth 22: 400/1399 nodes processed  |  running total: 40,087 positions, 8,387 terminal lines
+    …depth 22: 450/1399 nodes processed  |  running total: 40,137 positions, 8,387 terminal lines
+    …depth 22: 500/1399 nodes processed  |  running total: 40,187 positions, 8,387 terminal lines
+    …depth 22: 550/1399 nodes processed  |  running total: 40,237 positions, 8,387 terminal lines
+    …depth 22: 600/1399 nodes processed  |  running total: 40,287 positions, 8,387 terminal lines
+    …depth 22: 650/1399 nodes processed  |  running total: 40,337 positions, 8,387 terminal lines
+    …depth 22: 700/1399 nodes processed  |  running total: 40,387 positions, 8,387 terminal lines
+    …depth 22: 750/1399 nodes processed  |  running total: 40,437 positions, 8,387 terminal lines
+    …depth 22: 800/1399 nodes processed  |  running total: 40,487 positions, 8,387 terminal lines
+    …depth 22: 850/1399 nodes processed  |  running total: 40,537 positions, 8,387 terminal lines
+    …depth 22: 900/1399 nodes processed  |  running total: 40,587 positions, 8,387 terminal lines
+    …depth 22: 950/1399 nodes processed  |  running total: 40,637 positions, 8,387 terminal lines
+    …depth 22: 1000/1399 nodes processed  |  running total: 40,687 positions, 8,387 terminal lines
+    …depth 22: 1050/1399 nodes processed  |  running total: 40,737 positions, 8,387 terminal lines
+    …depth 22: 1100/1399 nodes processed  |  running total: 40,787 positions, 8,387 terminal lines
+    …depth 22: 1150/1399 nodes processed  |  running total: 40,837 positions, 8,387 terminal lines
+    …depth 22: 1200/1399 nodes processed  |  running total: 40,887 positions, 8,387 terminal lines
+    …depth 22: 1250/1399 nodes processed  |  running total: 40,937 positions, 8,387 terminal lines
+    …depth 22: 1300/1399 nodes processed  |  running total: 40,987 positions, 8,387 terminal lines
+    …depth 22: 1350/1399 nodes processed  |  running total: 41,037 positions, 8,387 terminal lines
+  Depth 22: expanded 1399  |  network 1399, cache 0  |  cumulative 41,086 positions, 8,387 terminal lines
+  Next frontier size: 1210
+
+--- Depth 23 — processing 1210 nodes ---
+    …depth 23: 50/1210 nodes processed  |  running total: 41,136 positions, 8,728 terminal lines
+    …depth 23: 100/1210 nodes processed  |  running total: 41,186 positions, 8,728 terminal lines
+    …depth 23: 150/1210 nodes processed  |  running total: 41,236 positions, 8,728 terminal lines
+    …depth 23: 200/1210 nodes processed  |  running total: 41,286 positions, 8,728 terminal lines
+    …depth 23: 250/1210 nodes processed  |  running total: 41,336 positions, 8,728 terminal lines
+    …depth 23: 300/1210 nodes processed  |  running total: 41,386 positions, 8,728 terminal lines
+    …depth 23: 350/1210 nodes processed  |  running total: 41,436 positions, 8,728 terminal lines
+    …depth 23: 400/1210 nodes processed  |  running total: 41,486 positions, 8,728 terminal lines
+    …depth 23: 450/1210 nodes processed  |  running total: 41,536 positions, 8,728 terminal lines
+    …depth 23: 500/1210 nodes processed  |  running total: 41,586 positions, 8,728 terminal lines
+    …depth 23: 550/1210 nodes processed  |  running total: 41,636 positions, 8,728 terminal lines
+    …depth 23: 600/1210 nodes processed  |  running total: 41,686 positions, 8,728 terminal lines
+    …depth 23: 650/1210 nodes processed  |  running total: 41,736 positions, 8,728 terminal lines
+    …depth 23: 700/1210 nodes processed  |  running total: 41,786 positions, 8,728 terminal lines
+    …depth 23: 750/1210 nodes processed  |  running total: 41,836 positions, 8,728 terminal lines
+    …depth 23: 800/1210 nodes processed  |  running total: 41,886 positions, 8,728 terminal lines
+    …depth 23: 850/1210 nodes processed  |  running total: 41,936 positions, 8,728 terminal lines
+    …depth 23: 900/1210 nodes processed  |  running total: 41,986 positions, 8,728 terminal lines
+    …depth 23: 950/1210 nodes processed  |  running total: 42,036 positions, 8,728 terminal lines
+    …depth 23: 1000/1210 nodes processed  |  running total: 42,086 positions, 8,728 terminal lines
+    …depth 23: 1050/1210 nodes processed  |  running total: 42,136 positions, 8,728 terminal lines
+    …depth 23: 1100/1210 nodes processed  |  running total: 42,186 positions, 8,728 terminal lines
+    …depth 23: 1150/1210 nodes processed  |  running total: 42,236 positions, 8,728 terminal lines
+    …depth 23: 1200/1210 nodes processed  |  running total: 42,286 positions, 8,728 terminal lines
+  Depth 23: expanded 1210  |  network 1210, cache 0  |  cumulative 42,296 positions, 8,728 terminal lines
+  Next frontier size: 1038
+
+--- Depth 24 — processing 1038 nodes ---
+    …depth 24: 50/1038 nodes processed  |  running total: 42,346 positions, 9,011 terminal lines
+    …depth 24: 100/1038 nodes processed  |  running total: 42,396 positions, 9,011 terminal lines
+    …depth 24: 150/1038 nodes processed  |  running total: 42,446 positions, 9,011 terminal lines
+    …depth 24: 200/1038 nodes processed  |  running total: 42,496 positions, 9,011 terminal lines
+    …depth 24: 250/1038 nodes processed  |  running total: 42,546 positions, 9,011 terminal lines
+    …depth 24: 300/1038 nodes processed  |  running total: 42,596 positions, 9,011 terminal lines
+    …depth 24: 350/1038 nodes processed  |  running total: 42,646 positions, 9,011 terminal lines
+    …depth 24: 400/1038 nodes processed  |  running total: 42,696 positions, 9,011 terminal lines
+    …depth 24: 450/1038 nodes processed  |  running total: 42,746 positions, 9,011 terminal lines
+    …depth 24: 500/1038 nodes processed  |  running total: 42,796 positions, 9,011 terminal lines
+    …depth 24: 550/1038 nodes processed  |  running total: 42,846 positions, 9,011 terminal lines
+    …depth 24: 600/1038 nodes processed  |  running total: 42,896 positions, 9,011 terminal lines
+    …depth 24: 650/1038 nodes processed  |  running total: 42,946 positions, 9,011 terminal lines
+    …depth 24: 700/1038 nodes processed  |  running total: 42,996 positions, 9,011 terminal lines
+    …depth 24: 750/1038 nodes processed  |  running total: 43,046 positions, 9,011 terminal lines
+    …depth 24: 800/1038 nodes processed  |  running total: 43,096 positions, 9,011 terminal lines
+    …depth 24: 850/1038 nodes processed  |  running total: 43,146 positions, 9,011 terminal lines
+    …depth 24: 900/1038 nodes processed  |  running total: 43,196 positions, 9,011 terminal lines
+    …depth 24: 950/1038 nodes processed  |  running total: 43,246 positions, 9,011 terminal lines
+    …depth 24: 1000/1038 nodes processed  |  running total: 43,296 positions, 9,011 terminal lines
+  Depth 24: expanded 1038  |  network 1038, cache 0  |  cumulative 43,334 positions, 9,011 terminal lines
+  Next frontier size: 855
+
+--- Depth 25 — processing 855 nodes ---
+    …depth 25: 50/855 nodes processed  |  running total: 43,384 positions, 9,291 terminal lines
+    …depth 25: 100/855 nodes processed  |  running total: 43,434 positions, 9,291 terminal lines
+    …depth 25: 150/855 nodes processed  |  running total: 43,484 positions, 9,291 terminal lines
+    …depth 25: 200/855 nodes processed  |  running total: 43,534 positions, 9,291 terminal lines
+    …depth 25: 250/855 nodes processed  |  running total: 43,584 positions, 9,291 terminal lines
+    …depth 25: 300/855 nodes processed  |  running total: 43,634 positions, 9,291 terminal lines
+    …depth 25: 350/855 nodes processed  |  running total: 43,684 positions, 9,291 terminal lines
+    …depth 25: 400/855 nodes processed  |  running total: 43,734 positions, 9,291 terminal lines
+    …depth 25: 450/855 nodes processed  |  running total: 43,784 positions, 9,291 terminal lines
+    …depth 25: 500/855 nodes processed  |  running total: 43,834 positions, 9,291 terminal lines
+    …depth 25: 550/855 nodes processed  |  running total: 43,884 positions, 9,291 terminal lines
+    …depth 25: 600/855 nodes processed  |  running total: 43,934 positions, 9,291 terminal lines
+    …depth 25: 650/855 nodes processed  |  running total: 43,984 positions, 9,291 terminal lines
+    …depth 25: 700/855 nodes processed  |  running total: 44,034 positions, 9,291 terminal lines
+    …depth 25: 750/855 nodes processed  |  running total: 44,084 positions, 9,291 terminal lines
+    …depth 25: 800/855 nodes processed  |  running total: 44,134 positions, 9,291 terminal lines
+    …depth 25: 850/855 nodes processed  |  running total: 44,184 positions, 9,291 terminal lines
+  Depth 25: expanded 855  |  network 855, cache 0  |  cumulative 44,189 positions, 9,291 terminal lines
+  Next frontier size: 731
+
+--- Depth 26 — processing 731 nodes ---
+    …depth 26: 50/731 nodes processed  |  running total: 44,239 positions, 9,473 terminal lines
+    …depth 26: 100/731 nodes processed  |  running total: 44,289 positions, 9,473 terminal lines
+    …depth 26: 150/731 nodes processed  |  running total: 44,339 positions, 9,473 terminal lines
+    …depth 26: 200/731 nodes processed  |  running total: 44,389 positions, 9,473 terminal lines
+    …depth 26: 250/731 nodes processed  |  running total: 44,439 positions, 9,473 terminal lines
+    …depth 26: 300/731 nodes processed  |  running total: 44,489 positions, 9,473 terminal lines
+    …depth 26: 350/731 nodes processed  |  running total: 44,539 positions, 9,473 terminal lines
+    …depth 26: 400/731 nodes processed  |  running total: 44,589 positions, 9,473 terminal lines
+    …depth 26: 450/731 nodes processed  |  running total: 44,639 positions, 9,473 terminal lines
+    …depth 26: 500/731 nodes processed  |  running total: 44,689 positions, 9,473 terminal lines
+    …depth 26: 550/731 nodes processed  |  running total: 44,739 positions, 9,473 terminal lines
+    …depth 26: 600/731 nodes processed  |  running total: 44,789 positions, 9,473 terminal lines
+    …depth 26: 650/731 nodes processed  |  running total: 44,839 positions, 9,473 terminal lines
+    …depth 26: 700/731 nodes processed  |  running total: 44,889 positions, 9,473 terminal lines
+  Depth 26: expanded 731  |  network 731, cache 0  |  cumulative 44,920 positions, 9,473 terminal lines
+  Next frontier size: 572
+
+--- Depth 27 — processing 572 nodes ---
+    …depth 27: 50/572 nodes processed  |  running total: 44,970 positions, 9,674 terminal lines
+    …depth 27: 100/572 nodes processed  |  running total: 45,020 positions, 9,674 terminal lines
+    …depth 27: 150/572 nodes processed  |  running total: 45,070 positions, 9,674 terminal lines
+    …depth 27: 200/572 nodes processed  |  running total: 45,120 positions, 9,674 terminal lines
+    …depth 27: 250/572 nodes processed  |  running total: 45,170 positions, 9,674 terminal lines
+    …depth 27: 300/572 nodes processed  |  running total: 45,220 positions, 9,674 terminal lines
+    …depth 27: 350/572 nodes processed  |  running total: 45,270 positions, 9,674 terminal lines
+    …depth 27: 400/572 nodes processed  |  running total: 45,320 positions, 9,674 terminal lines
+    …depth 27: 450/572 nodes processed  |  running total: 45,370 positions, 9,674 terminal lines
+    …depth 27: 500/572 nodes processed  |  running total: 45,420 positions, 9,674 terminal lines
+    …depth 27: 550/572 nodes processed  |  running total: 45,470 positions, 9,674 terminal lines
+  Depth 27: expanded 572  |  network 572, cache 0  |  cumulative 45,492 positions, 9,674 terminal lines
+  Next frontier size: 498
+
+--- Depth 28 — processing 498 nodes ---
+    …depth 28: 50/498 nodes processed  |  running total: 45,542 positions, 9,784 terminal lines
+    …depth 28: 100/498 nodes processed  |  running total: 45,592 positions, 9,784 terminal lines
+    …depth 28: 150/498 nodes processed  |  running total: 45,642 positions, 9,784 terminal lines
+    …depth 28: 200/498 nodes processed  |  running total: 45,692 positions, 9,784 terminal lines
+    …depth 28: 250/498 nodes processed  |  running total: 45,742 positions, 9,784 terminal lines
+    …depth 28: 300/498 nodes processed  |  running total: 45,792 positions, 9,784 terminal lines
+    …depth 28: 350/498 nodes processed  |  running total: 45,842 positions, 9,784 terminal lines
+    …depth 28: 400/498 nodes processed  |  running total: 45,892 positions, 9,784 terminal lines
+    …depth 28: 450/498 nodes processed  |  running total: 45,942 positions, 9,784 terminal lines
+  Depth 28: expanded 498  |  network 498, cache 0  |  cumulative 45,990 positions, 9,784 terminal lines
+  Next frontier size: 441
+
+--- Depth 29 — processing 441 nodes ---
+    …depth 29: 50/441 nodes processed  |  running total: 46,040 positions, 9,887 terminal lines
+    …depth 29: 100/441 nodes processed  |  running total: 46,090 positions, 9,887 terminal lines
+    …depth 29: 150/441 nodes processed  |  running total: 46,140 positions, 9,887 terminal lines
+    …depth 29: 200/441 nodes processed  |  running total: 46,190 positions, 9,887 terminal lines
+    …depth 29: 250/441 nodes processed  |  running total: 46,240 positions, 9,887 terminal lines
+    …depth 29: 300/441 nodes processed  |  running total: 46,290 positions, 9,887 terminal lines
+    …depth 29: 350/441 nodes processed  |  running total: 46,340 positions, 9,887 terminal lines
+    …depth 29: 400/441 nodes processed  |  running total: 46,390 positions, 9,887 terminal lines
+  Depth 29: expanded 441  |  network 441, cache 0  |  cumulative 46,431 positions, 9,887 terminal lines
+  Next frontier size: 386
+
+--- Depth 30 — processing 386 nodes ---
+    …depth 30: 50/386 nodes processed  |  running total: 46,481 positions, 9,979 terminal lines
+    …depth 30: 100/386 nodes processed  |  running total: 46,531 positions, 9,979 terminal lines
+    …depth 30: 150/386 nodes processed  |  running total: 46,581 positions, 9,979 terminal lines
+    …depth 30: 200/386 nodes processed  |  running total: 46,631 positions, 9,979 terminal lines
+    …depth 30: 250/386 nodes processed  |  running total: 46,681 positions, 9,979 terminal lines
+    …depth 30: 300/386 nodes processed  |  running total: 46,731 positions, 9,979 terminal lines
+    …depth 30: 350/386 nodes processed  |  running total: 46,781 positions, 9,979 terminal lines
+  Depth 30: expanded 386  |  network 386, cache 0  |  cumulative 46,817 positions, 9,979 terminal lines
+  Next frontier size: 307
+
+--- Depth 31 — processing 307 nodes ---
+    …depth 31: 50/307 nodes processed  |  running total: 46,867 positions, 10,080 terminal lines
+    …depth 31: 100/307 nodes processed  |  running total: 46,917 positions, 10,080 terminal lines
+    …depth 31: 150/307 nodes processed  |  running total: 46,967 positions, 10,080 terminal lines
+    …depth 31: 200/307 nodes processed  |  running total: 47,017 positions, 10,080 terminal lines
+    …depth 31: 250/307 nodes processed  |  running total: 47,067 positions, 10,080 terminal lines
+    …depth 31: 300/307 nodes processed  |  running total: 47,117 positions, 10,080 terminal lines
+  Depth 31: expanded 307  |  network 307, cache 0  |  cumulative 47,124 positions, 10,080 terminal lines
+  Next frontier size: 250
+
+--- Depth 32 — processing 250 nodes ---
+    …depth 32: 50/250 nodes processed  |  running total: 47,174 positions, 10,153 terminal lines
+    …depth 32: 100/250 nodes processed  |  running total: 47,224 positions, 10,153 terminal lines
+    …depth 32: 150/250 nodes processed  |  running total: 47,274 positions, 10,153 terminal lines
+    …depth 32: 200/250 nodes processed  |  running total: 47,324 positions, 10,153 terminal lines
+    …depth 32: 250/250 nodes processed  |  running total: 47,374 positions, 10,153 terminal lines
+  Depth 32: expanded 250  |  network 250, cache 0  |  cumulative 47,374 positions, 10,153 terminal lines
+  Next frontier size: 213
+
+--- Depth 33 — processing 213 nodes ---
+    …depth 33: 50/213 nodes processed  |  running total: 47,424 positions, 10,205 terminal lines
+    …depth 33: 100/213 nodes processed  |  running total: 47,474 positions, 10,205 terminal lines
+    …depth 33: 150/213 nodes processed  |  running total: 47,524 positions, 10,205 terminal lines
+    …depth 33: 200/213 nodes processed  |  running total: 47,574 positions, 10,205 terminal lines
+  Depth 33: expanded 213  |  network 213, cache 0  |  cumulative 47,587 positions, 10,205 terminal lines
+  Next frontier size: 177
+
+--- Depth 34 — processing 177 nodes ---
+    …depth 34: 50/177 nodes processed  |  running total: 47,637 positions, 10,254 terminal lines
+    …depth 34: 100/177 nodes processed  |  running total: 47,687 positions, 10,254 terminal lines
+    …depth 34: 150/177 nodes processed  |  running total: 47,737 positions, 10,254 terminal lines
+  Depth 34: expanded 177  |  network 177, cache 0  |  cumulative 47,764 positions, 10,254 terminal lines
+  Next frontier size: 147
+
+--- Depth 35 — processing 147 nodes ---
+    …depth 35: 50/147 nodes processed  |  running total: 47,814 positions, 10,294 terminal lines
+    …depth 35: 100/147 nodes processed  |  running total: 47,864 positions, 10,294 terminal lines
+  Depth 35: expanded 147  |  network 147, cache 0  |  cumulative 47,911 positions, 10,294 terminal lines
+  Next frontier size: 124
+
+--- Depth 36 — processing 124 nodes ---
+    …depth 36: 50/124 nodes processed  |  running total: 47,961 positions, 10,320 terminal lines
+    …depth 36: 100/124 nodes processed  |  running total: 48,011 positions, 10,320 terminal lines
+  Depth 36: expanded 124  |  network 124, cache 0  |  cumulative 48,035 positions, 10,320 terminal lines
+  Next frontier size: 92
+
+--- Depth 37 — processing 92 nodes ---
+    …depth 37: 50/92 nodes processed  |  running total: 48,085 positions, 10,354 terminal lines
+  Depth 37: expanded 92  |  network 92, cache 0  |  cumulative 48,127 positions, 10,354 terminal lines
+  Next frontier size: 72
+
+--- Depth 38 — processing 72 nodes ---
+    …depth 38: 50/72 nodes processed  |  running total: 48,177 positions, 10,376 terminal lines
+  Depth 38: expanded 72  |  network 72, cache 0  |  cumulative 48,199 positions, 10,376 terminal lines
+  Next frontier size: 57
+
+--- Depth 39 — processing 57 nodes ---
+    …depth 39: 50/57 nodes processed  |  running total: 48,249 positions, 10,395 terminal lines
+  Depth 39: expanded 57  |  network 57, cache 0  |  cumulative 48,256 positions, 10,395 terminal lines
+  Next frontier size: 46
+
+--- Depth 40 — processing 46 nodes ---
+  Depth 40: expanded 46  |  network 46, cache 0  |  cumulative 48,302 positions, 10,407 terminal lines
+  Reached MAX_PLY=40, stopping expansion.
+
+Crawl complete. 48,302 positions, 10,453 terminal lines, max depth 40 ply.
+
+Wrote tree to /Users/fixadmin/edunovagames-website/src/data/chessle-tree.json

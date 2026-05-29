@@ -3,6 +3,74 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
+## Session 5 - TBD
+
+** Goal: Branch out functionality to other variants and optimize search. Search right now is ineffective because it does BFS for each length. I want DFS that traces each opening tree while considering the number of half-moves it plays is much more effective. 
+
+## Session 4 — May 27–29, 2026
+
+**Lichess Masters opening tree crawler (`scripts/fetch-opening-tree.mjs`)**
+Replaced the old 647-opening ECO list with a full crawl of the Lichess Masters database. The crawler walks the position graph breadth-first, fetching one Lichess API request per unique chess position.
+
+How it works:
+- Queries `https://explorer.lichess.ovh/masters?play=<uci-csv>` for each position. One request returns the total game count and every legal continuation with game counts.
+- Expands a child move only if it appears in ≥ 100 master games, so obscure sidelines are pruned naturally.
+- Deduplicates by normalized FEN (first four fields), so transpositions are visited exactly once — each unique board position is expanded only once regardless of how many move orders reach it. Without this, frontier sizes would explode exponentially.
+- Marks nodes with `terminal: true` when no continuation clears 100 games, distinguishing genuine dead-ends from transposition cuts (important for the build step).
+- Crawls up to 40 ply (safety cap). Resumable: responses are cached to `scripts/.opening-tree-cache.json` (gitignored), flushed every 50 fetches and on Ctrl-C. Rate-limited to 350 ms between network requests, with exponential-backoff retry on 429s and transport errors.
+- Result: **48,302 unique positions**, **10,453 terminal lines**, up to 40 ply. Written to `src/data/chessle-tree.json` (31 MB, gitignored — regenerate with the script).
+
+**Parameterized build step (`scripts/build-openings-from-tree.mjs`, `scripts/build-all-depths.mjs`)**
+A local script reads the tree JSON and produces the flat openings array the game uses, without any network calls.
+
+- `--depth=N` sets the target half-move depth (default 10). Emits one opening per node exactly at depth N, plus any true terminal nodes at depth < N (genuine short lines). Deduplicates by terminal FEN, keeps the lexicographically smaller PGN. Sorts by PGN ascending for deterministic index order (required for stable share codes).
+- Writes `chessle-openings.json` (flat `Opening[]`) and `chessle-difficulties.json` (difficulty per index, computed from master game counts at each terminal position using 33/66 percentile splits — no network needed).
+- `build-all-depths.mjs` is a convenience wrapper that runs the builder for all five depths (6, 8, 10, 12, 14) in sequence, writing `chessle-openings-{N}.json` and `chessle-difficulties-{N}.json` for each. These per-depth files are gitignored.
+- The active game dataset (`chessle-openings.json` / `chessle-difficulties.json`) is built from the depth-14 tree slice: **6,879 openings**, up to 14 half-moves each.
+
+Dataset counts by depth:
+
+| Depth | Openings | Easy | Medium | Hard |
+|-------|----------|------|--------|------|
+| 6 | 1,368 | 452 | 455 | 461 |
+| 8 | 2,561 | 849 | 855 | 857 |
+| 10 | 3,967 | 1,312 | 1,310 | 1,345 |
+| 12 | 5,503 | 1,822 | 1,823 | 1,858 |
+| 14 | 6,879 | 2,274 | 2,308 | 2,297 |
+
+**Variable move-depth game core (`src/hooks/useChessle.ts`, `src/components/chessle/GuessGrid.tsx`, `src/app/chessle/page.tsx`)**
+The game core now supports any line length, not just 10 half-moves.
+
+- `useChessle` accepts a third parameter `targetDepth` (default `HALF_MOVES_PER_GUESS = 10`). `lineLength = Math.min(opening.moves.length, targetDepth)` — so a 14-move opening played at depth 6 uses only the first 6 moves.
+- `buildEmptyRow` / `buildEmptyGrid` take a length argument. Grid starts as `[]` and is built when an opening is set (fixes a prior hydration issue).
+- `GuessGrid` accepts a `lineLength` prop. `FULL_MOVES = Math.ceil(lineLength / 2)` determines how many white/black tile pairs to render. Odd line lengths render a lone white tile in the final pair.
+- `submitGuess` slices guessed moves to `lineLength` before evaluation (bug fix: previously all grid tiles — including unused empty ones — were passed to `evaluateGuess`, corrupting the result when depth < the grid row width).
+- `cheatSolve` and `fillGreen` also respect `lineLength`.
+
+**Two-step game setup overlay (`src/components/chessle/DifficultySelect.tsx`, `src/app/chessle/page.tsx`)**
+The difficulty selector was redesigned into a two-screen welcome flow.
+
+- Screen 1: "Welcome to Chessle!" heading, step indicator dots, then Easy / Medium / Hard buttons. Clicking one advances to screen 2.
+- Screen 2: Five depth chips (6 / 8 / 10 / 12 / 14), default 10 pre-selected (gradient highlight). "← Back" returns to screen 1; "Play" locks both settings and starts the game.
+- Both difficulty and depth are passed together to `handleStart(difficulty, depth)`. The depth is set once at game start and shown right-aligned in the status bar as `{N} moves` throughout the game.
+- "Play Again" brings the full two-screen flow back so the player can change both settings between games.
+
+**Algorithmic base-62 share codes (`src/lib/chessle-ids.ts`)**
+Replaced the static 647-entry JSON hashmap with a self-contained base-62 encoder/decoder.
+
+- Alphabet: `0–9A–Za–z` (case-sensitive, 62 characters). `encodeOpeningIndex(i)` converts an integer index to base-62. `decodeOpeningCode(code)` converts back — trims whitespace but does NOT uppercase (case-sensitive). Invalid characters return `null`. No range check in the lib; `getOpeningByIndex` clamps modulo the array length.
+- Old share codes (which contained `-` and were case-insensitive) return `null` — a clean break, expected since the dataset was completely regenerated.
+- `src/data/chessle-ids.json` deleted.
+
+**EndOfGame truncation (`src/components/chessle/EndOfGame.tsx`)**
+The end-of-game screen now receives `lineLength` and uses it to:
+- Display only the moves actually played (`opening.moves.slice(0, lineLength)`), not the full opening.
+- Rebuild a truncated PGN from those moves and use it in the Lichess URL, so the "Study this opening on Lichess" link opens at the exact position the player guessed — not partway through a longer line.
+
+**ESLint config fix (`.eslintrc.json`)**
+Removed `"next/typescript"` from the extends list. That config only exists in Next.js 15+; this project uses Next.js 14.2.23 which ships only `next/core-web-vitals`. The broken reference caused lint to fail entirely, hiding all real lint errors.
+
+---
 
 ## Session 3 — May 25, 2026, 8:37 PM ET
 

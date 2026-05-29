@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# opening tree crawler cache (resumable, not committed)
+scripts/.opening-tree-cache.json
+
+# generated opening tree (31MB, regenerate with scripts/fetch-opening-tree.mjs)
+src/data/chessle-tree.json
+
+# per-depth datasets (regenerate with scripts/build-all-depths.mjs)
+src/data/chessle-openings-*.json
+src/data/chessle-difficulties-*.json
