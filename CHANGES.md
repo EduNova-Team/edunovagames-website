@@ -3,9 +3,20 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
-## Session 5 - TBD
+## Session 6 - TBD
 
-** Goal: Branch out functionality to other variants and optimize search. Search right now is ineffective because it does BFS for each length. I want DFS that traces each opening tree while considering the number of half-moves it plays is much more effective. 
+** Goal: Branch out functionality to other variants and optimize search. Search right now is ineffective because it does BFS for each length. I want DFS that traces each opening tree while considering the number of half-moves it plays is much more effective. Also, I want to eventually migrate to another website that isn't Edunova Games so that I can expand to other variants on a separate platform. 
+
+## Session 5 - Jun 29, 2026
+
+**Play Again move-count fixes (`src/components/chessle/DifficultySelect.tsx`, `src/app/chessle/page.tsx`, `src/hooks/useChessle.ts`)**
+Fixed a cluster of bugs where the move count after "Play Again" no longer matched the depth the player selected.
+
+- **Setup overlay forgot the player's settings.** The overlay is conditionally rendered (`{showSetup && <DifficultySelect />}`), so every Play Again unmounted and remounted it, resetting its internal state to the hardcoded defaults — `depth` back to `10`. If the player didn't manually re-tap a depth tile, `handleStart` ran with the stale default and the game silently reverted to 10 half-moves. Fixed by seeding the overlay from the page's current settings via new `initialDifficulty` / `initialDepth` props, so the previously-chosen depth is pre-selected on replay.
+- **The overlay still always opens on the difficulty step** (step 1) so the player is prompted for difficulty every game; only the depth is remembered as a default.
+- **Short openings could shrink the line below the selected depth.** `pickRandomIndex(difficulty, depth)` now filters candidates to openings with `moves.length >= depth`. An opening shorter than the selected length is never picked, so `lineLength` always equals `targetDepth` for random games. Long openings (e.g. a 14-move line) still qualify at every depth and are simply truncated to the first N moves — so complex lines remain reachable at short depths. Verified every difficulty×depth combo retains hundreds–thousands of candidates (smallest: hard/14 = 542).
+- **Depth is now threaded explicitly through `playAgain(index?, newDifficulty?, newDepth?)`.** `handleStart` passes the freshly-selected depth rather than relying on `targetDepth` from the closure, which hasn't flushed yet within the same batch (the same stale-closure class of bug that previously bit the difficulty value).
+- **Status bar now reflects the actual line length** — changed from `{targetDepth}` to `{lineLength || targetDepth}`, so it's honest even when a shorter opening is loaded by code.
 
 ## Session 4 — May 27–29, 2026
 
