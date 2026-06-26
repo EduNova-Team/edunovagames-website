@@ -49,3 +49,12 @@ src/data/chessle-tree.json
 # per-depth datasets (regenerate with scripts/build-all-depths.mjs)
 src/data/chessle-openings-*.json
 src/data/chessle-difficulties-*.json
+
+# variant crawler caches (resumable, not committed)
+scripts/.variant-*-cache.json
+
+# raw variant crawl output (intermediate; build-variant-dataset.mjs finalizes it)
+src/data/*-openings.raw.json
+
+# variant crawl progress log (timestamped trackers, regenerated each run)
+/logs

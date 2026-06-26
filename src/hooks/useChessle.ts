@@ -1,7 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
 import { Chess } from "chess.js";
-import openingsData from "@/data/chessle-openings.json";
-import difficultiesData from "@/data/chessle-difficulties.json";
 import type { Difficulty } from "@/components/chessle/DifficultySelect";
 
 // ─── Config (change here to propagate everywhere) ───────────────────────────
@@ -30,14 +28,33 @@ export interface Opening {
 
 export type GamePhase = "playing" | "won" | "lost";
 
-// ─── Helpers ─────────────────────────────────────────────────────────────────
-const openings = openingsData as Opening[];
-const difficultyMap = difficultiesData.difficulties as Record<string, Difficulty>;
+/**
+ * A self-contained game dataset: the opening list plus a difficulty label per
+ * index. Chessle and each Variantle variant pass their own. The hook operates on
+ * whatever dataset it's given instead of importing one specific JSON file.
+ */
+export interface GameDataset {
+  openings: Opening[];
+  difficulties: Record<string, Difficulty>;
+}
 
-// Pre-build index pools per difficulty so filtering is O(1) at pick time
-const difficultyPools: Record<Difficulty, number[]> = { easy: [], medium: [], hard: [] };
-for (const [idx, diff] of Object.entries(difficultyMap)) {
-  difficultyPools[diff].push(parseInt(idx));
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+// Difficulty index pools are derived once per dataset and memoized by the
+// dataset's object identity, so repeated picks are O(1) and switching datasets
+// (e.g. variant change) rebuilds lazily.
+const poolsCache = new WeakMap<GameDataset, Record<Difficulty, number[]>>();
+
+function getPools(dataset: GameDataset): Record<Difficulty, number[]> {
+  let pools = poolsCache.get(dataset);
+  if (!pools) {
+    pools = { easy: [], medium: [], hard: [] };
+    for (const [idx, diff] of Object.entries(dataset.difficulties)) {
+      pools[diff].push(parseInt(idx));
+    }
+    poolsCache.set(dataset, pools);
+  }
+  return pools;
 }
 
 /**
@@ -46,20 +63,20 @@ for (const [idx, diff] of Object.entries(difficultyMap)) {
  * lineLength === targetDepth for every game (an opening shorter than the
  * selected depth would otherwise shrink the line below what the player chose).
  */
-function pickRandomIndex(difficulty?: Difficulty, depth = 0): number {
-  const basePool = difficulty
-    ? difficultyPools[difficulty]
-    : openings.map((_, i) => i);
+function pickRandomIndex(dataset: GameDataset, difficulty?: Difficulty, depth = 0): number {
+  const { openings } = dataset;
+  const basePool = difficulty ? getPools(dataset)[difficulty] : openings.map((_, i) => i);
   const pool =
     depth > 0 ? basePool.filter((i) => openings[i].moves.length >= depth) : basePool;
-  // Fallback to the unfiltered pool if nothing is long enough. With the current
-  // dataset every difficulty/depth combo has candidates, so this is just a guard
-  // that keeps pickRandomIndex total.
+  // Fallback to the unfiltered pool if nothing is long enough. This keeps
+  // pickRandomIndex total even for a sparse depth/difficulty combo.
   const chosen = pool.length > 0 ? pool : basePool;
   return chosen[Math.floor(Math.random() * chosen.length)];
 }
 
-function getOpeningByIndex(index: number): Opening {
+function getOpeningByIndex(dataset: GameDataset, index: number): Opening | null {
+  const { openings } = dataset;
+  if (openings.length === 0) return null;
   // Clamp gracefully so an out-of-range ID never crashes
   const safe = ((index % openings.length) + openings.length) % openings.length;
   return openings[safe];
@@ -120,7 +137,17 @@ function replayMoves(sans: string[]): Chess {
 }
 
 // ─── Hook ────────────────────────────────────────────────────────────────────
-export function useChessle(initialIndex?: number, difficulty?: Difficulty, targetDepth: number = HALF_MOVES_PER_GUESS) {
+export function useChessle(
+  dataset: GameDataset,
+  initialIndex?: number,
+  difficulty?: Difficulty,
+  targetDepth: number = HALF_MOVES_PER_GUESS
+) {
+  // The active dataset is held in state so it can be swapped at runtime (e.g.
+  // Variantle switching King of the Hill ↔ Three Check). playAgain threads a new
+  // dataset in explicitly to avoid the stale-closure trap; the prop seeds it.
+  const [activeDataset, setActiveDataset] = useState<GameDataset>(dataset);
+
   // ── Fix: initialize opening as null and set in useEffect so that random
   //    selection only ever happens on the client. This prevents the SSR/client
   //    hydration mismatch (server picks ECO "C39", client picks "E08", crash).
@@ -145,7 +172,8 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty, targe
   // Difficulty-based selection is handled by playAgain() called from the page.
   useEffect(() => {
     if (initialIndex === undefined) return;
-    const op = getOpeningByIndex(initialIndex);
+    const op = getOpeningByIndex(activeDataset, initialIndex);
+    if (!op) return;
     setOpening(op);
     setOpeningIndex(initialIndex);
     setChess(new Chess());
@@ -315,25 +343,32 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty, targe
    * Reset everything for a new game.
    * - Pass `index` to load a specific opening (Load-by-code feature).
    * - Pass `newDifficulty` to pick randomly from that pool.
-   * - Omit both to re-use the current difficulty.
+   * - Pass `newDataset` to switch datasets (Variantle variant change).
+   * - Omit all to re-use the current difficulty/depth/dataset.
    */
-  const playAgain = useCallback((index?: number, newDifficulty?: Difficulty, newDepth?: number) => {
-    const activeDifficulty = newDifficulty ?? difficulty;
-    // Use the explicitly-passed depth (handleStart passes the freshly-selected
-    // value before its setTargetDepth has flushed) and fall back to the current
-    // targetDepth for callers that don't change it (e.g. Load-by-code).
-    const activeDepth = newDepth ?? targetDepth;
-    const idx = index !== undefined ? index : pickRandomIndex(activeDifficulty, activeDepth);
-    const op = getOpeningByIndex(idx);
-    setOpening(op);
-    setOpeningIndex(idx);
-    setChess(new Chess());
-    setGrid(buildEmptyGrid(op.moves.length));
-    setCurrentMoves([]);
-    setCurrentGuessIndex(0);
-    setCurrentMoveIndex(0);
-    setPhase("playing");
-  }, [difficulty, targetDepth]);
+  const playAgain = useCallback(
+    (index?: number, newDifficulty?: Difficulty, newDepth?: number, newDataset?: GameDataset) => {
+      const activeDifficulty = newDifficulty ?? difficulty;
+      // Use the explicitly-passed depth/dataset (handleStart passes the freshly
+      // selected values before their setState has flushed) and fall back to the
+      // current ones for callers that don't change them (e.g. Load-by-code).
+      const activeDepth = newDepth ?? targetDepth;
+      const ds = newDataset ?? activeDataset;
+      const idx = index !== undefined ? index : pickRandomIndex(ds, activeDifficulty, activeDepth);
+      const op = getOpeningByIndex(ds, idx);
+      if (!op) return;
+      if (newDataset) setActiveDataset(newDataset);
+      setOpening(op);
+      setOpeningIndex(idx);
+      setChess(new Chess());
+      setGrid(buildEmptyGrid(op.moves.length));
+      setCurrentMoves([]);
+      setCurrentGuessIndex(0);
+      setCurrentMoveIndex(0);
+      setPhase("playing");
+    },
+    [difficulty, targetDepth, activeDataset]
+  );
 
   const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;
   const canFillGreen =

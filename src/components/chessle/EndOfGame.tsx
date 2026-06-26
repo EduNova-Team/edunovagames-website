@@ -9,6 +9,8 @@ interface EndOfGameProps {
   lineLength: number;
   onPlayAgain: () => void;
   onDismiss: () => void;
+  // When set, the "Study on Lichess" link opens the variant analysis board.
+  variant?: "kingOfTheHill" | "threeCheck";
 }
 
 function buildPgn(moves: string[]): string {
@@ -20,7 +22,7 @@ function buildPgn(moves: string[]): string {
   return parts.join(" ");
 }
 
-export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, lineLength, onPlayAgain, onDismiss }: EndOfGameProps) {
+export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, lineLength, onPlayAgain, onDismiss, variant }: EndOfGameProps) {
   if (phase === "playing") return null;
 
   const won = phase === "won";
@@ -28,7 +30,10 @@ export default function EndOfGame({ phase, opening, openingIndex: _openingIndex,
   // Truncate to the moves actually played (lineLength may be < opening.moves.length)
   const displayMoves = opening.moves.slice(0, lineLength);
   const pgn = displayMoves.length === opening.moves.length ? opening.pgn : buildPgn(displayMoves);
-  const lichessUrl = `https://lichess.org/analysis/pgn/${encodeURIComponent(pgn)}#explorer`;
+  const analysisBase = variant
+    ? `https://lichess.org/analysis/${variant}/pgn/`
+    : `https://lichess.org/analysis/pgn/`;
+  const lichessUrl = `${analysisBase}${encodeURIComponent(pgn)}#explorer`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">

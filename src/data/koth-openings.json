@@ -1,0 +1,74 @@
+[
+  {
+    "eco": "C92",
+    "name": "Ruy Lopez: Closed",
+    "moves": ["e4", "e5", "Nf3", "Nc6", "Bb5", "a6", "Ba4", "Nf6", "O-O", "Be7", "Re1", "b5", "Bb3", "d6"],
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6",
+    "games": 50000,
+    "depth": 14
+  },
+  {
+    "eco": "C54",
+    "name": "Italian Game: Giuoco Pianissimo",
+    "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "c3", "Nf6", "d3", "d6", "O-O", "O-O", "Re1", "a6"],
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. Re1 a6",
+    "games": 48000,
+    "depth": 14
+  },
+  {
+    "eco": "C45",
+    "name": "Scotch Game: Mieses Variation",
+    "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Nf6", "Nxc6", "bxc6"],
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6",
+    "games": 30000,
+    "depth": 10
+  },
+  {
+    "eco": "B90",
+    "name": "Sicilian Defense: Najdorf",
+    "moves": ["e4", "c5", "Nf3", "d6", "d4", "cxd4", "Nxd4", "Nf6", "Nc3", "a6", "Be2", "e5"],
+    "pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5",
+    "games": 25000,
+    "depth": 12
+  },
+  {
+    "eco": "D55",
+    "name": "Queen's Gambit Declined",
+    "moves": ["d4", "d5", "c4", "e6", "Nc3", "Nf6", "Bg5", "Be7", "e3", "O-O", "Nf3", "h6", "Bh4", "b6"],
+    "pgn": "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6",
+    "games": 45000,
+    "depth": 14
+  },
+  {
+    "eco": "C18",
+    "name": "French Defense: Winawer",
+    "moves": ["e4", "e6", "d4", "d5", "Nc3", "Bb4", "e5", "c5", "a3", "Bxc3+", "bxc3", "Ne7", "Qg4", "O-O"],
+    "pgn": "1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 O-O",
+    "games": 12000,
+    "depth": 14
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Mar del Plata",
+    "moves": ["d4", "Nf6", "c4", "g6", "Nc3", "Bg7", "e4", "d6", "Nf3", "O-O", "Be2", "e5", "O-O", "Nc6"],
+    "pgn": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6",
+    "games": 9000,
+    "depth": 14
+  },
+  {
+    "eco": "B10",
+    "name": "Caro-Kann Defense",
+    "moves": ["e4", "c6", "d4", "d5", "Nc3", "dxe4", "Nxe4", "Nf6"],
+    "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6",
+    "games": 7000,
+    "depth": 8
+  },
+  {
+    "eco": "A28",
+    "name": "English Opening: Four Knights",
+    "moves": ["c4", "e5", "Nc3", "Nf6", "Nf3", "Nc6"],
+    "pgn": "1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6",
+    "games": 5000,
+    "depth": 6
+  }
+]

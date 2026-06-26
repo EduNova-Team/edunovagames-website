@@ -3,11 +3,16 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
-## Session 6 - TBD
+
+## Session 7 - TBD
+
+Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works. 
+
+## Session 6 - Jun 26, 2026
 
 ** Goal: Branch out functionality to other variants and optimize search. Search right now is ineffective because it does BFS for each length. I want DFS that traces each opening tree while considering the number of half-moves it plays is much more effective. Also, I want to eventually migrate to another website that isn't Edunova Games so that I can expand to other variants on a separate platform. 
 
-## Session 5 - Jun 29, 2026
+## Session 5 - Jun 25, 2026
 
 **Play Again move-count fixes (`src/components/chessle/DifficultySelect.tsx`, `src/app/chessle/page.tsx`, `src/hooks/useChessle.ts`)**
 Fixed a cluster of bugs where the move count after "Play Again" no longer matched the depth the player selected.
