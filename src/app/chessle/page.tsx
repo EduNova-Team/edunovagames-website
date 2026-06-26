@@ -73,7 +73,7 @@ export default function ChesslePage() {
     setDifficulty(newDifficulty);
     setTargetDepth(newDepth);
     setShowSetup(false);
-    playAgain(undefined, newDifficulty);
+    playAgain(undefined, newDifficulty, newDepth);
   }
 
   // Called by any "Play Again" button — shows the setup overlay again
@@ -146,7 +146,7 @@ export default function ChesslePage() {
               : "Game over"}
           </span>
           <span className="ml-auto text-gray-500">
-            <span className="text-white font-semibold">{targetDepth}</span> moves
+            <span className="text-white font-semibold">{lineLength || targetDepth}</span> moves
           </span>
         </div>
 
@@ -277,7 +277,13 @@ export default function ChesslePage() {
       <Footer />
 
       {/* Setup overlay — shown before first game and on Play Again */}
-      {showSetup && <DifficultySelect onStart={handleStart} />}
+      {showSetup && (
+        <DifficultySelect
+          onStart={handleStart}
+          initialDifficulty={difficulty}
+          initialDepth={targetDepth}
+        />
+      )}
 
       {/* End of game overlay */}
       {!overlayDismissed && opening && openingIndex !== null && (
