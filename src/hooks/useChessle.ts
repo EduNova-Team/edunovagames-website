@@ -40,12 +40,23 @@ for (const [idx, diff] of Object.entries(difficultyMap)) {
   difficultyPools[diff].push(parseInt(idx));
 }
 
-function pickRandomIndex(difficulty?: Difficulty): number {
-  if (difficulty) {
-    const pool = difficultyPools[difficulty];
-    return pool[Math.floor(Math.random() * pool.length)];
-  }
-  return Math.floor(Math.random() * openings.length);
+/**
+ * Pick a random opening index for the given difficulty, restricted to openings
+ * that are at least `depth` half-moves long. Excluding shorter lines guarantees
+ * lineLength === targetDepth for every game (an opening shorter than the
+ * selected depth would otherwise shrink the line below what the player chose).
+ */
+function pickRandomIndex(difficulty?: Difficulty, depth = 0): number {
+  const basePool = difficulty
+    ? difficultyPools[difficulty]
+    : openings.map((_, i) => i);
+  const pool =
+    depth > 0 ? basePool.filter((i) => openings[i].moves.length >= depth) : basePool;
+  // Fallback to the unfiltered pool if nothing is long enough. With the current
+  // dataset every difficulty/depth combo has candidates, so this is just a guard
+  // that keeps pickRandomIndex total.
+  const chosen = pool.length > 0 ? pool : basePool;
+  return chosen[Math.floor(Math.random() * chosen.length)];
 }
 
 function getOpeningByIndex(index: number): Opening {
@@ -306,9 +317,13 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty, targe
    * - Pass `newDifficulty` to pick randomly from that pool.
    * - Omit both to re-use the current difficulty.
    */
-  const playAgain = useCallback((index?: number, newDifficulty?: Difficulty) => {
+  const playAgain = useCallback((index?: number, newDifficulty?: Difficulty, newDepth?: number) => {
     const activeDifficulty = newDifficulty ?? difficulty;
-    const idx = index !== undefined ? index : pickRandomIndex(activeDifficulty);
+    // Use the explicitly-passed depth (handleStart passes the freshly-selected
+    // value before its setTargetDepth has flushed) and fall back to the current
+    // targetDepth for callers that don't change it (e.g. Load-by-code).
+    const activeDepth = newDepth ?? targetDepth;
+    const idx = index !== undefined ? index : pickRandomIndex(activeDifficulty, activeDepth);
     const op = getOpeningByIndex(idx);
     setOpening(op);
     setOpeningIndex(idx);
@@ -318,7 +333,7 @@ export function useChessle(initialIndex?: number, difficulty?: Difficulty, targe
     setCurrentGuessIndex(0);
     setCurrentMoveIndex(0);
     setPhase("playing");
-  }, [difficulty]);
+  }, [difficulty, targetDepth]);
 
   const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;
   const canFillGreen =

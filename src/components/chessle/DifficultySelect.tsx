@@ -6,15 +6,21 @@ export type Difficulty = "easy" | "medium" | "hard";
 
 interface GameSetupProps {
   onStart: (difficulty: Difficulty, depth: number) => void;
+  // Seed the overlay with the player's previous selection so "Play Again"
+  // remembers their difficulty + depth instead of silently reverting to defaults.
+  initialDifficulty?: Difficulty;
+  initialDepth?: number;
 }
 
 const DEPTH_OPTIONS = [6, 8, 10, 12, 14];
 const DEFAULT_DEPTH = 10;
 
-export default function DifficultySelect({ onStart }: GameSetupProps) {
+export default function DifficultySelect({ onStart, initialDifficulty, initialDepth }: GameSetupProps) {
+  // Always start on the difficulty step so the player is prompted each game.
+  // Previous picks are kept as defaults (depth tile pre-selected, difficulty seeded).
   const [step, setStep] = useState<1 | 2>(1);
-  const [difficulty, setDifficulty] = useState<Difficulty | null>(null);
-  const [depth, setDepth] = useState(DEFAULT_DEPTH);
+  const [difficulty, setDifficulty] = useState<Difficulty | null>(initialDifficulty ?? null);
+  const [depth, setDepth] = useState(initialDepth ?? DEFAULT_DEPTH);
 
   function handleDifficulty(d: Difficulty) {
     setDifficulty(d);
