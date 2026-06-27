@@ -32,8 +32,11 @@ const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
   ),
 });
 
+// The variants this page offers (Horde lives on the separate Variantle 2 page).
+const VARIANTS: VariantKey[] = ["koth", "threeCheck"];
+
 // One dataset per variant, built once at module scope (stable identity for the hook).
-const DATASETS: Record<VariantKey, GameDataset> = {
+const DATASETS: Partial<Record<VariantKey, GameDataset>> = {
   koth: {
     openings: kothOpenings as Opening[],
     difficulties: kothDifficulties.difficulties as Record<string, Difficulty>,
@@ -49,7 +52,7 @@ const DATASETS: Record<VariantKey, GameDataset> = {
 const EMPTY_DATASET: GameDataset = { openings: [], difficulties: {} };
 
 // Share-code variant prefixes (1 char), so a code knows which dataset it indexes.
-const VARIANT_PREFIX: Record<VariantKey, string> = { koth: "K", threeCheck: "T" };
+const VARIANT_PREFIX: Partial<Record<VariantKey, string>> = { koth: "K", threeCheck: "T" };
 const PREFIX_TO_VARIANT: Record<string, VariantKey> = { K: "koth", T: "threeCheck" };
 
 export default function VariantlePage() {
@@ -58,12 +61,12 @@ export default function VariantlePage() {
   const [showSetup, setShowSetup] = useState(true);
   const [targetDepth, setTargetDepth] = useState(HALF_MOVES_PER_GUESS);
 
-  const dataset = variant ? DATASETS[variant] : EMPTY_DATASET;
+  const dataset = (variant && DATASETS[variant]) || EMPTY_DATASET;
 
   const {
     opening,
     openingIndex,
-    chess,
+    engine,
     grid,
     currentGuessIndex,
     currentMoveIndex,
@@ -108,7 +111,7 @@ export default function VariantlePage() {
     setTargetDepth(newDepth);
     setShowSetup(false);
     // Pass the freshly-selected dataset explicitly — its state hasn't flushed yet.
-    playAgain(undefined, newDifficulty, newDepth, DATASETS[newVariant]);
+    playAgain(undefined, newDifficulty, newDepth, DATASETS[newVariant] ?? EMPTY_DATASET);
   }
 
   // Called by any "Play Again" button — shows the setup overlay again
@@ -119,7 +122,9 @@ export default function VariantlePage() {
 
   function handleShare() {
     if (openingIndex === null || !variant) return;
-    const code = VARIANT_PREFIX[variant] + encodeOpeningIndex(openingIndex);
+    const prefix = VARIANT_PREFIX[variant];
+    if (!prefix) return;
+    const code = prefix + encodeOpeningIndex(openingIndex);
     navigator.clipboard.writeText(code).then(() => {
       setCopyLabel("Copied!");
       setTimeout(() => setCopyLabel("Share"), 2000);
@@ -149,7 +154,7 @@ export default function VariantlePage() {
     }
     setVariant(v);
     setShowSetup(false);
-    playAgain(idx, undefined, undefined, DATASETS[v]);
+    playAgain(idx, undefined, undefined, DATASETS[v] ?? EMPTY_DATASET);
     setLoadOpen(false);
     setLoadInput("");
     setLoadError("");
@@ -194,7 +199,7 @@ export default function VariantlePage() {
 
         {/* Chessboard */}
         <ChessBoard
-          chess={chess}
+          engine={engine}
           onMove={onMove}
           disabled={phase !== "playing" || currentMoveIndex >= lineLength}
         />
@@ -322,6 +327,7 @@ export default function VariantlePage() {
       {showSetup && (
         <VariantSetup
           onStart={handleStart}
+          variants={VARIANTS}
           initialVariant={variant}
           initialDifficulty={difficulty}
           initialDepth={targetDepth}

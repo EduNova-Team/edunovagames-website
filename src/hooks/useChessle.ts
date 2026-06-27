@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
-import { Chess } from "chess.js";
 import type { Difficulty } from "@/components/chessle/DifficultySelect";
+import type { GameEngine, EngineFactory } from "@/lib/engine/types";
+import { chessJsFactory } from "@/lib/engine/chessJsEngine";
 
 // ─── Config (change here to propagate everywhere) ───────────────────────────
 export const HALF_MOVES_PER_GUESS = 10;
@@ -127,21 +128,13 @@ function buildEmptyGrid(len: number): GuessRow[] {
   return Array.from({ length: MAX_GUESSES }, () => buildEmptyRow(len));
 }
 
-/** Rebuild a Chess instance by replaying a sequence of SAN moves from scratch. */
-function replayMoves(sans: string[]): Chess {
-  const c = new Chess();
-  for (const san of sans) {
-    c.move(san);
-  }
-  return c;
-}
-
 // ─── Hook ────────────────────────────────────────────────────────────────────
 export function useChessle(
   dataset: GameDataset,
   initialIndex?: number,
   difficulty?: Difficulty,
-  targetDepth: number = HALF_MOVES_PER_GUESS
+  targetDepth: number = HALF_MOVES_PER_GUESS,
+  engineFactory: EngineFactory = chessJsFactory
 ) {
   // The active dataset is held in state so it can be swapped at runtime (e.g.
   // Variantle switching King of the Hill ↔ Three Check). playAgain threads a new
@@ -153,7 +146,7 @@ export function useChessle(
   //    hydration mismatch (server picks ECO "C39", client picks "E08", crash).
   const [opening, setOpening] = useState<Opening | null>(null);
   const [openingIndex, setOpeningIndex] = useState<number | null>(null);
-  const [chess, setChess] = useState<Chess>(() => new Chess());
+  const [engine, setEngine] = useState<GameEngine>(() => engineFactory.initial());
   const [grid, setGrid] = useState<GuessRow[]>([]);
   const [currentGuessIndex, setCurrentGuessIndex] = useState(0);
   const [currentMoveIndex, setCurrentMoveIndex] = useState(0);
@@ -176,7 +169,7 @@ export function useChessle(
     if (!op) return;
     setOpening(op);
     setOpeningIndex(initialIndex);
-    setChess(new Chess());
+    setEngine(engineFactory.initial());
     setGrid(buildEmptyGrid(op.moves.length));
     setCurrentMoves([]);
     setCurrentGuessIndex(0);
@@ -237,10 +230,10 @@ export function useChessle(
       setCurrentGuessIndex((i) => i + 1);
       setCurrentMoveIndex(0);
       setCurrentMoves([]);
-      // New Chess instance for the next guess row
-      setChess(new Chess());
+      // Fresh engine for the next guess row
+      setEngine(engineFactory.initial());
     }
-  }, [phase, currentMoveIndex, currentGuessIndex, grid, opening, lineLength, targetDepth]);
+  }, [phase, currentMoveIndex, currentGuessIndex, grid, opening, lineLength, targetDepth, engineFactory]);
 
   /**
    * Undo the last move in the current (unsubmitted) guess.
@@ -255,9 +248,8 @@ export function useChessle(
     if (currentMoveIndex === 0) return;
 
     const newMoves = currentMoves.slice(0, -1);
-    const newChess = replayMoves(newMoves);
 
-    setChess(newChess);
+    setEngine(engineFactory.replay(newMoves));
     setCurrentMoves(newMoves);
     setGrid((prev) => {
       const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
@@ -268,7 +260,7 @@ export function useChessle(
       return next;
     });
     setCurrentMoveIndex((i) => i - 1);
-  }, [phase, currentMoveIndex, currentGuessIndex, currentMoves]);
+  }, [phase, currentMoveIndex, currentGuessIndex, currentMoves, engineFactory]);
 
   /**
    * Auto-play the next consecutive run of green tiles from the previous
@@ -296,9 +288,8 @@ export function useChessle(
     if (greenMoves.length === 0) return;
 
     const newMoves = [...currentMoves, ...greenMoves];
-    const newChess = replayMoves(newMoves);
 
-    setChess(newChess);
+    setEngine(engineFactory.replay(newMoves));
     setCurrentMoves(newMoves);
     setGrid((prev) => {
       const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
@@ -311,7 +302,7 @@ export function useChessle(
       return next;
     });
     setCurrentMoveIndex((idx) => idx + greenMoves.length);
-  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid, lineLength]);
+  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid, lineLength, engineFactory]);
 
   /**
    * Secret solver: instantly fills the current row with the correct moves
@@ -328,7 +319,7 @@ export function useChessle(
       color: colors[i],
     }));
 
-    setChess(replayMoves(targetMoves));
+    setEngine(engineFactory.replay(targetMoves));
     setCurrentMoves(targetMoves);
     setCurrentMoveIndex(lineLength);
     setGrid((prev) => {
@@ -337,7 +328,7 @@ export function useChessle(
       return next;
     });
     setPhase("won");
-  }, [phase, opening, currentGuessIndex, lineLength, targetDepth]);
+  }, [phase, opening, currentGuessIndex, lineLength, targetDepth, engineFactory]);
 
   /**
    * Reset everything for a new game.
@@ -360,14 +351,14 @@ export function useChessle(
       if (newDataset) setActiveDataset(newDataset);
       setOpening(op);
       setOpeningIndex(idx);
-      setChess(new Chess());
+      setEngine(engineFactory.initial());
       setGrid(buildEmptyGrid(op.moves.length));
       setCurrentMoves([]);
       setCurrentGuessIndex(0);
       setCurrentMoveIndex(0);
       setPhase("playing");
     },
-    [difficulty, targetDepth, activeDataset]
+    [difficulty, targetDepth, activeDataset, engineFactory]
   );
 
   const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;
@@ -381,7 +372,7 @@ export function useChessle(
   return {
     opening,          // null until client mounts
     openingIndex,     // null until client mounts
-    chess,
+    engine,
     grid,
     currentGuessIndex,
     currentMoveIndex,

@@ -44,7 +44,7 @@ export default function ChesslePage() {
   const {
     opening,
     openingIndex,
-    chess,
+    engine,
     grid,
     currentGuessIndex,
     currentMoveIndex,
@@ -166,7 +166,7 @@ export default function ChesslePage() {
 
         {/* Chessboard */}
         <ChessBoard
-          chess={chess}
+          engine={engine}
           onMove={onMove}
           disabled={phase !== "playing" || currentMoveIndex >= lineLength}
         />

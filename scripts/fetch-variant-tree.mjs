@@ -53,7 +53,9 @@ function parseArgs() {
     minGames: 30,
     maxPly: 14,
     speeds: "",
-    ratings: "",
+    // STANDARD for all variants: only 2000+ rated games (≈ masters-level quality,
+    // consistent with standard Chessle's masters DB). Override with --ratings=… .
+    ratings: "2000,2200,2500",
     probe: false,
     out: null,
     // "curl" shells out to curl (default — robust in environments where Node's
@@ -105,7 +107,10 @@ if (CONFIG.probe) {
 }
 
 const ENDPOINT = "https://explorer.lichess.ovh/lichess";
-const CACHE_PATH = join(__dirname, `.variant-${CONFIG.variant}-cache.json`);
+// The cached explorer responses depend on the rating filter, so the filter is
+// part of the cache filename — a different --ratings never reuses the wrong data.
+const RATING_TAG = CONFIG.ratings ? `r${CONFIG.ratings.split(",")[0]}` : "rall";
+const CACHE_PATH = join(__dirname, `.variant-${CONFIG.variant}-${RATING_TAG}-cache.json`);
 const OUT_PATH =
   CONFIG.out ?? join(__dirname, `../src/data/${CONFIG.variant}-openings.raw.json`);
 const LOG_PATH = CONFIG.log.startsWith("/") ? CONFIG.log : join(process.cwd(), CONFIG.log);
@@ -452,7 +457,8 @@ async function main() {
   console.log(`Config: ${JSON.stringify({ ...CONFIG, out: OUT_PATH })}`);
   logLine(
     `CRAWL STARTED${CONFIG.probe ? " (PROBE)" : ""} — slug=${VARIANT.slug}, ` +
-      `min-games=${CONFIG.minGames}, max-ply=${CONFIG.maxPly}, http=${CONFIG.http}`
+      `min-games=${CONFIG.minGames}, max-ply=${CONFIG.maxPly}, ` +
+      `ratings=${CONFIG.ratings || "all"}, http=${CONFIG.http}`
   );
 
   process.on("SIGINT", () => {

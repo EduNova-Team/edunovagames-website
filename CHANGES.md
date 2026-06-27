@@ -3,10 +3,31 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
+## Session 8 - TBD
 
-## Session 7 - TBD
+Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works.
 
-Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works. 
+## Session 7 - Jun 27, 2026
+---
+
+### Variantle 2 — Horde + chessops engine adoption (in progress)
+
+A new **`/variantle-2`** page extends the Variantle UI to **rule-divergent** variants, starting with **Horde** (White plays a "horde" of ~36 pawns and tries to checkmate; Black tries to capture every pawn).
+
+**Why this needed a new engine — `chess.js` can't represent Horde.** Variantle's King of the Hill and Three Check (Session 6) reused `chess.js` unchanged *only because* they are standard-chess-legal — they differ from chess solely in win condition, which the guessing game never simulates. Horde is different: it has a non-standard starting position (no White king, 36 pawns, first-rank pawns may double-step). Verified `chess.js@1.4` cannot even load the Horde FEN (`Invalid FEN: missing white king`). The same is true of the other variants planned for this page — **Atomic, Racing Kings, Crazyhouse** — none of which `chess.js` can model. So Variantle 2 adopts **`chessops`** (lichess's own variant-aware engine, GPL-3.0 — consistent with the already-bundled GPL-3.0 `@lichess-org/chessground`).
+
+**Thin engine abstraction (`src/lib/engine/`)** — *decision: abstract, don't migrate.* The entire `chess.js` surface was just two files (`useChessle.ts`, `ChessBoard.tsx`), so a small `GameEngine` / `EngineFactory` interface (`types.ts`) now sits between the game and the rules library:
+- `chessJsEngine.ts` — `chessJsFactory`, the **default**; Chessle and Variantle (KOTH/3+) keep using `chess.js` with identical behavior (the old `toDests`/`replayMoves`/`new Chess()` logic just moved here).
+- `chessopsEngine.ts` — `createChessopsFactory(rules, initialFen?)`, generic across every chessops variant. Wraps a `Position`: `fen()` via `makeFen(pos.toSetup())`, `turn()` via `pos.turn`, `dests()` via `chessgroundDests`, and `play(from,to,promo)` that tries a plain move then falls back to a (queen) promotion — chessops is stricter than chess.js, which silently ignores an inapplicable promotion. SAN replay uses `parseSan` + `makeSanAndPlay`.
+- `useChessle` gained a 5th param `engineFactory` (default `chessJsFactory`); `ChessBoard`'s `chess` prop became `engine`. Mutate-on-play + fresh-engine-on-reset matches the pre-existing undo/fill-green/play-again pattern, so no behavioral change for the chess.js path.
+
+**`VariantSetup` made reusable** — `VariantKey`/`VARIANT_META` gained `horde`, plus an optional `variants?` prop so each page lists only its own variants (Variantle passes `["koth","threeCheck"]`, Variantle 2 passes `["horde"]`). `EndOfGame`'s `variant` slug union gained `"horde"` (Lichess link → `…/analysis/horde/pgn/…`). Header gained a Variantle 2 nav link. Share codes are prefixed `H` for Horde.
+
+**Openings deferred — board is a move-legal free-play demo.** Per plan, the opening crawl is *not* run yet: `horde-openings.json` / `horde-difficulties.json` ship empty. The board still renders the real Horde position and enforces legal Horde moves (chessops is live); when no opening is loaded the board is left interactive so the engine is demonstrable. The guessing flow lights up once the dataset is crawled/built.
+
+**Offline dependency install.** This environment blocks Node/npm outbound sockets (same constraint the Session-6 crawler hit), so `npm install chessops` times out. Worked around by `curl`-fetching the `chessops@0.15.0` and `@badrap/result@0.3.1` tarballs and extracting them into `node_modules`, with both added to `package.json`.
+
+**Still TODO:** crawl/build the Horde opening dataset (needs a chessops-based variant crawler, since the Session-6 crawler assumes standard legality), then the guessing game activates automatically.
 
 ## Session 6 - Jun 26, 2026
 
@@ -23,7 +44,7 @@ With FEN-deduped traversal, DFS and BFS fetch each unique position exactly once,
 
 **Decisions baked into the crawl:**
 - **Prune threshold — scaled to match standard's density, not a flat 100.** Standard Chessle crawled the *masters* DB (root ≈ 2,879,587 games) at `--min-games=100`. The variants use the *general* Lichess DB, which is much denser: **KOTH root = 8,140,134 (2.83×)**, **Three Check root = 10,258,950 (3.56×)**. Keeping 100 would yield a far broader, noisier tree than standard ever had. To keep each variant at *relatively* the same density (favoring efficiency over breadth), the threshold is scaled by the root ratio: **KOTH `--min-games=300`**, **Three Check `--min-games=350`** (≈ 100× the ratio, rounded). A calibration probe at `--min-games=30` confirmed the trees are extremely dense (8,900+ positions by depth ~7), reinforcing the higher thresholds.
-- **Crawl depth `--max-ply=20`, but the UI selector is capped at `[6,8,10,12,14]`.** The 16–20-ply lines exist in the dataset (room to grow) but aren't offered to players yet, by choice. Raising the cap later is cache-incremental (the position cache makes a deeper re-crawl cheap), so this is never a dead-end.
+- **Crawl depth: `--max-ply=14` for the live datasets (UI selector also caps at `[6,8,10,12,14]`).** Ply-20 was attempted first for headroom, but this environment blocks Node's sockets so the crawler must shell out to `curl` per request (~3s/position); a full 20-ply crawl of both variants projected to 30+ hours. Since the UI only uses depths ≤14, the live datasets are crawled to 14 — complete and playable now. The 16–20-ply lines can be added later cheaply: the position cache makes a deeper re-crawl **incremental** (the interrupted 20-ply KOTH run already cached ~16,900 positions, so the 14-ply build replays from cache near-instantly), so ply-20 is never a dead-end.
 - **Network transport = `curl` (`--http=curl`, default).** This environment blocks Node's outbound sockets (both `fetch`/undici and the `https` module time out connecting; `curl` works). The crawler shells out to curl per request; `--http=fetch` opts back into Node fetch on normal machines. Trade-off: curl-per-request adds TLS-handshake overhead (~2s/position here), making the full crawl a multi-hour, resumable job.
 - **Three Check dedup correctness.** `chess.js`'s FEN omits the running check counters, so two boards with different check tallies would wrongly dedup. For 3+, the FEN key appends `+<whiteChecks>+<blackChecks>` (capped at 3, derived from `+`/`#` in SAN). KOTH needs no change (king square is already in the board field).
 - **Resumable + rate-limited:** per-variant cache `scripts/.variant-<key>-cache.json` (keyed by position, threshold-agnostic, so a probe pre-warms the real crawl), 350 ms throttle, exponential backoff on 429/5xx, graceful cache flush on Ctrl-C.

@@ -33,6 +33,28 @@ cp src/data/chessle-difficulties-14.json src/data/chessle-difficulties.json
 
 To rebuild a single depth: `node scripts/build-openings-from-tree.mjs --depth=10 --openings-out=src/data/chessle-openings.json --difficulties-out=src/data/chessle-difficulties.json`
 
+## Variant data pipeline (Variantle: KOTH, Three Check, …)
+
+Variants are crawled from the **general Lichess explorer** (`explorer.lichess.ovh/lichess?variant=…`) — there is no masters DB for variants. Token-gated.
+
+```bash
+# DFS crawl (resumable; uses curl because this env blocks Node sockets) → raw lines
+LICHESS_TOKEN=<token> node scripts/fetch-variant-tree.mjs --variant=koth --min-games=50 --max-ply=14
+# Finalize → committed src/data/koth-openings.json + koth-difficulties.json
+node scripts/build-variant-dataset.mjs --variant=koth
+# repeat with --variant=threecheck --min-games=50
+```
+
+**Rating standard — applies to EVERY variant: count only 2000+ rated games** (`--ratings=2000,2200,2500`, the crawler's default). This keeps variant data at masters-level quality, matching standard Chessle's masters DB; the general DB otherwise mixes in all strengths (~81% of games are sub-2000).
+
+**`--min-games` is scaled to stay roughly proportional to standard's search density**, NOT a flat number. Rule: `min-games ≈ 100 × (variant 2000+ root games ÷ standard masters root games)`, where standard = **100 games / 2,879,587** masters-root games. Per variant (2000+ roots):
+- **KOTH:** 1,561,863 (0.54× standard) → **`--min-games=50`**
+- **Three Check:** 1,461,159 (0.51× standard) → **`--min-games=50`**
+
+So every variant's opening tree sits at the same relative density as standard Chessle (efficiency over breadth). When adding a future variant, fetch its 2000+ root volume and apply the same formula. **All key figures live in `KeyNumbers.md`** (root volumes, thresholds, dataset/opening counts) — keep it updated.
+
+Other params: `--max-ply=14` (the UI depth selector caps at 14; deeper crawls are cache-incremental, never a dead-end). The cache is per-(variant, rating-filter): `scripts/.variant-<key>-r2000-cache.json`. Crawl progress streams to a timestamped `logs` file, tagged `[KOTH]` / `[3+]`.
+
 ## Architecture
 
 ### App structure
