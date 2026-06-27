@@ -12,6 +12,33 @@ Too many pop up menus may seem like too much. Maybe I will one day make this sid
 
 ** Goal: Branch out functionality to other variants and optimize search. Search right now is ineffective because it does BFS for each length. I want DFS that traces each opening tree while considering the number of half-moves it plays is much more effective. Also, I want to eventually migrate to another website that isn't Edunova Games so that I can expand to other variants on a separate platform. 
 
+---
+
+### Variantle — King of the Hill & Three Check (in progress)
+
+A new **`/variantle`** page reuses Chessle's gameplay UI but supports two chess variants — **King of the Hill (KOTH)** and **Three Check (3+)**. A first popup step picks the variant, then the existing difficulty → depth steps. Both variants have identical move legality to standard chess (they only differ in win conditions, which the guessing game never simulates), so `chess.js`/Chessground replay variant lines unchanged — no variant rule engine needed.
+
+**Single-pass DFS crawler (`scripts/fetch-variant-tree.mjs`)** — *decision: DFS over BFS.*
+With FEN-deduped traversal, DFS and BFS fetch each unique position exactly once, so they cost the same number of API calls. DFS was chosen for **output shape**, not speed: carrying the running path + ply lets the crawler emit each finished line tagged with its half-move depth in one pass, producing **one combined dataset per variant** and removing the standard pipeline's per-depth `build-all-depths` fan-out (the Session-5 runtime length-filter `moves.length >= targetDepth` exposes shorter depths). A **global FEN visited-set is kept** — a pure path-DFS would re-expand transpositions and explode the fetch count. Emits a line at each **terminal node (no qualifying child) or at max-ply**, mirroring Chessle's depth-N build but in a single walk.
+
+**Decisions baked into the crawl:**
+- **Prune threshold — scaled to match standard's density, not a flat 100.** Standard Chessle crawled the *masters* DB (root ≈ 2,879,587 games) at `--min-games=100`. The variants use the *general* Lichess DB, which is much denser: **KOTH root = 8,140,134 (2.83×)**, **Three Check root = 10,258,950 (3.56×)**. Keeping 100 would yield a far broader, noisier tree than standard ever had. To keep each variant at *relatively* the same density (favoring efficiency over breadth), the threshold is scaled by the root ratio: **KOTH `--min-games=300`**, **Three Check `--min-games=350`** (≈ 100× the ratio, rounded). A calibration probe at `--min-games=30` confirmed the trees are extremely dense (8,900+ positions by depth ~7), reinforcing the higher thresholds.
+- **Crawl depth `--max-ply=20`, but the UI selector is capped at `[6,8,10,12,14]`.** The 16–20-ply lines exist in the dataset (room to grow) but aren't offered to players yet, by choice. Raising the cap later is cache-incremental (the position cache makes a deeper re-crawl cheap), so this is never a dead-end.
+- **Network transport = `curl` (`--http=curl`, default).** This environment blocks Node's outbound sockets (both `fetch`/undici and the `https` module time out connecting; `curl` works). The crawler shells out to curl per request; `--http=fetch` opts back into Node fetch on normal machines. Trade-off: curl-per-request adds TLS-handshake overhead (~2s/position here), making the full crawl a multi-hour, resumable job.
+- **Three Check dedup correctness.** `chess.js`'s FEN omits the running check counters, so two boards with different check tallies would wrongly dedup. For 3+, the FEN key appends `+<whiteChecks>+<blackChecks>` (capped at 3, derived from `+`/`#` in SAN). KOTH needs no change (king square is already in the board field).
+- **Resumable + rate-limited:** per-variant cache `scripts/.variant-<key>-cache.json` (keyed by position, threshold-agnostic, so a probe pre-warms the real crawl), 350 ms throttle, exponential backoff on 429/5xx, graceful cache flush on Ctrl-C.
+
+**Overnight progress log (`logs`)** — *user request.* The crawler appends timestamped, variant-tagged lines to a shared `logs` file (gitignored): `CRAWL STARTED`, `searching… N positions… M lines… depth D… Es elapsed` every 50 positions, and `CRAWL COMPLETE`. **KOTH and 3+ are tagged `[KOTH]` / `[3+]`** so both variants can be tailed from one file.
+
+**Finalizer (`scripts/build-variant-dataset.mjs`)** — network-free. Dedups the raw lines by line-end FEN key (keeping the lexicographically smaller PGN), sorts by PGN ascending (stable share-code indices), classifies difficulty by global 33/66 percentile of game count, and writes the committed `src/data/<key>-openings.json` + `<key>-difficulties.json`.
+
+**Frontend (`src/hooks/useChessle.ts`, `src/app/variantle/page.tsx`, `src/components/variantle/VariantSetup.tsx`, `src/components/chessle/EndOfGame.tsx`, `src/components/Header.tsx`):**
+- `useChessle` generalized to take a dataset: `useChessle(dataset, initialIndex?, difficulty?, targetDepth?)`, where `dataset = { openings, difficulties }`. Pools are memoized per dataset object via a `WeakMap`. `playAgain` gained a `newDataset` arg so switching variants threads the dataset explicitly (avoids the same stale-closure trap fixed in Sessions 3 & 5). Chessle passes its own dataset; behavior unchanged.
+- `/variantle` clones the Chessle page, holds a `variant` state, and selects `DATASETS[variant]`. `VariantSetup` is a 3-step overlay (variant → difficulty → depth). `EndOfGame` gained an optional `variant` prop so the Lichess link opens the variant analysis board. Header gained a Variantle nav link. Share codes are variant-prefixed (`K…` / `T…`) so a loaded code knows which dataset it indexes.
+
+**Dataset counts:** _to be filled in once the overnight crawl + build completes._
+
+
 ## Session 5 - Jun 25, 2026
 
 **Play Again move-count fixes (`src/components/chessle/DifficultySelect.tsx`, `src/app/chessle/page.tsx`, `src/hooks/useChessle.ts`)**
