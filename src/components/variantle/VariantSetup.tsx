@@ -3,11 +3,11 @@
 import { useState } from "react";
 import type { Difficulty } from "@/components/chessle/DifficultySelect";
 
-export type VariantKey = "koth" | "threeCheck";
+export type VariantKey = "koth" | "threeCheck" | "horde";
 
 export const VARIANT_META: Record<
   VariantKey,
-  { label: string; blurb: string; slug: "kingOfTheHill" | "threeCheck" }
+  { label: string; blurb: string; slug: "kingOfTheHill" | "threeCheck" | "horde" }
 > = {
   koth: {
     label: "King of the Hill",
@@ -19,6 +19,11 @@ export const VARIANT_META: Record<
     blurb: "Check the enemy king three times to win.",
     slug: "threeCheck",
   },
+  horde: {
+    label: "Horde",
+    blurb: "White's pawn horde hunts the king; Black devours the pawns.",
+    slug: "horde",
+  },
 };
 
 interface VariantSetupProps {
@@ -26,6 +31,8 @@ interface VariantSetupProps {
   initialVariant?: VariantKey;
   initialDifficulty?: Difficulty;
   initialDepth?: number;
+  // Which variants this setup offers in step 1 (defaults to all).
+  variants?: VariantKey[];
 }
 
 const DEPTH_OPTIONS = [6, 8, 10, 12, 14];
@@ -36,6 +43,7 @@ export default function VariantSetup({
   initialVariant,
   initialDifficulty,
   initialDepth,
+  variants = Object.keys(VARIANT_META) as VariantKey[],
 }: VariantSetupProps) {
   // Always start on the variant step so the player picks a variant each game.
   // Previous picks seed the later steps as defaults.
@@ -91,7 +99,7 @@ export default function VariantSetup({
             <>
               <p className="text-center text-sm text-gray-400">Select variant</p>
 
-              {(Object.keys(VARIANT_META) as VariantKey[]).map((v) => (
+              {variants.map((v) => (
                 <button
                   key={v}
                   onClick={() => handleVariant(v)}

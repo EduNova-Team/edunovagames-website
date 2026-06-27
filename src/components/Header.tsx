@@ -96,6 +96,13 @@ export default function Header() {
               Variantle
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#6366F1] to-[#22D3EE] group-hover:w-full transition-all duration-300"></span>
             </Link>
+            <Link
+              href="/variantle-2"
+              className="text-sm text-gray-300 hover:text-white transition-colors relative group"
+            >
+              Variantle 2
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#6366F1] to-[#22D3EE] group-hover:w-full transition-all duration-300"></span>
+            </Link>
             {/*<button
               onClick={() => handleNavigation("/#services")}
               className="text-sm text-gray-300 hover:text-white transition-colors relative group"
@@ -248,6 +255,13 @@ export default function Header() {
                 className="block text-lg text-gray-300 hover:text-white transition-colors py-2"
               >
                 Variantle
+              </Link>
+              <Link
+                href="/variantle-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block text-lg text-gray-300 hover:text-white transition-colors py-2"
+              >
+                Variantle 2
               </Link>
               {/*<button
                 onClick={() => handleNavigation("/#services")}

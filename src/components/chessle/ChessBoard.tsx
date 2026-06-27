@@ -1,37 +1,20 @@
 "use client";
 
 import { useEffect, useRef, useCallback } from "react";
-import { Chess } from "chess.js";
 import { Chessground } from "@lichess-org/chessground";
+import type { GameEngine } from "@/lib/engine/types";
 
 // Chessground type aliases (avoids subpath import issues with bundler moduleResolution)
 type Key = string; // e.g. "e2", "e4"
 type Api = any;
 
 interface ChessBoardProps {
-  chess: Chess;
+  engine: GameEngine;
   onMove: (san: string) => void;
   disabled?: boolean;
 }
 
-/** Convert chess.js dests map to chessground format */
-function toDests(chess: Chess): Map<Key, Key[]> {
-  const dests = new Map<Key, Key[]>();
-  const moves = chess.moves({ verbose: true });
-  for (const move of moves) {
-    const from = move.from as Key;
-    if (!dests.has(from)) dests.set(from, []);
-    dests.get(from)!.push(move.to as Key);
-  }
-  return dests;
-}
-
-/** Convert chess.js color to chessground color */
-function toColor(chess: Chess): "white" | "black" {
-  return chess.turn() === "w" ? "white" : "black";
-}
-
-export default function ChessBoard({ chess, onMove, disabled = false }: ChessBoardProps) {
+export default function ChessBoard({ engine, onMove, disabled = false }: ChessBoardProps) {
   const boardRef = useRef<HTMLDivElement>(null);
   const cgRef = useRef<Api | null>(null);
   // Keep a stable ref to onMove so the chessground callback doesn't stale-close
@@ -40,26 +23,26 @@ export default function ChessBoard({ chess, onMove, disabled = false }: ChessBoa
 
   const handleMove = useCallback(
     (orig: Key, dest: Key) => {
-      // Attempt move in chess.js
-      const result = chess.move({ from: orig, to: dest, promotion: "q" });
-      if (!result) {
+      // Attempt move in the engine
+      const san = engine.play(orig, dest, "q");
+      if (!san) {
         // Illegal — reset board visuals
-        cgRef.current?.set({ fen: chess.fen() });
+        cgRef.current?.set({ fen: engine.fen() });
         return;
       }
       // Update chessground with new state
       cgRef.current?.set({
-        fen: chess.fen(),
-        turnColor: toColor(chess),
+        fen: engine.fen(),
+        turnColor: engine.turn(),
         movable: {
-          color: disabled ? undefined : toColor(chess),
-          dests: disabled ? new Map() : toDests(chess),
+          color: disabled ? undefined : engine.turn(),
+          dests: disabled ? new Map() : engine.dests(),
         },
         lastMove: [orig, dest],
       });
-      onMoveRef.current(result.san);
+      onMoveRef.current(san);
     },
-    [chess, disabled]
+    [engine, disabled]
   );
 
   // Initialize chessground on mount
@@ -67,13 +50,13 @@ export default function ChessBoard({ chess, onMove, disabled = false }: ChessBoa
     if (!boardRef.current) return;
 
     cgRef.current = Chessground(boardRef.current, {
-      fen: chess.fen(),
+      fen: engine.fen(),
       orientation: "white",
-      turnColor: toColor(chess),
+      turnColor: engine.turn(),
       movable: {
         free: false,
-        color: disabled ? undefined : toColor(chess),
-        dests: disabled ? new Map() : toDests(chess),
+        color: disabled ? undefined : engine.turn(),
+        dests: disabled ? new Map() : engine.dests(),
         events: {
           after: handleMove,
         },
@@ -91,19 +74,19 @@ export default function ChessBoard({ chess, onMove, disabled = false }: ChessBoa
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Sync chessground when chess instance changes (play again resets)
+  // Sync chessground when the engine instance changes (play again resets)
   useEffect(() => {
     if (!cgRef.current) return;
     cgRef.current.set({
-      fen: chess.fen(),
-      turnColor: toColor(chess),
+      fen: engine.fen(),
+      turnColor: engine.turn(),
       movable: {
-        color: disabled ? undefined : toColor(chess),
-        dests: disabled ? new Map() : toDests(chess),
+        color: disabled ? undefined : engine.turn(),
+        dests: disabled ? new Map() : engine.dests(),
       },
       lastMove: [],
     });
-  }, [chess, disabled]);
+  }, [engine, disabled]);
 
   // Update move handler ref in chessground when it changes
   useEffect(() => {
