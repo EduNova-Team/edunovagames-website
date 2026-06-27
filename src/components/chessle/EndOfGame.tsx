@@ -10,7 +10,14 @@ interface EndOfGameProps {
   onPlayAgain: () => void;
   onDismiss: () => void;
   // When set, the "Study on Lichess" link opens the variant analysis board.
-  variant?: "kingOfTheHill" | "threeCheck" | "horde";
+  variant?:
+    | "kingOfTheHill"
+    | "threeCheck"
+    | "horde"
+    | "atomic"
+    | "racingKings"
+    | "antichess"
+    | "crazyhouse";
 }
 
 function buildPgn(moves: string[]): string {

@@ -3,11 +3,27 @@
 import { useState } from "react";
 import type { Difficulty } from "@/components/chessle/DifficultySelect";
 
-export type VariantKey = "koth" | "threeCheck" | "horde";
+export type VariantKey =
+  | "koth"
+  | "threeCheck"
+  | "horde"
+  | "atomic"
+  | "racingkings"
+  | "antichess"
+  | "crazyhouse";
+
+type VariantSlug =
+  | "kingOfTheHill"
+  | "threeCheck"
+  | "horde"
+  | "atomic"
+  | "racingKings"
+  | "antichess"
+  | "crazyhouse";
 
 export const VARIANT_META: Record<
   VariantKey,
-  { label: string; blurb: string; slug: "kingOfTheHill" | "threeCheck" | "horde" }
+  { label: string; blurb: string; slug: VariantSlug }
 > = {
   koth: {
     label: "King of the Hill",
@@ -23,6 +39,26 @@ export const VARIANT_META: Record<
     label: "Horde",
     blurb: "White's pawn horde hunts the king; Black devours the pawns.",
     slug: "horde",
+  },
+  atomic: {
+    label: "Atomic",
+    blurb: "Captures explode — blow up the enemy king to win.",
+    slug: "atomic",
+  },
+  racingkings: {
+    label: "Racing Kings",
+    blurb: "No checks allowed — race your king to the 8th rank.",
+    slug: "racingKings",
+  },
+  antichess: {
+    label: "Antichess",
+    blurb: "Captures are forced — lose all your pieces to win.",
+    slug: "antichess",
+  },
+  crazyhouse: {
+    label: "Crazyhouse",
+    blurb: "Captured pieces switch sides — drop them back from your pocket.",
+    slug: "crazyhouse",
   },
 };
 

@@ -141,6 +141,12 @@ export function useChessle(
   // dataset in explicitly to avoid the stale-closure trap; the prop seeds it.
   const [activeDataset, setActiveDataset] = useState<GameDataset>(dataset);
 
+  // The active engine factory is likewise held in state so a multi-variant page
+  // (Variantle 3) can swap the rules engine when the player changes variant.
+  // playAgain threads a new factory in explicitly (same anti-stale-closure trick
+  // as the dataset); the prop seeds it.
+  const [activeEngine, setActiveEngine] = useState<EngineFactory>(engineFactory);
+
   // ── Fix: initialize opening as null and set in useEffect so that random
   //    selection only ever happens on the client. This prevents the SSR/client
   //    hydration mismatch (server picks ECO "C39", client picks "E08", crash).
@@ -169,7 +175,7 @@ export function useChessle(
     if (!op) return;
     setOpening(op);
     setOpeningIndex(initialIndex);
-    setEngine(engineFactory.initial());
+    setEngine(activeEngine.initial());
     setGrid(buildEmptyGrid(op.moves.length));
     setCurrentMoves([]);
     setCurrentGuessIndex(0);
@@ -231,9 +237,9 @@ export function useChessle(
       setCurrentMoveIndex(0);
       setCurrentMoves([]);
       // Fresh engine for the next guess row
-      setEngine(engineFactory.initial());
+      setEngine(activeEngine.initial());
     }
-  }, [phase, currentMoveIndex, currentGuessIndex, grid, opening, lineLength, targetDepth, engineFactory]);
+  }, [phase, currentMoveIndex, currentGuessIndex, grid, opening, lineLength, targetDepth, activeEngine]);
 
   /**
    * Undo the last move in the current (unsubmitted) guess.
@@ -249,7 +255,7 @@ export function useChessle(
 
     const newMoves = currentMoves.slice(0, -1);
 
-    setEngine(engineFactory.replay(newMoves));
+    setEngine(activeEngine.replay(newMoves));
     setCurrentMoves(newMoves);
     setGrid((prev) => {
       const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
@@ -260,7 +266,7 @@ export function useChessle(
       return next;
     });
     setCurrentMoveIndex((i) => i - 1);
-  }, [phase, currentMoveIndex, currentGuessIndex, currentMoves, engineFactory]);
+  }, [phase, currentMoveIndex, currentGuessIndex, currentMoves, activeEngine]);
 
   /**
    * Auto-play the next consecutive run of green tiles from the previous
@@ -289,7 +295,7 @@ export function useChessle(
 
     const newMoves = [...currentMoves, ...greenMoves];
 
-    setEngine(engineFactory.replay(newMoves));
+    setEngine(activeEngine.replay(newMoves));
     setCurrentMoves(newMoves);
     setGrid((prev) => {
       const next = prev.map((row) => ({ ...row, tiles: [...row.tiles] }));
@@ -302,7 +308,7 @@ export function useChessle(
       return next;
     });
     setCurrentMoveIndex((idx) => idx + greenMoves.length);
-  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid, lineLength, engineFactory]);
+  }, [phase, currentGuessIndex, currentMoveIndex, currentMoves, grid, lineLength, activeEngine]);
 
   /**
    * Secret solver: instantly fills the current row with the correct moves
@@ -319,7 +325,7 @@ export function useChessle(
       color: colors[i],
     }));
 
-    setEngine(engineFactory.replay(targetMoves));
+    setEngine(activeEngine.replay(targetMoves));
     setCurrentMoves(targetMoves);
     setCurrentMoveIndex(lineLength);
     setGrid((prev) => {
@@ -328,7 +334,7 @@ export function useChessle(
       return next;
     });
     setPhase("won");
-  }, [phase, opening, currentGuessIndex, lineLength, targetDepth, engineFactory]);
+  }, [phase, opening, currentGuessIndex, lineLength, targetDepth, activeEngine]);
 
   /**
    * Reset everything for a new game.
@@ -338,27 +344,42 @@ export function useChessle(
    * - Omit all to re-use the current difficulty/depth/dataset.
    */
   const playAgain = useCallback(
-    (index?: number, newDifficulty?: Difficulty, newDepth?: number, newDataset?: GameDataset) => {
+    (
+      index?: number,
+      newDifficulty?: Difficulty,
+      newDepth?: number,
+      newDataset?: GameDataset,
+      newEngineFactory?: EngineFactory
+    ) => {
       const activeDifficulty = newDifficulty ?? difficulty;
-      // Use the explicitly-passed depth/dataset (handleStart passes the freshly
-      // selected values before their setState has flushed) and fall back to the
-      // current ones for callers that don't change them (e.g. Load-by-code).
+      // Use the explicitly-passed depth/dataset/engine (handleStart passes the
+      // freshly selected values before their setState has flushed) and fall back
+      // to the current ones for callers that don't change them (e.g. Load-by-code).
       const activeDepth = newDepth ?? targetDepth;
       const ds = newDataset ?? activeDataset;
+      const ef = newEngineFactory ?? activeEngine;
       const idx = index !== undefined ? index : pickRandomIndex(ds, activeDifficulty, activeDepth);
       const op = getOpeningByIndex(ds, idx);
-      if (!op) return;
+      // Even with no opening (empty dataset shell), still reset the board to the
+      // chosen variant's start so switching variants updates the free-play board.
       if (newDataset) setActiveDataset(newDataset);
-      setOpening(op);
-      setOpeningIndex(idx);
-      setEngine(engineFactory.initial());
-      setGrid(buildEmptyGrid(op.moves.length));
+      if (newEngineFactory) setActiveEngine(newEngineFactory);
+      setEngine(ef.initial());
       setCurrentMoves([]);
       setCurrentGuessIndex(0);
       setCurrentMoveIndex(0);
       setPhase("playing");
+      if (!op) {
+        setOpening(null);
+        setOpeningIndex(null);
+        setGrid([]);
+        return;
+      }
+      setOpening(op);
+      setOpeningIndex(idx);
+      setGrid(buildEmptyGrid(op.moves.length));
     },
-    [difficulty, targetDepth, activeDataset, engineFactory]
+    [difficulty, targetDepth, activeDataset, activeEngine]
   );
 
   const prevRow = currentGuessIndex > 0 ? grid[currentGuessIndex - 1] : null;

@@ -25,6 +25,17 @@ export interface GameEngine {
    * Mutates this engine in place. Returns the move's SAN, or null if illegal.
    */
   play(from: string, to: string, promotion?: string): string | null;
+
+  // ── Crazyhouse drops (undefined for variants without pockets) ──────────────
+  /** Captured pieces in hand, per color, keyed by role name → count. */
+  pockets?(): { white: Record<string, number>; black: Record<string, number> };
+  /** Legal drop squares keyed by role name (role → square list). */
+  dropDests?(): Map<string, string[]>;
+  /**
+   * Drop a pocketed piece (role name) onto a square. Mutates in place. Returns
+   * the drop's SAN (e.g. "Q@e4"), or null if illegal.
+   */
+  playDrop?(role: string, to: string): string | null;
 }
 
 export interface EngineFactory {

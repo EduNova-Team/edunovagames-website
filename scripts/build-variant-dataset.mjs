@@ -19,7 +19,15 @@ import { dirname, join } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const VARIANTS = new Set(["koth", "threecheck"]);
+const VARIANTS = new Set([
+  "koth",
+  "threecheck",
+  "horde",
+  "atomic",
+  "racingkings",
+  "antichess",
+  "crazyhouse",
+]);
 
 function parseArgs() {
   const cfg = { variant: null, in: null, openingsOut: null, difficultiesOut: null };

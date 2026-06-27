@@ -28,20 +28,52 @@
 
 import { readFileSync, writeFileSync, existsSync, appendFileSync } from "fs";
 import { execFile } from "child_process";
-import { Chess } from "chess.js";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
+// chessops powers position tracking for EVERY variant — including rule-divergent
+// ones (Horde, Atomic, …) that chess.js can't even represent. parseSan/play walks
+// the line; makeFen/makeUci derive the dedup key + the explorer's UCI play= param.
+import {
+  Chess,
+  Atomic,
+  Antichess,
+  KingOfTheHill,
+  ThreeCheck,
+  RacingKings,
+  Horde,
+  Crazyhouse,
+} from "chessops/variant";
+import { makeFen } from "chessops/fen";
+import { parseSan } from "chessops/san";
+import { makeUci } from "chessops/util";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // ---------------------------------------------------------------------------
 // Variant config
 // ---------------------------------------------------------------------------
+// `rules` is the chessops Rules literal; the class supplies the variant's
+// authoritative starting position via default(). `tag` labels each line in the
+// shared `logs` file so interleaved runs stay unambiguous.
+const VARIANT_CLASS = {
+  chess: Chess,
+  atomic: Atomic,
+  antichess: Antichess,
+  kingofthehill: KingOfTheHill,
+  "3check": ThreeCheck,
+  racingkings: RacingKings,
+  horde: Horde,
+  crazyhouse: Crazyhouse,
+};
+
 const VARIANT_CONFIG = {
-  // `tag` labels each line in the shared `logs` file so KOTH and 3+ runs are
-  // unambiguous even when interleaved.
-  koth: { slug: "kingOfTheHill", threeCheck: false, tag: "KOTH" },
-  threecheck: { slug: "threeCheck", threeCheck: true, tag: "3+" },
+  koth: { slug: "kingOfTheHill", rules: "kingofthehill", tag: "KOTH" },
+  threecheck: { slug: "threeCheck", rules: "3check", tag: "3+" },
+  horde: { slug: "horde", rules: "horde", tag: "HORDE" },
+  atomic: { slug: "atomic", rules: "atomic", tag: "ATOMIC" },
+  racingkings: { slug: "racingKings", rules: "racingkings", tag: "RK" },
+  antichess: { slug: "antichess", rules: "antichess", tag: "ANTI" },
+  crazyhouse: { slug: "crazyhouse", rules: "crazyhouse", tag: "ZH" },
 };
 
 // ---------------------------------------------------------------------------
@@ -137,43 +169,33 @@ function gamesOf(m) {
   return (m.white ?? 0) + (m.draws ?? 0) + (m.black ?? 0);
 }
 
-/** Convert an array of SAN moves to a comma-separated UCI string. */
-function toUCI(sanMoves) {
-  const chess = new Chess();
-  const uci = [];
-  for (const san of sanMoves) {
-    const result = chess.move(san);
-    if (!result) throw new Error(`Illegal move: ${san}`);
-    uci.push(result.from + result.to + (result.promotion ?? ""));
-  }
-  return uci.join(",");
+/** A fresh chessops position at the variant's starting position. */
+function initialPos() {
+  return VARIANT_CLASS[VARIANT.rules].default();
 }
 
 /**
- * Replay a SAN path and return { chess, key, fen }.
- * The dedup `key` is the first 4 FEN fields (board, side, castling, en-passant).
- * For Three Check we append `+<whiteChecks>+<blackChecks>` (each capped at 3),
- * because chess.js's FEN does NOT encode the running check counters — two boards
- * with different check tallies are genuinely different states with different
- * explorer continuations, so they must not dedup together.
+ * Replay a SAN path on a chessops position and return { pos, key, fen, uci }.
+ *
+ * The dedup `key` is the FEN with the move counters (halfmove + fullmove)
+ * dropped — everything that distinguishes a position is kept and only the clock
+ * is ignored. This is variant-correct for free: Crazyhouse pockets live in the
+ * board field, and Three Check's running check tally is its own FEN field, so
+ * both survive `slice(0, -2)` while two positions reachable by different move
+ * orders still dedup. `uci` is the comma-separated UCI for the explorer's play=.
  */
 function replay(sanPath) {
-  const chess = new Chess();
-  let whiteChecks = 0;
-  let blackChecks = 0;
+  const pos = initialPos();
+  const ucis = [];
   for (const san of sanPath) {
-    const mover = chess.turn(); // 'w' | 'b' before the move
-    const result = chess.move(san);
-    if (!result) throw new Error(`Illegal move in path: ${san}`);
-    if (/[+#]$/.test(result.san)) {
-      if (mover === "w") whiteChecks = Math.min(3, whiteChecks + 1);
-      else blackChecks = Math.min(3, blackChecks + 1);
-    }
+    const move = parseSan(pos, san);
+    if (!move) throw new Error(`Illegal move in path: ${san}`);
+    ucis.push(makeUci(move));
+    pos.play(move);
   }
-  const fen = chess.fen();
-  let key = fen.split(" ").slice(0, 4).join(" ");
-  if (VARIANT.threeCheck) key += ` +${whiteChecks}+${blackChecks}`;
-  return { chess, key, fen };
+  const fen = makeFen(pos.toSetup());
+  const key = fen.split(" ").slice(0, -2).join(" ");
+  return { pos, key, fen, uci: ucis.join(",") };
 }
 
 /** Build "1. e4 e5 2. Nf3 ..." move text from a SAN array. */
@@ -287,11 +309,11 @@ async function fetchPosition(uciMoves) {
   }
 }
 
-/** Fetch (or return cached) position data for a SAN path. */
-async function getPosition(sanPath, key) {
+/** Fetch (or return cached) position data for a precomputed UCI play= string. */
+async function getPosition(uci, key) {
   if (cache.has(key)) return { data: cache.get(key), fromCache: true };
   await sleep(350); // throttle network only
-  const data = await fetchPosition(sanPath.length > 0 ? toUCI(sanPath) : "");
+  const data = await fetchPosition(uci);
   cache.set(key, data);
   newFetchCount++;
   maybeSaveCache();
@@ -313,25 +335,32 @@ async function crawl() {
     maxDepth: 0,
     perDepthPositions: {}, // depth → count
     perDepthChildGames: {}, // depth → number[] of child game counts (probe)
+    // Game-weighted progress in [0,1]: the root subtree has weight 1, split among
+    // children in proportion to their game counts (a proxy for subtree size). A
+    // branch credits its weight when it finishes (leaf, max-ply, transposition cut,
+    // or skip), so completedWeight climbs monotonically to ~1.0 — a "% done" est.
+    completedWeight: 0,
   };
 
   // Seed visited with the root position so it's never re-expanded.
   visited.add(replay([]).key);
 
-  async function dfs(sanPath, depth) {
-    let key, fen;
+  async function dfs(sanPath, depth, weight) {
+    let key, fen, uci;
     try {
-      ({ key, fen } = replay(sanPath));
+      ({ key, fen, uci } = replay(sanPath));
     } catch (e) {
       console.warn(`  skip illegal path [${sanPath.join(",")}]: ${e.message}`);
+      stats.completedWeight += weight;
       return;
     }
 
     let data, fromCache;
     try {
-      ({ data, fromCache } = await getPosition(sanPath, key));
+      ({ data, fromCache } = await getPosition(uci, key));
     } catch (e) {
       console.warn(`  failed [${sanPath.join(",")}]: ${e.message} — skipping`);
+      stats.completedWeight += weight;
       return;
     }
     if (fromCache) stats.cacheHits++;
@@ -347,10 +376,12 @@ async function crawl() {
 
     if (stats.positions % 50 === 0) {
       const secs = ((Date.now() - t0) / 1000).toFixed(0);
+      const pct = Math.min(99, Math.floor(stats.completedWeight * 100));
       logLine(
         `searching… ${stats.positions.toLocaleString()} positions visited ` +
           `(net ${stats.fetches}, cache ${stats.cacheHits}), ` +
-          `${lines.length.toLocaleString()} lines emitted, at depth ${depth}, ${secs}s elapsed`
+          `${lines.length.toLocaleString()} lines emitted, at depth ${depth}, ${secs}s elapsed` +
+          ` · ~${pct}% done`
       );
     }
 
@@ -360,6 +391,7 @@ async function crawl() {
     // A line is emitted when it's a genuine dead-end (no qualifying child — a
     // natural variant ending or just too-rare continuations) or hits max ply.
     if (qualifying.length === 0 || atMax) {
+      stats.completedWeight += weight; // this branch is fully resolved
       if (sanPath.length > 0 && !CONFIG.probe) {
         lines.push({
           eco: data.opening?.eco ?? "",
@@ -375,22 +407,30 @@ async function crawl() {
       return;
     }
 
+    // Split this node's weight among its qualifying children in proportion to
+    // game count (a proxy for subtree size), so the % done tracks real work.
+    const totalChildGames = qualifying.reduce((s, m) => s + gamesOf(m), 0) || 1;
     for (const m of qualifying) {
+      const childWeight = weight * (gamesOf(m) / totalChildGames);
       const childPath = [...sanPath, m.san];
       let childKey;
       try {
         childKey = replay(childPath).key;
       } catch {
+        stats.completedWeight += childWeight; // unreachable — count as resolved
         continue;
       }
-      if (visited.has(childKey)) continue; // transposition — already represented
+      if (visited.has(childKey)) {
+        stats.completedWeight += childWeight; // transposition — already represented
+        continue;
+      }
       visited.add(childKey);
-      await dfs(childPath, depth + 1);
+      await dfs(childPath, depth + 1, childWeight);
     }
   }
 
   const t0 = Date.now();
-  await dfs([], 0);
+  await dfs([], 0, 1);
   maybeSaveCache(true);
 
   return { lines, stats, elapsedMs: Date.now() - t0 };
