@@ -3,9 +3,27 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
-## Session 8 - TBD
+## Session 8 - Jun 27, 2026
 
 Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works.
+
+---
+
+### Horde crawl + Variantle 3 (Atomic, Racing Kings, Antichess, Crazyhouse)
+
+**Part A — Horde opening crawl (chessops port).** The variant crawler (`scripts/fetch-variant-tree.mjs`) tracked positions with `chess.js`, which can't represent Horde. Ported its only two chess.js touchpoints — `toUCI()` + `replay()` — to **chessops**: `parseSan`+`pos.play` walk the line, `makeUci` builds the explorer `play=` param, and the dedup key is now `makeFen(pos.toSetup())` with the two move-counter fields dropped (`slice(0,-2)`) — variant-correct for free (Crazyhouse pockets live in the board field, Three Check's check tally is its own field, both survive). Each variant now carries a chessops `rules` literal + uses the variant class `default()` as the root, so the crawler is variant-generic. `build-variant-dataset.mjs` gained `horde` in its allow-set (it's network-free, no chess.js).
+- **min-games by proportion:** Horde 2000+ root = **1,830,474** → `100 × root ÷ 2,879,587 = 63.6` → **`--min-games=65`** (clean round, confirmed with user). Recorded in `KeyNumbers.md`.
+- Crawl launched in the background (`--max-ply=14`, curl transport, resumable). When it finishes, `node scripts/build-variant-dataset.mjs --variant=horde` writes the committed dataset and Variantle 2's Horde guessing flow lights up automatically.
+
+**Part B — Variantle 3 (`/variantle-3`).** A new page mirroring Variantle 2, hosting four rule-divergent variants as **move-legal shells** (no crawl yet). Built each variant with **its own subagent** (parallel, each verifying via chessops + writing only its own files):
+- **Atomic** — captures explode (capturing + captured + adjacent non-pawn pieces vanish); chessops handles it, the board just renders the post-explosion FEN.
+- **Racing Kings** — no checks allowed, race the king to rank 8; non-standard start from chessops `RacingKings.default()`.
+- **Antichess** — captures forced (dests restrict to captures when one exists), win by losing all pieces; no castling.
+- **Crazyhouse** — captured pieces go to a **pocket** and can be **dropped**. New Lichess-style `Pocket` component (cburnett sprites, count badges, `dragNewPiece`); engine gained `pockets()` / `dropDests()` / `playDrop()` (drops produce SAN like `@e6` that round-trips through the normal guess/replay path).
+
+**Shared engine work (foundation):** `createChessopsFactory(rules, initialFen?)` now defaults to the variant class `default()` position (no hardcoded FENs). The `GameEngine` interface gained optional `pockets`/`dropDests`/`playDrop` (Crazyhouse only). `ChessBoard` gained a `dropNewPiece` handler + `onApiReady` (exposes the chessground API so the Pocket can start drags; drop targets ride the special `"a0"` dests key). `useChessle` now threads the **engine factory** through `playAgain` (mirrors the existing dataset threading) so a multi-variant page can switch rules engines, and resets the board even with an empty dataset so variant-switching updates the free-play board. A registry (`src/components/variantle3/`) makes the page fully config-driven (one module per variant → no shared-file edits per variant). Share codes prefixed `A`/`R`/`N`/`Z`. Header gained a Variantle 3 link.
+
+Verified: `tsc --noEmit` + `next lint` clean across all new/changed files; each variant's special rule verified via chessops. (`npm run build`/dev still blocked locally only by the pre-existing Google-Fonts fetch — fine on Vercel.) **TODO:** crawl opening datasets for the four Variantle 3 variants (same chessops pipeline) when ready.
 
 ## Session 7 - Jun 27, 2026
 ---

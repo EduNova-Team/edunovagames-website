@@ -58,3 +58,7 @@ src/data/*-openings.raw.json
 
 # variant crawl progress log (timestamped trackers, regenerated each run)
 /logs
+
+# generated crawl trackers (scripts/track-crawls.mjs)
+/CRAWL-STATUS.md
+/crawl-logs/

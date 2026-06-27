@@ -16,7 +16,7 @@ _Last updated: 2026-06-27. Variant opening counts marked **(pending)** are fille
 | `--min-games` (prune) | 100 | **scaled** per variant (see below) |
 | `--max-ply` (crawl depth) | 40 (then sliced) | 14 (single combined dataset) |
 | Traversal | BFS-by-ply + per-depth build | single-pass DFS, emit terminal-or-maxply |
-| Dedup key | normalized FEN (4 fields) | FEN (4 fields); 3+ also appends `+wChecks+bChecks` |
+| Dedup key | normalized FEN (4 fields) | chessops FEN minus move counters (`slice(0,-2)`) — keeps pockets/check fields automatically |
 | Difficulty split | 33 / 66 percentile of game count | same |
 | Network transport | Node fetch | `curl` (this env blocks Node sockets) |
 
@@ -35,6 +35,11 @@ UI / game config (from `src/hooks/useChessle.ts`): `MAX_GUESSES = 6`, `HALF_MOVE
 | KOTH — 2200+ | 325,615 |
 | Three Check — all ratings | 10,258,950 |
 | Three Check — **2000+** (used) | **1,461,159** |
+| Horde — **2000+** (used) | **1,830,474** |
+| Atomic — **2000+** (used) | **2,455,715** |
+| Racing Kings — **2000+** (used) | **960,685** |
+| Antichess — **2000+** (used) | **7,275,011** |
+| Crazyhouse — **2000+** (used) | **7,169,841** |
 
 Rating context: for KOTH, sub-1600 ≈ 27% of all games; 2000+ ≈ 19%. So the 2000+ standard keeps the strongest fifth of play.
 
@@ -52,6 +57,11 @@ min-games ≈ 100 × (variant 2000+ root games ÷ 2,879,587)
 |---|---|---|---|---|
 | KOTH | 1,561,863 | 0.54× | 54 | **50** |
 | Three Check | 1,461,159 | 0.51× | 51 | **50** |
+| Horde | 1,830,474 | 0.64× | 64 | **65** |
+| Atomic | 2,455,715 | 0.85× | 85 | **85** |
+| Racing Kings | 960,685 | 0.33× | 33 | **35** |
+| Antichess | 7,275,011 | 2.53× | 253 | **250** |
+| Crazyhouse | 7,169,841 | 2.49× | 249 | **250** |
 
 (Standard reference: 100 games / 2,879,587 masters root.)
 
@@ -64,6 +74,11 @@ min-games ≈ 100 × (variant 2000+ root games ÷ 2,879,587)
 | Chessle (standard, depth-14) | 6,879 | 2,274 | 2,308 | 2,297 | ≤14 |
 | KOTH (`koth-openings.json`) | **(pending)** | — | — | — | ≤14 |
 | Three Check (`threecheck-openings.json`) | **(pending)** | — | — | — | ≤14 |
+| Horde (`horde-openings.json`) | **(crawling)** | — | — | — | ≤14 |
+| Atomic (`atomic-openings.json`) | **(crawling)** | — | — | — | ≤14 |
+| Racing Kings (`racingkings-openings.json`) | **(crawling)** | — | — | — | ≤14 |
+| Antichess (`antichess-openings.json`) | **(crawling)** | — | — | — | ≤14 |
+| Crazyhouse (`crazyhouse-openings.json`) | **(crawling)** | — | — | — | ≤14 |
 
 Each opening entry: `{ eco, name, moves[], pgn, games, depth }`. Difficulty is per-index in the matching `*-difficulties.json` (`{ "difficulties": { "0": "hard", … } }`).
 
@@ -74,4 +89,5 @@ Each opening entry: `{ eco, name, moves[], pgn, games, depth }`. Difficulty is p
 - Crawler: `scripts/fetch-variant-tree.mjs` → `src/data/<key>-openings.raw.json` (gitignored)
 - Finalizer: `scripts/build-variant-dataset.mjs` → committed `<key>-openings.json` + `<key>-difficulties.json`
 - Cache (resumable, per variant + rating filter): `scripts/.variant-<key>-r2000-cache.json` (gitignored)
-- Progress log: `logs` (gitignored; timestamped, tagged `[KOTH]` / `[3+]`)
+- Progress log: `logs` (gitignored; timestamped, tagged `[KOTH]` / `[3+]` / `[HORDE]`)
+- Position tracking: chessops (`scripts/fetch-variant-tree.mjs`) — works for rule-divergent variants (Horde, …) that chess.js can't represent. Variant rules via the chessops `Rules` literal in `VARIANT_CONFIG`.
