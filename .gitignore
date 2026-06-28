@@ -43,6 +43,9 @@ next-env.d.ts
 # opening tree crawler cache (resumable, not committed)
 scripts/.opening-tree-cache.json
 
+# crawl run log (machine-specific output, regenerated each run)
+scripts/.crawl.log
+
 # generated opening tree (31MB, regenerate with scripts/fetch-opening-tree.mjs)
 src/data/chessle-tree.json
 
