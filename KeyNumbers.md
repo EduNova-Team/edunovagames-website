@@ -72,13 +72,13 @@ min-games ≈ 100 × (variant 2000+ root games ÷ 2,879,587)
 | Dataset | Openings | Easy | Medium | Hard | Depth |
 |---|---|---|---|---|---|
 | Chessle (standard, depth-14) | 6,879 | 2,274 | 2,308 | 2,297 | ≤14 |
-| KOTH (`koth-openings.json`) | **(pending)** | — | — | — | ≤14 |
-| Three Check (`threecheck-openings.json`) | **(pending)** | — | — | — | ≤14 |
-| Horde (`horde-openings.json`) | **(crawling)** | — | — | — | ≤14 |
-| Atomic (`atomic-openings.json`) | **(crawling)** | — | — | — | ≤14 |
-| Racing Kings (`racingkings-openings.json`) | **(crawling)** | — | — | — | ≤14 |
-| Antichess (`antichess-openings.json`) | **(crawling)** | — | — | — | ≤14 |
-| Crazyhouse (`crazyhouse-openings.json`) | **(crawling)** | — | — | — | ≤14 |
+| KOTH (`koth-openings.json`) | **9,609** | 3,192 | 3,160 | 3,257 | ≤14 |
+| Three Check (`threecheck-openings.json`) | **8,416** | 2,786 | 2,906 | 2,724 | ≤14 |
+| Horde (`horde-openings.json`) | **8,722** | 2,890 | 2,944 | 2,888 | ≤14 |
+| Atomic (`atomic-openings.json`) | **7,715** | 2,576 | 2,555 | 2,584 | ≤14 |
+| Racing Kings (`racingkings-openings.json`) | **7,905** | 2,621 | 2,700 | 2,584 | ≤14 |
+| Antichess (`antichess-openings.json`) | **8,195** | 2,709 | 2,740 | 2,746 | ≤14 |
+| Crazyhouse (`crazyhouse-openings.json`) | **8,387** | 2,770 | 2,767 | 2,850 | ≤14 |
 
 Each opening entry: `{ eco, name, moves[], pgn, games, depth }`. Difficulty is per-index in the matching `*-difficulties.json` (`{ "difficulties": { "0": "hard", … } }`).
 
