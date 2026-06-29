@@ -6,23 +6,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GuessGrid from "@/components/chessle/GuessGrid";
 import EndOfGame from "@/components/chessle/EndOfGame";
-import {
-  useChessle,
-  MAX_GUESSES,
-  HALF_MOVES_PER_GUESS,
-  type Opening,
-  type GameDataset,
-} from "@/hooks/useChessle";
+import Pocket from "@/components/variantle3/Pocket";
+import { VARIANTS_REGISTRY } from "@/components/variantle3/registry";
+import { useChessle, MAX_GUESSES, HALF_MOVES_PER_GUESS } from "@/hooks/useChessle";
 import { encodeOpeningIndex, decodeOpeningCode } from "@/lib/chessle-ids";
-import DifficultySelect, { type Difficulty } from "@/components/chessle/DifficultySelect";
-import openingsData from "@/data/chessle-openings.json";
-import difficultiesData from "@/data/chessle-difficulties.json";
-
-// Chessle's dataset (built once at module scope, stable identity for the hook).
-const chessleDataset: GameDataset = {
-  openings: openingsData as Opening[],
-  difficulties: difficultiesData.difficulties as Record<string, Difficulty>,
-};
+import type { Difficulty } from "@/components/chessle/DifficultySelect";
+import VariantSetup, { VARIANT_META, type VariantKey } from "@/components/variantle/VariantSetup";
 
 // Chessground relies on browser APIs — load it client-side only
 const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
@@ -35,11 +24,29 @@ const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
   ),
 });
 
-export default function ChesslePage() {
+// Registry-driven config (one entry per variant module).
+const BY_KEY = Object.fromEntries(VARIANTS_REGISTRY.map((e) => [e.key, e]));
+const VARIANTS: VariantKey[] = VARIANTS_REGISTRY.map((e) => e.key);
+const VARIANT_PREFIX: Partial<Record<VariantKey, string>> = Object.fromEntries(
+  VARIANTS_REGISTRY.map((e) => [e.key, e.sharePrefix])
+);
+const PREFIX_TO_VARIANT: Record<string, VariantKey> = Object.fromEntries(
+  VARIANTS_REGISTRY.map((e) => [e.sharePrefix, e.key])
+);
+const EMPTY_DATASET = { openings: [], difficulties: {} };
+const FALLBACK_ENGINE = VARIANTS_REGISTRY[0].engine;
+
+type CgApi = { set: (cfg: unknown) => void; dragNewPiece: (piece: unknown, e: unknown) => void };
+
+export default function Variantle3Page() {
+  const [variant, setVariant] = useState<VariantKey | undefined>(undefined);
   const [difficulty, setDifficulty] = useState<Difficulty | undefined>(undefined);
   const [showSetup, setShowSetup] = useState(true);
-  const [loadIndex, setLoadIndex] = useState<number | undefined>(undefined);
   const [targetDepth, setTargetDepth] = useState(HALF_MOVES_PER_GUESS);
+
+  const entry = variant ? BY_KEY[variant] : undefined;
+  const dataset = entry?.dataset ?? EMPTY_DATASET;
+  const engineFactory = entry?.engine ?? FALLBACK_ENGINE;
 
   const {
     opening,
@@ -59,7 +66,7 @@ export default function ChesslePage() {
     canSubmit,
     canUndo,
     canFillGreen,
-  } = useChessle(chessleDataset, loadIndex, difficulty, targetDepth);
+  } = useChessle(dataset, undefined, difficulty, targetDepth, engineFactory);
 
   const [overlayDismissed, setOverlayDismissed] = useState(false);
   const [copyLabel, setCopyLabel] = useState("Share");
@@ -67,6 +74,20 @@ export default function ChesslePage() {
   const [loadInput, setLoadInput] = useState("");
   const [loadError, setLoadError] = useState("");
   const loadInputRef = useRef<HTMLInputElement>(null);
+
+  // Chessground API (for pocket drops) + a tick that forces Pocket re-render
+  // after each board move/drop (free-play moves don't touch React state).
+  const apiRef = useRef<CgApi | null>(null);
+  const [, setMoveTick] = useState(0);
+
+  // No openings yet → free-play (board still enforces legal moves). Once a
+  // dataset is loaded post-crawl, gate the board to the active guess row.
+  const boardDisabled = opening
+    ? phase !== "playing" || currentMoveIndex >= lineLength
+    : false;
+
+  const showPockets = !!entry?.hasPockets && !!engine.pockets;
+  const pockets = showPockets ? engine.pockets!() : null;
 
   // Reset dismissal whenever game phase resets (new game)
   useEffect(() => {
@@ -82,23 +103,49 @@ export default function ChesslePage() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [canUndo, undoMove]);
 
-  // Called by the setup overlay when the player confirms difficulty + depth
-  function handleStart(newDifficulty: Difficulty, newDepth: number) {
+  // Wrap onMove so the pocket UI re-renders after every board move/drop.
+  function handleBoardMove(san: string) {
+    onMove(san);
+    setMoveTick((t) => t + 1);
+  }
+
+  // Start dragging a pocket piece: highlight that role's legal drop squares
+  // (chessground reads spare-piece dests under the special "a0" key) then hand
+  // off to chessground's drag.
+  function handlePocketDrag(
+    role: string,
+    color: "white" | "black",
+    e: React.MouseEvent | React.TouchEvent
+  ) {
+    const api = apiRef.current;
+    if (!api) return;
+    const dropSquares = engine.dropDests?.().get(role) ?? [];
+    const dests = new Map<string, string[]>(boardDisabled ? [] : engine.dests());
+    dests.set("a0", dropSquares);
+    api.set({ movable: { color: engine.turn(), dests } });
+    api.dragNewPiece({ role, color }, e.nativeEvent);
+  }
+
+  function handleStart(newVariant: VariantKey, newDifficulty: Difficulty, newDepth: number) {
+    setVariant(newVariant);
     setDifficulty(newDifficulty);
     setTargetDepth(newDepth);
     setShowSetup(false);
-    playAgain(undefined, newDifficulty, newDepth);
+    const next = BY_KEY[newVariant];
+    // Thread the freshly-selected dataset + engine explicitly (state not flushed yet).
+    playAgain(undefined, newDifficulty, newDepth, next?.dataset ?? EMPTY_DATASET, next?.engine);
   }
 
-  // Called by any "Play Again" button — shows the setup overlay again
   function handlePlayAgain() {
     setOverlayDismissed(true);
     setShowSetup(true);
   }
 
   function handleShare() {
-    if (openingIndex === null) return;
-    const code = encodeOpeningIndex(openingIndex);
+    if (openingIndex === null || !variant) return;
+    const prefix = VARIANT_PREFIX[variant];
+    if (!prefix) return;
+    const code = prefix + encodeOpeningIndex(openingIndex);
     navigator.clipboard.writeText(code).then(() => {
       setCopyLabel("Copied!");
       setTimeout(() => setCopyLabel("Share"), 2000);
@@ -113,23 +160,29 @@ export default function ChesslePage() {
   }
 
   function handleLoadSubmit() {
-    if (loadInput.trim() === "Jimmy**") {
+    const raw = loadInput.trim();
+    if (raw === "Jimmy**") {
       cheatSolve();
       setLoadOpen(false);
       setLoadInput("");
       return;
     }
-    const idx = decodeOpeningCode(loadInput);
-    if (idx === null) {
+    const v = PREFIX_TO_VARIANT[raw[0]?.toUpperCase()];
+    const idx = v ? decodeOpeningCode(raw.slice(1)) : null;
+    if (!v || idx === null) {
       setLoadError("Unrecognized code.");
       return;
     }
-    setLoadIndex(idx);
-    playAgain(idx);
+    const next = BY_KEY[v];
+    setVariant(v);
+    setShowSetup(false);
+    playAgain(idx, undefined, undefined, next?.dataset ?? EMPTY_DATASET, next?.engine);
     setLoadOpen(false);
     setLoadInput("");
     setLoadError("");
   }
+
+  const variantLabel = variant ? VARIANT_META[variant].label : "";
 
   return (
     <div className="min-h-screen bg-[#0A0A16] flex flex-col">
@@ -139,7 +192,7 @@ export default function ChesslePage() {
         {/* Page heading */}
         <div className="text-center">
           <h1 className="text-3xl font-bold font-space bg-gradient-to-r from-[#6366F1] to-[#22D3EE] bg-clip-text text-transparent">
-            Chessle
+            Variantle 3
           </h1>
         </div>
 
@@ -152,24 +205,37 @@ export default function ChesslePage() {
           </span>
           <span>
             {phase === "playing"
-              ? lineLength > 0 && currentMoveIndex === lineLength
-                ? "Row full — press Submit"
-                : ""
+              ? opening
+                ? lineLength > 0 && currentMoveIndex === lineLength
+                  ? "Row full — press Submit"
+                  : ""
+                : "Openings coming soon — free-play board"
               : phase === "won"
               ? "🎉 Solved!"
               : "Game over"}
           </span>
           <span className="ml-auto text-gray-500">
+            {variantLabel && <span className="text-white font-semibold">{variantLabel}</span>}
+            {variantLabel && " · "}
             <span className="text-white font-semibold">{lineLength || targetDepth}</span> moves
           </span>
         </div>
 
-        {/* Chessboard */}
-        <ChessBoard
-          engine={engine}
-          onMove={onMove}
-          disabled={phase !== "playing" || currentMoveIndex >= lineLength}
-        />
+        {/* Board + pockets (pockets only for Crazyhouse) */}
+        <div className="flex flex-col items-center gap-2" style={{ width: "min(480px, 90vw)" }}>
+          {showPockets && pockets && (
+            <Pocket pieces={pockets.black} color="black" onDragStart={handlePocketDrag} />
+          )}
+          <ChessBoard
+            engine={engine}
+            onMove={handleBoardMove}
+            disabled={boardDisabled}
+            onApiReady={(api) => (apiRef.current = api)}
+          />
+          {showPockets && pockets && (
+            <Pocket pieces={pockets.white} color="white" onDragStart={handlePocketDrag} />
+          )}
+        </div>
 
         {/* Primary controls */}
         <div
@@ -292,20 +358,23 @@ export default function ChesslePage() {
 
       {/* Setup overlay — shown before first game and on Play Again */}
       {showSetup && (
-        <DifficultySelect
+        <VariantSetup
           onStart={handleStart}
+          variants={VARIANTS}
+          initialVariant={variant}
           initialDifficulty={difficulty}
           initialDepth={targetDepth}
         />
       )}
 
       {/* End of game overlay */}
-      {!overlayDismissed && opening && openingIndex !== null && (
+      {!overlayDismissed && opening && openingIndex !== null && variant && (
         <EndOfGame
           phase={phase}
           opening={opening}
           openingIndex={openingIndex}
           lineLength={lineLength}
+          variant={VARIANT_META[variant].slug}
           onPlayAgain={handlePlayAgain}
           onDismiss={() => setOverlayDismissed(true)}
         />

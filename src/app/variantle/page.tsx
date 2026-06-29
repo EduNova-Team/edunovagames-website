@@ -14,15 +14,12 @@ import {
   type GameDataset,
 } from "@/hooks/useChessle";
 import { encodeOpeningIndex, decodeOpeningCode } from "@/lib/chessle-ids";
-import DifficultySelect, { type Difficulty } from "@/components/chessle/DifficultySelect";
-import openingsData from "@/data/chessle-openings.json";
-import difficultiesData from "@/data/chessle-difficulties.json";
-
-// Chessle's dataset (built once at module scope, stable identity for the hook).
-const chessleDataset: GameDataset = {
-  openings: openingsData as Opening[],
-  difficulties: difficultiesData.difficulties as Record<string, Difficulty>,
-};
+import type { Difficulty } from "@/components/chessle/DifficultySelect";
+import VariantSetup, { VARIANT_META, type VariantKey } from "@/components/variantle/VariantSetup";
+import kothOpenings from "@/data/koth-openings.json";
+import kothDifficulties from "@/data/koth-difficulties.json";
+import threecheckOpenings from "@/data/threecheck-openings.json";
+import threecheckDifficulties from "@/data/threecheck-difficulties.json";
 
 // Chessground relies on browser APIs — load it client-side only
 const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
@@ -35,11 +32,36 @@ const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
   ),
 });
 
-export default function ChesslePage() {
+// The variants this page offers (Horde lives on the separate Variantle 2 page).
+const VARIANTS: VariantKey[] = ["koth", "threeCheck"];
+
+// One dataset per variant, built once at module scope (stable identity for the hook).
+const DATASETS: Partial<Record<VariantKey, GameDataset>> = {
+  koth: {
+    openings: kothOpenings as Opening[],
+    difficulties: kothDifficulties.difficulties as Record<string, Difficulty>,
+  },
+  threeCheck: {
+    openings: threecheckOpenings as Opening[],
+    difficulties: threecheckDifficulties.difficulties as Record<string, Difficulty>,
+  },
+};
+
+// Stable empty dataset used before the player has chosen a variant (the setup
+// overlay is up at that point, so nothing is actually playable yet).
+const EMPTY_DATASET: GameDataset = { openings: [], difficulties: {} };
+
+// Share-code variant prefixes (1 char), so a code knows which dataset it indexes.
+const VARIANT_PREFIX: Partial<Record<VariantKey, string>> = { koth: "K", threeCheck: "T" };
+const PREFIX_TO_VARIANT: Record<string, VariantKey> = { K: "koth", T: "threeCheck" };
+
+export default function VariantlePage() {
+  const [variant, setVariant] = useState<VariantKey | undefined>(undefined);
   const [difficulty, setDifficulty] = useState<Difficulty | undefined>(undefined);
   const [showSetup, setShowSetup] = useState(true);
-  const [loadIndex, setLoadIndex] = useState<number | undefined>(undefined);
   const [targetDepth, setTargetDepth] = useState(HALF_MOVES_PER_GUESS);
+
+  const dataset = (variant && DATASETS[variant]) || EMPTY_DATASET;
 
   const {
     opening,
@@ -59,7 +81,7 @@ export default function ChesslePage() {
     canSubmit,
     canUndo,
     canFillGreen,
-  } = useChessle(chessleDataset, loadIndex, difficulty, targetDepth);
+  } = useChessle(dataset, undefined, difficulty, targetDepth);
 
   const [overlayDismissed, setOverlayDismissed] = useState(false);
   const [copyLabel, setCopyLabel] = useState("Share");
@@ -82,12 +104,14 @@ export default function ChesslePage() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [canUndo, undoMove]);
 
-  // Called by the setup overlay when the player confirms difficulty + depth
-  function handleStart(newDifficulty: Difficulty, newDepth: number) {
+  // Called by the setup overlay when the player confirms variant + difficulty + depth
+  function handleStart(newVariant: VariantKey, newDifficulty: Difficulty, newDepth: number) {
+    setVariant(newVariant);
     setDifficulty(newDifficulty);
     setTargetDepth(newDepth);
     setShowSetup(false);
-    playAgain(undefined, newDifficulty, newDepth);
+    // Pass the freshly-selected dataset explicitly — its state hasn't flushed yet.
+    playAgain(undefined, newDifficulty, newDepth, DATASETS[newVariant] ?? EMPTY_DATASET);
   }
 
   // Called by any "Play Again" button — shows the setup overlay again
@@ -97,8 +121,10 @@ export default function ChesslePage() {
   }
 
   function handleShare() {
-    if (openingIndex === null) return;
-    const code = encodeOpeningIndex(openingIndex);
+    if (openingIndex === null || !variant) return;
+    const prefix = VARIANT_PREFIX[variant];
+    if (!prefix) return;
+    const code = prefix + encodeOpeningIndex(openingIndex);
     navigator.clipboard.writeText(code).then(() => {
       setCopyLabel("Copied!");
       setTimeout(() => setCopyLabel("Share"), 2000);
@@ -113,23 +139,28 @@ export default function ChesslePage() {
   }
 
   function handleLoadSubmit() {
-    if (loadInput.trim() === "Jimmy**") {
+    const raw = loadInput.trim();
+    if (raw === "Jimmy**") {
       cheatSolve();
       setLoadOpen(false);
       setLoadInput("");
       return;
     }
-    const idx = decodeOpeningCode(loadInput);
-    if (idx === null) {
+    const v = PREFIX_TO_VARIANT[raw[0]?.toUpperCase()];
+    const idx = v ? decodeOpeningCode(raw.slice(1)) : null;
+    if (!v || idx === null) {
       setLoadError("Unrecognized code.");
       return;
     }
-    setLoadIndex(idx);
-    playAgain(idx);
+    setVariant(v);
+    setShowSetup(false);
+    playAgain(idx, undefined, undefined, DATASETS[v] ?? EMPTY_DATASET);
     setLoadOpen(false);
     setLoadInput("");
     setLoadError("");
   }
+
+  const variantLabel = variant ? VARIANT_META[variant].label : "";
 
   return (
     <div className="min-h-screen bg-[#0A0A16] flex flex-col">
@@ -139,7 +170,7 @@ export default function ChesslePage() {
         {/* Page heading */}
         <div className="text-center">
           <h1 className="text-3xl font-bold font-space bg-gradient-to-r from-[#6366F1] to-[#22D3EE] bg-clip-text text-transparent">
-            Chessle
+            Variantle
           </h1>
         </div>
 
@@ -160,6 +191,8 @@ export default function ChesslePage() {
               : "Game over"}
           </span>
           <span className="ml-auto text-gray-500">
+            {variantLabel && <span className="text-white font-semibold">{variantLabel}</span>}
+            {variantLabel && " · "}
             <span className="text-white font-semibold">{lineLength || targetDepth}</span> moves
           </span>
         </div>
@@ -292,20 +325,23 @@ export default function ChesslePage() {
 
       {/* Setup overlay — shown before first game and on Play Again */}
       {showSetup && (
-        <DifficultySelect
+        <VariantSetup
           onStart={handleStart}
+          variants={VARIANTS}
+          initialVariant={variant}
           initialDifficulty={difficulty}
           initialDepth={targetDepth}
         />
       )}
 
       {/* End of game overlay */}
-      {!overlayDismissed && opening && openingIndex !== null && (
+      {!overlayDismissed && opening && openingIndex !== null && variant && (
         <EndOfGame
           phase={phase}
           opening={opening}
           openingIndex={openingIndex}
           lineLength={lineLength}
+          variant={VARIANT_META[variant].slug}
           onPlayAgain={handlePlayAgain}
           onDismiss={() => setOverlayDismissed(true)}
         />

@@ -9,6 +9,15 @@ interface EndOfGameProps {
   lineLength: number;
   onPlayAgain: () => void;
   onDismiss: () => void;
+  // When set, the "Study on Lichess" link opens the variant analysis board.
+  variant?:
+    | "kingOfTheHill"
+    | "threeCheck"
+    | "horde"
+    | "atomic"
+    | "racingKings"
+    | "antichess"
+    | "crazyhouse";
 }
 
 function buildPgn(moves: string[]): string {
@@ -20,7 +29,7 @@ function buildPgn(moves: string[]): string {
   return parts.join(" ");
 }
 
-export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, lineLength, onPlayAgain, onDismiss }: EndOfGameProps) {
+export default function EndOfGame({ phase, opening, openingIndex: _openingIndex, lineLength, onPlayAgain, onDismiss, variant }: EndOfGameProps) {
   if (phase === "playing") return null;
 
   const won = phase === "won";
@@ -28,7 +37,10 @@ export default function EndOfGame({ phase, opening, openingIndex: _openingIndex,
   // Truncate to the moves actually played (lineLength may be < opening.moves.length)
   const displayMoves = opening.moves.slice(0, lineLength);
   const pgn = displayMoves.length === opening.moves.length ? opening.pgn : buildPgn(displayMoves);
-  const lichessUrl = `https://lichess.org/analysis/pgn/${encodeURIComponent(pgn)}#explorer`;
+  const analysisBase = variant
+    ? `https://lichess.org/analysis/${variant}/pgn/`
+    : `https://lichess.org/analysis/pgn/`;
+  const lichessUrl = `${analysisBase}${encodeURIComponent(pgn)}#explorer`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
@@ -70,10 +82,13 @@ export default function EndOfGame({ phase, opening, openingIndex: _openingIndex,
           {/* Opening info */}
           <div className="w-full rounded-xl bg-white/5 border border-white/10 p-4 text-left">
             <p className="text-xs text-indigo-300 font-mono uppercase tracking-widest mb-1">
-              {opening.eco || "—"}
+              {variant ? "—" : opening.eco || "—"}
             </p>
             <p className="text-white font-semibold text-base leading-snug">
-              {opening.name || opening.pgn || "Unnamed line"}
+              {/* Variants have no meaningful opening names (and Crazyhouse's
+                  standard-chess name is misleading once captures/drops diverge),
+                  so show the played move list for every variant. */}
+              {variant ? pgn || "Unnamed line" : opening.name || opening.pgn || "Unnamed line"}
             </p>
 
             {/* Move sequence */}
