@@ -73,6 +73,8 @@ interface VariantSetupProps {
 
 const DEPTH_OPTIONS = [6, 8, 10, 12, 14];
 const DEFAULT_DEPTH = 10;
+// Variants are paginated in the picker so the screen never gets too crowded.
+const VARIANTS_PER_PAGE = 4;
 
 export default function VariantSetup({
   onStart,
@@ -87,6 +89,13 @@ export default function VariantSetup({
   const [variant, setVariant] = useState<VariantKey | null>(initialVariant ?? null);
   const [difficulty, setDifficulty] = useState<Difficulty | null>(initialDifficulty ?? null);
   const [depth, setDepth] = useState(initialDepth ?? DEFAULT_DEPTH);
+  const [varPage, setVarPage] = useState(0);
+
+  const pageCount = Math.ceil(variants.length / VARIANTS_PER_PAGE);
+  const pageVariants = variants.slice(
+    varPage * VARIANTS_PER_PAGE,
+    varPage * VARIANTS_PER_PAGE + VARIANTS_PER_PAGE
+  );
 
   function handleVariant(v: VariantKey) {
     setVariant(v);
@@ -135,17 +144,42 @@ export default function VariantSetup({
             <>
               <p className="text-center text-sm text-gray-400">Select variant</p>
 
-              {variants.map((v) => (
+              {pageVariants.map((v) => (
                 <button
                   key={v}
                   onClick={() => handleVariant(v)}
-                  className="w-full py-3 px-4 rounded-xl border border-white/10 text-left
+                  className="w-full py-3 px-4 rounded-xl border border-white/10 text-center
                     hover:bg-white/5 hover:border-white/30 transition-all duration-200"
                 >
                   <span className="block font-semibold text-white">{VARIANT_META[v].label}</span>
-                  <span className="block text-xs text-gray-500 mt-0.5">{VARIANT_META[v].blurb}</span>
                 </button>
               ))}
+
+              {pageCount > 1 && (
+                <div className="flex items-center justify-between mt-1">
+                  <button
+                    onClick={() => setVarPage((p) => Math.max(0, p - 1))}
+                    disabled={varPage === 0}
+                    className="py-2 px-3 rounded-lg border border-white/10 text-sm text-gray-400
+                      hover:bg-white/5 hover:text-white transition-all duration-200
+                      disabled:opacity-30 disabled:cursor-not-allowed"
+                  >
+                    ← Prev
+                  </button>
+                  <span className="text-xs text-gray-500 font-mono">
+                    Page {varPage + 1} / {pageCount}
+                  </span>
+                  <button
+                    onClick={() => setVarPage((p) => Math.min(pageCount - 1, p + 1))}
+                    disabled={varPage === pageCount - 1}
+                    className="py-2 px-3 rounded-lg border border-white/10 text-sm text-gray-400
+                      hover:bg-white/5 hover:text-white transition-all duration-200
+                      disabled:opacity-30 disabled:cursor-not-allowed"
+                  >
+                    More →
+                  </button>
+                </div>
+              )}
             </>
           )}
 
