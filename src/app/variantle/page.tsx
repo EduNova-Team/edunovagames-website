@@ -6,20 +6,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GuessGrid from "@/components/chessle/GuessGrid";
 import EndOfGame from "@/components/chessle/EndOfGame";
-import {
-  useChessle,
-  MAX_GUESSES,
-  HALF_MOVES_PER_GUESS,
-  type Opening,
-  type GameDataset,
-} from "@/hooks/useChessle";
+import Pocket from "@/components/variantle/Pocket";
+import { VARIANTS_REGISTRY } from "@/components/variantle/registry";
+import { useChessle, MAX_GUESSES, HALF_MOVES_PER_GUESS } from "@/hooks/useChessle";
 import { encodeOpeningIndex, decodeOpeningCode } from "@/lib/chessle-ids";
 import type { Difficulty } from "@/components/chessle/DifficultySelect";
 import VariantSetup, { VARIANT_META, type VariantKey } from "@/components/variantle/VariantSetup";
-import kothOpenings from "@/data/koth-openings.json";
-import kothDifficulties from "@/data/koth-difficulties.json";
-import threecheckOpenings from "@/data/threecheck-openings.json";
-import threecheckDifficulties from "@/data/threecheck-difficulties.json";
 
 // Chessground relies on browser APIs — load it client-side only
 const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
@@ -32,28 +24,20 @@ const ChessBoard = dynamic(() => import("@/components/chessle/ChessBoard"), {
   ),
 });
 
-// The variants this page offers (Horde lives on the separate Variantle 2 page).
-const VARIANTS: VariantKey[] = ["koth", "threeCheck"];
+// Registry-driven config (one entry per variant module). Every variant runs on
+// the chessops engine — including KOTH / Three Check, which are standard-legal.
+const BY_KEY = Object.fromEntries(VARIANTS_REGISTRY.map((e) => [e.key, e]));
+const VARIANTS: VariantKey[] = VARIANTS_REGISTRY.map((e) => e.key);
+const VARIANT_PREFIX: Partial<Record<VariantKey, string>> = Object.fromEntries(
+  VARIANTS_REGISTRY.map((e) => [e.key, e.sharePrefix])
+);
+const PREFIX_TO_VARIANT: Record<string, VariantKey> = Object.fromEntries(
+  VARIANTS_REGISTRY.map((e) => [e.sharePrefix, e.key])
+);
+const EMPTY_DATASET = { openings: [], difficulties: {} };
+const FALLBACK_ENGINE = VARIANTS_REGISTRY[0].engine;
 
-// One dataset per variant, built once at module scope (stable identity for the hook).
-const DATASETS: Partial<Record<VariantKey, GameDataset>> = {
-  koth: {
-    openings: kothOpenings as Opening[],
-    difficulties: kothDifficulties.difficulties as Record<string, Difficulty>,
-  },
-  threeCheck: {
-    openings: threecheckOpenings as Opening[],
-    difficulties: threecheckDifficulties.difficulties as Record<string, Difficulty>,
-  },
-};
-
-// Stable empty dataset used before the player has chosen a variant (the setup
-// overlay is up at that point, so nothing is actually playable yet).
-const EMPTY_DATASET: GameDataset = { openings: [], difficulties: {} };
-
-// Share-code variant prefixes (1 char), so a code knows which dataset it indexes.
-const VARIANT_PREFIX: Partial<Record<VariantKey, string>> = { koth: "K", threeCheck: "T" };
-const PREFIX_TO_VARIANT: Record<string, VariantKey> = { K: "koth", T: "threeCheck" };
+type CgApi = { set: (cfg: unknown) => void; dragNewPiece: (piece: unknown, e: unknown) => void };
 
 export default function VariantlePage() {
   const [variant, setVariant] = useState<VariantKey | undefined>(undefined);
@@ -61,7 +45,9 @@ export default function VariantlePage() {
   const [showSetup, setShowSetup] = useState(true);
   const [targetDepth, setTargetDepth] = useState(HALF_MOVES_PER_GUESS);
 
-  const dataset = (variant && DATASETS[variant]) || EMPTY_DATASET;
+  const entry = variant ? BY_KEY[variant] : undefined;
+  const dataset = entry?.dataset ?? EMPTY_DATASET;
+  const engineFactory = entry?.engine ?? FALLBACK_ENGINE;
 
   const {
     opening,
@@ -81,7 +67,7 @@ export default function VariantlePage() {
     canSubmit,
     canUndo,
     canFillGreen,
-  } = useChessle(dataset, undefined, difficulty, targetDepth);
+  } = useChessle(dataset, undefined, difficulty, targetDepth, engineFactory);
 
   const [overlayDismissed, setOverlayDismissed] = useState(false);
   const [copyLabel, setCopyLabel] = useState("Share");
@@ -89,6 +75,20 @@ export default function VariantlePage() {
   const [loadInput, setLoadInput] = useState("");
   const [loadError, setLoadError] = useState("");
   const loadInputRef = useRef<HTMLInputElement>(null);
+
+  // Chessground API (for pocket drops) + a tick that forces Pocket re-render
+  // after each board move/drop (free-play moves don't touch React state).
+  const apiRef = useRef<CgApi | null>(null);
+  const [, setMoveTick] = useState(0);
+
+  // No openings → free-play (board still enforces legal moves). With a dataset,
+  // gate the board to the active guess row.
+  const boardDisabled = opening
+    ? phase !== "playing" || currentMoveIndex >= lineLength
+    : false;
+
+  const showPockets = !!entry?.hasPockets && !!engine.pockets;
+  const pockets = showPockets ? engine.pockets!() : null;
 
   // Reset dismissal whenever game phase resets (new game)
   useEffect(() => {
@@ -104,17 +104,39 @@ export default function VariantlePage() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [canUndo, undoMove]);
 
-  // Called by the setup overlay when the player confirms variant + difficulty + depth
+  // Wrap onMove so the pocket UI re-renders after every board move/drop.
+  function handleBoardMove(san: string) {
+    onMove(san);
+    setMoveTick((t) => t + 1);
+  }
+
+  // Start dragging a pocket piece: highlight that role's legal drop squares
+  // (chessground reads spare-piece dests under the special "a0" key) then hand
+  // off to chessground's drag.
+  function handlePocketDrag(
+    role: string,
+    color: "white" | "black",
+    e: React.MouseEvent | React.TouchEvent
+  ) {
+    const api = apiRef.current;
+    if (!api) return;
+    const dropSquares = engine.dropDests?.().get(role) ?? [];
+    const dests = new Map<string, string[]>(boardDisabled ? [] : engine.dests());
+    dests.set("a0", dropSquares);
+    api.set({ movable: { color: engine.turn(), dests } });
+    api.dragNewPiece({ role, color }, e.nativeEvent);
+  }
+
   function handleStart(newVariant: VariantKey, newDifficulty: Difficulty, newDepth: number) {
     setVariant(newVariant);
     setDifficulty(newDifficulty);
     setTargetDepth(newDepth);
     setShowSetup(false);
-    // Pass the freshly-selected dataset explicitly — its state hasn't flushed yet.
-    playAgain(undefined, newDifficulty, newDepth, DATASETS[newVariant] ?? EMPTY_DATASET);
+    const next = BY_KEY[newVariant];
+    // Thread the freshly-selected dataset + engine explicitly (state not flushed yet).
+    playAgain(undefined, newDifficulty, newDepth, next?.dataset ?? EMPTY_DATASET, next?.engine);
   }
 
-  // Called by any "Play Again" button — shows the setup overlay again
   function handlePlayAgain() {
     setOverlayDismissed(true);
     setShowSetup(true);
@@ -152,9 +174,10 @@ export default function VariantlePage() {
       setLoadError("Unrecognized code.");
       return;
     }
+    const next = BY_KEY[v];
     setVariant(v);
     setShowSetup(false);
-    playAgain(idx, undefined, undefined, DATASETS[v] ?? EMPTY_DATASET);
+    playAgain(idx, undefined, undefined, next?.dataset ?? EMPTY_DATASET, next?.engine);
     setLoadOpen(false);
     setLoadInput("");
     setLoadError("");
@@ -183,9 +206,11 @@ export default function VariantlePage() {
           </span>
           <span>
             {phase === "playing"
-              ? lineLength > 0 && currentMoveIndex === lineLength
-                ? "Row full — press Submit"
-                : ""
+              ? opening
+                ? lineLength > 0 && currentMoveIndex === lineLength
+                  ? "Row full — press Submit"
+                  : ""
+                : "Free-play board"
               : phase === "won"
               ? "🎉 Solved!"
               : "Game over"}
@@ -197,12 +222,26 @@ export default function VariantlePage() {
           </span>
         </div>
 
-        {/* Chessboard */}
-        <ChessBoard
-          engine={engine}
-          onMove={onMove}
-          disabled={phase !== "playing" || currentMoveIndex >= lineLength}
-        />
+        {/* Board + pockets (pockets only for Crazyhouse) */}
+        <div className="flex flex-col items-center gap-2" style={{ width: "min(480px, 90vw)" }}>
+          {showPockets && pockets && (
+            <Pocket pieces={pockets.black} color="black" onDragStart={handlePocketDrag} />
+          )}
+          {/* Remount when the pocket appears/disappears: a pocket above the
+              board shifts it down, and chessground caches board bounds (cleared
+              only on resize), so a stale cache would land drops on wrong squares.
+              Remounting re-reads the board's real position. */}
+          <ChessBoard
+            key={showPockets ? "board-pockets" : "board-plain"}
+            engine={engine}
+            onMove={handleBoardMove}
+            disabled={boardDisabled}
+            onApiReady={(api) => (apiRef.current = api)}
+          />
+          {showPockets && pockets && (
+            <Pocket pieces={pockets.white} color="white" onDragStart={handlePocketDrag} />
+          )}
+        </div>
 
         {/* Primary controls */}
         <div

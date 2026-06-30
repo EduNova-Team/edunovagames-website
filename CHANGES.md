@@ -3,6 +3,21 @@
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
 ---
+## Session 9 - Jun 30, 2026
+
+### Consolidated Variantle, Variantle 2 & Variantle 3 into one page
+
+The three separate pages were merged into a single **`/variantle`** hosting all **7 variants** (King of the Hill, Three Check, Horde, Atomic, Racing Kings, Antichess, Crazyhouse) behind one setup overlay.
+
+- **One registry, one engine path.** A unified registry (`src/components/variantle/{registry,types}.ts` + `variants/*.ts`, one module per variant) drives the page. **Every variant now runs on chessops** — including KOTH and Three Check, which previously used `chess.js`. Verified chessops replays the existing KOTH / Three Check / Horde datasets (200/200 sampled each), so the switch is behavior-preserving for the guessing game. `Pocket.tsx` (Crazyhouse drops) moved here too.
+- **Paginated picker.** `VariantSetup` step 1 now paginates at **4 variants per page** with ← Prev / More → controls (7 variants → 2 pages: KOTH/3-Check/Horde/Atomic, then Racing Kings/Antichess/Crazyhouse), so the screen never gets crowded. Share-code prefixes stay unique across all 7 (`K/T/H/A/R/N/Z`).
+- **Removed** the `/variantle-2` and `/variantle-3` routes and the `src/components/variantle3/` dir; added permanent redirects (`/variantle-2`, `/variantle-3` → `/variantle`) in `next.config.js`. Header now has a single Variantle link.
+- `EndOfGame` shows the **played move list** as the title for every variant (Crazyhouse no longer shows its misleading standard-chess opening name).
+- **Crazyhouse pocket fixes.** (1) Pocket sprites were rendering at chessground's board-square size (`12.5%` ≈ 5px) and cburnett's black pieces were invisible on the dark UI — now each pocket piece fills its cell on a light tile so shape + color show and white/black are clearly differentiated. (2) A pocket above the board shifts it down, but chessground caches board bounds (cleared only on resize), so drops landed on the wrong squares — the board now remounts when the pocket appears/disappears (and the pocket keeps a fixed height) so drop coordinates stay calibrated.
+
+Verified: `tsc --noEmit` + `next lint` clean. (`npm run build`/dev still blocked locally only by the pre-existing Google-Fonts fetch — fine on Vercel.)
+
+---
 ## Session 8 - Jun 27, 2026
 
 Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works.

@@ -15,6 +15,8 @@ interface PocketProps {
 // Droppable roles, rendered left-to-right in this order.
 const ROLE_ORDER = ["queen", "rook", "bishop", "knight", "pawn"] as const;
 
+const CELL = 42; // px
+
 export default function Pocket({ pieces, color, onDragStart }: PocketProps) {
   const handleStart =
     (role: string) => (e: React.MouseEvent | React.TouchEvent) => {
@@ -28,36 +30,52 @@ export default function Pocket({ pieces, color, onDragStart }: PocketProps) {
       style={{ width: "min(480px, 90vw)" }}
       className="mx-auto flex items-center gap-2 rounded-lg border border-white/10 bg-[#0A0A16] px-2 py-1"
     >
-      <div
-        className="flex flex-1 items-center gap-2"
-        style={{ minHeight: 44 }}
-      >
+      <div className="flex flex-1 items-center gap-2" style={{ minHeight: CELL + 6 }}>
         {ROLE_ORDER.filter((role) => (pieces[role] ?? 0) > 0).map((role) => {
           const count = pieces[role] ?? 0;
           return (
+            // `.cg-wrap` ancestor is required for the cburnett sprite selector
+            // (`.cg-wrap piece.<role>.<color>`) to apply. A light tile background
+            // keeps BOTH white and black pieces clearly visible on the dark UI
+            // (cburnett black pieces would vanish on #0A0A16 otherwise).
             <div
               key={role}
               onMouseDown={handleStart(role)}
               onTouchStart={handleStart(role)}
-              title={`${role} ×${count}`}
+              title={`${color} ${role} ×${count}`}
               className="cg-wrap cursor-grab select-none active:cursor-grabbing"
-              style={{ position: "relative", width: 44, height: 44 }}
+              style={{
+                position: "relative",
+                width: CELL,
+                height: CELL,
+                borderRadius: 6,
+                background: "#dfe3ea",
+                boxShadow: "inset 0 0 0 1px rgba(0,0,0,0.15)",
+              }}
             >
-              {/* Reuse chessground's cburnett sprite: `.cg-wrap piece.<role>.<color>`. */}
+              {/* Override chessground's 12.5% board-square sizing so the sprite
+                  fills the pocket cell. */}
               {React.createElement("piece", {
                 className: `${color} ${role}`,
                 style: {
                   position: "absolute",
-                  inset: 0,
-                  backgroundSize: "cover",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
                 },
               })}
-              <span
-                className="pointer-events-none absolute bottom-0 right-0 rounded bg-black/70 px-1 text-[11px] font-semibold leading-tight text-white"
-                style={{ fontVariantNumeric: "tabular-nums" }}
-              >
-                ×{count}
-              </span>
+              {count > 1 && (
+                <span
+                  className="pointer-events-none absolute -bottom-1 -right-1 rounded-full bg-black px-1 text-[10px] font-bold leading-tight text-white ring-1 ring-white/30"
+                  style={{ fontVariantNumeric: "tabular-nums" }}
+                >
+                  {count}
+                </span>
+              )}
             </div>
           );
         })}

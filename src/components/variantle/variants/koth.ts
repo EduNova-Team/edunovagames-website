@@ -1,18 +1,18 @@
 import { createChessopsFactory } from "@/lib/engine/chessopsEngine";
-import type { Variant3Entry } from "../types";
+import type { VariantEntry } from "../types";
 import type { Opening } from "@/hooks/useChessle";
 import type { Difficulty } from "@/components/chessle/DifficultySelect";
-import openings from "@/data/racingkings-openings.json";
-import difficulties from "@/data/racingkings-difficulties.json";
+import openings from "@/data/koth-openings.json";
+import difficulties from "@/data/koth-difficulties.json";
 
-const entry: Variant3Entry = {
-  key: "racingkings",
-  engine: createChessopsFactory("racingkings"),
+const entry: VariantEntry = {
+  key: "koth",
+  engine: createChessopsFactory("kingofthehill"),
   dataset: {
     openings: openings as Opening[],
     difficulties: difficulties.difficulties as Record<string, Difficulty>,
   },
-  sharePrefix: "R",
+  sharePrefix: "K",
   hasPockets: false,
 };
 
