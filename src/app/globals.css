@@ -7,6 +7,26 @@
 @import "@lichess-org/chessground/assets/chessground.brown.css";
 @import "@lichess-org/chessground/assets/chessground.cburnett.css";
 
+/* King of the Hill: tint the four central "hill" squares (d4/e4/d5/e5).
+   Matches Lichess exactly — a single translucent overlay over the central 2x2
+   region (37.5%–62.5% of the board on both axes) rather than per-square classes.
+   Ported from lila's ui/lib/css/chess/_variant-style.scss (.variant-kingOfTheHill).
+   z-index:1 sits above the board squares but below pieces (z-index:2), and
+   pointer-events:none keeps clicks/drags passing through. The `.koth-board` class
+   is added by ChessBoard.tsx to the board wrapper. */
+.koth-board cg-container::before {
+  content: "";
+  position: absolute;
+  top: 37.5%;
+  left: 37.5%;
+  width: 25%;
+  height: 25%;
+  background: hsla(0, 0%, 90%, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  pointer-events: none;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

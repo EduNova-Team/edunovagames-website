@@ -236,6 +236,7 @@ export default function VariantlePage() {
             engine={engine}
             onMove={handleBoardMove}
             disabled={boardDisabled}
+            highlightCenter={!!entry?.highlightCenter}
             onApiReady={(api) => (apiRef.current = api)}
           />
           {showPockets && pockets && (

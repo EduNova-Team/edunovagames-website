@@ -13,12 +13,14 @@ interface ChessBoardProps {
   engine: GameEngine;
   onMove: (san: string) => void;
   disabled?: boolean;
+  // King of the Hill → tint the four central squares (see globals.css).
+  highlightCenter?: boolean;
   // Exposes the chessground API once ready (null on unmount) so a parent (e.g. a
   // Crazyhouse Pocket) can call api.dragNewPiece to start a drop.
   onApiReady?: (api: Api | null) => void;
 }
 
-export default function ChessBoard({ engine, onMove, disabled = false, onApiReady }: ChessBoardProps) {
+export default function ChessBoard({ engine, onMove, disabled = false, highlightCenter = false, onApiReady }: ChessBoardProps) {
   const boardRef = useRef<HTMLDivElement>(null);
   const cgRef = useRef<Api | null>(null);
   // Keep stable refs so chessground callbacks don't stale-close
@@ -134,7 +136,7 @@ export default function ChessBoard({ engine, onMove, disabled = false, onApiRead
 
   return (
     <div
-      className="relative"
+      className={`relative${highlightCenter ? " koth-board" : ""}`}
       style={{ width: "min(480px, 90vw)", height: "min(480px, 90vw)" }}
     >
       <div

@@ -19,4 +19,6 @@ export interface VariantEntry {
   sharePrefix: string;
   /** Crazyhouse → render the pocket drop UI. */
   hasPockets: boolean;
+  /** King of the Hill → tint the four central "hill" squares as a visual cue. */
+  highlightCenter?: boolean;
 }
