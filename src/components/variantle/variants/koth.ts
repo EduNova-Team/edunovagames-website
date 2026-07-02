@@ -14,6 +14,7 @@ const entry: VariantEntry = {
   },
   sharePrefix: "K",
   hasPockets: false,
+  highlightCenter: true,
 };
 
 export default entry;

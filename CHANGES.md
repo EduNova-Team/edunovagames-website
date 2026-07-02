@@ -2,6 +2,15 @@
 
 All changes made during Claude Code sessions are documented here chronologically, newest first.
 
+--- 
+
+### Session __ - TBD
+
+Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works.
+
+Additionally, there seems to be an issue with move order when I'm doing the crawl. Today, in KOTH I performed the 14-move 1. e4 e5 2. Nf3 c5 3. d4 cxd4 4. c3 dxc3 5. Nxc3 Nc6 6. Bc4 Nf6 7. Ng5 d5, however after move 3 there were only around 15 instances of the game occurring; however, after the move c3 dc3 we transposed back to a more common opening. I don't think this should happen. 
+
+TO CLAUDE, KEEP THE TBD SECTION ALWAYS ABOVE ALL THE REGULAR SESSIONS. 
 ---
 ## Session 9 - Jun 30, 2026
 
@@ -19,8 +28,6 @@ Verified: `tsc --noEmit` + `next lint` clean. (`npm run build`/dev still blocked
 
 ---
 ## Session 8 - Jun 27, 2026
-
-Too many pop up menus may seem like too much. Maybe I will one day make this sidebars, similar to how Lichess lobby game search works.
 
 ---
 
